@@ -1,0 +1,47 @@
+body {
+   min-height:100vh;
+}
+
+.text-blue {
+    color: #2f4a75
+}
+
+a.text-blue:hover {
+    color: #007bff
+}
+
+ul, .list-square {
+    list-style-type: square
+}
+
+blockquote {
+    font-size: 1.25rem;
+    border-left: 3px solid #2f4a75;
+    padding-left: 15px;
+}
+
+.about-section {
+    background: linear-gradient(#fff, #f9f8fa);
+}
+
+.blog-header {
+	background: linear-gradient(#f9f8fa, #fff)
+}
+
+.blog-title {
+    border-bottom: 1px solid #eee;
+}
+
+.blog-meta {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+h2:after {
+	content: " ";
+    display: block;
+    width: 100px;
+    height: 1px;
+    margin: 20px 0 20px;
+    background: #2f4a7565;
+}

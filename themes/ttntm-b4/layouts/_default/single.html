@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "particles.html" . }}
+    <section class="pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col py-3">
+                    {{ .Content }}
+                </div>
+            </div>
+            <div class="row">
+                {{ partial "home/contact.html" . }}
+            </div>
+            </div>
+        </div>
+    </section>
+{{ partial "footer.html" . }}

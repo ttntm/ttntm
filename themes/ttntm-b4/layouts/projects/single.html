@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "particles.html" . }}
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<h2>{{ .Title }}</h2>
+				{{ .Content }}
+			</div>
+		</div>
+		<div class="row mt-3 mb-4" style="border-top:1px solid #eee">
+			<div class="col py-4">
+				<a href="/projects" class="btn btn-outline-secondary px-5">All Projects</a>
+			</div>
+		</div>
+	</div>
+{{ partial "footer.html" . }}

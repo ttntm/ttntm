@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+	<header class="header blog-header">
+		<div class="container">
+			<div class="row justify-content-center blog-title">
+				<div class="col align-self-center py-3 text-md-center text-secondary">
+					<h1 class="text-blue py-1 my-2">{{ .Title }}</h1>
+					<p class="py-1 my-2">Published {{ dateFormat (.Site.Params.DateForm) .Date }}, {{ .ReadingTime }} minute read</p>
+				{{ if isset .Params "description" }}
+					<p class="py-1 my-2">{{ .Description }}</p>
+				{{ end }}
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col pt-3">
+				{{ .Content }}
+			</div>
+		</div>
+		{{ partial "blog/meta.html" . }}
+		{{ partial "blog/nextprev.html" . }}
+	</div>
+{{ partial "footer.html" . }}

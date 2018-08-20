@@ -1,0 +1,39 @@
+<footer class="footer {{ if .IsHome }}bg-light{{ end }} text-dark">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md mt-3 order-2 order-md-1 text-center text-md-left">
+				<p>&copy; {{ .Site.Params.author }} {{ .Site.Params.year }}, built with <a href="https://gohugo.io" rel="noopener" target="_blank">Hugo&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a></p>
+			</div>
+			<div class="col-sm-12 col-md mt-0 order-1 order-md-2 text-center align-self-center">
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a class="text-blue nav-link" href="{{ .Site.BaseURL }}">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="text-blue nav-link" href="/post">Blog</a>
+					</li>
+					{{ if eq .Site.Params.showProjects "true" }}<li class="nav-item">
+						<a class="text-blue nav-link" href="/projects">Projects</a>
+					</li>{{ end }}
+					<li class="nav-item">
+							<a class="text-blue nav-link" href="/about">About</a>
+						</li>
+					<li>
+						<a class="page-scroll text-blue nav-link" href="" title="Back to Top">Back to Top</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-12 col-md mt-3 order-3 order-md-3 text-center text-md-right">
+				<ul class="list-inline">
+					<li class="list-inline-item"><a class="text-blue" href="javascript:linkTo_UnCryptMailto('nbjmup;uuounAqspuponbjm/dpn');" data-toggle="tooltip" title="Email"><i class="fas fa-envelope fa-lg"></i></a></li>
+				{{ range .Site.Params.social }}
+    				<li class="list-inline-item"><a class="text-blue" href="{{ .url }}" data-toggle="tooltip" title="{{ .title }}" rel="noopener" target="_blank"><i class="fab fa-{{ .icon }} fa-lg"></i></a></li>
+				{{ end }}
+    			</ul>
+			</div>			
+		</div>
+	</div>
+</footer>
+{{ partial "js.html" .}}
+</body>
+</html>
