@@ -44,4 +44,4 @@ Initially, I had thought of giant hero-sized images for every blog post, but I d
 
 In terms of the Hugo setup, there's 2 content sections here, the blog in `/post`, and a pre-built but still unused `/projects` section. The `/about` section is basically just a single markdown file to make editing it a little easier.
 
-That's about it for now, a simple, functional yet minimal site for the time being. If you like what you see here, feel free to have a look at the site's repository over on GitHub: LINK HERE
+That's about it for now, a simple, functional yet minimal site for the time being. If you like what you see here, feel free to have a look at the site's repository over on GitHub: https://github.com/ttntm/ttntm
