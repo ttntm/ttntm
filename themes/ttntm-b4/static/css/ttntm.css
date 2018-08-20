@@ -43,5 +43,5 @@ h2:after {
     width: 100px;
     height: 1px;
     margin: 20px 0 20px;
-    background: #2f4a7565;
+    background: rgba(18,29,46,0.5);
 }
