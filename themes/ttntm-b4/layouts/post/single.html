@@ -7,7 +7,7 @@
 					<h1 class="text-blue py-1 my-2">{{ .Title }}</h1>
 					<p class="py-1 my-2">Published {{ dateFormat (.Site.Params.DateForm) .Date }}, {{ .ReadingTime }} minute read</p>
 				{{ if isset .Params "description" }}
-					<p class="py-1 my-2">{{ .Description }}</p>
+					<p class="text-dark py-1 my-2">{{ .Description }}</p>
 				{{ end }}
 				</div>
 			</div>
