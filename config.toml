@@ -38,7 +38,6 @@ posts = "post/:title/"
 
 [params.pagination]
     # These are all optional and default to true
-
     class = "justify-content-center mt-3 mb-4"      # Add classes to the nav element
     showBeginEnd = false       # If false it will hide the First/Previous/Next/Last if it evaluates to false
     # showFirst = true          # If false it will hide the First page nav button
