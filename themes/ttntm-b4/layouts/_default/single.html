@@ -8,10 +8,12 @@
                     {{ .Content }}
                 </div>
             </div>
+        {{ if eq .Title "About" }}
             <div class="row">
-                {{ partial "home/contact.html" . }}
+                {{ partialCached "home/contact.html" . }}
             </div>
+        {{ end }}
             </div>
         </div>
     </section>
-{{ partial "footer.html" . }}
+{{ partialCached "footer.html" . }}

@@ -19,7 +19,7 @@ Overview of the resources used for this site in its current state.
 - Hugo
 - Bootstrap 4.1.2
 - Font Awesome 5.1
-- particles.js - <a href="https://github.com/VincentGarreau/particles.js" rel="noopener" target="_blank">Details</a>
+- particles.js - <a href="https://github.com/VincentGarreau/particles.js" rel="noopener" target="_blank">Details&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a>
 
 ## Things to learn
 
