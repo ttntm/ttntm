@@ -10,19 +10,22 @@
     <link rel="preconnect" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ .Site.Params.description }}">
     <meta name="author" content="{{ .Site.Params.author }}">
-    <meta name="keywords" content="{{ .Site.Params.keywords }}">
     <meta name="robots" content="index,follow">
-    {{ if eq .Type "post" }}
-    {{- with .Params -}}
-    <meta name="twitter:card" content="summary_large_image">
+    {{- if eq .Type "post" -}}
+    {{ with .Params }}
+    <meta name="description" content="{{- $.Param "description" -}}">
+    <meta name="keywords" content="{{- $.Param "post-keywords" -}}">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@thet0m">
     <meta name="twitter:creator" content="@thet0m">
     <meta name="twitter:title" content="{{- $.Param "title" -}}">
     <meta name="twitter:description" content="{{- $.Param "description" -}}">
     <meta name="twitter:image" content="{{- $.Param "tw-image" -}}">
     {{- end -}}
+    {{ else }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="keywords" content="{{ .Site.Params.keywords }}">
     {{ end }}
     <base href="{{ .Site.BaseURL }}">
     <title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else }}{{ .Site.Params.author }} | {{ .Title }}{{ end }}</title>

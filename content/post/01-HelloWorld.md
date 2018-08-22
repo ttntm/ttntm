@@ -6,11 +6,10 @@ type: post
 date: 2018-08-20
 description: This site's opening post.
 tags: 
-- firstpost
-- hugo
-- post
-tw-title: Hello World 
-tw-description: Opening post for ttntm.github.io
+    - firstpost
+    - hugo
+    - post
+post-keywords: personal, website, hugo, static, site, bootstrap, opening, post, article
 tw-image: https://ttntm.github.io/img/blog/default.jpg
 ---
 
@@ -40,7 +39,7 @@ To provide some insight, here's how this site is configured at the moment.
 
 It started out as a trial for Bootstrap 4 with Hugo and quickly turned into a useful yet minimal blog/portfolio kind of site. BS4 is much more utility-based than BS3 was, so that's a really nice change of pace once you get into their thought pattern. The site started out with the default colors but I changed them along with some other details to make it look a little less 'common' and a little more individual. All the unused parts of BS4 have been removed for the time being, as it would be way too heavy otherwise.
 
-Initially, I had thought of giant hero-sized images for every blog post, but I ditched that idea in favour of load times and time saved when it comes to image search (even though I could spend hours upon hours on Unsplash...). Instead, there's a header based on `particles.js` by Vincent Garreau <a href="https://github.com/VincentGarreau/particles.js" rel="noopener" target="_blank">(Details&nbsp;<i class="fas fa-external-link-alt fa-xs"></i>)</a> in place on some sites which makes for a nice atmosphere and also provides some interactivity. I remember seeing that on Netlify or somewhere else and it looked really nice.
+Initially, I had thought of giant hero-sized images for every blog post, but I ditched that idea in favour of load times and time saved when it comes to image search (even though I could spend hours upon hours on Unsplash...). Instead, there's a header based on `particles.js` (<a href="https://github.com/VincentGarreau/particles.js" rel="noopener" target="_blank">Details&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a>) in place on some sites which makes for a nice atmosphere and also provides some interactivity. I remember seeing that on Netlify or somewhere else and it looked really nice.
 
 In terms of the Hugo setup, there's 2 content sections here, the blog in `/post`, and a pre-built but still unused `/projects` section. The `/about` section is basically just a single markdown file to make editing it a little easier.
 
