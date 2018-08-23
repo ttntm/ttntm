@@ -15,7 +15,6 @@
     {{- if eq .Type "post" -}}
     {{ with .Params }}
     <meta name="description" content="{{- $.Param "description" -}}">
-    <meta name="keywords" content="{{- $.Param "post-keywords" -}}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@thet0m">
     <meta name="twitter:creator" content="@thet0m">
@@ -25,10 +24,9 @@
     {{- end -}}
     {{ else }}
     <meta name="description" content="{{ .Site.Params.description }}">
-    <meta name="keywords" content="{{ .Site.Params.keywords }}">
     {{ end }}
     <base href="{{ .Site.BaseURL }}">
-    <title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else }}{{ .Site.Params.author }} | {{ .Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else }}{{ .Title }} | {{ .Site.Params.author }}{{ end }}</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">

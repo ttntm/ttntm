@@ -9,7 +9,6 @@ tags:
     - hugo
     - post
     - howto
-post-keywords: data, random, hugo, static, site, json, customer, reference, template, code, sample, post, article
 tw-image: https://ttntm.github.io/img/blog/default.jpg
 ---
 

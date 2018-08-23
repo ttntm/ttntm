@@ -9,9 +9,8 @@ googleAnalytics = ""
 [params]
     year = "2018"
     author = "ttntm"
-    title = "ttntm | Tom's Site"
+    title = "Tom's Journal & Blog | ttntm"
     description = "A journal/blog about web design, IT and related topics."
-    keywords = "web, design, webdesign, blog, it, process, management, senior, consultant, ttntm"
     DateForm = "02.01.2006"
     showReadTime = 1
     showProjects = "false"

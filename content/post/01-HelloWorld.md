@@ -9,7 +9,6 @@ tags:
     - firstpost
     - hugo
     - post
-post-keywords: personal, website, hugo, static, site, bootstrap, opening, post, article
 tw-image: https://ttntm.github.io/img/blog/default.jpg
 ---
 
