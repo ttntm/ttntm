@@ -6,7 +6,7 @@
     	<div class="navbar-nav">
       		<a class="nav-item nav-link {{ if .IsHome }}active{{ else }}{{- end -}}" href="{{ .Site.BaseURL }}">Home</a>
 					<a class="nav-item nav-link {{ if eq .Title "Posts" }}active{{ else }}{{- end -}}" href="/post">Blog</a>
-					{{ if eq .Site.Params.showProjects "true" }}<a class="text-dark nav-item nav-link {{ if eq .Title "Projects" }}active{{ else }}{{- end -}}" href="/projects">Projects</a>{{ end }}
+					{{ if eq .Site.Params.showProjects "true" }}<a class="nav-item nav-link {{ if eq .Title "Projects" }}active{{ else }}{{- end -}}" href="/projects">Projects</a>{{ end }}
 					<a class="nav-item nav-link {{ if eq .Title "About" }}active{{ else }}{{- end -}}" href="/about">About</a>
           <a class="nav-item nav-link" href="{{ .Site.BaseURL }}#contact">Contact</a>
     	</div>
