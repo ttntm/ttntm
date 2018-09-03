@@ -4,7 +4,7 @@ slug: fcc-certification
 weight: -3
 type: post
 date: 2018-08-27
-description: A short update after obtaining the Responsive Web Design Certification on freeCodeCamp
+description: A short update after obtaining the Responsive Web Design Certification on freeCodeCamp.
 tags: 
     - personal
     - post

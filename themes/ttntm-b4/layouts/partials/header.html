@@ -4,11 +4,11 @@
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     	<div class="navbar-nav">
-      		<a class="nav-item nav-link {{ if .IsHome }}active{{ else }}{{- end -}}" href="{{ .Site.BaseURL }}">Home</a>
-					<a class="nav-item nav-link {{ if eq .Title "Posts" }}active{{ else }}{{- end -}}" href="/post">Blog</a>
-					{{ if eq .Site.Params.showProjects "true" }}<a class="nav-item nav-link {{ if eq .Title "Projects" }}active{{ else }}{{- end -}}" href="/projects">Projects</a>{{ end }}
-					<a class="nav-item nav-link {{ if eq .Title "About" }}active{{ else }}{{- end -}}" href="/about">About</a>
-          <a class="nav-item nav-link" href="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}/about{{ end }}#contact">Contact</a>
+      		<a class="nav-item nav-link text-center {{ if .IsHome }}active{{ else }}{{- end -}}" href="{{ .Site.BaseURL }}">Home</a>
+					<a class="nav-item nav-link text-center {{ if eq .Title "Posts" }}active{{ else }}{{- end -}}" href="/post">Blog</a>
+					{{ if eq .Site.Params.showProjects "true" }}<a class="nav-item nav-link text-center {{ if eq .Title "Projects" }}active{{ else }}{{- end -}}" href="/projects">Projects</a>{{ end }}
+					<a class="nav-item nav-link text-center {{ if eq .Title "About" }}active{{ else }}{{- end -}}" href="/about">About</a>
+          <a class="nav-item nav-link text-center" href="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}/about{{ end }}#contact">Contact</a>
     	</div>
   	</div>
     {{ range .Site.Params.social }}
