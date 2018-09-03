@@ -78,6 +78,16 @@ According to <a href="https://github.com/sindresorhus/ponyfill" rel="noopener" t
 
 The one used here is called "css-vars-ponyfill" and comes from this repository on GitHub: <a href="https://github.com/jhildenbiddle/css-vars-ponyfill" rel="noopener" target="_blank">github.com/jhildenbiddle/css-vars-ponyfill&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a>
 
+Simply adding the ponyfill to a page won't do the trick, it also has to be executed via `cssVars()`. The site this example came from is also using jQuery, so this call has been placed in `document.ready()`, which looks like that:
+
+        $(document).ready(function(){
+            //some code...
+
+            if (MSLegacy !== false) {cssVars();};
+            
+            //some more code...
+        });
+
 ### Conclusion
 
 Overall, this seems to be a rather convenient solution when it's necessary to make CSS variables work in legacy IE browsers. 
