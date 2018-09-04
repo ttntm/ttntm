@@ -37,6 +37,8 @@ That way, we're not generating another HTTP request for the rest of our potentia
 
 In order to check for IE, we're going to add the following JavaScript to our site's `<head>`:
 
+{{< highlight js >}}
+
         var MSLegacy = checkForIE();
             
         if (MSLegacy !== false) {
@@ -66,6 +68,8 @@ In order to check for IE, we're going to add the following JavaScript to our sit
             return false;
         }
 
+{{< /highlight >}}
+
 The function `checkForIE()` shown above, makes sure we don't miss any Internet Explorer 11 and below. 
 
 Depending on the outcome of that function, a ponyfill that provides CSS variable support gets added to the DOM.
@@ -80,6 +84,8 @@ The one used here is called "css-vars-ponyfill" and comes from this repository o
 
 Simply adding the ponyfill to a page won't do the trick, it also has to be executed via `cssVars()`. The site this example came from is also using jQuery, so this call has been placed in `document.ready()`, which looks like that:
 
+{{< highlight js>}}
+
         $(document).ready(function(){
             //some code...
 
@@ -87,6 +93,8 @@ Simply adding the ponyfill to a page won't do the trick, it also has to be execu
             
             //some more code...
         });
+
+{{< /highlight >}}
 
 ### Conclusion
 

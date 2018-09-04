@@ -28,6 +28,8 @@ Our customers are going to be stored in a file called `references.json` which we
 
 The file's structure is going to look like that:
 
+{{< highlight json >}}
+
         [
             {
                 "custName": "Contoso AG",
@@ -37,6 +39,8 @@ The file's structure is going to look like that:
             },
             ...
         ]
+
+{{< /highlight >}}
 
 The customer logos are going to be stored in `static/img/cust/`, their file extension should be the same across the board (i.e. all PNG images) and their name should correspond to what's stored as `custLogo` in the JSON file.
 
@@ -52,15 +56,21 @@ Our partial's purpose shall be obtaining 6 random customer logos and displaying 
 
 The code for this procedure could look like that:
 
+{{< highlight html >}}
+
         {{- range $i, $content := $.Site.Data.references | shuffle | first 6 -}}
             <div class="col">
                 <img class="customer-img" src="/img/cust/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
             </div>
         {{ end }}
 
+{{< /highlight >}}
+
 The selection of the random items is going to be triggered by the website build and each new build will create another 6 logos.
 
 A possible implementation of the whole selection, opening with a heading and followed by some button leading to the `/references` page could look like this then:
+
+{{< highlight html >}}
 
         <div class="row">
                 <div class="col text-center">
@@ -78,6 +88,8 @@ A possible implementation of the whole selection, opening with a heading and fol
             {{ end }}
         </div>
 
+{{< /highlight >}}
+
 In order to use this newly created partial, we'll store it as `rnd-customers.html` in `/themes/[theme-name]/layouts/partials/` of our Hugo site. After that, it's available wherever we would like to display it using the syntax `{{ partial "rnd-customers.html" . }}`.
 
 #### The template
@@ -85,6 +97,8 @@ In order to use this newly created partial, we'll store it as `rnd-customers.htm
 Now that we have got our random content, let's see how to build a page from the JSON file as well.
 
 In order to do that, we'll have to make sure that the `/references` page exists. We'll also have to specify a specific template for it in front matter. The markdown file could look like this:
+
+{{< highlight toml >}}
 
         +++
         title = "References"
@@ -95,7 +109,11 @@ In order to do that, we'll have to make sure that the `/references` page exists.
         ## Reference Customers
         ...
 
+{{< /highlight >}}
+
 The respective template `references.html` is stored in the `/layouts/` folder and looks like that:
+
+{{< highlight html >}}
 
         {{ partial "head.html" . }}
         {{ partial "header.html" . }}
@@ -121,6 +139,8 @@ The respective template `references.html` is stored in the `/layouts/` folder an
             </div>
         {{ partial "contact.html" . }}
         {{ partial "footer.html" . }}
+
+{{< /highlight >}}
 
 In order to have rows of 3 items in a 12 column grid that are equally spaced, I have added the `$counter` that will make sure to add a `<div class="clearfix">` after every 3 items. Depending on the CSS you're using, this may not be necessary - I used Bootstrap 3 in my example above and it was necessary to have each row of 3 customers line up straight.
 
