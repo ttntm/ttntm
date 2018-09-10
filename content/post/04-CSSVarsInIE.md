@@ -46,9 +46,9 @@ In order to check for IE, we're going to add the following JavaScript to our sit
             var script = document.createElement('script');
             script.setAttribute('src', '/js/css-vars-ponyfill.min.js');
             insert.appendChild(script);
-            console.log("IE found, adding ponyfill.")
+            console.log('IE found, adding ponyfill.')
         } else {
-            console.log("This is not the IE you are looking for...")
+            console.log('This is not the IE you are looking for...')
         }
             
         function checkForIE() {
@@ -101,3 +101,21 @@ Simply adding the ponyfill to a page won't do the trick, it also has to be execu
 Overall, this seems to be a rather convenient solution when it's necessary to make CSS variables work in legacy IE browsers. 
 
 In the end though, I don't think any of the above is relevant if you're using Sass and/or CSS processing in your build setup. I just haven't gotten around to digging into that yet, so it's a definitive advantage over the copy/paste and the find/replace cycle respectively.
+
+--------------------
+
+#### Update 10.09.2018
+
+For some reason, `$(document).ready()` didn't fire consistently enough - it could happen, that `cssVars()` never got executed and the site rendered without resolving the variable values.
+
+Putting `cssVars()` into an _EventListener_instead helped here:
+
+{{< highlight js>}}
+
+        window.addEventListener('load', function() {
+            if (MSLegacy !== false) {
+                cssVars();
+            }
+        });
+
+{{< /highlight >}}
