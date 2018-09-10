@@ -5,19 +5,19 @@
 						<h5 class="my-0">Share this Article:</h5>
 					</li>
 					<li class="list-inline-item">
-						<a href="https://twitter.com/intent/tweet?text={{ .Params.title }}&amp;url={{ .Permalink| absURL }}" title="Share on Twitter" data-toggle="tooltip" data-placement="bottom" rel="noopener" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a>
+						<a href="https://twitter.com/intent/tweet?text={{ .Params.title }}&amp;url={{ .Permalink| absURL }}" title="Share on Twitter" aria-label="Share on Twitter" data-toggle="tooltip" data-placement="bottom" rel="noopener" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a>
 					</li>
 					<li class="list-inline-item">
-						<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink| absURL }}&amp;title={{ .Params.title }}" title="Share on LinkedIn" data-toggle="tooltip" data-placement="bottom" rel="noopener" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+						<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink| absURL }}&amp;title={{ .Params.title }}" title="Share on LinkedIn" aria-label="Share on LinkedIn" data-toggle="tooltip" data-placement="bottom" rel="noopener" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
 					</li>
 					<li class="list-inline-item">
-						<a href="https://plus.google.com/share?url={{ .Permalink| absURL }}" title="Share on Google+" data-toggle="tooltip" data-placement="bottom" rel="noopener" target="_blank"><i class="fab fa-google-plus-square fa-lg"></i></a>
+						<a href="https://plus.google.com/share?url={{ .Permalink| absURL }}" title="Share on Google+" aria-label="Share on Google+" data-toggle="tooltip" data-placement="bottom" rel="noopener" target="_blank"><i class="fab fa-google-plus-square fa-lg"></i></a>
 					</li>
 					<li class="list-inline-item">
-						<a href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink | absURL }}" title="Share on Facebook" data-toggle="tooltip" data-placement="bottom" rel="noopener" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+						<a href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink | absURL }}" title="Share on Facebook" aria-label="Share on Facebook" data-toggle="tooltip" data-placement="bottom" rel="noopener" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
 					</li>
 					<li class="list-inline-item">
-						<a href="mailto:?subject={{ .Params.title }}&amp;body={{ i18n "sharemailbody" }}{{ .Permalink| absURL  }}" title="Send as Email" data-toggle="tooltip" data-placement="bottom" data-proofer-ignore=""><i class="fas fa-envelope-square fa-lg"></i></a>
+						<a href="mailto:?subject={{ .Params.title }}&amp;body={{ i18n "sharemailbody" }}{{ .Permalink| absURL  }}" title="Send as Email" aria-label="Send as Email" data-toggle="tooltip" data-placement="bottom" data-proofer-ignore=""><i class="fas fa-envelope-square fa-lg"></i></a>
 					</li>
 				</ul>
 			</div>

@@ -12,6 +12,6 @@
     	</div>
   	</div>
     {{ range .Site.Params.social }}
-    <a class="text-blue d-none d-lg-block ml-3" href="{{ .url }}" data-toggle="tooltip" title="{{ .title }}" rel="noopener" target="_blank"><i class="fab fa-{{ .icon }} fa-lg"></i></a>
+    <a class="text-blue d-none d-lg-block ml-3" href="{{ .url }}" data-toggle="tooltip" title="{{ .title }}" aria-label="{{ .title }}" rel="noopener" target="_blank"><i class="fab fa-{{ .icon }} fa-lg"></i></a>
     {{ end }}
 </nav>

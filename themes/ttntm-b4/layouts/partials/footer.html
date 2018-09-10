@@ -25,9 +25,9 @@
 			</div>
 			<div class="col-sm-12 col-md mt-3 order-3 order-md-3 text-center text-md-right">
 				<ul class="list-inline">
-					<li class="list-inline-item"><a class="text-blue" href="javascript:linkTo_UnCryptMailto('nbjmup;uuounAqn/nf');" data-toggle="tooltip" title="Email"><i class="fas fa-envelope fa-lg"></i></a></li>
+					<li class="list-inline-item"><a class="text-blue" href="javascript:linkTo_UnCryptMailto('nbjmup;uuounAqn/nf');" data-toggle="tooltip" title="Email" aria-label="Email"><i class="fas fa-envelope fa-lg"></i></a></li>
 				{{ range .Site.Params.social }}
-    				<li class="list-inline-item"><a class="text-blue" href="{{ .url }}" data-toggle="tooltip" title="{{ .title }}" rel="noopener" target="_blank"><i class="fab fa-{{ .icon }} fa-lg"></i></a></li>
+    				<li class="list-inline-item"><a class="text-blue" href="{{ .url }}" data-toggle="tooltip" title="{{ .title }}" aria-label="{{ .title }}" rel="noopener" target="_blank"><i class="fab fa-{{ .icon }} fa-lg"></i></a></li>
 				{{ end }}
     			</ul>
 			</div>			
