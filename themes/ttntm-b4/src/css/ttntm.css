@@ -10,6 +10,24 @@ a.text-blue:hover {
     color: #007bff
 }
 
+.lnk-underline,
+.mkd > p > a,
+.mkd > p > a:link {
+    color: #222;
+    text-decoration: none;
+    background-position-y: -0%;
+    background-image: linear-gradient( white 50%, #36b3b3 50%);
+    transition: all 500ms ease;
+    background-size: auto 180%;
+}
+  
+.lnk-underline:hover,
+.mkd > p > a:hover {
+    color: #f8f9fa;
+    background-position-y: 90%;
+    text-decoration: none;
+}
+
 ul, .list-square {
     list-style-type: square
 }

@@ -1,7 +1,7 @@
 {{ range first 15 (where .Data.Pages "Section" "post") }}
 			<li class="py-2">
 				<h5 class="text-blue">
-					{{ dateFormat (.Site.Params.DateForm) .Date }} <a href="{{ .Permalink }}" class="pl-3">{{ .Title }}</a>
+					{{ dateFormat (.Site.Params.DateForm) .Date }} <a href="{{ .Permalink }}" class="ml-3 lnk-underline">{{ .Title }}</a>
 				</h5>
 				<p class="pl-lg-3 text-secondary my-3">
 					{{ .Params.description }}
