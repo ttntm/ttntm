@@ -21,7 +21,7 @@
 				{{ if isset .Params "date" }}
 					<h5 class="text-secondary">{{ dateFormat (.Site.Params.DateForm) .Date }}</h5>
 				{{ end }}
-					<h3 class=""><a href="{{ .Permalink }}" class="lnk-underline">{{ .Title }}</a></h3>
+					<h3 class=""><a href="{{ .Permalink }}" class="text-blue">{{ .Title }}</a></h3>
 					<p>{{ .Summary }} [...]</p>
 					<hr>
 					<a class="btn btn-outline-secondary shadow-sm px-4" href="{{ .Permalink }}">Read More...</a>
