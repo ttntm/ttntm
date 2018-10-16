@@ -25,7 +25,7 @@ Using Tailwind, basically everything you know from these frameworks is possible,
 
 Oh, one more thing: Tailwind is a pure CSS framework and ships without any front-end JavaScript - that means, that if you'd like to have a sticky header once the page scrolls or a collapsed navbar that expands when clicking a button, you need to build it.
 
-## Let's build a menu
+### Let's build a menu
 
 Navigation is certainly one of the essentials when it comes to building a website, so let's get right into that.
 

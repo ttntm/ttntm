@@ -24,10 +24,6 @@ googleAnalytics = ""
     icon = "github"
     url = "https://github.com/ttntm"
 [[params.social]]
-    title = "LinkedIn"
-    icon = "linkedin"
-    url = "https://www.linkedin.com/in/thomas-h-35773262/"
-[[params.social]]
     title = "CodePen"
     icon = "codepen"
     url = "https://codepen.io/ttntm/"
