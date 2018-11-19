@@ -17,16 +17,19 @@ This site will serve me as a journal and testing ground for anything related to 
 Overview of the resources used for this site in its current state.
 
 - Hugo
-- Bootstrap 4.1.2
+- Bootstrap 4 grid, nav and utilities
+- Bootstrap 4 JS
 - Font Awesome 5.1
 - particles.js - <a href="https://github.com/VincentGarreau/particles.js" class="lnk-underline" rel="noopener" target="_blank">Details&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a>
+- gulp
 
 ## Things to learn
 
-A short tracker of my personal ToDos in terms of studying new technologies.
+A short tracker of my personal ToDos in terms of learning new things:
 
-- SASS/SCSS
 - <s>Tailwind CSS</s>
 - <s>Gulp</s>
+- SASS/SCSS
 - node.js
 - GatsbyJS
+- SVG animations

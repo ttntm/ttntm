@@ -1,0 +1,246 @@
+:root {
+    --primary: #497285;
+    --secondary: #2b4450;
+    --tertiary: #dfebed;
+}
+
+/* bootstrap 4 styles */
+@import url("bs-reboot.css");
+@import url("bs-nav.css");
+@import url("bs-grid.css");
+@import url("bs-utilities.css");
+
+/* scrollbar styles */
+
+body::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #f9f8fa;
+}
+
+body::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: var(--secondary);
+}
+
+/* legacy styles -- TO BE REPLACED */
+
+.text-blue {
+    color: var(--primary)
+}
+
+a.text-blue:hover {
+    color: var(--secondary)
+}
+
+.lnk-underline,
+.mkd > p > a,
+.mkd > p > a:link {
+    color: #1a1a1a;
+    text-decoration: none;
+    background-position-y: -0%;
+    background-image: linear-gradient( white 50%, var(--primary) 50%);
+    transition: all 500ms ease;
+    background-size: auto 180%;
+}
+  
+.lnk-underline:hover,
+.mkd > p > a:hover {
+    color: #f9f8fa;
+    background-position-y: 100%;
+    text-decoration: none;
+}
+
+ul, .list-square {
+    list-style-type: square
+}
+
+blockquote {
+    font-size: 1.25rem;
+    border-left: 3px solid var(--secondary);
+    padding-left: 15px;
+}
+
+.bg-light {
+    background-color: #f9f8fa;
+}
+
+.blog-title {
+    border-bottom: 1px solid var(--tertiary);
+}
+
+.blog-meta {
+	border-top: 1px solid var(--tertiary);
+	border-bottom: 1px solid var(--tertiary);
+}
+
+h2:after {
+	content: " ";
+    display: block;
+    width: 100px;
+    height: 1px;
+    margin: 20px 0 20px;
+    background: var(--secondary);
+}
+
+/* page styles */
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    }
+
+.img-container {
+    display: block;
+    position: relative;
+}
+
+/*.img-showcase {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(56,43,95,0.75),rgba(56,43,95,0.35),rgba(56,43,95,0.75)); /*#382b5f*/
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    color: #fff;
+    transition: all 0.75s ease-in-out;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.underline {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.underline::before, .underline::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 0px;
+    height: 3px;
+    margin: 3px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+
+.underline::after {
+    left: 0;
+    background-color: var(--primary);
+}
+
+.underline:hover::before, .underline:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+/* Buttons */
+
+.btn {
+    font-weight: 700;
+    padding: .5rem .75rem;
+    font-size: .8rem;
+    line-height: 1.5;
+    background: none;
+    border: 1px solid transparent;
+    color: transparent;
+    border-radius: 0 !important;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    transition: all 0.75s ease;
+    position: relative;
+    letter-spacing: 1px; /* text-wide */
+}
+
+.btn:hover {
+    transition: all 0.75s ease;
+}
+
+.btn-primary::before {
+    transition: 0.75s all ease;
+    position:absolute;
+    top:0;
+    left:50%;
+    right:50%;
+    bottom:0;
+    opacity:0;
+    content:'';
+    background-color:var(--primary);
+    z-index:-2;
+}
+
+.btn-primary {
+    border: 1px solid var(--primary) !important;
+    color: var(--primary);
+}
+
+.btn-primary:hover::before {
+      transition:0.75s all ease;
+      left:0;
+      right:0;
+      opacity:1;
+}
+
+.btn-primary:hover {
+    /*background-color: var(--primary);*/
+    color: #f9f8fa;
+}
+
+.btn-white {
+    border: 1px solid #fff !important;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn-white:hover {
+    color: var(--primary);
+    background-color: #fff;
+}

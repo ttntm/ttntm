@@ -1,7 +1,6 @@
 # SETUP
 baseurl = "https://ttntm.github.io"
 publishdir = "ttntm.github.io"
-theme = "ttntm-b4"
 DefaultContentLanguage = "en"
 canonifyUrls = "true"
 googleAnalytics = ""
@@ -27,10 +26,10 @@ googleAnalytics = ""
     title = "CodePen"
     icon = "codepen"
     url = "https://codepen.io/ttntm/"
-[[params.social]]
-    title = "freeCodeCamp"
-    icon = "free-code-camp"
-    url = "https://www.freecodecamp.org/ttntm"
+# [[params.social]]
+    # title = "freeCodeCamp"
+    # icon = "free-code-camp"
+    # url = "https://www.freecodecamp.org/ttntm"
 
 # BLOG
 paginate = 3

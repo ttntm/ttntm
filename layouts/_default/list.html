@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ partial "particles.html" . }}
+<!-- add title for taxonomy lists here somehow -->
+	<div class="container">
+		<div class="row">
+		{{ if eq .Kind "taxonomy" }}
+			<div class="col-sm-12 col-md-12">
+				<h1 class="pb-3">{{ .Title }}</h1>
+			</div>
+		{{ else }}
+			<div class="col-sm-12 col-md-12">
+				<h2 class="">Archive</h2>
+			</div>
+		{{ end }}
+		{{ range (.Paginator 6).Pages }}
+			<div class="col-sm-12 col-md-6 py-3">
+				{{ if isset .Params "image" }}
+					<!--a href="{{ .Permalink }}"><img class="img-fluid mb-3" src="/img/blog/{{ .Params.image }}.jpg"></a-->
+				{{ end }}
+				{{ if isset .Params "date" }}
+					<h5 class="text-secondary">{{ dateFormat (.Site.Params.DateForm) .Date }}</h5>
+				{{ end }}
+					<h3 class=""><a href="{{ .Permalink }}" class="lnk-underline">{{ .Title }}</a></h3>
+					<p>{{ .Summary }} [...]</p>
+					<a class="btn btn-primary px-3" href="{{ .Permalink }}">Read More...</a>
+			</div>
+		{{ end }}
+		</div>
+		<div class="row">
+			<div class="col">
+				{{ partial "blog/pagination.html" . }}
+			</div>
+		</div>
+	</div>
+{{ end }}

@@ -1,0 +1,16 @@
+{{ range first 15 (where .Data.Pages "Section" "post") }}
+			<li class="py-2">
+				<h4 class="text-blue text-wide">
+					{{ dateFormat (.Site.Params.DateForm) .Date }} <a href="{{ .Permalink }}" class="ml-3 lnk-underline">{{ .Title }}</a>
+				</h4>
+				<p class="pl-lg-3 text-secondary my-3">
+					{{ .Params.description }}
+				</p>
+				<p class="pl-lg-3">
+					{{ .Summary }} [...]
+				</p>
+				<p class="pl-lg-3 py-2">
+					<a href="{{ .Permalink }}" class="btn btn-primary px-5">Read More...</a>
+				</p>
+			</li>
+{{ end }}

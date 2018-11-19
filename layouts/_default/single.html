@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ partial "particles.html" . }}
+    <section class="pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col py-3">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}

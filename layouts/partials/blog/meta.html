@@ -1,0 +1,42 @@
+		<div class="row mt-3 mb-3 blog-meta">
+			<div class="col-sm-12 col-md mt-3 mb-3 text-left">
+				<ul class="list-inline my-0">
+					<li class="list-inline-item">
+						<h5 class="my-0">Share this Article:</h5>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://twitter.com/intent/tweet?text={{ .Params.title }}&amp;url={{ .Permalink| absURL }}" title="Share on Twitter" rel="noopener" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink| absURL }}&amp;title={{ .Params.title }}" title="Share on LinkedIn" rel="noopener" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://plus.google.com/share?url={{ .Permalink| absURL }}" title="Share on Google+" aria-label="Share on Google+" rel="noopener" target="_blank"><i class="fab fa-google-plus-square fa-lg"></i></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink | absURL }}" title="Share on Facebook" aria-label="Share on Facebook" rel="noopener" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="mailto:?subject={{ .Params.title }}&amp;body={{ i18n "sharemailbody" }}{{ .Permalink| absURL  }}" title="Send as Email" data-proofer-ignore=""><i class="fas fa-envelope-square fa-lg"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-12 col-md mt-3 mb-3 text-md-right">
+				{{ if ne .Params.tags "" }}
+				<ul class="list-inline my-0">
+					<li class="list-inline-item">
+						<h5 class="my-0">Tags: </h5>
+					</li>
+					<li class="list-inline-item">
+					{{ range $index, $tag :=  .Params.tags }}
+						{{- if eq $index 0 -}}
+							<a href="/tags/{{ urlize . }}">{{ lower . }}</a>
+						{{- else -}}
+							, <a href="/tags/{{ urlize . }}">{{ lower . }}</a>
+						{{- end -}}
+					{{ end }}
+					</li>
+				</ul>
+				{{ end }}
+			</div>
+		</div>
