@@ -11,23 +11,24 @@
 @import url("bs-utilities.css");
 
 /* scrollbar styles */
+@media(min-width: 576px) {
+    body::-webkit-scrollbar-track
+    {
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #f9f8fa;
+    }
 
-body::-webkit-scrollbar-track
-{
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #f9f8fa;
-}
+    body::-webkit-scrollbar
+    {
+        width: 5px;
+        background-color: #F5F5F5;
+    }
 
-body::-webkit-scrollbar
-{
-	width: 5px;
-	background-color: #F5F5F5;
-}
-
-body::-webkit-scrollbar-thumb
-{
-	background-color: var(--secondary);
+    body::-webkit-scrollbar-thumb
+    {
+        background-color: var(--secondary);
+    }
 }
 
 /* legacy styles -- TO BE REPLACED */
@@ -92,6 +93,14 @@ h2:after {
 
 /* page styles */
 
+.header-blue {
+    background: linear-gradient(var(--secondary),var(--primary));
+}
+
+.text-tertiary {
+    color:var(--tertiary);
+}
+
 .list-unstyled {
     padding-left: 0;
     list-style: none;
@@ -154,7 +163,7 @@ h2:after {
 
 .underline {
     position: relative;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
 
 .underline::before, .underline::after {
@@ -164,7 +173,7 @@ h2:after {
     width: 0px;
     height: 3px;
     margin: 3px 0 0;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.35s ease-in-out;
     transition-duration: 0.5s;
     opacity: 0;
 }

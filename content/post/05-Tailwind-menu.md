@@ -156,6 +156,5 @@ Tailwind CSS is a very versatile, powerful and extremely customizable framework.
 
 I hope this article is beneficial to someone out there. Here's a pen and a link to the an excellent Tailwind cheatsheet for your convenience:
 
-> [Cheatsheet](http://nerdcave.com/tailwind-cheat-sheet)
-> 
-> [CodePen](https://codepen.io/ttntm/pen/dqaNPp)
+- {{< link-underline-ext Cheatsheet "http://nerdcave.com/tailwind-cheat-sheet" >}}
+- {{< link-underline-ext CodePen "codepen.io/ttntm/pen/dqaNPp" >}}

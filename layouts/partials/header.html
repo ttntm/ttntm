@@ -6,16 +6,16 @@
 			<div class="w-50 collapse navbar-collapse justify-content-start" id="navbarMain">
 				<div class="navbar-nav">
 						<a class="nav-link underline {{ if eq .Title "Posts" }}active{{ else }}{{- end -}}" href="/post">
-							<span class="text-wide pr-5 mr-5">Blog</span>
+							<span class="text-wide px-3 mx-3">Blog</span>
 						</a>
 						{{ if eq .Site.Params.showProjects "true" }}<a class="nav-link underline {{ if eq .Title "Projects" }}active{{ else }}{{- end -}}" href="/projects">
-							<span class="text-wide pr-5 mr-5">Projects</span>
+							<span class="text-wide px-3 mx-3">Projects</span>
 						</a>{{ end }}
 						<a class="nav-link underline {{ if eq .Title "About" }}active{{ else }}{{- end -}}" href="/about">
-							<span class="text-wide pr-5 mr-5">About</span>
+							<span class="text-wide px-3 mx-3">About</span>
 						</a>
 						<a class="nav-link underline {{ if eq .Title "Contact me" }}active{{ else }}{{- end -}}" href="/contact">
-							<span class="text-wide pr-5 mr-5">Contact</span>
+							<span class="text-wide px-3 mx-3">Contact</span>
 						</a>
 				</div>
 			</div>

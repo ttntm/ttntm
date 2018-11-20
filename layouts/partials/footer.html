@@ -1,8 +1,8 @@
 <footer class="footer small">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md mt-3 order-2 order-md-1 text-center text-md-left">
-				<p>&copy; {{ .Site.Params.author }} {{ .Site.Params.year }}, built with <a href="https://gohugo.io" rel="noopener" target="_blank">Hugo&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a></p>
+				<p><i class="fas fa-copyright fa-sm text-blue"></i> {{ .Site.Params.author }} {{ .Site.Params.year }}, built with <a href="https://gohugo.io" rel="noopener" target="_blank">Hugo&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a></p>
 			</div>
 			<div class="col-sm-12 col-md mt-0 order-1 order-md-2 text-center align-self-center">
 				<ul class="nav justify-content-center text-wide">
@@ -21,9 +21,6 @@
 					<li class="nav-item">
 						<a class="nav-link" href="/contact">Contact</a>
 					</li>
-					<li>
-						<a class="page-scroll nav-link" href="" title="Back to Top">Back to Top</a>
-					</li>
 				</ul>
 			</div>
 			<div class="col-sm-12 col-md mt-3 order-3 order-md-3 text-center text-md-right">
@@ -32,6 +29,7 @@
 				{{ range .Site.Params.social }}
     				<li class="list-inline-item"><a class="text-blue" href="{{ .url }}" title="{{ .title }}" rel="noopener" target="_blank"><i class="fab fa-{{ .icon }} fa-lg"></i></a></li>
 				{{ end }}
+					<li class="list-inline-item"><a class="page-scroll text-blue" href="" title="Back to Top"><i class="fas fa-arrow-alt-circle-up fa-lg"></i></a></li>
     			</ul>
 			</div>			
 		</div>

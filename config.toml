@@ -42,13 +42,13 @@ posts = "post/:title/"
     # These are all optional and default to true
     class = "justify-content-center mt-3 mb-4"      # Add classes to the nav element
     showBeginEnd = false       # If false it will hide the First/Previous/Next/Last if it evaluates to false
-    # showFirst = true          # If false it will hide the First page nav button
+    showFirst = false          # If false it will hide the First page nav button
     firstIndicator = "<i class='fas fa-long-arrow-alt-left'></i>"       # Change the default indicator to something else, like "First" or an icon wrapped in an i element
     # showPrevious = true       # If false it will hide the previous button
     previousIndicator = "<i class='fas fa-chevron-left'></i>"    # Change the default indicator to something else, like "Previous" or an icon wrapped in an i element
     # showNext = true           # True by default - Only "false" will hide the next button
     nextIndicator = "<i class='fas fa-chevron-right'></i>"        # Change the default indicator to something else, like "Next" or an icon wrapped in an i element
-    # showLast = true           
+    showLast = false           
     lastIndicator = "<i class='fas fa-long-arrow-alt-right'></i>"        
     # showPageNumbers = true    # If false it will hide the numbering of pages
     # pagesBetweenActive = 2    # How many page numbers to show between the active page - it defaults to 3

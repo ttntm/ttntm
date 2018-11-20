@@ -2,8 +2,6 @@
 title: About
 ---
 
-## About
-
 Hi, I'm Tom and I work as a senior consultant for a small Austrian software development company.
 
 We focus on corporate process management and IT documentation based on Microsoft products in conjunction with our own ISV-solutions. There's a lot of customization options in our tools so I've got to deal with anything from HTML, CSS and JS to SVG, XSL and VBA on a day to day basis.
@@ -18,10 +16,11 @@ Overview of the resources used for this site in its current state.
 
 - Hugo
 - Bootstrap 4 grid, nav and utilities
-- Bootstrap 4 JS
 - Font Awesome 5.1
 - particles.js - <a href="https://github.com/VincentGarreau/particles.js" class="lnk-underline" rel="noopener" target="_blank">Details&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a>
-- gulp
+- jQuery 3.3.1
+- gulp with `postcss`, `concat-css` and `cssnano`
+- Google Fonts ("Nunito")
 
 ## Things to learn
 
