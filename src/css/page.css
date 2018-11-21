@@ -21,7 +21,7 @@
 
     body::-webkit-scrollbar
     {
-        width: 5px;
+        width: 7px;
         background-color: #F5F5F5;
     }
 
@@ -95,6 +95,7 @@ h2:after {
 
 .header-blue {
     background: linear-gradient(var(--secondary),var(--primary));
+    color: #acccca;
 }
 
 .text-tertiary {
