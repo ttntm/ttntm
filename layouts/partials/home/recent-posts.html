@@ -1,4 +1,4 @@
-{{ range first 15 (where .Data.Pages "Section" "post") }}
+{{ range first 5 (where .Data.Pages "Section" "post") }}
 			<li class="py-2">
 				<h4 class="text-blue text-wide">
 					{{ dateFormat (.Site.Params.DateForm) .Date }} <a href="{{ .Permalink }}" class="ml-3 lnk-underline">{{ .Title }}</a>

@@ -9,7 +9,7 @@
 					{{ partial "home/recent-posts.html" . }}
 				</ul>
 			</div>
-			{{ if gt (len ( where .Data.Pages "Section" "post")) 15 }}
+			{{ if gt (len ( where .Data.Pages "Section" "post")) 5 }}
 			<div class="w-100"></div>
 			<div class="col mb-3 text-center">
 				<hr class="mb-4 shadow-sm">

@@ -9,6 +9,7 @@ tags:
     - css
     - post
     - howto
+    - javascript
 tw-image: https://ttntm.github.io/img/blog/default.jpg
 ---
 
