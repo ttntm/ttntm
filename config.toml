@@ -4,6 +4,9 @@ publishdir = "ttntm.github.io"
 DefaultContentLanguage = "en"
 canonifyUrls = "true"
 googleAnalytics = ""
+# pygmentsUseClasses = "true"
+PygmentsCodeFences = true
+PygmentsStyle = "tango"
 
 [params]
     year = "2018"
