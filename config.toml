@@ -9,7 +9,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "tango"
 
 [params]
-    year = "2018"
+    year = "2019"
     author = "ttntm"
     title = "Tom's Journal & Blog | ttntm"
     description = "A journal/blog about web design, IT and related topics."
@@ -39,7 +39,7 @@ paginate = 3
 paginatePath = "page"
 
 [permalinks] 
-posts = "post/:title/"
+blog = "blog/:slug/"
 
 [params.pagination]
     # These are all optional and default to true

@@ -1,0 +1,4 @@
+# Catch old blog posts
+/post/*  /blog/:splat 301!
+
+/post/ /blog/ 301!

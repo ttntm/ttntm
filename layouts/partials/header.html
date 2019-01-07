@@ -5,7 +5,7 @@
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 		<div class="w-50 collapse navbar-collapse justify-content-start" id="navbarMain">
 			<div class="navbar-nav">
-					<a class="nav-link underline {{ if eq .Title "Posts" }}active{{ else }}{{- end -}}" href="/post">
+					<a class="nav-link underline {{ if eq .Title "Posts" }}active{{ else }}{{- end -}}" href="/blog">
 						<span class="text-wide px-3 mx-3">Blog</span>
 					</a>
 					{{ if eq .Site.Params.showProjects "true" }}<a class="nav-link underline {{ if eq .Title "Projects" }}active{{ else }}{{- end -}}" href="/projects">
