@@ -55,3 +55,14 @@ blog = "blog/:slug/"
     lastIndicator = "<i class='fas fa-long-arrow-alt-right'></i>"        
     # showPageNumbers = true    # If false it will hide the numbering of pages
     # pagesBetweenActive = 2    # How many page numbers to show between the active page - it defaults to 3
+
+[related]
+threshold = 80
+includeNewer = "true"
+toLower = "false"
+[[related.indices]]
+    name = "tags"
+    weight = 100
+[[related.indices]]
+    name = "date"
+    weight = "20"

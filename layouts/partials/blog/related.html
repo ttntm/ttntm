@@ -1,0 +1,17 @@
+{{ $related := .Site.RegularPages.Related . | first 2 }}
+<div class="row mt-3 mb-5">
+    <div class="col-sm-12 mt-3">
+        <h2>Related Posts</h2>
+    </div>   
+    {{ with $related }}
+        {{ range . }}
+            <div class="col-sm-12 col-md-6 py-3">
+            {{ if isset .Params "date" }}
+                <h5 class="text-secondary">{{ dateFormat (.Site.Params.DateForm) .Date }}</h5>
+            {{ end }}
+                <h3 class=""><a href="{{ .Permalink }}" class="lnk-underline">{{ .Title }}</a></h3>
+                <p>{{ .Description }}</p>
+            </div>
+        {{ end }}
+    {{ end }}
+</div>
