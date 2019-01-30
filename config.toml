@@ -65,4 +65,4 @@ toLower = "false"
     weight = 100
 [[related.indices]]
     name = "date"
-    weight = "20"
+    weight = 20
