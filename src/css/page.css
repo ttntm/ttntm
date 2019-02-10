@@ -31,8 +31,6 @@
     }
 }
 
-/* legacy styles -- TO BE REPLACED */
-
 .text-blue {
     color: var(--primary)
 }
@@ -59,7 +57,8 @@ a.text-blue:hover {
     text-decoration: none;
 }
 
-ul, .list-square {
+ul, 
+.list-square {
     list-style-type: square
 }
 
@@ -71,10 +70,6 @@ blockquote {
 
 .bg-light {
     background-color: #f9f8fa;
-}
-
-.blog-title {
-    border-bottom: 1px solid var(--tertiary);
 }
 
 .blog-meta {

@@ -21,6 +21,7 @@ Overview of the resources used for this site in its current state.
 - jQuery 3.3.1
 - gulp with `postcss`, `concat-css` and `cssnano`
 - Google Fonts ("Nunito")
+- Netlify
 
 ## Things to learn
 

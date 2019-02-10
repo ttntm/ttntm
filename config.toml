@@ -1,12 +1,26 @@
 # SETUP
-baseurl = "https://ttntm.github.io"
-publishdir = "ttntm.github.io"
+baseurl = "https://ttntm.me"
+publishdir = "public"
 DefaultContentLanguage = "en"
 canonifyUrls = "true"
 googleAnalytics = ""
 # pygmentsUseClasses = "true"
 PygmentsCodeFences = true
 PygmentsStyle = "tango"
+
+[outputs]
+    home = ["RSS", "HTML"]
+    section  = ["HTML"]
+
+[outputFormats]
+    [outputFormats.RSS]
+        mediatype = "application/rss"
+        baseName = "feed"
+
+# for RSS feed
+[author]
+    name = "ttntm"
+    email = "ttntm@pm.me"
 
 [params]
     year = "2019"

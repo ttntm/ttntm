@@ -8,7 +8,7 @@
 <link rel="preload" href="https://fonts.gstatic.com/s/nunito/v9/XRXV3I6Li01BKofINeaB.woff2" as="font" crossorigin="anonymous">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="{{ .Site.Params.author }}">
+<meta name="author" content="{{ .Site.Author.name }}">
 <meta name="robots" content="index,follow">
 {{- if eq .Type "post" -}}
 {{ with .Params }}
@@ -18,13 +18,13 @@
 <meta name="twitter:creator" content="@thet0m">
 <meta name="twitter:title" content="{{- $.Param "title" -}}">
 <meta name="twitter:description" content="{{- $.Param "description" -}}">
-<meta name="twitter:image" content="{{- $.Param "tw-image" -}}">
+<meta name="twitter:image" content="{{- with $.Param "tw-image" -}}{{ . }}{{- else -}}/img/blog/nothing.jpg{{- end -}}">
 {{- end -}}
 {{ else }}
 <meta name="description" content="{{ .Site.Params.description }}">
 {{ end }}
 <base href="{{ .Site.BaseURL }}">
-<title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else }}{{ .Title }} | {{ .Site.Params.author }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else }}{{ .Title }} | {{ .Site.Author.name }}{{ end }}</title>
 <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
@@ -33,6 +33,9 @@
 <meta name="theme-color" content="#fff">
 <meta name="google-site-verification" content="M775CC_PpUnedbi7UFIStPlV7NF-yOq_PesgginVc2I">
 <link rel="stylesheet" href="/css/page.css">
+{{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Params.title | safeHTML }}
+{{ end -}}
 {{ "<!--[if lt IE 9]>" | safeHTML }}
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>

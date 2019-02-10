@@ -1,7 +1,7 @@
 <header class="container px-0">
 	<a id="top"></a><!-- TOP anchor -->
 	<nav class="navbar navbar-expand-lg navbar-light">
-		<a class="w-50 navbar-brand" href="{{ .Site.BaseURL }}"><strong class="text-wide">ttntm</strong></a>
+		<a class="w-50 navbar-brand" href="{{ .Site.BaseURL }}"><strong class="text-wide">ttntm.me</strong></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 		<div class="w-50 collapse navbar-collapse justify-content-start" id="navbarMain">
 			<div class="navbar-nav">
@@ -22,5 +22,6 @@
 		{{ range .Site.Params.social }}
 		<a class="text-blue d-none d-lg-block ml-3" href="{{ .url }}" title="{{ .title }}" rel="noopener" target="_blank"><i class="fab fa-{{ .icon }}"></i></a>
 		{{ end }}
+		<a class="text-blue d-none d-lg-block ml-3" href="{{ .Site.BaseURL}}feed.xml" title="Subscribe to RSS feed" rel="noopener" target="_blank"><i class="fas fa-rss"></i></a>
 	</nav>
 </header>
