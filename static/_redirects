@@ -1,4 +1,2 @@
-# Catch old blog posts
-/post/*  /blog/:splat 301!
-
-/post/ /blog/ 301!
+# Redirect default Netlify subdomain to primary domain
+http://ttntm.netlify.com/* http://ttntm.me/:splat 301!
