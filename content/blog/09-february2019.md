@@ -27,3 +27,8 @@ As far as this site's concerned, here's what's changed:
 - moved from Github pages and their `username.github.io` domain to **ttntm.me** which was on sale at {{< link-underline-ext "porkbun.com" "porkbun.com" >}}
 - moved the deployent over to Netlify
 - enabled an RSS feed for the blog - subscribe at {{< link-underline "Subscribe to RSS feed" "ttntm.me/feed.xml" >}}
+
+### Coming soon
+
+- planning to ditch gulp, replacing it with Hugo's native asset processing functionality
+- going to build a projects/portfolio section into this site
