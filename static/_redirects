@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-http://ttntm.netlify.com/* http://ttntm.me/:splat 301!
+https://ttntm.netlify.com/* https://ttntm.me/:splat 301!
