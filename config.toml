@@ -9,7 +9,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "tango"
 
 [outputs]
-    home = ["RSS", "HTML"]
+    home = ["HTML","RSS"]
     section  = ["HTML"]
 
 [outputFormats]
@@ -29,7 +29,7 @@ PygmentsStyle = "tango"
     description = "A journal/blog about web design, IT and related topics."
     DateForm = "02.01.2006"
     showReadTime = 1
-    showProjects = "false"
+    showProjects = "true"
 
 [[params.social]]
     title = "Twitter"
@@ -52,8 +52,9 @@ PygmentsStyle = "tango"
 paginate = 3
 paginatePath = "page"
 
-[permalinks] 
+[permalinks]
 blog = "blog/:slug/"
+projects = "/projects/:slug"
 
 [params.pagination]
     # These are all optional and default to true
@@ -65,8 +66,8 @@ blog = "blog/:slug/"
     previousIndicator = "<i class='fas fa-chevron-left'></i>"    # Change the default indicator to something else, like "Previous" or an icon wrapped in an i element
     # showNext = true           # True by default - Only "false" will hide the next button
     nextIndicator = "<i class='fas fa-chevron-right'></i>"        # Change the default indicator to something else, like "Next" or an icon wrapped in an i element
-    showLast = false           
-    lastIndicator = "<i class='fas fa-long-arrow-alt-right'></i>"        
+    showLast = false
+    lastIndicator = "<i class='fas fa-long-arrow-alt-right'></i>"
     # showPageNumbers = true    # If false it will hide the numbering of pages
     # pagesBetweenActive = 2    # How many page numbers to show between the active page - it defaults to 3
 

@@ -49,7 +49,7 @@ a.text-blue:hover {
     transition: all 500ms ease;
     background-size: auto 180%;
 }
-  
+
 .lnk-underline:hover,
 .mkd > p > a:hover {
     color: #f9f8fa;
@@ -57,7 +57,7 @@ a.text-blue:hover {
     text-decoration: none;
 }
 
-ul, 
+ul,
 .list-square {
     list-style-type: square
 }
@@ -134,27 +134,43 @@ h2:after {
 .img-container {
     display: block;
     position: relative;
+    overflow: hidden;
+    border:1px solid #ddd;
+    border-radius:3px;
 }
 
-/*.img-showcase {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}*/
+.img-container .img-showcase {
+    transition: all .5s ease-in-out
+}
+
+.img-container:hover .img-showcase {
+    transition: all .5s ease-in-out
+}
 
 .overlay {
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(56,43,95,0.75),rgba(56,43,95,0.35),rgba(56,43,95,0.75)); /*#382b5f*/
+    background: rgba(255,255,255,0.85);
     position: absolute;
     top: 0;
     opacity: 0;
-    color: #fff;
-    transition: all 0.75s ease-in-out;
+    color: #121212;
+    text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.15);
+    transition: all 0.5s ease-in-out;
 }
 
 .overlay:hover {
     opacity: 1;
+}
+
+.link-overlay {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.link-overlay:hover {
+    color: var(--secondary);
+    transition: all 0.5s ease-in-out;
 }
 
 .underline {

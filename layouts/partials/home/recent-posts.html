@@ -1,16 +1,13 @@
-{{ range first 5 (where .Data.Pages "Section" "blog") }}
-			<li class="py-2">
-				<h4 class="text-blue text-wide">
-					{{ dateFormat (.Site.Params.DateForm) .Date }} <a href="{{ .Permalink }}" class="ml-3 lnk-underline">{{ .Title }}</a>
-				</h4>
-				<p class="pl-lg-3 text-secondary my-3">
-					{{ .Params.description }}
-				</p>
-				<p class="pl-lg-3">
-					{{ .Summary }} [...]
-				</p>
-				<p class="pl-lg-3 py-2">
-					<a href="{{ .Permalink }}" class="btn btn-primary px-5">Read More...</a>
-				</p>
-			</li>
+{{ range first 4 (where .Data.Pages "Section" "blog") }}
+	<div class="col-sm-12 col-md-6 py-3">
+		{{ if isset .Params "image" }}
+			<!--a href="{{ .Permalink }}"><img class="img-fluid mb-3" src="/img/blog/{{ .Params.image }}.jpg"></a-->
+		{{ end }}
+		{{ if isset .Params "date" }}
+			<h5 class="text-secondary">{{ dateFormat (.Site.Params.DateForm) .Date }}</h5>
+		{{ end }}
+			<h3 class=""><a href="{{ .Permalink }}" class="lnk-underline">{{ .Title }}</a></h3>
+			<p>{{ .Summary }} [...]</p>
+			<a class="btn btn-primary px-3" href="{{ .Permalink }}">Read More...</a>
+	</div>
 {{ end }}

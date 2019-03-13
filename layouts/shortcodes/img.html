@@ -1,0 +1,4 @@
+{{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ with $img }}
+    <img src="/img/loading.svg" data-src="{{ $img.RelPermalink }}" class="img-lazy img-center img-fluid mb-3" alt="{{ $img.Name }}" style="border:1px solid #ddd;border-radius:5px;">
+{{ end }}

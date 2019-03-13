@@ -24,7 +24,7 @@
 <meta name="description" content="{{ .Site.Params.description }}">
 {{ end }}
 <base href="{{ .Site.BaseURL }}">
-<title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else }}{{ .Title }} | {{ .Site.Author.name }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else if (eq .Section "projects") }}Projects/{{ .Title }} [{{ .Params.scSubtitle }}] | {{ .Site.Author.name }}{{ else }}{{ .Title }} | {{ .Site.Author.name }}{{ end }}</title>
 <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">

@@ -1,23 +1,17 @@
 {{ define "main" }}
 {{ partial "particles.html" . }}
 	<div class="container">
-		{{ range .Data.Pages }}
-		<div class="row my-5">
-      		<div class="col-xs-12 col-md-4">
-				<a href="{{ .Permalink }}">
-					<img class="card-img shadow-sm img-fluid my-2" src="/img/project/{{ .Params.image }}.jpg">
-				</a>
+		<div class="row">
+			<div class="col">
+				<h2>Projects</h2>
 			</div>
-	  		<div class="col-xs-12 col-md-8">
-	  			<h2 class="text-blue">{{ .Title }}</h2>
-			{{ if isset .Params "date" }}
-				<h5 class="text-secondary">{{ dateFormat (.Site.Params.DateForm) .Date }}</h5>
-			{{ end }}
-				<p class="text-secondary">{{ .Params.description }}</p>
-			    <p>{{ .Summary }} [...]</p>
-				<p><a class="btn btn-outline-secondary shadow-sm px-5" href="{{ .Permalink }}">Project Details</a></p>
-	  		</div>
-        </div>
-        {{ end }}
+		</div>
+		<div class="row mb-5">
+		{{ range .Data.Pages }}
+			<div class="col-sm-12 col-md-6 py-3">
+				{{ partial "img+overlay.html" . }}
+			</div>
+		{{ end }}
+		</div>
 	</div>
 {{ end }}
