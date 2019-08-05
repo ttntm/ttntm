@@ -1,6 +1,6 @@
 # ttntm.me
 
-My personal site.
+My personal site, updated occasionally.
 
 ## Natlify status
 
