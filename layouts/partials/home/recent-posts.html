@@ -1,4 +1,4 @@
-{{ range first 4 (where .Data.Pages "Section" "blog") }}
+{{ range first 4 (where .Site.Pages "Section" "blog") }}
 	<div class="col-sm-12 col-md-6 py-3">
 		{{ if isset .Params "image" }}
 			<!--a href="{{ .Permalink }}"><img class="img-fluid mb-3" src="/img/blog/{{ .Params.image }}.jpg"></a-->

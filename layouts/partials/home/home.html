@@ -7,7 +7,7 @@
 	<div class="row">
 		{{ partial "home/recent-projects.html" . }}
 	</div>
-	{{ if gt (len ( where .Data.Pages "Section" "projects")) 4 }}
+	{{ if gt (len ( where .Site.Pages "Section" "projects")) 4 }}
 		<div class="row">
 			<div class="col mt-3 text-center">
 				<div class="w-100 mb-3" style="border-top: 1px solid var(--tertiary);"></div>
@@ -23,7 +23,7 @@
 	<div class="row mb-3">
 		{{ partial "home/recent-posts.html" . }}
 	</div>
-	{{ if gt (len ( where .Data.Pages "Section" "blog")) 4 }}
+	{{ if gt (len ( where .Site.Pages "Section" "blog")) 4 }}
 		<div class="row mb-3">
 			<div class="col mb-3 text-center">
 				<div class="w-100 mb-3" style="border-top: 1px solid var(--tertiary);"></div>
