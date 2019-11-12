@@ -11,7 +11,7 @@ scSubtitle: Code
 pUrl: https://nataliagarcez.com
 resources:
 - name: hero
-  src: ng-main.png
+  src: ng-main.jpg
 - name: task
   src: task.md
 ---

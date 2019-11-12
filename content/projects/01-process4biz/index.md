@@ -11,7 +11,7 @@ scSubtitle: Design & Code
 pUrl: https://process4.biz
 resources:
 - name: hero
-  src: p4b-main.png
+  src: p4b-main.jpg
 - name: task
   src: task.md
 - name: audit
