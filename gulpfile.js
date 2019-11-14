@@ -29,11 +29,11 @@ gulp.task('projs', function () {
 });
 
 gulp.task('watchcss', function() {
-  gulp.watch('./src/css/*', ['procss'])
+  gulp.watch('./src/css/*', gulp.series('procss'));
 });
 
 gulp.task('watchjs', function() {
-  gulp.watch('./src/js/*', ['projs'])
+  gulp.watch('./src/js/*', gulp.series('projs'));
 });
 
 var buildSrc = "./";
@@ -89,6 +89,6 @@ gulp.task("get-comments", function (done) {
   });
 });
 
-gulp.task('dev', gulp.series('procss','procss','get-comments','watchcss','watchjs'));
+gulp.task('dev', gulp.series('procss','projs','get-comments'));
 
-gulp.task('build', gulp.series('procss','procss','get-comments'));
+gulp.task('build', gulp.series('procss','projs','get-comments'));
