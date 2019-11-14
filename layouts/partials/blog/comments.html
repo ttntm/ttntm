@@ -7,16 +7,16 @@
             <input name="path" type="hidden" value="{{ .RelPermalink }}">
             <input name="bot-field" type="hidden">
             <div class="form-group">
-                <label for="exampleInputEmail1"><h4 class="mb-0">Name</h4></label>
-                <input type="name" class="form-control" id="exampleInputEmail1" placeholder="John Doe" required>
+                <label for="inputName"><h4 class="mb-0">Name</h4></label>
+                <input name="Name" type="name" class="form-control" id="inputName" placeholder="John Doe" required>
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail1"><h4 class="mb-0">Email address</h4></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="john.doe@example.com" required>
+                <label for="inputEmail"><h4 class="mb-0">Email address</h4></label>
+                <input name="Email" type="email" class="form-control" id="inputEmail" placeholder="john.doe@example.com" required>
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1"><h4 class="mb-0">Comment</h4></label>
-                <textarea class="form-control" id="exampleInputPassword1" placeholder="Your comment..." style="height: 150px; resize: none;" required></textarea>
+                <label for="inputComment"><h4 class="mb-0">Comment</h4></label>
+                <textarea name="Comment" class="form-control" id="inputComment" placeholder="Your comment..." style="height: 150px; resize: none;" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary px-3"><i class="fas fa-comment"></i>&nbsp;&nbsp;Submit Comment</button>
         </form>
