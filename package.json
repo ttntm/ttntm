@@ -1,28 +1,27 @@
 {
-  "name": "ngz",
+  "name": "ttntm",
   "version": "1.0.0",
-  "description": "Natalia's site",
+  "description": "ttntm.me",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp dev && hugo server",
+    "deploy": "gulp build && hugo --minify"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ttntm/ngz.git"
+    "url": "git+https://github.com/ttntm/ttntm.git"
   },
   "author": "ttntm",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ttntm/ngz/issues"
-  },
-  "homepage": "https://github.com/ttntm/ngz#readme",
+  "homepage": "https://ttntm.me",
   "devDependencies": {
     "css-mqpacker": "^7.0.0",
+    "dotenv": "^8.1.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-concat-css": "^3.1.0",
     "gulp-cssnano": "^2.1.3",
     "gulp-postcss": "^8.0.0",
-    "gulp-uglify": "^3.0.1"
+    "gulp-uglify": "^3.0.1",
+    "request": "^2.88.0"
   }
 }

@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ $pImg := .Resources.GetMatch "hero" }}
 {{ $tsk := .Resources.GetMatch (printf "*%s*" "task") }}
+{{ $base := .Site.BaseURL }}
 	<div class="container">
 		<div class="row mt-3">
 			<div class="col">
@@ -10,7 +11,7 @@
 		<div class="row my-2 mb-4">
 			<div class="col">
 			{{ with $pImg }}
-				<img src="/img/loading.svg" data-src="{{ $pImg.RelPermalink }}" class="img-lazy img-center img-fluid" alt="{{ .Title }}" style="border:1px solid #ddd;border-radius:5px;">
+				<img src="{{ $base }}/img/loading.svg" data-src="{{ $pImg.RelPermalink }}" class="img-lazy img-center img-fluid" alt="{{ .Title }}" style="border:1px solid #ddd;border-radius:5px;">
 			{{ end }}
 			</div>
 		</div>
@@ -58,7 +59,7 @@
 		</div>
 		<div class="row mt-3 mb-4" style="border-top:1px solid #dfebed">
 			<div class="col py-4">
-				<a href="/projects" class="btn btn-primary px-5">All Projects</a>
+				<a href="{{ .Site.BaseURL }}/projects" class="btn btn-primary px-5">All Projects</a>
 			</div>
 		</div>
 	</div>

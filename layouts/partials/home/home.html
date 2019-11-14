@@ -11,7 +11,7 @@
 		<div class="row">
 			<div class="col mt-3 text-center">
 				<div class="w-100 mb-3" style="border-top: 1px solid var(--tertiary);"></div>
-				<a href="/projects" class="my-3 btn btn-primary px-5">Show all Projects</a>
+				<a href="{{ .Site.BaseURL }}/projects" class="my-3 btn btn-primary px-5">Show all Projects</a>
 			</div>
 		</div>
 	{{ end }}<!-- END PROJECTS ROWS -->
@@ -27,7 +27,7 @@
 		<div class="row mb-3">
 			<div class="col mb-3 text-center">
 				<div class="w-100 mb-3" style="border-top: 1px solid var(--tertiary);"></div>
-				<a href="/blog" class="my-3 btn btn-primary px-5">Show all Blog Posts</a>
+				<a href="{{ .Site.BaseURL }}/blog" class="my-3 btn btn-primary px-5">Show all Blog Posts</a>
 			</div>
 		</div>
 	{{ end }}<!-- END BLOG ROWS -->

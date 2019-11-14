@@ -10,16 +10,16 @@
 						<a class="nav-link" href="{{ .Site.BaseURL }}">Home</a>
 					</li> -->
 					<li class="nav-item">
-						<a class="nav-link" href="/blog">Blog</a>
+						<a class="nav-link" href="{{ .Site.BaseURL }}/blog">Blog</a>
 					</li>
 					{{ if eq .Site.Params.showProjects "true" }}<li class="nav-item">
-						<a class="nav-link" href="/projects">Projects</a>
+						<a class="nav-link" href="{{ .Site.BaseURL }}/projects">Projects</a>
 					</li>{{ end }}
 					<li class="nav-item">
-						<a class="nav-link" href="/about">About</a>
+						<a class="nav-link" href="{{ .Site.BaseURL }}/about">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/contact">Contact</a>
+						<a class="nav-link" href="{{ .Site.BaseURL }}/contact">Contact</a>
 					</li>
 				</ul>
 			</div>

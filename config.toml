@@ -2,7 +2,7 @@
 baseurl = "https://ttntm.me"
 publishdir = "public"
 DefaultContentLanguage = "en"
-canonifyUrls = "true"
+canonifyUrls = "false"
 googleAnalytics = ""
 # pygmentsUseClasses = "true"
 PygmentsCodeFences = true

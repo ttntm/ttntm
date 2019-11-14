@@ -19,6 +19,7 @@
 				</ul>
 			</div>
 			<div class="col-sm-12 col-md mt-3 mb-3 text-md-right">
+				{{ $base := .Site.BaseURL }}
 				{{ if ne .Params.tags "" }}
 				<ul class="list-inline my-0">
 					<li class="list-inline-item">
@@ -27,9 +28,9 @@
 					<li class="list-inline-item">
 					{{ range $index, $tag :=  .Params.tags }}
 						{{- if eq $index 0 -}}
-							<a href="/tags/{{ urlize . }}">{{ lower . }}</a>
+							<a href="{{ $base }}/tags/{{ urlize . }}">{{ lower . }}</a>
 						{{- else -}}
-							, <a href="/tags/{{ urlize . }}">{{ lower . }}</a>
+							, <a href="{{ $base }}/tags/{{ urlize . }}">{{ lower . }}</a>
 						{{- end -}}
 					{{ end }}
 					</li>
