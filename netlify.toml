@@ -1,12 +1,12 @@
 [build]
 publish = "public"
-command = "hugo --minify"
+command = "npm run deploy"
 
 [context.production.environment]
-HUGO_VERSION = "0.53"
+HUGO_VERSION = "0.55.6"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "false"
-command = "hugo --minify"
+command = "npm run deploy"
 
 [Settings]
 ID = "ttntm.me"
