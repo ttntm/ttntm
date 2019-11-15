@@ -25,7 +25,7 @@ Aside from that, I also managed to get another website project for a startup whi
 As far as this site's concerned, here's what's changed:
 
 - moved from Github pages and their `username.github.io` domain to **ttntm.me** which was on sale at {{< link-underline-ext "porkbun.com" "porkbun.com" >}}
-- moved the deployent over to Netlify
+- moved the deployment over to Netlify
 - enabled an RSS feed for the blog - subscribe at {{< link-underline "RSS feed" "ttntm.me/feed.xml" >}}
 
 ### Coming soon
