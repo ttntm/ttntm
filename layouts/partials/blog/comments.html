@@ -30,7 +30,7 @@
 {{ range $comments }}
     {{ range . }}{{ if eq .path $thisPost }}{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}{{ end }}{{ end }}
 {{ end }}
-{{ if gt ($.Scratch.Get "counter") 0 }}{{/*  only show commet section if there are comments  */}}
+{{ if gt ($.Scratch.Get "counter") 0 }}{{/*  only show comment section if there are comments  */}}
     <div class="row mb-5">
     {{ range $comments }}
         {{ range . }}
