@@ -41,4 +41,4 @@ Notable enhancements as of Oct. 2019:
 
 - content management via {{< link-underline-ext "forestry.io" "forestry.io" >}}
 - "static search" based on a JSON index and {{< link-underline-ext "fuse.js" "fusejs.io" >}}
-- "static comments" based on {{< link-underline-ext "css-tricks.com/jamstack-comments" "css-tricks.com/jamstack-comments" >}} and {{< link-underline-ext "github.com/ttntm/hugo-comments" "github.com/ttntm/hugo-comments" >}}
+- "static comments" based on {{< link-underline "this blog post" "ttntm.me/blog/static-blog-comments-hugo/" >}}
