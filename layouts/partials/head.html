@@ -5,7 +5,8 @@
 <link rel="preconnect" href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
 <link rel="preconnect" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js">
-<link rel="preload" href="https://fonts.gstatic.com/s/nunito/v9/XRXV3I6Li01BKofINeaB.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="{{ .Site.BaseURL }}/font/Inter-Regular.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="{{ .Site.BaseURL }}/font/Inter-Bold.woff2" as="font" crossorigin="anonymous">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="{{ .Site.Author.name }}">
@@ -42,13 +43,19 @@
 <style>
 /* nunito-regular - latin */
 @font-face {
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('https://fonts.gstatic.com/s/nunito/v9/XRXV3I6Li01BKofINeaB.woff2') format('woff2');
+  src: url('{{ .Site.BaseURL }}/font/Inter-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('{{ .Site.BaseURL }}/font/Inter-Bold.woff2') format('woff2');
 }
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 </style>
 <script src="{{ .Site.BaseURL }}/js/particles.min.js"></script>

@@ -5,7 +5,7 @@ weight: -7
 type: post
 date: 2018-11-19
 description: Short update summarizing the changes done to this site recently.
-tags: 
+tags:
     - design
     - post
     - personal
@@ -33,7 +33,7 @@ Anyway, this post will probably just serve me as a personal tracker of what's ch
 
 ### Visible changes
 
-1. Switched to "Nunito" as the site's font face - {{< link-underline-ext Link "fonts.google.com/specimen/Nunito" >}}
+1. Switched to <s>Nunito</s> "Inter" as the site's font face - {{< link-underline-ext Link "rsms.me/inter/" >}}
 2. Found a nice colour palette {{< link-underline-ext here "trendypalettes.com/palette/152" >}} and changed the site's color scheme based on that
 3. Reworked the navbar, adding some fancy CSS to the main navigation items
 4. Reworked the buttons, some more fancy CSS
