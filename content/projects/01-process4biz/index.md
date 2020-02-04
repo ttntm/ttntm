@@ -47,3 +47,9 @@ Furthermore, various website speedtests performed for the DACH-region have consi
 Rewarding project, focused on the quick wins for the time being.
 
 Lots more to do there in the long run, currently debating a complete re-write of the site's content in order to improve search engine traffic.
+
+#### Notable enhancements as of Jan. 2020:
+
+- "static search" based on a JSON index and {{< link-underline-ext "fuse.js" "fusejs.io" >}}
+- revised "Features" section - {{< link-underline-ext "details" "process4.biz/en/product-features/" >}}
+- revised "Services" section - {{< link-underline-ext "details" "process4.biz/en/services/" >}}
