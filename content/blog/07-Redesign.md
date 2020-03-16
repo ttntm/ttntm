@@ -20,7 +20,7 @@ Now, about 6 months later, there's been a slight redesign - the first of many I'
 
 Anyway, this post will probably just serve me as a personal tracker of what's changed, so here we go:
 
-### Behind the scenes
+### Behind the Scenes
 
 1. Reduced Bootstrap 4 to the bare minimum of required components, thereby reducing the size of the CSS significantly. Currently using:
     - BS4 reboot
@@ -31,7 +31,7 @@ Anyway, this post will probably just serve me as a personal tracker of what's ch
 2. Implemented CSS processing via `gulp` in conjunction with `postcss`, `concat-css` and `cssnano`
 3. Started using a {{< link-underline-ext "Hugo Base Template" "gohugo.io/templates/base/" >}}, which is supposed to be making future changes easier to apply globally
 
-### Visible changes
+### Visible Changes
 
 1. Switched to <s>Nunito</s> "Inter" as the site's font face - {{< link-underline-ext Link "rsms.me/inter/" >}}
 2. Found a nice colour palette {{< link-underline-ext here "trendypalettes.com/palette/152" >}} and changed the site's color scheme based on that

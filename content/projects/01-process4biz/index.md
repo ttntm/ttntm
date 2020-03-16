@@ -3,7 +3,7 @@ draft: false
 title: process4.biz
 slug: process4biz-website
 weight: -1
-description: A project for process4.biz GmbH who needed a website designed and coded.
+description: A project for process4.biz GmbH who needed a new website designed and coded.
 client: process4.biz GmbH
 pDate: from 05/2018
 showcase: true

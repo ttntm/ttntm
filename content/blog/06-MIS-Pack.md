@@ -5,7 +5,7 @@ weight: -6
 type: post
 date: 2018-10-16
 description: A pointer to a great resource for Micorosft Visio users.
-tags: 
+tags:
     - Visio
     - Microsoft
     - stencils
@@ -13,15 +13,15 @@ tags:
 tw-image: https://ttntm.github.io/img/blog/default.jpg
 ---
 
-## Great shapes!
+## Great Shapes!
 
-I recently had to work on some infographics and marketing imagery for a pretty complex piece of software. 
+I recently had to work on some infographics and marketing imagery for a pretty complex piece of software.
 
 Googling up stuff like _industry 4.0_ or _software development lifecycle_ infographics lead to a bunch of different "buy your image" kind of sites, going through them didn't yield anything suitable though.
 
 What made the whole procedure even more complicated, was the need for an SVG image. That requirement lead to the idea of doing the whole thing in Visio eventually, which is capable of producing SVGs from drawings natively.
 
-Unfortunately, even Visio 2016 features a rather lackluster selection of standard shapes for that kind of use case. On the verge of leaving it at that and looking for an illustrator, I decided to quickly check for some more suitable Visio shapes online. Surprisingly, it didn't take too long to come across the _Microsoft Integration Stencils Pack for Visio_, that proved to be an excellent resource for the task at hand. 
+Unfortunately, even Visio 2016 features a rather lackluster selection of standard shapes for that kind of use case. On the verge of leaving it at that and looking for an illustrator, I decided to quickly check for some more suitable Visio shapes online. Surprisingly, it didn't take too long to come across the _Microsoft Integration Stencils Pack for Visio_, that proved to be an excellent resource for the task at hand.
 
 The shapes in there are detailed, modern and easily customizable, just as expected when working with Visio. With a bit of skill, some time and patience, it's possible to create pretty decent looking diagrams and infographics that can be exported to SVG easily.
 

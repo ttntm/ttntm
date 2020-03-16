@@ -5,7 +5,7 @@ weight: -2
 type: post
 date: 2018-08-21
 description: An article about pulling random records from a JSON data file in Hugo and using the same data file to build a page from it.
-tags: 
+tags:
     - hugo
     - post
     - howto
@@ -16,13 +16,13 @@ tw-image: https://ttntm.github.io/img/blog/default.jpg
 
 Hugo comes with the possibility of storing structured content in a data file where it can be pulled from by the template placing it on the site. I've seen this used for things like pricing tables for example. There's quite a bunch of use cases for random content on a website though, from customer references on a company website to quotes of the day for a literary blog. This use case is going to be what the following article is about.
 
-### The setup
+### The Setup
 
 Let's assume we're creating a company or product marketing website. Wouldn't it be nice to display an assortment of customer testimonies, success stories or customer logos there? At best, that content should change over time, so that curious readers and repeat) visitors of your site will be encouraged to check out the hypothetical `/references` section of the site.
 
 For this example, we'll stick to the customer logos, displaying them in a row across the whole page including a link to the `/references` page where we'll display the complete list as a grid.
 
-### The data
+### The Data
 
 Our customers are going to be stored in a file called `references.json` which we're going to place in Hugo's `Data` folder.
 
@@ -46,13 +46,13 @@ The customer logos are going to be stored in `static/img/cust/`, their file exte
 
 If you are going to have many different file extensions, it may be best to store the file name including its extension in your JSON file.
 
-### The templates
+### The Templates
 
 We're going to use 2 kinds of templates, one _partial_ to display the random selection from our data file wherever we see fit and one full template for the `/references` page including all the customer details.
 
-#### The partial
+#### The Partial
 
-Our partial's purpose shall be obtaining 6 random customer logos and displaying them in a row next to each other. 
+Our partial's purpose shall be obtaining 6 random customer logos and displaying them in a row next to each other.
 
 The code for this procedure could look like that:
 
@@ -92,7 +92,7 @@ A possible implementation of the whole selection, opening with a heading and fol
 
 In order to use this newly created partial, we'll store it as `rnd-customers.html` in `/themes/[theme-name]/layouts/partials/` of our Hugo site. After that, it's available wherever we would like to display it using the syntax `{{ partial "rnd-customers.html" . }}`.
 
-#### The template
+#### The Template
 
 Now that we have got our random content, let's see how to build a page from the JSON file as well.
 

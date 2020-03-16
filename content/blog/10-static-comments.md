@@ -14,7 +14,7 @@ tags:
 tw-image: https://ttntm.github.io/img/blog/code.jpg
 ---
 
-## "Static" comments...?
+## "Static" Comments...?
 
 Working for friends and family is always quite a bit of an extra challenge, as "no" generally doesn't count. That's probably how I ended up looking for what I'll call "'static' comments" for now. Sounds weird at first, but refers to comments (= dynamically added feedback/discussion) within the context and technical limitations of a static website.
 
@@ -36,7 +36,7 @@ Here's a compact flowchart detailing the process:
 
 <img src="/img/blog/comment-flow.jpg" class="img-fluid img-center mb-5" alt="Flowchart comment engine">
 
-### Hugo configuration
+### Hugo Configuration
 
 First off, we'll need to add a form to our website in order to collect our comment submissions.
 
@@ -104,13 +104,13 @@ Feel free to test it now, we'll need some submissions later on anyway.
 
 There's more to do with Hugo later - we're still missing a section to display the comments. That's easier though, if we have some comments first.
 
-### Netlify configuration
+### Netlify Configuration
 
 Your form should now be showing up in Netlify, submissions should also end up there.
 
 Next, head over to Settings -> Build & deploy (app.netlify.com/sites/SiteName/settings/deploys) and create a _Build hook_. You'll have to give it a name and select the branch for it to deploy your site from. Once created, it will provide a unique URL that you can send a POST request to in order to trigger a build.
 
-In app.netlify.com/sites/SiteName/settings/forms you'll find a section called _Form notifications_ that you can use to have Netlify notify you via Email when a new submission arrives. You should also create an _Outgoing webhook_ here, which will send a POST request to your previously created _Build hook_. That means, every comment will now lead to rebuild of your site, making sure it shows up where it was posted.
+In app.netlify.com/sites/SiteName/settings/forms you'll find a section called _Form notifications_ that you can use to have Netlify notify you via Email when a new submission arrives. You should also create an _Outgoing webhook_ here, which will send a POST request to your previously created _Build hook_. That means every comment will now lead to rebuild of your site, making sure it shows up where it was posted.
 
 In the original css-tricks article, they also made use of Slack notifications approving/rejecting comments collected by Netlify. I decided not to go down that route and won't be covering that part here. If you'd like to make use of that, just add the respective bits of code where necessary.
 
@@ -125,7 +125,7 @@ To get an API key, head over to app.netlify.com/user/applications and create a n
 
 The form ID can be found at app.netlify.com/sites/SiteName/forms. A click on the respective form's name will show its ID in your URL bar. You'll need that for the gulp configuration, so make sure you write it down.
 
-### Gulp configuration
+### Gulp Configuration
 
 I'm going to assume that your Hugo site is already working with gulp, as I won't be covering gulp's setup here.
 
@@ -218,7 +218,7 @@ Now, on to `gulpfile.js` - we'll first add `var buildSrc = "./";`, then proceed 
 
 You can test this gulp task now - `gulp get-comments` should connect to Netlify successfully and then proceed to create a `comments.json` file in you _data_ directory.
 
-### Displaying the comments
+### Displaying the Comments
 
 As mentioned above, the display section for our comments is still missing.
 
@@ -259,7 +259,7 @@ The `range` within a `range` construction is necessary because of the array-with
 
 By now, you should have your posts displayed with a comment form and the respective comments pulled from Netlify based on the `comments.json` file created by gulp.
 
-### Configuring Netlify to include gulp
+### Configuring Netlify to Include Gulp
 
 I haven't mentioned it earlier, but we'll have to do one last thing in order to let Netlify know that we'd like to include our gulp task in the build process.
 

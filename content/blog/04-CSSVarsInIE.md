@@ -5,7 +5,7 @@ weight: -4
 type: post
 date: 2018-09-03
 description: An article about using CSS variables in Internet Explorer which doesn't natively support them.
-tags: 
+tags:
     - css
     - post
     - howto
@@ -13,11 +13,11 @@ tags:
 tw-image: https://ttntm.github.io/img/blog/default.jpg
 ---
 
-## Using CSS variables
+## Using CSS Variables
 
 CSS variables (see: <a href="https://github.com/sindresorhus/ponyfill" rel="noopener" target="_blank">w3schools.com&nbsp;<i class="fas fa-external-link-alt fa-xs"></i></a>) make working with stylesheets easier, no doubt about that. Defining a color, a breakpoint or even a font-family globally, makes changes easier and almost completely eliminates the copy/paste and the find/replace cycle when it comes to updates in your CSS.
 
-Now, having to support Internet Explorer 11 and below with your CSS makes this a little less exciting, as it simply doesn't support CSS variables at all. 
+Now, having to support Internet Explorer 11 and below with your CSS makes this a little less exciting, as it simply doesn't support CSS variables at all.
 
 But: not supporting IE 11 and below is not really an option yet. Even more so, if many of your site's potential visitors are likely to be corporate users who may not even have another choice and who haven't upgraded to Windows 10/Edge yet.
 
@@ -25,7 +25,7 @@ But: not supporting IE 11 and below is not really an option yet. Even more so, i
 
 In order to support IE, one could use CSS variables in development but provide production CSS without them in it, running it through Sass/CSS processing at build time.
 
-If you're working on a smaller project or if you don't want to use any Sass/CSS processing in your site's build process, there's still another option that will be explained here: leaving the variables in your CSS and making sure IE will understand them. 
+If you're working on a smaller project or if you don't want to use any Sass/CSS processing in your site's build process, there's still another option that will be explained here: leaving the variables in your CSS and making sure IE will understand them.
 
 In order to achieve that, we're going to do the following:
 
@@ -41,7 +41,7 @@ In order to check for IE, we're going to add the following JavaScript to our sit
 {{< highlight js >}}
 
         var MSLegacy = checkForIE();
-            
+
         if (MSLegacy !== false) {
             var insert = document.getElementsByTagName('head')[0];
             var script = document.createElement('script');
@@ -51,7 +51,7 @@ In order to check for IE, we're going to add the following JavaScript to our sit
         } else {
             console.log('This is not the IE you are looking for...')
         }
-            
+
         function checkForIE() {
             var ua = window.navigator.userAgent;
             var msie = ua.indexOf('MSIE ');
@@ -71,7 +71,7 @@ In order to check for IE, we're going to add the following JavaScript to our sit
 
 {{< /highlight >}}
 
-The function `checkForIE()` shown above, makes sure we don't miss any Internet Explorer 11 and below. 
+The function `checkForIE()` shown above, makes sure we don't miss any Internet Explorer 11 and below.
 
 Depending on the outcome of that function, a ponyfill that provides CSS variable support gets added to the DOM.
 
@@ -91,7 +91,7 @@ Simply adding the ponyfill to a page won't do the trick, it also has to be execu
             //some code...
 
             if (MSLegacy !== false) {cssVars();};
-            
+
             //some more code...
         });
 
@@ -99,7 +99,7 @@ Simply adding the ponyfill to a page won't do the trick, it also has to be execu
 
 ### Conclusion
 
-Overall, this seems to be a rather convenient solution when it's necessary to make CSS variables work in legacy IE browsers. 
+Overall, this seems to be a rather convenient solution when it's necessary to make CSS variables work in legacy IE browsers.
 
 In the end though, I don't think any of the above is relevant if you're using Sass and/or CSS processing in your build setup. I just haven't gotten around to digging into that yet, so it's a definitive advantage over the copy/paste and the find/replace cycle respectively.
 

@@ -34,3 +34,7 @@ So far though, I've been
 - providing UX/UI design
 
 for this project.
+
+#### Update March 2020
+
+BPM.WIKI is alive (since Jan. 2020) and growing, best head over there to see what it's about.

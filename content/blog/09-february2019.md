@@ -10,7 +10,7 @@ tags:
     - personal
 ---
 
-## What happened?
+## What Happened?
 
 Judging by the silence here, I must have been busy...
 
@@ -28,7 +28,7 @@ As far as this site's concerned, here's what's changed:
 - moved the deployment over to Netlify
 - enabled an RSS feed for the blog - subscribe at {{< link-underline "RSS feed" "ttntm.me/feed.xml" >}}
 
-### Coming soon
+### Coming Soon
 
 - planning to ditch gulp, replacing it with Hugo's native asset processing functionality
 - <s>going to build a projects/portfolio section into this site</s> - *Update 03/2019: done!*

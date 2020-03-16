@@ -5,7 +5,7 @@ weight: -8
 type: post
 date: 2018-12-12
 description: An article about building a portfolio filter capable of multiselect with jQuery. Also includes a working CodePen example.
-tags: 
+tags:
     - javascript
     - post
     - howto
@@ -13,27 +13,27 @@ tags:
 tw-image: https://ttntm.github.io/img/blog/code.jpg
 ---
 
-## Filter requirements
+## Filter Requirements
 
 I spent quite some time working on a friend's portfolio website recently. She wanted to get rid of some sort of hosted service, moving to her own website.
 
 Showcasing her work was clearly the focus of the site, so it also needed to provide some decent filtering of the portfolio items.
 
-The site itself was supposed to be built with Hugo that already provides a ton of functionality in terms of taxonomy and content metadata. That toolset could have worked for someone else, but in this case, multiselect was another requirement for the filters and all those extra list pages for the respective metadata items were unwanted. 
+The site itself was supposed to be built with Hugo that already provides a ton of functionality in terms of taxonomy and content metadata. That toolset could have worked for someone else, but in this case, multiselect was another requirement for the filters and all those extra list pages for the respective metadata items were unwanted.
 
 So, I ended up building them myself, based on content metadata (Hugo: front matter) and jQuery.
 
 _All CSS is going to be missing here, but it's included in the CodePen example._
 
-### Content setup
+### Content Setup
 
 In order to make the portfolio manageable, the site was set up using Hugo's so called "Page Bundles" ({{< link-underline-ext "Hugo Docs" "gohugo.io/content-management/page-bundles/" >}}), lots of shortcodes and customized metadata in each portfolio item's front matter:
 
     ---
-    title: Example Case             
+    title: Example Case
     client: Example Corp.
     team: Homer Simpson (art director), Peter Griffin (designer), Burt Reynolds (badass)
-    works: 
+    works:
     - work: branding
     - work: identity
     resources:
@@ -55,7 +55,7 @@ As shown above, each portfolio item gets categorized with `work` elements. This 
 
 Due to the portfolio items being page bundles, the front matter above also shows a section `resources`. This list basically contains all the relevant bits of content the page shall have access to. For our filter, the image resource called `hero` will also be necessary as the list page of all portfolio items will be displayed as an image grid.
 
-### Portfolio layout
+### Portfolio Layout
 
 In order to display our portfolio items, we're going to let Hugo create a list page of all the relevant posts, displaying them as an image grid with the filters on top.
 
@@ -94,7 +94,7 @@ The actual portfolio items are displayed below the filters as a 2-column grid:
 
 Before having a look at the process of obtaining the `hero` resource mentioned above, it's important to mention that `{{range .Params.works }}` pulls all `work` elements, essentially providing their value as an additional class of each portfolio item's parent `div`. Our filter is going to access this class list to determine which elements to show.
 
-The images, each portfolio item's respective `hero` resource, are rendered by the following bit of code: 
+The images, each portfolio item's respective `hero` resource, are rendered by the following bit of code:
 
 {{< highlight html >}}
 
@@ -154,8 +154,8 @@ Next, we're going to handle the `click` event for our filters:
             cFilter = $(this);
             cFilterData = cFilter.attr('data-filter'); // read filter value
 
-            highlightFilter();        
-            applyFilter();       
+            highlightFilter();
+            applyFilter();
         });
 
 {{< /highlight >}}
@@ -208,7 +208,7 @@ Now, having determined the state of our filters and most importantly the `filter
                             $(this).addClass('show-workItem');
                         }
                     }
-                } 
+                }
             });
         }
 

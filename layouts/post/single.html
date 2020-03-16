@@ -1,7 +1,7 @@
 {{ define "main" }}
 	<header class="w-100 header-blue" style="min-height: 200px;">
 		<div class="container d-flex flex-row" style="min-height:200px">
-			<div class="mx-auto my-auto align-self-center text-center py-4">
+			<div class="mx-auto my-auto align-self-center text-center py-5">
 				<h1 class="text-superwide text-tertiary py-1 my-2">{{ .Title }}</h1>
 					<p class="py-1 my-2">Published {{ dateFormat (.Site.Params.DateForm) .Date }}, {{ .ReadingTime }} minute read</p>
 				{{ if isset .Params "description" }}

@@ -23,9 +23,9 @@ Being used to Bootstrap and/or other component based frameworks, this is quite a
 
 Using Tailwind, basically everything you know from these frameworks is possible, but the way to get there is a little different. There's no `navbar`, `card` or `modal` - instead, all of Tailwind's classes can be used to actually build those components. Basically, that's lots of freedom (*which is great!*), but it also requires some more knowledge of HTML and especially CSS in order to achieve the same result as using finished components would.
 
-Oh, one more thing: Tailwind is a pure CSS framework and ships without any front-end JavaScript - that means, that if you'd like to have a sticky header once the page scrolls or a collapsed navbar that expands when clicking a button, you need to build it.
+Oh, one more thing: Tailwind is a pure CSS framework and ships without any front-end JavaScript - that means that if you'd like to have a sticky header once the page scrolls or a collapsed navbar that expands when clicking a button, you need to build it.
 
-### Let's build a menu
+### Let's Build a Menu
 
 Navigation is certainly one of the essentials when it comes to building a website, so let's get right into that.
 
@@ -37,7 +37,7 @@ Navigation is certainly one of the essentials when it comes to building a websit
 
 All of that should be achieved with the same header/menu and some JavaScript to check the scroll position and to provide expand/collapse functionality.
 
-### The header
+### The Header
 
 We're going to keep the custom CSS at a bare minimum, using Tailwind's classes as far as that's possible.
 
@@ -78,7 +78,7 @@ Tailwind is "mobile first", so its responsive utilities like `sm:hidden` work in
 
 We need JavaScript to enable 2 functions of our menu, the first one is the expand/collapse functionality for mobile devices, the second one's the sticky navigation when scrolling down.
 
-#### Expand and collapse the menu
+#### Expand and Collapse the Menu
 
 In order to achieve the proper functionality for our mobile menu, we've already placed a call to the `navToggle()` function in our menu.
 
@@ -94,7 +94,7 @@ The function itself is rather simple and looks like this:
 
 As shown in the larger code snippet above, the `nav` HTML-element is set to `hidden` by default. `navToggle()` adds/removes the `flex` class, thus expanding/collapsing the menu.
 
-#### Sticky menu
+#### Sticky Menu
 
 Scrolling down should make our `nav` stick to the top of the screen, providing persistent navigation to the users of the site.
 
