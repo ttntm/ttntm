@@ -336,6 +336,6 @@ All necessary information regarding Hugo installation can be found here: {{< lin
 
 Building this store locator was fun and so was building a demo and writing this up.
 
-Another article on the subject that was of some help can be found here: {{< link-underline-ext "getbounds.com/blog/leafet-store-locator/" "www.getbounds.com/blog/leafet-store-locator/" >}}
+Another article on the subject that was of some help can be found here: {{< link-underline-ext "getbounds.com/blog/leaflet-store-locator/" "www.getbounds.com/blog/leafet-store-locator/" >}}
 
 I hope it helps someone, I spent quite some time reading Leaflet's documentation and researching on the internet to build this. Just leave a comment below, feedback appreciated.
