@@ -39,6 +39,8 @@ The approach described in this article is also available as a fully functional H
 
 Best have a quick look at the repository and its structure now, it'll make the following explanations easier to understand: {{< link-underline-ext "GitHub Repository" "github.com/ttntm/hugo-leaflet-store-locator" >}}
 
+> There's also a live demo on Netlify which can be found here: {{< link-underline-ext "leaflet-store-locator.netlify.com" "leaflet-store-locator.netlify.com" >}}
+
 ### Location Data
 
 In order to make this work, you'll need data - stores and their address/location. I've used McDonald's locations in Vienna for the demo site, but anything else would also work.
@@ -326,7 +328,7 @@ Not much else to say here, basically just another convenience feature.
 
 ### Demo
 
-> There's a live demo on Netlify, it can be found here: {{< link-underline-ext "leaflet-store-locator.netlify.com" "leaflet-store-locator.netlify.com" >}}
+> As mentioned above, there's a live demo on Netlify. It can be found here: {{< link-underline-ext "leaflet-store-locator.netlify.com" "leaflet-store-locator.netlify.com" >}}
 
 The {{< link-underline-ext "GitHub Repository" "github.com/ttntm/hugo-leaflet-store-locator" >}} requires Hugo to build/run the site; after cloning/downloading it, you can either `hugo server` or `npm run start` in order to view the site on `http://localhost:1313`.
 
