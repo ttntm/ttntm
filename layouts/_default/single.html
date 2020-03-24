@@ -1,18 +1,9 @@
 {{ define "main" }}
-    <header class="w-100 header-blue" style="min-height: 150px;">
-        <div class="container d-flex flex-row" style="min-height: 150px">
-            <div class="mx-auto my-auto align-self-center text-center">
-                <h1 class="text-superwide text-tertiary m-0">{{ .Title }}</h1>
-            </div>
-        </div>
+    <header class="container pb1">
+        <h1 class="text-darkest m0">{{ .Title }}</h1>
+        <div class="hr shadow"></div>
     </header>
-    <section class="my-4">
-        <div class="container">
-            <div class="row">
-                <div class="col py-3">
-                    {{ .Content }}
-                </div>
-            </div>
-        </div>
+    <section class="container">
+        {{ .Content }}
     </section>
 {{ end }}

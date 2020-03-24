@@ -1,0 +1,18 @@
+{{ define "main" }}
+	<header class="container">
+		<h1 class="text-darkest">{{ .Title }}</h1>
+		<p class="small text-sec">Published {{ dateFormat (.Site.Params.DateForm) .Date }}, {{ .ReadingTime }} minute read</p>
+		<div class="hr shadow"></div>
+	</header>
+	<article class="container">
+		<div class="">
+			{{ .Content }}
+		</div>
+		{{ partial "blog/meta.html" . }}
+	</article>
+	<div class="container">
+		{{ partial "blog/nextprev.html" . }}
+		{{ partial "blog/comments.html" . }}
+		{{ partial "blog/related.html" . }}
+	</div>
+{{ end }}

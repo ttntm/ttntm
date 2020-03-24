@@ -1,5 +1,0 @@
-{{ range first 4 (where (where .Site.Pages "Section" "projects" ) ".IsNode" false) }}
-	<div class="col-sm-12 col-md-6 py-3">
-		{{ partial "img+overlay.html" . }}
-	</div>
-{{ end }}

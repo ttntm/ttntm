@@ -2,7 +2,7 @@
 title: Microsoft Integration Stencils Pack for Visio
 slug: microsoft-integration-stencils-pack-visio
 weight: -6
-type: post
+type: blog
 date: 2018-10-16
 description: A pointer to a great resource for Micorosft Visio users.
 tags:
@@ -10,7 +10,8 @@ tags:
     - Microsoft
     - stencils
     - work
-tw-image: https://ttntm.github.io/img/blog/default.jpg
+images:
+    - /img/blog/default.jpg
 ---
 
 ## Great Shapes!
@@ -25,6 +26,6 @@ Unfortunately, even Visio 2016 features a rather lackluster selection of standar
 
 The shapes in there are detailed, modern and easily customizable, just as expected when working with Visio. With a bit of skill, some time and patience, it's possible to create pretty decent looking diagrams and infographics that can be exported to SVG easily.
 
-I'm really grateful to have found those stencils, thanks to MVP {{< link-underline-ext "Sandro Pereira" "social.technet.microsoft.com/profile/sandro%20pereira/" >}} for compiling/creating such a helpful resource!
+I'm really grateful to have found those stencils, thanks to MVP {{< link-ext "Sandro Pereira" "social.technet.microsoft.com/profile/sandro%20pereira/" >}} for compiling/creating such a helpful resource!
 
-> {{< link-underline-ext "Microsoft Integration Stencils Pack for Visio" "gallery.technet.microsoft.com/Collection-of-Integration-e6a3f4d0" >}} at TechNet
+> {{< link-ext "Microsoft Integration Stencils Pack for Visio" "gallery.technet.microsoft.com/Collection-of-Integration-e6a3f4d0" >}} at TechNet

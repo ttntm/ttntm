@@ -1,3 +1,3 @@
 ---
-title: Blog/Archive
+title: Archive
 ---

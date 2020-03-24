@@ -23,30 +23,22 @@ PygmentsStyle = "tango"
     email = "ttntm@pm.me"
 
 [params]
-    year = "2020"
     author = "ttntm"
-    title = "Tom's Journal & Blog | ttntm"
+    title = "Tom's Journal & Blog"
     description = "A journal/blog about web design, IT and related topics."
     DateForm = "02.01.2006"
     showReadTime = 1
-    showProjects = "true"
+    images = ["/img/blog/default.jpg"]
 
 [[params.social]]
     title = "Twitter"
-    icon = "twitter"
     url = "https://twitter.com/thet0m"
 [[params.social]]
     title = "GitHub"
-    icon = "github"
     url = "https://github.com/ttntm"
 [[params.social]]
-    title = "CodePen"
-    icon = "codepen"
-    url = "https://codepen.io/ttntm/"
-# [[params.social]]
-    # title = "freeCodeCamp"
-    # icon = "free-code-camp"
-    # url = "https://www.freecodecamp.org/ttntm"
+    title = "Email"
+    url = "mailto:ttntm@pm.me"
 
 # BLOG
 paginate = 3
@@ -54,7 +46,6 @@ paginatePath = "page"
 
 [permalinks]
 blog = "blog/:slug/"
-projects = "/projects/:slug"
 
 [params.pagination]
     # These are all optional and default to true

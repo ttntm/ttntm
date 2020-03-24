@@ -1,4 +1,30 @@
 {{ define "main" }}
-    {{ partialCached "particles.html" . }}
-    {{ partial "home/home.html" . }}
+    <div class="container">
+        <div class="flex flex-row justify-content-between align-items-center flex-wrap pb1 mb2">
+            <div class="w25 w100-mobile">
+                <img class="img-fluid circle shadow" src="/img/ttntm.jpg" alt="ttntm">
+            </div>
+            <div class="w75 w100-mobile">
+                <div class="p2">
+                    <h1 class="h2 text-darker">Hi, I'm Tom.</h1>
+                    <h2 class="h4">This website is a blog, journal and testing ground for anything web related that I come across on the job and otherwise. If you want to know more about me, just head over to <a href="{{ .Site.BaseURL }}/about">/about</a>.</h2>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row justify-content-between align-items-baseline">
+            <h4 class="h1 text-darkest m0">Recent Posts</h4>
+            <h6 class="m0"><a class="text-dark" href="{{ .Site.BaseURL }}/feed.xml" target="_blank">RSS Feed</a></h6>
+        </div>
+        <div class="hr shadow"></div>
+        <div class="pt1">
+        {{ range first 5 (where .Site.Pages "Section" "blog") }}
+            <div class="pb1">
+                {{ partial "post-preview" . }}
+            </div>
+        {{ end }}
+            <h6>
+                <a href="{{ .Site.BaseURL }}/blog" class="btn">View Archive</a>
+            </h6>
+        </div>
+    </div>
 {{ end }}

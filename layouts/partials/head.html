@@ -1,30 +1,11 @@
 <meta charset="utf-8">
 <link rel="preload" href="{{ .Site.BaseURL }}/css/page.css" as="style">
-<link rel="preload" href="{{ .Site.BaseURL }}/js/particles.min.js" as="script">
-<link rel="preconnect" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
-<link rel="preconnect" href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-<link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
-<link rel="preconnect" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js">
-<link rel="preload" href="{{ .Site.BaseURL }}/font/Inter-Regular.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="{{ .Site.BaseURL }}/font/Inter-Bold.woff2" as="font" crossorigin="anonymous">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="{{ .Site.Author.name }}">
 <meta name="robots" content="index,follow">
-{{- if eq .Type "post" -}}
-  {{ with .Params }}
-    <meta name="description" content="{{- $.Param "description" -}}">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@thet0m">
-    <meta name="twitter:creator" content="@thet0m">
-    <meta name="twitter:title" content="{{- $.Param "title" -}}">
-    <meta name="twitter:description" content="{{- $.Param "description" -}}">
-    <meta name="twitter:image" content="{{- with $.Param "tw-image" -}}{{ . }}{{- else -}}/img/blog/nothing.jpg{{- end -}}">
-  {{- end -}}
-{{ else }}
-  <meta name="description" content="{{ .Site.Params.description }}">
-{{ end }}
-<title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else if (eq .Section "projects") }}{{ if .IsNode }}Projects{{ else }}Projects/{{ .Title }} [{{ .Params.scSubtitle }}]{{ end }} | {{ .Site.Author.name }}{{ else }}{{ .Title }} | {{ .Site.Author.name }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else }}{{ .Title }}{{ end }} - ttntm.me</title>
 <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/img/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}/img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/img/favicon/favicon-16x16.png">
@@ -32,29 +13,9 @@
 <meta name="msapplication-TileColor" content="#497285">
 <meta name="theme-color" content="#fff">
 <meta name="google-site-verification" content="xnb1OPOcw77ws6qsMtbTNh6CVyT4H0hPq1JPimFDwyI" />
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/page.css">
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Params.title | safeHTML }}
 {{ end -}}
-{{ "<!--[if lt IE 9]>" | safeHTML }}
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-{{ "<![endif]-->" | safeHTML }}
-<style>
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    src: url('{{ .Site.BaseURL }}/font/Inter-Regular.woff2') format('woff2');
-  }
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    src: url('{{ .Site.BaseURL }}/font/Inter-Bold.woff2') format('woff2');
-  }
-  body {
-      font-family: 'Inter', sans-serif;
-  }
-</style>
-<script src="{{ .Site.BaseURL }}/js/particles.min.js"></script>

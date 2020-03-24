@@ -1,0 +1,14 @@
+<h2 class="h3"><a href="{{ .Permalink }}" class="lnk-underline">{{ .Title }}</a></h2>
+<p>{{ .Description }}</p>
+{{ $base := .Site.BaseURL }}
+{{ if isset .Params "tags" }}
+    <ul class="list-inline">
+    {{ range $index, $name := sort .Params.tags -}}
+        <li class="list-inline-item" style="margin-bottom: 0.5rem;">
+            <a class="tag regular shadow-hover" href="{{ $base }}/tags/{{ urlize . }}">{{ lower . }}</a>
+        </li>
+    {{ end }}
+    </ul>
+{{ end }}
+<p class="small text-sec pb1" style="margin-top: -0.5rem;">Published {{ dateFormat (.Site.Params.DateForm) .Date }}, {{ .ReadingTime }} minute read</p>
+<div class="hr shadow"></div>

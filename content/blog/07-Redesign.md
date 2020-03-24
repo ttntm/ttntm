@@ -2,14 +2,14 @@
 title: Site Redesign
 slug: site-redesign
 weight: -7
-type: post
+type: blog
 date: 2018-11-19
 description: Short update summarizing the changes done to this site recently.
 tags:
     - design
-    - post
     - personal
-tw-image: https://ttntm.github.io/img/blog/default.jpg
+images:
+    - /img/blog/default.jpg
 ---
 
 ## Redesign
@@ -29,12 +29,12 @@ Anyway, this post will probably just serve me as a personal tracker of what's ch
     - BS4 utilities
     - 250 lines of additional CSS for the buttons etc.
 2. Implemented CSS processing via `gulp` in conjunction with `postcss`, `concat-css` and `cssnano`
-3. Started using a {{< link-underline-ext "Hugo Base Template" "gohugo.io/templates/base/" >}}, which is supposed to be making future changes easier to apply globally
+3. Started using a {{< link-ext "Hugo Base Template" "gohugo.io/templates/base/" >}}, which is supposed to be making future changes easier to apply globally
 
 ### Visible Changes
 
-1. Switched to <s>Nunito</s> "Inter" as the site's font face - {{< link-underline-ext Link "rsms.me/inter/" >}}
-2. Found a nice colour palette {{< link-underline-ext here "trendypalettes.com/palette/152" >}} and changed the site's color scheme based on that
+1. Switched to <s>Nunito</s> "Inter" as the site's font face - {{< link-ext Link "rsms.me/inter/" >}}
+2. Found a nice colour palette {{< link-ext here "trendypalettes.com/palette/152" >}} and changed the site's color scheme based on that
 3. Reworked the navbar, adding some fancy CSS to the main navigation items
 4. Reworked the buttons, some more fancy CSS
 5. Added a real "Contact" page, displaying contact options as a centered `flexbox` element

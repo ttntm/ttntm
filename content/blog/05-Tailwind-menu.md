@@ -2,15 +2,15 @@
 title: Building a responsive menu with Tailwind CSS
 slug: tailwind-responsive-menu
 weight: -5
-type: post
+type: blog
 date: 2018-09-20
 description: This article shows how to build a responsive menu/navigation with Tailwind CSS and also includes a CodePen example.
 tags:
     - css
-    - post
     - howto
     - tailwind
-tw-image: https://ttntm.github.io/img/blog/default.jpg
+images:
+    - /img/blog/default.jpg
 ---
 
 ## Tailwind CSS
@@ -156,5 +156,5 @@ Tailwind CSS is a very versatile, powerful and extremely customizable framework.
 
 I hope this article is beneficial to someone out there. Here's a pen and a link to the an excellent Tailwind cheatsheet for your convenience:
 
-- {{< link-underline-ext Cheatsheet "nerdcave.com/tailwind-cheat-sheet" >}}
-- {{< link-underline-ext CodePen "codepen.io/ttntm/pen/dqaNPp" >}}
+- {{< link-ext Cheatsheet "nerdcave.com/tailwind-cheat-sheet" >}}
+- {{< link-ext CodePen "codepen.io/ttntm/pen/dqaNPp" >}}

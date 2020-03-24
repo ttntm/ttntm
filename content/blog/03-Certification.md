@@ -2,14 +2,14 @@
 title: Responsive Web Design Certification
 slug: fcc-certification
 weight: -3
-type: post
+type: blog
 date: 2018-08-27
 description: A short update after obtaining the Responsive Web Design Certification on freeCodeCamp.
-tags: 
+tags:
     - personal
-    - post
     - learning
-tw-image: https://ttntm.github.io/img/blog/default.jpg
+images:
+    - /img/blog/default.jpg
 ---
 
 ## freeCodeCamp

@@ -2,11 +2,10 @@
 title: Update - February 2019
 slug: update-february-2019
 weight: -9
-type: post
+type: blog
 date: 2019-02-10
 description: A brief update from February 2019.
 tags:
-    - post
     - personal
 ---
 
@@ -24,9 +23,9 @@ Aside from that, I also managed to get another website project for a startup whi
 
 As far as this site's concerned, here's what's changed:
 
-- moved from Github pages and their `username.github.io` domain to **ttntm.me** which was on sale at {{< link-underline-ext "porkbun.com" "porkbun.com" >}}
+- moved from Github pages and their `username.github.io` domain to **ttntm.me** which was on sale at porkbun.com
 - moved the deployment over to Netlify
-- enabled an RSS feed for the blog - subscribe at {{< link-underline "RSS feed" "ttntm.me/feed.xml" >}}
+- enabled an RSS feed for the blog - subscribe at [ttntm.me/feed.xml](https://ttntm.me/feed.xml)
 
 ### Coming Soon
 

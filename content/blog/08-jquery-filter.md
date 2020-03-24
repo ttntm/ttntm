@@ -2,15 +2,15 @@
 title: jQuery Multiselect Filter
 slug: jquery-multiselect-filter
 weight: -8
-type: post
+type: blog
 date: 2018-12-12
 description: An article about building a portfolio filter capable of multiselect with jQuery. Also includes a working CodePen example.
 tags:
     - javascript
-    - post
     - howto
     - jquery
-tw-image: https://ttntm.github.io/img/blog/code.jpg
+images:
+    - /img/blog/code.jpg
 ---
 
 ## Filter Requirements
@@ -27,7 +27,7 @@ _All CSS is going to be missing here, but it's included in the CodePen example._
 
 ### Content Setup
 
-In order to make the portfolio manageable, the site was set up using Hugo's so called "Page Bundles" ({{< link-underline-ext "Hugo Docs" "gohugo.io/content-management/page-bundles/" >}}), lots of shortcodes and customized metadata in each portfolio item's front matter:
+In order to make the portfolio manageable, the site was set up using Hugo's so called "Page Bundles" ({{< link-ext "Hugo Docs" "gohugo.io/content-management/page-bundles/" >}}), lots of shortcodes and customized metadata in each portfolio item's front matter:
 
     ---
     title: Example Case
@@ -76,7 +76,7 @@ The page template starts with the filters below the standard page header:
 
 {{< /highlight >}}
 
-All filters are equipped with an HTML data-* attribute ({{< link-underline-ext w3schools "www.w3schools.com/tags/att_global_data.asp" >}}), `data-filter`, that will provide the filtering criteria to our jQuery functions.
+All filters are equipped with an HTML data-* attribute ({{< link-ext w3schools "www.w3schools.com/tags/att_global_data.asp" >}}), `data-filter`, that will provide the filtering criteria to our jQuery functions.
 
 The actual portfolio items are displayed below the filters as a 2-column grid:
 
@@ -235,4 +235,4 @@ There's still another function that was mentioned above and that's called `remov
 
 Aside from ticking the box in front of a technical requirement on a list and making a friend happy, this filter was also an interesting challenge to myself. I couldn't find any useful instructions or out of the box solutions before starting doing it on my own which might have been due to wrong Google keywords or just bad luck. However, it taught me that despite of more than 10 years of ignoring jQuery and JavaScript, it's slowly coming back.
 
-Anyway, I hope this can prove useful to someone looking for something similar. I created a CodePen Demo that can be found here: {{< link-underline-ext CodePen "codepen.io/ttntm/full/zyxGXe" >}}
+Anyway, I hope this can prove useful to someone looking for something similar. I created a CodePen Demo that can be found here: {{< link-ext CodePen "codepen.io/ttntm/full/zyxGXe" >}}

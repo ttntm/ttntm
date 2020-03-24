@@ -1,34 +1,20 @@
 {{ define "main" }}
-{{ partial "particles.html" . }}
-	<div class="container mb-3">
-		<div class="row">
-		{{ if eq .Kind "taxonomy" }}
-			<div class="col-sm-12 col-md-12">
-				<h2 class="">{{ .Title }}</h2>
-			</div>
-		{{ else }}
-			<div class="col-sm-12 col-md-12">
-				<h2 class="">Archive</h2>
-			</div>
-		{{ end }}
-		{{ range (.Paginator 6).Pages }}
-			<div class="col-sm-12 col-md-6 py-3">
-				{{ if isset .Params "image" }}
-					<!--a href="{{ .Permalink }}"><img class="img-fluid mb-3" src="/img/blog/{{ .Params.image }}.jpg"></a-->
-				{{ end }}
-				{{ if isset .Params "date" }}
-					<h5 class="text-secondary">{{ dateFormat (.Site.Params.DateForm) .Date }}</h5>
-				{{ end }}
-					<h3 class=""><a href="{{ .Permalink }}" class="lnk-underline">{{ .Title }}</a></h3>
-					<p>{{ .Summary }} [...]</p>
-					<a class="btn btn-primary px-3" href="{{ .Permalink }}">Read More...</a>
+	<div class="container">
+		<div class="flex flex-row justify-content-between align-items-baseline">
+            {{ if eq .Kind "taxonomy" }}
+				<h1 class="text-darkest m0">Tag: {{ .Title }}</h1>
+			{{ else }}
+				<h1 class="text-darkest m0">Archive</h1>
+			{{ end }}
+            <h6 class="m0"><a class="text-dark" href="{{ .Site.BaseURL }}/feed.xml" target="_blank">RSS Feed</a></h6>
+        </div>
+		<div class="hr shadow"></div>
+		<div class="pt1">
+		{{ range .Pages }}
+			<div class="pb1">
+				{{ partial "post-preview" . }}
 			</div>
 		{{ end }}
-		</div>
-		<div class="row">
-			<div class="col">
-				{{ partial "blog/pagination.html" . }}
-			</div>
 		</div>
 	</div>
 {{ end }}

@@ -16,7 +16,8 @@ gulp.task('procss', function () {
     .pipe(concatCss('page.css'))
     .pipe(cssnano({
       reduceIdents: false,
-      discardComments: {removeAll: true}
+      discardComments: {removeAll: true},
+      discardUnused: {fontFace: false}
     }))
     .pipe(gulp.dest('./static/css/'));
 });

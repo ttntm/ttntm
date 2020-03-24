@@ -2,25 +2,25 @@
 title: '"Static" Comments with Gulp, Hugo & Netlify'
 slug: static-blog-comments-hugo
 weight: -10
-type: post
+type: blog
 date: 2019-12-15
 description: Probably the easiest way of adding comments to your Hugo site.
 tags:
     - javascript
-    - post
     - howto
     - hugo
     - netlify
-tw-image: https://ttntm.github.io/img/blog/code.jpg
+images:
+    - /img/blog/code.jpg
 ---
 
 ## "Static" Comments...?
 
 Working for friends and family is always quite a bit of an extra challenge, as "no" generally doesn't count. That's probably how I ended up looking for what I'll call "'static' comments" for now. Sounds weird at first, but refers to comments (= dynamically added feedback/discussion) within the context and technical limitations of a static website.
 
-There's a fair amount of "out of the box" 3rd party services you can use, an overview can be found in the {{< link-underline-ext "Hugo Docs" "gohugo.io/content-management/comments/" >}}. That's not what I was after though - I wanted something lightweight and free that also conforms with the requirements the GDPR brought along in 2018.
+There's a fair amount of "out of the box" 3rd party services you can use, an overview can be found in the {{< link-ext "Hugo Docs" "gohugo.io/content-management/comments/" >}}. That's not what I was after though - I wanted something lightweight and free that also conforms with the requirements the GDPR brought along in 2018.
 
-After some extensive research and hours of studying various services' documentations, I came across an article called {{< link-underline-ext "JAMstack Comments" "gohugo.io/content-management/comments/" >}} on css-tricks.com. Lucky for me, that was exactly what I was looking for, even more complex than needed.
+After some extensive research and hours of studying various services' documentations, I came across an article called {{< link-ext "JAMstack Comments" "gohugo.io/content-management/comments/" >}} on css-tricks.com. Lucky for me, that was exactly what I was looking for, even more complex than needed.
 
 So, the following article will describe what I'd summarize as "probably the easiest way of adding comments to your Hugo site". So, taking into consideration that this site also has a comment section now, please feel free to let me know your opinion. 😉
 
@@ -40,7 +40,7 @@ Here's a compact flowchart detailing the process:
 
 First off, we'll need to add a form to our website in order to collect our comment submissions.
 
-Hugo supports so called {{< link-underline-ext "Partial Templates" "gohugo.io/templates/partials/" >}} that we're going to use here:
+Hugo supports so called {{< link-ext "Partial Templates" "gohugo.io/templates/partials/" >}} that we're going to use here:
 
 {{< highlight html >}}
 
@@ -74,7 +74,7 @@ Hugo supports so called {{< link-underline-ext "Partial Templates" "gohugo.io/te
 
 _Excerpt of this site's `comments.html`_
 
-The form is based on the requirements for Netlify's form processing found in their docs: {{< link-underline-ext "Forms setup" "docs.netlify.com/forms/setup/" >}}
+The form is based on the requirements for Netlify's form processing found in their docs: {{< link-ext "Forms setup" "docs.netlify.com/forms/setup/" >}}
 
 >Netlify requires the `action` to be a string starting with a slash - in case of Hugo sites, that means that you need to have `canonifyUrls = "false"` in Hugo's _config.toml_. Otherwise, Netlify won't recognize your form and you're stuck.
 
@@ -299,4 +299,4 @@ Overall, I'd say this is good enough for now and I'm happy to have found a "mini
 
 -
 
-PS: there's an example repository in my GitHub account that you can clone and deploy to try all of that yourself. It's a little outdated though, as it still refers to IFTTT as an (external) task runner for hourly rebuilds. Here it is anyway, I might get around to updating it some time soon: {{< link-underline-ext "GitHub Repo" "github.com/ttntm/hugo-comments" >}}
+PS: there's an example repository in my GitHub account that you can clone and deploy to try all of that yourself. It's a little outdated though, as it still refers to IFTTT as an (external) task runner for hourly rebuilds. Here it is anyway, I might get around to updating it some time soon: {{< link-ext "GitHub Repo" "github.com/ttntm/hugo-comments" >}}
