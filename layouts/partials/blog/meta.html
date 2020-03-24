@@ -7,7 +7,7 @@
 			<h5 class="m0">Tags:&nbsp;</h5>
 		</li>
 		{{ range $index, $name := sort .Params.tags -}}
-			<li class="list-inline-item" style="margin-bottom: 0.5rem;">
+			<li class="list-inline-item tag-item">
 				<a class="tag regular shadow-hover" href="{{ $base }}/tags/{{ urlize . }}">{{ lower . }}</a>
 			</li>
 		{{ end }}
