@@ -8,10 +8,25 @@
 		<div class="">
 			{{ .Content }}
 		</div>
-		{{ partial "blog/meta.html" . }}
+		<div class="py1">
+			<div class="hr shadow"></div>
+				{{ partial "blog/tags.html" . }}
+			<div class="hr shadow" style="margin-top: -0.5rem;"></div>
+		</div>
 	</article>
 	<div class="container">
-		{{ partial "blog/nextprev.html" . }}
+		<div class="flex flex-row justify-content-between py1">
+			<div class="">
+			{{ if .PrevInSection }}
+				<a class="btn" href="{{ .PrevInSection.Permalink }}">Previous Post</a>
+			{{ end }}
+			</div>
+			<div class="">
+			{{ if .NextInSection }}
+				<a class="btn" href="{{ .NextInSection.Permalink }}">Next Post</a>
+			{{ end }}
+			</div>
+		</div>
 		{{ partial "blog/comments.html" . }}
 		{{ partial "blog/related.html" . }}
 	</div>
