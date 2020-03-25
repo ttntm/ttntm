@@ -45,26 +45,26 @@ That's what our header is going to look like:
 
 {{< highlight html >}}
 
-        <header id="top" class="w-full flex flex-col pt-3 fixed sm:relative bg-white pin-t pin-r pin-l">
-            <div class="flex-row justify-center">
-                <!-- image here -->
-            </div>
-            <nav id="site-menu" class="hidden sm:flex flex-row flex-wrap sm:flex-no-wrap w-full justify-center self-center text-xl bg-transparent tracking-wide">
-                <a href="#home" class="w-full sm:w-auto text-center text-teal-dark hover:text-teal no-underline hover:bg-grey-lighter py-3 px-5">Home</a>
-                <!-- other menu items -->
-                <div class="w-full h-px bg-grey-light sm:hidden my-3">
-            </nav>
-            <div class="flex flex-row justify-between">
-                <!-- image here, goes to the left of the flex-row -->
-                <button class="sm:hidden self-end text-teal-dark hover:text-teal border border-teal-dark hover:border-teal px-3 py-2 mx-3" onclick="navToggle();">
-                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Menu</title>
-                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
-                    </svg>
-                </button>
-            </div>
-            <div class="w-full sm:w-2/3 h-px bg-grey-light mx-auto mt-3"></div>
-        </header>
+    <header id="top" class="w-full flex flex-col pt-3 fixed sm:relative bg-white pin-t pin-r pin-l">
+        <div class="flex-row justify-center">
+            <!-- image here -->
+        </div>
+        <nav id="site-menu" class="hidden sm:flex flex-row flex-wrap sm:flex-no-wrap w-full justify-center self-center text-xl bg-transparent tracking-wide">
+            <a href="#home" class="w-full sm:w-auto text-center text-teal-dark hover:text-teal no-underline hover:bg-grey-lighter py-3 px-5">Home</a>
+            <!-- other menu items -->
+            <div class="w-full h-px bg-grey-light sm:hidden my-3">
+        </nav>
+        <div class="flex flex-row justify-between">
+            <!-- image here, goes to the left of the flex-row -->
+            <button class="sm:hidden self-end text-teal-dark hover:text-teal border border-teal-dark hover:border-teal px-3 py-2 mx-3" onclick="navToggle();">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="w-full sm:w-2/3 h-px bg-grey-light mx-auto mt-3"></div>
+    </header>
 
 {{< /highlight >}}
 
@@ -86,9 +86,9 @@ The function itself is rather simple and looks like this:
 
 {{< highlight js >}}
 
-        function navToggle() {
-            nav.classList.toggle('flex');
-        }
+    function navToggle() {
+        nav.classList.toggle('flex');
+    }
 
 {{< /highlight >}}
 
@@ -102,10 +102,10 @@ To implement this functionality, we need to grab the `scroll` event and use it t
 
 {{< highlight js >}}
 
-        var nav = document.getElementById('site-menu'); // this variable is also used for the navToggle() function
-        var bod = document.getElementsByTagName('body')[0];
+    var nav = document.getElementById('site-menu'); // this variable is also used for the navToggle() function
+    var bod = document.getElementsByTagName('body')[0];
 
-        window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function() {
         if (window.scrollY >=250) { // adjust this value based on your project
             bod.classList.add('bod-pt-scroll');
             nav.classList.add('nav-sticky');
@@ -113,7 +113,7 @@ To implement this functionality, we need to grab the `scroll` event and use it t
             bod.classList.remove('bod-pt-scroll');
             nav.classList.remove('nav-sticky');
         }
-        });
+    });
 
 {{< /highlight >}}
 
@@ -125,26 +125,26 @@ In order to provide the necessary padding and the sticky-ness of the `nav`-eleme
 
 {{< highlight css >}}
 
-        @media (max-width: 576px) {
-            body {
-                padding-top: 75px;
-            }
+    @media (max-width: 576px) {
+        body {
+            padding-top: 75px;
         }
+    }
 
-        @media (min-width: 576px) {
-            .bod-pt-scroll {
-                padding-top: 50px;
-            }
-            .nav-sticky {
-                position: fixed;
-                min-width: 100%;
-                max-height: 50px;
-                top: 0;
-                background-color: #3d4852!important;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
-                transition: all .25s ease-in;
-            }
+    @media (min-width: 576px) {
+        .bod-pt-scroll {
+            padding-top: 50px;
         }
+        .nav-sticky {
+            position: fixed;
+            min-width: 100%;
+            max-height: 50px;
+            top: 0;
+            background-color: #3d4852!important;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+            transition: all .25s ease-in;
+        }
+    }
 
 {{< /highlight >}}
 

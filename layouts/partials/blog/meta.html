@@ -1,17 +1,5 @@
 <div class="py1">
 	<div class="hr shadow"></div>
-	{{ $base := .Site.BaseURL }}
-	{{ if isset .Params "tags" }}
-	<ul class="list-inline">
-		<li class="list-inline-item">
-			<h5 class="m0">Tags:&nbsp;</h5>
-		</li>
-		{{ range $index, $name := sort .Params.tags -}}
-			<li class="list-inline-item tag-item">
-				<a class="tag regular shadow-hover" href="{{ $base }}/tags/{{ urlize . }}">{{ lower . }}</a>
-			</li>
-		{{ end }}
-	</ul>
-	{{ end }}
+	{{ partial "blog/tags.html" . }}
 	<div class="hr shadow" style="margin-top: -0.5rem;"></div>
 </div>

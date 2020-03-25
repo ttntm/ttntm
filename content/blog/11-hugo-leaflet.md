@@ -49,15 +49,15 @@ The raw JSON for one store looks like this then:
 
 {{< highlight json >}}
 
-        {
-            "shopName": "McDonald's Schwedenplatz",
-            "shopAddress": "Rotenturmstraße 29",
-            "shopPLZ": "1010 Vienna",
-            "shopCountry": "Austria",
-            "shopLatitude": "48.211787",
-            "shopLongitude": "16.375875",
-            "shopActive": true
-        }
+    {
+        "shopName": "McDonald's Schwedenplatz",
+        "shopAddress": "Rotenturmstraße 29",
+        "shopPLZ": "1010 Vienna",
+        "shopCountry": "Austria",
+        "shopLatitude": "48.211787",
+        "shopLongitude": "16.375875",
+        "shopActive": true
+    }
 
 {{< /highlight >}}
 
@@ -79,19 +79,19 @@ So, we're basically going to loop (`range`) through the data, rendering it as a 
 
 {{< highlight html >}}
 
-        {{ $shops := .Site.Data.stores }}
-        <div class="shop-container d-flex flex-column flex-nowrap align-content-start px-md-0">
-        {{ range sort $shops "shopPLZ" "asc" }}
-            {{ if .shopActive }}
-                <div class="sItem flex-grow-0 px-0 py-2 p-md-2" data-name="{{ .shopName }}" data-add="{{ .shopAddress }}" data-plz="{{ .shopPLZ }}" data-cty="{{ .shopCountry }}" data-lat="{{ .shopLatitude }}" data-lon="{{ .shopLongitude }}">
-                    <div class="sItem--offline rounded-lg shadow-sm px-3 py-2">
-                        <h5 class="h6 mb-0">{{ .shopName }}</h5>
-                        <p class="small mt-1 mb-0">{{ .shopAddress }}<br>{{ .shopPLZ }}, {{ .shopCountry }}</p>
-                    </div>
+    {{ $shops := .Site.Data.stores }}
+    <div class="shop-container d-flex flex-column flex-nowrap align-content-start px-md-0">
+    {{ range sort $shops "shopPLZ" "asc" }}
+        {{ if .shopActive }}
+            <div class="sItem flex-grow-0 px-0 py-2 p-md-2" data-name="{{ .shopName }}" data-add="{{ .shopAddress }}" data-plz="{{ .shopPLZ }}" data-cty="{{ .shopCountry }}" data-lat="{{ .shopLatitude }}" data-lon="{{ .shopLongitude }}">
+                <div class="sItem--offline rounded-lg shadow-sm px-3 py-2">
+                    <h5 class="h6 mb-0">{{ .shopName }}</h5>
+                    <p class="small mt-1 mb-0">{{ .shopAddress }}<br>{{ .shopPLZ }}, {{ .shopCountry }}</p>
                 </div>
-            {{ end }}
+            </div>
         {{ end }}
-        </div>
+    {{ end }}
+    </div>
 
 {{< /highlight >}}
 
@@ -103,15 +103,15 @@ Above this list of shops, we'd like to have a search bar:
 
 {{< highlight html >}}
 
-         <div class="p-4">
-            <div class="input-group shadow-sm mt-3">
-                <input class="form-control border-0" type="text" id="storefinder" onkeyup="findStore();" placeholder="Area code, i.e. '1010'">
-                <div class="input-group-append">
-                    <button class="btn btn-secondary bg-white text-secondary border-0 py-0" type="submit">Find</button>
-                </div>
+    <div class="p-4">
+        <div class="input-group shadow-sm mt-3">
+            <input class="form-control border-0" type="text" id="storefinder" onkeyup="findStore();" placeholder="Area code, i.e. '1010'">
+            <div class="input-group-append">
+                <button class="btn btn-secondary bg-white text-secondary border-0 py-0" type="submit">Find</button>
             </div>
-            <p id="result" class="small text-center mt-3 mb-0"></p>
         </div>
+        <p id="result" class="small text-center mt-3 mb-0"></p>
+    </div>
 
 {{< /highlight >}}
 
@@ -121,9 +121,9 @@ Not much to do here, the map is going to fill the remaining `col-7` left behind 
 
 {{< highlight html >}}
 
-         <div class="col-12 col-md-7 col-lg-8 map-container order-1 order-md-2 px-0">
-            <div id="map" style="width:100%;height:100%;"></div>
-        </div>
+    <div class="col-12 col-md-7 col-lg-8 map-container order-1 order-md-2 px-0">
+        <div id="map" style="width:100%;height:100%;"></div>
+    </div>
 
 {{< /highlight >}}
 
@@ -153,11 +153,11 @@ First off, we're going to need some definitions:
 
 {{< highlight js >}}
 
-        const items = $('.sItem'); // all shops in the list
-        const item = $('.sItem--offline'); // each shop
-        const startZoom = 11; //Define zoom level - 13 = default | 19 = max
-        const startLat = 48.208726;
-        const startLon = 16.372644;
+    const items = $('.sItem'); // all shops in the list
+    const item = $('.sItem--offline'); // each shop
+    const startZoom = 11; //Define zoom level - 13 = default | 19 = max
+    const startLat = 48.208726;
+    const startLon = 16.372644;
 
 {{< /highlight >}}
 
@@ -165,11 +165,11 @@ Now we'll create the map and add OpenStreetMap tiles:
 
 {{< highlight js >}}
 
-        var mymap = L.map('map', {scrollWheelZoom: false}).setView([startLat, startLon], startZoom);
-        // Add tiles
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors | <a href="javascript:resetMap();">Reset map</a>'
-        }).addTo(mymap);
+    var mymap = L.map('map', {scrollWheelZoom: false}).setView([startLat, startLon], startZoom);
+    // Add tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors | <a href="javascript:resetMap();">Reset map</a>'
+    }).addTo(mymap);
 
 {{< /highlight >}}
 
@@ -177,9 +177,9 @@ Take note of the `scrollWheelZoom: false` option. It makes sure that the mouse w
 
 {{< highlight js >}}
 
-        // zoom options enable/disable
-        mymap.on('click', () => { mymap.scrollWheelZoom.enable();});
-        mymap.on('mouseout', () => { mymap.scrollWheelZoom.disable();});
+    // zoom options enable/disable
+    mymap.on('click', () => { mymap.scrollWheelZoom.enable();});
+    mymap.on('mouseout', () => { mymap.scrollWheelZoom.disable();});
 
 {{< /highlight >}}
 
@@ -189,8 +189,8 @@ We'll also add the "find me" button from `leaflet-locatecontrol` to the map:
 
 {{< highlight js >}}
 
-        // add GPS find me button
-        L.control.locate().addTo(mymap);
+    // add GPS find me button
+    L.control.locate().addTo(mymap);
 
 {{< /highlight >}}
 
@@ -198,9 +198,9 @@ Originally, `leaflet-locatecontrol` uses Font Awesome which was not suitable for
 
 {{< highlight css >}}
 
-        .gps-marker::after {
-            content: "📍";
-        }
+    .gps-marker::after {
+        content: "📍";
+    }
 
 {{< /highlight >}}
 
@@ -210,27 +210,27 @@ Based on our list of stores, we're going to create a marker for each one of them
 
 {{< highlight js >}}
 
-        // create marker cluster layer
-        var markers = L.markerClusterGroup();
+    // create marker cluster layer
+    var markers = L.markerClusterGroup();
 
-        // iterate stores, add markers to map
-        for(let i = 0; i < items.length; i++) {
-            let iLat = items[i].getAttribute('data-lat');
-            let iLon = items[i].getAttribute('data-lon');
+    // iterate stores, add markers to map
+    for(let i = 0; i < items.length; i++) {
+        let iLat = items[i].getAttribute('data-lat');
+        let iLon = items[i].getAttribute('data-lon');
 
-            if(!isEmpty(iLat) | !isEmpty(iLon)) {
-                // get popup info
-                let name = items[i].getAttribute('data-name');
-                let ad = items[i].getAttribute('data-add');
-                let plz = items[i].getAttribute('data-plz');
-                // create marker with associated popup
-                markers.addLayer(L.marker([iLat,iLon],{key:iLat+'__'+iLon}).bindPopup("<b>" + name + "</b>" + "<br>" + ad + ", " + plz)); // marker added to cluster layer
-                // we use an ID made up of iLat and iLon here, so we can find the marker again later
-            }
+        if(!isEmpty(iLat) | !isEmpty(iLon)) {
+            // get popup info
+            let name = items[i].getAttribute('data-name');
+            let ad = items[i].getAttribute('data-add');
+            let plz = items[i].getAttribute('data-plz');
+            // create marker with associated popup
+            markers.addLayer(L.marker([iLat,iLon],{key:iLat+'__'+iLon}).bindPopup("<b>" + name + "</b>" + "<br>" + ad + ", " + plz)); // marker added to cluster layer
+            // we use an ID made up of iLat and iLon here, so we can find the marker again later
         }
+    }
 
-        // add clustered markers to map
-        mymap.addLayer(markers);
+    // add clustered markers to map
+    mymap.addLayer(markers);
 
 {{< /highlight >}}
 
@@ -242,29 +242,29 @@ As mentioned above, the list of stores should have a search function. We added t
 
 {{< highlight js >}}
 
-        function findStore() {
-            const searchInput = $('#storefinder');
-            const hidden = 'sItem--hidden';
-            const result = $('#result');
+    function findStore() {
+        const searchInput = $('#storefinder');
+        const hidden = 'sItem--hidden';
+        const result = $('#result');
 
-            let filter = searchInput.val().toUpperCase();
-            let count = 0; // reset on each function call
+        let filter = searchInput.val().toUpperCase();
+        let count = 0; // reset on each function call
 
-            for (let i = 0; i < items.length; i++) {
-                let plz = items[i].getAttribute('data-plz').toUpperCase();
-                let cty = items[i].getAttribute('data-cty').toUpperCase();
-                if (plz.toUpperCase().indexOf(filter) > -1) { // check PLZ
-                    items[i].classList.remove(hidden);
-                    count = count + 1;
-                } else if (cty.toUpperCase().indexOf(filter) > -1) { // PLZ not found, check country
-                    items[i].classList.remove(hidden);
-                    count = count + 1;
-                } else { // nothing found
-                    items[i].classList.add(hidden);
-                }
+        for (let i = 0; i < items.length; i++) {
+            let plz = items[i].getAttribute('data-plz').toUpperCase();
+            let cty = items[i].getAttribute('data-cty').toUpperCase();
+            if (plz.toUpperCase().indexOf(filter) > -1) { // check PLZ
+                items[i].classList.remove(hidden);
+                count = count + 1;
+            } else if (cty.toUpperCase().indexOf(filter) > -1) { // PLZ not found, check country
+                items[i].classList.remove(hidden);
+                count = count + 1;
+            } else { // nothing found
+                items[i].classList.add(hidden);
             }
-            result.html(count + ' Shops - <a href="javascript:clearSearch();">Reset</a>'); // print the seartch result
         }
+        result.html(count + ' Shops - <a href="javascript:clearSearch();">Reset</a>'); // print the seartch result
+    }
 
 {{< /highlight >}}
 
@@ -278,24 +278,24 @@ In order to achieve that, we're going to loop through all the markers currently 
 
 {{< highlight js >}}
 
-        // handle item clicks
-        item.click(function(){
-            let ct = $(this);
-            let pt = ct.parent(); // the data-* attributes are with the parent <div>
-            let pLat = pt.attr('data-lat');
-            let pLon = pt.attr('data-lon');
-            let id = pLat + '__' + pLon;
+    // handle item clicks
+    item.click(function(){
+        let ct = $(this);
+        let pt = ct.parent(); // the data-* attributes are with the parent <div>
+        let pLat = pt.attr('data-lat');
+        let pLon = pt.attr('data-lon');
+        let id = pLat + '__' + pLon;
 
-            if(!isEmpty(pLat) | !isEmpty(pLon)) {
-                // find the correct marker
-                markers.eachLayer(function(layer) {
-                    if(layer.options.key === id) {
-                        mymap.setView([pLat,pLon], 19); // move to the selected item and zoom in
-                        layer.openPopup()
-                    }
-                });
-            }
-        });
+        if(!isEmpty(pLat) | !isEmpty(pLon)) {
+            // find the correct marker
+            markers.eachLayer(function(layer) {
+                if(layer.options.key === id) {
+                    mymap.setView([pLat,pLon], 19); // move to the selected item and zoom in
+                    layer.openPopup()
+                }
+            });
+        }
+    });
 
 {{< /highlight >}}
 
@@ -307,18 +307,18 @@ We've got 2 reset functions - one for the search and another one for the map:
 
 {{< highlight js >}}
 
-        // reset map
-        function resetMap() {
-            mymap.closePopup();
-            mymap.setView([startLat, startLon], startZoom);
-        }
+    // reset map
+    function resetMap() {
+        mymap.closePopup();
+        mymap.setView([startLat, startLon], startZoom);
+    }
 
-        // clear search
-        function clearSearch() {
-            document.getElementById('storefinder').value = '';
-            findStore();
-            resetMap();
-        }
+    // clear search
+    function clearSearch() {
+        document.getElementById('storefinder').value = '';
+        findStore();
+        resetMap();
+    }
 
 {{< /highlight >}}
 

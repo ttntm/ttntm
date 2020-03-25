@@ -30,15 +30,15 @@ The file's structure is going to look like that:
 
 {{< highlight json >}}
 
-        [
-            {
-                "custName": "Contoso AG",
-                "custDesc": "Absolutely generic products and services.",
-                "custLogo": "contosoag",
-                "custLink": "https://contoso.com"
-            },
-            ...
-        ]
+    [
+        {
+            "custName": "Contoso AG",
+            "custDesc": "Absolutely generic products and services.",
+            "custLogo": "contosoag",
+            "custLink": "https://contoso.com"
+        },
+        ...
+    ]
 
 {{< /highlight >}}
 
@@ -58,11 +58,11 @@ The code for this procedure could look like that:
 
 {{< highlight html >}}
 
-        {{- range $i, $content := $.Site.Data.references | shuffle | first 6 -}}
-            <div class="col">
-                <img class="customer-img" src="/img/cust/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
-            </div>
-        {{ end }}
+    {{ range $i, $content := $.Site.Data.references | shuffle | first 6 }}
+        <div class="col">
+            <img class="customer-img" src="/img/cust/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
+        </div>
+    {{ end }}
 
 {{< /highlight >}}
 
@@ -72,21 +72,21 @@ A possible implementation of the whole selection, opening with a heading and fol
 
 {{< highlight html >}}
 
-        <div class="row">
-                <div class="col text-center">
-                    <h2>Customer References</h2>
-                    <p>These are only some of our customers...</p>
-                    <a href="/references" class="btn">Browse all Customer References</a>
-                </div>
+    <div class="row">
+            <div class="col text-center">
+                <h2>Customer References</h2>
+                <p>These are only some of our customers...</p>
+                <a href="/references" class="btn">Browse all Customer References</a>
             </div>
         </div>
-        <div class="row">
-            {{- range $i, $content := $.Site.Data.references | shuffle | first 6 -}}
-                <div class="col">
-                    <img class="customer-img" src="/img/cust/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
-                </div>
-            {{ end }}
-        </div>
+    </div>
+    <div class="row">
+        {{- range $i, $content := $.Site.Data.references | shuffle | first 6 -}}
+            <div class="col">
+                <img class="customer-img" src="/img/cust/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
+            </div>
+        {{ end }}
+    </div>
 
 {{< /highlight >}}
 
@@ -100,14 +100,14 @@ In order to do that, we'll have to make sure that the `/references` page exists.
 
 {{< highlight toml >}}
 
-        +++
-        title = "References"
-        layout = "reference"
-        description = "Information regarding our references"
-        +++
+    +++
+    title = "References"
+    layout = "reference"
+    description = "Information regarding our references"
+    +++
 
-        ## Reference Customers
-        ...
+    ## Reference Customers
+    ...
 
 {{< /highlight >}}
 
@@ -115,30 +115,30 @@ The respective template `references.html` is stored in the `/layouts/` folder an
 
 {{< highlight html >}}
 
-        {{ partial "head.html" . }}
-        {{ partial "header.html" . }}
-            <header class="header">
-                <!-- Page Header Content -->
-            </header>
-            <div class="container">
-                <!-- Main Content -->
-                <div class="row">
-                    {{- range $i, $content := $.Site.Data.references -}}
-                        {{- $counter :=add $i 1 -}}
-                        <div class="col-md-4">
-                            <div class="refcard text-center">
-                                <img class="img-center" src="/img/klg/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
-                                <h5>{{ $content.custName }}</h5>
-                                <p>{{ $content.custDesc }}</p>
-                                <p><a class="reflink" href="{{ $content.custLink }}" rel="noopener" target="_blank">Customer Website</a></p>
-                            </div>
+    {{ partial "head.html" . }}
+    {{ partial "header.html" . }}
+        <header class="header">
+            <!-- Page Header Content -->
+        </header>
+        <div class="container">
+            <!-- Main Content -->
+            <div class="row">
+                {{- range $i, $content := $.Site.Data.references -}}
+                    {{- $counter :=add $i 1 -}}
+                    <div class="col-md-4">
+                        <div class="refcard text-center">
+                            <img class="img-center" src="/img/klg/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
+                            <h5>{{ $content.custName }}</h5>
+                            <p>{{ $content.custDesc }}</p>
+                            <p><a class="reflink" href="{{ $content.custLink }}" rel="noopener" target="_blank">Customer Website</a></p>
                         </div>
-                        {{- if modBool $counter 3 -}}<div class="clearfix"></div>{{ end }}
-                    {{ end }}
-                </div>
+                    </div>
+                    {{- if modBool $counter 3 -}}<div class="clearfix"></div>{{ end }}
+                {{ end }}
             </div>
-        {{ partial "contact.html" . }}
-        {{ partial "footer.html" . }}
+        </div>
+    {{ partial "contact.html" . }}
+    {{ partial "footer.html" . }}
 
 {{< /highlight >}}
 

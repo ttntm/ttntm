@@ -1,0 +1,10 @@
+{{ $base := .Site.BaseURL }}
+{{ if isset .Params "tags" }}
+    <ul class="list-inline">
+    {{ range $index, $name := sort .Params.tags -}}
+        <li class="list-inline-item tag-item">
+            <a class="tag regular shadow-hover" href="{{ $base }}/tags/{{ urlize . }}">{{ lower . }}</a>
+        </li>
+    {{ end }}
+    </ul>
+{{ end }}

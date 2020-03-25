@@ -119,7 +119,7 @@ pre {
     overflow-x: auto;
 }
 
-p code {
+p code, li code {
     background-color: var(--lightest);
     padding: 0.125rem;
 }
@@ -347,7 +347,7 @@ button {
 
 .tag-item {
     margin-bottom: 0.5rem;
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
 }
 
 .form-control {
