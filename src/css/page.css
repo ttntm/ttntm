@@ -180,6 +180,7 @@ ul {
 }
 
 img {
+    display: block;
     vertical-align: middle;
     border-style: none;
 }
