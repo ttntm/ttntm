@@ -34,7 +34,9 @@ As described in the linked article, this simple "comment engine" basically works
 
 Here's a compact flowchart detailing the process:
 
-<img src="/img/blog/comment-flow.jpg" class="img-fluid img-center mb-5" alt="Flowchart comment engine">
+<img src="/img/blog/comment-flow.jpg" class="img-fluid img-center mb2" alt="Flowchart comment engine">
+
+> A more detailed version of this workflow can be found here: {{< link-ext "Static comments with Netlify" "bpm.wiki/diagram/Static-comments-with-Netlify-94">}}
 
 ### Hugo Configuration
 
