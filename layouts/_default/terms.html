@@ -1,0 +1,23 @@
+{{ define "main" }}
+	<div class="container">
+		<div class="flex flex-row justify-content-between align-items-baseline">
+            <h1 class="text-darkest m0">All Tags</h1>
+            <h6 class="m0">
+                <a class="text-dark" href="{{ .Site.BaseURL }}/feed.xml" target="_blank">RSS Feed</a>
+            </h6>
+        </div>
+		<div class="hr shadow"></div>
+		<div class="flex flex-row flex-wrap justify-content-start pt1">
+            {{ $base := .Site.BaseURL }}
+            {{ range sort .Pages ".Title" "asc" }}
+                <span class="d-block pr1 pb1">
+                    <a class="tag regular shadow-hover" href="{{ .Permalink }}">{{ .Title | lower }}</a>
+                </span>
+            {{ end }}
+		</div>
+        <div class="hr shadow"></div>
+        <h6 class="pt1">
+            <a href="{{ .Site.BaseURL }}/archive" class="btn">View Archive</a>
+        </h6>
+	</div>
+{{ end }}

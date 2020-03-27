@@ -252,6 +252,10 @@
     color: var(--light) !important;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .bold {
     font-weight: 700 !important;
 }

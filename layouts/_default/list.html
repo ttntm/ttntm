@@ -2,19 +2,30 @@
 	<div class="container">
 		<div class="flex flex-row justify-content-between align-items-baseline">
             {{ if eq .Kind "taxonomy" }}
-				<h1 class="text-darkest m0">Tag: {{ .Title }}</h1>
+				<h1 class="text-darkest m0">Tag: {{ .Title | lower }}</h1>
 			{{ else }}
 				<h1 class="text-darkest m0">Archive</h1>
 			{{ end }}
-            <h6 class="m0"><a class="text-dark" href="{{ .Site.BaseURL }}/feed.xml" target="_blank">RSS Feed</a></h6>
+            <h6 class="m0">
+				<a class="text-dark" href="{{ .Site.BaseURL }}/feed.xml" target="_blank">RSS Feed</a>
+			</h6>
         </div>
 		<div class="hr shadow"></div>
 		<div class="pt1">
-		{{ range .Pages }}
-			<div class="pb1">
-				{{ partial "post-preview" . }}
-			</div>
+		{{ range .Pages.GroupByDate "2006" }}
+			<h3 class="text-center text-dark m0">{{ .Key }}</h3>
+			<div class="hr shadow"></div>
+			{{ range .Pages }}
+				<div class="pb1">
+					{{ partial "post-preview" . }}
+				</div>
+			{{ end }}
 		{{ end }}
 		</div>
+		{{ if eq .Kind "taxonomy" }}
+			<h6>
+				<a href="{{ .Site.BaseURL }}/archive" class="btn">Show all Posts</a>
+			</h6>
+		{{ end }}
 	</div>
 {{ end }}
