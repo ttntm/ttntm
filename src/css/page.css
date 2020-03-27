@@ -171,6 +171,10 @@ ol, ul {
     padding-inline-start: 40px;
 }
 
+ol {
+    list-style: decimal;
+}
+
 ul {
     list-style-type: square;
 }

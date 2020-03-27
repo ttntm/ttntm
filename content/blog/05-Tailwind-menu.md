@@ -4,7 +4,7 @@ slug: tailwind-responsive-menu
 weight: -5
 type: blog
 date: 2018-09-20
-description: This article shows how to build a responsive menu/navigation with Tailwind CSS and also includes a CodePen example.
+description: This article shows how to build a responsive menu/navigation with Tailwind CSS and also includes a CodePen example. Updated 03/2020.
 tags:
     - css
     - howto
@@ -15,9 +15,9 @@ images:
 
 ## Tailwind CSS
 
-According to their docs:
+> Last updated: 03/2020
 
-> Tailwind is a utility-first CSS framework for rapidly building custom user interfaces.
+According to their docs, "**Tailwind is a utility-first CSS framework for rapidly building custom user interfaces.**"
 
 Being used to Bootstrap and/or other component based frameworks, this is quite a different approach.
 
@@ -37,7 +37,7 @@ Navigation is certainly one of the essentials when it comes to building a websit
 
 All of that should be achieved with the same header/menu and some JavaScript to check the scroll position and to provide expand/collapse functionality.
 
-### The Header
+### The Header and the Menu
 
 We're going to keep the custom CSS at a bare minimum, using Tailwind's classes as far as that's possible.
 
@@ -45,32 +45,27 @@ That's what our header is going to look like:
 
 {{< highlight html >}}
 
-    <header id="top" class="w-full flex flex-col pt-3 fixed sm:relative bg-white pin-t pin-r pin-l">
-        <div class="flex-row justify-center">
-            <!-- image here -->
-        </div>
-        <nav id="site-menu" class="hidden sm:flex flex-row flex-wrap sm:flex-no-wrap w-full justify-center self-center text-xl bg-transparent tracking-wide">
-            <a href="#home" class="w-full sm:w-auto text-center text-teal-dark hover:text-teal no-underline hover:bg-grey-lighter py-3 px-5">Home</a>
-            <!-- other menu items -->
-            <div class="w-full h-px bg-grey-light sm:hidden my-3">
-        </nav>
-        <div class="flex flex-row justify-between">
-            <!-- image here, goes to the left of the flex-row -->
-            <button class="sm:hidden self-end text-teal-dark hover:text-teal border border-teal-dark hover:border-teal px-3 py-2 mx-3" onclick="navToggle();">
-                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <title>Menu</title>
-                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
-                </svg>
+    <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l">
+    <nav id="site-menu" class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white shadow sm:shadow-none border-t-4 border-red-900">
+        <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
+            <a href="#" class="no-underline py-1">
+                <h1 class="font-bold text-lg tracking-widest">LOGO</h1>
+            </a>
+            <button id="menuBtn" class="hamburger block sm:hidden focus:outline-none" type="button" onclick="navToggle();">
+                <span class="hamburger__top-bun"></span>
+                <span class="hamburger__bottom-bun"></span>
             </button>
         </div>
-        <div class="w-full sm:w-2/3 h-px bg-grey-light mx-auto mt-3"></div>
+        <div id="menu" class="w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 hidden">
+            <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="https://ttntm.me/blog/tailwind-responsive-menu/" target="_blank">About</a>
+            <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="#bottom">Features</a>
+        </div>
+    </nav>
     </header>
 
 {{< /highlight >}}
 
-As you can see, there's the image, followed by the menu between the `nav` tags. Then there's another `flex-row` containing a smaller logo and a button to expand the collapsed menu on mobile devices.
-
-The menu button has an `onclick` attribute that runs a function called `navToggle()`. This function will make sure that the menu can expand/collapse when the button is pressed. The menu is placed above the button, so it should expand upward.
+There are 2 `div` elements here, first the navigation bar and then the menu with `id="menu"`. The menu button `menuBtn` has an `onclick` attribute that runs a function called `navToggle()`. This function will make sure that the menu can expand/collapse when the button is pressed.
 
 Tailwind is "mobile first", so its responsive utilities like `sm:hidden` work in a way that can be described as "valid *from* the specified breakpoint". So, `sm:hidden` translates to "hidden on screens larger than the defined `sm`-breakpoint" (default: 576px).
 
@@ -87,7 +82,12 @@ The function itself is rather simple and looks like this:
 {{< highlight js >}}
 
     function navToggle() {
+        var btn = document.getElementById('menuBtn');
+        var nav = document.getElementById('menu');
+
+        btn.classList.toggle('open');
         nav.classList.toggle('flex');
+        nav.classList.toggle('hidden');
     }
 
 {{< /highlight >}}
@@ -96,22 +96,22 @@ As shown in the larger code snippet above, the `nav` HTML-element is set to `hid
 
 #### Sticky Menu
 
-Scrolling down should make our `nav` stick to the top of the screen, providing persistent navigation to the users of the site.
+Scrolling down far enough should make our `nav` stick to the top of the screen on any screen larger than 576px, providing persistent navigation to the users of the site.
 
 To implement this functionality, we need to grab the `scroll` event and use it to add a class to the `nav` HTML-element to make it stick. This could be done as shown here:
 
 {{< highlight js >}}
 
-    var nav = document.getElementById('site-menu'); // this variable is also used for the navToggle() function
-    var bod = document.getElementsByTagName('body')[0];
+    var nav = document.getElementById('site-menu');
+    var header = document.getElementById('top');
 
     window.addEventListener('scroll', function() {
-        if (window.scrollY >=250) { // adjust this value based on your project
-            bod.classList.add('bod-pt-scroll');
+        if (window.scrollY >=400) { // adjust this value based on site structure and header image height
             nav.classList.add('nav-sticky');
+            header.classList.add('pt-scroll');
         } else {
-            bod.classList.remove('bod-pt-scroll');
             nav.classList.remove('nav-sticky');
+            header.classList.remove('pt-scroll');
         }
     });
 
@@ -126,23 +126,23 @@ In order to provide the necessary padding and the sticky-ness of the `nav`-eleme
 {{< highlight css >}}
 
     @media (max-width: 576px) {
-        body {
-            padding-top: 75px;
+        .content {
+            padding-top: 51px;
         }
     }
 
-    @media (min-width: 576px) {
-        .bod-pt-scroll {
-            padding-top: 50px;
+    @media (min-width: 577px) {
+        .pt-scroll {
+            padding-top: 51px;
         }
+
         .nav-sticky {
-            position: fixed;
+            position: fixed!important;
             min-width: 100%;
-            max-height: 50px;
             top: 0;
-            background-color: #3d4852!important;
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
             transition: all .25s ease-in;
+            z-index: 1;
         }
     }
 
@@ -156,5 +156,5 @@ Tailwind CSS is a very versatile, powerful and extremely customizable framework.
 
 I hope this article is beneficial to someone out there. Here's a pen and a link to the an excellent Tailwind cheatsheet for your convenience:
 
+- {{< link-ext CodePen "codepen.io/ttntm/full/dqaNPp" >}}
 - {{< link-ext Cheatsheet "nerdcave.com/tailwind-cheat-sheet" >}}
-- {{< link-ext CodePen "codepen.io/ttntm/pen/dqaNPp" >}}
