@@ -6,9 +6,10 @@ type: blog
 date: 2019-12-15
 description: Probably the easiest way of adding comments to your Hugo site.
 tags:
-    - javascript
+    - gulp
     - howto
     - hugo
+    - javascript
     - netlify
 images:
     - /img/blog/code.jpg
