@@ -209,8 +209,16 @@
 }
 
 @media (max-width: 767px) {
-    .w100-mobile {
+    .w100m {
         width: 100%;
+    }
+
+    .w75m {
+        width: 75%;
+    }
+
+    .w50m {
+        width: 50%;
     }
 }
 
