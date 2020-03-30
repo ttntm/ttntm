@@ -1,6 +1,6 @@
-<h2 class="mt2">Comments</h2>
+<h2 class="mt2">Leave a comment</h2>
 <div class="hr shadow"></div>
-<div class="w100m w75 py1 mx-auto">
+<div class="w100m w75 pt1 mx-auto">
     <div class="">
         <form name="BlogComments" action="/comment-thanks" method="POST" netlify-honeypot="bot-field" netlify>
             <input name="path" type="hidden" value="{{ .RelPermalink }}">
@@ -30,15 +30,16 @@
     {{ range . }}{{ if eq .path $thisPost }}{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}{{ end }}{{ end }}
 {{ end }}
 {{ if gt ($.Scratch.Get "counter") 0 }}{{/*  only show comment section if there are comments  */}}
-    <div class="py1">
+    <div class="mt2">
+        <h2 class="">Comments</h2>
+        <div class="hr shadow"></div>
     {{ range $comments }}
-        {{ range . }}
+        {{ range $index, $content := . }}
             {{ if eq .path $thisPost }}
-            <div class="py1">
-                <div class="p1">
-                    <i><span class="small">{{ .name }}</span><span class="small"> on {{ .date | dateFormat "Mon, 02 Jan. 2006, 15:04 MST" }}</span></i>
-                    <p class="">{{ .comment }}</p>
-                </div>
+            <div class="px1{{- if gt $index 0 -}} pt1{{- end -}}">
+                <em><span class="small text-sec bold">&mdash; {{ .name }} on {{ .date | dateFormat "Mon, 02 Jan. 2006, 15:04 MST" }}</span></em>
+                <p class="">{{ .comment }}</p>
+                <div class="hr shadow"></div>
             </div>
             {{ end }}
         {{ end }}
