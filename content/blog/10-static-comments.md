@@ -21,7 +21,7 @@ Working for friends and family is always quite a bit of an extra challenge, as "
 
 There's a fair amount of "out of the box" 3rd party services you can use, an overview can be found in the {{< link-ext "Hugo Docs" "gohugo.io/content-management/comments/" >}}. That's not what I was after though - I wanted something lightweight and free that also conforms with the requirements the GDPR brought along in 2018.
 
-After some extensive research and hours of studying various services' documentations, I came across an article called {{< link-ext "JAMstack Comments" "gohugo.io/content-management/comments/" >}} on css-tricks.com. Lucky for me, that was exactly what I was looking for, even more complex than needed.
+After some extensive research and hours of studying various services' documentations, I came across an article called {{< link-ext "JAMstack Comments" "css-tricks.com/jamstack-comments/" >}} on css-tricks.com. Lucky for me, that was exactly what I was looking for, even more complex than needed.
 
 So, the following article will describe what I'd summarize as "probably the easiest way of adding comments to your Hugo site". So, taking into consideration that this site also has a comment section now, please feel free to let me know your opinion. 😉
 
@@ -166,51 +166,51 @@ Now, on to `gulpfile.js` - we'll first add `var buildSrc = "./";`, then proceed 
 
     gulp.task("get-comments", function (done) {
 
-    // set up the request with appropriate auth token and Form ID
-    var url = `https://api.netlify.com/api/v1/forms/${process.env.COMMENT_FORM_ID}/submissions/?access_token=${process.env.API_AUTH}`;
+        // set up the request with appropriate auth token and Form ID
+        var url = `https://api.netlify.com/api/v1/forms/${process.env.COMMENT_FORM_ID}/submissions/?access_token=${process.env.API_AUTH}`;
 
-    // get the data from Netlify's submissions API
-    request(url, function(err, response, body){
-        if(!err && response.statusCode === 200){
-        console.log("Submissions found");
-        var body = JSON.parse(body);
-        var comments = {};
+        // get the data from Netlify's submissions API
+        request(url, function(err, response, body){
+            if(!err && response.statusCode === 200){
+                console.log("Submissions found");
+                var body = JSON.parse(body);
+                var comments = {};
 
-        // shape the data
-        for(var item in body){
-            var data = body[item].data;
+                // shape the data
+                for(var item in body){
+                    var data = body[item].data;
 
-            var comment = {
-            name: data.Name,
-            comment: data.Comment,
-            path: data.path,
-            date: body[item].created_at
-            };
+                    var comment = {
+                        name: data.Name,
+                        comment: data.Comment,
+                        path: data.path,
+                        date: body[item].created_at
+                    };
 
-            // Add it to an existing array or create a new one
-            if(comments[data.path]){
-            comments[data.path].push(comment);
+                    // Add it to an existing array or create a new one
+                    if(comments[data.path]){
+                        comments[data.path].push(comment);
+                    } else {
+                        comments[data.path] = [comment];
+                    }
+                }
+
+                // write our data to a file where Hugo can get it.
+                fs.writeFile(buildSrc + "data/comments.json", JSON.stringify(comments, null, 2), function(err) {
+                    if(err) {
+                        console.log(err);
+                        done();
+                    } else {
+                        console.log("Comments data saved.");
+                        done();
+                    }
+                });
+
             } else {
-            comments[data.path] = [comment];
-            }
-        }
-
-        // write our data to a file where Hugo can get it.
-        fs.writeFile(buildSrc + "data/comments.json", JSON.stringify(comments, null, 2), function(err) {
-            if(err) {
-            console.log(err);
-            done();
-            } else {
-            console.log("Comments data saved.");
-            done();
+                console.log("Couldn't get comments from Netlify");
+                done();
             }
         });
-
-        } else {
-        console.log("Couldn't get comments from Netlify");
-        done();
-        }
-    });
     });
 
 {{< /highlight >}}
