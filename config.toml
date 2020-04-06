@@ -2,7 +2,7 @@
 baseurl = "https://ttntm.me"
 publishdir = "public"
 DefaultContentLanguage = "en"
-canonifyUrls = "false"
+canonifyUrls = false
 googleAnalytics = ""
 # pygmentsUseClasses = "true"
 PygmentsCodeFences = true
@@ -64,8 +64,8 @@ blog = "blog/:slug/"
 
 [related]
 threshold = 80
-includeNewer = "true"
-toLower = "false"
+includeNewer = true
+toLower = true
 [[related.indices]]
     name = "tags"
     weight = 100
