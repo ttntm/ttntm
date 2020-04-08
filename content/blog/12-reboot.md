@@ -4,7 +4,7 @@ slug: reboot-catharsis
 weight: -12
 type: blog
 date: 2020-03-24
-description: "Spring cleaning. Or how to ditch Bootstrap etc. and end up with a new, faster website."
+description: "Spring cleaning. Or how to ditch Bootstrap, all JavaScript, jQuery etc. and end up with a new, faster website."
 tags:
     - CSS
     - personal
@@ -45,10 +45,10 @@ I proceeded to write my own CSS from scratch (based on Eric Meyer's CSS reset) a
 
 {{< highlight js>}}
 
-    window.addEventListener('load', function() {
-        console.log('JavaScript: 404');
-        console.log('Check the repo here: https://github.com/ttntm/ttntm');
-    });
+window.addEventListener('load', function() {
+    console.log('JavaScript: 404');
+    console.log('Check the repo here: https://github.com/ttntm/ttntm');
+});
 
 {{< /highlight >}}
 

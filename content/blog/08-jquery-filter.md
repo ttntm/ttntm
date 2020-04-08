@@ -30,27 +30,29 @@ _All CSS is going to be missing here, but it's included in the CodePen example._
 
 In order to make the portfolio manageable, the site was set up using Hugo's so called "Page Bundles" ({{< link-ext "Hugo Docs" "gohugo.io/content-management/page-bundles/" >}}), lots of shortcodes and customized metadata in each portfolio item's front matter:
 
-    ---
-    title: Example Case
-    client: Example Corp.
-    team: Homer Simpson (art director), Peter Griffin (designer), Burt Reynolds (badass)
-    works:
-    - work: branding
-    - work: identity
-    resources:
-    - name: hero
-      src: hero.png
-    - name: overview
-      src: overview.png
-    - name: detail
-      src: detail.png
-    - name: intro
-      src: intro.md
-    - name: description1
-      src: description1.md
-    - name: description2
-      src: description2.md
-    ---
+{{< highlight yaml >}}
+
+title: Example Case
+client: Example Corp.
+team: Homer Simpson (art director), Peter Griffin (designer), Burt Reynolds (badass)
+works:
+- work: branding
+- work: identity
+resources:
+- name: hero
+    src: hero.png
+- name: overview
+    src: overview.png
+- name: detail
+    src: detail.png
+- name: intro
+    src: intro.md
+- name: description1
+    src: description1.md
+- name: description2
+    src: description2.md
+
+{{< /highlight >}}
 
 As shown above, each portfolio item gets categorized with `work` elements. This categorization will serve as the backbone for the filter. Due to the requirement of the filter providing multiselect functionality, the front matter section "works" also has to provide an array that can hold multiple values (= portfolio item categories).
 
@@ -64,16 +66,16 @@ The page template starts with the filters below the standard page header:
 
 {{< highlight html >}}
 
-    <div class="row">
-        <div class="col">
-        <div id="filters" class="d-flex flex-row flex-wrap justify-content-between mb-5">
-            <span class="works-filter flex-grow-1 w-sm-100 my-2" data-filter="catA">Category A</span>
-            <span class="works-filter flex-grow-1 w-sm-100 my-2" data-filter="catB">Category B</span>
-            <span class="works-filter flex-grow-1 w-sm-100 my-2" data-filter="catC">Category C</span>
-            <span class="text-right works-filter flex-grow-1 w-sm-100 my-2 showAll" data-filter="all">All Projects</span>
-        </div>
-        </div>
+<div class="row">
+    <div class="col">
+    <div id="filters" class="d-flex flex-row flex-wrap justify-content-between mb-5">
+        <span class="works-filter flex-grow-1 w-sm-100 my-2" data-filter="catA">Category A</span>
+        <span class="works-filter flex-grow-1 w-sm-100 my-2" data-filter="catB">Category B</span>
+        <span class="works-filter flex-grow-1 w-sm-100 my-2" data-filter="catC">Category C</span>
+        <span class="text-right works-filter flex-grow-1 w-sm-100 my-2 showAll" data-filter="all">All Projects</span>
     </div>
+    </div>
+</div>
 
 {{< /highlight >}}
 
@@ -83,13 +85,13 @@ The actual portfolio items are displayed below the filters as a 2-column grid:
 
 {{< highlight html >}}
 
-    <div class="row">
-        {{ range .Pages }}
-            <div class="col-sm-12 col-md-6 gap-y workItem show-workItem {{range .Params.works }}{{ .work | urlize }} {{ end }}">
-                {{ partial "img+overlay.html" . }}
-            </div>
-        {{ end }}
-    </div>
+<div class="row">
+    {{ range .Pages }}
+        <div class="col-sm-12 col-md-6 gap-y workItem show-workItem {{range .Params.works }}{{ .work | urlize }} {{ end }}">
+            {{ partial "img+overlay.html" . }}
+        </div>
+    {{ end }}
+</div>
 
 {{< /highlight >}}
 
@@ -99,22 +101,22 @@ The images, each portfolio item's respective `hero` resource, are rendered by th
 
 {{< highlight html >}}
 
-    {{ $scImg := .Resources.GetMatch "hero" }}
-    <div class="img-container m-0 p-0">
-        <img src="/img/loading.svg" data-src="{{ $scImg.RelPermalink }}" class="img-lazy img-center img-fluid img-showcase">
-        <div class="overlay d-flex flex-column align-items-center justify-content-center">
-            <h2 class=""><a class="link-overlay" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
-            <p class="d-block small">
-                {{range $index, $tag := .Params.works }}
-                    {{- if eq $index 0 -}}
-                        {{ .work }}
-                    {{- else -}}
-                        , {{ .work }}
-                    {{- end -}}
-                {{ end }}
-            </p>
-        </div>
+{{ $scImg := .Resources.GetMatch "hero" }}
+<div class="img-container m-0 p-0">
+    <img src="/img/loading.svg" data-src="{{ $scImg.RelPermalink }}" class="img-lazy img-center img-fluid img-showcase">
+    <div class="overlay d-flex flex-column align-items-center justify-content-center">
+        <h2 class=""><a class="link-overlay" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
+        <p class="d-block small">
+            {{range $index, $tag := .Params.works }}
+                {{- if eq $index 0 -}}
+                    {{ .work }}
+                {{- else -}}
+                    , {{ .work }}
+                {{- end -}}
+            {{ end }}
+        </p>
     </div>
+</div>
 
 {{< /highlight >}}
 
@@ -134,14 +136,14 @@ We're going to store our filter functionality in jQuery's `$(document).ready(fun
 
 {{< highlight js >}}
 
-    $(document).ready(function(){
+$(document).ready(function(){
 
-        var $filters = $('.works-filter'); // find the filters
-        var $works = $('.workItem'); // find the portfolio items
-        var showAll = $('.showAll'); // identify the "show all" button
+    var $filters = $('.works-filter'); // find the filters
+    var $works = $('.workItem'); // find the portfolio items
+    var showAll = $('.showAll'); // identify the "show all" button
 
-        var cFilter, cFilterData; // declare a variable to store the filter and one for the data to filter by
-        var filtersActive = []; // an array to store the active filters
+    var cFilter, cFilterData; // declare a variable to store the filter and one for the data to filter by
+    var filtersActive = []; // an array to store the active filters
 
 {{< /highlight >}}
 
@@ -151,13 +153,13 @@ Next, we're going to handle the `click` event for our filters:
 
 {{< highlight js >}}
 
-    $filters.click(function(){ // if filters are clicked
-        cFilter = $(this);
-        cFilterData = cFilter.attr('data-filter'); // read filter value
+$filters.click(function(){ // if filters are clicked
+    cFilter = $(this);
+    cFilterData = cFilter.attr('data-filter'); // read filter value
 
-        highlightFilter();
-        applyFilter();
-    });
+    highlightFilter();
+    applyFilter();
+});
 
 {{< /highlight >}}
 
@@ -167,21 +169,21 @@ The `click` event checks for the value of our attribute `data-filter` and then p
 
 {{< highlight js >}}
 
-    function highlightFilter () {
-        var filterClass = 'works-filter-active';
-        if (cFilter.hasClass(filterClass)) {
-            cFilter.removeClass(filterClass);
-            removeActiveFilter(cFilterData);
-        } else if (cFilter.hasClass('showAll')) {
-            $filters.removeClass(filterClass);
-            filtersActive = []; // clear the array
-            cFilter.addClass(filterClass);
-        } else {
-            showAll.removeClass(filterClass);
-            cFilter.addClass(filterClass);
-            filtersActive.push(cFilterData);
-        }
+function highlightFilter () {
+    var filterClass = 'works-filter-active';
+    if (cFilter.hasClass(filterClass)) {
+        cFilter.removeClass(filterClass);
+        removeActiveFilter(cFilterData);
+    } else if (cFilter.hasClass('showAll')) {
+        $filters.removeClass(filterClass);
+        filtersActive = []; // clear the array
+        cFilter.addClass(filterClass);
+    } else {
+        showAll.removeClass(filterClass);
+        cFilter.addClass(filterClass);
+        filtersActive.push(cFilterData);
     }
+}
 
 {{< /highlight >}}
 
@@ -195,23 +197,23 @@ Now, having determined the state of our filters and most importantly the `filter
 
 {{< highlight js >}}
 
-    function applyFilter() {
-        // go through all portfolio items and hide/show as necessary
-        $works.each(function(){
-            var i;
-            var classes = $(this).attr('class').split(' ');
-            if (cFilter.hasClass('showAll') || filtersActive.length == 0) { // makes sure we catch the array when its empty and revert to the default of showing all items
-                $works.addClass('show-workItem'); //show them all
-            } else {
-                $(this).removeClass('show-workItem');
-                for (i = 0; i < classes.length; i++) {
-                    if (filtersActive.indexOf(classes[i]) > -1) {
-                        $(this).addClass('show-workItem');
-                    }
+function applyFilter() {
+    // go through all portfolio items and hide/show as necessary
+    $works.each(function(){
+        var i;
+        var classes = $(this).attr('class').split(' ');
+        if (cFilter.hasClass('showAll') || filtersActive.length == 0) { // makes sure we catch the array when its empty and revert to the default of showing all items
+            $works.addClass('show-workItem'); //show them all
+        } else {
+            $(this).removeClass('show-workItem');
+            for (i = 0; i < classes.length; i++) {
+                if (filtersActive.indexOf(classes[i]) > -1) {
+                    $(this).addClass('show-workItem');
                 }
             }
-        });
-    }
+        }
+    });
+}
 
 {{< /highlight >}}
 
@@ -223,12 +225,12 @@ There's still another function that was mentioned above and that's called `remov
 
 {{< highlight js >}}
 
-    function removeActiveFilter(item) {
-        var index = filtersActive.indexOf(item);
-        if (index > -1) {
-            filtersActive.splice(index, 1);
-        }
+function removeActiveFilter(item) {
+    var index = filtersActive.indexOf(item);
+    if (index > -1) {
+        filtersActive.splice(index, 1);
     }
+}
 
 {{< /highlight >}}
 

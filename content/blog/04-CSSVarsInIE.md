@@ -40,34 +40,34 @@ In order to check for IE, we're going to add the following JavaScript to our sit
 
 {{< highlight js >}}
 
-    var MSLegacy = checkForIE();
-
-    if (MSLegacy !== false) {
-        var insert = document.getElementsByTagName('head')[0];
-        var script = document.createElement('script');
-        script.setAttribute('src', '/js/css-vars-ponyfill.min.js');
-        insert.appendChild(script);
-        console.log('IE found, adding ponyfill.')
-    } else {
-        console.log('This is not the IE you are looking for...')
+function checkForIE() {
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf('MSIE ');
+    if (msie > 0) {
+        // IE 10 or older => return version number
+        return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
     }
-
-    function checkForIE() {
-        var ua = window.navigator.userAgent;
-        var msie = ua.indexOf('MSIE ');
-        if (msie > 0) {
-            // IE 10 or older => return version number
-            return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
-        }
-        var trident = ua.indexOf('Trident/');
-        if (trident > 0) {
-            // IE 11 => return version number
-            var rv = ua.indexOf('rv:');
-            return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
-        }
-        // all the other browsers
-        return false;
+    var trident = ua.indexOf('Trident/');
+    if (trident > 0) {
+        // IE 11 => return version number
+        var rv = ua.indexOf('rv:');
+        return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
     }
+    // all the other browsers
+    return false;
+}
+
+var MSLegacy = checkForIE();
+
+if (MSLegacy !== false) {
+    var insert = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.setAttribute('src', '/js/css-vars-ponyfill.min.js');
+    insert.appendChild(script);
+    console.log('IE found, adding ponyfill.')
+} else {
+    console.log('This is not the IE you are looking for...')
+}
 
 {{< /highlight >}}
 
@@ -87,13 +87,13 @@ Simply adding the ponyfill to a page won't do the trick, it also has to be execu
 
 {{< highlight js>}}
 
-    $(document).ready(function(){
-        //some code...
+$(document).ready(function(){
+    //some code...
 
-        if (MSLegacy !== false) {cssVars();};
+    if (MSLegacy !== false) {cssVars();};
 
-        //some more code...
-    });
+    //some more code...
+});
 
 {{< /highlight >}}
 
@@ -113,10 +113,10 @@ Putting `cssVars()` into an _EventListener_ instead helped here:
 
 {{< highlight js>}}
 
-    window.addEventListener('load', function() {
-        if (MSLegacy !== false) {
-            cssVars();
-        }
-    });
+window.addEventListener('load', function() {
+    if (MSLegacy !== false) {
+        cssVars();
+    }
+});
 
 {{< /highlight >}}

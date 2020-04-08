@@ -47,31 +47,31 @@ Hugo supports so called {{< link-ext "Partial Templates" "gohugo.io/templates/pa
 
 {{< highlight html >}}
 
-    <div class="row mt-3 mb-5">
-        <div class="col-sm-12 mt-3">
-            <h2>Comments</h2>
-        </div>
-        <div class="col-sm-12 col-lg-8 offset-lg-2">
-            <form name="BlogComments" action="/comment-thanks" method="POST" netlify-honeypot="bot-field" netlify>
-                <input name="path" type="hidden" value="{{ .RelPermalink }}">
-                <input name="bot-field" type="hidden">
-                <div class="form-group">
-                    <label for="inputName"><h4 class="mb-0">Name</h4></label>
-                    <input name="Name" type="name" class="form-control" id="inputName" placeholder="John Doe" required>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail"><h4 class="mb-0">Email address</h4></label>
-                    <input name="Email" type="email" class="form-control" id="inputEmail" placeholder="john.doe@example.com" required>
-                    <span class="small">Confidential, will not be shared with anyone or published here.</span>
-                </div>
-                <div class="form-group">
-                    <label for="inputComment"><h4 class="mb-0">Comment</h4></label>
-                    <textarea name="Comment" class="form-control" id="inputComment" placeholder="Your comment..." style="height: 150px; resize: none;" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary px-3"><i class="fas fa-comment"></i>&nbsp;&nbsp;Submit Comment</button>
-            </form>
-        </div>
+<div class="row mt-3 mb-5">
+    <div class="col-sm-12 mt-3">
+        <h2>Comments</h2>
     </div>
+    <div class="col-sm-12 col-lg-8 offset-lg-2">
+        <form name="BlogComments" action="/comment-thanks" method="POST" netlify-honeypot="bot-field" netlify>
+            <input name="path" type="hidden" value="{{ .RelPermalink }}">
+            <input name="bot-field" type="hidden">
+            <div class="form-group">
+                <label for="inputName"><h4 class="mb-0">Name</h4></label>
+                <input name="Name" type="name" class="form-control" id="inputName" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail"><h4 class="mb-0">Email address</h4></label>
+                <input name="Email" type="email" class="form-control" id="inputEmail" placeholder="john.doe@example.com" required>
+                <span class="small">Confidential, will not be shared with anyone or published here.</span>
+            </div>
+            <div class="form-group">
+                <label for="inputComment"><h4 class="mb-0">Comment</h4></label>
+                <textarea name="Comment" class="form-control" id="inputComment" placeholder="Your comment..." style="height: 150px; resize: none;" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary px-3"><i class="fas fa-comment"></i>&nbsp;&nbsp;Submit Comment</button>
+        </form>
+    </div>
+</div>
 
 {{< /highlight >}}
 
@@ -87,17 +87,17 @@ Keep the `input` named `path` in mind, we'll need that later on. Also, don't for
 
 {{< highlight html >}}
 
-    <div class="container">
-        <div class="row mt-3">
-            <div class="col pt-3 mkd">
-                {{ .Content }}
-            </div>
+<div class="container">
+    <div class="row mt-3">
+        <div class="col pt-3 mkd">
+            {{ .Content }}
         </div>
-        {{ partial "blog/meta.html" . }}
-        {{ partial "blog/nextprev.html" . }}
-        {{ partial "blog/comments.html" . }}
-        {{ partial "blog/related.html" . }}
     </div>
+    {{ partial "blog/meta.html" . }}
+    {{ partial "blog/nextprev.html" . }}
+    {{ partial "blog/comments.html" . }}
+    {{ partial "blog/related.html" . }}
+</div>
 
 {{< /highlight >}}
 
@@ -141,11 +141,11 @@ Based on that, `gulpfile.js` starts like this now:
 
 {{< highlight js >}}
 
-    var gulp = require('gulp'),
-        ...
-        request = require('request'),
-        fs = require('fs'),
-        config = require('dotenv').config();
+var gulp = require('gulp'),
+    ...
+    request = require('request'),
+    fs = require('fs'),
+    config = require('dotenv').config();
 
 {{< /highlight >}}
 
@@ -162,56 +162,56 @@ Now, on to `gulpfile.js` - we'll first add `var buildSrc = "./";`, then proceed 
 
 {{< highlight js >}}
 
-    var buildSrc = "./";
+var buildSrc = "./";
 
-    gulp.task("get-comments", function (done) {
+gulp.task("get-comments", function (done) {
 
-        // set up the request with appropriate auth token and Form ID
-        var url = `https://api.netlify.com/api/v1/forms/${process.env.COMMENT_FORM_ID}/submissions/?access_token=${process.env.API_AUTH}`;
+    // set up the request with appropriate auth token and Form ID
+    var url = `https://api.netlify.com/api/v1/forms/${process.env.COMMENT_FORM_ID}/submissions/?access_token=${process.env.API_AUTH}`;
 
-        // get the data from Netlify's submissions API
-        request(url, function(err, response, body){
-            if(!err && response.statusCode === 200){
-                console.log("Submissions found");
-                var body = JSON.parse(body);
-                var comments = {};
+    // get the data from Netlify's submissions API
+    request(url, function(err, response, body){
+        if(!err && response.statusCode === 200){
+            console.log("Submissions found");
+            var body = JSON.parse(body);
+            var comments = {};
 
-                // shape the data
-                for(var item in body){
-                    var data = body[item].data;
+            // shape the data
+            for(var item in body){
+                var data = body[item].data;
 
-                    var comment = {
-                        name: data.Name,
-                        comment: data.Comment,
-                        path: data.path,
-                        date: body[item].created_at
-                    };
+                var comment = {
+                    name: data.Name,
+                    comment: data.Comment,
+                    path: data.path,
+                    date: body[item].created_at
+                };
 
-                    // Add it to an existing array or create a new one
-                    if(comments[data.path]){
-                        comments[data.path].push(comment);
-                    } else {
-                        comments[data.path] = [comment];
-                    }
+                // Add it to an existing array or create a new one
+                if(comments[data.path]){
+                    comments[data.path].push(comment);
+                } else {
+                    comments[data.path] = [comment];
                 }
-
-                // write our data to a file where Hugo can get it.
-                fs.writeFile(buildSrc + "data/comments.json", JSON.stringify(comments, null, 2), function(err) {
-                    if(err) {
-                        console.log(err);
-                        done();
-                    } else {
-                        console.log("Comments data saved.");
-                        done();
-                    }
-                });
-
-            } else {
-                console.log("Couldn't get comments from Netlify");
-                done();
             }
-        });
+
+            // write our data to a file where Hugo can get it.
+            fs.writeFile(buildSrc + "data/comments.json", JSON.stringify(comments, null, 2), function(err) {
+                if(err) {
+                    console.log(err);
+                    done();
+                } else {
+                    console.log("Comments data saved.");
+                    done();
+                }
+            });
+
+        } else {
+            console.log("Couldn't get comments from Netlify");
+            done();
+        }
     });
+});
 
 {{< /highlight >}}
 
@@ -229,28 +229,28 @@ In order to get that done, we're going to make Hugo access our JSON data file, p
 
 {{< highlight html >}}
 
-    {{ $thisPost := .RelPermalink }}
-    {{ $comments := .Site.Data.comments }}
-    {{ $.Scratch.Set "counter" 0 }}
+{{ $thisPost := .RelPermalink }}
+{{ $comments := .Site.Data.comments }}
+{{ $.Scratch.Set "counter" 0 }}
+{{ range $comments }}
+    {{ range . }}{{ if eq .path $thisPost }}{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}{{ end }}{{ end }}
+{{ end }}
+{{ if gt ($.Scratch.Get "counter") 0 }}{{/*  only show comment section if there are comments  */}}
+    <div class="row mb-5">
     {{ range $comments }}
-        {{ range . }}{{ if eq .path $thisPost }}{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}{{ end }}{{ end }}
-    {{ end }}
-    {{ if gt ($.Scratch.Get "counter") 0 }}{{/*  only show comment section if there are comments  */}}
-        <div class="row mb-5">
-        {{ range $comments }}
-            {{ range . }}
-                {{ if eq .path $thisPost }}
-                <div class="col-sm-12 py-3">
-                    <div class="shadow-sm px-4 py-4">
-                        <i><span class="small">{{ .name }}</span><span class="small"> on {{ .date | dateFormat "Mon, 02 Jan. 2006, 15:04 MST" }}</span></i>
-                        <p class="px-3 mt-3 mb-0">{{ .comment }}</p>
-                    </div>
+        {{ range . }}
+            {{ if eq .path $thisPost }}
+            <div class="col-sm-12 py-3">
+                <div class="shadow-sm px-4 py-4">
+                    <i><span class="small">{{ .name }}</span><span class="small"> on {{ .date | dateFormat "Mon, 02 Jan. 2006, 15:04 MST" }}</span></i>
+                    <p class="px-3 mt-3 mb-0">{{ .comment }}</p>
                 </div>
-                {{ end }}
+            </div>
             {{ end }}
         {{ end }}
-        </div>
     {{ end }}
+    </div>
+{{ end }}
 
 {{< /highlight >}}
 
@@ -274,11 +274,11 @@ Then, open your `package.json` and make sure to include this task in the `script
 
 {{< highlight js >}}
 
-    "scripts": {
-        ...
-        "deploy": "gulp build && hugo --minify"
-    },
+"scripts": {
     ...
+    "deploy": "gulp build && hugo --minify"
+},
+...
 
 {{< /highlight >}}
 
@@ -286,9 +286,9 @@ Finally, update (or create) your `netlify.toml`:
 
 {{< highlight toml >}}
 
-    [build]
-    publish = "public"
-    command = "npm run deploy"
+[build]
+publish = "public"
+command = "npm run deploy"
 
 {{< /highlight >}}
 

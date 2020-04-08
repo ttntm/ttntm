@@ -17,6 +17,27 @@ Currently, I work as a senior consultant for a small Austrian software developme
 
 There's a lot of customization options in our products and solutions, so I've got to deal with anything from HTML, CSS and JavaScript to SVG and VBA on a day to day basis. I'm also involved in product management, release planning, systems and application architecture and requirements engineering.
 
+## Learn/Explore/Discover
+
+A collection of articles I plan on going through: {{< link-ext "Notion - Reading List" "www.notion.so/Reading-List-5c40001640f3441ab36dbc9be9ff88b0" >}}
+
+It's important to keep learning - personal ToDos in no particular order:
+
+- FCC JS certification
+- SVG animations
+- SASS/SCSS
+- Vue
+- React
+- 11ty
+- GatsbyJS
+- node.js/express
+
+<small>Last update: 04/2020</small>
+
+## Things I Did
+
+{{< projects >}}
+
 ## Used on this Website
 
 Overview of the resources used for this site in its current state.
@@ -26,24 +47,3 @@ Overview of the resources used for this site in its current state.
 - gulp with `postcss`, `concat-css` and `cssnano`
 - "Ubuntu" font family
 - Netlify
-
-## Learn/Explore/Discover
-
-I plan on learning new things and messing around with shiny new tools.
-
-This is a short list of my personal ToDos in no particular order:
-
-- <s>Tailwind CSS</s>
-- <s>Gulp</s>
-- <s>Figma</s>
-- SASS/SCSS
-- node.js/express
-- GatsbyJS
-- SVG animations
-- Vue
-- React
-- 11ty
-
-## Things I Did
-
-Here's a brief overview of projects I was/am involved in:

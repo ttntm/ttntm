@@ -26,11 +26,11 @@ According to the linked gist, the template for the JSON index `index.json` is re
 
 {{< highlight GO >}}
 
-    {{- $.Scratch.Add "index" slice -}}
-    {{- range .Site.RegularPages -}}
-        {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "categories" .Params.categories "contents" .Plain "permalink" .Permalink) -}}
-    {{- end -}}
-    {{- $.Scratch.Get "index" | jsonify -}}
+{{- $.Scratch.Add "index" slice -}}
+{{- range .Site.RegularPages -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "categories" .Params.categories "contents" .Plain "permalink" .Permalink) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
 
 {{< /highlight>}}
 
@@ -56,29 +56,29 @@ After a while of messing around with the `index.json` template, I ended up with 
 
 {{< highlight GO >}}
 
-    {{- $.Scratch.Add "index" slice -}}
-    {{- range .Site.RegularPages -}}
-        {{- if and eq .Layout "services" -}}
-            {{- $md := .Resources.Match "**.md" -}}
-            {{- $sc := newScratch -}}
-                {{- $sc.Add "ct" .Description | markdownify -}}
+{{- $.Scratch.Add "index" slice -}}
+{{- range .Site.RegularPages -}}
+    {{- if and eq .Layout "services" -}}
+        {{- $md := .Resources.Match "**.md" -}}
+        {{- $sc := newScratch -}}
+            {{- $sc.Add "ct" .Description | markdownify -}}
+            {{- $sc.Add "ct" ", " -}}
+            {{- with $.Params.intro -}}
+                {{- $sc.Add "ct" .Params.intro | markdownify -}}
                 {{- $sc.Add "ct" ", " -}}
-                {{- with $.Params.intro -}}
-                    {{- $sc.Add "ct" .Params.intro | markdownify -}}
-                    {{- $sc.Add "ct" ", " -}}
-                {{- end -}}
-                {{- range $md -}}
-                    {{- $sc.Add "ct" .Title | markdownify -}}
-                    {{- $sc.Add "ct" ", " -}}
-                    {{- $sc.Add "ct" .Content -}}
-                {{- end -}}
-            {{- $content := $sc.Get "ct" | plainify -}}
-            {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "content" $content "permalink" .Permalink) -}}
-        {{- else -}}
-            {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "content" .Plain "permalink" .Permalink) -}}
-        {{- end -}}
+            {{- end -}}
+            {{- range $md -}}
+                {{- $sc.Add "ct" .Title | markdownify -}}
+                {{- $sc.Add "ct" ", " -}}
+                {{- $sc.Add "ct" .Content -}}
+            {{- end -}}
+        {{- $content := $sc.Get "ct" | plainify -}}
+        {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "content" $content "permalink" .Permalink) -}}
+    {{- else -}}
+        {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "content" .Plain "permalink" .Permalink) -}}
     {{- end -}}
-    {{- $.Scratch.Get "index" | jsonify -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
 
 {{< /highlight>}}
 
