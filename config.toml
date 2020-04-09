@@ -7,6 +7,7 @@ googleAnalytics = ""
 # pygmentsUseClasses = "true"
 PygmentsCodeFences = true
 PygmentsStyle = "tango"
+# PygmentsOptions = "linenos=inline" -- line numbers for code blocks
 
 [outputs]
     home = ["HTML","RSS"]
