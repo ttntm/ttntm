@@ -245,11 +245,11 @@ nav {
     margin-bottom: 2rem;
 }
 
-@media(min-width:1024px) {
+/* @media(min-width:1024px) { -- NAH
     nav {
         background: linear-gradient(180deg, var(--lightest), var(--white));
     }
-}
+} */
 
 .logo {
     background-color: transparent;
