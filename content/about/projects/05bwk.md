@@ -1,6 +1,6 @@
 ---
 title: "BPM.WIKI"
-description: "Service/systems architecture and UX/UI design for BPM.WIKI, a platform/community for process knowledge."
+description: "Service/systems architecture and UX/UI design for BPM.WIKI, a platform and community for process knowledge."
 when: From 06/2019
 cUrl: "https://bpm.wiki"
 weight: 5
