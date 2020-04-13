@@ -24,7 +24,7 @@ In doing so, I've started using local template project folders that just needed 
 
 So, here's the rundown.
 
-Trusty old {{< link-ext "gulp" "gulpjs.com" >}} handles Tailwind builds via `postcss` with 2 gulp tasks called `dev-css` and `build-css`. I'm sticking to gulp as my "swiss army knife"; it's small, powerful and overall another one of those tools that "just work", no matter what you throw at them.
+Trusty old {{< link-ext "gulp" "gulpjs.com" >}} handles Tailwind builds via PostCSS with 2 gulp tasks called `dev-css` and `build-css`. I'm sticking to gulp as my "swiss army knife"; it's small, powerful and overall another one of those tools that "just work", no matter what you throw at them.
 
 Then, there's 2 npm scripts defined in `package.json` that make use of these tasks:
 
@@ -71,3 +71,9 @@ In order to work with this repository, only 2 things are required:
 If that's set up, then all you need is to get the repository, run `npm install` and then `npm run start`. Go to `localhost:1313` and you should see a one-page demo site you can start working with in your browser.
 
 PS: the CSS in `./static/css` has been purged, so you may want to run `gulp dev-css` in order to make all of Tailwind available for your project and/or customize it through `tailwind.config.js` (see {{< link-ext "their docs" "tailwindcss.com/docs/configuration" >}} for details).
+
+#### Addendum
+
+This setup (esp. the choice of using gulp) is older than {{< link-ext "Hugo Pipes" "gohugo.io/hugo-pipes/" >}}; but I'm also relying on gulp as the main actor for [processing comments](/blog/static-blog-comments-hugo/), so I'll stick with it for the foreseeable future.
+
+If _you_ don't want to use gulp though, Hugo has PostCSS built in by now - more about that in the {{< link-ext "Hugo Docs" "gohugo.io/hugo-pipes/postcss/" >}}.
