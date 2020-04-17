@@ -19,7 +19,7 @@ There's a lot of customization options in our products and solutions, so I've go
 
 ## Learn/Explore/Discover
 
-A collection of articles I plan on going through: {{< link-ext "Notion - Reading List" "www.notion.so/Reading-List-5c40001640f3441ab36dbc9be9ff88b0" >}}
+A collection of articles I plan on going through: {{< link-ext "Reading List (Roam Research)" "https://roamresearch.com/#/app/ttntm/page/EZhwD06jM" >}}
 
 It's important to keep learning - personal ToDos in no particular order:
 
