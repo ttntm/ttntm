@@ -62,6 +62,16 @@
     transition: all .35s ease-in-out;
 }
 
+::selection {
+    background: var(--yellow);
+    color: var(--darker);
+}
+
+::-moz-selection {
+    background: var(--yellow);
+    color: var(--darker);
+}
+
 html, body {
     height: 100%;
 }
