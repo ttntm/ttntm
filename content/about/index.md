@@ -17,33 +17,22 @@ Currently, I work as a senior consultant for a small Austrian software developme
 
 There's a lot of customization options in our products and solutions, so I've got to deal with anything from HTML, CSS and JavaScript to SVG and VBA on a day to day basis. I'm also involved in product management, release planning, systems and application architecture and requirements engineering.
 
-## Learn/Explore/Discover
-
-A collection of articles I plan on going through: {{< link-ext "Reading List (Roam Research)" "roamresearch.com/#/app/ttntm/page/EZhwD06jM" >}}
-
-It's important to keep learning - personal ToDos in no particular order:
-
-- FCC JS certification
-- SVG animations
-- SASS/SCSS
-- Vue
-- React
-- 11ty
-- GatsbyJS
-- node.js/express
-
-<small>Last update: 04/2020</small>
-
 ## Things I Did
 
 {{< projects >}}
+
+## Learn/Explore/Discover
+
+This section has moved to {{< link-ext "Roam Research" "roamresearch.com" >}}.
+
+It's a fantastic notes/knowledge management tool that seems to be capable of being some sort of _second brain_.
 
 ## Used on this Website
 
 Overview of the resources used for this site in its current state.
 
 - Hugo
-- custom CSS I wrote
+- custom CSS
 - gulp with `postcss`, `concat-css` and `cssnano`
 - "Ubuntu" font family
 - Netlify

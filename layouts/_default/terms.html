@@ -7,11 +7,24 @@
             </h6>
         </div>
 		<div class="hr shadow"></div>
-		<div class="flex flex-row flex-wrap justify-content-start pt1">
+		<div class="flex flex-row flex-wrap justify-content-center align-items-center pt1">
             {{ $base := .Site.BaseURL }}
-            {{ range sort .Pages ".Title" "asc" }}
+                {{ $largestFontSize := 2.0 }}
+                {{ $largestFontSize := 2.5 }}
+                {{ $smallestFontSize := 1.0 }}
+                {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+                {{ $max := add (len (index $.Site.Taxonomies.tags.ByCount 0).Pages) 1 }}
+                {{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
+                {{ $spread := sub $max $min }}
+                {{ $fontStep := div $fontSpread $spread }}
+            {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
+                {{ $currentTagCount := len $taxonomy.Pages }}
+                {{ $currentFontSize := (add $smallestFontSize (mul (sub $currentTagCount $min) $fontStep) ) }}
+                {{ $count := len $taxonomy.Pages }}
+                {{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+                {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
                 <span class="d-block pr1 pb1">
-                    <a class="tag regular shadow-hover" href="{{ .Permalink }}">{{ .Title | lower }}</a>
+                    <a class="tag regular shadow-hover" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" style="font-size:{{$currentFontSize}}rem;">{{ $name | lower }}</a>
                 </span>
             {{ end }}
 		</div>
