@@ -1,7 +1,7 @@
 # ttntm.me
 
-My personal site, updated occasionally.
+My personal site at https://ttntm.me, updated occasionally.
 
-## Natlify status
+## Netlify status
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f2020161-559e-4d1c-9e5f-37b900c5ca5f/deploy-status)](https://app.netlify.com/sites/ttntm/deploys)
