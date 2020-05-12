@@ -3,3 +3,5 @@ node_modules/
 package-lock.json
 .env
 *.vsdx
+static/cv/cv-src.html
+content/cv.md
