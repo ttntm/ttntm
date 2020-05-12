@@ -15,17 +15,11 @@ I grew up with the internet, doing my first websites more than 15 years ago when
 
 Currently, I work as a senior consultant for a small Austrian software development company focused on corporate process management and IT documentation based on Microsoft products that we enhance with our own ISV-solutions.
 
-There's a lot of customization options in our products and solutions, so I've got to deal with anything from HTML, CSS and JavaScript to SVG and VBA on a day to day basis. I'm also involved in product management, release planning, systems and application architecture and requirements engineering.
+There's a lot of customization options in our products and solutions, so I've got to deal with anything from HTML, CSS and JavaScript to SVG and VBScript on a day to day basis. I'm also involved in product management, release planning, systems and application architecture and requirements engineering.
 
 ## Things I Did
 
 {{< projects >}}
-
-## Learn/Explore/Discover
-
-This section has moved to {{< link-ext "Roam Research" "roamresearch.com" >}}.
-
-It's a fantastic notes/knowledge management tool that seems to be capable of being some sort of _second brain_.
 
 ## Used on this Website
 
