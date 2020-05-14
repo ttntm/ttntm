@@ -270,7 +270,11 @@ I haven't mentioned it earlier, but we'll have to do one last thing in order to 
 
 First, head over to your `gulpfile.js` again and create another task:
 
-    gulp.task('build', gulp.series('your-other-stuff-if-any','get-comments'));
+{{< highlight js >}}
+
+gulp.task('build', gulp.series('your-other-stuff-if-any','get-comments'));
+
+{{< /highlight >}}
 
 Then, open your `package.json` and make sure to include this task in the `scripts` section:
 
