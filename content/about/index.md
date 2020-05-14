@@ -17,6 +17,8 @@ Currently, I work as a senior consultant for a small Austrian software developme
 
 There's a lot of customization options in our products and solutions, so I've got to deal with anything from HTML, CSS and JavaScript to SVG and VBScript on a day to day basis. I'm also involved in product management, release planning, systems and application architecture and requirements engineering.
 
+If you'd like to see my **resume**, just head over to [ttntm.me/cv](/cv). You'll need a password to get there though, so please [contact me](mailto:ttntm@pm.me) to get it.
+
 ## Things I Did
 
 {{< projects >}}
