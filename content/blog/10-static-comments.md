@@ -157,8 +157,12 @@ In `.env`, create a line each for your _Personal access token_ and your Netlify 
 
 Mine looks like this:
 
-    API_AUTH=a1b2c3...
-    COMMENT_FORM_ID=0123456789
+{{< highlight txt >}}
+
+API_AUTH=a1b2c3...
+COMMENT_FORM_ID=0123456789
+
+{{< /highlight >}}
 
 Now, on to `gulpfile.js` - we'll first add `var buildSrc = "./";`, then proceed to a new gulp task called _get-comments_:
 
