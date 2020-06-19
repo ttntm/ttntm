@@ -4,7 +4,7 @@
   "description": "ttntm.me",
   "main": "index.html",
   "scripts": {
-    "start": "gulp dev && hugo server",
+    "start": "hugo server  && gulp watchcss",
     "deploy": "gulp build && hugo --minify"
   },
   "repository": {

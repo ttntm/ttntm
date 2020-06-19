@@ -63,13 +63,13 @@
 }
 
 ::selection {
-    background: var(--yellow);
-    color: var(--darker);
+    background: var(--black);
+    color: var(--white);
 }
 
 ::-moz-selection {
-    background: var(--yellow);
-    color: var(--darker);
+    background: var(--black);
+    color: var(--white);
 }
 
 html, body {
@@ -110,13 +110,13 @@ ol, ul, p, pre, code, kbd, samp {
 }
 
 a, a:active {
-    color: var(--red);
+    color: var(--prim);
     font-weight: 700;
     text-decoration: underline;
 }
 
 a:hover, a:focus {
-    color: var(--red);
+    color: var(--prim);
     text-decoration: none;
 }
 
@@ -275,7 +275,7 @@ nav {
 }
 
 .logo:hover a {
-    color: var(--red);
+    color: var(--sec);
 }
 
 .nav-links a {
@@ -315,14 +315,18 @@ nav {
 /* FOOTER */
 
 footer {
-    background-color: var(--dark);
+    background-color: var(--darkest);
     flex-shrink: 0;
     margin-top: 3rem;
     text-align: center;
 }
 
+footer a {
+    color: var(--sec);
+}
+
 footer a:hover {
-    color: var(--light);
+    color: var(--lighter);
 }
 
 /* BUTTONS */
@@ -335,35 +339,35 @@ button {
 
 .btn {
     background-color: var(--light);
-    border: 1px solid transparent;
     border-radius: 99999px;
     color: var(--prim);
     font-weight: bold;
     padding: 0.5rem 1.5rem;
     text-decoration: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    border: 0;
 }
 
 .btn:hover {
-    background-color: var(--lightest);
-    border-color: var(--red);
-    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
-    color: var(--red);
+    background-color: var(--dark);
+    color: var(--light);
+    box-shadow: none;
 }
 
 /* BLOG */
 
 .tag {
-    background-color: var(--dark);
+    background-color: var(--light);
     border-radius: 0.25rem;
-    color: var(--light);
+    color: var(--dark);
     font-size: 0.85rem;
     padding: 0.25rem 0.75rem;
     text-decoration: none;
 }
 
 .tag:hover {
-    background-color: var(--light);
-    color: var(--dark);
+    background-color: var(--dark);
+    color: var(--light);
 }
 
 .tag-item {

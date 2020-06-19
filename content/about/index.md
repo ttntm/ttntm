@@ -4,7 +4,8 @@ layout: about
 images:
 - "/img/ttntm.jpg"
 resources:
-- src: "/projects/*"
+- src: "/personal/*"
+- src: "/work/*"
 ---
 
 **Hi, I'm Tom.**
@@ -21,7 +22,7 @@ If you'd like to see my **resume**, just head over to [ttntm.me/cv](/cv). You'll
 
 ## Things I Did
 
-{{< projects >}}
+...can be found in [/work](/work).
 
 ## Used on this Website
 
