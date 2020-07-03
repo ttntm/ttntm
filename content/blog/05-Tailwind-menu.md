@@ -1,5 +1,5 @@
 ---
-title: Building a responsive menu with Tailwind CSS
+title: Building a Responsive Menu with Tailwind CSS
 slug: tailwind-responsive-menu
 weight: -5
 type: blog

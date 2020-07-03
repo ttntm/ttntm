@@ -1,5 +1,5 @@
 ---
-title: "Building a store locator based on Leaflet"
+title: "Building a Store Locator Based on Leaflet"
 slug: store-locator-leaflet-hugo
 weight: -11
 type: blog
