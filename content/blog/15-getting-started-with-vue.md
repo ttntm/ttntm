@@ -113,9 +113,9 @@ I came across {{< link-ext "this article" "laravel-news.com/building-a-flash-mes
 
 I started building *recept0r* based on Bootstrap. I don't know why exactly, it just happened - probably 70% of why Bootstrap is used, haha. This added jQuery and what not though, which adds nothing to a Vue app. It made the app look decent from the start though and especially forms/inputs and their flavor of `normalize.css` were convenient.
 
-Eventually though, it became unnecessarily heavy and I found myself working around it too much. I then discovere that there is {{< link-ext "BootstrapVue" "bootstrap-vue.org" >}}, a seemingly convenient way to make better use of Bootstrap together with Vue. I didn't go for that though, but instead spent my time on switching to {{< link-ext "TailwindCSS" "tailwindcss.com" >}}.
+Eventually though, it became unnecessarily heavy and I found myself working around it too much. I then discovered that there is {{< link-ext "BootstrapVue" "bootstrap-vue.org" >}}, a seemingly convenient way to make better use of Bootstrap together with Vue. I didn't go for that though, but instead spent my time on switching to {{< link-ext "TailwindCSS" "tailwindcss.com" >}}.
 
-I've used TaiwlindCSS for 5 or more projects in the last 2 years, so this eneded up making me faster and more flexible than I could ever have imagined. Using Tailwind with Vue is surprisingly easy in 2020, I'll write a separate article on that subject (as most of the ones out there were outdated/missing something) soon.
+I've used TailwindCSS for 5 or more projects in the last 2 years, so this ended up making me faster and more flexible than I could ever have been with Bootstrap. Setting up and using Tailwind with Vue is surprisingly easy in 2020, I'll write a separate article on that subject (as most of the ones out there were outdated/missing something) soon.
 
 Remember the **toast notifications** mentioned earlier? I ended up refactoring them eventually...
 
