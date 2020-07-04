@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Getting Started with Vue.js in 2020"
 slug: vuejs-getting-started-in-2020
 weight: -15
