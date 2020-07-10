@@ -1,7 +1,5 @@
-# ttntm.me
+### Hi there, I'm Tom 👋
 
-My personal site at https://ttntm.me, updated occasionally.
+I work in software development (currently BPM software) and I also do all kinds of freelance web development.
 
-## Netlify status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f2020161-559e-4d1c-9e5f-37b900c5ca5f/deploy-status)](https://app.netlify.com/sites/ttntm/deploys)
+My website can be found at [ttntm.me](https://ttntm.me) where you can get to know more [about me](https://ttntm.me/about/) and the [things I did](https://ttntm.me/work/) or read some articles in my [blog](https://ttntm.me/archive/).
