@@ -4,4 +4,4 @@ I work in software development (currently BPM software) and I also do all kinds 
 
 My website can be found at [ttntm.me](https://ttntm.me) where you can get to know more [about me](https://ttntm.me/about/) and the [things I did](https://ttntm.me/work/) or read some articles in my [blog](https://ttntm.me/archive/).
 
-[![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@:twitterHandle)](https://twitter.com/thet0m)
+[![Twitter](https://img.shields.io/twitter/follow/thet0m.svg?style=social&label=@thet0m)](https://twitter.com/thet0m)
