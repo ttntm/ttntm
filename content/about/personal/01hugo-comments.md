@@ -1,6 +1,6 @@
 ---
 title: "hugo-comments"
 description: '"Static" comments with Netlify & Hugo.'
-cUrl: "https://hugo-comments.netlify.app"
+cUrl: "https://comments.ttntm.me"
 weight: 1
 ---

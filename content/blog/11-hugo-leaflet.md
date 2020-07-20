@@ -40,7 +40,7 @@ The approach described in this article is also available as a fully functional H
 
 Best have a quick look at the repository and its structure now, it'll make the following explanations easier to understand: {{< link-ext "GitHub Repository" "github.com/ttntm/hugo-leaflet-store-locator" >}}
 
-> There's a live demo on Netlify which can be found here: {{< link-ext "leaflet-store-locator.netlify.app" "leaflet-store-locator.netlify.app" >}}
+> There's a live demo on Netlify which can be found here: {{< link-ext "storelocator.ttntm.me" "storelocator.ttntm.me" >}}
 
 ### Location Data
 
@@ -329,7 +329,7 @@ Not much else to say here, basically just another convenience feature.
 
 ### Demo
 
-> As mentioned above, there's a live demo on Netlify. It can be found here: {{< link-ext "leaflet-store-locator.netlify.app" "leaflet-store-locator.netlify.app" >}}
+> As mentioned above, there's a live demo on Netlify. It can be found here: {{< link-ext "storelocator.ttntm.me" "storelocator.ttntm.me" >}}
 
 The {{< link-ext "GitHub Repository" "github.com/ttntm/hugo-leaflet-store-locator" >}} requires Hugo to build/run the site; after cloning/downloading it, you can either `hugo server` or `npm run start` in order to view the site on `http://localhost:1313`.
 

@@ -25,7 +25,7 @@ After some extensive research and hours of studying various services' documentat
 
 So, the following article will describe what I'd summarize as "probably the easiest way of adding comments to your Hugo site". So, taking into consideration that this site also has a comment section now, please feel free to let me know your opinion. 😉
 
-TL;DR - Netlify demo is live at {{< link-ext "hugo-comments.netlify.app" "hugo-comments.netlify.app" >}}
+TL;DR - Netlify demo is live at {{< link-ext "comments.ttntm.me" "comments.ttntm.me" >}}
 
 ### Overview
 
@@ -314,4 +314,4 @@ Overall, I'd say this is good enough for now and I'm happy to have found a "mini
 
 PS: there's a repository in my GitHub account that you can clone and deploy to try all of that yourself: {{< link-ext "GitHub Repo" "github.com/ttntm/hugo-comments" >}}
 
-The {{< link-ext "demo site" "hugo-comments.netlify.app" >}} mentioned above is based on the code in that repository.
+The {{< link-ext "demo site" "comments.ttntm.me" >}} mentioned above is based on the code in that repository.
