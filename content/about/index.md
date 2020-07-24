@@ -24,6 +24,8 @@ If you'd like to see my **resume**, just head over to [ttntm.me/cv](/cv). You'll
 
 ...can be found in [/work](/work).
 
+Noteworthy learnings can be found in [/TIL](/til).
+
 ## Used on this Website
 
 Overview of the resources used for this site in its current state.

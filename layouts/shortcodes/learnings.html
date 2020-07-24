@@ -1,0 +1,15 @@
+{{ $til := .Site.GetPage "/til" }}
+{{ $tilItems := $til.Resources.Match "items/*" }}
+{{ range sort $tilItems ".Params.weight" "desc" }}
+    <div class="mt2 mb2">
+      <h5>
+        <span>
+          <a id="{{ .Params.weight }}" href="#{{ .Params.weight }}" class="no-underline">#{{ .Params.weight }}</a>
+        </span>
+        &nbsp;
+        {{ .Title }}
+      </h5>
+      <p class="small text-sec">Posted: {{ dateFormat (.Site.Params.DateForm) .Date }}</p>
+      {{ .Content }}
+    </div>
+{{ end }}
