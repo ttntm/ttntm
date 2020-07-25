@@ -4,6 +4,6 @@ resources:
 - src: "/items/*"
 ---
 
-An ongoing list of learnings that might help someone facing similar challenges.
+A list of little things that might help someone out there.
 
 {{< learnings >}}
