@@ -111,15 +111,15 @@ I came across {{< link-ext "this article" "laravel-news.com/building-a-flash-mes
 
 ### 6. Refactoring is Good, Keep Doing it
 
-I started building *recept0r* based on Bootstrap. I don't know why exactly, it just happened - probably 70% of why Bootstrap is used, haha. This added jQuery and what not though, which adds nothing to a Vue app. It made the app look decent from the start though and especially forms/inputs and their flavor of `normalize.css` were convenient.
+I started building *recept0r* based on Bootstrap. I don't know why exactly, it just happened - probably 70% of why Bootstrap is used, haha. This added jQuery and some more JS bloat which adds nothing to a Vue app. It made the app look decent from the start though and especially forms/inputs and their flavor of `normalize.css` were convenient.
 
-Eventually though, it became unnecessarily heavy and I found myself working around it too much. I then discovered that there is {{< link-ext "BootstrapVue" "bootstrap-vue.org" >}}, a seemingly convenient way to make better use of Bootstrap together with Vue. I didn't go for that though, but instead spent my time on switching to {{< link-ext "TailwindCSS" "tailwindcss.com" >}}.
+It all ended up becoming unnecessarily heavy and I found myself working around it too much (overwriting CDN CSS in components). I then discovered that there is {{< link-ext "BootstrapVue" "bootstrap-vue.org" >}}, a seemingly convenient way to make better use of Bootstrap together with Vue. I didn't go for that after some deliberation, but instead spent my time on switching to {{< link-ext "TailwindCSS" "tailwindcss.com" >}}.
 
 I've used TaiwlindCSS for 5 or more projects in the last 2 years, so this ended up making me faster and more flexible than I could ever have imagined. Using Tailwind with Vue is surprisingly easy in 2020, you can read all about it in [another blog post I wrote about that](/blog/tailwind-css-with-vuejs-in-2020/).
 
 Remember the **toast notifications** mentioned earlier? I ended up refactoring them eventually...
 
-The *Event Bus* based approach linked above worked well and did its job, but my app was already using {{< link-ext "vuex" "vuex.vuejs.org/" >}} for global state management anyway (mostly due to user authentication, but also for filtering and other convenient things like mobile menu state). Following the principles of unified state management, it clearly made more sense to use vuex compared to having a separate Vue instance (named *Event Bus*) initialized just for the toast notifications.
+The *Event Bus* based approach linked above worked well and did its job, but my app was already using {{< link-ext "vuex" "vuex.vuejs.org" >}} for global state management anyway (mostly due to user authentication, but also for filtering and general global state mgt.). Following the principles of unified state management, it clearly made more sense to use vuex compared to having a separate Vue instance (named *Event Bus*) initialized just for the toast notifications.
 
 ### 7. The Devil is in the Detail
 
