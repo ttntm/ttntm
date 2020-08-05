@@ -11,6 +11,7 @@ tags:
     - Tailwind
     - CSS
     - setup
+    - howto
 images:
     - /img/blog/code.jpg
 ---
