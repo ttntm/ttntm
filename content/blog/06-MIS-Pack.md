@@ -8,8 +8,6 @@ description: A pointer to a great resource for Micorosft Visio users.
 tags:
     - Visio
     - Microsoft
-    - stencils
-    - work
 images:
     - /img/blog/default.jpg
 ---

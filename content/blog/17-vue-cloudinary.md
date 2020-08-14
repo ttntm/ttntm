@@ -7,7 +7,6 @@ date: 2020-08-05
 description: A zero dependency approach for image management from within a Vue.js application.
 tags:
     - Vue.js
-    - JavaScript
     - Cloudinary
     - images
     - howto

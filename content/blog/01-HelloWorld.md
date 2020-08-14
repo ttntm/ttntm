@@ -7,7 +7,7 @@ date: 2018-08-20
 description: This site's opening post.
 tags:
     - firstpost
-    - hugo
+    - personal
 images:
     - /img/blog/default.jpg
 ---

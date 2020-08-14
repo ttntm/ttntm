@@ -10,8 +10,8 @@ tags:
     - hugo
     - javascript
     - jquery
+    - json
     - leaflet
-    - openstreetmap
 images:
     - /img/blog/map.jpg
 ---

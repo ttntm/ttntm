@@ -7,10 +7,8 @@ date: 2020-07-09
 description: "Tailwind CSS is an incredibly powerful utility-first CSS framework. It's super easy to set up and makes you very flexible."
 tags:
     - Vue.js
-    - JavaScript
     - Tailwind
     - CSS
-    - setup
     - howto
 images:
     - /img/blog/code.jpg
