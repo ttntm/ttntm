@@ -33,5 +33,4 @@ Overview of the resources used for this site in its current state.
 - Hugo
 - custom CSS
 - gulp with `postcss`, `concat-css` and `cssnano`
-- "Ubuntu" font family
 - Netlify
