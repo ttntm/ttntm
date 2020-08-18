@@ -89,6 +89,4 @@ gulp.task("get-comments", function (done) {
   });
 });
 
-gulp.task('dev', gulp.series('procss','projs','get-comments'));
-
-gulp.task('build', gulp.series('procss','projs','get-comments'));
+gulp.task('build', gulp.series('procss','get-comments'));
