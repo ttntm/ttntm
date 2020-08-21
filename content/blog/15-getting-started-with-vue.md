@@ -98,7 +98,7 @@ Another such case was **configuring Webpack**. Things work differently when usin
 
 ### 5. Make Your Tools Work for You
 
-I had some issues when it came to setting up **Netlify functions** to run locally; research I based my choice of node modules and configuration on was seemingly outdated and functions returned errors instead of data...
+I had some issues when it came to setting up **Netlify functions** to run locally; research I based my choice of node modules and configuration on seemingly outdated information and my functions returned errors instead of data...
 
 Eventually, I stumbled upon this article recommending `netlify-cli`: {{< link-ext "Solve CORS once and for all with Netlify Dev" "alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev" >}}
 
