@@ -36,7 +36,7 @@
     {{ range $comments }}
         {{ range $index, $content := . }}
             {{ if eq .path $thisPost }}
-            <div class="px1{{- if gt $index 0 -}} pt1{{- end -}}">
+            <div class="px1{{ if gt $index 0 }} pt1{{ end }}">
                 <em><span class="small text-sec bold">&mdash; {{ .name }} on {{ .date | dateFormat "Mon, 02 Jan. 2006, 15:04 MST" }}</span></em>
                 <p class="">{{ .comment }}</p>
                 <div class="hr shadow"></div>
