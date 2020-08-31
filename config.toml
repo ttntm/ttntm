@@ -12,6 +12,8 @@ PygmentsStyle = "tango"
 [outputs]
     home = ["HTML","RSS"]
     section  = ["HTML"]
+    taxonomy  = ["HTML"]
+    term  = ["HTML"]
 
 [outputFormats]
     [outputFormats.RSS]
