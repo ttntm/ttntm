@@ -14,7 +14,7 @@ images:
     - /img/blog/code.jpg
 ---
 
-My Vue app needed user uploaded images; storing Base64 encoded images inside of FaunaDB was my first idea, but that proved both slow and resource heavy (which is probalby why Fauna's docs {{< link-ext "advise against" "docs.fauna.com/fauna/current/api/fql/documents#limits" >}} doing that...).
+My Vue app needed user uploaded images; storing Base64 encoded images inside of FaunaDB was my first idea, but that proved both slow and resource heavy (which is probably why Fauna's docs {{< link-ext "advise against" "docs.fauna.com/fauna/current/api/fql/documents#limits" >}} doing that...).
 
 Taking into consideration that a recipe app's images will hardly ever change, an image CDN seemed more appropriate. I had already heard of Cloudinary somewhere, so I decided to try that service. They offer a generous free tier that can even be extended (permanently!) by inviting other people; here we go, just in case you'd like to check it out and do something nice for me at the same time (in case you end up signing up for an account there): {{< link-ext "Cloudinary invite" "cloudinary.com/invites/lpov9zyyucivvxsnalc5/hrdkuf3mpvpupvr4vdh9" >}}
 
@@ -75,7 +75,7 @@ export default {
 };
 {{< /highlight >}}
 
-As you can see, the component inherits the `recipe` object from its respective parent (create or edit). It only has an object `imageStatus` and the upload preset `uPreset` necessary for Cloudinary in its own `data()` function, both of which are used inside the component itself exclusively. There's also a {{< link-ext "computed property" "https://vuejs.org/v2/api/#computed" >}} that checks whether or not a recipe's image was uploaded already.
+As you can see, the component inherits the `recipe` object from its respective parent (create or edit). It only has an object `imageStatus` and the upload preset `uPreset` necessary for Cloudinary in its own `data()` function, both of which are used inside the component itself exclusively. There's also a {{< link-ext "computed property" "vuejs.org/v2/api/#computed" >}} that checks whether or not a recipe's image was uploaded already.
 
 We'll get into the actual functionality in a minute, let's first have a look at the HTML in the `<template>` section though:
 
@@ -115,7 +115,7 @@ We'll get into the actual functionality in a minute, let's first have a look at 
 
 I've used Tailwind CSS for my app and the `<input type="file">` is based on this component I found online: {{< link-ext "tailwind-file-upload" "tailwindcomponents.com/component/tailwind-file-upload" >}}
 
-The `<inpu>` is wrapped in a `<div>` and there's a `v-if="!recipe.image"` in there which makes sure that it is only shown when there's no image (=URL to an image) set for the respective recipe. This is also related to the "Remove Image" button in the bottom of the code snippet that is only shown when there is an image. The flow for the user could look like this:
+The `<input>` is wrapped in a `<div>` and there's a `v-if="!recipe.image"` in there which makes sure that it is only shown when there's no image (=URL to an image) set for the respective recipe. This is also related to the "Remove Image" button in the bottom of the code snippet that is only shown when there is an image. The flow for the user could look like this:
 
 1. Use the `<input>` to select an image
 2. See the image now (inserted and displayed based on the code of the parent (create or edit) component); shown instead of the previously displayed `<input>` element
