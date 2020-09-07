@@ -24,7 +24,7 @@ Getting back to answering the initial question of _why_ now, the answer could be
 - Coronavirus quarantine
 - Bootstrap overdose
 - Nord theme
-- Design excercise
+- Design exercise
 - I felt like it
 - Spring
 - ...
