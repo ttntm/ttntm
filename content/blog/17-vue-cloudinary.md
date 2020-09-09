@@ -36,7 +36,7 @@ Before taking a look at the implementation, you should take a moment to think ab
 
 If you had a look at the linked documentation, you probably came across the term *upload preset* already - that's basically an ID that can has to be referenced when communicating with the API that tells Cloudinary what to do with your image, including these manipulations (see: {{< link-ext "Cloudinary docs" "cloudinary.com/documentation/upload_presets" >}}).
 
-<img src="/img/blog/cloudinary-manipulations.png" class="img-fluid img-center mb2" alt="Upload Manipulations">
+<img src="/img/blog/cloudinary-manipulations.png" class="img-fluid img-center" alt="Upload Manipulations">
 
 As you can see, I'm auto converting anything that comes in to `webp`. Images also get resized to `w_1280` and compressed with `q_auto:good` - the result is good looking images at reasonable file size (= faster page loads) and big enough dimensions.
 
