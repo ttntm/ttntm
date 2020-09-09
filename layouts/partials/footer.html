@@ -1,0 +1,29 @@
+<ul class="list-reset list-inline bold">
+  <li class="d-none d-sm-inline-block list-inline-item pt1 px1">
+    <a class="no-underline" href="{{ .Site.BaseURL }}">Home</a>
+  </li>
+  <li class="list-inline-item pt1 px1">
+    <a class="no-underline" href="{{ .Site.BaseURL }}/archive">Archive</a>
+  </li>
+  <li class="list-inline-item pt1 px1">
+    <a class="no-underline" href="{{ .Site.BaseURL }}/about">About</a>
+  </li>
+  <li class="list-inline-item pt1 px1">
+    <a class="no-underline" href="{{ .Site.BaseURL }}/work">Work</a>
+  </li>
+  <li class="list-inline-item pt1 px1">
+    <a class="no-underline" href="{{ .Site.BaseURL }}/til">TIL</a>
+  </li>
+</ul>
+<p class="small text-light m0 pt1">&copy; {{ .Site.Author.name }} {{ dateFormat "2006" now }}, built with <a
+    class="regular" href="https://gohugo.io" rel="noopener" target="_blank">Hugo</a>, deployed by <a class="regular"
+    href="https://www.netlify.com" rel="noopener" target="_blank">Netlify</a></p>
+<ul class="list-reset list-inline small">
+  {{ range .Site.Params.social }}
+  <li class="list-inline-item pt1 px1">
+    <a class="no-underline" href="{{ .url }}" target="_blank" rel="noopener">
+      <img src="{{ .Site.BaseURL }}/img/icons/{{ .title | lower }}.svg" alt="{{ .title }}" title="{{ .title }}" style="width: 20px;">
+    </a>
+  </li>
+  {{ end }}
+</ul>

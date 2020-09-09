@@ -34,14 +34,14 @@ PygmentsStyle = "tango"
     images = ["/img/blog/default.jpg"]
 
 [[params.social]]
-    title = "Twitter"
-    url = "https://twitter.com/thet0m"
+    title = "Email"
+    url = "mailto:ttntm@pm.me"
 [[params.social]]
     title = "GitHub"
     url = "https://github.com/ttntm"
 [[params.social]]
-    title = "Email"
-    url = "mailto:ttntm@pm.me"
+    title = "Twitter"
+    url = "https://twitter.com/thet0m"
 
 # BLOG
 paginate = 3

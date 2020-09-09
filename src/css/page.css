@@ -295,8 +295,16 @@ footer a {
     color: var(--sec);
 }
 
+footer a > img {
+  opacity: 1;
+}
+
 footer a:hover {
     color: var(--lighter);
+}
+
+footer a:hover > img {
+    opacity: 0.5;
 }
 
 /* BUTTONS */

@@ -1,58 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {{ block "head" . }}
-        {{ partial "head.html" . }}
-    {{ end }}
+  {{ block "head" . }}
+    {{ partial "head.html" . }}
+  {{ end }}
 </head>
+
 <body>
-    <header>
-        <nav class="flex flex-row justify-content-between align-items-center">
-            <div class="logo">
-                <a href="{{ .Site.BaseURL }}" class="d-block p1">ttntm.me</a>
-            </div>
-            <div class="">
-                <ul class="nav-links list-reset list-inline uppercase">
-                    <li class="d-none d-sm-inline-block list-inline-item pr1">
-                        <a href="{{ .Site.BaseURL }}">Home</a>
-                    </li>
-                    <li class="list-inline-item pr1">
-                        <a href="{{ .Site.BaseURL }}/archive">Archive</a>
-                    </li>
-                    <li class="list-inline-item pr1">
-                        <a href="{{ .Site.BaseURL }}/about">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        {{ block "main" . }}
-            <!-- content of the respective page -->
-        {{ end }}
-    </main>
-    <footer class="p1">
-        <ul class="list-reset list-inline bold">
-            <li class="list-inline-item pt1 px1">
-                <a class="no-underline" href="{{ .Site.BaseURL }}">Home</a>
-            </li>
-            <li class="list-inline-item pt1 px1">
-                <a class="no-underline" href="{{ .Site.BaseURL }}/archive">Archive</a>
-            </li>
-            <li class="list-inline-item pt1 px1">
-                <a class="no-underline" href="{{ .Site.BaseURL }}/about">About</a>
-            </li>
-            <li class="list-inline-item pt1 px1">
-                <a class="no-underline" href="{{ .Site.BaseURL }}/til">TIL</a>
-            </li>
-            {{ range .Site.Params.social }}
-            <li class="list-inline-item pt1 px1">
-                <a class="no-underline" href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
-            </li>
-            {{ end }}
-        </ul>
-        <p class="small text-light m0 pt1">&copy; {{ .Site.Author.name }} {{ dateFormat "2006" now }}, built with <a class="regular" href="https://gohugo.io" rel="noopener" target="_blank">Hugo</a>, deployed by <a class="regular" href="https://www.netlify.com" rel="noopener" target="_blank">Netlify</a></p>
-    </footer>
-    {{ partialCached "js.html" . }}
+  <header>
+    {{ partialCached "header.html" . }}
+  </header>
+  <main>
+    {{ block "main" . }}
+      <!-- content of the respective page -->
+    {{ end }}
+  </main>
+  <footer class="p1">
+    {{ partialCached "footer.html" . }}
+  </footer>
+  {{ partialCached "js.html" . }}
 </body>
 </html>
