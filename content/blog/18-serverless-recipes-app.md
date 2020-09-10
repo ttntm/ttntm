@@ -12,7 +12,7 @@ tags:
     - Netlify
     - howto
 images:
-    - /img/blog/vuejs.jpg
+    - /img/blog/client-serverless-credit-faunadb.png
 ---
 
 ## Introduction
