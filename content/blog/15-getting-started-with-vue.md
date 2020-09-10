@@ -206,10 +206,10 @@ This list could go on for a while, in varying degrees of detail. I tried to pick
 
 All of these articles were helpful to me in one way or another:
 
-- {{< link-ext "Notes on Vue" "https://notes-on-vue.netlify.app" >}} (notes based on first hand personal learning experience, recommended!)
+- {{< link-ext "Notes on Vue" "notes-on-vue.netlify.app" >}} (notes based on first hand personal learning experience, recommended!)
 - {{< link-ext "vuejs.org/v2/guide/reactivity.html" "vuejs.org/v2/guide/reactivity.html" >}} (must read; the basics of reactivity in vue)
 - {{< link-ext "itnext.io/anyway-heres-how-to-create-a-multiple-layout-system-with-vue-and-vue-router-b379baa91a05" "itnext.io/anyway-heres-how-to-create-a-multiple-layout-system-with-vue-and-vue-router-b379baa91a05" >}} (re: vue-router)
-- {{< link-ext "www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/" "www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/" >}} (esp. useful for the detailed explanations re: serverless functions)
+- {{< link-ext "netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/" "www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/" >}} (esp. useful for the detailed explanations re: serverless functions)
 - {{< link-ext "dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno" "dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno" >}} (must read; user authentication with Netlify Identity/GoTrueJS)
 - {{< link-ext "alligator.io/vuejs/vue-lazy-load-images/" "alligator.io/vuejs/vue-lazy-load-images/" >}} (convenient and recommended)
 - {{< link-ext "medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502" "medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502" >}} (very well written and useful for a better understanding of how to properly use vuex)
