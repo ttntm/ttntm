@@ -320,3 +320,7 @@ A final remark: there are a lot of helpful resources out there that supported me
 - FaunaDB
 - Netlify (Hosting, Functions & User Identity)
 - Vue.js
+
+**Added Sept. 18th 2020**:
+
+I've published a public access demo version of the app described in this article - it can be found at {{< link-ext "demo.recept0r.com" "demo.recept0r.com" >}}
