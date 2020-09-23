@@ -6,6 +6,6 @@ title: Thanks for the comment!
 
 Thanks for the comment!
 
-The site is rebuilding now...
+The site is rebuilding now - your comment will be displayed shortly.
 
-<a href="javascript:history.back()" class="d-inline-block btn mt2">Back to the Post</a>
+<a href="javascript:window.location.replace(document.referrer)" class="d-inline-block btn mt2">Back to the Post</a>
