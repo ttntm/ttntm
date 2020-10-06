@@ -22,8 +22,13 @@
   {{ range .Site.Params.social }}
   <li class="list-inline-item pt1 px1">
     <a class="no-underline" href="{{ .url }}" target="_blank" rel="noopener">
-      <img src="{{ .Site.BaseURL }}/img/icons/{{ .title | lower }}.svg" alt="{{ .title }}" title="{{ .title }}" style="width: 20px;">
+      <img src="{{ .Site.BaseURL }}/img/icons/{{ .title | lower }}.svg" class="icon" alt="{{ .title }}" title="{{ .title }}" style="width: 20px;">
     </a>
   </li>
   {{ end }}
 </ul>
+{{ if ne .Layout "about" }}
+  <a href="https://www.buymeacoffee.com/ttntm" target="_blank" class="d-inline-block mt1">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" class="mx-auto" style="height: 30px; width: auto;" alt="Buy me a coffee">
+  </a>
+{{ end }}

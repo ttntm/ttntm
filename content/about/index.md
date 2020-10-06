@@ -32,3 +32,9 @@ Overview of the resources used for this site in its current state.
 - custom CSS
 - gulp with `postcss`, `concat-css` and `cssnano`
 - Netlify
+
+## Like it here?
+
+<a href="https://www.buymeacoffee.com/ttntm" target="_blank" class="d-inline-block">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" class="mx-auto" style="height: 40px; width: auto;" alt="Buy me a coffee">
+</a>

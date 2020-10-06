@@ -295,7 +295,7 @@ footer a {
     color: var(--sec);
 }
 
-footer a > img {
+footer a .icon {
   opacity: 1;
 }
 
@@ -303,7 +303,7 @@ footer a:hover {
     color: var(--lighter);
 }
 
-footer a:hover > img {
+footer a:hover .icon {
     opacity: 0.5;
 }
 
