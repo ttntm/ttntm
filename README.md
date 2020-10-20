@@ -8,6 +8,6 @@ My website can be found at [ttntm.me](https://ttntm.me) where you can get to kno
 
 [![Email](https://img.shields.io/badge/email-ttntm%40pm.me-blue)](mailto:ttntm@pm.me) [![Twitter](https://img.shields.io/twitter/follow/thet0m.svg?style=social&label=@thet0m)](https://twitter.com/thet0m)
 
-#### Stats
+#### Code Stats
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ttntm&layout=compact)]
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ttntm&layout=compact)
