@@ -1,36 +1,32 @@
 {{ define "main" }}
-	<div class="container">
-		<div class="flex flex-row justify-content-between align-items-baseline">
-            <h1 class="text-darkest m0">All Tags</h1>
-            <h6 class="m0">
-                <a class="text-dark" href="{{ .Site.BaseURL }}/feed.xml" target="_blank">RSS Feed</a>
-            </h6>
-        </div>
+	<section class="container">
+		<section class="flex flex-row justify-content-between align-items-center">
+      <h1 class="text-darkest m0">All Tags</h1>
+      <a class="d-inline-block text-dark m0" href="{{ .Site.BaseURL }}/feed.xml" target="_blank">RSS Feed</a>
+    </section>
 		<div class="hr shadow"></div>
-		<div class="flex flex-row flex-wrap justify-content-center align-items-center pt1">
-            {{ $base := .Site.BaseURL }}
-                {{ $largestFontSize := 2.0 }}
-                {{ $largestFontSize := 2.5 }}
-                {{ $smallestFontSize := 1.0 }}
-                {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
-                {{ $max := add (len (index $.Site.Taxonomies.tags.ByCount 0).Pages) 1 }}
-                {{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
-                {{ $spread := sub $max $min }}
-                {{ $fontStep := div $fontSpread $spread }}
-            {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
-                {{ $currentTagCount := len $taxonomy.Pages }}
-                {{ $currentFontSize := (add $smallestFontSize (mul (sub $currentTagCount $min) $fontStep) ) }}
-                {{ $count := len $taxonomy.Pages }}
-                {{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
-                {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
-                <span class="d-block pr1 pb1">
-                    <a class="tag regular shadow-hover" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" style="font-size:{{$currentFontSize}}rem;">{{ $name | lower }}</a>
-                </span>
-            {{ end }}
-		</div>
-        <div class="hr shadow"></div>
-        <h6 class="pt1">
-            <a href="{{ .Site.BaseURL }}/archive" class="btn">View Archive</a>
-        </h6>
-	</div>
+		<section class="flex flex-row flex-wrap justify-content-center align-items-center pt1">
+      {{ $base := .Site.BaseURL }}
+          {{ $largestFontSize := 2.0 }}
+          {{ $largestFontSize := 2.5 }}
+          {{ $smallestFontSize := 1.0 }}
+          {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+          {{ $max := add (len (index $.Site.Taxonomies.tags.ByCount 0).Pages) 1 }}
+          {{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
+          {{ $spread := sub $max $min }}
+          {{ $fontStep := div $fontSpread $spread }}
+      {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
+          {{ $currentTagCount := len $taxonomy.Pages }}
+          {{ $currentFontSize := (add $smallestFontSize (mul (sub $currentTagCount $min) $fontStep) ) }}
+          {{ $count := len $taxonomy.Pages }}
+          {{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+          {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
+          <span class="d-block pr1 pb1">
+              <a class="tag regular shadow-hover" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" style="font-size:{{$currentFontSize}}rem;">{{ $name | lower }}</a>
+          </span>
+      {{ end }}
+		</section>
+    <div class="hr shadow"></div>
+    <a href="{{ .Site.BaseURL }}/archive" class="d-inline-block btn mt1">View Archive</a>
+	</section>
 {{ end }}

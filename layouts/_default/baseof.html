@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   {{ block "head" . }}
-    {{ partial "head.html" . }}
+    {{ partial "headContent.html" . }}
   {{ end }}
 </head>
 
 <body>
   <header>
-    {{ partialCached "header.html" . }}
+    {{ partialCached "headerContent.html" . }}
   </header>
   <main>
     {{ block "main" . }}
@@ -16,7 +16,7 @@
     {{ end }}
   </main>
   <footer class="p1">
-    {{ partial "footer.html" . }}
+    {{ partial "footerContent.html" . }}
   </footer>
   {{ partialCached "js.html" . }}
 </body>

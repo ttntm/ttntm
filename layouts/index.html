@@ -1,32 +1,28 @@
 {{ define "main" }}
-    <div class="container">
-        <div class="flex flex-row justify-content-between align-items-center flex-wrap pb1 mb2">
-            <div class="w25 w75m mx-auto">
-                <img class="img-fluid circle shadow" src="/img/ttntm.jpg" alt="ttntm">
-            </div>
-            <div class="w75 w100m">
-                <div class="p2">
-                    <h1 class="h2 text-darker">Hi, I'm Tom.</h1>
-                    <h2 class="h4">Welcome to my site, I hope you'll enjoy reading the articles 😎<br>
-                      You could also have a look at the <a href="{{ .Site.BaseURL }}/work">things I did</a> or get to know more about me in <a href="{{ .Site.BaseURL }}/about">/about</a>.
-                    </h2>
-                </div>
-            </div>
+    <section class="container">
+      <section class="flex flex-row justify-content-between align-items-center flex-wrap pb1 mb2">
+        <div class="w25 w75m mx-auto">
+          <img class="img-fluid circle shadow" src="/img/ttntm.jpg" alt="ttntm">
         </div>
-        <div class="flex flex-row justify-content-between align-items-baseline">
-            <h4 class="h1 text-darkest m0">Recent Posts</h4>
-            <h6 class="m0"><a class="text-dark" href="{{ .Site.BaseURL }}/feed.xml" target="_blank">RSS Feed</a></h6>
+        <div class="w75 w100m p2">
+          <h1 class="h2 text-darker">Hi, I'm Tom.</h1>
+          <p class="h4 m0">Welcome to my site, I hope you'll enjoy reading the articles 😎<br>
+            You could also have a look at the <a href="{{ .Site.BaseURL }}/work">things I did</a> or get to know more about me in <a href="{{ .Site.BaseURL }}/about">/about</a>.
+          </p>
         </div>
-        <div class="hr shadow"></div>
-        <div class="pt1">
-        {{ range first 5 (where .Site.Pages "Section" "blog") }}
-            <div class="pb1">
-                {{ partial "post-preview" . }}
-            </div>
-        {{ end }}
-            <h6>
-                <a href="{{ .Site.BaseURL }}/archive" class="btn">View Archive</a>
-            </h6>
-        </div>
-    </div>
+      </section>
+      <section class="flex flex-row justify-content-between align-items-center">
+        <h2 class="h1 text-darkest m0">Recent Posts</h2>
+        <a class="d-inline-block text-dark m0" href="{{ .Site.BaseURL }}/feed.xml" target="_blank">RSS Feed</a>
+      </section>
+      <div class="hr shadow"></div>
+      <section class="pt1">
+      {{ range first 5 (where .Site.Pages "Section" "blog") }}
+        <section class="pb1">
+          {{ partial "post-preview" . }}
+        </section>
+      {{ end }}
+        <a href="{{ .Site.BaseURL }}/archive" class="d-inline-block btn">View Archive</a>
+      </section>
+    </section>
 {{ end }}

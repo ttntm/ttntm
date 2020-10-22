@@ -1,27 +1,25 @@
 <h2 class="mt2">Leave a Comment</h2>
 <div class="hr shadow"></div>
-<div class="w100m w75 pt1 mx-auto">
-    <div class="">
-        <form name="BlogComments" action="/comment-thanks" method="POST" netlify-honeypot="bot-field" netlify>
-            <input name="path" type="hidden" value="{{ .RelPermalink }}">
-            <input name="bot-field" type="hidden">
-            <div class="form-group">
-                <label for="inputName"><h5 class="">Name</h5></label>
-                <input name="Name" type="name" class="form-control" id="inputName" placeholder="John Doe" required>
-            </div>
-            <div class="form-group">
-                <label for="inputEmail"><h5 class="">Email address</h5></label>
-                <input name="Email" type="email" class="form-control" id="inputEmail" placeholder="john.doe@example.com" required>
-                <span class="small text-sec">Confidential, will not be shared with anyone or published here.</span>
-            </div>
-            <div class="form-group">
-                <label for="inputComment"><h5 class="">Comment</h5></label>
-                <textarea name="Comment" class="form-control" id="inputComment" placeholder="Your comment..." style="height: 150px; resize: none;" required></textarea>
-            </div>
-            <button type="submit" class="btn">Submit Comment</button>
-        </form>
+<section class="w100m w75 pt1 mx-auto">
+  <form name="BlogComments" action="/comment-thanks" method="POST" netlify-honeypot="bot-field" netlify>
+    <input name="path" type="hidden" value="{{ .RelPermalink }}">
+    <input name="bot-field" type="hidden">
+    <div class="form-group">
+        <label for="inputName"><h5 class="">Name</h5></label>
+        <input name="Name" type="name" class="form-control" id="inputName" placeholder="John Doe" required>
     </div>
-</div>
+    <div class="form-group">
+        <label for="inputEmail"><h5 class="">Email address</h5></label>
+        <input name="Email" type="email" class="form-control" id="inputEmail" placeholder="john.doe@example.com" required>
+        <span class="small text-sec">Confidential, will not be shared with anyone or published here.</span>
+    </div>
+    <div class="form-group">
+        <label for="inputComment"><h5 class="">Comment</h5></label>
+        <textarea name="Comment" class="form-control" id="inputComment" placeholder="Your comment..." style="height: 150px; resize: none;" required></textarea>
+    </div>
+    <button type="submit" class="btn">Submit Comment</button>
+  </form>
+</section>
 
 {{ $thisPost := .RelPermalink }}
 {{ $comments := .Site.Data.comments }}

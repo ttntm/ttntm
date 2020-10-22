@@ -1,19 +1,19 @@
 {{ $content := .Get 0 }}
 {{ $path := printf "%s%s" $content "/*" }}
 
-<div class="grid mt2 mb2">
-    {{ $about := .Site.GetPage "/about" }}
-    {{ $pj := $about.Resources.Match $path }}
-    {{ range sort $pj ".Params.weight" "desc" }}
-        <div class="shadow-md-hover p2" style="border: 1px solid var(--light)">
-            <h5 class="text-dark">
-              {{ .Title }}
-              {{ with .Params.when }}
-                <span class="text-prim regular"> [{{ . }}]</span>
-              {{ end }}
-            </h5>
-            <p>{{ .Description }}</p>
-            <a href="{{ .Params.cUrl }}" class="d-inline-block" target="_blank">Take me there</a> &gt;
-        </div>
-    {{ end }}
-</div>
+<section class="grid mt2 mb2">
+  {{ $about := .Site.GetPage "/about" }}
+  {{ $pj := $about.Resources.Match $path }}
+  {{ range sort $pj ".Params.weight" "desc" }}
+    <section class="shadow-md-hover p2" style="border: 1px solid var(--light)">
+      <h3 class="h5 text-dark">
+        {{ .Title }}
+        {{ with .Params.when }}
+          <span class="text-prim regular"> [{{ . }}]</span>
+        {{ end }}
+      </h3>
+      <p>{{ .Description }}</p>
+      <a href="{{ .Params.cUrl }}" class="d-inline-block" target="_blank">Take me there</a> &gt;
+    </section>
+  {{ end }}
+</section>

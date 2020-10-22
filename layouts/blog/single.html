@@ -5,16 +5,14 @@
 		<div class="hr shadow"></div>
 	</header>
 	<article class="container">
-		<div class="">
-			{{ .Content }}
-		</div>
-		<div class="py1">
+		{{ .Content }}
+		<section class="py1">
 			<div class="hr shadow"></div>
-				{{ partial "blog/tags.html" . }}
+      {{ partial "blog/tags.html" . }}
 			<div class="hr shadow" style="margin-top: -0.5rem;"></div>
-		</div>
+		</section>
 	</article>
-	<div class="container">
+	<section class="container">
 		<div class="flex flex-row justify-content-between py1">
 			<div class="">
 			{{ if .PrevInSection }}
@@ -29,5 +27,5 @@
 		</div>
 		{{ partial "blog/comments.html" . }}
 		{{ partial "blog/related.html" . }}
-	</div>
+	</section>
 {{ end }}

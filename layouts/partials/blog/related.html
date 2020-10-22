@@ -1,15 +1,12 @@
 {{ $related := .Site.RegularPages.Related . | first 2 }}
 {{ with $related }}
-    <div class="mt2">
-        <h2>Related Posts</h2>
-        <div class="hr shadow"></div>
-        {{ range . }}
-            <div class="pb1">
-                <h2 class="h3"><a href="{{ .Permalink }}" class="lnk-underline">{{ .Title }}</a></h2>
-                <p>{{ .Description }}</p>
-                <p class="small text-sec">Published {{ dateFormat (.Site.Params.DateForm) .Date }}, {{ .ReadingTime }} minute read</p>
-                <div class="hr shadow"></div>
-            </div>
-        {{ end }}
-    </div>
+  <section class="mt2">
+    <h2>Related Posts</h2>
+    <div class="hr shadow"></div>
+    {{ range . }}
+      <section class="pb1">
+        {{ partial "post-preview" . }}
+      </section>
+    {{ end }}
+  </section>
 {{ end }}
