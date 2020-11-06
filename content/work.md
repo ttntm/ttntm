@@ -1,9 +1,9 @@
 ---
 title: Things I Did
 ---
-## Employment & Client Projects
+## Client Projects
 
-Work samples based on my job and some freelance projects on the side.
+Work samples based on freelance client projects.
 
 {{< projects work >}}
 
