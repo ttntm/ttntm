@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "BPM.WIKI"
 description: "Service/systems architecture and UX/UI design for BPM.WIKI, a platform and community for process knowledge."
 when: From 06/2019
