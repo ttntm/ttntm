@@ -7,9 +7,8 @@
 		<div class="hr shadow"></div>
 		<section class="flex flex-row flex-wrap justify-content-center align-items-center pt1">
       {{ $base := .Site.BaseURL }}
-          {{ $largestFontSize := 2.0 }}
-          {{ $largestFontSize := 2.5 }}
-          {{ $smallestFontSize := 1.0 }}
+          {{ $largestFontSize := 2.25 }}
+          {{ $smallestFontSize := 0.75 }}
           {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
           {{ $max := add (len (index $.Site.Taxonomies.tags.ByCount 0).Pages) 1 }}
           {{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}

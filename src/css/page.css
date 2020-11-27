@@ -49,6 +49,7 @@ html, body {
 html {
     font-family: var(--font-sans);
     line-height: 1.15;
+    scroll-padding-top: 1rem;
 }
 
 body {

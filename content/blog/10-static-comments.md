@@ -7,7 +7,7 @@ date: 2019-12-15
 description: Probably the easiest way of adding comments to your Hugo site.
 tags:
     - gulp
-    - howto
+    - tutorial
     - hugo
     - javascript
     - netlify

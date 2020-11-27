@@ -6,8 +6,9 @@ type: blog
 date: 2018-11-19
 description: Short update summarizing the changes done to this site recently.
 tags:
+    - css
     - design
-    - personal
+    - news
 images:
     - /img/blog/default.jpg
 ---

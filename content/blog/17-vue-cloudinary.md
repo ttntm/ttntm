@@ -9,7 +9,7 @@ tags:
     - Vue.js
     - Cloudinary
     - images
-    - howto
+    - tutorial
 images:
     - /img/blog/code.jpg
 ---

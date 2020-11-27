@@ -7,7 +7,7 @@ date: 2020-03-24
 description: "Spring cleaning. Or how to ditch Bootstrap, all JavaScript, jQuery etc. and end up with a new, faster website."
 tags:
     - CSS
-    - personal
+    - news
     - design
 images:
     - /img/blog/empty.jpg

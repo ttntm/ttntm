@@ -6,6 +6,7 @@ type: blog
 date: 2019-02-10
 description: A brief update from February 2019.
 tags:
+    - news
     - personal
 ---
 

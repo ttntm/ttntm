@@ -7,8 +7,9 @@ date: 2018-09-03
 description: An article about using CSS variables in Internet Explorer which doesn't natively support them.
 tags:
     - css
-    - howto
+    - tutorial
     - javascript
+    - work
 images:
     - /img/blog/default.jpg
 ---
@@ -85,7 +86,7 @@ The one used here is called "css-vars-ponyfill" and comes from this repository o
 
 Simply adding the ponyfill to a page won't do the trick, it also has to be executed via `cssVars()`. The site this example came from is also using jQuery, so this call has been placed in `document.ready()`, which looks like that:
 
-{{< highlight js>}}
+{{< highlight js >}}
 
 $(document).ready(function(){
     //some code...

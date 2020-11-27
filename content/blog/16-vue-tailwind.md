@@ -9,7 +9,7 @@ tags:
     - Vue.js
     - Tailwind
     - CSS
-    - howto
+    - tutorial
 images:
     - /img/blog/code.jpg
 ---

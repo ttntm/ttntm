@@ -8,6 +8,7 @@ description: A pointer to a great resource for Micorosft Visio users.
 tags:
     - Visio
     - Microsoft
+    - work
 images:
     - /img/blog/default.jpg
 ---

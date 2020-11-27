@@ -10,7 +10,7 @@ tags:
     - FaunaDB
     - Serverless
     - Netlify
-    - howto
+    - tutorial
 images:
     - /img/blog/client-serverless-credit-faunadb.png
 ---

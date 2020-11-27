@@ -6,6 +6,7 @@ type: blog
 date: 2018-08-27
 description: A short update after obtaining the Responsive Web Design Certification on freeCodeCamp.
 tags:
+    - news
     - personal
     - learning
 images:

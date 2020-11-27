@@ -6,7 +6,6 @@ type: blog
 date: 2018-08-20
 description: This site's opening post.
 tags:
-    - firstpost
     - personal
 images:
     - /img/blog/default.jpg
