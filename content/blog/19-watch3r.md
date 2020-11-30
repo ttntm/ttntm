@@ -13,7 +13,7 @@ images:
     - /img/blog/watch3r.jpg
 ---
 
-Nothing fancy, just a short announcement for an app I built recently.
+Nothing fancy, just a small announcement for an app I recently built.
 
 <img src="/img/blog/watch3r.jpg" class="img-fluid img-center" alt="WATCH3R logo splash screen">
 
@@ -27,7 +27,7 @@ Once again, it's a free app, so you're welcome to {{< link-ext "request an invit
 
 ## Technical Details
 
-On top of watching the same movie twice within 3 years, making use of Vue 3 was the main reason I started working on this application. I'll publishe a separate article on my developer experience soon; for the time being, here's a quick summary of the technical details:
+On top of watching the same movie twice within 3 years, making use of Vue 3 was the main reason I started working on this application. I'll publish a separate article on my developer experience soon; for the time being, here's a quick summary of the technical details:
 
 - Front end: Vue 3 + Tailwind CSS
 - State mgt.: Vuex 4 beta + plugins
