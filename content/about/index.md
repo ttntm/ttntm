@@ -35,6 +35,4 @@ Overview of the resources used for this site in its current state.
 
 ## Like it here?
 
-<a href="https://www.buymeacoffee.com/ttntm" target="_blank" class="d-inline-block">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" class="mx-auto" style="height: 40px; width: auto;" alt="Buy me a coffee">
-</a>
+If you like what I'm doing here and if you're looking for a way to show your appreciation, you could {{< link-ext "buy me a coffee" "www.buymeacoffee.com/ttntm" >}} or support domain renewals etc. via {{< link-ext PayPal "paypal.me/pools/c/8uLxAzwDUY" >}}.
