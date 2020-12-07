@@ -21,7 +21,7 @@ I had already heard of {{< link-ext "client-serverless architecture" "fauna.com/
 
 <img src="/img/blog/client-serverless-credit-faunadb.png" class="img-fluid img-center" alt="client-serverless application model">
 
-What I had in mind at this point was a minimal web application that would serve me and my wife as a recipes collection for food that we enjoy cooking. Convenient bonus features like PWA functionality (i.e. using the app on the phone or tablet when standing in the kitchen) and user authentication should be available too, making sure it's not just functional, but also enjoyable to use.
+What I had in mind at this point was a minimal web application that would serve me and {{< link-ext "my wife" "sahar.design" >}} (who took care of the design) as a recipes collection for food that we enjoy cooking. Convenient bonus features like PWA functionality (i.e. using the app on the phone or tablet when standing in the kitchen) and user authentication should be available too, making sure it's not just functional, but also enjoyable to use.
 
 At first, I was tempted to go for a static site + headless CMS approach that worked really well for many other projects I did - it could be considered serverless, but it wouldn't have been a challenge, nor anything I hadn't done before; and that's precisely the reason I went looking for something else, eventually going for Vue.js + FaunaDB for this project.
 
