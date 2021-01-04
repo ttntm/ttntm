@@ -34,7 +34,7 @@ Last but not least important, WATCH3R makes use of 2 different (free) APIs that 
 
 ### Handling Application State
 
-Even though it might be overkill for such a small application, I'm using Vuex as centralized state management. Vue 3 and it's Composition API offer a lot of possibilities to handle global application state (see {{< link-ext "this article" "dev.to/blacksonic/you-might-not-need-vuex-with-vue-3-52e4" >}}) for example), but I got quite used to the way Vuex handles things when building recept0r, which made this a somewhat biased decision.
+Even though it might be overkill for such a small application, I'm using Vuex as centralized state management. Vue 3 and it's Composition API offer a lot of possibilities to handle global application state (see {{< link-ext "this article" "dev.to/blacksonic/you-might-not-need-vuex-with-vue-3-52e4" >}} for example), but I got quite used to the way Vuex handles things when building recept0r, which made this a somewhat biased decision.
 
 I'll talk about it some more later on, but I believe I've managed to use it quite well this time around. That means using Vuex to provide a true separation of concerns and making sure that individual views and components *do not* directly interact with global application state without having to go through Vuex actions.
 
@@ -108,6 +108,6 @@ I've included this section for to a slightly different reason - interoperability
 
 ## Conclusion
 
-Getting started with Vue 3 was a really good experience for me and I found everything was either working quite well already or at least well documented ({{< link-ext "except for one little bug I found" "github.com/vuejs/vue-next/issues/2325" >}}). I definitely prefer working with the Composition API to how things were done in Vue 2, just my personal preference though. Using the same stack I already used for another app this year certainly made things easier too, but it's hard to ignore the power and convenience it provides.
+Getting started with Vue 3 was a really good experience for me and I found everything was either working as it should already or at least well documented; {{< link-ext "except for one little bug I found" "github.com/vuejs/vue-next/issues/2325" >}}. I definitely prefer working with the Composition API to how things were done in Vue 2, just my personal preference though. Using the same stack I already used for another app this year certainly made things easier too, but it's hard to ignore the power and convenience it provides.
 
 WATCH3R's already got the first bunch of users and will be actively maintained and improved for the foreseeable future. So, if you're interested to give it a shot, just head over to {{< link-ext "watch3r.app/invite" "watch3r.app/invite" >}} and try it yourself.
