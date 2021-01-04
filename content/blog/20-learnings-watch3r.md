@@ -1,5 +1,5 @@
 ---
-title: Lessons learned building WATCH3R
+title: Lessons Learned Building WATCH3R
 slug: lessons-learned-building-watch3r
 weight: -20
 type: blog
@@ -44,7 +44,7 @@ Getting into the details now, I'd like to mention that WATCH3R is not just free,
 
 Aside from that, you're more than welcome to have a look at the live application at {{< link-ext "watch3r.app" "watch3r.app" >}}.
 
-### Composition API Is A Game Changer
+### Composition API is a Game Changer
 
 I didn't use Vue 2 for a very long time - I've only built 2 or 3 demo applications and 2 real applications with it, so I wouldn't call myself an expert on that matter at all. However, I immediately noticed how much cleaner using the Composition API and its `setup()` function felt. You import what you need and `return{}` what's necessary. Inside of `setup()`, things are allowed to follow the flow you deem appropriate and that makes them feel a lot less convoluted than they felt using `data()`, `methods()`, etc. in Vue 2.
 
@@ -78,7 +78,7 @@ I didn't really feel too good about this whole mess and it took me way too long 
 
 Sometimes it seems like getting simple things (a list...) right should not be underestimated. Despite the fact that this infinite sorting loop cost me a day, I do think that I was able to improve my application and gain some valuable experience (esp. in-browser debugging tools) - both reasons this topic has found its way into this collection of lessons learned.
 
-### Vuex Is Your Friend
+### Vuex is your Friend
 
 When I started working on WATCH3R, I already had a basic understanding of working with Vuex based on a previous Vue 2 application. In terms of how things work, Vue 3 and Vuex 4 don't really change too much, so I got my store set up rather quickly.
 
@@ -100,7 +100,7 @@ In its current state, WATCH3R isn't just using the service for user authenticati
 
 Another convenience feature that Netlify Identity provides is user ids. I wasn't aware of that when using it the first time, but I wouldn't want to miss it anymore. It makes really easy to store and work with user specific content in your database without having to deal with this matter in your own code.
 
-### APIs And Serverless Work Well Together
+### APIs and Serverless Work Well Together
 
 When dealing with APIs, related secrets and tokens, security should certainly be a major concern. Fortunately, going for a serverless back end provides an ideal opportunity of both working with the necessary API requests and keeping them safe at the same time, essentially separating the respective logic and all related secrets/tokens from the front end code running in the browser. If you've ever worked with serverless functions, that shouldn't be too much of a surprise though.
 

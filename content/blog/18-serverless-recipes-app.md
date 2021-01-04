@@ -1,5 +1,5 @@
 ---
-title: How I built a serverless recipes app with FaunaDB and Vue.js
+title: How I Built a Serverless Recipes App with FaunaDB and Vue.js
 slug: serverless-recipes-app-faunadb-vuejs
 weight: -18
 type: blog

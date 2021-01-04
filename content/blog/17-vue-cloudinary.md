@@ -1,5 +1,5 @@
 ---
-title: How to use Cloudinary with your Vue app
+title: How to use Cloudinary with your Vue App
 slug: how-to-use-cloudinary-with-vue-app
 weight: -17
 type: blog
