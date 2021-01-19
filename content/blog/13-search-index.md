@@ -80,7 +80,7 @@ After a while of messing around with the `index.json` template, I ended up with 
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
 
-{{< /highlight>}}
+{{< /highlight >}}
 
 This is a simplified version of the deployed code; the most important bit to highlight here is the part starting with `range $md`. That's where we leave the page context and instead range through all the Page Resources (see line 4; `$md := .Resources.Match "**.md"`) in order to get their `.Title` and `.Content` added to the index. All that happens inside the context of the key of the "services" page, so that all search queries finding a match lead to the correct page.
 
