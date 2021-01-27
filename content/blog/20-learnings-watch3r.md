@@ -64,7 +64,7 @@ There's tons of other things you can do with this composable pattern (i.e. the "
 
 If you've ever used Vue 2, you've probably come across Vue hooks like `onCreated()` that were used to execute functions (i.e. load data) at a certain point in Vue's {{< link-ext "instance lifecycle" "vuejs.org/v2/guide/instance.html#Lifecycle-Diagram" >}} (the linked diagram refers to Vue 2).
 
-Using Vue 3 with the Composition API, `setup()` takes care of most of that already - any code that would have been place in `onCreated()` gets put in there, executed and ends up working the same way.
+Using Vue 3 with the Composition API, `setup()` takes care of most of that already - any code that would have been placed in `onCreated()` gets put in there, executed and ends up working the same way.
 
 Working with other hooks like `onMounted()` or `onUpdated()` is possible from inside of `setup()` (see: {{< link-ext "Vue 3 docs" "v3.vuejs.org/guide/composition-api-introduction.html#lifecycle-hook-registration-inside-setup" >}}) and can be very useful sometimes (i.e. [handling page refresh](/til/#10)). Other times though, it can end up causing you a massive headache...
 
