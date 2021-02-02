@@ -1,11 +1,11 @@
-<nav class="flex flex-row justify-content-between align-items-center">
+<nav class="navTop flex flex-row justify-content-between align-items-center">
   <div class="logo">
     <a href="{{ .Site.BaseURL }}" class="d-block p1">ttntm.me</a>
   </div>
-  <div class="flex align-items-center">
-    <a class="nav-link d-none d-sm-inline-block mr1" href="{{ .Site.BaseURL }}">Home</a>
+  <div class="d-none d-sm-flex align-items-center">
+    <a class="nav-link d-inline-block mr1" href="{{ .Site.BaseURL }}">Home</a>
     <a class="nav-link d-inline-block mr1" href="{{ .Site.BaseURL }}/archive">Archive</a>
-    <a class="nav-link d-none d-sm-inline-block mr1" href="{{ .Site.BaseURL }}/til">TIL</a>
+    <a class="nav-link d-inline-block mr1" href="{{ .Site.BaseURL }}/til">TIL</a>
     <a class="nav-link d-inline-block mr1" href="{{ .Site.BaseURL }}/about">About</a>
     <a class="d-block mr1" href="{{ .Site.BaseURL }}/feed.xml">
       <img src="{{ .Site.BaseURL }}/img/icons/rss.svg" width="20" height="20" alt="RSS Feed Icon">

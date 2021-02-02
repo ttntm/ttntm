@@ -15,9 +15,10 @@
       <!-- content of the respective page -->
     {{ end }}
   </main>
-  <footer class="p1">
+  <footer class="px1">
     {{ partial "footerContent.html" . }}
   </footer>
+  {{ partialCached "navMobile.html" . }}
   {{ partialCached "js.html" . }}
 </body>
 </html>

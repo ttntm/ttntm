@@ -219,7 +219,7 @@ main {
 
 /* NAV STYLES */
 
-nav {
+.navTop {
     border-top: 5px solid var(--dark);
     font-size: 1.15rem;
     letter-spacing: 0.5px;
@@ -282,10 +282,18 @@ nav {
 /* FOOTER */
 
 footer {
-    background-color: var(--darkest);
     flex-shrink: 0;
     margin-top: 3rem;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+@media(min-width:768px) {
+    footer {
+        background-color: var(--darkest);
+        padding: 1rem;
+    }
 }
 
 footer a {
@@ -302,6 +310,16 @@ footer a:hover {
 
 footer a:hover .icon {
     opacity: 0.5;
+}
+
+.navMobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: var(--darkest);
+  color: var(--light);
 }
 
 /* BUTTONS */
@@ -366,6 +384,9 @@ button {
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
+    *:hover {
+        transition: all .0s ease-in-out;
+    }
     .form-control {
         transition: none;
     }
