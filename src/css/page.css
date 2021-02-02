@@ -12,7 +12,7 @@
     --yellow:#EBCB8B;
     --white: #fff;
     --black: #000;
-    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-sans: sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -249,20 +249,20 @@ nav {
     color: var(--sec);
 }
 
-.nav-links a {
+.nav-link {
     position: relative;
     color: var(--dark);
     text-decoration: none;
     font-weight: 700;
-    padding-bottom: 8px;
 }
 
-.nav-links a:hover {
+.nav-link:hover {
     color: var(--dark);
 }
 
-.nav-links a:after {
+.nav-link::after {
     position: absolute;
+    bottom: -3px;
     left: 0;
     width: 100%;
     height: 3px;
@@ -270,14 +270,10 @@ nav {
     content: '';
     opacity: 0;
     transition: opacity 0.35s, transform 0.35s ease;
-}
-
-.nav-links a:after {
-    bottom: 0;
     transform: translateY(8px);
 }
 
-.nav-links a:hover:after {
+.nav-link:hover::after {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 0.35s, transform 0.35s ease;
