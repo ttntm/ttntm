@@ -373,3 +373,7 @@
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+.icon-active {
+  opacity: 0.35;
+}
