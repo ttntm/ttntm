@@ -114,7 +114,7 @@ I started building *recept0r* based on Bootstrap. I don't know why exactly, it j
 
 It all ended up becoming unnecessarily heavy and I found myself working around it too much (overwriting CDN CSS in components). I then discovered that there is {{< link-ext "BootstrapVue" "bootstrap-vue.org" >}}, a seemingly convenient way to make better use of Bootstrap together with Vue. I didn't go for that after some deliberation, but instead spent my time on switching to {{< link-ext "TailwindCSS" "tailwindcss.com" >}}.
 
-I've used TaiwlindCSS for 5 or more projects in the last 2 years, so this ended up making me faster and more flexible than I could ever have imagined. Using Tailwind with Vue is surprisingly easy in 2020, you can read all about it in [another blog post I wrote about that](/blog/tailwind-css-with-vuejs-in-2020/).
+I've used TaiwlindCSS for 5 or more projects in the last 2 years, so this ended up making me faster and more flexible than I could ever have imagined. Using Tailwind with Vue is surprisingly easy in 2020, you can read all about it in [another blog post I wrote about that](/blog/tailwind-css-with-vuejs/).
 
 Remember the **toast notifications** mentioned earlier? I ended up refactoring them eventually...
 

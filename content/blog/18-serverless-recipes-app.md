@@ -102,12 +102,11 @@ These cases are implemented as a separate Netlify function each. First, we'll ha
 {{< highlight js >}}
 const faunadb = require('faunadb');
 
-const q = faunadb.query
-const client = new faunadb.Client({
-  secret: process.env.FAUNADB_SECRET
-})
-
 exports.handler = (event, context, callback) => {
+  const client = new faunadb.Client({
+    secret: process.env.FAUNADB_SECRET
+  })
+  const q = faunadb.query
   console.log("Function `all-recipes` invoked")
   return client.query(q.Paginate(q.Match(q.Ref("indexes/all_recipes"))))
   .then((response) => {
@@ -138,12 +137,11 @@ function getId(urlPath) {
   return urlPath.match(/([^\/]*)\/*$/)[0]
 }
 
-const q = faunadb.query
-const client = new faunadb.Client({
-  secret: process.env.FAUNADB_SECRET
-})
-
 exports.handler = (event, context, callback) => {
+  const client = new faunadb.Client({
+    secret: process.env.FAUNADB_SECRET
+  })
+  const q = faunadb.query
   const id = getId(event.path)
   console.log(`Function 'recipe-get' invoked. Read id: ${id}`)
   return client.query(q.Get(q.Ref(`collections/recipes/${id}`)))
@@ -170,12 +168,11 @@ function getUsr(urlPath) {
   return urlPath.match(/([^\/]*)\/*$/)[0]
 }
 
-const q = faunadb.query
-const client = new faunadb.Client({
-  secret: process.env.FAUNADB_SECRET
-})
-
 exports.handler = (event, context, callback) => {
+  const client = new faunadb.Client({
+    secret: process.env.FAUNADB_SECRET
+  })
+  const q = faunadb.query
   const usr = getUsr(event.path)
   console.log("Function `all-recipes-user` invoked")
   return client.query(q.Paginate(q.Match(q.Index('recipes_by_owner'), `${usr}`)))
@@ -211,12 +208,11 @@ This Netlify function called `recipe-create.js` handles database writes that hap
 {{< highlight js >}}
 const faunadb = require('faunadb');
 
-const q = faunadb.query
-const client = new faunadb.Client({
-  secret: process.env.FAUNADB_SECRET
-})
-
 exports.handler = (event, context, callback) => {
+  const client = new faunadb.Client({
+    secret: process.env.FAUNADB_SECRET
+  })
+  const q = faunadb.query
   const data = JSON.parse(event.body)
   console.log("Function `recipe-create` invoked", data)
   const newRecipe = {
@@ -246,12 +242,11 @@ function getId(urlPath) {
   return urlPath.match(/([^\/]*)\/*$/)[0]
 }
 
-const q = faunadb.query
-const client = new faunadb.Client({
-  secret: process.env.FAUNADB_SECRET
-})
-
 exports.handler = (event, context, callback) => {
+  const client = new faunadb.Client({
+    secret: process.env.FAUNADB_SECRET
+  })
+  const q = faunadb.query
   const data = JSON.parse(event.body)
   const id = getId(event.path)
   console.log(`Function 'recipe-edit' invoked. update id: ${id}`)
@@ -279,12 +274,11 @@ function getId(urlPath) {
   return urlPath.match(/([^\/]*)\/*$/)[0]
 }
 
-const q = faunadb.query
-const client = new faunadb.Client({
-  secret: process.env.FAUNADB_SECRET
-})
-
 exports.handler = (event, context, callback) => {
+  const client = new faunadb.Client({
+    secret: process.env.FAUNADB_SECRET
+  })
+  const q = faunadb.query
   const id = getId(event.path)
   console.log(`Function 'recipe-delete' invoked. delete id: ${id}`)
   return client.query(q.Delete(q.Ref(`collections/recipes/${id}`)))
