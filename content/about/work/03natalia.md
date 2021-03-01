@@ -1,7 +1,6 @@
 ---
 title: "nataliagarcez.com"
 description: "Created a personal website for Natalia Garcez, a freelance graphic designer."
-when: 11/2018 - 03/2019
 cUrl: "https://nataliagarcez.com"
 weight: 3
 logo: ""

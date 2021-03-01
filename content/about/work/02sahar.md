@@ -1,7 +1,6 @@
 ---
 title: "sahar.design"
 description: "Created a personal website for Sahar Heumesser, a freelance graphic designer."
-when: From 11/2018
 cUrl: "https://sahar.design"
 weight: 2
 logo: ""
