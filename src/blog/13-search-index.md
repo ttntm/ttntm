@@ -7,7 +7,6 @@ date: 2020-03-30
 description: "Lessons learned when building a JSON search index for Hugo sites using Page Reources."
 tags:
     - Hugo
-    - json
     - search
     - workaround
 image: /img/blog/nothing.jpg
