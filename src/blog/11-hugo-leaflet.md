@@ -9,10 +9,7 @@ tags:
     - tutorial
     - hugo
     - javascript
-    - jquery
-    - json
     - leaflet
-    - search
     - work
 image: /img/blog/map.jpg
 ---
