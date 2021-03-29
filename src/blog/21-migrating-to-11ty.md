@@ -53,11 +53,14 @@ The following notes are a slightly improved version of my working notes; I'm gla
 - Collections (i.e. Blog) => `src/CollectionName/` - Markdown files go in there, {% ext "directory based Front Matter", "https://www.11ty.dev/docs/data-template-dir/" %} can be defined for all of them via `CollectionName.json`
 - Each collection that's not based on Front Matter `tags` needs to be defined in `.eleventy.js`; see {% ext "11ty.dev/docs/collections/", "https://www.11ty.dev/docs/collections/" %}
 - Front Matter `permalink` sets/overrides the URL = build target for the respective piece of content; set `permalink: false` for content in individual files that should _not_ be rendered as individual pages (like my [/TIL page](/til))
+- Deal with Markdown errors (in case you've got Go template code in your code blocks for example): {% ext "so.com/questions/3426182/how-to-escape-liquid-template-tags", "https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags" %}
 
 ### Migrate Templates
 
 - Contents of Hugo's `layouts` directory => `src/_layouts/` (_except for partials and shortcodes_)
 - Hugo partials => `src/_includes/`
+- Create an Archive page for your posts: {% ext "darekkay.com/blog/eleventy-group-posts-by-year/", "https://darekkay.com/blog/eleventy-group-posts-by-year/" %}
+- Implement `active` navigation state: {% ext "using-nunjucks-if-expressions-to-create-an-active-navigation-state-in-11ty/", "https://bryanlrobinson.com/blog/using-nunjucks-if-expressions-to-create-an-active-navigation-state-in-11ty/" %}
 - Don't forget about:
   - Sitemap
   - OG/Twitter/... Metadata
