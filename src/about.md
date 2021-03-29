@@ -19,9 +19,8 @@ Noteworthy learnings can be found in [/TIL](/til).
 
 Overview of the resources used for this site in its current state.
 
-- Hugo
-- custom CSS
-- gulp with `postcss`, `concat-css` and `cssnano`
+- Eleventy
+- Custom CSS via PostCSS
 - Netlify
 
 ## Like it here?
