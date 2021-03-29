@@ -8,7 +8,6 @@ description: An article about pulling random records from a JSON data file in Hu
 tags:
     - hugo
     - tutorial
-    - json
     - work
 image: /img/blog/default.jpg
 ---
