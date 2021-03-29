@@ -10,7 +10,6 @@ tags:
     - FaunaDB
     - Serverless
     - Netlify
-    - learning
 image: /img/blog/vuejs.jpg
 ---
 
