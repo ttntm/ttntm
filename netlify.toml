@@ -1,9 +1,7 @@
 [build]
 publish = "public"
 command = "npm run deploy"
-
-[context.production.environment]
-command = "npm run deploy"
+NODE_VERSION = "12.18.2"
 
 [Settings]
 ID = "ttntm.me"
