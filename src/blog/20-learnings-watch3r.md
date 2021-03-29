@@ -10,8 +10,6 @@ tags:
     - FaunaDB
     - Serverless
     - Netlify
-    - learning
-    - watch3r
 image: /img/blog/watch3r.jpg
 ---
 
