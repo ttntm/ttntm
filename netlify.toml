@@ -1,9 +1,9 @@
 [build]
 publish = "public"
-command = "npm run build"
+command = "npm run deploy"
 
 [context.production.environment]
-command = "npm run build"
+command = "npm run deploy"
 
 [Settings]
 ID = "ttntm.me"
