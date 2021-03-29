@@ -1,0 +1,19 @@
+<section class="navMobile d-sm-none">
+  <nav class="flex align-items-center justify-content-around">
+    <a class="d-block p1 mr1" href="/">
+      <img class='{{ 'icon-active' if page.url === '/' }}' src="/img/icons/home.svg" width="20" height="20" alt="Home Icon">
+    </a>
+    <a class="d-block p1 mr1" href="/archive">
+      <img class='{{ 'icon-active' if '/archive' in page.url }}' src="/img/icons/archive.svg" width="20" height="20" alt="Archive Icon">
+    </a>
+    <a class="d-block p1 mr1" href="/about">
+      <img class='{{ 'icon-active' if '/about' in page.url }}' src="/img/icons/user.svg" width="20" height="20" alt="About Icon">
+    </a>
+    <a class="d-block p1 mr1" href="/work">
+      <img class='{{ 'icon-active' if '/work' in page.url }}' src="/img/icons/work.svg" width="20" height="20" alt="Work Icon">
+    </a>
+    <a class="d-block p1" href="/til">
+      <img class='{{ 'icon-active' if '/til' in page.url }}' src="/img/icons/notes.svg" width="20" height="20" alt="TIL Icon">
+    </a>
+  </nav>
+</section>

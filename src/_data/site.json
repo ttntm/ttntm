@@ -1,0 +1,22 @@
+{
+  "author": "ttntm",
+  "description": "A journal/blog about web development, IT and related topics.",
+  "social": [
+    {
+      "title": "Email",
+      "img": "email.svg",
+      "url": "mailto:ttntm@pm.me"
+    },
+    {
+      "title": "GitHub",
+      "img": "github.svg",
+      "url": "https://github.com/ttntm"
+    },
+    {
+      "title": "Twitter",
+      "img": "twitter.svg",
+      "url": "https://twitter.com/thet0m"
+    }
+  ],
+  "url": "https://ttntm.me"
+}

@@ -1,0 +1,27 @@
+<ul class="d-none d-sm-block list-reset list-inline bold mb1">
+  <li class="d-none d-sm-inline-block list-inline-item px1">
+    <a class="no-underline" href="/">Home</a>
+  </li>
+  <li class="list-inline-item px1">
+    <a class="no-underline" href="/archive">Archive</a>
+  </li>
+  <li class="list-inline-item px1">
+    <a class="no-underline" href="/about">About</a>
+  </li>
+  <li class="list-inline-item px1">
+    <a class="no-underline" href="/work">Work</a>
+  </li>
+  <li class="list-inline-item px1">
+    <a class="no-underline" href="/til">TIL</a>
+  </li>
+</ul>
+<p class="small text-light m0">&copy; {{ site.author }}, est. 2k18 - Currently using <a class="regular" href="https://www.11ty.dev" rel="noopener" target="_blank">Eleventy</a> via <a class="regular" href="https://www.netlify.com" rel="noopener" target="_blank">Netlify</a></p>
+<ul class="list-reset list-inline small">
+  {% for icon in site.social %}
+    <li class="list-inline-item pt1 px1">
+      <a class="no-underline" href="{{ icon.url }}" target="_blank" rel="noopener">
+        <img src="/img/icons/{{ icon.img }}" class="icon" alt="{{ icon.title }}" title="{{ icon.title }}" style="width: 20px;">
+      </a>
+    </li>
+  {% endfor %}
+</ul>

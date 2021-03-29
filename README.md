@@ -1,6 +1,6 @@
 ### Hi there, I'm Tom 👋
 
-I work as a web developer and I also do freelance projects from time to time. 
+I work as a web developer and I also do freelance projects from time to time.
 
 My website can be found at [ttntm.me](https://ttntm.me) where you can get to know more [about me](https://ttntm.me/about/) and a bunch of the [things I did](https://ttntm.me/work/) or read some articles in my [blog](https://ttntm.me/archive/).
 

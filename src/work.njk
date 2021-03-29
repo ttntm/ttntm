@@ -1,0 +1,31 @@
+---
+title: Things I Did
+layout: page.njk
+permalink: /work/index.html
+---
+<h2>Client Projects</h2>
+<p>Work samples based on freelance client projects.<p>
+<section class="grid mt2 mb2">
+  {% for work in projects.work %}
+    <section class="shadow-md-hover p2" style="border: 1px solid var(--light)">
+      <h3 class="h5 text-dark">
+        {{ work.title }}
+      </h3>
+      <p>{{ work.description }}</p>
+      <a href="{{ work.url }}" class="d-inline-block" target="_blank">Take me there</a> &gt;
+    </section>
+  {% endfor %}
+</section>
+<h2>Personal</h2>
+<p>Side projects, functional demos, examples for articles I wrote, open source/templates etc.</p>
+<section class="grid mt2">
+  {% for item in projects.personal %}
+    <section class="shadow-md-hover p2" style="border: 1px solid var(--light)">
+      <h3 class="h5 text-dark">
+        {{ item.title }}
+      </h3>
+      <p>{{ item.description }}</p>
+      <a href="{{ item.url }}" class="d-inline-block" target="_blank">Take me there</a> &gt;
+    </section>
+  {% endfor %}
+</section>

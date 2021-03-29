@@ -1,0 +1,76 @@
+{
+  "personal": [
+    {
+      "title": "aitrack.work",
+      "description": "A simple task-based time tracker.",
+      "url": "https://aitrack.work"
+    },
+    {
+      "title": "watch3r",
+      "description": "A watchlist and tracking app for movies and series.",
+      "url": "https://watch3r.app"
+    },
+    {
+      "title": "pokedex0r",
+      "description": "Minimal demo of TypeScript Vue + pokeAPI.",
+      "url": "https://pokedex0r.netlify.app"
+    },
+    {
+      "title": "recept0r",
+      "description": "A recipes app based on vue.js and backed by Fauna DB.",
+      "url": "https://recept0r.com"
+    },
+    {
+      "title": "hugo-landing-page",
+      "description": "A simple landing page built with Hugo and Tailwind CSS.",
+      "url": "https://awesome.ttntm.me"
+    },
+    {
+      "title": "hugo-tailwind-boilerplate",
+      "description": "A boilerplate for Hugo sites based on TailwindCSS.",
+      "url": "https://github.com/ttntm/hugo-tailwind-boilerplate"
+    },
+    {
+      "title": "hugo-leaflet-store-locator",
+      "description": "A Leaflet based store locator built for Hugo sites.",
+      "url": "https://storelocator.ttntm.me"
+    },
+    {
+      "title": "hugo-comments",
+      "description": "\"Static\" comments with Netlify & Hugo.",
+      "url": "https://comments.ttntm.me"
+    }
+  ],
+  "work": [
+    {
+      "title": "psychotherapie-naschmarkt.at",
+      "description": "A website for a group practice of psychotherapists in Vienna.",
+      "url": "https://www.psychotherapie-naschmarkt.at"
+    },
+    {
+      "title": "komlosi.at",
+      "description": "An informative, multilingual website for an Austrian psychotherapist.",
+      "url": "https://www.komlosi.at"
+    },
+    {
+      "title": "silianoff.at",
+      "description": "A sleek and simple website for an Austrian psychotherapist.",
+      "url": "https://www.silianoff.at"
+    },
+    {
+      "title": "alpengummi.at",
+      "description": "Created a website for Alpengummi, the first all natural chewing gum from Austria.",
+      "url": "https://www.alpengummi.at"
+    },
+    {
+      "title": "nataliagarcez.com",
+      "description": "Created a personal website for Natalia Garcez, a freelance graphic designer.",
+      "url": "https://nataliagarcez.com"
+    },
+    {
+      "title": "sahar.design",
+      "description": "Created a personal website for Sahar Heumesser, a freelance graphic designer.",
+      "url": "https://sahar.design"
+    }
+  ]
+}

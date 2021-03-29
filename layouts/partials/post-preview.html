@@ -1,5 +1,0 @@
-<h3><a href="{{ .Permalink }}" class="lnk-underline">{{ .Title }}</a></h3>
-<p>{{ .Description }}</p>
-{{ partial "blog/tags.html" . }}
-<p class="small text-sec pb1" style="margin-top: -0.5rem;">Published {{ dateFormat (.Site.Params.DateForm) .Date }}, {{ .ReadingTime }} minute read</p>
-<div class="hr shadow"></div>

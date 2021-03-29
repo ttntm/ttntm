@@ -1,12 +1,9 @@
 [build]
 publish = "public"
-command = "npm run deploy"
+command = "npm run build"
 
 [context.production.environment]
-HUGO_VERSION = "0.58.0"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "false"
-command = "npm run deploy"
+command = "npm run build"
 
 [Settings]
 ID = "ttntm.me"

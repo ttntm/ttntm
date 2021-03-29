@@ -1,0 +1,11 @@
+<h3><a href="{{ post.url }}" class="lnk-underline">{{ post.data.title }}</a></h3>
+<p>{{ post.data.description }}</p>
+<ul class="list-inline">
+  {% for tag in post.data.tags | sort(tag) %}
+    <li class="list-inline-item content-tag-item">
+      <span class="content-tag regular">{{ tag }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<p class="small text-sec pb1" style="margin-top: -0.5rem;">Published: {{ post.date | date('MMMM DD, YYYY') }}</p>
+<div class="hr shadow"></div>
