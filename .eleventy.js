@@ -18,14 +18,14 @@ module.exports = function (eleventyConfig) {
   // shortcode to render markdown from string => {{ STRING | markdown | safe }}
   eleventyConfig.addFilter('markdown', function(value) {
     let markdown = require('markdown-it')({
-        html: true
+      html: true
     });
     return markdown.render(value);
   });
 
   // shortcode to create external 'target=_blank' links
   eleventyConfig.addLiquidShortcode('ext', function(displayText, link) {
-    return`<a href="${link}" title="${displayText}" target="_blank" rel="noopener">${displayText}</a>`
+    return`<a href="${link}" title="${link}" target="_blank" rel="noopener">${displayText}</a>`
   });
 
   // rebuild on CSS changes
