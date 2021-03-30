@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <section class="container">
-  <section class="flex flex-row justify-content-between align-items-center flex-wrap pb1 mb2">
+  <div class="flex flex-row justify-content-between align-items-center flex-wrap pb1 mb2">
     <div class="w25 w75m mx-auto">
       <img class="img-fluid circle shadow" src="/img/ttntm.jpg" alt="ttntm">
     </div>
@@ -12,20 +12,25 @@ layout: base.njk
         You could also have a look at the things I did in <a href="/work">/work</a> or get to know more about me in <a href="/about">/about</a>.
       </p>
     </div>
-  </section>
-  <section class="flex flex-row justify-content-between align-items-center">
-    <h2 class="h1 text-darkest m0">Recent Posts</h2>
-    <a href="/archive" class="d-inline-block text-dark">[View All]</a>
-  </section>
-  <div class="hr shadow"></div>
-  <section class="pt1">
-    {%- for post in collections.blog | reverse -%}
-      {% if loop.index <= 5 %}
-        <section class="pb1">
-          {% include "post.preview.njk" %}
-        </section>
-      {% endif %}
-    {%- endfor -%}
-    <a href="/archive" class="d-inline-block btn">View Archive</a>
-  </section>
+  </div>
+  <div class="flex flex-row justify-content-between align-items-center">
+    <h2 class="h1 text-dark m0">Recent Posts</h2>
+    <a href="/archive" class="d-inline-block regular text-dark hover-scale" title="View all Posts">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block icon icon-tabler icon-tabler-circle-plus" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <line x1="9" y1="12" x2="15" y2="12" />
+        <line x1="12" y1="9" x2="12" y2="15" />
+      </svg>
+    </a>
+  </div>
+  <div class="hr shadow mb1"></div>
+  {%- for post in collections.blog | reverse -%}
+    {% if loop.index <= 5 %}
+      <article class="pb1">
+        {% include "post.preview.njk" %}
+      </article>
+    {% endif %}
+  {%- endfor -%}
+  <a href="/archive" class="d-inline-block btn">View Archive</a>
 </section>

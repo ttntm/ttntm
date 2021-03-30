@@ -4,19 +4,14 @@ layout: base.njk
 permalink: /archive/index.html
 ---
 <section class="container">
-  <section class="flex flex-row justify-content-between align-items-center">
-    <h1 class="text-darkest m0">Archive</h1>
-  </section>
-  <div class="hr shadow"></div>
-  <section class="pt1">
+  <h1 class="sr-only">Archive</h1>
   {% for year, yearPosts in collections.postsByYear %}
     <h2 class="text-center text-dark m0">&bull;&nbsp;{{ year }}&nbsp;&bull;</h2>
     <div class="hr shadow mb2"></div>
     {% for post in yearPosts | reverse %}
-      <div class="pb1">
+      <article class="pb1">
         {% include "post.preview.njk" %}
-      </div>
+      </article>
     {% endfor %}
   {% endfor %}
-  </section>
 </section>

@@ -264,7 +264,8 @@ main {
     transform: translateY(8px);
 }
 
-.nav-link:hover::after {
+.nav-link:hover::after,
+.nav-link-active::after {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 0.35s, transform 0.35s ease;

@@ -3,20 +3,20 @@
 {% if previousPost or nextPost %}
   <section class="grid pt1 mt2">
     {% if previousPost %}
-    <section class="shadow-md-hover next-prev p2" style="border: 1px solid var(--light)">
+    <div class="shadow-md-hover next-prev p2" style="border: 1px solid var(--light)">
       <h3 class="h6 next-prev text-dark">
         <a href="{{ previousPost.url }}" class="d-inline-block">{{ previousPost.data.title }}</a>
       </h3>
       <p class="m0">{{ previousPost.data.description }}</p>
-    </section>
+    </div>
     {% endif %}
     {% if nextPost %}
-      <section class="shadow-md-hover next-prev p2" style="border: 1px solid var(--light)">
+      <div class="shadow-md-hover next-prev p2" style="border: 1px solid var(--light)">
         <h3 class="h6 next-prev text-dark">
           <a href="{{ nextPost.url }}" class="d-inline-block">{{ nextPost.data.title }}</a>
         </h3>
         <p class="m0">{{ nextPost.data.description }}</p>
-      </section>
+      </div>
     {% endif %}
   </section>
 {% endif %}

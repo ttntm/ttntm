@@ -361,3 +361,24 @@
 .icon-active {
   opacity: 0.35;
 }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.hover-scale {
+  transform: scale(1);
+  transition: ease .35s;
+}
+
+.hover-scale:hover {
+  transform: scale(1.25);
+}

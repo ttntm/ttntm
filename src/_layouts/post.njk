@@ -1,22 +1,18 @@
 ---
 layout: base.njk
 ---
-<section class="container pb1">
-  <h1 class="text-darkest m0">{{ title }}</h1>
-  <div class="hr shadow"></div>
-</section>
 <article class="container">
+  <h1 class="text-darkest m0">{{ title }}</h1>
+  <div class="hr shadow mb1"></div>
   {{ content | safe }}
-  <section class="mt2">
-    <div class="hr shadow"></div>
-    <ul class="list-inline text-center">
-      {% for tag in tags | sort(tag) %}
-        <li class="list-inline-item content-tag-item">
-          <span class="content-tag regular">{{ tag }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-    <div class="hr shadow mb2" style="margin-top: -0.5rem;"></div>
-    {% include "post.nextprev.njk" %}
-  </section>
+  <div class="hr shadow mt2"></div>
+  <ul class="list-inline text-center">
+    {% for tag in tags | sort(tag) %}
+      <li class="list-inline-item content-tag-item">
+        <span class="content-tag regular">{{ tag }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <div class="hr shadow mb2" style="margin-top: -0.5rem;"></div>
+  {% include "post.nextprev.njk" %}
 </article>
