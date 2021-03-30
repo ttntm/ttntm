@@ -70,9 +70,9 @@ The following notes are a slightly improved version of my working notes; I'm gla
 
 ```js
 eleventyConfig.addPassthroughCopy({ './src/static/': '/' });
-eleventyConfig.addPassthroughCopy({ './src/static/img/': '/img/' });
 ```
 - Do the above to mimic Hugo's `static` folder and its functionality; see {% ext "11ty.dev/docs/copy/", "https://www.11ty.dev/docs/copy/" %}
+- Copies the folder content incl. subfolders like `img`
 
 #### Handling CSS
 
