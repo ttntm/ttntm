@@ -89,7 +89,7 @@ The actual portfolio items are displayed below the filters as a 2-column grid:
 </div>{% endraw %}
 ```
 
-Before having a look at the process of obtaining the `hero` resource mentioned above, it's important to mention that `{{range .Params.works }}` pulls all `work` elements, essentially providing their value as an additional class of each portfolio item's parent `div`. Our filter is going to access this class list to determine which elements to show.
+Before having a look at the process of obtaining the `hero` resource mentioned above, it's important to mention that `range .Params.works` pulls all `work` elements, essentially providing their value as an additional class of each portfolio item's parent `div`. Our filter is going to access this class list to determine which elements to show.
 
 The images, each portfolio item's respective `hero` resource, are rendered by the following bit of code:
 
@@ -112,9 +112,9 @@ The images, each portfolio item's respective `hero` resource, are rendered by th
 </div>{% endraw %}
 ```
 
-It's a rather simple procedure, `.Resources.GetMatch "hero"` obtains each item's `hero` resource and `{{ $scImg.RelPermalink }}` makes sure the `img` element's `src` tag is filled with its path correctly.
+It's a rather simple procedure, `.Resources.GetMatch "hero"` obtains each item's `hero` resource and `$scImg.RelPermalink` makes sure the `img` element's `src` tag is filled with its path correctly.
 
-In addition to that, the overlay displays each item's `{{ .Title }}` and ranges through `.Params.works` once again, displaying the respective categories.
+In addition to that, the overlay displays each item's `.Title` and ranges through `.Params.works` once again, displaying the respective categories.
 
 This code has been put into a `partial` called `img+overlay.html` for convenience reasons, as the same component is used for other page templates as well.
 
