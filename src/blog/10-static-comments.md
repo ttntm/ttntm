@@ -284,8 +284,6 @@ As stated in the introduction, this implementation of a comment engine for a Hug
 
 Overall, I'd say this is good enough for now and I'm happy to have found a "minimum viable solution".
 
--
-
 PS: there's a repository in my GitHub account that you can clone and deploy to try all of that yourself: {% ext "GitHub Repo", "https://github.com/ttntm/hugo-comments" %}
 
 The {% ext "demo site", "https://comments.ttntm.me" %} mentioned above is based on the code in that repository.
