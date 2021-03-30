@@ -45,7 +45,7 @@ The following notes are a slightly improved version of my working notes; I'm gla
 
 - `.eleventy.js` config file => configure `return {}` in terms of `dir` and `templateFormats`
 - Contents of Hugo's `Data` directory => `src/_data/`
-- Site data from Hugo's `config.toml` => `src/_data/site.json` as an Object with the respective keys; available via `{{ site.ParamName }}` in 11ty
+- Site data from Hugo's `config.toml` => `src/_data/site.json` as an Object with the respective keys; available via `site.ParamName` in 11ty
 
 ### Collections and Content
 
