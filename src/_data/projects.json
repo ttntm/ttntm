@@ -21,6 +21,11 @@
       "url": "https://recept0r.com"
     },
     {
+      "title": "11ty-landing-page",
+      "description": "A simple landing page built with 11ty and Tailwind CSS.",
+      "url": "https://awesome11ty.ttntm.me"
+    },
+    {
       "title": "hugo-landing-page",
       "description": "A simple landing page built with Hugo and Tailwind CSS.",
       "url": "https://awesome.ttntm.me"
