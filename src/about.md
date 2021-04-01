@@ -1,6 +1,7 @@
 ---
 title: About
 layout: page.njk
+templateEngineOverride: md,njk
 ---
 
 **Hi, I'm Tom.**
@@ -9,19 +10,49 @@ This site's domain name is short for _teitantom_, an alias I've been using for v
 
 I grew up with the internet, doing my first websites more than 15 years ago when _Times New Roman_, `marquee` tags and frames were still state of the art and my HTML was hacked into Notepad or Proton predominantly. I was lucky enough to be taught C, some JavaScript and Pascal in school for some years too - I'm sure I didn't appreciate that as much back then as I do now, but it certainly provided a solid foundation.
 
-## Things I Did
+Some of the things I did can be found in [/work](/work), noteworthy learnings are documented in the [/TIL section](/til) of this website.
 
-...can be found in [/work](/work).
+{% contact %}
+  {% include "about.contact.njk" %}
+{% endcontact %}
 
-Noteworthy learnings can be found in [/TIL](/til).
+## The Tools I Use
 
-## Used on this Website
+I'm always curious what software and tools other people use, so here's a summary of my current setup:
 
-Overview of the resources used for this site in its current state.
+**127.0.0.1**: Dell XPS 15 9570, i7, 16GB, GTX 1050
+
+**OS**: {% ext "Manjaro KDE", "https://manjaro.org/" %}
+
+**Browsers**
+- Chromium
+- Firefox Developer Edition
+
+**Editors**
+- Code OSS (VS Code)
+- {% ext "Neovim", "https://neovim.io/" %}
+
+**Hosting**
+- {% ext "Azure Static Web Apps", "https://azure.microsoft.com/en-us/services/app-service/static/" %}
+- {% ext "Netlify", "https://www.netlify.com/" %}
+
+**Shell**: Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh/" %}
+
+**Software**
+- Email: {% ext "ProtonMail", "https://protonmail.com/" %}
+- Docs: {% ext "PlantUML", "https://plantuml.com/" %}
+- Notes & Project Mgt.: {% ext "Notion", "https://notion.so/" %}
+- VPN: {% ext "ProtonVPN", "https://protonvpn.com/" %}
+
+### This Website
+
+The tech stack used for this site in its current state:
 
 - Eleventy
-- Custom CSS via PostCSS
+- PostCSS
 - Netlify
+
+_The past_: ~~Hugo~~, ~~Gulp~~, ~~Bootstrap~~
 
 ## Like it here?
 

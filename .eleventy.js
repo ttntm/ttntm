@@ -24,8 +24,12 @@ module.exports = function (eleventyConfig) {
   });
 
   // shortcode to create external 'target=_blank' links
-  eleventyConfig.addLiquidShortcode('ext', function(displayText, link) {
+  eleventyConfig.addShortcode('ext', function(displayText, link) {
     return`<a href="${link}" title="${link}" target="_blank" rel="noopener">${displayText}</a>`
+  });
+
+  eleventyConfig.addPairedShortcode('contact', function(content) {
+    return `<h2 class="h4 text-center mt2">Wanna stay in touch?</h2><section class="flex align-items-center justify-content-center mb1">${content}</section>`;
   });
 
   // rebuild on CSS changes
@@ -80,9 +84,9 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: 'src',
       output: 'public',
-      data: './_data',
-      includes: './_includes',
-      layouts: './_layouts'
+      data: '_data',
+      includes: '_includes',
+      layouts: '_layouts'
     },
     templateFormats: [
       'md',
