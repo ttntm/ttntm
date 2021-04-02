@@ -9,9 +9,10 @@ permalink: /archive/index.html
     <h2 class="text-center text-dark m0">&bull;&nbsp;{{ year }}&nbsp;&bull;</h2>
     <div class="hr shadow mb2"></div>
     {% for post in yearPosts | reverse %}
-      <article class="pb1">
-        {% include "post.preview.njk" %}
-      </article>
+      {% include "post.preview.njk" %}
+      {% if not loop.last %}
+        <div class="hr shadow mt2 mb2"></div>
+      {% endif %}
     {% endfor %}
   {% endfor %}
 </section>

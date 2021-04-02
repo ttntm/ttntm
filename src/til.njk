@@ -14,5 +14,8 @@ permalink: /til/index.html
     </h2>
     <p class="small text-sec">Posted: {{ item.date | date('MMMM DD, YYYY') }}</p>
     {{ item.templateContent | safe }}
+    {% if not loop.last %}
+      <div class="hr shadow mt2 mb2"></div>
+    {% endif %}
   </article>
 {%- endfor -%}

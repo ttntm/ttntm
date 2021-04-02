@@ -49,7 +49,7 @@
   "work": [
     {
       "title": "psychotherapie-naschmarkt.at",
-      "description": "A website for a group practice of psychotherapists in Vienna.",
+      "description": "A website for a group practice of psychotherapists in Vienna, powered by a headless CMS.",
       "url": "https://www.psychotherapie-naschmarkt.at"
     },
     {
@@ -59,12 +59,12 @@
     },
     {
       "title": "alpengummi.at",
-      "description": "Created a website for Alpengummi, the first all natural chewing gum from Austria.",
+      "description": "Website migration (WordPress => headless CMS) and re-design for Alpengummi, the first all natural chewing gum from Austria.",
       "url": "https://www.alpengummi.at"
     },
     {
       "title": "sahar.design",
-      "description": "Created a personal website for Sahar Heumesser, a freelance graphic designer.",
+      "description": "A personal website powered by a headless CMS for Sahar Heumesser, a freelance graphic designer.",
       "url": "https://sahar.design"
     }
   ]

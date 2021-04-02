@@ -24,12 +24,11 @@ layout: base.njk
       </svg>
     </a>
   </div>
-  <div class="hr shadow mb1"></div>
+  <div class="hr shadow mb2"></div>
   {%- for post in collections.blog | reverse -%}
     {% if loop.index <= 5 %}
-      <article class="pb1">
-        {% include "post.preview.njk" %}
-      </article>
+      {% include "post.preview.njk" %}
+      <div class="hr shadow mt2 mb2"></div>
     {% endif %}
   {%- endfor -%}
   <a href="/archive" class="d-inline-block btn">View Archive</a>
