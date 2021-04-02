@@ -326,7 +326,7 @@ button {
 .btn {
     background-color: var(--light);
     border-radius: 99999px;
-    color: var(--prim);
+    color: var(--dark);
     font-weight: bold;
     padding: 0.5rem 1.5rem;
     text-decoration: none;
