@@ -11,6 +11,7 @@ module.exports = class {
       permalink: `css/page.css`,
       rawFilepath,
       rawCss: fs.readFileSync(rawFilepath),
+      excludeFromSitemap: true
     };
   }
 
