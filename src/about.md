@@ -52,7 +52,7 @@ The tech stack used for this site in its current state:
 - PostCSS
 - Netlify
 
-_The past_: ~~Hugo~~, ~~Gulp~~, ~~Bootstrap~~
+All details regarding previous versions of this website can be found in the [Changelog](/changelog).
 
 ## Like it here?
 

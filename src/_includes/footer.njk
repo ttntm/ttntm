@@ -1,4 +1,4 @@
-<ul class="d-none d-sm-block list-reset list-inline bold mb1">
+<ul class="d-none d-sm-block list-reset list-inline bold">
   <li class="d-none d-sm-inline-block list-inline-item px1">
     <a class="footer-link no-underline" href="/">Home</a>
   </li>
@@ -15,18 +15,18 @@
     <a class="footer-link no-underline" href="/til">TIL</a>
   </li>
 </ul>
-<p class="small text-light m0">&copy; {{ site.author }}, est. 2k18 - Currently using <a class="regular" href="https://www.11ty.dev" rel="noopener" target="_blank">Eleventy</a> via <a class="regular" href="https://www.netlify.com" rel="noopener" target="_blank">Netlify</a></p>
-<ul class="list-reset list-inline small">
+<ul class="list-reset list-inline small mt1 mb1">
   {% for icon in site.social %}
-    <li class="list-inline-item pt1 px1">
+    <li class="list-inline-item px1">
       <a class="footer-link no-underline" href="{{ icon.url }}" target="_blank" rel="noopener">
         <img src="/img/icons/{{ icon.img }}" class="icon" alt="{{ icon.title }}" title="{{ icon.title }}" width="20">
       </a>
     </li>
   {% endfor %}
-  <li class="list-inline-item pt1 px1">
+  <li class="list-inline-item px1">
     <a class="footer-link no-underline" href="#top">
       <img src="/img/icons/arrow-up.svg" class="icon" alt="Back to top" title="Back to Top" width="20">
     </a>
   </li>
 </ul>
+<p class="small text-light tight m0">&copy; {{ site.author }} since 2k18 - <a class="regular" href="/changelog">View Changelog</a>
