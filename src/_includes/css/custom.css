@@ -276,18 +276,20 @@ main {
 /* FOOTER */
 
 footer {
-    flex-shrink: 0;
-    margin-top: 3rem;
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 5rem;
+  color: var(--dark);
+  flex-shrink: 0;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  text-align: center;
 }
 
 @media(min-width:768px) {
-    footer {
-        background-color: var(--darkest);
-        padding: 1rem;
-    }
+  footer {
+    background-color: var(--darkest);
+    color: var(--light);
+    padding: 1rem;
+  }
 }
 
 footer a {
@@ -303,7 +305,7 @@ footer a:hover {
 }
 
 footer a:hover .icon {
-    opacity: 0.5;
+    opacity: 0.75;
 }
 
 .navMobile {
