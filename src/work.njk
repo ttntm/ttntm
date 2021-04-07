@@ -4,16 +4,17 @@ layout: page.njk
 permalink: /work/index.html
 ---
 <h2>Client Projects</h2>
-<p>Selected work samples based on freelance client projects.<p>
+<p>Selected work samples based on freelance client projects.</p>
 <section class="grid mt2 mb2">
   {% for item in projects.work %}
     {% include "work.item.njk" %}
   {% endfor %}
 </section>
 <h2>Personal</h2>
-<p>Side projects, functional demos, examples for articles I wrote, open source/templates etc.</p>
-<section class="grid mt2">
+<p>A selection of side projects, functional demos, open source/templates etc.</p>
+<section class="grid mt2 mb2">
   {% for item in projects.personal %}
     {% include "work.item.njk" %}
   {% endfor %}
 </section>
+<p class="text-center m0">...more can be found at <a href="https://github.com/ttntm?tab=repositories" title="ttntm/repositories @ GitHub" target="_blank" rel="noopener">GitHub</a>.</p>
