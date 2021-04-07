@@ -1,7 +1,7 @@
-### Hi there, I'm Tom 👋
-
 <p align="center">
   <samp>
+    <b>Hi there, I'm Tom</b> 👋
+    <br><br>
     <a href="https://ttntm.me">ME</a>
     &bull;
     <a href="https://ttntm.me/archive">BLOG</a>
@@ -17,9 +17,3 @@
   <br><br>
   <img src="https://github-readme-stats.vercel.app/api?username=ttntm&show_icons=true&theme=graywhite&include_all_commits=true&hide_title=true" alt="ttntm's GitHub stats">
 </p>
-
-<center>
-
-![ttntm's GitHub stats](https://github-readme-stats.vercel.app/api?username=ttntm&show_icons=true&theme=graywhite&include_all_commits=true&hide_title=true)
-
-</center>
