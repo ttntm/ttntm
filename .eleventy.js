@@ -1,42 +1,36 @@
 const _ = require('lodash');
-const htmlmin = require("html-minifier");
+const htmlmin = require('html-minifier');
 const markdownIt = require('markdown-it');
-const moment = require('moment');
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginRss = require('@11ty/eleventy-plugin-rss');
+const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
-module.exports = function (eleventyConfig) {
+const filters = require('./utils/filters.js');
+const shortcodes = require('./utils/shortcodes.js');
+
+module.exports = function (config) {
   // PLUGINS
-  eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);
+  config.addPlugin(pluginRss);
+  config.addPlugin(pluginSyntaxHighlight);
 
-  // date formatting filter
-  eleventyConfig.addFilter('date', function(date, format) {
-    return moment(date).format(format);
+  // FILTERS
+  Object.keys(filters).forEach((filterName) => {
+    config.addFilter(filterName, filters[filterName]);
   });
 
-  // shortcode to render markdown from string => {{ STRING | markdown | safe }}
-  eleventyConfig.addFilter('markdown', function(value) {
-    let markdown = require('markdown-it')({
-      html: true
-    });
-    return markdown.render(value);
+  // SHORTCODES
+  Object.keys(shortcodes).forEach((shortcodeName) => {
+    config.addShortcode(shortcodeName, shortcodes[shortcodeName]);
   });
 
-  // shortcode to create external 'target=_blank' links
-  eleventyConfig.addShortcode('ext', function(displayText, link) {
-    return`<a href="${link}" title="${link}" target="_blank" rel="noopener">${displayText}</a>`
-  });
-
-  eleventyConfig.addPairedShortcode('contact', function(content) {
+  config.addPairedShortcode('contact', function(content) {
     return `<h2 class="h4 text-center mt2">Wanna stay in touch?</h2><section class="flex align-items-center justify-content-center mb1">${content}</section>`;
   });
 
   // rebuild on CSS changes
-  eleventyConfig.addWatchTarget('./src/_includes/css/');
+  config.addWatchTarget('./src/_includes/css/');
 
   // Markdown
-  eleventyConfig.setLibrary(
+  config.setLibrary(
     'md',
     markdownIt({
       html: true,
@@ -46,12 +40,12 @@ module.exports = function (eleventyConfig) {
     })
   )
 
-  //create collections
-  eleventyConfig.addCollection('blog', async (collection) => {
+  // COLLECTIONS
+  config.addCollection('blog', async (collection) => {
     return collection.getFilteredByGlob('./src/blog/*.md');
   });
 
-  eleventyConfig.addCollection('postsByYear', (collection) => {
+  config.addCollection('postsByYear', (collection) => {
     // collection for /archive => posts grouped by year - see: https://darekkay.com/blog/eleventy-group-posts-by-year/
     return _.chain(collection.getFilteredByGlob('./src/blog/*.md'))
       .groupBy((post) => post.date.getFullYear())
@@ -60,16 +54,16 @@ module.exports = function (eleventyConfig) {
       .value();
   });
 
-  eleventyConfig.addCollection('til', async (collection) => {
+  config.addCollection('til', async (collection) => {
     return collection.getFilteredByGlob('./src/til/*.md');
   });
 
   // STATIC FILES
-  eleventyConfig.addPassthroughCopy({ './src/static/': '/' });
+  config.addPassthroughCopy({ './src/static/': '/' });
 
   // TRANSFORM -- Minify HTML Output
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-    if( outputPath && outputPath.endsWith(".html") ) {
+  config.addTransform('htmlmin', function(content, outputPath) {
+    if( outputPath && outputPath.endsWith('.html') ) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,

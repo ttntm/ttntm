@@ -1,0 +1,14 @@
+const moment = require('moment');
+
+module.exports = {
+  buildDate: function() {
+    // shortcode to display the last build date
+    let now = new Date();
+    let display = moment(now).format('ddd, MMMM Do YYYY, HH:mm');
+    return`<span>${display}</span>`
+  },
+  ext: function(displayText, link) {
+    // shortcode to create external 'target=_blank' links
+    return`<a href="${link}" title="${link}" target="_blank" rel="noopener">${displayText}</a>`
+  }
+}

@@ -6,6 +6,10 @@ layout: page.njk
 
 A history of the changes this website has gone through since it launched in 2018.
 
+The source code can be found in this repository: {% ext "github.com/ttntm/ttntm", "https://github.com/ttntm/ttntm" %}
+
+Last built and published: {% buildDate %}
+
 ## Version 3.1
 
 - Added the Changelog you're currently reading

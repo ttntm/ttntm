@@ -52,8 +52,10 @@ The tech stack used for this site in its current state:
 - PostCSS
 - Netlify
 
-All details regarding previous versions of this website can be found in the [Changelog](/changelog).
+All details regarding the current and previous versions of this website can be found in the [Changelog](/changelog).
 
 ## Like it here?
 
-If you like what I'm doing here and if you're looking for a way to show your appreciation, you could {% ext "buy me a coffee", "https://www.buymeacoffee.com/ttntm" %} or support domain renewals etc. via {% ext "PayPal", "https://paypal.me/pools/c/8uLxAzwDUY" %}.
+If you're looking for a way to show your appreciation for what I'm doing here or elsewhere, you could simply [let me know](mailto:ttntm@pm.me) or spread the word. {% ext "Buying me a coffee", "https://www.buymeacoffee.com/ttntm" %} or supporting domain renewals etc. via {% ext "PayPal", "https://paypal.me/pools/c/8uLxAzwDUY" %} would also be much appreciated.
+
+Thanks for your time and consideration either way, I hope you were able to find some useful information on this site.
