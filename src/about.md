@@ -1,5 +1,5 @@
 ---
-title: About Me and This Website
+title: About This Website
 description: Information about this website and its author.
 layout: page.njk
 templateEngineOverride: md,njk
