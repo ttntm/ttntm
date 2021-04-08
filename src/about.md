@@ -1,5 +1,6 @@
 ---
-title: About
+title: About Me and This Website
+description: Information about this website and its author.
 layout: page.njk
 templateEngineOverride: md,njk
 ---
@@ -10,7 +11,7 @@ This site's domain name is short for _teitantom_, an alias I've been using for v
 
 I grew up with the internet, doing my first websites more than 15 years ago when _Times New Roman_, `marquee` tags and frames were still state of the art and my HTML was hacked into Notepad or Proton predominantly. I was lucky enough to be taught C, some JavaScript and Pascal in school for some years too - I'm sure I didn't appreciate that as much back then as I do now, but it certainly provided a solid foundation.
 
-Some of the things I did can be found in [/work](/work), noteworthy learnings are documented in the [/TIL section](/til) of this website.
+Some of the things I did can be found in [/work](/work), noteworthy learnings are documented in the [/TIL section](/today-i-learned) of this website.
 
 {% contact %}
   {% include "about.contact.njk" %}

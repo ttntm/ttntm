@@ -63,7 +63,7 @@ If you've ever used Vue 2, you've probably come across Vue hooks like `onCreated
 
 Using Vue 3 with the Composition API, `setup()` takes care of most of that already - any code that would have been placed in `onCreated()` gets put in there, executed and ends up working the same way.
 
-Working with other hooks like `onMounted()` or `onUpdated()` is possible from inside of `setup()` (see: {% ext "Vue 3 docs", "https://v3.vuejs.org/guide/composition-api-introduction.html#lifecycle-hook-registration-inside-setup" %}) and can be very useful sometimes (i.e. [handling page refresh](/til/#10)). Other times though, it can end up causing you a massive headache...
+Working with other hooks like `onMounted()` or `onUpdated()` is possible from inside of `setup()` (see: {% ext "Vue 3 docs", "https://v3.vuejs.org/guide/composition-api-introduction.html#lifecycle-hook-registration-inside-setup" %}) and can be very useful sometimes (i.e. [handling page refresh](/today-i-learned/#10)). Other times though, it can end up causing you a massive headache...
 
 A quick briefing on what I tried to achieve: new items added to a list should trigger a sorting function. Users are able to set their own sorting preference which means that adding and removing list items might require re-sorting the respective list.
 

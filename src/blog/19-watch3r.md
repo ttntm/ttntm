@@ -7,6 +7,7 @@ date: 2020-10-31
 description: Introducing WATCH3R, a free, open source movie watchlist and journal app.
 tags:
     - news
+    - vue.js
 image: /img/blog/watch3r.jpg
 ---
 
