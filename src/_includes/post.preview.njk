@@ -1,12 +1,5 @@
 <article>
-  <h3 class="tight"><a href="{{ post.url }}" class="lnk-underline">{{ post.data.title }}</a></h3>
+  <h3 class="tight mb1"><a href="{{ post.url }}" class="lnk-underline">{{ post.data.title }}</a></h3>
   <p>{{ post.data.description }}</p>
-  <ul class="list-inline">
-    {% for tag in post.data.tags | sort(tag) %}
-      <li class="list-inline-item content-tag-item">
-        <span class="content-tag regular">{{ tag }}</a>
-      </li>
-    {% endfor %}
-  </ul>
   <p class="small text-dark m0">Published: {{ post.date | date('MMMM DD, YYYY') }}</p>
 </article>

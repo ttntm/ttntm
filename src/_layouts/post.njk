@@ -2,17 +2,9 @@
 layout: base.njk
 ---
 <article class="container">
-  <h1 class="text-darkest m0">{{ title }}</h1>
-  <div class="hr shadow mb1"></div>
+  <h1 class="text-darkest tight m0">{{ title }}</h1>
+  <div class="hr shadow"></div>
   {{ content | safe }}
-  <div class="hr shadow mt2"></div>
-  <ul class="list-inline text-center">
-    {% for tag in tags | sort(tag) %}
-      <li class="list-inline-item content-tag-item">
-        <span class="content-tag regular">{{ tag }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-  <div class="hr shadow mt1 mb2"></div>
+  <div class="hr shadow mt2 mb2"></div>
   {% include "post.nextprev.njk" %}
 </article>

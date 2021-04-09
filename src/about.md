@@ -45,15 +45,13 @@ I'm always curious what software and tools other people use, so here's a summary
 - Notes & Project Mgt.: {% ext "Notion", "https://notion.so/" %}
 - VPN: {% ext "ProtonVPN", "https://protonvpn.com/" %}
 
-### This Website
-
-The tech stack used for this site in its current state:
+**The tech stack used for this site in its current state:**
 
 - Eleventy
 - PostCSS
 - Netlify
 
-All details regarding the current and previous versions of this website can be found in the [Changelog](/changelog).
+Further details regarding the current and previous versions of this website can be found in the [Changelog](/changelog).
 
 ## Like it here?
 

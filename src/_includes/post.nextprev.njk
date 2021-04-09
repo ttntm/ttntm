@@ -1,7 +1,7 @@
 {% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.blog | getNextCollectionItem(page) %}
 {% if previousPost or nextPost %}
-  <section class="grid pt1 mt2">
+  <section class="grid mt2">
     {% if previousPost %}
     <div class="shadow-md-hover next-prev p2" style="border: 1px solid var(--light)">
       <h3 class="h6 next-prev uppercase">Previous Post</h3>
