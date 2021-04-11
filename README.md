@@ -1,6 +1,6 @@
 <p align="center">
   <samp>
-    <b>Hi there, I'm Tom</b> 👋
+    <b>Hi there, I'm Tom</b> 🚀
     <br><br>
     <a href="https://ttntm.me">ME</a>
     &bull;

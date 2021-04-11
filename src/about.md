@@ -5,13 +5,15 @@ layout: page.njk
 templateEngineOverride: md,njk
 ---
 
-**Hi, I'm Tom.**
+## Hi, I'm Tom 🚀
 
 This site's domain name is short for _teitantom_, an alias I've been using for video games, Steam, PSN etc. for as long as I can remember.
 
-I grew up with the internet, doing my first websites more than 15 years ago when _Times New Roman_, `marquee` tags and frames were still state of the art and my HTML was hacked into Notepad or Proton predominantly. I was lucky enough to be taught C, some JavaScript and Pascal in school for some years too - I'm sure I didn't appreciate that as much back then as I do now, but it certainly provided a solid foundation.
+I grew up with the internet, doing my first websites more than 15 years ago when frames and `marquee` tags were still state of the art and my code got hacked into Notepad or Proton predominantly. I was lucky enough to be taught C, some JavaScript and Pascal in school for some years too - I'm sure I didn't appreciate that as much back then as I do now, but it certainly provided a solid foundation.
 
-Some of the things I did can be found in [/work](/work), noteworthy learnings are documented in the [/TIL section](/today-i-learned) of this website.
+My professional career in IT started in 2011 and I worked for telecom and IT service providers, software development companies and freelance clients since then. As of 2021, I'm working for a larger digital agency. A selection of freelance and open source work I did can be found in [/work](/work), noteworthy learnings are documented in the [/TIL section](/today-i-learned) of this website.
+
+When I'm not in front of a screen coding, learning or playing videogames, I enjoy spending time with my family and being outside (cycling, gardening or walking for example). I also like playing boardgames with friends and spending time on DIY projects. Oh, and I absolutely love cooking.
 
 {% contact %}
   {% include "about.contact.njk" %}
