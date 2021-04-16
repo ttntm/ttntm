@@ -13,7 +13,7 @@ I grew up with the internet, doing my first websites more than 15 years ago when
 
 My professional career in IT started in 2011 and I worked for telecom and IT service providers, software development companies and freelance clients since then. As of 2021, I'm working for a larger digital agency. A selection of freelance and open source work I did can be found in [/work](/work), noteworthy learnings are documented in the [/TIL section](/today-i-learned) of this website.
 
-When I'm not in front of a screen coding, learning or playing videogames, I enjoy spending time with my family and being outside (cycling, gardening or walking for example). I also like playing boardgames with friends and spending time on DIY projects. Oh, and I absolutely love cooking.
+When I'm not in front of a screen coding, learning or playing videogames, I enjoy spending time with my family and being outside (cycling, gardening or walking for example). I also like playing boardgames with friends and spending time on DIY projects. Oh, and I really enjoy cooking.
 
 {% contact %}
   {% include "about.contact.njk" %}
