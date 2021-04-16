@@ -32,6 +32,8 @@
 <meta name="twitter:card" content="{% if image -%}summary_large_image{% else %}summary{% endif %}">
 {%- if image -%}
   <meta property="og:image" content="{{ image | url | absoluteUrl(site.url) }}">
+{% else %}
+  <meta property="og:image" content="/img/ttntm.jpg">
 {%- endif -%}
 
 {# RSS Feed #}
