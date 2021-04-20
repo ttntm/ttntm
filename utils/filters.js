@@ -1,9 +1,9 @@
-const moment = require('moment');
+const dnt = require('date-and-time');
 
 module.exports = {
   date: function(date, format) {
     // date formatting filter
-    return moment(date).format(format);
+    return dnt.format(date, format);
   },
   markdown: function(value) {
     // markdown from string filter => {{ STRING | markdown | safe }}

@@ -1,10 +1,10 @@
-const moment = require('moment');
+const dnt = require('date-and-time');
 
 module.exports = {
   buildDate: function() {
     // shortcode to display the last build date
     let now = new Date();
-    let display = moment(now).format('ddd, MMMM Do YYYY, HH:mm');
+    let display = dnt.format(now, 'ddd, MMMM DD YYYY, HH:mm');
     return`<span>${display}</span>`
   },
   ext: function(displayText, link) {

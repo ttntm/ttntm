@@ -2,7 +2,8 @@
 layout: base.njk
 ---
 <article class="container">
-  <h1 class="text-darkest tight m0">{{ title }}</h1>
+  <h1 class="text-darkest">{{ title }}</h1>
+  <p class="italic m0" style="font-size: 0.875rem;">Published: {{ date | date('MMMM DD, YYYY') }}</p>
   <div class="hr shadow"></div>
   {{ content | safe }}
   <div class="hr shadow mt2 mb2"></div>
