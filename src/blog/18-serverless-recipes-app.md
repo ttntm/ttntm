@@ -18,7 +18,7 @@ image: /img/blog/client-serverless-credit-faunadb.png
 
 I had already heard of {% ext "client-serverless architecture", "https://fauna.com/client-serverless" %} and read a bunch of articles about the subject when I came up with the idea of creating a {% ext "personal use recipes app", "https://recept0r.com" %} earlier this year - I hadn't done anything like that before though.
 
-<img src="/img/blog/client-serverless-credit-faunadb.png" class="img-fluid img-center" alt="client-serverless application model">
+<img src="/img/blog/client-serverless-credit-faunadb.png" class="img-fluid img-center mb1" alt="client-serverless application model">
 
 What I had in mind at this point was a minimal web application that would serve me and {% ext "my wife", "https://sahar.design" %} (who took care of the design) as a recipes collection for food that we enjoy cooking. Convenient bonus features like PWA functionality (i.e. using the app on the phone or tablet when standing in the kitchen) and user authentication should be available too, making sure it's not just functional, but also enjoyable to use.
 
