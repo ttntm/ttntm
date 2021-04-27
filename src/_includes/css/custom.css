@@ -291,28 +291,30 @@ footer {
   text-align: center;
 }
 
-@media(min-width:768px) {
-  footer {
-    background-color: var(--darkest);
-    color: var(--light);
-    padding: 1rem;
-  }
-}
-
 footer a {
-  color: var(--sec);
+  color: var(--dark);
 }
 
 footer a .icon {
   opacity: 1;
 }
 
-footer a:hover {
-  color: var(--lighter);
-}
-
 footer a:hover .icon {
   opacity: 0.5;
+}
+
+@media(min-width:768px) {
+  footer {
+    background-color: var(--darkest);
+    color: var(--light);
+    padding: 1rem;
+  }
+  footer a {
+    color: var(--sec);
+  }
+  footer a:hover {
+    color: var(--lighter);
+  }
 }
 
 .navMobile {
