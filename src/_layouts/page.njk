@@ -4,5 +4,7 @@ layout: base.njk
 <article class="container">
   <h1 class="text-darkest tight m0">{{ title }}</h1>
   <div class="hr shadow mb1"></div>
-  {{ content | safe }}
+  <div class="post">
+    {{ content | safe }}
+  </div>
 </article>

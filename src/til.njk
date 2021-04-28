@@ -14,7 +14,9 @@ permalink: /today-i-learned/index.html
       {{ item.data.title }}
     </h2>
     <p class="small text-sec">Posted: {{ item.date | date('MMMM DD, YYYY') }}</p>
-    {{ item.templateContent | safe }}
+    <div class="post">
+      {{ item.templateContent | safe }}
+    </div>
     {% if not loop.last %}
       <div class="hr shadow mt2 mb2"></div>
     {% endif %}

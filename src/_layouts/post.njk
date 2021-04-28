@@ -5,7 +5,9 @@ layout: base.njk
   <h1 class="text-darkest">{{ title }}</h1>
   <p class="italic m0" style="font-size: 0.875rem;">Published: {{ date | date('MMMM DD, YYYY') }}</p>
   <div class="hr shadow"></div>
-  {{ content | safe }}
+  <div class="post">
+    {{ content | safe }}
+  </div>
   <div class="hr shadow mt2 mb2"></div>
   {% include "post.nextprev.njk" %}
 </article>

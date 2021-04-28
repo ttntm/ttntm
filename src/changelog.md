@@ -8,6 +8,11 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.2
+
+- Updated the styling for links inside the content of this site
+- Changed the old pixelsorted portrait I used to an illustration my wife made for me
+
 ## Version 3.1
 
 - Added the Changelog you're currently reading

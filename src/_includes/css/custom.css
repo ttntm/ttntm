@@ -280,6 +280,29 @@ main {
   transition: opacity 0.35s, transform 0.35s ease;
 }
 
+/* POST + clickable headings */
+.heading a,
+.post a {
+  border-bottom: 1px solid var(--prim);
+  display: inline-block;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.heading a {
+  border-width: 2px;
+}
+
+.post a {
+  padding: 0 0.15rem;
+}
+
+.heading a:hover,
+.post a:hover {
+  border-color: var(--dark);
+  color: var(--dark);
+}
+
 /* FOOTER */
 
 footer {
