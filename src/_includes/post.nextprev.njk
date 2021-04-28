@@ -5,8 +5,8 @@
     {% if previousPost %}
     <div class="shadow-md-hover next-prev p2" style="border: 1px solid var(--light)">
       <h3 class="h6 next-prev uppercase">Previous Post</h3>
-      <h4 class="h6 heading tight">
-        <a href="{{ previousPost.url }}" class="d-inline-block">{{ previousPost.data.title }}</a>
+      <h4 class="h6 heading mb1">
+        <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
       </h4>
       <p class="m0">{{ previousPost.data.description }}</p>
     </div>
@@ -14,8 +14,8 @@
     {% if nextPost %}
       <div class="shadow-md-hover next-prev p2" style="border: 1px solid var(--light)">
         <h3 class="h6 next-prev uppercase">Next Post</h3>
-        <h4 class="h6 heading tight">
-          <a href="{{ nextPost.url }}" class="d-inline-block">{{ nextPost.data.title }}</a>
+        <h4 class="h6 heading mb1">
+          <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
         </h4>
         <p class="m0">{{ nextPost.data.description }}</p>
       </div>

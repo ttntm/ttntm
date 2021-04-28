@@ -283,9 +283,7 @@ main {
 /* POST + clickable headings */
 .heading a,
 .post a {
-  border-bottom: 1px solid var(--prim);
-  display: inline-block;
-  line-height: 1.25;
+  border-bottom: 1px solid var(--light);
   text-decoration: none;
 }
 
@@ -293,14 +291,15 @@ main {
   border-width: 2px;
 }
 
-.post a {
-  padding: 0 0.15rem;
-}
-
 .heading a:hover,
 .post a:hover {
-  border-color: var(--dark);
+  border-color: var(--prim);
   color: var(--dark);
+}
+
+.heading a:active,
+.post a:active {
+  background: var(--lightest);
 }
 
 /* FOOTER */

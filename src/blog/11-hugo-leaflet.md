@@ -18,7 +18,7 @@ image: /img/blog/map.jpg
 
 There's probably a lot of good tutorials on building a store locator out there, but I couldn't find one matching my client's requirements 100%.
 
-For context: they're running a static site built on top of forestry.io CMS and Hugo that gets deployed by Netlify.
+For context: they're running a static site built by Hugo that uses forestry as a CMS.
 
 Not exactly rocket science, but they're normal business users (if such a thing exists). That means that content maintenance should be rather streamlined and convenient - forestry's pretty sweet in terms of that, especially when it comes to maintaining JSON data in a way that looks and feels more natural to said users than any editor GUI would.
 
