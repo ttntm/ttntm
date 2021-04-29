@@ -5,7 +5,7 @@ layout: base.njk
 permalink: /archive/index.html
 ---
 <section class="container h-feed">
-  <h1 class="sr-only">Archive</h1>
+  <h1 class="sr-only p-name">Archive</h1>
   {% for year, yearPosts in collections.postsByYear %}
     <h2 class="text-center text-dark tight {{ 'mt2' if not loop.first }}">&bull;&nbsp;{{ year }}&nbsp;&bull;</h2>
     <div class="hr shadow mb2"></div>

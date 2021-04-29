@@ -5,16 +5,20 @@ layout: page.njk
 permalink: /today-i-learned/index.html
 ---
 {%- for item in collections.til | reverse -%}
-  <article>
+  <article class="h-entry">
     <h2 class="h5">
       <span>
-        <a id="{{ item.data.weight }}" href="#{{ item.data.weight }}" class="no-underline" style="border: 0;">#{{ item.data.weight }}</a>
+        <a id="{{ item.data.weight }}" href="#{{ item.data.weight }}" class="no-underline u-url" style="border: 0;">#{{ item.data.weight }}</a>
       </span>
       &nbsp;
-      {{ item.data.title }}
+      <span class="p-name">
+        {{ item.data.title }}
+      </span>
     </h2>
-    <p class="small text-sec">Posted: {{ item.date | date('MMMM DD, YYYY') }}</p>
-    <div class="post">
+    <p class="small text-sec">
+      Posted: <time class="dt-published" datetime="{{ item.date | date('YYYY-MM-DD') }}">{{ item.date | date('MMMM DD, YYYY') }}</time>
+    </p>
+    <div class="post e-content">
       {{ item.templateContent | safe }}
     </div>
     {% if not loop.last %}

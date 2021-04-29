@@ -2,6 +2,10 @@
   <h3 class="heading mb1">
     <a href="{{ post.url }}" class="u-url p-name">{{ post.data.title }}</a>
   </h3>
-  <p>{{ post.data.description }}</p>
-  <p class="small text-dark m0">Published: {{ post.date | date('MMMM DD, YYYY') }}</p>
+  <p class="p-summary">
+    {{ post.data.description }}
+  </p>
+  <p class="small text-dark m0">
+    Published: <time class="dt-published" datetime="{{ post.date | date('YYYY-MM-DD') }}">{{ post.date | date('MMMM DD, YYYY') }}</time>
+  </p>
 </article>
