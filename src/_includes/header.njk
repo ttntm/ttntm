@@ -1,5 +1,5 @@
 <nav class="navTop flex flex-row justify-content-between align-items-center">
-  <div id="top" class="logo">
+  <div id="top" class="logo {{ 'h-card' if not isFront }}">
     <a href="/" class="d-block logo-link p1 u-url">
       <span class="p-name" style="pointer-events: none;">ttntm</span>.me
     </a>
@@ -9,8 +9,11 @@
     <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/about' in page.url }}" href="/about">About</a>
     <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/work' in page.url }}" href="/work">Work</a>
     <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/today-i-learned' in page.url }}" href="/today-i-learned">TIL</a>
+    <a class="mr1" href="https://webring.xxiivv.com/#random" target="_blank" title="Webring" rel="noopener" alt="Webring Icon">
+      <img src="/img/icons/XXIIVV.svg" width="24" height="24">
+    </a>
     <a class="d-block regular mr1" href="/feed.xml">
-      <img src="/img/icons/rss.svg" width="20" height="20" alt="RSS Feed Icon">
+      <img src="/img/icons/rss.svg" width="20" height="20" alt="RSS Feed Icon" title="RSS Feed">
     </a>
   </div>
 </nav>
