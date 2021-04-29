@@ -1,19 +1,46 @@
 <section class="navMobile d-sm-none">
   <nav class="flex align-items-center justify-content-around">
     <a class="d-block p1 mr1" href="/">
-      <img class='{{ 'icon-active' if page.url === '/' }}' src="/img/icons/home.svg" width="20" height="20" alt="Home Icon">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if page.url === '/' }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <polyline points="5 12 3 12 12 3 21 12 19 12" />
+        <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+        <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+      </svg>
     </a>
     <a class="d-block p1 mr1" href="/archive">
-      <img class='{{ 'icon-active' if '/archive' in page.url }}' src="/img/icons/archive.svg" width="20" height="20" alt="Archive Icon">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/archive' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="3" y="4" width="18" height="4" rx="2" />
+        <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+        <line x1="10" y1="12" x2="14" y2="12" />
+      </svg>
     </a>
     <a class="d-block p1 mr1" href="/about">
-      <img class='{{ 'icon-active' if '/about' in page.url }}' src="/img/icons/user.svg" width="20" height="20" alt="About Icon">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/about' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="7" r="4" />
+        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+      </svg>
     </a>
     <a class="d-block p1 mr1" href="/work">
-      <img class='{{ 'icon-active' if '/work' in page.url }}' src="/img/icons/work.svg" width="20" height="20" alt="Work Icon">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/work' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+        <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+        <polyline points="12 8 7 3 3 7 8 12" />
+        <line x1="7" y1="8" x2="5.5" y2="9.5" />
+        <polyline points="16 12 21 17 17 21 12 16" />
+        <line x1="16" y1="17" x2="14.5" y2="18.5" />
+      </svg>
     </a>
     <a class="d-block p1" href="/today-i-learned">
-      <img class='{{ 'icon-active' if '/today-i-learned' in page.url }}' src="/img/icons/notes.svg" width="20" height="20" alt="TIL Icon">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/today-i-learned' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+        <line x1="13" y1="8" x2="15" y2="8" />
+        <line x1="13" y1="12" x2="15" y2="12" />
+      </svg>
     </a>
   </nav>
 </section>
