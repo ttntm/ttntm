@@ -1,7 +1,8 @@
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preload" href="/css/page.css" as="style">
+<link rel="preload" href="/fonts/titillium-web-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/titillium-web-v9-latin-700.woff2" as="font" type="font/woff2" crossorigin>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="{{ site.author }}">
@@ -21,7 +22,6 @@
 <meta name="masapplication-config" content="/browserconfig.xml">
 <meta name="google-site-verification" content="xnb1OPOcw77ws6qsMtbTNh6CVyT4H0hPq1JPimFDwyI" />
 
-<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/page.css">
 
 {# Open Graph #}
