@@ -4,3 +4,8 @@ command = "npm run deploy"
 
 [Settings]
 ID = "ttntm.me"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"
