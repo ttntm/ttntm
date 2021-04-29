@@ -4,7 +4,7 @@ description: All articles published on this site.
 layout: base.njk
 permalink: /archive/index.html
 ---
-<section class="container">
+<section class="container h-feed">
   <h1 class="sr-only">Archive</h1>
   {% for year, yearPosts in collections.postsByYear %}
     <h2 class="text-center text-dark tight {{ 'mt2' if not loop.first }}">&bull;&nbsp;{{ year }}&nbsp;&bull;</h2>
