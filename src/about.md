@@ -21,31 +21,7 @@ When I'm not in front of a screen coding, learning or playing videogames, I enjo
 
 ## The Tools I Use
 
-I'm always curious what software and tools other people use, so here's a summary of my current setup:
-
-**127.0.0.1**: Dell XPS 15 9570, i7, 16GB, GTX 1050
-
-**OS**: {% ext "Manjaro KDE", "https://manjaro.org/" %}
-
-**Browsers**
-- Chromium
-- Firefox Developer Edition
-
-**Editors**
-- Code OSS (VS Code)
-- {% ext "Neovim", "https://neovim.io/" %}
-
-**Hosting**
-- {% ext "Azure Static Web Apps", "https://azure.microsoft.com/en-us/services/app-service/static/" %}
-- {% ext "Netlify", "https://www.netlify.com/" %}
-
-**Shell**: Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh/" %}
-
-**Software**
-- Email: {% ext "ProtonMail", "https://protonmail.com/" %}
-- Docs: {% ext "PlantUML", "https://plantuml.com/" %}
-- Notes & Project Mgt.: {% ext "Notion", "https://notion.so/" %}
-- VPN: {% ext "ProtonVPN", "https://protonvpn.com/" %}
+An overview of the software I currently use can be found in [/uses](/uses).
 
 **The tech stack used for this site in its current state:**
 
@@ -53,7 +29,11 @@ I'm always curious what software and tools other people use, so here's a summary
 - PostCSS
 - Netlify
 
-Further details regarding the current and previous versions of this website can be found in the [Changelog](/changelog).
+This site doesn't use any JavaScript and it's total uncompressed size is less than 100KB.
+
+{% include "about.stats.njk" %}
+
+You're welcome to scroll through the [Changelog](/changelog) for additional details regarding the current and previous versions of this website.
 
 ## Like it here?
 

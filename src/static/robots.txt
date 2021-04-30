@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /feed.xml
+Disallow: /uses/
 Disallow: /work/
 
 Sitemap: https://ttntm.me/sitemap.xml

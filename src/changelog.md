@@ -8,6 +8,11 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.3
+
+- Added [/uses](/uses) as a separate site
+- Joined the {% ext "512kb.club", "https://512kb.club" %}
+
 ## Version 3.2
 
 - Updated the styling for links inside the content of this site
