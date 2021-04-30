@@ -5,7 +5,7 @@
     {% if previousPost %}
     <div class="shadow-md-hover next-prev p2" style="border: 1px solid var(--light); grid-column-start: 1;">
       <h3 class="h6 next-prev uppercase">Previous Post</h3>
-      <h4 class="h6 heading mb1">
+      <h4 class="h6 heading">
         <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
       </h4>
       <p class="m0">{{ previousPost.data.description }}</p>
@@ -14,7 +14,7 @@
     {% if nextPost %}
       <div class="shadow-md-hover next-prev p2" style="border: 1px solid var(--light); grid-column-start: 2;">
         <h3 class="h6 next-prev uppercase">Next Post</h3>
-        <h4 class="h6 heading mb1">
+        <h4 class="h6 heading">
           <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
         </h4>
         <p class="m0">{{ nextPost.data.description }}</p>

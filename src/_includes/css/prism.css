@@ -29,18 +29,6 @@ pre > code[class*="language-"] {
   font-size: 0.75rem;
 }
 
-/* pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-  text-shadow: none;
-  background: #dfe2f1;
-}
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-  text-shadow: none;
-  background: #dfe2f1;
-} */
-
 /* Code blocks */
 pre[class*="language-"] {
   padding: 1rem;
