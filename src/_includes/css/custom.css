@@ -235,12 +235,18 @@ main {
 .grid {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
-@media(max-width:768px) {
+@media(min-width:768px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid .first {
+    grid-column-start: 1;
+  }
+  .grid .second {
+    grid-column-start: 2;
   }
 }
 
