@@ -6,7 +6,7 @@ layout: page.njk
 
 A public reminder of what I'm (supposed to be...) doing now.
 
-**Last updated:** May 1st 2021
+**Last updated:** May 2nd 2021
 
 ## Projects and Writing
 
@@ -17,13 +17,23 @@ A public reminder of what I'm (supposed to be...) doing now.
 
 ## Reading
 
-- Get and start with {% ext "TypeScript in 50 Lessons", "https://typescript-book.com" %}
+- Start with {% ext "TypeScript in 50 Lessons", "https://typescript-book.com" %}
+- "Permanent Record" by Edward Snowden
 
 ## Other
+
+**Playing**:
+  - Start: Days Gone, Titanfall 2
+  - Finsh: Elex
+
+**Watching**: The Mandalorian (Season 2)
+
+**Misc:**
 
 - Get an OBD adapter and take care of some car coding
 - Try and get the cat accustomed to a bit more car travel and a garden
 - Upgrade the grill for BBQ season
+- Get lucky and pull the trigger on a PS5
 - Walk/cycle/swim/... => move more
 
 <div class="hr shadow mb1"></div>

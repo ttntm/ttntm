@@ -213,13 +213,14 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 100%;
+  padding: 0 1rem;
 }
 
-@media(max-width:1279px) {
+@media(min-width:1280px) {
   .container {
-    max-width: 100%;
-    padding: 0 1rem;
+    max-width: 1000px;
+    padding: 0;
   }
 }
 
