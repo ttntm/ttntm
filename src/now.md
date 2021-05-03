@@ -24,7 +24,7 @@ A public reminder of what I'm (supposed to be...) doing now.
 
 **Playing**:
   - Start: Days Gone, Titanfall 2
-  - Finsh: Elex
+  - Finish: Elex
 
 **Watching**: The Mandalorian (Season 2)
 
