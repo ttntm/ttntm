@@ -241,6 +241,9 @@ main {
   .expand-xl {
     margin: 0 -5rem;
   }
+  .text-center-xl {
+    text-align: center;
+  }
 }
 
 .grid {
