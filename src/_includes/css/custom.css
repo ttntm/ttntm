@@ -73,9 +73,12 @@ html {
 body {
   background-color: var(--white);
   color: var(--dark);
+  display: flex;
+  flex-direction: column;
   font-family: var(--font-sans);
   font-size: 1rem;
   font-weight: 400;
+  letter-spacing: 0.125px;
   line-height: 1.5;
   margin: 0;
   text-align: left;
@@ -208,6 +211,10 @@ img {
   max-width: 100%;
 }
 
+main {
+  flex: 1 0 auto;
+}
+
 /* CONTAINER */
 
 .container {
@@ -217,20 +224,23 @@ img {
   padding: 0 1rem;
 }
 
-@media(min-width:1280px) {
+@media(min-width:768px) {
   .container {
-    max-width: 1000px;
-    padding: 0;
+    max-width: 90ch; /* = 806px */
+    padding: 0 2rem;
   }
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 0 auto;
+@media(min-width:1280px) {
+  .container {
+    padding: 0;
+  }
+  .expand {
+    margin: 0 -3rem;
+  }
+  .expand-xl {
+    margin: 0 -5rem;
+  }
 }
 
 .grid {
@@ -254,7 +264,6 @@ main {
 /* NAV STYLES */
 
 .navTop {
-  /* border-top: 5px solid var(--dark); */
   font-size: 1.15rem;
   letter-spacing: 0.5px;
   margin-bottom: 2rem;

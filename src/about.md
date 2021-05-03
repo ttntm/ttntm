@@ -27,17 +27,19 @@ A public reminder of what I'm (supposed to be...) doing at the moment can be fou
 
 Details regarding the hardware and the software I currently use can be found on the [/uses page](/uses).
 
-**The tech stack used for this site in its current state:**
+## This Website
+
+There's a [Changelog](/changelog) that contains all the major changes this website has gone through over the years.
+
+The tech stack used for the current version is:
 
 - Eleventy
 - PostCSS
 - Netlify
 
-This site doesn't use any JavaScript and it's total uncompressed size is less than 100KB.
+This website doesn't contain any JavaScript and it's total uncompressed size is less than 100KB.
 
 {% include "about.stats.njk" %}
-
-You're welcome to scroll through the [Changelog](/changelog) for additional details regarding the current and previous versions of this website.
 
 ## Like it here?
 

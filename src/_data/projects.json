@@ -12,7 +12,7 @@
     },
     {
       "title": "recept0r",
-      "description": "A recipes app based on vue.js and backed by Fauna DB.",
+      "description": "A serverless recipes app based on vue.js and backed by Fauna DB.",
       "url": "https://recept0r.com"
     },
     {
@@ -22,12 +22,12 @@
     },
     {
       "title": "11ty-landing-page",
-      "description": "A simple landing page built with 11ty and Tailwind CSS.",
+      "description": "A simple landing page template built with 11ty and Tailwind CSS.",
       "url": "https://awesome11ty.ttntm.me"
     },
     {
       "title": "hugo-landing-page",
-      "description": "A simple landing page built with Hugo and Tailwind CSS.",
+      "description": "A simple landing page template built with Hugo and Tailwind CSS.",
       "url": "https://awesome.ttntm.me"
     }
   ],
@@ -44,7 +44,7 @@
     },
     {
       "title": "alpengummi.at",
-      "description": "Website migration (WordPress => headless CMS) and re-design for Alpengummi, the first all natural chewing gum from Austria.",
+      "description": "Website migration (WordPress > headless CMS) and re-design for Alpengummi, the first all natural chewing gum from Austria.",
       "url": "https://www.alpengummi.at"
     },
     {

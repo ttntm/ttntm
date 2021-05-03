@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <article class="container">
-  <h1 class="text-darkest tight m0">{{ title }}</h1>
+  <h1 class="text-darkest tight m0 {{ 'text-center' if '/work' in page.url }}">{{ title }}</h1>
   <div class="hr shadow mb1"></div>
   <div class="post">
     {{ content | safe }}

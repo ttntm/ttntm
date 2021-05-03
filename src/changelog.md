@@ -11,6 +11,7 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 ## Version 3.3
 
 - Added [/now](/now) and [/uses](/uses) to this site
+- Adjusted the width of the content columns
 - Joined the {% ext "512kb.club", "https://512kb.club" %}
 
 ## Version 3.2
