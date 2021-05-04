@@ -21,7 +21,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  font-display: optional;
   src: local(''),
        url('/fonts/titillium-web-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/fonts/titillium-web-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -31,7 +31,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
+  font-display: optional;
   src: local(''),
        url('/fonts/titillium-web-v9-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/fonts/titillium-web-v9-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -78,7 +78,7 @@ body {
   font-family: var(--font-sans);
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.175px;
   line-height: 1.5;
   margin: 0;
   text-align: left;
