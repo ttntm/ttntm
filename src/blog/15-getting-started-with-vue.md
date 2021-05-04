@@ -31,7 +31,7 @@ Please note that this article is based on Vue.js 2.9.6 / June 2020.
 
 The decision for Vue.js was easy; some good reasons can be found here: {% ext "michaelnthiessen.com/underdog-framework", "https://michaelnthiessen.com/underdog-framework" %}
 
-Other than that, there's always a long list of "technologies I'd like to work with"; for this project, I ended up going for {% ext "serverless functions", "https://functions.netlify.com" %} (Netlify) and {% ext FaunaDB "fauna.com" %} as the app's data store. Both seemed powerful (and free) enough to build a multi user CRUD app on top of while offering good documentation and development experience.
+Other than that, there's always a long list of "technologies I'd like to work with"; for this project, I ended up going for {% ext "serverless functions", "https://functions.netlify.com" %} (Netlify) and {% ext "Fauna", "https://fauna.com" %} as the app's data store. Both seemed powerful (and free) enough to build a multi user CRUD app on top of while offering good documentation and development experience.
 
 Most other decisions for (and against) modules/libraries/etc. happened along the way and we'll get to that; the whole list of dependencies can be found in recept0r's `package.json` at {% ext "GitHub", "https://github.com/ttntm/recept0r/blob/master/package.json" %} though, just in case you're curious already.
 
@@ -151,7 +151,7 @@ Vue.directive('focus', {
 })
 ```
 
-That didn't help with case #2 though; instead, it always applied focus to the last input in my ingredients list. I already knew about {% ext "$refs", "https://https://vuejs.org/v2/api/#ref" %}, but I couldn't get them to work the way I wanted after generating them for my inputs:
+That didn't help with case #2 though; instead, it always applied focus to the last input in my ingredients list. I already knew about {% ext "$refs", "https://vuejs.org/v2/api/#ref" %}, but I couldn't get them to work the way I wanted after generating them for my inputs:
 
 ```html
 <input type="text"

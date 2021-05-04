@@ -78,7 +78,7 @@ body {
   font-family: var(--font-sans);
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0.125px;
+  letter-spacing: 0.25px;
   line-height: 1.5;
   margin: 0;
   text-align: left;
@@ -87,7 +87,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: var(--dark);
   font-weight: 700;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -105,7 +105,7 @@ ol, ul, p, pre, code, kbd, samp {
 a, a:active {
   color: var(--prim);
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.8px;
   text-decoration: underline;
 }
 
@@ -226,7 +226,7 @@ main {
 
 @media(min-width:768px) {
   .container {
-    max-width: 90ch; /* = 806px */
+    max-width: 85ch;
     padding: 0 2rem;
   }
 }
@@ -268,7 +268,6 @@ main {
 
 .navTop {
   font-size: 1.15rem;
-  letter-spacing: 0.5px;
   margin-bottom: 2rem;
 }
 
