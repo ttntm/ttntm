@@ -26,4 +26,4 @@ Finally, there's a bunch of smaller yet extremely convenient tools that I use al
 
 <div class="hr shadow mb1"></div>
 
-_**Note:** Writing this page in prose was inspired by {% ext "Marc Jenkins", "https://marcjenkins.co.uk/uses/" %}. I prefer that to '/uses' pages that are just plain lists._
+_**Note:** Writing this page in prose was inspired by {% ext "Marc Jenkins", "https://marcjenkins.co.uk/uses/" %}._
