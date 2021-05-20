@@ -1,18 +1,10 @@
 <style>
-  .kb-club a {
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
-    color: #212121;
-    font-weight: bold;
-    padding: .25rem 0;
-    text-decoration: none;
+  .kb-club {
+    color: #212121 !important;
     transition: .4s;
   }
 
-  .kb-club a:hover {
-    background: #c8e6c9;
-    text-decoration: none;
-  }
+  .kb-club:hover { background: #c8e6c9; }
 
   .kb-club-bg,
   .kb-club-no-bg {
@@ -24,9 +16,25 @@
     background: #4caf50;
     color: #212121;
   }
+
+  .mb-club {
+    border: 2px solid var(--darkest);
+    color: var(--darkest);
+    padding: .25rem .5rem;
+  }
+
+  .mb-club:hover {
+    background: var(--dark);
+    color: var(--light) !important;
+  }
 </style>
-<div class="kb-club small mb1">
-  <a class="d-inline-block shadow" href="https://512kb.club" target="_blank" rel="noopener" title="This Website is a proud member of the 512KB Club">
-    <span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Green Team</span>
-  </a>
+<div class="flex align-items-center mb1">
+  <div class="">
+    <a class="kb-club small d-inline-block no-underline bold" href="https://512kb.club" target="_blank" rel="noopener" title="This Website is a proud member of the 512KB Club">
+      <span class="d-inline-block kb-club-no-bg">512KB Club</span><span class="d-inline-block kb-club-bg">Green Team</span>
+    </a>
+  </div>
+  <div class="mx1">
+    <a class="mb-club d-inline-block no-underline small" href="https://1mb.club" target="_blank" rel="noopener">1MB Club</a>
+  </div>
 </div>
