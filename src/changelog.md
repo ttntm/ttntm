@@ -8,6 +8,11 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.4
+
+- Added a table of contents to [/TIL](/today-i-learned)
+- Joined the {% ext "250kb.club", "https://250kb.club" %} and the {% ext "1MB.club", "https://1mb.club" %}
+
 ## Version 3.3
 
 - Added [/now](/now) and [/uses](/uses) to this site
