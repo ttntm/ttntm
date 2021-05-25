@@ -19,15 +19,13 @@ When I'm not in front of a screen coding, learning or playing videogames, I enjo
   {% include "about.contact.njk" %}
 {% endcontact %}
 
-## What I'm Doing Now
+## On This Website
 
 A public reminder of what I'm (supposed to be...) doing at the moment can be found on my [/now page](/now).
 
-## The Tools I Use
-
 Details regarding the hardware and the software I currently use can be found on the [/uses page](/uses).
 
-## This Website
+## Colophon
 
 There's a [Changelog](/changelog) that contains all the major changes this website has gone through over the years.
 
