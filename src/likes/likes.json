@@ -1,0 +1,4 @@
+{
+  "layout": "like.njk",
+  "permalink": "likes/{{ slug }}/index.html"
+}

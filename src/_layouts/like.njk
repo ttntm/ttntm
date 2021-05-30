@@ -1,0 +1,16 @@
+---
+layout: base.njk
+---
+<article class="container">
+  <h1 class="text-dark text-center">{{ title }}</h1>
+  <p class="small text-center">Published: {{ published | date('MMMM DD, YYYY') }}</p>
+  <div class="hr shadow mt2 mb2"></div>
+  <div class="post">
+    {{ content | safe }}
+  </div>
+  <div class="hr shadow mt2 mb2"></div>
+  <div class="text-center">
+    <p class="small">Links <em>do not</em> open in new tabs.</p>
+    <a href="/likes" class="d-inline-block btn mx-auto">Back to ./likes</a>
+  </div>
+</article>

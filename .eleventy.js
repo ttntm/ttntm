@@ -45,6 +45,10 @@ module.exports = function (config) {
     return collection.getFilteredByGlob('./src/blog/*.md');
   });
 
+  config.addCollection('likes', async (collection) => {
+    return collection.getFilteredByGlob('./src/likes/*.md');
+  });
+
   config.addCollection('postsByYear', (collection) => {
     // collection for /archive => posts grouped by year - see: https://darekkay.com/blog/eleventy-group-posts-by-year/
     return _.chain(collection.getFilteredByGlob('./src/blog/*.md'))

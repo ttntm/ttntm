@@ -8,6 +8,10 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.5
+
+- Added [/likes](/likes) where I intend to publish some of the cool things I find on the internet
+
 ## Version 3.4
 
 - Added a table of contents to [/TIL](/today-i-learned)

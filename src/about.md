@@ -13,7 +13,7 @@ I grew up with the internet, doing my first websites more than 15 years ago when
 
 My professional career in IT started in 2011 and I worked for telecom and IT service providers, software development companies and freelance clients since then. As of 2021, I'm working for a larger digital agency. A selection of freelance and open source projects can be found in the [/work](/work) section  of this website, noteworthy learnings are documented in the [/TIL section](/today-i-learned).
 
-When I'm not in front of a screen coding, learning or playing videogames, I enjoy spending time with my family and being outside (cycling, gardening or walking for example). I also like playing boardgames with friends and spending time on DIY projects. Oh, and I really enjoy cooking.
+When I'm not in front of a screen coding, learning or playing videogames, I enjoy spending time with my family and being outside (cycling, gardening or walking for example). I also like playing boardgames with friends and spending time on DIY projects. Oh, and I really enjoy cooking too.
 
 {% contact %}
   {% include "about.contact.njk" %}
@@ -21,9 +21,9 @@ When I'm not in front of a screen coding, learning or playing videogames, I enjo
 
 ## On This Website
 
-A public reminder of what I'm (supposed to be...) doing at the moment can be found on my [/now page](/now).
-
-Details regarding the hardware and the software I currently use can be found on the [/uses page](/uses).
+- [/likes](/likes): some of the cool things I find on the internet.
+- [/now](/now): a public reminder of what I'm (supposed to be...) doing at the moment.
+- [/uses](/uses): details regarding the hardware and the software I currently use.
 
 ## Colophon
 
