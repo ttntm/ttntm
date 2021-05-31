@@ -336,7 +336,7 @@ main {
 
 .heading a:active,
 .post a:active {
-  border: 1px dashed var(--lightest);
+  outline: 1px dashed var(--lightest);
 }
 
 /* FOOTER */
