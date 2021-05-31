@@ -1,12 +1,12 @@
 ---
 title: Likes
-description: Some of the cool things I find on the internet.
+description: Some cool things I found on the internet.
 layout: base.njk
 permalink: /likes/index.html
 ---
 <section class="container h-feed text-center post">
   <h1 class="p-name">Likes</h1>
-  <p>Some of the cool things I find on the internet.</p>
+  <p>Some cool things I found on the internet.</p>
   <div class="hr shadow"></div>
   {% for item in collections.likes %}
     <p><a href="{{ item.url }}" class="u-url p-name">{{ item.data.title }}</a></p>

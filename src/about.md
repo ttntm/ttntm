@@ -21,7 +21,7 @@ When I'm not in front of a screen coding, learning or playing videogames, I enjo
 
 ## On This Website
 
-- [/likes](/likes): some of the cool things I find on the internet.
+- [/likes](/likes): some cool things I found on the internet.
 - [/now](/now): a public reminder of what I'm (supposed to be...) doing at the moment.
 - [/uses](/uses): details regarding the hardware and the software I currently use.
 
