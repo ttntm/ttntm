@@ -11,10 +11,12 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 ## Version 3.5
 
 - Added [/likes](/likes) where I intend to publish some of the cool things I find on the internet
+- Moved /TIL to /notes
+- Updated the site's icon
 
 ## Version 3.4
 
-- Added a table of contents to [/TIL](/today-i-learned)
+- Added a table of contents to [/notes](/notes)
 - Joined the {% ext "250kb.club", "https://250kb.club" %} and the {% ext "1MB.club", "https://1mb.club" %}
 
 ## Version 3.3

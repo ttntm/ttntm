@@ -1,14 +1,13 @@
 <nav class="navTop flex flex-row justify-content-between align-items-center">
   <div id="top" class="logo {{ 'h-card' if not isFront }}">
-    <a href="/" class="d-block logo-link p1 u-url">
-      <span class="p-name" style="pointer-events: none;">ttntm</span>.me
-    </a>
+    <a href="/" class="d-block logo-link p1 u-url">[T]</a>
   </div>
+  <span class="p-name d-none" style="pointer-events: none;">ttntm</span>
   <div class="d-none d-sm-flex align-items-center">
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/archive' in page.url }}" href="/archive">Archive</a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/archive' in page.url }}" href="/archive">Articles</a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/notes' in page.url }}" href="/notes">Notes</a>
     <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/about' in page.url }}" href="/about">About</a>
     <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/work' in page.url }}" href="/work">Work</a>
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/today-i-learned' in page.url }}" href="/today-i-learned">TIL</a>
     <a class="d-block regular mr1" href="/feed.xml" title="RSS Feed">
       <svg xmlns="http://www.w3.org/2000/svg" class="d-block" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#4C566A" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

@@ -300,8 +300,8 @@ main {
 }
 
 .nav-link::after {
-  background: var(--red);
-  bottom: -3px;
+  background: var(--light);
+  bottom: -1px;
   content: '';
   height: 3px;
   left: 0;
@@ -317,6 +317,10 @@ main {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.35s, transform 0.35s ease;
+}
+
+.nav-link-active::after {
+  background: var(--prim);
 }
 
 /* POST + clickable headings */
