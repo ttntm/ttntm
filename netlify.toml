@@ -8,7 +8,14 @@ ID = "ttntm.me"
 [[headers]]
   for = "/*"
   [headers.values]
+    Content-Security-Policy = "default-src 'none'; font-src 'self'; img-src *; style-src 'self'; frame-ancestors 'none'"
     Permissions-Policy = "interest-cohort=()"
+    Referrer-Policy = "same-origin"
+    Strict-Transport-Security = "max-age=63072000; includeSubdomains; preload"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
 [[headers]]
   for = "/fonts/*"
   [headers.values]
