@@ -10,7 +10,7 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 
 ## Version 3.5
 
-- Added [/likes](/likes) where I intend to publish some of the cool things I find on the internet
+- Added [/likes](/likes) where I'll publish cool things I find on the internet
 - Moved /TIL to /notes
 - Updated the site's icon
 

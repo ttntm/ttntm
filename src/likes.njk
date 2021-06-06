@@ -9,6 +9,9 @@ permalink: /likes/index.html
   <p>Some cool things I found on the internet.</p>
   <div class="hr shadow"></div>
   {% for item in collections.likes %}
-    <p><a href="{{ item.url }}" class="u-url p-name">{{ item.data.title }}</a></p>
+    <div class="w100m w75 flex justify-content-between shadow-md-hover px2 py1 mb1 mx-auto" style="border: 1px solid var(--light)">
+      <a href="{{ item.url }}" class="u-url p-name d-block">{{ item.data.title }}</a>
+      <span>{{ item.data.published | date('MMMM DD, YYYY') }}</span>
+    </div>
   {% endfor %}
 </section>
