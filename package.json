@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "serve": "rm -R ./public && eleventy --serve",
+    "serve": "eleventy --serve",
     "deploy": "eleventy"
   },
   "devDependencies": {
