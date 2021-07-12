@@ -10,7 +10,7 @@ I'm always curious what hardware and software other people use, so here's my cur
 
 ## Hardware
 
-I use a Dell XPS 15 9570 (11/2018) running {% ext "Manjaro KDE", "https://manjaro.org/" %}. I'm mostly working from home these days, but I don't use an external keyboard or monitor. As far as peripherals are concerned, I use an old SteelSeries Siberia 200 headset, a 4TB Seagate external hard drive. Once in a while I also use a wireless mouse that keeps hanging around at home.
+I use a Dell XPS 15 9570 (11/2018) running {% ext "Manjaro KDE", "https://manjaro.org/" %}. I'm mostly working from home these days, but I don't use an external keyboard or monitor. As far as peripherals are concerned, I use an old SteelSeries Siberia 200 headset and a 4TB Seagate external hard drive. Once in a while I also use a wireless mouse that keeps hanging around at home.
 
 My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my LG G7 ThinQ after her beloved Sony phone died. The Pixel's a great phone and I got so used to gesture navigation that using other phones feels somehow off now.
 
