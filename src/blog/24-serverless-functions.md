@@ -76,3 +76,5 @@ A note on Netlify's event triggered functions (i.e. user signup): they're secure
 Working through these notes and transforming a list of bullet points (mostly URLs) into prose might not be up to the same standard as some of the other articles on this site. Nevertheless, I hope that these notes might be useful to someone else out there.
 
 As far as I can tell, following the practices outlined above made my application a better and more secure one than it was before. The code became easier to maintain as well - there's less repetition (i.e. headers) now and also a reduced risk of errors related to endpoints and user authentication.
+
+Please don't hesitate and contact me in case there's something wrong or missing in these notes. 😉
