@@ -12,6 +12,8 @@ tags:
 image: /img/blog/backend.png
 ---
 
+<img src="/img/blog/backend.png" class="img-fluid img-center" alt="Illustration of a back end">
+
 Serverless functions are great - they provide instant superpowers to front end focused developers and they're also quite addictive once you've gotten into using them. There's also a ton of tutorials, proof of concept articles etc. that make it really easy to get started. 
 
 Many of these resources, including some of my own, are sometimes missing the aspect of security though. That's probably ok when building a quick demo or proof of concept site, but there's always a chance of that code ending up in production apps. And when considering that serverless functions work just like any other API's endpoints, responding to requests and doing CRUD operations with data, security should probably get mentioned a little more often. 
@@ -48,7 +50,7 @@ PS: you'll have to make sure that your application {% ext "takes care of refresh
 
 A good overview: {% ext "Security Headers for a web API" "https://security.stackexchange.com/a/147559" %}
 
-Custom Netlify headers defined in `netlify.toml` will only apply to the HTML responses of requests to your site; functions need to return their own (secure) headers - see: {% ext "Is it possible to fetch a netlify function from another domain" "https://answers.netlify.com/t/is-it-possible-to-fetch-a-netlify-function-from-another-domain/26256/5" %}.
+Custom Netlify headers defined in `netlify.toml` (see: [Notes#18](/notes/#18)) will only apply to the HTML responses of requests to your site; functions need to return their own (secure) headers - see: {% ext "Is it possible to fetch a netlify function from another domain" "https://answers.netlify.com/t/is-it-possible-to-fetch-a-netlify-function-from-another-domain/26256/5" %}.
 
 I've opted for adding the basic headers to my functions from a single file so I can keep things DRY: used as an import from a file like {% ext "_shared/headers.js" "https://github.com/ttntm/watch3r/blob/master/functions/_shared/headers.js" %}, it can be used easily in your functions:
 
