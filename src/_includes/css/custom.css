@@ -139,9 +139,9 @@ strong {
 blockquote {
   background-color: var(--lightest) ;
   border-left: 4px solid var(--prim);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
-  padding: 1rem 0rem 1rem 1rem;
+  padding: 1rem;
 }
 
 blockquote p {
