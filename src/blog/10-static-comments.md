@@ -38,8 +38,6 @@ Here's a compact flowchart detailing the process:
 
 <img src="/img/blog/comment-flow.jpg" class="img-fluid img-center mb2" alt="Flowchart comment engine">
 
-> A more detailed version of this workflow can be found here: {% ext "Static comments with Netlify", "https://bpm.wiki/diagram/Static-comments-with-Netlify-94" %}
-
 ### Hugo Configuration
 
 First off, we'll need to add a form to our website in order to collect our comment submissions.
