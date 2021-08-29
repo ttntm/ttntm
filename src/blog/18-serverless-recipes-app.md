@@ -314,6 +314,6 @@ A final remark: there are a lot of helpful resources out there that supported me
 - Netlify (Hosting, Functions & User Identity)
 - Vue.js
 
-**Added Sept. 18th 2020**:
+**Update Aug. 29th 2021**:
 
-I've published a public access demo version of the app described in this article - it can be found at {% ext "demo.recept0r.com", "https://demo.recept0r.com" %}
+The app this article is based on has been rewritten from scratch - the current source code can be found at {% ext "GitHub", "https://github.com/ttntm/recept0r-ts/" %}
