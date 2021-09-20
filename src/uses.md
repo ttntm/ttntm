@@ -6,7 +6,7 @@ layout: page.njk
 
 I'm always curious what hardware and software other people use, so here's my current setup.
 
-**Last updated:** July 26th 2021
+**Last updated:** Sept. 20th 2021
 
 ## Hardware
 
@@ -25,13 +25,18 @@ The **VS Code extensions** I use the most are:
 - {% ext "Postcode" "https://marketplace.visualstudio.com/items?itemName=rohinivsenthil.postcode" %}
 - {% ext "Surround" "https://marketplace.visualstudio.com/items?itemName=yatki.vscode-surround" %}
 - {% ext "Template String Converter" "https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter" %}
-- {% ext "Vetur" "https://marketplace.visualstudio.com/items?itemName=octref.vetur" %}
+- {% ext "Volar" "https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar" %}
 
 ...there' a bunch of others like "XYZ language support" (PostCSS, TOML, etc.) or {% ext "Tailwind CSS IntelliSense" "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss" %} too, but they're not really going to be of much interest to anyone.
 
-I'm using both Firefox Dev. Edition and Edge as browsers currently, but I also used Brave in the past (which I liked a lot actually). I prefer use Firefox as main main browser, but having a Chromium based browser around is somehow necessary when you're a web developer these days - unfortunatley, we've reached a point where certain things only work there. My browser extensions are pretty basic, I'm only using {% ext "uBlock Origin" "https://github.com/gorhill/uBlock#ublock-origin" %} (all browsers) and {% ext "CORS Everywhere" "https://github.com/spenibus/cors-everywhere-firefox-addon" %} (Firefox only) these days.
+I'm using both Firefox Dev. Edition and Edge as browsers currently, but I also used Brave in the past (which I liked a lot actually). I use Firefox as my main browser, but having a Chromium based browser around is somehow necessary when you're a web developer these days - unfortunatley, we've reached a point where certain things only work there. Anway, my browser extensions are pretty basic:
 
-{% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing and {% ext "ProtonMail", "https://protonmail.com" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
+- {% ext "uBlock Origin" "https://github.com/gorhill/uBlock#ublock-origin" %} (all browsers)
+- {% ext "Chameleon" "https://github.com/sereneblue/chameleon" %} (Firefox only)
+- {% ext "CORS Everywhere" "https://github.com/spenibus/cors-everywhere-firefox-addon" %} (Firefox only)
+- {% ext "uMatrix" "https://github.com/gorhill/uMatrix" %} (Firefox only)
+
+Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing while {% ext "ProtonMail", "https://protonmail.com" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
 
 Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "KeeWeb", "https://keeweb.info" %} for password management, {% ext "aitrack.work", "https://aitrack.work" %} (which I made for myself) for time tracking, {% ext "ProtonVPN", "https://protonvpn.com" %} when I need a VPN and {% ext "Coding.Tools", "https://coding.tools" %} for most other things I need to get done.
 
