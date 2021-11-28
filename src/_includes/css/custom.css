@@ -127,6 +127,10 @@ p code, li code {
   padding: 0.125rem 0.25rem;
 }
 
+code {
+  word-break: break-word;
+}
+
 em,
 .italic {
   font-style: italic;
