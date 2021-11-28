@@ -41,6 +41,6 @@ This website doesn't contain any JavaScript and it's total uncompressed size is 
 
 ## Like it here?
 
-If you're looking for a way to show your appreciation for what I'm doing here or elsewhere, you could simply [let me know](mailto:ttntm@pm.me) or spread the word. {% ext "Buying me a coffee", "https://www.buymeacoffee.com/ttntm" %} or supporting domain renewals etc. via {% ext "PayPal", "https://paypal.me/pools/c/8uLxAzwDUY" %} would also be much appreciated.
+If you're looking for a way to show your appreciation for what I'm doing here or elsewhere, you could simply [let me know](mailto:ttntm@pm.me) or spread the word. {% ext "Buying me a coffee", "https://www.buymeacoffee.com/ttntm" %} would also be much appreciated!
 
 Thanks for your time and consideration either way, I hope you were able to find some useful information on this site.
