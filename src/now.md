@@ -10,6 +10,7 @@ A public reminder of what I'm (supposed to be...) doing now.
 
 ## Projects and Writing
 
+- Write about Vue more
 - Write an article about a cool dynamic list component with drag & drop sorting
   - Code a demo too this time
 - Write something about re-writing {% ext "recept0r" "https://recept0r.com" %} in TypeScript
