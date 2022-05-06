@@ -29,7 +29,7 @@ The **VS Code extensions** I use the most are:
 
 ...there' a bunch of others like "XYZ language support" (PostCSS, TOML, etc.) or {% ext "Tailwind CSS IntelliSense" "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss" %} too, but they're not really going to be of much interest to anyone.
 
-I'm using both Firefox Dev. Edition and Edge as browsers currently, but I also used Brave in the past (which I liked a lot actually). I use Firefox as my main browser, but having a Chromium based browser around is somehow necessary when you're a web developer these days - unfortunatley, we've reached a point where certain things only work there. Anway, my browser extensions are pretty basic:
+I'm using both Firefox Dev. Edition and Edge as browsers currently, but I also used Brave in the past (which I liked a lot actually). All my browsers use {% ext "my custom start page" "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my browser extensions are pretty basic:
 
 - {% ext "uBlock Origin" "https://github.com/gorhill/uBlock#ublock-origin" %} (all browsers)
 - {% ext "Chameleon" "https://github.com/sereneblue/chameleon" %} (Firefox only)
