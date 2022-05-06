@@ -6,11 +6,11 @@ layout: page.njk
 
 I'm always curious what hardware and software other people use, so here's my current setup.
 
-**Last updated:** Sept. 20th 2021
+**Last updated:** May. 6th 2022
 
 ## Hardware
 
-I use a Dell Precision M3800 running {% ext "Manjaro", "https://manjaro.org/" %} for private stuff and a company owned HP Elitebook 850 G7 running Windows 10 with {% ext "Manjaro via WSL2" "https://github.com/sileshn/ManjaroWSL" %} for work. I'm mostly working from home these days, but I don't use an external keyboard or monitor. As far as peripherals are concerned, I use an old SteelSeries Siberia 200 headset and a 4TB Seagate external hard drive. Once in a while I also use a wireless mouse that keeps hanging around at home.
+I use a Dell Precision M3800 running {% ext "Manjaro", "https://manjaro.org/" %} for private stuff and a company owned HP Elitebook 850 G7 running Fedora 35 for work. I'm mostly working from home these days, but I don't use an external keyboard or monitor. As far as peripherals are concerned, I use an old SteelSeries Siberia 200 headset and a 4TB Seagate external hard drive. Once in a while I also use a wireless mouse that keeps hanging around at home.
 
 My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my LG G7 ThinQ after her beloved Sony phone died. The Pixel's a great phone and I got so used to gesture navigation that using other phones feels somehow off now.
 
