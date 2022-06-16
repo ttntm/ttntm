@@ -6,17 +6,17 @@ layout: page.njk
 
 I'm always curious what hardware and software other people use, so here's my current setup.
 
-**Last updated:** May. 6th 2022
+**Last updated:** June 16th 2022
 
 ## Hardware
 
-I use a Dell Precision M3800 running {% ext "Manjaro", "https://manjaro.org" %} for private stuff and a company owned HP Elitebook 850 G7 running {% ext "Fedora 35", "https://getfedora.org" %} for work. I'm mostly working from home these days, but I don't use an external keyboard or monitor. As far as peripherals are concerned, I use an old SteelSeries Siberia 200 headset and a 4TB Seagate external hard drive. Once in a while I also use a wireless mouse that keeps hanging around at home.
+I use a Dell Precision M3800 running {% ext "Manjaro", "https://manjaro.org" %} for private stuff and a company owned HP Elitebook 850 G7 running {% ext "Fedora 36", "https://getfedora.org" %} for work. I'm mostly working from home these days, but I don't use an external keyboard or monitor. As far as peripherals are concerned, I use an old SteelSeries Siberia 200 headset and a 4TB Seagate external hard drive. Once in a while I also use a wireless mouse that keeps hanging around at home.
 
 My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my LG G7 ThinQ after her beloved Sony phone died. The Pixel's a great phone and I got so used to gesture navigation that using other phones feels somehow off now.
 
 ## Software
 
-My terminals all use {% ext "Oh My Zsh", "https://ohmyz.sh" %} with {% ext "Powerlevel10k" "https://github.com/romkatv/powerlevel10k" %} and I'm using Code OSS and VS Code with the {% ext "JetBrains Mono", "https://www.jetbrains.com/lp/mono/" %} typeface as my primary editor. I'm currently using the {% ext "Tokyo Night", "https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night" %} theme, but my all-time favourite theme is {% ext "Plastic", "https://plastictheme.com/themes/vscode" %}. I also use {% ext "Neovim", "https://neovim.io" %} whenever I need to edit files in a terminal.
+My terminals all use {% ext "Oh My Zsh", "https://ohmyz.sh" %} with {% ext "Powerlevel10k" "https://github.com/romkatv/powerlevel10k" %} and I'm using Code OSS and VS Code with the {% ext "JetBrains Mono", "https://www.jetbrains.com/lp/mono/" %} typeface as my primary editor. I'm currently using the {% ext "Tokyo City", "https://open-vsx.org/extension/huytd/tokyo-city" %} theme, but my all-time favourite theme is {% ext "Plastic", "https://plastictheme.com/themes/vscode" %}. I also use {% ext "Neovim", "https://neovim.io" %} whenever I need to edit files in a terminal.
 
 The **VS Code extensions** I use the most are:
 

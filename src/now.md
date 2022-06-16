@@ -6,7 +6,7 @@ layout: page.njk
 
 A public reminder of what I'm (supposed to be...) doing now.
 
-**Last updated:** Jan. 22nd 2022
+**Last updated:** June 16th 2022
 
 ## Projects and Writing
 
@@ -27,14 +27,12 @@ A public reminder of what I'm (supposed to be...) doing now.
 ## Other
 
 **Playing**:
-- Finish: Chorus
-- Start: Inside
+- Mass Effect Legendary Edt.
+- Cyberpunk 2077
+- Grid Legends
 
 **Watching**: 
-- Archive 81
-- Cowboy Bebop (the original)
-- Pig
-- The Book of Boba Fett
+- Better Call Saul
 
 **Misc:**
 - Wait for temperatures to rise to 
