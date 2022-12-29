@@ -28,6 +28,7 @@
 
 ## Articles About Things I Built
 
+- [Building an Editable List with Drag and Drop Sorting in Vue3](https://ttntm.me/blog/building-an-editable-list-with-drag-and-drop-sorting-in-vue3/)
 - [How to Track Fauna Metrics in Google Sheets](https://ttntm.me/blog/track-fauna-metrics-google-sheets/)
 - [Introducing: WATCH3R](https://ttntm.me/blog/watch3r-movie-watchlist-journal-app/)
 - [How I Built a Serverless Recipes App with FaunaDB and Vue.js](https://ttntm.me/blog/serverless-recipes-app-faunadb-vuejs/)
