@@ -33,7 +33,7 @@ A public reminder of what I'm (supposed to be...) doing now.
 - Raised by Wolves
 
 **Misc:**
-- Plan and build a TV sheld/sideboard
+- Plan and build a TV shelf/sideboard
 - Get a new bicycle, sell the current one
 - Walk/cycle/swim/... => move more
 
