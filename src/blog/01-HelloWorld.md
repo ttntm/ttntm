@@ -8,6 +8,7 @@ description: This site's opening post.
 tags:
     - personal
 image: /img/blog/default.jpg
+draft: true
 ---
 
 ## Let's Do This

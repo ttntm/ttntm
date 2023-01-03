@@ -6,39 +6,35 @@ layout: page.njk
 
 A public reminder of what I'm (supposed to be...) doing now.
 
-**Last updated:** June 16th 2022
+**Last updated:** Jan. 3rd 2023
 
 ## Projects and Writing
 
-- Write about Vue more
-- Write an article about a cool dynamic list component with drag & drop sorting
-  - Code a demo too this time
 - Write something about re-writing {% ext "recept0r" "https://recept0r.com" %} in TypeScript
 - Do some maintenance for my {% ext "time tracker" "https://aitrack.work" %}
-- Test {% ext "Astro" "https://astro.build/" %} before re-building some older Hugo sites with it
-- Still trying to figure out what to do with a fun TLD I bought last year
+- Rebuild my wife's website using Astro and Storyblok
 
 ## Reading
 
-- Finish: {% ext "TypeScript in 50 Lessons", "https://typescript-book.com" %}
-- Start: "Permanent Record" by Edward Snowden
-- Get: "The Expanse" now that show's finished
+- Finish: Fire & Blood
+- Start: re-reading some Tolkien
 
 ## Other
 
 **Playing**:
-- Mass Effect Legendary Edt.
-- Cyberpunk 2077
-- Grid Legends
+- Elden Ring
+- Jedi: Fallen Order
+- Unpacking
 
 **Watching**: 
-- Better Call Saul
+- Amsterdam
+- Andor
+- Cabinet of Curiosities
+- Raised by Wolves
 
 **Misc:**
-- Wait for temperatures to rise to 
-  - Fix a car scratch I'm quite pissed about
-  - Get a tree cut back a little
-  - Plan and build a small roof extension for the toolshed
+- Plan and build a TV sheld/sideboard
+- Get a new bicycle, sell the current one
 - Walk/cycle/swim/... => move more
 
 <div class="hr shadow mb1"></div>

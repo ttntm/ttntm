@@ -10,6 +10,7 @@ tags:
     - Microsoft
     - work
 image: /img/blog/default.jpg
+draft: true
 ---
 
 ## Great Shapes!

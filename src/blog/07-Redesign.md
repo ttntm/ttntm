@@ -10,6 +10,7 @@ tags:
     - design
     - news
 image: /img/blog/default.jpg
+draft: true
 ---
 
 ## Redesign

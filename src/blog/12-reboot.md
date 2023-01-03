@@ -10,6 +10,7 @@ tags:
     - news
     - design
 image: /img/blog/empty.jpg
+draft: true
 ---
 
 ## Why?
