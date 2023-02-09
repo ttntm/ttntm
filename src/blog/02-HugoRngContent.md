@@ -55,13 +55,11 @@ Our partial's purpose shall be obtaining 6 random customer logos and displaying 
 The code for this procedure could look like that:
 
 ```html
-{%- raw -%}
-{{ range $i, $content := $.Site.Data.references | shuffle | first 6 }}
+{% raw %}{{ range $i, $content := $.Site.Data.references | shuffle | first 6 }}
   <div class="col">
     <img class="customer-img" src="/img/cust/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
   </div>
-{{ end }}
-{%- endraw -%}
+{{ end }}{% endraw %}
 ```
 
 The selection of the random items is going to be triggered by the website build and each new build will create another 6 logos.
@@ -69,8 +67,7 @@ The selection of the random items is going to be triggered by the website build 
 A possible implementation of the whole selection, opening with a heading and followed by some button leading to the `/references` page could look like this then:
 
 ```html
-{%- raw -%}
-<div class="row">
+{% raw %}<div class="row">
   <div class="col text-center">
     <h2>Customer References</h2>
     <p>These are only some of our customers...</p>
@@ -83,11 +80,10 @@ A possible implementation of the whole selection, opening with a heading and fol
       <img class="customer-img" src="/img/cust/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
     </div>
   {{ end }}
-</div>
-{%- endraw -%}
+</div>{% endraw %}
 ```
 
-In order to use this newly created partial, we'll store it as `rnd-customers.html` in `/themes/[theme-name]/layouts/partials/` of our Hugo site. After that, it's available wherever we would like to display it using the syntax `{{ partial "rnd-customers.html" . }}`.
+In order to use this newly created partial, we'll store it as `rnd-customers.html` in `/themes/[theme-name]/layouts/partials/` of our Hugo site. After that, it's available wherever we would like to display it using the syntax `{% raw %}{{ partial "rnd-customers.html" . }}{% endraw %}`.
 
 #### The Template
 
@@ -109,8 +105,7 @@ description = "Information regarding our references"
 The respective template `references.html` is stored in the `/layouts/` folder and looks like that:
 
 ```html
-{%- raw -%}
-{{ partial "head.html" . }}
+{% raw %}{{ partial "head.html" . }}
 {{ partial "header.html" . }}
   <header class="header">
       <!-- Page Header Content -->
@@ -133,8 +128,7 @@ The respective template `references.html` is stored in the `/layouts/` folder an
     </div>
   </div>
 {{ partial "contact.html" . }}
-{{ partial "footer.html" . }}
-{%- endraw -%}
+{{ partial "footer.html" . }}{% endraw %}
 ```
 
 In order to have rows of 3 items in a 12 column grid that are equally spaced, I have added the `$counter` that will make sure to add a `<div class="clearfix">` after every 3 items. Depending on the CSS you're using, this may not be necessary - I used Bootstrap 3 in my example above and it was necessary to have each row of 3 customers line up straight.
