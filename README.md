@@ -10,7 +10,7 @@
     &bull;
     <a href="https://ttntm.me/work">WORK</a>
     &bull;
-    <a href="https://twitter.com/thet0m">TWEETS</a>
+    <a href="https://fosstodon.org/@ttntm">TOOTS</a>
   </samp>
   <br><br>
   -
@@ -33,5 +33,6 @@
 - [How to Track Fauna Metrics in Google Sheets](https://ttntm.me/blog/track-fauna-metrics-google-sheets/)
 - [Introducing: WATCH3R](https://ttntm.me/blog/watch3r-movie-watchlist-journal-app/)
 - [How I Built a Serverless Recipes App with FaunaDB and Vue.js](https://ttntm.me/blog/serverless-recipes-app-faunadb-vuejs/)
+- [How to use Cloudinary with your Vue App](https://ttntm.me/blog/how-to-use-cloudinary-with-vue-app/)
 - [Building a Store Locator Based on Leaflet](https://ttntm.me/blog/store-locator-leaflet-hugo/)
 - ["Static" Comments with Gulp, Hugo & Netlify](https://ttntm.me/blog/static-blog-comments-hugo/)
