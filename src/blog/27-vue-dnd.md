@@ -4,7 +4,7 @@ slug: building-an-editable-list-with-drag-and-drop-sorting-in-vue3
 weight: -27
 type: blog
 date: 2022-12-28
-description: An article on how to build an editable list that also supports drag'n'drop in Vue3.
+description: An article (incl. demo) on how to build an editable list that also supports drag'n'drop in Vue3.
 tags:
     - Vue.js
     - tutorial

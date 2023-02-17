@@ -43,7 +43,9 @@ const FormInputSuggest = ({ className, name, label, isRequired, min, placeholder
     htmlAttrs.pattern = `.{${min},}`
   }
 
-  if (hasTargetVal) htmlAttrs.value = target[name]
+  if (hasTargetVal) {
+    htmlAttrs.value = target[name]
+  }
 
   let suggestions = hasTargetVal
     ? suggestionList.filter(item => item.toLowerCase().indexOf(target[name].toLowerCase()) > -1)
@@ -52,9 +54,9 @@ const FormInputSuggest = ({ className, name, label, isRequired, min, placeholder
   return html`<div class="form-group w-100" style="position: relative;">
     <label class="text-muted" for="${htmlAttrs.id}" style="margin-bottom: 0.25rem;">${label}</label>
     <input onInput="${onInput}" onChange="${onChange}" ...${htmlAttrs} />
-    ${ hasTargetVal && suggestions.length > 0 && showSuggestions ? (
+    ${hasTargetVal && suggestions.length > 0 && showSuggestions ? (
       html`<ul class="list-suggest">
-        ${ suggestions.map((item, index) => {
+        ${suggestions.map((item, index) => {
           return html`<li key="${index}" class="item-suggest" data-name="${name}" onClick="${onSuggestionClick}">
             ${item}
           </li>`
@@ -84,7 +86,7 @@ const FormStatus = ({ lng, onClick, status, submitted }) => {
           ) : (
             html`<p class="text-center" style="margin: 0;">${status}</p>
               <button onClick="${onClick}" class="btn btn-gray" style="margin-top: 2rem;">${closeBtnText}</button>`
-          ) }
+          )}
         </div>
       </div>`
     ) : null }
@@ -93,20 +95,13 @@ const FormStatus = ({ lng, onClick, status, submitted }) => {
 
 export default function App() {
   const Form = () => {
-    const [firstTimeRender, setFirstTimeRender] = useState(true)
+    const [activeControl, setActiveControl] = useState('')
     const [formData, setFormData] = useState({})
     const [formResponse, setFormResponse] = useState('')
-    const [showSuggestions, setShowSuggestions] = useState(false)
     const [submitted, setSubmitted] = useState(false)
 
     useEffect(() => {
-      setFormData({
-        role: ''
-      })
-
-      if (firstTimeRender) {
-        setFirstTimeRender(false)
-      }
+      setFormData({ role: '' })
     }, [])
     
     const handleFormInput = (evt) => {
@@ -114,26 +109,24 @@ export default function App() {
       let inputName = evt.target.name
       let inputValue = isCheckbox ? evt.target.checked : evt.target.value
       
+      setActiveControl(inputName)
+      
       setFormData(current => {
         return { ...current, [inputName]: inputValue }
       })
-
-      if (['role'].indexOf(inputName) > -1) {
-        setShowSuggestions(true)
-      }
     }
 
     const onChangeInputSuggest = evt => {
       // The higher delay is needed here because it would otherwise incapacitate 
       // the onClickInputSuggest() method due to race conditions
-      setTimeout(() => setShowSuggestions(false), 200)
+      setTimeout(() => setActiveControl(''), 200)
     }
 
     const onClickInputSuggest = evt => {
       setFormData(current => {
         return { ...current, [evt.target.dataset.name]: evt.target.innerText }
       })
-      setTimeout(() => setShowSuggestions(false), 50)
+      setTimeout(() => setActiveControl(''), 50)
     }
 
     const onCloseFormStatus = () => { 
@@ -163,8 +156,8 @@ export default function App() {
       }
     }
     
-    return html`<form id="gsp-demo" method="post" onSubmit="${onSubmitForm}">
-      <${FormInputSuggest} name="role" isRequired="${true}" min="5" label="Job or Role" placeholder="Job/role" showSuggestions="${showSuggestions}" suggestionList="${AutoSuggestList}" target="${formData}" type="text" onChange="${onChangeInputSuggest}" onInput="${handleFormInput}" onSuggestionClick="${onClickInputSuggest}" />
+    return html`<form id="pas-demo" method="post" onSubmit="${onSubmitForm}">
+      <${FormInputSuggest} name="role" isRequired="${true}" min="5" label="Job or Role" placeholder="Job/role" showSuggestions="${activeControl === 'role'}" suggestionList="${AutoSuggestList}" target="${formData}" type="text" onChange="${onChangeInputSuggest}" onInput="${handleFormInput}" onSuggestionClick="${onClickInputSuggest}" />
       <div class="w-100">
         <button id="btn_submit" class="btn-primary" type="submit">Submit</button>
       </div>
