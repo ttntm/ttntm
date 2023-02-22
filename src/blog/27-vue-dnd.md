@@ -34,7 +34,18 @@ Let's dig in - here are 2 links to get things started:
 
 The setup is pretty straightforward: a parent component (`App.vue`) is passing the list down to a child component (`DndList.vue`) that takes care of editing and sorting it. The child emits events (`update:list`, see `defineEmits` in line 10) up to the parent whenever the list and/or the list items change.
 
-I'm using a `WritableComputedRef()` (`listItems`, line 19) to leverage Vue's powerful computed getters/setters in my code as well as in the `draggable` component's `v-model`:
+I'm using a `WritableComputedRef()` (`listItems`, line 19) to leverage Vue's powerful computed getters/setters in my code as well as making them usable for the `draggable` component's `v-model`:
+
+```js
+  const listItems: WritableComputedRef<SortableEl[]> = computed({
+    get(): SortableEl[] {
+      return objectify(props.input)
+    },
+    set(newVal: SortableEl[]): void {
+      emit('update:list', valuefy(newVal))
+    }
+  })
+```
 
 - `get()` is processing the incoming list (`props.input`) and passes it through the function `objectify()` (line 37) which makes sure that the incoming `string[]` gets converted to `SortableEl[]` required by vuedraggable.
 - `set()` emits the `update:list` event after converting `SortableEl[]` back to `string[]` through the function `valuefy()` (line 43) which is then caught by the parent component.
@@ -64,7 +75,30 @@ Autofocus of the next list item's input right after adding it through button use
 
 What's important here is line 99: `:ref="el => { if (el) inputs[index] = el }"`
 
-This is the backbone of focus management from inside of `events.onAddItem()` (line 46) - we still have to make sure to use `await nextTick()`, but we're able to access specific `<input>` elements which allows focusing the next and/or most recently added list item programmatically (see line 62). As such, using the "Add List Item" button will always focus the added (last) item and using the enter key will automatically focus the item at `currentIndex+1` no matter which list item input is being used.
+This is the backbone of focus management from inside of `events.onAddItem()` (line 46):
+
+```js
+  async onAddItem(index?: number) {
+    let currentEl = null
+    let inputEls = inputs.value
+    let listEls = [...listItems.value]
+    
+    if (index !== undefined && index > -1) {
+      listEls.splice(index + 1, 0, { id: index+1, name: '' })
+      listItems.value = listEls
+      await nextTick()
+      currentEl = inputEls[index+1]
+    } else {
+      listItems.value = listEls.concat({ id: listEls.length, name: '' })
+      await nextTick()
+      currentEl = inputEls[inputEls.length-1]
+    }
+    
+    if (currentEl) currentEl.focus()
+  }
+```
+
+We still have to make sure to use `await nextTick()`, but we're able to access specific `<input>` elements which allows focusing the next and/or most recently added list item programmatically (see line 62). As such, using the "Add List Item" button will always focus the added (last) item and using the enter key will automatically focus the item at `currentIndex+1` no matter which list item input is being used.
 
 ## Everything Else
 
