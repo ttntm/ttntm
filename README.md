@@ -10,7 +10,7 @@
     &bull;
     <a href="https://ttntm.me/work">WORK</a>
     &bull;
-    <a href="https://fosstodon.org/@ttntm">TOOTS</a>
+    <a rel="me" href="https://fosstodon.org/@ttntm">TOOTS</a>
   </samp>
   <br><br>
   -
