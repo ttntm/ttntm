@@ -56,7 +56,7 @@ return html`<div class="form-group w-100" style="position: relative;">
   <input onInput="${onInput}" onChange="${onChange}" ...${htmlAttrs} />
   ${hasTargetVal && suggestions.length > 0 && showSuggestions ? (
     html`<ul class="list-suggest">
-      ${ suggestions.map((item, index) => {
+      ${suggestions.map((item, index) => {
         return html`<li key="${index}" class="item-suggest" data-name="${name}" onClick="${onSuggestionClick}">
           ${item}
         </li>`
