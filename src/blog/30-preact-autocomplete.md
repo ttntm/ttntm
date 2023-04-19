@@ -94,7 +94,20 @@ This check prevents errors that could happen when using the component to add/cha
 Component usage in a form is rather simple:
 
 ```jsx
-<${FormInputSuggest} name="role" isRequired="${true}" min="5" label="Job or Role" placeholder="Job/role" showSuggestions="${activeControl === 'role'}" suggestionList="${AutoSuggestList}" target="${formData}" type="text" onChange="${onChangeInputSuggest}" onInput="${handleFormInput}" onSuggestionClick="${onClickInputSuggest}" />
+<${FormInputSuggest}
+  name="role"
+  isRequired="${true}"
+  min="5"
+  label="Job or Role"
+  placeholder="Job/role"
+  showSuggestions="${activeControl === 'role'}"
+  suggestionList="${AutoSuggestList}"
+  target="${formData}"
+  type="text"
+  onChange="${onChangeInputSuggest}"
+  onInput="${handleFormInput}"
+  onSuggestionClick="${onClickInputSuggest}"
+/>
 ```
 
 The combination of `name`, `showSuggestions` , `suggestionList` and `target` make sure that multiple instances of the component can be used from within the same parent (here: `const Form()` ) without any detrimental side effects; for example, when using the component in a form rendered from a JSON config file containing the field definitions.
