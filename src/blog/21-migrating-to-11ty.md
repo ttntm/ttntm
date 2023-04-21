@@ -39,7 +39,7 @@ I can recommend reading {% ext "this article", "https://www.smashingmagazine.com
 
 The {% ext "official 11ty docs", "https://www.11ty.dev/docs/" %} are also a great place to get acquainted with and having a look at some of the {% ext "starter projects", "https://www.11ty.dev/docs/starter/" %} won't hurt either - most universal one I came across was one called {% ext "eleventastic", "https://github.com/maxboeck/eleventastic" %}. I ended up re-building this site from scratch 'cause I feel that I'm generally doing better that way compared to having to deal with what other people might prefer in terms of configuration, folder structure etc.
 
-The following notes are a slightly improved version of my working notes; I'm glad if they can help "as is" but I'd also appreciate questions via Email or Twitter in case there's too much I didn't explicitly write down.
+The following notes are a slightly improved version of my working notes; I'm glad if they can help "as is" but I'd also appreciate questions in case there's too much I didn't explicitly write down.
 
 ### Project Setup
 
