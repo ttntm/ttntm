@@ -15,7 +15,7 @@
   <br><br>
   -
   <br><br>
-  <img src="https://github-readme-stats.vercel.app/api?username=ttntm&show_icons=true&theme=graywhite&include_all_commits=true&hide_title=true" alt="ttntm's GitHub stats">
+  <img src="https://github-readme-stats.zohan.tech/api?username=ttntm&show_icons=true&theme=graywhite&include_all_commits=true&hide_title=true" alt="ttntm's GitHub stats">
 </p>
 
 ## Most Read Articles
