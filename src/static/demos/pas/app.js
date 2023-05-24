@@ -1,6 +1,6 @@
-import { h, render } from 'https://esm[.]sh/preact@10.4.7'
-import { useEffect, useState } from 'https://esm[.]sh/preact@10.4.7/hooks'
-import htm from 'https://esm[.]sh/htm@3.0.4'
+import { h, render } from 'https://esm.sh/preact@10.4.7'
+import { useEffect, useState } from 'https://esm.sh/preact@10.4.7/hooks'
+import htm from 'https://esm.sh/htm@3.0.4'
 
 const html = htm.bind(h)
 
