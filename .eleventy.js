@@ -1,15 +1,18 @@
+// PKGS
 const _ = require('lodash')
 const htmlmin = require('html-minifier')
 const markdownIt = require('markdown-it')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 
+// LOCAL DEPS
 const filters = require('./utils/filters.js')
 const shortcodes = require('./utils/shortcodes.js')
 
+// LOCAL FNS
 const publishedContent = (item) => !item.data.draft
 
-module.exports = function (config) {
+module.exports = (config) => {
   // PLUGINS
   config.addPlugin(pluginRss)
   config.addPlugin(pluginSyntaxHighlight)
@@ -24,7 +27,7 @@ module.exports = function (config) {
     config.addShortcode(shortcodeName, shortcodes[shortcodeName])
   })
 
-  config.addPairedShortcode('contact', function(content) {
+  config.addPairedShortcode('contact', (content) => {
     return `<h2 class="h4 text-center mt2">Like it here? Say hello!</h2><section class="flex align-items-center justify-content-center mb1">${content}</section>`
   })
 
@@ -43,11 +46,11 @@ module.exports = function (config) {
   )
 
   // COLLECTIONS
-  config.addCollection('blog', async (collection) => {
+  config.addCollection('blog', async(collection) => {
     return collection.getFilteredByGlob('./src/blog/*.md').filter(publishedContent)
   })
 
-  config.addCollection('likes', async (collection) => {
+  config.addCollection('likes', async(collection) => {
     return collection.getFilteredByGlob('./src/likes/*.md').filter(publishedContent)
   })
 
@@ -60,7 +63,7 @@ module.exports = function (config) {
       .value()
   })
 
-  config.addCollection('til', async (collection) => {
+  config.addCollection('til', async(collection) => {
     return collection.getFilteredByGlob('./src/til/*.md').filter(publishedContent)
   })
 
@@ -68,8 +71,8 @@ module.exports = function (config) {
   config.addPassthroughCopy({ './src/static/': '/' })
 
   // TRANSFORM -- Minify HTML Output
-  config.addTransform('htmlmin', function(content, outputPath) {
-    if( outputPath && outputPath.endsWith('.html') ) {
+  config.addTransform('htmlmin', (content, outputPath) => {
+    if (outputPath && outputPath.endsWith('.html')) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
