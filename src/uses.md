@@ -33,7 +33,7 @@ The **VS Code extensions** I use the most are:
 - {% ext "Plastic", "https://plastictheme.com/themes/vscode" %}
 - {% ext "Nord", "https://open-vsx.org/extension/arcticicestudio/nord-visual-studio-code" %}
 
-I'm using both Firefox Dev. Edition and Edge as browsers currently, but I also used Brave in the past (which I liked a lot actually). All my browsers use {% ext "my custom start page" "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
+I'm using both Firefox Dev. Edition and Chromium as browsers currently, but I also used Brave in the past (which I liked a lot actually). All my browsers use {% ext "my custom start page" "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
 
 - {% ext "uBlock Origin" "https://github.com/gorhill/uBlock#ublock-origin" %} (all browsers)
 - {% ext "Chameleon" "https://github.com/sereneblue/chameleon" %} (Firefox only)
