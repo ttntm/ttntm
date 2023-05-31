@@ -9,5 +9,7 @@ layout: base.njk
     {{ content | safe }}
   </div>
   <div class="hr shadow mt2 mb2"></div>
+  {% replybtn title %}
+  <div class="hr shadow mt2 mb2"></div>
   {% include "post.nextprev.njk" %}
 </article>

@@ -7,17 +7,17 @@
     },
     {
       "title": "watch3r",
-      "description": "A watchlist and tracking app for movies and series.",
+      "description": "A watchlist/journal for movies and series.",
       "url": "https://watch3r.app"
     },
     {
       "title": "recept0r",
-      "description": "A serverless recipes app based on vue.js and backed by Fauna DB.",
+      "description": "An app for family recipes built with vue.js and Fauna DB.",
       "url": "https://recept0r.com"
     },
     {
       "title": "startpage",
-      "description": "A minimal, fully customizable start page for your browser.",
+      "description": "A fully customizable start page for your browser.",
       "url": "https://github.com/ttntm/startpage"
     },
     {
@@ -29,6 +29,16 @@
       "title": "hugo-landing-page",
       "description": "A simple landing page template built with Hugo and Tailwind CSS.",
       "url": "https://awesome.ttntm.me"
+    },
+    {
+      "title": "hugo-leaflet-store-locator",
+      "description": "A Leaflet based store locator for Hugo sites.",
+      "url": "https://storelocator.ttntm.me"
+    },
+    {
+      "title": "hugo-comments",
+      "description": "\"Static\" comments with Netlify & Hugo.",
+      "url": "https://comments.ttntm.me"
     }
   ],
   "work": [
@@ -51,28 +61,6 @@
       "title": "sahar.design",
       "description": "A personal website powered by a headless CMS for Sahar Heumesser, a freelance graphic designer.",
       "url": "https://sahar.design"
-    }
-  ],
-  "other": [
-    {
-      "title": "pokedex0r",
-      "description": "Minimal demo of TypeScript Vue + pokeAPI.",
-      "url": "https://pokedex0r.netlify.app"
-    },
-    {
-      "title": "hugo-tailwind-boilerplate",
-      "description": "A boilerplate for Hugo sites based on TailwindCSS.",
-      "url": "https://github.com/ttntm/hugo-tailwind-boilerplate"
-    },
-    {
-      "title": "hugo-leaflet-store-locator",
-      "description": "A Leaflet based store locator built for Hugo sites.",
-      "url": "https://storelocator.ttntm.me"
-    },
-    {
-      "title": "hugo-comments",
-      "description": "\"Static\" comments with Netlify & Hugo.",
-      "url": "https://comments.ttntm.me"
     }
   ]
 }

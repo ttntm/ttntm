@@ -248,13 +248,33 @@ main {
 
 .grid {
   display: grid;
-  grid-gap: 1rem;
+}
+
+.grid2 {
   grid-template-columns: 1fr;
 }
 
+.grid3 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid4 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap1 {
+  grid-gap: 1rem;
+}
+
 @media(min-width:768px) {
-  .grid {
+  .grid2 {
     grid-template-columns: 1fr 1fr;
+  }
+  .grid3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .grid .first {
     grid-column-start: 1;
@@ -422,4 +442,10 @@ button {
 
 .next-prev {
   font-size: 0.85rem;
+}
+
+@media(max-width: 576px) {
+  .hello {
+    min-height: 80vh;
+  }
 }

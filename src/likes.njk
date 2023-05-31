@@ -8,10 +8,12 @@ permalink: /likes/index.html
   <h1 class="p-name">Likes</h1>
   <p>Some cool things I found on the internet.</p>
   <div class="hr shadow"></div>
-  {% for item in collections.likes | reverse %}
-    <div class="w100m w75 flex justify-content-between shadow-md-hover px2 py1 mb1 mx-auto" style="border: 1px solid var(--light)">
-      <a href="{{ item.url }}" class="u-url p-name d-block">{{ item.data.title }}</a>
-      <span>{{ item.data.published | date('MMMM DD, YYYY') }}</span>
-    </div>
-  {% endfor %}
+  <div class="grid grid3 gap1 mt2">
+    {% for item in collections.likes | reverse %}
+      <a class="w100 u-url p-name d-block text-dark text-prim-hover shadow-md-hover no-underline px2 py1 mx-auto" href="{{ item.url }}" style="border: 1px solid var(--light);">
+        <span class="d-block" style="margin-bottom: .5rem;">{{ item.data.title }}</span>
+        <time class="d-block regular small">{{ item.data.published | date('MMM DD, YYYY') }}</time>
+      </a>
+    {% endfor %}
+  </div>
 </section>

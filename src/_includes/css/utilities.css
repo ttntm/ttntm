@@ -199,9 +199,11 @@
 
 /* OTHER */
 
-.text-prim {
+.text-prim,
+.text-prim-hover:hover {
     color: var(--prim) !important;
 }
+
 
 .text-sec {
     color: var(--sec) !important;

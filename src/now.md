@@ -6,35 +6,41 @@ layout: page.njk
 
 A public reminder of what I'm (supposed to be...) doing now.
 
-**Last updated:** Jan. 3rd 2023
+**Last updated:** May 31st 2023
 
 ## Projects and Writing
 
+- Write about using Preact to render a nav tree based on database rows
+- Think about making my Linux setups available on this website
 - Write something about re-writing {% ext "recept0r" "https://recept0r.com" %} in TypeScript
 - Do some maintenance for my {% ext "time tracker" "https://aitrack.work" %}
-- Rebuild my wife's website using Astro and Storyblok
+- Rebuild my wife's website using *some shiny new thing*
 
 ## Reading
 
-- Finish: Fire & Blood
+- Finish:
+  - Fire & Blood
+  - Re-reading Dune
 - Start: re-reading some Tolkien
 
 ## Other
 
 **Playing**:
-- Elden Ring
-- Jedi: Fallen Order
+- Boltgun
+- Signalis
 - Unpacking
 
++Diablo IV if they don't screw it up with real money BS in the last minute (the beta was fun)
+
 **Watching**: 
-- Amsterdam
 - Andor
 - Cabinet of Curiosities
 - Raised by Wolves
+- Silo
 
 **Misc:**
-- Plan and build a TV shelf/sideboard
-- Get a new bicycle, sell the current one
+- <s>Get a new bicycle</s>, sell my old bike
+- Move a small BBQ grill to our balcony and enjoy kebab in the sun
 - Walk/cycle/swim/... => move more
 
 <div class="hr shadow mb1"></div>

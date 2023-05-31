@@ -1,29 +1,27 @@
 ---
-title: About This Website
+title: Who is Tom?
 description: Information about this website and its author.
 layout: page.njk
 templateEngineOverride: md,njk
 ---
 
-## Hi, I'm Tom 🚀
+I'm a web developer with 10+ years of experience in both professional and freelance software development and I'm currently developing for, in and around CRM systems (Salesforce, MSCRM). My primary skill is front end development based on interest and past engagements, but I also have some solid back end experience. I'm an advocate of free and open source software and a Linux user (Fedora, Manjaro).
 
-This site's domain name is short for _teitantom_, an alias I've been using for video games, Steam, PSN etc. for as long as I can remember.
+I grew up with the internet, doing my first websites around 2002 when frames and `marquee` tags were still state of the art and my code got hacked into text editors without syntax highlighting. We were taught some C, JavaScript and Pascal in school back then which helped shape a solid understanding of ways to make computers do what you want them to do long before higher education.
+My professional career in IT started in 2011 and I worked for telecom and IT service providers, software development companies and freelance clients since then. As of 2021, I'm working as a Software Engineer at a digital agency.
 
-I grew up with the internet, doing my first websites more than 15 years ago when frames and `marquee` tags were still state of the art and my code got hacked into Notepad or Proton predominantly. I was lucky enough to be taught C, some JavaScript and Pascal in school for some years too - I'm sure I didn't appreciate that as much back then as I do now, but it certainly provided a solid foundation.
+When I'm not in front of a screen coding, researching or playing videogames, I enjoy spending time with my family, parenting a lovely Persian cat and being outside (cycling, gardening, hiking). I also like playing boardgames with friends and working on DIY projects. Oh, and I really love cooking - just head over to <a href="https://recept0r.com" target="_blank">recept0r</a> if you're curious 🧑🏻‍🍳
 
-My professional career in IT started in 2011 and I worked for telecom and IT service providers, software development companies and freelance clients since then. As of 2021, I'm working as a Software Engineer at a digital agency. A selection of freelance and open source projects can be found in the [/work](/work) section  of this website, noteworthy learnings are documented in the [/notes](/notes) section.
+## Keep Reading
 
-When I'm not in front of a screen coding, learning or playing videogames, I enjoy spending time with my family and being outside (cycling, gardening or walking for example). I also like playing boardgames with friends and spending time on DIY projects. Oh, and I really enjoy cooking too.
+- [/likes](/likes): cool things I found on the internet
+- [/notes](/notes): problems + solutions
+- [/now](/now): what I'm (supposed to be...) doing now
+- [/uses](/uses): hardware, software, etc. I currently use
 
 {% contact %}
   {% include "about.contact.njk" %}
 {% endcontact %}
-
-## On This Website
-
-- [/likes](/likes): some cool things I found on the internet.
-- [/now](/now): a public reminder of what I'm (supposed to be...) doing at the moment.
-- [/uses](/uses): details regarding the hardware and the software I currently use.
 
 ## Colophon
 

@@ -8,6 +8,12 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.6
+
+- Added a "Reply with email" button to articles
+- Changed the layout of [/likes](/likes): it's now a grid of tiles instead of the list it used to be
+- Updated, refined and rearranged [/about](/about)
+
 ## Version 3.5
 
 - Added [/likes](/likes) where I'll publish cool things I find on the internet
