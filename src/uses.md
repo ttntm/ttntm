@@ -4,7 +4,7 @@ description: The hardware and the software I currently use.
 layout: page.njk
 ---
 
-**Last updated:** April 14th 2023
+**Last updated:** June 2nd 2023
 
 ## Hardware
 
@@ -40,7 +40,7 @@ I'm using both Firefox Dev. Edition and Chromium as browsers currently, but I al
 - {% ext "CORS Everywhere" "https://github.com/spenibus/cors-everywhere-firefox-addon" %} (Firefox only)
 - {% ext "uMatrix" "https://github.com/gorhill/uMatrix" %} (Firefox only)
 
-In adition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
+In addition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found over at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
 
 Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing while {% ext "ProtonMail", "https://protonmail.com" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
 
