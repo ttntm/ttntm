@@ -8,6 +8,11 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.7
+
+- Moved /archive to [/articles](/articles)
+- Added "Recently Enjoyed" to [/about](/about)
+
 ## Version 3.6
 
 - Added a "Reply with email" button to articles

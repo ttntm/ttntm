@@ -1,7 +1,21 @@
 {
   "author": "ttntm",
   "description": "Tom's blog about web development, IT and related topics.",
-  "title": "Tom's Homepage - ttntm.me",
+  "highlights": [
+    {
+      "title": "Celina - Origins",
+      "img": "music.svg"
+    },
+    {
+      "title": "Silo",
+      "img": "movie.svg"
+    },
+    {
+      "title": "Caol Ila 12yo",
+      "img": "drink.svg"
+    }
+  ],
+  "title": "Tom's Homepage",
   "social": [
     {
       "title": "Email",
