@@ -14,15 +14,15 @@ My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my
 
 ## Software
 
-My terminal emulator is {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %} running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "JetBrains Mono", "https://www.jetbrains.com/lp/mono/" %} typeface is my primary editor. I'm currently using the {% ext "Nord Deep", "https://open-vsx.org/extension/marlosirapuan/nord-deep" %} theme, but my all-time favourite theme is "Plastic" (see below). I also use {% ext "Neovim", "https://neovim.io" %} whenever I need to edit files in a terminal and {% ext "gedit" "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
+My terminal emulator is {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %} running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "JetBrains Mono", "https://www.jetbrains.com/lp/mono/" %} typeface is my primary editor. I'm currently using the {% ext "Nord Deep", "https://open-vsx.org/extension/marlosirapuan/nord-deep" %} theme, but my all-time favourite theme is "Plastic" (see below). I also use {% ext "Neovim", "https://neovim.io" %} whenever I need to edit files in a terminal and {% ext "gedit", "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
 
 The **VS Code extensions** I use the most are:
 
-- {% ext "Git History" "https://open-vsx.org/extension/donjayamanne/githistory" %}
-- {% ext "Live Preview" "https://open-vsx.org/extension/ms-vscode/live-server" %}
-- {% ext "Surround" "https://open-vsx.org/extension/yatki/vscode-surround" %}
-- {% ext "Template String Converter" "https://open-vsx.org/extension/meganrogge/template-string-converter" %}
-- {% ext "Volar" "https://open-vsx.org/extension/Vue/volar" %}
+- {% ext "Git History", "https://open-vsx.org/extension/donjayamanne/githistory" %}
+- {% ext "Live Preview", "https://open-vsx.org/extension/ms-vscode/live-server" %}
+- {% ext "Surround", "https://open-vsx.org/extension/yatki/vscode-surround" %}
+- {% ext "Template String Converter", "https://open-vsx.org/extension/meganrogge/template-string-converter" %}
+- {% ext "Volar", "https://open-vsx.org/extension/Vue/volar" %}
 
 ...there's a bunch of others like "XYZ language support" (PostCSS, TOML, etc.) or "XYZ IntelliSense" too, but they're not really going to be of much interest to anyone.
 
@@ -33,12 +33,12 @@ The **VS Code extensions** I use the most are:
 - {% ext "Plastic", "https://plastictheme.com/themes/vscode" %}
 - {% ext "Nord", "https://open-vsx.org/extension/arcticicestudio/nord-visual-studio-code" %}
 
-I'm using both Firefox Dev. Edition and Chromium as browsers currently, but I also used Brave in the past (which I liked a lot actually). All my browsers use {% ext "my custom start page" "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
+I'm using both Firefox Dev. Edition and Chromium as browsers currently, but I also used Brave in the past (which I liked a lot actually). All my browsers use {% ext "my custom start page", "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
 
-- {% ext "uBlock Origin" "https://github.com/gorhill/uBlock#ublock-origin" %} (all browsers)
-- {% ext "Chameleon" "https://github.com/sereneblue/chameleon" %} (Firefox only)
-- {% ext "CORS Everywhere" "https://github.com/spenibus/cors-everywhere-firefox-addon" %} (Firefox only)
-- {% ext "uMatrix" "https://github.com/gorhill/uMatrix" %} (Firefox only)
+- {% ext "uBlock Origin", "https://github.com/gorhill/uBlock#ublock-origin" %} (all browsers)
+- {% ext "Chameleon", "https://github.com/sereneblue/chameleon" %} (Firefox only)
+- {% ext "CORS Everywhere", "https://github.com/spenibus/cors-everywhere-firefox-addon" %} (Firefox only)
+- {% ext "uMatrix", "https://github.com/gorhill/uMatrix" %} (Firefox only)
 
 In addition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found over at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
 
@@ -48,4 +48,4 @@ Finally, there's a bunch of smaller yet extremely convenient tools that I use al
 
 ## Music
 
-I don't use any music streaming services. It's either local files via {% ext "cmus" "https://cmus.github.io" %} (my own CD/Vinyl rips collected over the years) or actual records played on my Audio Technica AT-LP120XBT-USB. The turntable's Bluetooth connection is super convenient: it lets me listen to music my wife would get a headache from without disturbing her at all.
+I don't use any music streaming services. It's either local files via {% ext "cmus", "https://cmus.github.io" %} (my own CD/Vinyl rips collected over the years) or actual records played on my Audio Technica AT-LP120XBT-USB. The turntable's Bluetooth connection is super convenient: it lets me listen to music my wife would get a headache from without disturbing her at all.
