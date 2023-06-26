@@ -4,7 +4,7 @@ description: The hardware and the software I currently use.
 layout: page.njk
 ---
 
-**Last updated:** June 2nd 2023
+**Last updated:** June 26th 2023
 
 ## Hardware
 
@@ -14,7 +14,7 @@ My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my
 
 ## Software
 
-My terminals all use {% ext "Oh My Zsh", "https://ohmyz.sh" %} with {% ext "Powerlevel10k" "https://github.com/romkatv/powerlevel10k" %} and I'm using Code OSS and VS Code with the {% ext "JetBrains Mono", "https://www.jetbrains.com/lp/mono/" %} typeface as my primary editor. I'm currently using the {% ext "Nord Deep", "https://open-vsx.org/extension/marlosirapuan/nord-deep" %} theme, but my all-time favourite theme is "Plastic" (see below). I also use {% ext "Neovim", "https://neovim.io" %} whenever I need to edit files in a terminal and {% ext "gedit" "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
+My terminal emulator is {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %} running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "JetBrains Mono", "https://www.jetbrains.com/lp/mono/" %} typeface is my primary editor. I'm currently using the {% ext "Nord Deep", "https://open-vsx.org/extension/marlosirapuan/nord-deep" %} theme, but my all-time favourite theme is "Plastic" (see below). I also use {% ext "Neovim", "https://neovim.io" %} whenever I need to edit files in a terminal and {% ext "gedit" "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
 
 The **VS Code extensions** I use the most are:
 
@@ -42,7 +42,7 @@ I'm using both Firefox Dev. Edition and Chromium as browsers currently, but I al
 
 In addition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found over at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
 
-Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing while {% ext "ProtonMail", "https://protonmail.com" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
+Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing. {% ext "ProtonMail", "https://protonmail.com" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
 
 Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "KeeWeb", "https://keeweb.info" %} for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, {% ext "ProtonVPN", "https://protonvpn.com" %} when I need a VPN and {% ext "Coding.Tools", "https://coding.tools" %} for most other things I need to get done.
 
