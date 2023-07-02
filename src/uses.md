@@ -42,9 +42,11 @@ I'm using both Firefox Dev. Edition and Chromium as browsers currently, but I al
 
 In addition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found over at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
 
-Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing. {% ext "ProtonMail", "https://protonmail.com" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
+Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing. {% ext "ProtonMail", "https://pr.tn/ref/NZA2PC6HYFMG" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
 
-Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "KeeWeb", "https://keeweb.info" %} for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, {% ext "ProtonVPN", "https://protonvpn.com" %} when I need a VPN and {% ext "Coding.Tools", "https://coding.tools" %} for most other things I need to get done.
+Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "KeeWeb", "https://keeweb.info" %} for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, {% ext "ProtonVPN", "https://pr.tn/ref/NZA2PC6HYFMG" %} when I need a VPN and {% ext "Coding.Tools", "https://coding.tools" %} for most other things I need to get done.
+
+_<span class="small">The ProtonMail & VPN links above contain a referral which gives you a free month of Proton Mail Plus.</span>_
 
 ## Music
 
