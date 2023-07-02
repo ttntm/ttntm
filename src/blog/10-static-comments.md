@@ -285,3 +285,7 @@ Overall, I'd say this is good enough for now and I'm happy to have found a "mini
 PS: there's a repository in my GitHub account that you can clone and deploy to try all of that yourself: {% ext "GitHub Repo", "https://github.com/ttntm/hugo-comments" %}
 
 The {% ext "demo site", "https://comments.ttntm.me" %} mentioned above is based on the code in that repository.
+
+### Addendum
+
+06/2023: Eric Stemmler built a {% ext "Zero-Dependency Commenting System", "https://rcst.netlify.app/post/2023/04/14/static-comments-with-hugo-netlify-and-nothing-really-more/" %} based on this article.
