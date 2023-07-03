@@ -44,7 +44,7 @@ In addition to that, Firefox uses a minimal 1-line config that I'm often tinkeri
 
 Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing. {% ext "Proton Mail", "https://pr.tn/ref/NZA2PC6HYFMG" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
 
-Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "KeeWeb", "https://keeweb.info" %} (phase out) {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %} (phase in) and  for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, {% ext "Proton VPN", "https://pr.tn/ref/NZA2PC6HYFMG" %} when I need a VPN and {% ext "Coding.Tools", "https://coding.tools" %} for most other things I need to get done.
+Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "KeeWeb", "https://keeweb.info" %} (phase out) and {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %} (phase in) for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, {% ext "Proton VPN", "https://pr.tn/ref/NZA2PC6HYFMG" %} when I need a VPN and {% ext "Coding.Tools", "https://coding.tools" %} for most other things I need to get done.
 
 _<span class="small">The Proton product links above contain a referral which gives you a free month of Proton Plus.</span>_
 
