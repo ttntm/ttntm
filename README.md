@@ -28,6 +28,7 @@
 
 ## Articles About Things I Built
 
+- [My Buildless Preact Starter](https://ttntm.me/blog/buildless-preact-starter/)
 - [Building an Autocomplete Input with Preact](https://ttntm.me/blog/building-an-autocomplete-input-with-preact/)
 - [Using a Serverless Function as a Sitemap](https://ttntm.me/blog/using-a-serverless-function-as-a-sitemap/)
 - [Building an Editable List with Drag and Drop Sorting in Vue3](https://ttntm.me/blog/building-an-editable-list-with-drag-and-drop-sorting-in-vue3/)

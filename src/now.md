@@ -14,7 +14,7 @@ A public reminder of what I'm (supposed to be...) doing now.
 - Think about making my Linux setups available on this website
 - Write something about re-writing {% ext "recept0r" "https://recept0r.com" %} in TypeScript
 - Do some maintenance for my {% ext "time tracker" "https://aitrack.work" %}
-- Rebuild my wife's website using *<insert shiny new thing>*
+- Rebuild my wife's website using `<insert shiny new thing>`
 
 ## Reading
 
