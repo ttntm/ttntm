@@ -1,6 +1,6 @@
 {%- for h in site.highlights -%}
-  <li class="flex align-items-center" style="padding-bottom: .75rem;">
-    <img src="/img/icons/{{ h.img }}"alt="{{ h.title }}" width="24">
-    <span class="d-block px1">{{ h.title }}</span>
-  </li>
+  <div class="flex align-items-center pl1" style="padding-bottom: .5rem;">
+    <img src="/img/icons/{{ h.img }}" alt="{{ h.title }}" width="28" style="margin: 2px 0;">
+    <span class="d-block" style="padding-left: .5rem;">{{ h.title }}</span>
+  </div>
 {%- endfor -%}
