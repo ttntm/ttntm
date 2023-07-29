@@ -15,7 +15,7 @@ The opening paragraph of the last article published on this site already gave it
 
 I've published a template/starter intended to showcase how I'm using Preact for SPAs in buildless environments.
 
-It's probably going to seems a little lazy, but I'm going to publish the {% ext "project's readme", "https://github.com/ttntm/buildless-preact-starter/blob/main/README.md" %} here. Quite a bit of time went into writing this down properly (I hope...) for others to understand and use, so I feel like it's worth having a look at before heading over to GitHub to {% ext "browse the code", "https://github.com/ttntm/buildless-preact-starter/" %}.
+It's probably going to seems a little lazy, but I'm going to publish the {% ext "project's readme", "https://github.com/ttntm/buildless-preact-st ...) for others ,arter/blob/main/README.md" %} here. Quite a bit of time went into writing this down properly (I hoto understand and use, so I feel like it's worth having a look at before heading over to GitHub to {% ext "browse the code", "https://github.com/ttntm/buildless-preact-starter/" %}.
 
 There's also a demo which can be found here: [ttntm.me/demos/bps/](https://ttntm.me/demos/bps/)
 
@@ -39,6 +39,8 @@ In the official docs, this approach is called the {% ext "No build tools route",
 
 ### `index.html`
 
+Source code: {% ext "./index.html", "https://github.com/ttntm/buildless-preact-starter/blob/main/index.html" %}
+
 The shell of your SPA. Can be used for static elements (header/footer) and server side code (if your environment provides that).
 
 For the most minimal setup, this is where it ends: your Preact SPA is inlined in this file (please refer to the official docs linked above for an example).
@@ -47,11 +49,15 @@ For the most minimal setup, this is where it ends: your Preact SPA is inlined in
 
 ### `app.js`
 
+Source code: {% ext "./app.js", "https://github.com/ttntm/buildless-preact-starter/blob/main/app.js" %}
+
 Your SPA's entry point, kept in a separate file. Follow this approach if you can (i.e. if your environment supports it). 
 
 The file uses a default export (`export default function App(config)`) that consumes a `config` object. A practical example: `config` could be used to pass data obtained from the server side to the SPA if the target system provides the functionality to run server side code in `index.html`.
 
 ### `components.js`
+
+Source code: {% ext "./components.js", "https://github.com/ttntm/buildless-preact-starter/blob/main/components.js" %}
 
 Uses a default export to provide reusable components. Use {% ext "Preact Hooks", "https://preactjs.com/guide/v10/hooks" %} if you want to make use of stateful components.
 
@@ -59,11 +65,15 @@ NB: using components in a separate file (or even _files_) is a nice way to follo
 
 ### `config.js`
 
+Source code: {% ext "./config.js", "https://github.com/ttntm/buildless-preact-starter/blob/main/config.js" %}
+
 Entirely optional. I'm often using such config files for translations, lists used to populate `<select>` elements etc.
 
 Follows the same intention as `app.js` and `components.js` - use if your environment supports doing it and if your app has the complexity/size to justify doing it.
 
 ### `styles.css`
+
+Source code: {% ext "./styles.css", "https://github.com/ttntm/buildless-preact-starter/blob/main/styles.css" %}
 
 Not sure if this needs to be mentioned separately, but you probably want your site (and SPA) not to look like browser defaults.
 
