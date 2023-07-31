@@ -15,7 +15,7 @@ The opening paragraph of the last article published on this site already gave it
 
 I've published a template/starter intended to showcase how I'm using Preact for SPAs in buildless environments.
 
-It's probably going to seems a little lazy, but I'm going to publish the {% ext "project's readme", "https://github.com/ttntm/buildless-preact-st ...) for others ,arter/blob/main/README.md" %} here. Quite a bit of time went into writing this down properly (I hoto understand and use, so I feel like it's worth having a look at before heading over to GitHub to {% ext "browse the code", "https://github.com/ttntm/buildless-preact-starter/" %}.
+It's probably going to seems a little lazy, but I'm going to publish the {% ext "project's readme", "https://github.com/ttntm/buildless-preact-starter/blob/main/README.md" %} here. Quite a bit of time went into writing this down properly (I hoto understand and use, so I feel like it's worth having a look at before heading over to GitHub to {% ext "browse the code", "https://github.com/ttntm/buildless-preact-starter/" %}.
 
 There's also a demo which can be found here: [ttntm.me/demos/bps/](https://ttntm.me/demos/bps/)
 
