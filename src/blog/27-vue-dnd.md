@@ -50,7 +50,7 @@ I'm using a `WritableComputedRef()` (`listItems`, line 19) to leverage Vue's pow
 - `get()` is processing the incoming list (`props.input`) and passes it through the function `objectify()` (line 37) which makes sure that the incoming `string[]` gets converted to `SortableEl[]` required by vuedraggable.
 - `set()` emits the `update:list` event after converting `SortableEl[]` back to `string[]` through the function `valuefy()` (line 43) which is then caught by the parent component.
 
-## Focus management
+## Focus Management
 
 Autofocus of the next list item's input right after adding it through button use or pressing enter in the previous item's input is a necessary feature too. The implementation is based on the `ref()` `inputs` (line 29) and so called "Function Refs" ({% ext "Vue docs" "https://vuejs.org/guide/essentials/template-refs.html#function-refs" %}, essentially "`ref` within `v-for`") managed for `<input>` elements from within the `draggable` component's `template` (from line 91 onward):
 
