@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="robots" content="noimageindex, nofollow, nosnippet">
+  <link rel="modulepreload" href="https://esm.sh/preact@10.4.7">
+  <link rel="modulepreload" href="https://esm.sh/preact@10.4.7">
+  <link rel="modulepreload" href="https://esm.sh/htm@3.0.4">
+  <link rel="modulepreload" href="./app.js">
+  <title>Preact Data Tree Demo</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body class="site">
+  <header>
+    <a class="header-logo" href="#" rel="noopener" target="_blank">
+      <img class="block" src="assets/logo.svg" width="150">
+    </a>
+  </header>
+  <main class="site-content mx-auto">
+    <section id="app-container"></section>
+  </main>
+  <footer class="text-center text-sm mx-auto">
+    <p>Built using Preact.</p>
+    <div class="footer-row mobile-column">
+      <a class="footer-link" href="https://ttntm.me/blog/building-a-data-viewer-with-preact/">Read the Article</a>
+      <a class="footer-link" href="https://github.com/ttntm/preact-data-viewer-demo" target="_blank" rel="noopener">Code@GitHub</a>
+    </div>
+  </footer>
+  <script type="module">
+    import App from './app.js'
+    import MockData from './db_rows.js'
+
+    /**
+     * Mock function to hint at data retrieval outside the Preact app's scope
+     */
+    function serverSideDataRetrieval() {
+      try {
+        return MockData
+      } catch (error) {
+        console.error(error)
+        return null
+      }
+    }
+
+    window.addEventListener('load', () => {
+      const config = {
+        rawStats: serverSideDataRetrieval()
+      }
+
+      App(config)
+    })
+  </script>
+</body>
+
+</html>
