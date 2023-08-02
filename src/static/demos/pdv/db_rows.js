@@ -1,7 +1,7 @@
 export default [
   {
     "Id": "8c712ebe-4d39-4756-823f-c9aa1c2ecdef",
-    "DistanceOnFoot": 24491.45,
+    "DistanceOnFoot": 0,
     "DistanceOnBike": 40900.72,
     "MetersOfHeight": 6133.4,
     "DateOfCalculation": "2023-01-05T00:00:00.000",
