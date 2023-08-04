@@ -1,6 +1,6 @@
 ---
 title: Building a Data Viewer With Preact
-slug: preact-data-viewer
+slug: building-a-data-viewer-with-preact
 weight: -32
 type: blog
 date: 2023-08-04
