@@ -4,13 +4,13 @@ description: A public reminder of what I’m (supposed to be...) doing now.
 layout: page.njk
 ---
 
-**Last updated:** July 28th 2023
+**Last updated:** Aug. 4th 2023
 
-**Writing**: planning to write about Preact some more (i.e. rendering a nav tree based on database rows). Also thinking about making my current and past Linux setups available on this website.
+**Writing**: Thinking about making my current and past Linux setups available on this website.
 
 **Reading**: re-reading Dune, hope to finish it before the next movie comes out.
 
-**Playing**: Diablo IV; Necromancer, currently at level 78. Also picking up the guitar more often these days, thanks to a new Orange Crush Mini amp I recently got.
+**Playing**: Diablo IV; Necromancer, currently at level 84 trying to get Deathless Visage to drop ffs. Also picking up the guitar more often these days, thanks to a new Orange Crush Mini amp I recently got.
 
 **Drinking**: Oban's 14 year old, enjoying it a lot.
 
