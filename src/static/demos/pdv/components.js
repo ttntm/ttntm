@@ -15,6 +15,25 @@ function formatNumber(input) {
   return input.toLocaleString('en-GB', config)
 }
 
+function getAverages(data) {
+  if (data?.NumberOfDays > 1) {
+    const avgCalcResult = {
+      Days: data.NumberOfDays
+    }
+    const k = ['DistanceOnBike', 'DistanceOnFoot', 'MetersOfHeight']
+
+    k.forEach(avgKey => {
+      if (data.hasOwnProperty(avgKey)) {
+        avgCalcResult[avgKey] = (data[avgKey] / avgCalcResult.Days)
+      }
+    })
+
+    return avgCalcResult
+  } else {
+    return null
+  }
+}
+
 /**
  * A nav tree component that renders nodes based on date-keyed entries.
  * @param {object} props Components props
@@ -65,12 +84,41 @@ function StatsTree ({ activeNode, treeData, onTreeNodeClick }) {
  * @param {object} props Components props
  */
 function StatsView({ displayData }) {
-  let averages = null
+  const averages = useMemo(() => displayData?.averages || null, [displayData])
   const data = useMemo(() => displayData?.content || null, [displayData])
   const showOverview = !data?.AssetName
   const statContainerClass = useMemo(() => {
     return showOverview ? 'stats-container stats-overview' : 'stats-container'
   }, [showOverview])
+
+  return html`<div class="stats-main">
+    ${displayData
+      ? html`${showOverview
+          ? html`<h2 class="text-center" style="margin-bottom: 0;">Summary</h2>`
+          : html`<h2 class="text-center">Daily Statistics</h2>
+            <p class="text-center text-muted" style="margin-bottom: 0;">Date: ${displayData.date}<br />
+            Device Id: ${displayData.device}</p>`
+        }
+        ${data
+          ? html`<${StatsViewTiles} containerClass="${statContainerClass}" data="${data}" formatAll="${false}" />`
+          : null
+        }
+        ${averages && showOverview
+          ? html`<h2 class="text-center" style="margin-top: 2rem;">Averages</h2>
+            <p class="text-center text-muted" style="margin-bottom: 0;">${averages.Days} Days</p>
+            <${StatsViewTiles} containerClass="stats-container" data="${averages}" formatAll="${true}" />`
+          : null
+        }`
+      : html`<p class="text-center">Something went wrong :(</p>`
+    }
+  </div>`
+}
+
+/**
+ * The icon tiles component that renders a grid of icons + data.
+ * @param {object} props Components props
+ */
+function StatsViewTiles({ containerClass, data, formatAll }) {
   const tiles = [
     {
       name: 'DistanceOnBike',
@@ -97,50 +145,6 @@ function StatsView({ displayData }) {
     }
   ]
 
-  if (data) {
-    if (showOverview && data.NumberOfDays > 1) {
-      const k = ['DistanceOnBike', 'DistanceOnFoot', 'MetersOfHeight']
-      
-      averages = {
-        Days: data.NumberOfDays
-      }
-
-      k.forEach(avgKey => {
-        if (data.hasOwnProperty(avgKey)) {
-          averages[avgKey] = (data[avgKey] / averages.Days)
-        }
-      })
-    }
-  }
-
-  return html`<div class="stats-main">
-    ${displayData
-      ? html`${showOverview
-          ? html`<h2 class="text-center" style="margin-bottom: 0;">Summary</h2>`
-          : html`<h2 class="text-center">Daily Statistics</h2>
-            <p class="text-center text-muted" style="margin-bottom: 0;">Date: ${displayData.date}<br />
-            Device Id: ${displayData.device}</p>`
-        }
-        ${data
-          ? html`<${StatsViewTiles} containerClass="${statContainerClass}" data="${data}" tiles="${tiles}" formatAll="${false}" />`
-          : null
-        }
-        ${averages && showOverview
-          ? html`<h2 class="text-center" style="margin-top: 2rem;">Averages</h2>
-            <p class="text-center text-muted" style="margin-bottom: 0;">${averages.Days} Days</p>
-            <${StatsViewTiles} containerClass="stats-container" data="${averages}" tiles="${tiles}" formatAll="${true}" />`
-          : null
-        }`
-      : html`<p class="text-center">Something went wrong :(</p>`
-    }
-  </div>`
-}
-
-/**
- * The icon tiles component that renders a grid of icons + data.
- * @param {object} props Components props
- */
-function StatsViewTiles({ containerClass, data, formatAll, tiles }) {
   if (data) {
     return html`<div class="${containerClass}">
       ${tiles.map(el => {
@@ -176,26 +180,35 @@ export default function() {
      */
     Stats: ({ statMap }) => {
       const [activeNode, setActiveNode] = useState('')
+      const [avgData, setAvgData] = useState(null)
       const [displayData, setDisplayData] = useState(null)
       const noStatsText = 'No data found.'
-    
-      // Set "overview" as the default view if we have the necessary data
+
       useEffect(() => {
+        // Set "overview" as the default view if we have the necessary data
         if (statMap?._totals) {
+          // Calculate averages _once_ and store for later use
+          const avgd = getAverages(statMap._totals)
+          setAvgData(avgd)
+
+          // Use freshly calculated `avgd`; `setAvgData()` (L196) runs in parallel
+          // and will _not_ have finished yet, leading to a `null` value!
           setDisplayData({
+            averages: avgd,
             content: statMap._totals
           })
         }
       }, [statMap])
-    
+
       const onTreeNodeClick = useCallback((evt) => {
         const nodeId = evt.target.id
         const showOverview = nodeId === 'overview'
-        
+
         setActiveNode(showOverview ? '' : nodeId)
-    
+
         if (showOverview) {
           setDisplayData({
+            averages: avgData,
             content: statMap._totals
           })
         } else {
@@ -206,8 +219,8 @@ export default function() {
             content: statMap[nodePath[0]].find(o => o.AssetName == nodePath[1])
           })
         }
-      }, [statMap])
-    
+      }, [avgData, statMap])
+
       return html`
         ${statMap ? (
           html`<section class="stats-viewer">

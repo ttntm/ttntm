@@ -61,7 +61,6 @@ const {
 export default function App(config) {
   // Config passed from `index.html`
   const { rawStats } = config
-
   const sortedStats = rawStats && rawStats.length > 0
     ? rawStats.sort(objectSort('DateOfCalculation', true, (d) => new Date(d)))
     : []
@@ -69,7 +68,7 @@ export default function App(config) {
   const Main = () => {
     const [firstTimeRender, setFirstTimeRender] = useState(true)
     const [statMap, setStatMap] = useState(null)
-    
+
     useEffect(() => {
       if (firstTimeRender) {
         setStatMap(current => {
