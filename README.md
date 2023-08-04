@@ -28,6 +28,7 @@
 
 ## Articles About Things I Built
 
+- [Building a Data Viewer With Preact](https://ttntm.me/blog/building-a-data-viewer-with-preact/)
 - [My Buildless Preact Starter](https://ttntm.me/blog/buildless-preact-starter/)
 - [Building an Autocomplete Input with Preact](https://ttntm.me/blog/building-an-autocomplete-input-with-preact/)
 - [Using a Serverless Function as a Sitemap](https://ttntm.me/blog/using-a-serverless-function-as-a-sitemap/)
