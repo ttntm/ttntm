@@ -3,4 +3,7 @@ Disallow: /feed.xml
 Disallow: /likes/
 Disallow: /work/
 
+User-agent: GPTBot
+Disallow: /
+
 Sitemap: https://ttntm.me/sitemap.xml
