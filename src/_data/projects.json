@@ -16,14 +16,14 @@
       "url": "https://recept0r.com"
     },
     {
-      "title": "startpage",
-      "description": "A fully customizable start page for your browser.",
-      "url": "https://github.com/ttntm/startpage"
-    },
-    {
       "title": "11ty-landing-page",
       "description": "A simple landing page template built with 11ty and Tailwind CSS.",
       "url": "https://awesome11ty.ttntm.me"
+    },
+    {
+      "title": "astro-landing-page",
+      "description": "A simple landing page template built with Astro and Tailwind CSS.",
+      "url": "https://awesomestro.ttntm.me"
     },
     {
       "title": "hugo-landing-page",
