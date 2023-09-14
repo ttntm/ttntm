@@ -1,0 +1,25 @@
+---
+title: Links
+description: This is where you can find me (@ttntm) on the internet.
+layout: links.njk
+permalink: /links/index.html
+---
+<section class="container w100 align-self-center text-center post">
+  <h1 class="p-name">Links</h1>
+  <p>This is where you can find me (<em>@ttntm</em>) on the internet.</p>
+  <div class="hr shadow"></div>
+  <div class="grid grid2 gap1 mt2">
+    {% for item in links %}
+      <a class="w100 u-url p-name flex align-items-center justify-content-center text-dark text-prim-hover shadow-md-hover no-underline px2 py1 mx-auto" href="{{ item.url }}" style="border: 1px solid var(--light);">
+        <span class="d-block" style="">{{ item.name }}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <polyline points="7 7 12 12 7 17" />
+          <polyline points="13 7 18 12 13 17" />
+        </svg>
+      </a>
+    {% endfor %}
+  </div>
+  <div class="hr shadow mt2 mb2"></div>
+  <p class="text-center small m0">Links <em>do not</em> open in new tabs.</p>
+</section>

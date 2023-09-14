@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Blog",
+    "url": "/articles"
+  },
+  {
+    "name": "Dev.to",
+    "url": "https://dev.to/ttntm"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/ttntm"
+  },
+  {
+    "name": "Grouvee",
+    "url": "https://www.grouvee.com/user/ttntm/"
+  },
+  {
+    "name": "Likes",
+    "url": "/likes"
+  },
+  {
+    "name": "Mastodon",
+    "url": "https://fosstodon.org/@ttntm"
+  },
+  {
+    "name": "Notes",
+    "url": "/notes"
+  },
+  {
+    "name": "Pixelfed",
+    "url": "https://pixelfed.social/alfithecat"
+  },
+  {
+    "name": "Recipes",
+    "url": "https://recept0r.com"
+  },
+  {
+    "name": "RSS",
+    "url": "/feed.xml"
+  }
+]

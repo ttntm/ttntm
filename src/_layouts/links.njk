@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include 'head.njk' %}
+</head>
+<body>
+  <header>
+    <nav class="navTop flex flex-row justify-content-between align-items-center">
+      <div id="top" class="logo {{ 'h-card' if not isFront }}">
+        <a href="/" class="d-block logo-link p1 u-url">[T]</a>
+      </div>
+      <span class="p-name d-none" style="pointer-events: none;">ttntm</span>
+    </nav>
+  </header>
+  <main class="flex">
+    {{ content | safe }}
+  </main>
+  <footer class="px1">
+    <p class="small tight m0">&copy; {{ site.author }}, est. 2k18
+  </footer>
+</body>
+</html>
