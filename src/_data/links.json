@@ -21,6 +21,7 @@
   },
   {
     "name": "Mastodon",
+    "rel": "me",
     "url": "https://fosstodon.org/@ttntm"
   },
   {
