@@ -12,10 +12,6 @@
     "url": "https://github.com/ttntm"
   },
   {
-    "name": "Grouvee",
-    "url": "https://www.grouvee.com/user/ttntm/"
-  },
-  {
     "name": "Likes",
     "url": "/likes"
   },
@@ -39,5 +35,9 @@
   {
     "name": "RSS",
     "url": "/feed.xml"
+  },
+  {
+    "name": "Videogames",
+    "url": "/games"
   }
 ]

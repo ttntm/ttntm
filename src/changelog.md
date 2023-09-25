@@ -8,9 +8,9 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
-## Version 3.4.1
+## Version 3.5
 
-- Added a [/links](/links) page
+- Added [/games](/games) and [/links](/links) to this site
 
 ## Version 3.4
 
