@@ -363,6 +363,10 @@ main {
   outline: 1px dashed var(--lightest);
 }
 
+summary ::marker {
+  color: var(--prim) !important;
+}
+
 /* FOOTER */
 
 footer {
@@ -384,6 +388,10 @@ footer a .icon {
 
 footer a:hover .icon {
   opacity: 0.5;
+}
+
+.footer-link {
+  display: inline-block;
 }
 
 @media(min-width:768px) {
@@ -434,14 +442,27 @@ button {
   color: var(--light);
 }
 
+.next-prev {
+  font-size: 0.85rem;
+}
+
+a.btn:active,
+a.footer-link:active,
+a.logo-link:active,
+a.nav-link:active,
+button:active,
+summary:active {
+  transform: translateY(2px);
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
+  *:active {
+    transform: none;
+  }
+  
   *:hover {
     transition: all .0s ease-in-out;
   }
-}
-
-.next-prev {
-  font-size: 0.85rem;
 }
 
 @media(max-width: 576px) {

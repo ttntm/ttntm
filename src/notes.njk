@@ -4,21 +4,21 @@ description: Tom's personal problem + solution archive.
 layout: page.njk
 permalink: /notes/index.html
 ---
-<h2 class="h5 flex align-items-center">
-  Table of Contents
-  &nbsp;
-  <span class="small">
-    (<a href="#content">Skip</a>)
-  </span>
-</h2>
-<ul class="list-reset">
-  {%- for item in collections.til | reverse -%}
-    <li>
-      <a href="#{{ item.data.weight }}">#{{ item.data.weight }} - {{ item.data.title }}</a>
-    </li>
-  {%- endfor -%}
-</ul>
-<div class="hr shadow mt2 mb2"></div>
+<details>
+  <summary class="flex" style="cursor: pointer;">
+    <h2 class="h5 m0" style="display: list-item;">
+      Table of Contents
+    </h2>
+  </summary>
+  <ul class="list-reset mb2" style="margin-top: .5rem;">
+    {%- for item in collections.til | reverse -%}
+      <li>
+        <a href="#{{ item.data.weight }}">#{{ item.data.weight }} - {{ item.data.title }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</details>
+<div class="hr shadow mb2"></div>
 {%- for item in collections.til | reverse -%}
   <article id="{{ 'content' if loop.first }}" class="h-entry">
     <h2 class="h5">
