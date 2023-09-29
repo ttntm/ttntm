@@ -1,9 +1,12 @@
-User-agent: *
+telkUser-agent: *
 Disallow: /feed.xml
 Disallow: /likes/
 Disallow: /work/
 
 User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
 Disallow: /
 
 Sitemap: https://ttntm.me/sitemap.xml
