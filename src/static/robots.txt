@@ -1,4 +1,4 @@
-telkUser-agent: *
+User-agent: *
 Disallow: /feed.xml
 Disallow: /likes/
 Disallow: /work/
