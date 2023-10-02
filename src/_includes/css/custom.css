@@ -452,7 +452,7 @@ a.logo-link,
 a.nav-link,
 button,
 summary {
-  transition: transform .125s ease;
+  transition: all .35s ease-in-out, transform .125s ease;
 }
 
 a.btn:active,
