@@ -42,7 +42,7 @@ Please note that the all code mentioned in this article should also show up expl
 
 The following section will follow the data flow from the imagined back end (inside the large enterprise system) to the front end where the app’s going to be displayed to the end user.
 
-### `index.html`
+### index.html
 
 I doubt I could summarize it better than I did for a recent readme:
 
@@ -90,7 +90,7 @@ We’re working with rows obtained from an imaginary database that look like thi
 
 The imaginary back end takes care of handling these constraints and provides the data as shown in `db_rows.js`. It’s safe to rely on this data coming in just like that: the automated processes handling data preparation are protected well from unintended changes (they never *really* are, but we’ve got to live with that).
 
-### `app.js`
+### app.js
 
 This file is our SPA’s shell. There’s an `export default function App(config)` in {% ext "app.js#L61", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L61" %} that’s called from `index.html` which is used to pass the data described in the previous section to the application.
 
@@ -195,7 +195,7 @@ With the data preparation taken care of, we now proceed to mount the app’s cor
 
 Considering that `Stats` was imported from the components file ({% ext "app.js#L4", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L4" %} and {% ext "app.js#L57", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L57" %}), we’ll proceed to have a closer look at that one now.
 
-### `components.js`
+### components.js
 
 I prefer keeping components in a separate file. It keeps things clean(er) and helps (me) reduce side effects to a minimum required to make things work. It also makes it easier to find the source of errors that will happen sooner or later. As a quick real world example: 
 

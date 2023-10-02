@@ -15,7 +15,7 @@ module.exports = {
     // shortcode to create a "reply with email" button
     const encodedSubject = encodeURIComponent(subject)
     return `<div class="text-center mt2">
-      <p>Do you have feedback, questions or suggestions?</p>
+      <h2 class="text-base mb1">Do you have feedback, questions or suggestions?</h2>
       <a href="mailto:ttntm@pm.me?subject=${encodedSubject}" class="d-inline-block btn">Reply With Email</a>
     </div>`
   }

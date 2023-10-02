@@ -21,14 +21,8 @@ permalink: /notes/index.html
 <div class="hr shadow mb2"></div>
 {%- for item in collections.til | reverse -%}
   <article id="{{ 'content' if loop.first }}" class="h-entry">
-    <h2 class="h5">
-      <span>
-        <a id="{{ item.data.weight }}" href="#{{ item.data.weight }}" class="no-underline u-url" style="border: 0;">#{{ item.data.weight }}</a>
-      </span>
-      &nbsp;
-      <span class="p-name">
-        {{ item.data.title }}
-      </span>
+    <h2 class="h5 d-sm-inline-flex">
+      <span style="margin-right: .5rem;"><a id="{{ item.data.weight }}" href="#{{ item.data.weight }}" class="no-underline u-url" style="border: 0;">#{{ item.data.weight }}</a></span><span class="p-name">{{ item.data.title }}</span>
     </h2>
     <p class="small text-sec">
       Posted: <time class="dt-published" datetime="{{ item.date | date('YYYY-MM-DD') }}">{{ item.date | date('MMMM DD, YYYY') }}</time>

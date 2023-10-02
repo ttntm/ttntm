@@ -37,7 +37,7 @@ In the official docs, this approach is called the {% ext "No build tools route",
 
 ## Project Structure
 
-### `index.html`
+### index.html
 
 Source code: {% ext "./index.html", "https://github.com/ttntm/buildless-preact-starter/blob/main/index.html" %}
 
@@ -47,7 +47,7 @@ For the most minimal setup, this is where it ends: your Preact SPA is inlined in
 
 `index.html` is also using some `<link rel="modulepreload">` statements in `<head>` to "significantly reduce the overall download and processing time" of the necessary dependencies listed below (see: {% ext "MDN", "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/modulepreload" %}).
 
-### `app.js`
+### app.js
 
 Source code: {% ext "./app.js", "https://github.com/ttntm/buildless-preact-starter/blob/main/app.js" %}
 
@@ -55,7 +55,7 @@ Your SPA's entry point, kept in a separate file. Follow this approach if you can
 
 The file uses a default export (`export default function App(config)`) that consumes a `config` object. A practical example: `config` could be used to pass data obtained from the server side to the SPA if the target system provides the functionality to run server side code in `index.html`.
 
-### `components.js`
+### components.js
 
 Source code: {% ext "./components.js", "https://github.com/ttntm/buildless-preact-starter/blob/main/components.js" %}
 
@@ -63,7 +63,7 @@ Uses a default export to provide reusable components. Use {% ext "Preact Hooks",
 
 NB: using components in a separate file (or even _files_) is a nice way to follow the separation of concerns and to remove (reusable) component code from `app.js`. It is not required though - components can (also) be defined in `app.js` and/or inline (`<script type="module">`) without any issues - check out the `Heading` component in `app.js` for an example.
 
-### `config.js`
+### config.js
 
 Source code: {% ext "./config.js", "https://github.com/ttntm/buildless-preact-starter/blob/main/config.js" %}
 
@@ -71,7 +71,7 @@ Entirely optional. I'm often using such config files for translations, lists use
 
 Follows the same intention as `app.js` and `components.js` - use if your environment supports doing it and if your app has the complexity/size to justify doing it.
 
-### `styles.css`
+### styles.css
 
 Source code: {% ext "./styles.css", "https://github.com/ttntm/buildless-preact-starter/blob/main/styles.css" %}
 
