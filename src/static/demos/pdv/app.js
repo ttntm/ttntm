@@ -7,22 +7,29 @@ const html = htm.bind(h)
 
 function createStatMap(input) {
   return input.reduce((dateMap, currentRow) => {
-    const dateKey = formatDateTime(currentRow.DateOfCalculation)
+    const {
+      DateOfCalculation,
+      DeviceId,
+      DistanceOnBike,
+      DistanceOnFoot,
+      MetersOfHeight
+    } = currentRow
+    const dateKey = formatDateTime(DateOfCalculation)
     const currentDate = dateMap[dateKey] ?? []
     const currentDayCount = Number(currentDate.length <= 0)
     const currentTotals = dateMap._totals ?? {}
 
     const data = {
-      AssetName: currentRow.DeviceId,
-      DistanceOnBike: currentRow.DistanceOnBike,
-      DistanceOnFoot: currentRow.DistanceOnFoot,
-      MetersOfHeight: currentRow.MetersOfHeight
+      AssetName: DeviceId,
+      DistanceOnBike: DistanceOnBike,
+      DistanceOnFoot: DistanceOnFoot,
+      MetersOfHeight: MetersOfHeight
     }
 
     const newTotals = {
-      DistanceOnBike: (currentTotals.DistanceOnBike || 0) + currentRow.DistanceOnBike,
-      DistanceOnFoot: (currentTotals.DistanceOnFoot || 0) + currentRow.DistanceOnFoot,
-      MetersOfHeight: (currentTotals.MetersOfHeight || 0) + currentRow.MetersOfHeight,
+      DistanceOnBike: (currentTotals.DistanceOnBike || 0) + DistanceOnBike,
+      DistanceOnFoot: (currentTotals.DistanceOnFoot || 0) + DistanceOnFoot,
+      MetersOfHeight: (currentTotals.MetersOfHeight || 0) + MetersOfHeight,
       NumberOfDays: (currentTotals.NumberOfDays || 0) + currentDayCount
     }
 
