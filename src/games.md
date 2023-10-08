@@ -12,7 +12,8 @@ Feel free to [let me know](mailto:ttntm@pm.me) if you enjoy any of the games I l
 ## Great Stories
 
 **Cyberpunk 2077**
-I love cyberpunk stories and this one was a good one. The game itself definitely wasn’t matching all the promises made before release, but the version I played on the PS5 in 2022 (after checking out the free demo first...) was good enough for what turned out to be a truly wild ride into the world of cyberpunk and the neon lights of Night City. Addendum 09/2023: currently enjoying 2.0 and the DLC which re-designed many of the game's core systems (i.e. cyberware, weapons) and offers a pretty good new storyline.
+I love cyberpunk stories and this one was a good one. The game itself definitely wasn’t matching all the promises made before release, but the version I played on the PS5 in 2022 (after checking out the free demo first...) was good enough for what turned out to be a truly wild ride into the world of cyberpunk and the neon lights of Night City.
+_Addendum 09/2023_: currently enjoying 2.0 and the DLC which re-designed many of the game's core systems (i.e. cyberware, weapons) and offers a pretty good new storyline.
 
 **Dark Souls I & III**
 Getting into Dark Souls I took me 3 attempts over 6 months back in 2013. But when it finally clicked, it clicked for good. The difficulty aside, From Software is *really* good at building a world for those that go looking for it. Sure, you could also just blaze through the game, enjoy the fights and move on. But for me, the true depth of both DS I and III was found in the cryptic lore and the NPCs storylines. Coop and PVP were fun too. 
