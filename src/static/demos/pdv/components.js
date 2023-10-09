@@ -66,7 +66,7 @@ function StatsTree ({ activeNode, treeData, onTreeNodeClick }) {
                 const currentId = `${key}_${n.AssetName}`
                 const nodeClass = currentId === activeNode ? 'detail-node active' : 'detail-node'
 
-                return html`<li class="${nodeClass}">
+                return html`<li key="${currentId}" class="${nodeClass}">
                   <button id="${currentId}" onClick="${onTreeNodeClick}">${n.AssetName}</button>
                 </li>`
               }
@@ -146,27 +146,33 @@ function StatsViewTiles({ containerClass, data, formatAll }) {
   ]
 
   if (data) {
-    return html`<div class="${containerClass}">
+    return html`<ul class="${containerClass}">
       ${tiles.map(el => {
-        const tileData = data[el.name]
+        const {
+          icon,
+          label,
+          name,
+          transform
+        } = el
+        const tileData = data[name]
         
         if (tileData) {
-          const displayVal = el.transform
-            ? el.transform(tileData)
+          const displayVal = transform
+            ? transform(tileData)
             : formatAll
               ? formatNumber(tileData)
               : tileData
   
-          return html`<div class="stats-item">
+          return html`<li key="${name}" class="stats-item">
             <span class="icon">
-              <img src="${el.icon}" alt="${`Icon ${el.label}`}" />
+              <img src="${icon}" alt="${`Icon ${label}`}" />
             </span>
             <span class="value">${displayVal}</span>
-            <span class="label">${el.label}</span>
-          </div>`
+            <span class="label">${label}</span>
+          </li>`
         }
       })}
-    </div>`
+    </ul>`
   }
 }
 
@@ -191,8 +197,8 @@ export default function() {
           const avgd = getAverages(statMap._totals)
           setAvgData(avgd)
 
-          // Use freshly calculated `avgd`; `setAvgData()` (L196) runs in parallel
-          // and will _not_ have finished yet, leading to a `null` value!
+          // Use freshly calculated `avgd`; `setAvgData()` (L196) runs in parallel and
+          // will _not_ have finished yet; using `avgData` will lead to a `null` value!
           setDisplayData({
             averages: avgd,
             content: statMap._totals

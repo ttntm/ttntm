@@ -92,9 +92,9 @@ The imaginary back end takes care of handling these constraints and provides the
 
 ### app.js
 
-This file is our SPA’s shell. There’s an `export default function App(config)` in {% ext "app.js#L61", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L61" %} that’s called from `index.html` which is used to pass the data described in the previous section to the application.
+This file is our SPA’s shell. There’s an `export default function App(config)` in {% ext "app.js#L68", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L68" %} that’s called from `index.html` which is used to pass the data described in the previous section to the application.
 
-The code immediately runs the (destructured) `rawStats` variable through a reverse sorting function (`objectSort()`, {% ext "app.js#L44", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L44" %}) based on the `DateOfCalculation`. The rows obtained from our database are now sorted from newest to oldest record. 
+The code immediately runs the (destructured) `rawStats` variable through a reverse sorting function (`objectSort()`, {% ext "app.js#L51", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L51" %}) based on the `DateOfCalculation`. The rows obtained from our database are now sorted from newest to oldest record. 
 
 What follows is the definition of the app’s `Main()` component: first, we utilize the `useState()` {% ext "hook", "https://preactjs.com/guide/v10/hooks" %} and define the `statMap` object, then we proceed to a `useEffect()` call that basically mimics the `componentDidMount()` method which would have been used if this were a Class Component. Together with the `firstTimeRender` flag, we make sure that this `useEffect()` call only ever runs once, when the component gets mounted to the DOM:
 
@@ -196,11 +196,11 @@ The resulting object looks like this:
 }
 ```
 
-With the data preparation taken care of, we now proceed to mount the app’s core component `Stats` ({% ext "app.js#L87", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L87" %}) which consumes the newly created `statMap` as its one and only prop:
+With the data preparation taken care of, we now proceed to mount the app’s core component `Stats` ({% ext "app.js#L94", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L94" %}) which consumes the newly created `statMap` as its one and only prop:
 
 `<${Stats} statMap="${statMap}" />`
 
-Considering that `Stats` was imported from the components file ({% ext "app.js#L4", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L4" %} and {% ext "app.js#L57", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L57" %}), we’ll proceed to have a closer look at that one now.
+Considering that `Stats` was imported from the components file ({% ext "app.js#L4", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L4" %} and {% ext "app.js#L65", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L65" %}), we’ll proceed to have a closer look at that one now.
 
 ### components.js
 
@@ -212,9 +212,9 @@ Anyway, back to our app’s components:
 
 #### Stats
 
-Component definition: {% ext "components.js#L181", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/components.js#L181" %}
+Component definition: {% ext "components.js#L187", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/components.js#L187" %}
 
-This is our data viewer’s wrapper component which makes use of a tree (`StatsTree`) and a view (`StatsView`) sub-component. The main responsibility of this component is to handle the navigation events (via the tree) and to manage the state and data for the view using the `displayData` object. It also calculates the averages ({% ext "components.js#L191", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/components.js#L191" %} > {% ext "components.js#L18", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/components.js#L18" %}) for the "Stats Overview".
+This is our data viewer’s wrapper component which makes use of a tree (`StatsTree`) and a view (`StatsView`) sub-component. The main responsibility of this component is to handle the navigation events (via the tree) and to manage the state and data for the view using the `displayData` object. It also calculates the averages ({% ext "components.js#L197", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/components.js#L197" %} > {% ext "components.js#L18", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/components.js#L18" %}) for the "Stats Overview".
 
 Props:
 
@@ -230,7 +230,7 @@ Props:
 
 - `activeNode`: a string value containing the id of the active tree node; intentionally left blank for when the overview should be shown
 - `treeData`: the `statMap` object
-- `onTreeNodeClick`: a method defined in the parent component (`Stats`, {% ext "components.js#L203", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/components.js#L203" %}) that handles the clicks onto the tree nodes
+- `onTreeNodeClick`: a method defined in the parent component (`Stats`, {% ext "components.js#L209", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/components.js#L209" %}) that handles the clicks onto the tree nodes
 
 At its core, the tree component renders an `<ul>` with a `<li>` for each one of the date keys in the `statMap` object (which itself is an array with 1 or more records). It then loops through the value of these keys and renders a `<li>` for each one of them into a nested `<ul>` inside the respective main node. The 2 nested loops make use of the `activeNode` prop to determine which one of the main nodes and which one of its children is currently active and should be highlighted (via CSS classes). 
 
