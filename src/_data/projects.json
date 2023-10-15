@@ -33,12 +33,12 @@
     {
       "title": "hugo-leaflet-store-locator",
       "description": "A Leaflet based store locator for Hugo sites.",
-      "url": "https://storelocator.ttntm.me"
+      "url": "https://leaflet-store-locator.netlify.app"
     },
     {
       "title": "hugo-comments",
       "description": "\"Static\" comments with Netlify & Hugo.",
-      "url": "https://comments.ttntm.me"
+      "url": "https://hugo-comments.netlify.app"
     }
   ],
   "work": [
