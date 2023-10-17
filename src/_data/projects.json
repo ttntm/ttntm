@@ -31,6 +31,18 @@
       "url": "https://awesome.ttntm.me"
     },
     {
+      "title": "buildless-preact-starter",
+      "description": "A starter intended to showcase how to use Preact for SPAs in buildless environments.",
+      "url": "https://github.com/ttntm/buildless-preact-starter"
+    },
+    {
+      "title": "sfmc-utils",
+      "description": "A collection of reusable SSJS utility functions for SFMC.",
+      "url": "https://github.com/ttntm/sfmc-utils"
+    }
+  ],
+  "old": [
+    {
       "title": "hugo-leaflet-store-locator",
       "description": "A Leaflet based store locator for Hugo sites.",
       "url": "https://leaflet-store-locator.netlify.app"
