@@ -4,6 +4,10 @@
     "url": "/articles"
   },
   {
+    "name": "Codeberg",
+    "url": "https://codeberg.org/ttntm"
+  },
+  {
     "name": "Dev.to",
     "url": "https://dev.to/ttntm"
   },
@@ -23,10 +27,6 @@
   {
     "name": "Notes",
     "url": "/notes"
-  },
-  {
-    "name": "Pixelfed",
-    "url": "https://pixelfed.social/alfithecat"
   },
   {
     "name": "Recipes",
