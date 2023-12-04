@@ -24,14 +24,10 @@ When I'm not in front of a screen coding, <a href="https://watch3r.app" target="
 
 ## My PGP Key
 
-Key file: [publickey.ttntm@pm.me](/publickey.ttntm@pm.me-a8bceee0af717e013d8aa2a70bc9ffe9639baec3.asc)
+Fingerprint: `A8BC EEE0 AF71 7E01 3D8A A2A7 0BC9 FFE9 639B AEC3`
 
-Fingerprint:
-
-```
-A8BC EEE0 AF71 7E01 3D8A
-A2A7 0BC9 FFE9 639B AEC3
-```
+- Key file: [publickey.ttntm@pm.me](/publickey.ttntm@pm.me-a8bceee0af717e013d8aa2a70bc9ffe9639baec3.asc)
+- Mirror: <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/A8BCEEE0AF717E013D8AA2A70BC9FFE9639BAEC3" rel="noopener" target="_blank">keys.openpgp.org</a>
 
 <div class="hr shadow mt2 mb2"></div>
 
