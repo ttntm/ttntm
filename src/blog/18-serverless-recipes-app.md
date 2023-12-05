@@ -44,7 +44,7 @@ What I ended up building can be described as a classic SPA with multiple routes 
 
 Once logged in, registered users get 2 additional routes: "Create" and "My Recipes". As the respective title suggests, these pages can be used to either create additional recipes or to view a sortable list of the current user's recipes. Editing and deleting recipes is a part of each recipe's details page when logged in as the recipe's author.
 
-Each of the app's individual routes=pages was implemented as its own Vue {% ext "SFC", "https://vuejs.org/v2/guide/single-file-components.html" %} file, shared functionality (i.e. navbar, toast messages, etc.) makes use of reusable components. To tie it all together, Vue extensions like `vue-router` and `vuex` were used to manage rounting and application state more efficiently - you're welcome to browse the full list of dependencies {% ext "on GitHub", "https://github.com/ttntm/recept0r/blob/master/package.json" %} if you're interested in what other packages I used.
+Each of the app's individual routes=pages was implemented as its own Vue {% ext "SFC", "https://vuejs.org/v2/guide/single-file-components.html" %} file, shared functionality (i.e. navbar, toast messages, etc.) makes use of reusable components. To tie it all together, Vue extensions like `vue-router` and `vuex` were used to manage rounting and application state more efficiently - you're welcome to browse the full list of dependencies {% ext "on Codeberg", "https://codeberg.org/ttntm/recept0r/src/branch/main/package.json" %} if you're interested in what other packages I used.
 
 ### FaunaDB Setup
 
@@ -316,4 +316,4 @@ A final remark: there are a lot of helpful resources out there that supported me
 
 **Update Aug. 29th 2021**:
 
-The app this article is based on has been rewritten from scratch - the current source code can be found at {% ext "GitHub", "https://github.com/ttntm/recept0r-ts/" %}
+The app this article is based on has been rewritten from scratch - the current source code can be found at {% ext "Codeberg", "https://codeberg.org/ttntm/recept0r" %}

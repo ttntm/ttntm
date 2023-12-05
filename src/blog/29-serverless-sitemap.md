@@ -88,7 +88,7 @@ Finally, don't forget to add a redirect to your app's config:
 
 That’s it basically; here’s some additional context:
 
-- The merged PR: {% ext "feat #20: sitemap@GitHub" "https://github.com/ttntm/recept0r-ts/pull/21/files" %}
-- The final function: {% ext "sitemap.js" "https://github.com/ttntm/recept0r-ts/blob/main/functions/sitemap.js" %}
+- The merged PR: {% ext "feat #20: sitemap@GitHub" "https://codeberg.org/ttntm/recept0r/pulls/21/files" %}
+- The final function: {% ext "sitemap.js" "https://codeberg.org/ttntm/recept0r/src/branch/main/functions/sitemap.js" %}
 
 I’m pretty happy with the result and I have to say that using a(nother) serverless function here feels right to me, certainly much better than the idea of using some sort of automated rebuilds on a schedule just to create an XML file. It’s also in line with the rest of the app’s back end and it properly leverages existing functionality to keep things DRY.
