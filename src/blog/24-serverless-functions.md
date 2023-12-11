@@ -30,21 +30,21 @@ Furthermore, I'd like to point out that a lot of excellent information on the to
 
 When I launched my application's first 'finished version' (side projects never really are...), I basically had a `./functions` folder full of individual files that did CRUD operations. It worked, but it was a bit of a mess to work with. 
 
-Adopting the {% ext "REST API pattern" "https://github.com/DavidWells/netlify-functions-workshop/tree/master/lessons-code-complete/use-cases/1-rest-api" %} from the functions workshop mentioned above, I ended up with a central {% ext "api.js function" "https://github.com/ttntm/watch3r/blob/master/functions/api.js" %}. That's not just better looking, it also offers some additional benefits:
+Adopting the {% ext "REST API pattern" "https://github.com/DavidWells/netlify-functions-workshop/tree/master/lessons-code-complete/use-cases/1-rest-api" %} from the functions workshop mentioned above, I ended up with a central {% ext "api.js function" "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/api.js" %}. That's not just better looking, it also offers some additional benefits:
 
 - Calls from the front end all hit the same endpoint, eliminating possible errors of sending requests to the wrong endpoint and/or having to keep track of all of them somewhere
 - User authentication gets verified in one place for all API operations
 - Unrecognized HTTP methods get rejected before hitting any 'real' functionality
-- Actual functionality is split up into individual files that are much easier to maintain (see: {% ext "./functions/api-methods" "https://github.com/ttntm/watch3r/tree/master/functions/api-methods" %}
+- Actual functionality is split up into individual files that are much easier to maintain (see: {% ext "./functions/api-methods" "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/api-methods" %}
 - If you prefer tidier paths, you could even work with a redirect to change your API's path from `your.app/.netlify/functions/api` to `your.app/api` - see {% ext "this Tweet" "https://twitter.com/Netlify/status/1417937708203249665?s=19" %} for the 'official' recommendation
 
 I'm probably missing some benefits, but that's probably already well worth the effort of refactoring - it was to me at least.
 
 ### Users and Authentication
 
-I'm using Netlify Identity for my app's user accounts. Thanks to that, taking care of protecting my API endpoints is basically just making use of built-in functionality. I'm working with `context.clientContext.user` which contains the claims of the respective user. {% ext "Checking that in api.js" "https://github.com/ttntm/watch3r/blob/master/functions/api.js#L11-L14" %} (and any other non-public function that's used by the app) makes sure that only authenticated users can use the application. See {% ext "Protecting Endpoints" "https://github.com/DavidWells/netlify-functions-workshop/tree/master/lessons-code-complete/core-concepts/5-authenication" %} for further details and explanations.
+I'm using Netlify Identity for my app's user accounts. Thanks to that, taking care of protecting my API endpoints is basically just making use of built-in functionality. I'm working with `context.clientContext.user` which contains the claims of the respective user. {% ext "Checking that in api.js" "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/api.js#L11-L14" %} (and any other non-public function that's used by the app) makes sure that only authenticated users can use the application. See {% ext "Protecting Endpoints" "https://github.com/DavidWells/netlify-functions-workshop/tree/master/lessons-code-complete/core-concepts/5-authenication" %} for further details and explanations.
 
-PS: you'll have to make sure that your application {% ext "takes care of refreshing user tokens" "https://github.com/ttntm/watch3r/blob/master/src/store/modules/user.js#L167-L178" %} (if they're expired) and that it {% ext "sends them along with the requests" "https://github.com/ttntm/watch3r/blob/master/src/helpers/shared.js#L12-L28" %} to your API.
+PS: you'll have to make sure that your application {% ext "takes care of refreshing user tokens" "https://codeberg.org/ttntm/watch3r/src/branch/master/src/store/modules/user.js#L167-L178" %} (if they're expired) and that it {% ext "sends them along with the requests" "https://codeberg.org/ttntm/watch3r/src/branch/master/src/helpers/shared.js#L12-L28" %} to your API.
 
 ### Headers
 
@@ -52,7 +52,7 @@ A good overview: {% ext "Security Headers for a web API" "https://security.stack
 
 Custom Netlify headers defined in `netlify.toml` (see: [Notes#18](/notes/#18)) will only apply to the HTML responses of requests to your site; functions need to return their own (secure) headers - see: {% ext "Is it possible to fetch a netlify function from another domain" "https://answers.netlify.com/t/is-it-possible-to-fetch-a-netlify-function-from-another-domain/26256/5" %}.
 
-I've opted for adding the basic headers to my functions from a single file so I can keep things DRY: used as an import from a file like {% ext "_shared/headers.js" "https://github.com/ttntm/watch3r/blob/master/functions/_shared/headers.js" %}, it can be used easily in your functions:
+I've opted for adding the basic headers to my functions from a single file so I can keep things DRY: used as an import from a file like {% ext "_shared/headers.js" "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/_shared/headers.js" %}, it can be used easily in your functions:
 
 ```jsx
 const fnHeaders = require('./_shared/headers.js');
