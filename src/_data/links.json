@@ -16,10 +16,6 @@
     "url": "https://github.com/ttntm"
   },
   {
-    "name": "Likes",
-    "url": "/likes"
-  },
-  {
     "name": "Mastodon",
     "rel": "me",
     "url": "https://fosstodon.org/@ttntm"
@@ -29,15 +25,11 @@
     "url": "/notes"
   },
   {
-    "name": "Recipes",
-    "url": "https://recept0r.com"
-  },
-  {
     "name": "RSS",
     "url": "/feed.xml"
   },
   {
-    "name": "Videogames",
-    "url": "/games"
+    "name": "Wiki",
+    "url": "https://kb.ttntm.me"
   }
 ]
