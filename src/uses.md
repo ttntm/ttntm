@@ -4,7 +4,7 @@ description: The hardware and the software I currently use.
 layout: page.njk
 ---
 
-**Last updated:** Oct. 17th 2023
+**Last updated:** Dec. 28th 2023
 
 ## Hardware
 
@@ -14,7 +14,7 @@ My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my
 
 ## Software
 
-My terminal emulator is {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %} running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "JetBrains Mono", "https://www.jetbrains.com/lp/mono/" %} typeface is my primary editor. I'm currently using the {% ext "Nord Deep", "https://open-vsx.org/extension/marlosirapuan/nord-deep" %} theme, but my all-time favourite theme is "Plastic" (see below). I also use {% ext "Neovim", "https://neovim.io" %} whenever I need to edit files in a terminal and {% ext "gedit", "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
+My terminal emulator is {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %} running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "Input Mono", "https://input.djr.com" %} typeface and the {% ext "Kanagawa", "https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa" %} theme is my primary editor. I also use {% ext "Neovim", "https://neovim.io" %} or {% ext "micro" "https://micro-editor.github.io" %} whenever I need to edit files in a terminal and {% ext "gedit", "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
 
 The **VS Code extensions** I use the most are:
 
@@ -28,17 +28,19 @@ The **VS Code extensions** I use the most are:
 
 **VS Code Theme History**
 
+- {% ext "Nord Deep", "https://open-vsx.org/extension/marlosirapuan/nord-deep" %}
 - {% ext "Tokyo City", "https://open-vsx.org/extension/huytd/tokyo-city" %}
 - {% ext "Tokyo Night", "https://open-vsx.org/extension/enkia/tokyo-night" %}
 - {% ext "Plastic", "https://plastictheme.com/themes/vscode" %}
 - {% ext "Nord", "https://open-vsx.org/extension/arcticicestudio/nord-visual-studio-code" %}
 
-I'm using both Firefox Dev. Edition and Chromium as browsers currently, but I also used Brave in the past (which I liked a lot actually). All my browsers use {% ext "my custom start page", "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
+I'm using Firefox Dev. Edition, Brave and Ungoogled Chromium as browsers currently. All my browsers use {% ext "my custom start page", "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
 
 - {% ext "uBlock Origin", "https://github.com/gorhill/uBlock#ublock-origin" %} (all browsers)
-- {% ext "Chameleon", "https://github.com/sereneblue/chameleon" %} (Firefox only)
-- {% ext "CORS Everywhere", "https://github.com/spenibus/cors-everywhere-firefox-addon" %} (Firefox only)
-- {% ext "uMatrix", "https://github.com/gorhill/uMatrix" %} (Firefox only)
+- {% ext "Chameleon", "https://github.com/sereneblue/chameleon" %} (FF only)
+- {% ext "CORS Everywhere", "https://github.com/spenibus/cors-everywhere-firefox-addon" %} (FF only)
+- {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %} (FF only)
+- {% ext "uMatrix", "https://github.com/gorhill/uMatrix" %} (FF only)
 
 In addition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found over at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
 

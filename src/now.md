@@ -1,20 +1,20 @@
 ---
 title: What I'm Doing Now
-description: A public reminder of what I’m (supposed to be...) doing now.
+description: A public reminder of what I'm (supposed to be...) doing now.
 layout: page.njk
 ---
 
-**Last updated:** Sept. 17th 2023
+**Last updated:** Dec. 28th 2023
 
-**Writing**: Thinking about making my current and past Linux setups available on this website.
+**Writing**: Migrating notes to my new personal wiki, also working on a bunch of drafts for articles that should have been 2023 blog posts.
 
 **Reading**: Dune Messiah
 
-**Playing**: Armored Core VI, it's really good! Also picking up the guitar more often these days, thanks to a new Orange Crush Mini amp I recently got.
+**Playing**: Borderlands 2, Stellaris, Tiny Tina's Wonderlands
 
-**Drinking**: Oban's 14 year old, enjoying it a lot.
+**Drinking**: Lagavulin 16yo - just wow.
 
-**Living**: cycling on a new (to me) Merida MTB I bought in late spring; planning to move a small BBQ grill to the balcony to enjoy some kebab; getting better at standup paddleboarding.
+**Living**: Missing cycling season, considering going for ice skating more often.
 
 <div class="hr shadow mb1"></div>
 
