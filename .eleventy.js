@@ -10,7 +10,7 @@ const filters = require('./utils/filters.js')
 const shortcodes = require('./utils/shortcodes.js')
 
 // LOCAL FNS
-const publishedContent = (item) => !item.data.draft
+const publishedContent = (item) => !Boolean(item.data.draft)
 
 module.exports = (config) => {
   // PLUGINS
