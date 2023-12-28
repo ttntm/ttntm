@@ -1,7 +1,6 @@
 ---
 title: How to Track Fauna Metrics in Google Sheets
 slug: track-fauna-metrics-google-sheets
-weight: -23
 type: blog
 date: 2021-05-10
 description: Using Google Sheets and serverless functions to build an automated database reporting service.

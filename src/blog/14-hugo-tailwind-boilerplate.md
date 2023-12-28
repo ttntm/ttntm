@@ -1,7 +1,6 @@
 ---
 title: "Boilerplate: Hugo, TailwindCSS and gulp"
 slug: hugo-tailwind-boilerplate
-weight: -14
 type: blog
 date: 2020-04-12
 description: "I just published a very simple boilerplate for Hugo sites based on TailwindCSS."

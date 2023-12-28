@@ -1,7 +1,6 @@
 ---
 title: Building a Data Viewer With Preact
 slug: building-a-data-viewer-with-preact
-weight: -32
 type: blog
 date: 2023-08-04
 description: A data viewer with a nav tree, rendered from an array of objects (rows obtained from a DB).

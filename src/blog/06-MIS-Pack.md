@@ -1,7 +1,6 @@
 ---
 title: Microsoft Integration Stencils Pack for Visio
 slug: microsoft-integration-stencils-pack-visio
-weight: -6
 type: blog
 date: 2018-10-16
 description: A pointer to a great resource for Micorosft Visio users.

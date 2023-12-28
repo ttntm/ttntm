@@ -1,7 +1,6 @@
 ---
 title: '"Static" Comments with Gulp, Hugo & Netlify'
 slug: static-blog-comments-hugo
-weight: -10
 type: blog
 date: 2019-12-15
 description: Probably the easiest way of adding comments to your Hugo site.

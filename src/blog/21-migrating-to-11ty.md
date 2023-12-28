@@ -1,7 +1,6 @@
 ---
 title: Migrating from Hugo to Eleventy
 slug: migrating-from-hugo-to-eleventy
-weight: -21
 type: blog
 date: 2021-03-29
 description: A short summary of this site's migration from Hugo to Eleventy.

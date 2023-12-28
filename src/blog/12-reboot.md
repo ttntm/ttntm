@@ -1,7 +1,6 @@
 ---
 title: "Reboot/Catharsis"
 slug: reboot-catharsis
-weight: -12
 type: blog
 date: 2020-03-24
 description: "Spring cleaning. Or how to ditch Bootstrap, all JavaScript, jQuery etc. and end up with a new, faster website."

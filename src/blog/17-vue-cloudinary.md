@@ -1,7 +1,6 @@
 ---
 title: How to use Cloudinary with your Vue App
 slug: how-to-use-cloudinary-with-vue-app
-weight: -17
 type: blog
 date: 2020-08-05
 description: A zero dependency approach for image management from within a Vue.js application.

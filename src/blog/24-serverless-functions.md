@@ -1,7 +1,6 @@
 ---
 title: Using Netlify Functions as a Back End
 slug: using-netlify-functions-as-a-backend
-weight: -24
 type: blog
 date: 2021-07-24
 description: Notes on Using Netlify Functions as a Back End for a Web Application.

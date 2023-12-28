@@ -1,7 +1,6 @@
 ---
 title: Site Redesign
 slug: site-redesign
-weight: -7
 type: blog
 date: 2018-11-19
 description: Short update summarizing the changes done to this site recently.

@@ -1,7 +1,6 @@
 ---
 title: My Buildless Preact Starter
 slug: buildless-preact-starter
-weight: -31
 type: blog
 date: 2023-07-27
 description: A template/starter intended to showcase how I'm using Preact for SPAs in buildless environments.
