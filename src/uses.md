@@ -10,7 +10,7 @@ layout: page.njk
 
 I use an immortal Dell Precision M3800 from 2013 running {% ext "Manjaro", "https://manjaro.org" %} for private stuff and a company owned Lenovo ThinkPad P14s Gen 3 running {% ext "Fedora", "https://getfedora.org" %} for work. I'm mostly working from home these days, but most of the time I don't use an external keyboard or monitor. As far as peripherals are concerned, I use Bose Noise Cancelling Headphones 700 and a 4TB Seagate external hard drive. Once in a while I also use a mouse that keeps hanging around at home.
 
-My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my LG G7 ThinQ after her beloved Sony phone died. The Pixel's a great phone and I got so used to gesture navigation that using other phones feels somehow off now.
+My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my LG G7 ThinQ after her beloved Sony phone died. The Pixel's a great phone and I got so used to gesture navigation that using other phones feels somehow off now. My work phone is a refurbished iPhone Xs that does what it needs to do (mostly emails, MFA and Teams) rather well.
 
 ## Software
 

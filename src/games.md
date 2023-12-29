@@ -30,6 +30,9 @@ Loved reading "Roadside Picnic" and enjoyed the Tarkovsky movie. Getting the gam
 
 ## Action/FPS
 
+**Armored Core VI: Fires of Rubicon**
+Really liked this one. Felt like the games of the psat that got me into gaming in the first place. A complete package, mission based gameplay instead of an - empty - "open world", no forced online multiplayer stuff, no bugs and no cash grab microtransactions. It was a little challenging at times, but always felt rewarding. I had a truly great time with it and will probably pick it back up whenever I feel like it.
+
 **Unreal Tournament**
 I will never forget how it felt booting this one up for the first time, getting hit with that amazing soundtrack. The game itself was fast, deadly fun and great when played with a group of friends or at LAN parties.
 
