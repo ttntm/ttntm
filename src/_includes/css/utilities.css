@@ -229,6 +229,16 @@
     color: var(--light) !important;
 }
 
+.text-muted {
+  color: var(--sec);
+}
+
+@media (prefers-color-scheme: dark) {
+  .text-muted {
+    color: grey;
+  } 
+}
+
 .text-center {
     text-align: center;
 }
@@ -281,6 +291,20 @@
 
 .shadow-md-hover:hover {
     box-shadow: 0 0.45rem 0.9rem rgba(0,0,0,0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .shadow {
+    box-shadow: 0 0.125rem 0.25rem rgba(240,240,240,0.075);
+  }
+
+  .shadow-hover:hover {
+    box-shadow: 0 0.125rem 0.25rem rgba(240,240,240,0.075);
+  }
+
+  .shadow-md-hover:hover {
+    box-shadow: 0 0.45rem 0.9rem rgba(240,240,240,0.1);
+  } 
 }
 
 .p1 {

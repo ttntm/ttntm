@@ -12,8 +12,9 @@
   --yellow:#EBCB8B;
   --white: #fff;
   --black: #000;
-  --font-sans: 'Titillium Web', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans: 'Titillium Web', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-mono: 'Input Mono', 'JetBrains Mono', 'IBM Plex Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --border: var(--light);
 }
 
 /* titillium-web-regular - latin */
@@ -46,11 +47,7 @@
   transition: all .35s ease-in-out;
 }
 
-::selection {
-  background: var(--black);
-  color: var(--white);
-}
-
+::selection,
 ::-moz-selection {
   background: var(--black);
   color: var(--white);
@@ -147,7 +144,7 @@ strong {
 }
 
 blockquote {
-  background-color: var(--lightest) ;
+  background-color: var(--lightest);
   border-left: 4px solid var(--prim);
   font-size: 1.25rem;
   margin-bottom: 1rem;
@@ -165,7 +162,7 @@ blockquote code {
 
 hr {
   border-style: none;
-  border-top: 1px solid var(--light);
+  border-top: 1px solid var(--border);
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -349,6 +346,18 @@ main {
   background: var(--prim);
 }
 
+.nav-rss {
+  color: var(--dark);
+}
+
+.nav-rss:hover {
+  color: var(--prim);
+}
+
+.hello-heading {
+  color: var(--darker);
+}
+
 /* POST + clickable headings */
 .heading a,
 .post a {
@@ -471,6 +480,15 @@ summary:active {
   transition: transform .125s ease;
 }
 
+.like-link {
+  color: var(--dark);
+  display: block;
+}
+
+.like-link:hover {
+  color: var(--prim);
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
   *:active {
     transform: none;
@@ -484,5 +502,144 @@ summary:active {
 @media(max-width: 576px) {
   .hello {
     min-height: 80vh;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --black: #121212;
+    --border: var(--darkest);
+  }
+
+  ::selection,
+  ::-moz-selection {
+    background: var(--light);
+    color: var(--black);
+  }
+
+  body {
+    background-color: var(--darker);
+    color: var(--lightest);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    /* color: var(--light); */
+    color: silver;
+  }
+
+  p code, li code {
+    background-color: var(--black);
+  }
+
+  blockquote,
+  blockquote code {
+    background-color: var(--black);
+  }
+
+  .hr {
+    background: linear-gradient(90deg,var(--darker),var(--dark),var(--darker));
+  }
+
+  .logo a {
+    /* color: var(--black); */
+    color: silver;
+  }
+  
+  .logo:hover {
+    background-color: var(--black);
+  }
+
+  .nav-link {
+    /* color: var(--light); */
+    color: silver;
+  }
+
+  .nav-link::after {
+    background: var(--prim);
+  }
+
+  .nav-link:hover {
+    color: var(--light);
+  }
+
+  .nav-link-active {
+    color: var(--light);
+  }
+  
+  .nav-link-active::after {
+    background: var(--prim);
+  }
+
+  .nav-rss {
+    color: silver;
+  }
+
+  .nav-rss:hover {
+    color: var(--prim);
+  }
+
+  .u-photo {
+    opacity: .75;
+  }
+
+  .hello-heading {
+    color: var(--white);
+  }
+
+  .heading a,
+  .post a {
+    color: var(--light);
+    text-decoration-color: var(--prim);
+  }
+
+  .heading a:hover,
+  .post a:hover {
+    color: var(--white);
+    text-decoration-color: var(--yellow);
+  }
+
+  footer {
+    color: var(--light);
+  }
+  
+  footer a {
+    color: var(--light);
+  }
+
+  @media(min-width:768px) {
+    footer {
+      background-color: var(--black);
+      color: var(--light);
+    }
+    footer a {
+      color: var(--sec);
+    }
+    footer a:hover {
+      color: var(--yellow);
+    }
+  }
+  
+  .navMobile {
+    background-color: var(--black);
+    color: var(--light);
+  }
+
+  .btn {
+    background-color: var(--black);
+    /* color: var(--white); */
+    color: silver;
+  }
+
+  .btn:hover {
+    background-color: var(--darkest);
+    color: var(--yellow);
+  }
+
+  .like-link {
+    color: grey;
+  }
+
+  .like-link:hover {
+    color: var(--yellow) !important;
   }
 }
