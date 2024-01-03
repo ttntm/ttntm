@@ -1,7 +1,7 @@
 [
   {
     "name": "Blog",
-    "url": "/articles"
+    "url": "/blog/"
   },
   {
     "name": "Codeberg",
@@ -22,7 +22,7 @@
   },
   {
     "name": "Notes",
-    "url": "/notes"
+    "url": "/notes/"
   },
   {
     "name": "RSS",

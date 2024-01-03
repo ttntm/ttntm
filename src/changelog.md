@@ -12,36 +12,37 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 
 - Added dark mode via `@media (prefers-color-scheme: dark) {}`
 - Joined the {% ext "darktheme.club" "https://darktheme.club" %}
+- Moved /archive back to [/blog](/blog/)
 
 ## Version 3.5
 
-- Added [/games](/games) and [/links](/links) to this site
+- Added [/games](/games/) and [/links](/links/) to this site
 
 ## Version 3.4
 
-- Moved /archive to [/articles](/articles)
-- Added "Recently Enjoyed" to [/about](/about)
+- Moved /archive to /articles
+- Added "Recently Enjoyed" to [/about](/about/)
 
 ## Version 3.3
 
 - Added a "Reply with email" button to articles
-- Changed the layout of [/likes](/likes): it's now a grid of tiles instead of the list it used to be
-- Updated, refined and rearranged [/about](/about)
+- Changed the layout of [/likes](/likes/): it's now a grid of tiles instead of the list it used to be
+- Updated, refined and rearranged [/about](/about/)
 
 ## Version 3.2
 
-- Added [/likes](/likes) where I'll publish cool things I find on the internet
+- Added [/likes](/likes/) where I'll publish cool things I find on the internet
 - Moved /TIL to /notes
 - Updated the site's icon
 
 ## Version 3.1.1
 
-- Added a table of contents to [/notes](/notes)
+- Added a table of contents to [/notes](/notes/)
 - Joined the {% ext "250kb.club", "https://250kb.club" %} and the {% ext "1MB.club", "https://1mb.club" %}
 
 ## Version 3.1
 
-- Added [/now](/now) and [/uses](/uses) to this site
+- Added [/now](/now/) and [/uses](/uses/) to this site
 - Adjusted the width of the content columns
 - Joined the {% ext "512kb.club", "https://512kb.club" %}
 

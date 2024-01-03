@@ -4,11 +4,11 @@
     <br><br>
     <a href="https://ttntm.me">ME</a>
     &bull;
-    <a href="https://ttntm.me/articles">ARTICLES</a>
+    <a href="https://ttntm.me/blog/">Blog</a>
     &bull;
-    <a href="https://ttntm.me/notes">NOTES</a>
+    <a href="https://ttntm.me/notes/">NOTES</a>
     &bull;
-    <a href="https://ttntm.me/work">WORK</a>
+    <a href="https://ttntm.me/work/">WORK</a>
     &bull;
     <a rel="me" href="https://fosstodon.org/@ttntm">TOOTS</a>
   </samp>

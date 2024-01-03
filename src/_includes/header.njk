@@ -4,10 +4,10 @@
   </div>
   <span class="p-name d-none" style="pointer-events: none;">ttntm</span>
   <div class="d-none d-sm-flex align-items-center">
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/archive' in page.url and not '/blog/' in page.url }}" href="/archive">Blog</a>
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/notes' in page.url and not '/blog/' in page.url }}" href="/notes">Notes</a>
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/work' in page.url and not '/blog/' in page.url }}" href="/work">Work</a>
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/about' in page.url and not '/blog/' in page.url }}" href="/about">About</a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if page.url === '/blog/' }}" href="/blog/">Blog</a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/notes' in page.url and not '/blog/' in page.url }}" href="/notes/">Notes</a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/work' in page.url and not '/blog/' in page.url }}" href="/work/">Work</a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/about' in page.url and not '/blog/' in page.url }}" href="/about/">About</a>
     <a class="nav-rss d-block regular mr1" href="/feed.xml" title="RSS Feed">
       <svg xmlns="http://www.w3.org/2000/svg" class="d-block" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
