@@ -8,6 +8,11 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.6
+
+- Added dark mode via `@media (prefers-color-scheme: dark) {}`
+- Joined the {% ext "darktheme.club" "https://darktheme.club" %}
+
 ## Version 3.5
 
 - Added [/games](/games) and [/links](/links) to this site

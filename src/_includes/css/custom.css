@@ -527,10 +527,8 @@ summary:active {
     color: silver;
   }
 
-  p code, li code {
-    background-color: var(--black);
-  }
-
+  p code,
+  li code,
   blockquote,
   blockquote code {
     background-color: var(--black);
@@ -540,7 +538,9 @@ summary:active {
     background: linear-gradient(90deg,var(--darker),var(--dark),var(--darker));
   }
 
-  .logo a {
+  .logo a,
+  .nav-link,
+  .nav-rss {
     /* color: var(--black); */
     color: silver;
   }
@@ -549,29 +549,14 @@ summary:active {
     background-color: var(--black);
   }
 
-  .nav-link {
-    /* color: var(--light); */
-    color: silver;
-  }
-
-  .nav-link::after {
-    background: var(--prim);
-  }
-
-  .nav-link:hover {
-    color: var(--light);
-  }
-
-  .nav-link-active {
-    color: var(--light);
-  }
-  
+  .nav-link::after,
   .nav-link-active::after {
     background: var(--prim);
   }
 
-  .nav-rss {
-    color: silver;
+  .nav-link:hover,
+  .nav-link-active {
+    color: var(--light);
   }
 
   .nav-rss:hover {
@@ -598,10 +583,7 @@ summary:active {
     text-decoration-color: var(--yellow);
   }
 
-  footer {
-    color: var(--light);
-  }
-  
+  footer,
   footer a {
     color: var(--light);
   }
@@ -609,7 +591,6 @@ summary:active {
   @media(min-width:768px) {
     footer {
       background-color: var(--black);
-      color: var(--light);
     }
     footer a {
       color: var(--sec);

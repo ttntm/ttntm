@@ -2,8 +2,9 @@
 https://ttntm.netlify.app/* https://ttntm.me/:splat 301!
 https://master--ttntm.netlify.app/* https://ttntm.me/:splat 301!
 
-/archive/ /articles/ 301!
-/blog/ /articles/ 301!
+# /archive/ /articles/ 301!
+# /blog/ /articles/ 301!
+/articles/ /archive/ 301!
 /contact/* /about/ 301!
 /projects/* /work/ 301!
 /tags/* /articles/ 301!
