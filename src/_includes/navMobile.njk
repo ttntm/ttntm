@@ -17,7 +17,7 @@
       </svg>
     </a>
     <a class="d-block p1 mr1" href="/notes/" aria-label="Notes">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/notes' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/notes' in page.url and not '/blog/' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
         <line x1="13" y1="8" x2="15" y2="8" />
@@ -25,7 +25,7 @@
       </svg>
     </a>
     <a class="d-block p1 mr1" href="/work/" aria-label="Work">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/work' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/work' in page.url and not '/blog/' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
         <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
@@ -36,7 +36,7 @@
       </svg>
     </a>
     <a class="d-block p1" href="/about/" aria-label="About">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/about' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/about' in page.url and not '/blog/' in page.url }}" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <circle cx="12" cy="7" r="4" />
         <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
