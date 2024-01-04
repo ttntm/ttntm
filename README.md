@@ -4,7 +4,7 @@
     <br><br>
     <a href="https://ttntm.me">ME</a>
     &bull;
-    <a href="https://ttntm.me/blog/">Blog</a>
+    <a href="https://ttntm.me/blog/">BLOG</a>
     &bull;
     <a href="https://ttntm.me/notes/">NOTES</a>
     &bull;
