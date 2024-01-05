@@ -15,17 +15,29 @@
     <a class="footer-link no-underline" href="/about/">About</a>
   </li>
 </ul>
-<ul class="list-reset list-inline small mt1 mb1">
+<ul class="list-reset list-inline small" style="margin: 1.5rem 0;">
   {% for icon in site.social %}
     <li class="list-inline-item px1">
       <a class="footer-link no-underline" href="{{ icon.url }}" target="_blank" rel="me noopener">
-        <img src="/img/icons/{{ icon.img }}" class="icon" alt="{{ icon.title }}" title="{{ icon.title }}" width="20" height="20">
+        <img src="/img/icons/{{ icon.img }}" class="icon" alt="{{ icon.title }}" title="{{ icon.title }}" width="24" height="24">
       </a>
     </li>
   {% endfor %}
   <li class="list-inline-item px1">
+    <button class="btn-theme footer-link" title="Change theme">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#81a1c1" fill="none" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+        <path d="M12 3l0 18" />
+        <path d="M12 9l4.65 -4.65" />
+        <path d="M12 14.3l7.37 -7.37" />
+        <path d="M12 19.6l8.85 -8.85" />
+      </svg>
+    </button>
+  </li>
+  <li class="list-inline-item px1">
     <a class="footer-link no-underline" href="#top" aria-label="Back To Top">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#81a1c1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#81a1c1" fill="none" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <line x1="12" y1="4" x2="12" y2="14" />
         <line x1="12" y1="4" x2="16" y2="8" />

@@ -21,8 +21,8 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: #f5f7ff;
-  color: #5e6687;
+  background: var(--prismBg);
+  color: var(--prismText);
 }
 
 pre > code[class*="language-"] {
@@ -64,7 +64,7 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: #c76b29;
+  color: var(--prismOpNumBool);
 }
 
 .token.property {
@@ -162,101 +162,4 @@ pre > code.highlight {
   background: rgba(107, 115, 148, 0.2);
   background: -webkit-linear-gradient(left, rgba(107, 115, 148, 0.2) 70%, rgba(107, 115, 148, 0));
   background: linear-gradient(to right, rgba(107, 115, 148, 0.2) 70%, rgba(107, 115, 148, 0));
-}
-
-@media (prefers-color-scheme: dark) {
-  code[class*="language-"],
-  pre[class*="language-"] {
-    background: var(--black);
-    color: var(--light);
-  }
-
-  .token.punctuation {
-    color: #5e6687;
-  }
-  
-  .token.operator,
-  .token.boolean,
-  .token.number {
-    /* color: #c76b29; */
-    color: var(--red);
-  }
-  
-  .token.property {
-    color: #c08b30;
-  }
-  
-  .token.tag {
-    color: #3d8fd1;
-  }
-  
-  .token.string {
-    color: #22a2c9;
-  }
-  
-  .token.selector {
-    color: #6679cc;
-  }
-  
-  .token.attr-name {
-    color: #c76b29;
-  }
-  
-  .token.entity,
-  .token.url,
-  .language-css .token.string,
-  .style .token.string {
-    color: #22a2c9;
-  }
-  
-  .token.attr-value,
-  .token.keyword,
-  .token.control,
-  .token.directive,
-  .token.unit {
-    color: #ac9739;
-  }
-  
-  .token.statrement,
-  .token.regex,
-  .token.atrule {
-    color: #22a2c9;
-  }
-  
-  .token.placeholder,
-  .token.variable {
-    color: #3d8fd1;
-  }
-  
-  .token.inserted {
-    border-bottom: 1px dotted #202746;
-  }
-  
-  .token.important {
-    color: #c94922;
-  }
-  
-  pre > code.highlight {
-    outline: 0.4rem solid #c94922;
-  }
-  
-  /* overrides color-values for the Line Numbers plugin
-  * http://prismjs.com/plugins/line-numbers/
-  */
-  .line-numbers .line-numbers-rows {
-    border-right-color: #dfe2f1;
-  }
-  
-  .line-numbers-rows > span:before {
-    color: #979db4;
-  }
-  
-  /* overrides color-values for the Line Highlight plugin
-  * http://prismjs.com/plugins/line-highlight/
-  */
-  .line-highlight {
-    background: rgba(107, 115, 148, 0.2);
-    background: -webkit-linear-gradient(left, rgba(107, 115, 148, 0.2) 70%, rgba(107, 115, 148, 0));
-    background: linear-gradient(to right, rgba(107, 115, 148, 0.2) 70%, rgba(107, 115, 148, 0));
-  }
 }

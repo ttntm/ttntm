@@ -4,12 +4,30 @@
   </div>
   <span class="p-name d-none" style="pointer-events: none;">ttntm</span>
   <div class="d-none d-sm-flex align-items-center">
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if page.url === '/blog/' }}" href="/blog/">Blog</a>
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/notes' in page.url and not '/blog/' in page.url }}" href="/notes/">Notes</a>
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/work' in page.url and not '/blog/' in page.url }}" href="/work/">Work</a>
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/about' in page.url and not '/blog/' in page.url }}" href="/about/">About</a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if page.url === '/blog/' }}" href="/blog/">
+      Blog
+    </a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/notes' in page.url and not '/blog/' in page.url }}" href="/notes/">
+      Notes
+    </a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/work' in page.url and not '/blog/' in page.url }}" href="/work/">
+      Work
+    </a>
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/about' in page.url and not '/blog/' in page.url }}" href="/about/">
+      About
+    </a>
+    <button class="btn-theme btn-theme-header d-block regular mr1" title="Change theme">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+        <path d="M12 3l0 18" />
+        <path d="M12 9l4.65 -4.65" />
+        <path d="M12 14.3l7.37 -7.37" />
+        <path d="M12 19.6l8.85 -8.85" />
+      </svg>
+    </button>
     <a class="nav-rss d-block regular mr1" href="/feed.xml" title="RSS Feed">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <circle cx="5" cy="19" r="1" />
         <path d="M4 4a16 16 0 0 1 16 16" />

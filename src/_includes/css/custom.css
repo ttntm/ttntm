@@ -1,3 +1,21 @@
+/* titillium-web-regular - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-display: optional;
+  src: local(''), url('/fonts/titillium-web-v9-latin-regular.woff2') format('woff2')
+}
+
+/* titillium-web-700 - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  src: local(''), url('/fonts/titillium-web-v9-latin-700.woff2') format('woff2')
+}
+
 :root {
   --prim:#5E81AC;
   --sec:#81A1C1;
@@ -14,24 +32,90 @@
   --black: #000;
   --font-sans: 'Titillium Web', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-mono: 'Input Mono', 'JetBrains Mono', 'IBM Plex Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --bg: var(--white);
   --border: var(--light);
+  --btnBg: var(--light);
+  --btnText: var(--dark);
+  --btnBgHover: var(--dark);
+  --btnTextHover: var(--light);
+  --codeBg: var(--lightest);
+  --contentLink: var(--prim);
+  --contentLinkDecoration: var(--light);
+  --contentLinkDecorationHover: var(--prim);
+  --contentLinkHover: var(--dark);
+  --footerBgDsktp: var(--darkest);
+  --footerLinkHover: var(--lighter);
+  --footerText: var(--dark);
+  --footerTextDsktp: var(--light);
+  --helloOpacity: 1;
+  --hr: var(--light);
+  --likeLink: var(--dark);
+  --likeLinkHover: var(--prim);
+  --logoBg: var(--dark);
+  --logoLink: var(--dark);
+  --navBtn: var(--dark);
+  --navBtnHover: var(--prim);
+  --navLink: var(--dark);
+  --navLinkActive: var(--dark);
+  --navLinkActiveAfter: var(--prim);
+  --navLinkAfter: var(--light);
+  --navLinkHover: var(--dark);
+  --navMobileBg: var(--darkest);
+  --navMobileLink: var(--light);
+  --prismBg: #f5f7ff;
+  --prismOpNumBool: #c76b29;
+  --prismText: #5e6687;
+  --quoteBg: var(--lightest);
+  --selectionBg: var(--black);
+  --selectionText: var(--white);
+  --shadowColor: rgba(0,0,0,.075);
+  --shadowMdHoverColor: rgba(0,0,0,.1);
+  --text: var(--dark);
+  --textHeading: var(--dark);
+  --textMuted: var(--sec);
 }
 
-/* titillium-web-regular - latin */
-@font-face {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 400;
-  font-display: optional;
-  src: local(''), url('/fonts/titillium-web-v9-latin-regular.woff2') format('woff2')
-}
-/* titillium-web-700 - latin */
-@font-face {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 700;
-  font-display: optional;
-  src: local(''), url('/fonts/titillium-web-v9-latin-700.woff2') format('woff2')
+[data-theme="dark"] {
+  --black: #121212;  
+  --bg: var(--darker);
+  --border: var(--darkest);
+  --btnBg: var(--black);
+  --btnText: silver;
+  --btnBgHover: var(--darkest);
+  --btnTextHover: var(--yellow);
+  --codeBg: var(--black);
+  --contentLink: var(--light);
+  --contentLinkDecoration: var(--prim);
+  --contentLinkDecorationHover: var(--yellow);
+  --contentLinkHover: var(--white);
+  --footerBgDsktp: var(--black);
+  --footerLinkHover: var(--yellow);
+  --footerText: var(--light);
+  --helloOpacity: .75;
+  --hr: var(--dark);
+  --likeLink: grey;
+  --likeLinkHover: var(--yellow);
+  --logoBg: var(--black);
+  --logoLink: silver;
+  --navBtn: silver;
+  --navBtnHover: var(--prim);
+  --navLink: silver;
+  --navLinkActive: var(--light);
+  --navLinkActiveAfter: var(--prim);
+  --navLinkAfter: var(--prim);
+  --navLinkHover: var(--light);
+  --navMobileBg: var(--black);
+  --prismBg: var(--black);
+  --prismOpNumBool: var(--red);
+  --prismText: var(--light);
+  --quoteBg: var(--black);
+  --selectionBg: var(--light);
+  --selectionText: var(--black);
+  --shadowColor: rgba(240,240,240,.075);
+  --shadowMdHoverColor: rgba(240,240,240,.1);
+  --text: var(--lightest);
+  --textHeading: silver;
+  --textMuted: gray;
 }
 
 /* BASIC PAGE STYLES */
@@ -49,8 +133,8 @@
 
 ::selection,
 ::-moz-selection {
-  background: var(--black);
-  color: var(--white);
+  background: var(--selectionBg);
+  color: var(--selectionText);
 }
 
 html, body {
@@ -64,8 +148,8 @@ html {
 }
 
 body {
-  background-color: var(--white);
-  color: var(--dark);
+  background-color: var(--bg);
+  color: var(--text);
   display: flex;
   flex-direction: column;
   font-family: var(--font-sans);
@@ -78,7 +162,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--dark);
+  color: var(--textHeading);
   font-weight: 700;
   letter-spacing: .1rem;
   margin-bottom: .5rem;
@@ -125,7 +209,7 @@ pre {
 }
 
 p code, li code {
-  background-color: var(--lightest);
+  background-color: var(--codeBg);
   border-radius: .125rem;
   padding: .125rem .25rem;
 }
@@ -144,7 +228,7 @@ strong {
 }
 
 blockquote {
-  background-color: var(--lightest);
+  background-color: var(--quoteBg);
   border-left: 4px solid var(--prim);
   font-size: 1.25rem;
   margin-bottom: 1rem;
@@ -156,7 +240,7 @@ blockquote p {
 }
 
 blockquote code {
-  background-color: var(--light);
+  background-color: var(--codeBg);
   font-size: inherit;
 }
 
@@ -168,7 +252,7 @@ hr {
 }
 
 .hr {
-  background: linear-gradient(90deg,var(--white),var(--light),var(--white));
+  background: linear-gradient(90deg,var(--bg),var(--hr),var(--bg));
   height: 1px;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -299,12 +383,12 @@ main {
 }
 
 .logo a {
-  color: var(--dark);
+  color: var(--logoLink);
   text-decoration: none;
 }
 
 .logo:hover {
-  background-color: var(--dark);
+  background-color: var(--logoBg);
 }
 
 .logo:hover a {
@@ -312,18 +396,18 @@ main {
 }
 
 .nav-link {
-  color: var(--dark);
+  color: var(--navLink);
   font-weight: 700;
   position: relative;
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: var(--dark);
+  color: var(--navLinkHover);
 }
 
 .nav-link::after {
-  background: var(--light);
+  background: var(--navLinkAfter);
   bottom: -1px;
   content: '';
   height: 3px;
@@ -343,33 +427,42 @@ main {
 }
 
 .nav-link-active::after {
-  background: var(--prim);
+  background: var(--navLinkActiveAfter);
+}
+
+.nav-link-active {
+  color: var(--navLinkActive);
 }
 
 .nav-rss {
-  color: var(--dark);
+  color: var(--navBtn);
 }
 
 .nav-rss:hover {
-  color: var(--prim);
+  color: var(--navBtnHover);
+}
+
+.u-photo {
+  opacity: var(--helloOpacity);
 }
 
 .hello-heading {
-  color: var(--darker);
+  color: var(--text);
 }
 
 /* POST + clickable headings */
 .heading a,
 .post a {
-  text-decoration-color: var(--light);
+  color: var(--contentLink);
+  text-decoration-color: var(--contentLinkDecoration);
   text-decoration-thickness: 2px;
 }
 
 .heading a:hover,
 .post a:hover {
-  color: var(--dark);
+  color: var(--contentLinkHover);
   text-decoration: underline;
-  text-decoration-color: var(--prim);
+  text-decoration-color: var(--contentLinkDecorationHover);
   text-decoration-thickness: 2px;
 }
 
@@ -385,7 +478,7 @@ summary ::marker {
 /* FOOTER */
 
 footer {
-  color: var(--dark);
+  color: var(--footerText);
   flex-shrink: 0;
   margin-top: 3rem;
   padding-top: 1rem;
@@ -393,40 +486,51 @@ footer {
   text-align: center;
 }
 
-footer a {
-  color: var(--dark);
+footer a,
+footer button {
+  color: var(--footerText);
 }
 
-footer a .icon {
+.icon {
+  display: block;
+}
+
+footer a .icon,
+footer button .icon {
   opacity: 1;
 }
 
-footer a:hover .icon {
+footer a:hover .icon,
+footer button:hover .icon {
   opacity: .5;
 }
 
 .footer-link {
-  display: inline-block;
+  display: block;
 }
 
 @media(min-width:768px) {
   footer {
-    background-color: var(--darkest);
-    color: var(--light);
+    background-color: var(--footerBgDsktp);
+    color: var(--footerTextDsktp);
     padding: 1rem;
   }
-  footer a {
+
+  footer a,
+  footer button {
     color: var(--sec);
   }
-  footer a:hover {
-    color: var(--lighter);
+
+  footer a:hover,
+  footer button:hover {
+    color: var(--footerLinkHover);
   }
 }
 
 .navMobile {
-  background-color: var(--darkest);
+  background-color: var(--navMobileBg);
   bottom: 0;
-  color: var(--light);
+  color: var(--navMobileLink);
   left: 0;
   right: 0;
   position: fixed;
@@ -436,25 +540,42 @@ footer a:hover .icon {
 
 button {
   cursor: pointer;
+  background-color: transparent;
   font-family: var(--font-sans);
   font-size: 1rem;
+  border: 0;
+  padding: 0;
 }
 
-.btn {
-  background-color: var(--light);
+.btn,
+.btn-theme-header {
+  background-color: transparent;
   border: 0;
   border-radius: 99999px;
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,0.075);
-  color: var(--dark);
-  font-weight: bold;
-  padding: .5rem 1.5rem;
+  padding: 0;
   text-decoration: none;
 }
 
+.btn,
+.btn-theme-header {
+  color: var(--btnText);
+}
+
+.btn {
+  background-color: var(--btnBg);
+  box-shadow: 0 .125rem .25rem var(--shadowColor);
+  padding: .5rem 1.5rem;
+  font-weight: bold;
+}
+
 .btn:hover {
-  background-color: var(--dark);
+  background-color: var(--btnBgHover);
   box-shadow: none;
-  color: var(--light);
+  color: var(--btnTextHover);
+}
+
+.btn-theme-header:hover {
+  color: var(--navBtnHover);
 }
 
 .next-prev {
@@ -481,12 +602,12 @@ summary:active {
 }
 
 .like-link {
-  color: var(--dark);
+  color: var(--likeLink);
   display: block;
 }
 
 .like-link:hover {
-  color: var(--prim);
+  color: var(--likeLinkHover) !important;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -502,125 +623,5 @@ summary:active {
 @media(max-width: 576px) {
   .hello {
     min-height: 80vh;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --black: #121212;
-    --border: var(--darkest);
-  }
-
-  ::selection,
-  ::-moz-selection {
-    background: var(--light);
-    color: var(--black);
-  }
-
-  body {
-    background-color: var(--darker);
-    color: var(--lightest);
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    /* color: var(--light); */
-    color: silver;
-  }
-
-  p code,
-  li code,
-  blockquote,
-  blockquote code {
-    background-color: var(--black);
-  }
-
-  .hr {
-    background: linear-gradient(90deg,var(--darker),var(--dark),var(--darker));
-  }
-
-  .logo a,
-  .nav-link,
-  .nav-rss {
-    /* color: var(--black); */
-    color: silver;
-  }
-  
-  .logo:hover {
-    background-color: var(--black);
-  }
-
-  .nav-link::after,
-  .nav-link-active::after {
-    background: var(--prim);
-  }
-
-  .nav-link:hover,
-  .nav-link-active {
-    color: var(--light);
-  }
-
-  .nav-rss:hover {
-    color: var(--prim);
-  }
-
-  .u-photo {
-    opacity: .75;
-  }
-
-  .hello-heading {
-    color: var(--white);
-  }
-
-  .heading a,
-  .post a {
-    color: var(--light);
-    text-decoration-color: var(--prim);
-  }
-
-  .heading a:hover,
-  .post a:hover {
-    color: var(--white);
-    text-decoration-color: var(--yellow);
-  }
-
-  footer,
-  footer a {
-    color: var(--light);
-  }
-
-  @media(min-width:768px) {
-    footer {
-      background-color: var(--black);
-    }
-    footer a {
-      color: var(--sec);
-    }
-    footer a:hover {
-      color: var(--yellow);
-    }
-  }
-  
-  .navMobile {
-    background-color: var(--black);
-    color: var(--light);
-  }
-
-  .btn {
-    background-color: var(--black);
-    /* color: var(--white); */
-    color: silver;
-  }
-
-  .btn:hover {
-    background-color: var(--darkest);
-    color: var(--yellow);
-  }
-
-  .like-link {
-    color: grey;
-  }
-
-  .like-link:hover {
-    color: var(--yellow) !important;
   }
 }

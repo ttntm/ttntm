@@ -43,6 +43,6 @@ The tech stack used for the current version is:
 - PostCSS
 - Netlify
 
-This website doesn't contain any JavaScript and the total uncompressed size of it's landing page is less than 100KB.
+This website contains <s>no</s> only minimal JavaScript (theme persistence) and the total uncompressed size of it's landing page is less than 100KB.
 
 {% include "about.stats.njk" %}

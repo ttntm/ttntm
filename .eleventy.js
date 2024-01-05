@@ -4,6 +4,7 @@ const htmlmin = require('html-minifier')
 const markdownIt = require('markdown-it')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const { minify } = require('terser')
 
 // LOCAL DEPS
 const filters = require('./utils/filters.js')
@@ -20,6 +21,17 @@ module.exports = (config) => {
   // FILTERS
   Object.keys(filters).forEach((filterName) => {
     config.addFilter(filterName, filters[filterName])
+  })
+
+  config.addNunjucksAsyncFilter('jsmin', async function(code, callback) {
+    try {
+      const minified = await minify(code)
+      callback(null, minified.code)
+    } catch (ex) {
+      console.error('Terser error: ', ex)
+      // Fail gracefully.
+      callback(null, code)
+    }
   })
 
   // SHORTCODES

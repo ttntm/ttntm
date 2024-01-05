@@ -14,5 +14,11 @@
     {% include 'footer.njk' %}
   </footer>
   {% include 'navMobile.njk' %}
+  {% set js %}
+    {% include 'theme.js' %}
+  {% endset %}
+  <script>
+    {{ js | jsmin | safe }}
+  </script>
 </body>
 </html>

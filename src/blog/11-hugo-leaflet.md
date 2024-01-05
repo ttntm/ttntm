@@ -37,8 +37,6 @@ The approach described in this article is also available as a fully functional H
 
 Best have a quick look at the repository and its structure now, it'll make the following explanations easier to understand: {% ext "GitHub Repository", "https://github.com/ttntm/hugo-leaflet-store-locator" %}
 
-> There's a live demo on Netlify which can be found here: {% ext "storelocator.ttntm.me", "https://storelocator.ttntm.me" %}
-
 ### Location Data
 
 In order to make this work, you'll need data - stores and their address/location. I've used McDonald's locations in Vienna for the demo site, but anything else would also work.
