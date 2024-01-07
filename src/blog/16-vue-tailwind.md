@@ -12,9 +12,9 @@ tags:
 image: /img/blog/code.jpg
 ---
 
-This article is based on first hand experience of [getting started with Vue.js](/blog/vuejs-getting-started-in-2020).
+> **This article was written a long time ago**. It applies to Vue 2 which has reached its end of life (EOL) on December 31st, 2023.
 
-> As of version 1.4 from April 29th 2020, Tailwind includes {% ext "built-in PurgeCSS support", "https://tailwindcss.com/docs/controlling-file-size" %} in it's own `tailwind.config.js`!
+This article is based on first hand experience of [getting started with Vue.js](/blog/vuejs-getting-started-in-2020).
 
 ## Prerequisites
 

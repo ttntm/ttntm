@@ -27,6 +27,11 @@
       "url": "mailto:ttntm@pm.me"
     },
     {
+      "title": "Codeberg",
+      "img": "codeberg.svg",
+      "url": "https://codeberg.org/ttntm"
+    },
+    {
       "title": "GitHub",
       "img": "github.svg",
       "url": "https://github.com/ttntm"

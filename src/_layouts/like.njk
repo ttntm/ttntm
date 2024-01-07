@@ -3,7 +3,11 @@ layout: base.njk
 ---
 <article class="container">
   <h1 class="text-center">{{ title }}</h1>
-  <p class="small text-center">Published: {{ published | date('MMMM DD, YYYY') }}</p>
+  <p class="small text-center">
+    Published: <time class="dt-published" datetime="{{ published | date('YYYY-MM-DD') }}">
+      {{ published | date('MMMM DD, YYYY') }}
+    </time>
+  </p>
   <div class="hr shadow mt2 mb2"></div>
   <div class="post">
     {{ content | safe }}

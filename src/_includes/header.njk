@@ -4,7 +4,7 @@
   </div>
   <span class="p-name d-none" style="pointer-events: none;">ttntm</span>
   <div class="d-none d-sm-flex align-items-center">
-    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if page.url === '/blog/' }}" href="/blog/">
+    <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if isBlogHome }}" href="/blog/">
       Blog
     </a>
     <a class="nav-link d-inline-block mr1 {{ 'nav-link-active' if '/notes' in page.url and not '/blog/' in page.url }}" href="/notes/">

@@ -20,6 +20,7 @@
 
 ## Most Read Articles
 
+- [Building a Data Viewer With Preact](https://ttntm.me/blog/building-a-data-viewer-with-preact/)
 - [Building an Editable List with Drag and Drop Sorting in Vue3](https://ttntm.me/blog/building-an-editable-list-with-drag-and-drop-sorting-in-vue3/)
 - [Vue's Computed Properties - The Most Important Feature?](https://ttntm.me/blog/vue-computed-properties-the-most-important-feature/)
 - [Using Netlify Functions as a Back End](https://ttntm.me/blog/using-netlify-functions-as-a-backend/)
@@ -30,7 +31,6 @@
 ## Articles About Things I Built
 
 - [A Simple Astro Landing Page Template](https://ttntm.me/blog/astro-tailwind-landing-page-template/)
-- [Building a Data Viewer With Preact](https://ttntm.me/blog/building-a-data-viewer-with-preact/)
 - [My Buildless Preact Starter](https://ttntm.me/blog/buildless-preact-starter/)
 - [Building an Autocomplete Input with Preact](https://ttntm.me/blog/building-an-autocomplete-input-with-preact/)
 - [Using a Serverless Function as a Sitemap](https://ttntm.me/blog/using-a-serverless-function-as-a-sitemap/)

@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: /feed.xml
 Disallow: /likes/
-Disallow: /work/
 
 User-agent: CCBot
 Disallow: /

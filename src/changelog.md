@@ -8,6 +8,10 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.6.2
+
+- Added Cobegerg to the social links
+
 ## Version 3.6.1
 
 - Added a theme toggle button in the header and footer of the site

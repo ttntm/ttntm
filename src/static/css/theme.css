@@ -26,7 +26,7 @@
     --navLink: silver;
     --navLinkActive: var(--light);
     --navLinkActiveAfter: var(--prim);
-    --navLinkAfter: var(--prim);
+    --navLinkAfter: var(--dark);
     --navLinkHover: var(--light);
     --navMobileBg: var(--black);
     --prismBg: var(--black);

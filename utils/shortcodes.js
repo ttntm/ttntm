@@ -3,7 +3,7 @@ const dnt = require('date-and-time')
 module.exports = {
   buildDate: function() {
     // shortcode to display the last build date
-    let now = new Date();
+    let now = new Date()
     let display = dnt.format(now, 'ddd, MMMM DD YYYY, HH:mm')
     return`<time>${display}</time>`
   },

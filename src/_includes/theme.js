@@ -7,16 +7,12 @@ function getThemeFromLS() {
   return localStorage.getItem('theme')
 }
 
-function preferDarkMode() {
-  return !!window.matchMedia('(prefers-color-scheme: dark)')
-}
-
 window.addEventListener('DOMContentLoaded', () => {
   const themePref = getThemeFromLS()
   
   if (!themePref) {
     // no theme chosen, check browser/OS settings
-    const preferDark = preferDarkMode()
+    const preferDark = isBlogHome
     
     if (preferDark) {
       applyTheme('dark')
