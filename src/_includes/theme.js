@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
   
   if (!themePref) {
     // no theme chosen, check browser/OS settings
-    const preferDark = isBlogHome
+    const preferDark = !!window.matchMedia('(prefers-color-scheme: dark)')
     
     if (preferDark) {
       applyTheme('dark')
