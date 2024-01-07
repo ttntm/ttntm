@@ -582,13 +582,22 @@ button {
   font-size: .85rem;
 }
 
+a.btn:hover,
+a.footer-link:hover,
+a.logo-link:hover,
+a.nav-link:hover,
+button:hover,
+summary:hover {
+  transition: all .35s ease-in-out;
+}
+
 a.btn,
 a.footer-link,
 a.logo-link,
 a.nav-link,
 button,
 summary {
-  transition: all .35s ease-in-out, transform .125s ease;
+  transition: transform .125s ease;
 }
 
 a.btn:active,
