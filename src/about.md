@@ -33,7 +33,7 @@ Fingerprint: `A8BC EEE0 AF71 7E01 3D8A A2A7 0BC9 FFE9 639B AEC3`
 
 ## License
 
-All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" rel="noopener" target="_blank">CC-BY-NC-SA-4.0</a>) license.
+All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noopener" target="_blank">CC-BY-NC-SA-4.0</a>) license.
 
 <div class="hr shadow mt2 mb2"></div>
 
