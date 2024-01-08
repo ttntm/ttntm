@@ -636,11 +636,15 @@ summary:active {
 }
 
 @supports (-webkit-touch-callout: none) {
-  details > summary {
-    list-style: none;
+  summary {
+    list-style: none !important;
   }
 
-  details > summary::-webkit-details-marker {
-    display: none;
+  summary::-webkit-details-marker {
+    display: none !important;
+  }
+
+  summary h2 {
+    display: inline-block !important;
   }
 }
