@@ -634,3 +634,13 @@ summary:active {
     min-height: 80vh;
   }
 }
+
+@supports (-webkit-touch-callout: none) {
+  details > summary {
+    list-style: none;
+  }
+
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+}
