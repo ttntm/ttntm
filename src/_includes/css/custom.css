@@ -644,12 +644,14 @@ summary:active {
     list-style: none !important;
   }
 
+  summary::marker,
+  summary::-webkit-details-marker,
   summary ::marker,
   summary ::-webkit-details-marker {
     display: none !important;
   }
 
   summary h2 {
-    display: inline-block !important;
+    display: block !important;
   }
 }
