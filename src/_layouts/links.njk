@@ -18,5 +18,11 @@
   <footer class="px1">
     <p class="small tight m0">&copy; {{ site.author }}, est. 2k18
   </footer>
+  {% set js %}
+    {% include 'theme.js' %}
+  {% endset %}
+  <script>
+    {{ js | jsmin | safe }}
+  </script>
 </body>
 </html>
