@@ -475,6 +475,10 @@ summary ::marker {
   color: var(--prim) !important;
 }
 
+summary h2 {
+  display: list-item;
+}
+
 /* FOOTER */
 
 footer {
@@ -640,7 +644,8 @@ summary:active {
     list-style: none !important;
   }
 
-  summary::-webkit-details-marker {
+  summary ::marker,
+  summary ::-webkit-details-marker {
     display: none !important;
   }
 
