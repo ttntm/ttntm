@@ -29,6 +29,7 @@
     --navLinkAfter: var(--dark);
     --navLinkHover: var(--light);
     --navMobileBg: var(--black);
+    --postImgOpacity: .75;
     --prismBg: var(--black);
     --prismOpNumBool: var(--red);
     --prismText: var(--light);

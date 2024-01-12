@@ -36,7 +36,7 @@ The tools I used to automate the reporting process are:
 2. {% ext "Netlify Functions", "https://functions.netlify.com/playground/" %} as host and runtime environment
 3. A Google Spreadsheet as target to collect the reporting data in
 
-The following sections will provide details regarding the setup of each one of these services. The finished code for the reporting service can be found in step 5, but I'm linking it here as well - just in case you'd want to have a look at it right away and/or keep it open while reading on: {% ext "get-app-stats.js@GitHub", "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/get-app-stats.js" %}
+The following sections will provide details regarding the setup of each one of these services. The finished code for the reporting service can be found in step 5, but I'm linking it here as well - just in case you'd want to have a look at it right away and/or keep it open while reading on: {% ext "get-app-stats.js@Codeberg", "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/get-app-stats.js" %}
 
 ## Step 1: Serverless. What Else?
 
@@ -185,7 +185,7 @@ Both `listGrowthSheet` and `listSizeUserSheet` represent individual sheets in th
 
 ## Step 4: Testing the Service
 
-The code snippets in the previous sections left out a bunch of things, so you best head over to {% ext "get-app-stats.js@GitHub", "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/get-app-stats.js" %} to have a look at the complete code of the service - just in case you haven't done that already.
+The code snippets in the previous sections left out a bunch of things, so you best head over to {% ext "get-app-stats.js@Codeberg", "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/get-app-stats.js" %} to have a look at the complete code of the service - just in case you haven't done that already.
 
 I definitely recommend testing the service locally before deploying it to your site - I'm using {% ext "netlify-cli", "https://github.com/netlify/cli" %} for most of my projects which makes functions run locally thanks to {% ext "Netlify Dev", "https://cli.netlify.com/netlify-dev" %}. It's a great tool that makes testing and debugging serverless functions much easier.
 

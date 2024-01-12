@@ -10,6 +10,12 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 
 ## Version 3.6.2
 
+- Theme toggle button:
+  - The icon on the `<button>` now changes based on current theme (via JS)
+- `<noscript>`: The button used to switch themes gets hidden (via CSS)
+
+## Version 3.6.2
+
 - Added Cobegerg to the social links
 
 ## Version 3.6.1

@@ -31,3 +31,4 @@ Added a theme toggle button in the header and footer of the site.
 - The theme defaults to the user’s browser/OS choice
 - The toggle button overrides the browser/OS choice
 - There is also a `<noscript>` fallback in place: it loads a small CSS fille that contains `:root {}` overrides based on `@media (prefers-color-scheme: dark) {}`
+  - The button used to switch themes gets hidden (via CSS) in this case

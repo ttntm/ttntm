@@ -40,6 +40,18 @@
 <link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed.xml" title="{{ site.title }}">
 {# Archive #}
 <link rel="feed" type="text/html" href="/blog/" title="All Articles">
+{% set js %}
+  {% include 'themeHead.js' %}
+{% endset %}
+<script>
+  {{ js | jsmin | safe }}
+</script>
 <noscript>
   <link rel="stylesheet" href="/css/theme.css">
+  <style>
+    .btn-theme-header,
+    .btn-theme-footer-wrapper {
+      display: none !important;
+    }
+  </style>
 </noscript>
