@@ -452,16 +452,27 @@ main {
   color: var(--text);
 }
 
+.tag {
+  /* font-family: var(--font-mono); */
+  font-size: .875rem;
+}
+
+.tag a {
+  font-weight: 500;
+}
+
 /* POST + clickable headings */
 .heading a,
-.post a {
+.post a,
+.tag a {
   color: var(--contentLink);
   text-decoration-color: var(--contentLinkDecoration);
   text-decoration-thickness: 2px;
 }
 
 .heading a:hover,
-.post a:hover {
+.post a:hover,
+.tag a:hover {
   color: var(--contentLinkHover);
   text-decoration: underline;
   text-decoration-color: var(--contentLinkDecorationHover);

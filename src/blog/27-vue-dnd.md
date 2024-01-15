@@ -5,8 +5,8 @@ type: blog
 date: 2022-12-28
 description: An article (incl. demo) on how to build an editable list that also supports drag'n'drop in Vue3.
 tags:
-    - Vue.js
-    - tutorial
+  - guide
+  - vue
 image: /img/blog/recept0r-edit-recipe.png
 ---
 

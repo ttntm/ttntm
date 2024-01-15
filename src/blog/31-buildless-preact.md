@@ -5,8 +5,8 @@ type: blog
 date: 2023-07-27
 description: A template/starter intended to showcase how I'm using Preact for SPAs in buildless environments.
 tags:
-    - Preact
-    - tutorial
+  - preact
+  - template
 image: /img/blog/buildless-preact.png
 ---
 

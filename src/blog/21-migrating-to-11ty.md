@@ -5,10 +5,9 @@ type: blog
 date: 2021-03-29
 description: A short summary of this site's migration from Hugo to Eleventy.
 tags:
-    - Eleventy
-    - Hugo
-    - SSG
-    - news
+  - eleventy
+  - hugo
+  - guide
 image: /img/blog/11ty.jpg
 ---
 

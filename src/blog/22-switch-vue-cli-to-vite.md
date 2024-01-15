@@ -5,10 +5,8 @@ type: blog
 date: 2021-04-04
 description: Some numbers and thoughts after moving a production app from Vue CLI to Vite.
 tags:
-    - Vue.js
-    - Netlify
-    - Vite
-    - Tools
+  - guide
+  - vue
 image: /img/blog/boilerplate.jpg
 ---
 

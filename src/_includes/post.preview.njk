@@ -1,11 +1,19 @@
+{% if post %}
+  {% set currentPost = post %}
+{% else %}
+  {% set currentPost = collections.blog | getCollectionItem(page) %}
+{% endif %}
 <article class="h-entry">
-  <h3 class="heading">
-    <a href="{{ post.url }}" class="u-url p-name">{{ post.data.title }}</a>
-  </h3>
+  {% if '/tags' in page.url %}<h2 class="heading h3">{% else %}<h3 class="heading">{% endif %}
+    <a href="{{ currentPost.url }}" class="u-url p-name">{{ currentPost.data.title }}</a>
+  {% if '/tags' in page.url %}</h2>{% else %}</h3>{% endif %}
+  {% if currentPost.data.date %}
+    <p class="small text-muted">
+      Published: <time class="dt-published" datetime="{{ currentPost.data.date | date('YYYY-MM-DD') }}">{{ currentPost.data.date | date('MMMM DD, YYYY') }}</time>
+    </p>
+  {% endif %}
   <p class="p-summary">
-    {{ post.data.description }}
+    {{ currentPost.data.description }}
   </p>
-  <p class="small text-muted m0">
-    Published: <time class="dt-published" datetime="{{ post.date | date('YYYY-MM-DD') }}">{{ post.date | date('MMMM DD, YYYY') }}</time>
-  </p>
+  {% include "post.tags.njk" %}
 </article>

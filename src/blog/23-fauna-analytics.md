@@ -5,8 +5,8 @@ type: blog
 date: 2021-05-10
 description: Using Google Sheets and serverless functions to build an automated database reporting service.
 tags:
-    - Fauna
-    - Serverless
+  - guide
+  - serverless
 image: /img/blog/reporting.png
 ---
 

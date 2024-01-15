@@ -4,8 +4,7 @@ slug: dark-mode
 date: 2024-01-03
 description: This website supports dark mode now 🌙.
 tags:
-    - Personal
-    - Review
+  - news
 image: /img/blog/empty.jpg
 ---
 

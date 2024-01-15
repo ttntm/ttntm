@@ -5,8 +5,8 @@ type: blog
 date: 2023-08-23
 description: I recently published a new version of my landing page template built with Astro and Tailwind CSS.
 tags:
-    - Astro
-    - template
+  - astro
+  - template
 image: /img/blog/astro-landing-page.jpg
 ---
 

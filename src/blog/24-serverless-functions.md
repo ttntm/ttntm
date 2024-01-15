@@ -5,9 +5,8 @@ type: blog
 date: 2021-07-24
 description: Notes on Using Netlify Functions as a Back End for a Web Application.
 tags:
-    - Functions
-    - Netlify
-    - Serverless
+  - guide
+  - serverless
 image: /img/blog/backend.png
 ---
 

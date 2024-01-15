@@ -5,10 +5,9 @@ type: blog
 date: 2020-07-04
 description: "Lessons learned when building my first apps with Vue.js in 2020; not a typical Vue.js tutorial."
 tags:
-    - Vue.js
-    - FaunaDB
-    - Serverless
-    - Netlify
+  - guide
+  - learning
+  - vue
 image: /img/blog/vuejs.jpg
 ---
 

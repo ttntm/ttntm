@@ -5,8 +5,8 @@ type: blog
 date: 2023-08-04
 description: A data viewer with a nav tree, rendered from an array of objects (rows obtained from a DB).
 tags:
-    - Preact
-    - tutorial
+  - guide
+  - preact
 image: /img/blog/preact-data-viewer.png
 ---
 

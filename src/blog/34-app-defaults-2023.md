@@ -5,8 +5,7 @@ type: blog
 date: 2023-11-14
 description: My extended "frozen /uses page" for late 2023.
 tags:
-    - Personal
-    - App Defaults
+  - personal
 image: /img/blog/empty.jpg
 ---
 
