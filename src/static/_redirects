@@ -7,6 +7,6 @@ https://master--ttntm.netlify.app/* https://ttntm.me/:splat 301!
 /articles/ /blog/ 301!
 /contact/* /about/ 301!
 /projects/* /work/ 301!
-/tags/* /blog/ 301!
+# /tags/* /blog/ 301!
 /til/* /notes/ 301!
 /today-i-learned/* /notes/ 301!

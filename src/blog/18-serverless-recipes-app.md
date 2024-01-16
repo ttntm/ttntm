@@ -5,11 +5,9 @@ type: blog
 date: 2020-09-09
 description: Building a CRUD web application that serves as a personal recipes collection.
 tags:
-    - Vue.js
-    - FaunaDB
-    - Serverless
-    - Netlify
-    - tutorial
+  - guide
+  - serverless
+  - vue
 image: /img/blog/client-serverless-credit-faunadb.png
 ---
 

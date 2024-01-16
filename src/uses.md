@@ -2,6 +2,7 @@
 title: My Setup and Tools
 description: The hardware and the software I currently use.
 layout: page.njk
+eleventyExcludeFromCollections: true
 ---
 
 **Last updated:** Dec. 28th 2023

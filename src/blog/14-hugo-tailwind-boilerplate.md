@@ -5,10 +5,9 @@ type: blog
 date: 2020-04-12
 description: "I just published a very simple boilerplate for Hugo sites based on TailwindCSS."
 tags:
-    - Hugo
-    - tailwind
-    - gulp
-    - boilerplate
+  - hugo
+  - tailwind
+  - template
 image: /img/blog/boilerplate.jpg
 ---
 

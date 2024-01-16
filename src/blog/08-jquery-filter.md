@@ -5,11 +5,9 @@ type: blog
 date: 2018-12-12
 description: An article about building a portfolio filter capable of multiselect with jQuery. Also includes a working CodePen example.
 tags:
-    - tutorial
-    - hugo
-    - javascript
-    - jquery
-    - work
+  - guide
+  - hugo
+  - jquery
 image: /img/blog/code.jpg
 ---
 

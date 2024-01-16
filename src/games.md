@@ -3,6 +3,7 @@ title: Game Recommendations
 description: A curated list of my favorite videogames with reasons why I love them.
 layout: page.njk
 image: /img/games.jpg
+eleventyExcludeFromCollections: true
 ---
 
 This is a curated list of my favorite videogames with reasons why I love them. A lot of games are going to be omitted here; a complete list of (almost) everything I ever played can be found {% ext "at Grouvee", "https://www.grouvee.com/user/ttntm/" %}.

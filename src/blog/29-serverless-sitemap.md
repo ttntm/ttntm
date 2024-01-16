@@ -5,9 +5,8 @@ type: blog
 date: 2023-01-15
 description: How to use a serverless function as a sitemap for an app with dynamic user created content.
 tags:
-    - Functions
-    - Netlify
-    - Serverless
+  - guide
+  - serverless
 image: /img/blog/sitemap.png
 ---
 

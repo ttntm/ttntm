@@ -5,10 +5,9 @@ type: blog
 date: 2020-12-18
 description: Some thoughts on what I learned building WATCH3R.
 tags:
-    - Vue.js
-    - FaunaDB
-    - Serverless
-    - Netlify
+  - learning
+  - serverless
+  - vue
 image: /img/blog/watch3r.jpg
 ---
 

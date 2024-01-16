@@ -5,8 +5,8 @@ type: blog
 date: 2023-02-17
 description: An article (incl. demo) about building an autocomplete input with Preact.
 tags:
-    - Preact
-    - tutorial
+  - guide
+  - preact
 image: /img/blog/autocomplete.png
 ---
 

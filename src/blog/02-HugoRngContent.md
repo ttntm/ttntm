@@ -5,9 +5,8 @@ type: blog
 date: 2018-08-21
 description: An article about pulling random records from a JSON data file in Hugo and using the same data file to build a page from it.
 tags:
-    - hugo
-    - tutorial
-    - work
+  - guide
+  - hugo
 image: /img/blog/default.jpg
 ---
 

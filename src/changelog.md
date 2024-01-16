@@ -2,11 +2,21 @@
 title: Changelog
 description: A history of the changes this website has gone through since it launched in 2018.
 layout: page.njk
+eleventyExcludeFromCollections: true
 ---
 
 A history of the changes this website has gone through since it launched in 2018.
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
+
+## Version 3.7
+
+- Added tags to the blog: [/tags](/tags/)
+  - They were removed in v3.0 back in 2021 because I thought they were redundant - I was wrong
+- Added a "View all Tags" button to the homepage
+- Updated the "View all Posts" button on the homepage
+- Reviewed and updated my older post's tags
+- Refactored a bunch of `<div>` containers into `<ul>` elements
 
 ## Version 3.6.2
 
@@ -16,7 +26,7 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 
 ## Version 3.6.2
 
-- Added Cobegerg to the social links
+- Added Codeberg to the social links
 
 ## Version 3.6.1
 

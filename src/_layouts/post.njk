@@ -3,11 +3,12 @@ layout: base.njk
 ---
 <article class="container">
   <h1 class="">{{ title }}</h1>
-  <p class="italic m0" style="font-size: 0.875rem;">
+  <p class="italic" style="font-size: 0.875rem; margin-bottom: .5rem;">
     Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">
       {{ date | date('MMMM DD, YYYY') }}
     </time>
   </p>
+  {% include "post.tags.njk" %}
   <div class="hr shadow"></div>
   <div class="post">
     {{ content | safe }}

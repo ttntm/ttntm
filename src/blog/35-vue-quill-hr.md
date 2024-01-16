@@ -5,7 +5,8 @@ type: blog
 date: 2023-12-28
 description: A hacky workaround making <hr> usable in vue-quill.
 tags:
-    - Vue.js
+  - guide
+  - vue
 image: /img/blog/code.jpg
 ---
 
