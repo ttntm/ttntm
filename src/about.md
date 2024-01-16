@@ -3,6 +3,7 @@ title: About Me
 description: Information about this website and its author.
 layout: page.njk
 templateEngineOverride: md,njk
+eleventyExcludeFromCollections: true
 ---
 
 I'm a web developer with 10+ years of experience in both professional and freelance software development and I'm currently developing for, in and around CRM systems (Salesforce, MSCRM). My primary skill is front end development based on interest and past engagements, but I also have some solid back end experience. I'm an advocate of free and open source software and a Linux user (Fedora, Manjaro).
@@ -33,7 +34,7 @@ Fingerprint: `A8BC EEE0 AF71 7E01 3D8A A2A7 0BC9 FFE9 639B AEC3`
 
 ## License
 
-All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noopener" target="_blank">CC-BY-NC-SA-4.0</a>) license.
+All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noopener" target="_blank">CC-BY-NC-SA-4.0</a>
 
 <div class="hr shadow mt2 mb2"></div>
 
@@ -48,5 +49,7 @@ The tech stack used for the current version is:
 - Netlify
 
 This website contains <s>no</s> only minimal JavaScript (theme persistence) and the total uncompressed size of it's landing page is less than 100KB.
+
+This website is a proud member of:
 
 {% include "about.stats.njk" %}

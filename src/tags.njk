@@ -13,9 +13,10 @@ layout: base.njk
 eleventyComputed:
   title: "Posts Tagged With '{{ tag }}'"
 permalink: /tags/{{ tag | slugify }}/
+eleventyExcludeFromCollections: true
 ---
 <section class="container">
-  <h1 class="tight h2 m0">{{ title }}</h1>
+  <h1 class="h2 tight m0">{{ title }}</h1>
   <div class="hr shadow mb2"></div>
   {% for post in collections[ tag ] | reverse %}
     {% include "post.preview.njk" %}

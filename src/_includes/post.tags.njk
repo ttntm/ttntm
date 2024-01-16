@@ -5,9 +5,9 @@
 {% endif %}
 <ul class="list-reset list-inline flex align-items-center" style="gap: .75rem;">
   <li class="list-inline-item sr-only">Tags:&nbsp;</li>
-  {% for tag in currentPost.data.tags %}
+  {% for tag in currentPost.data.tags | sort %}
     <li class="tag list-inline-item">
-      <a href="/tags/{{ tag }}">
+      <a href="/tags/{{ tag | slugify }}">
         <span class="small">#</span>{{ tag }}
       </a>
     </li>

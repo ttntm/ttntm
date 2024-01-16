@@ -40,7 +40,7 @@ module.exports = (config) => {
   })
 
   config.addPairedShortcode('contact', (content) => {
-    return `<h2 class="h4 text-center mt2">Nice to meet you. Say hello?</h2><section class="flex align-items-center justify-content-center mb1">${content}</section>`
+    return `<h2 class="h4 text-center mt2">Nice to meet you. Say hello?</h2><ul class="flex align-items-center justify-content-center list-reset">${content}</ul>`
   })
 
   // rebuild on CSS changes

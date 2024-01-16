@@ -5,6 +5,7 @@ date: 2024-01-03
 description: This website supports dark mode now 🌙.
 tags:
   - news
+  - website
 image: /img/blog/empty.jpg
 ---
 
