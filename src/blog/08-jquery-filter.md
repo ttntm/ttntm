@@ -25,7 +25,7 @@ _All CSS is going to be missing here, but it's included in the CodePen example._
 
 ### Content Setup
 
-In order to make the portfolio manageable, the site was set up using Hugo's so called "Page Bundles" ({% ext "Hugo Docs", "https://gohugo.io/content-management/page-bundles/" %}), lots of shortcodes and customized metadata in each portfolio item's front matter:
+In order to make the portfolio manageable, the site was set up using Hugo's so-called "Page Bundles" ({% ext "Hugo Docs", "https://gohugo.io/content-management/page-bundles/" %}), lots of shortcodes and customized metadata in each portfolio item's front matter:
 
 ```yaml
 title: Example Case
@@ -133,7 +133,7 @@ $(document).ready(function(){
   var filtersActive = []; // an array to store the active filters
 ```
 
-The array called `filtersActive` is the key piece for providing multiselect functionality, storing the active filters until they're deselected again, `All Projects` gets clicked or the page gets reloaded.
+The array called `filtersActive` is the key piece for providing multiselect functionality, storing the active filters until they're deselected again, `All Projects` gets clicked, or the page gets reloaded.
 
 Next, we're going to handle the `click` event for our filters:
 
@@ -214,6 +214,6 @@ function removeActiveFilter(item) {
 
 ### Conclusion
 
-Aside from ticking the box in front of a technical requirement on a list and making a friend happy, this filter was also an interesting challenge to myself. I couldn't find any useful instructions or out of the box solutions before starting doing it on my own which might have been due to wrong Google keywords or just bad luck. However, it taught me that despite of more than 10 years of ignoring jQuery and JavaScript, it's slowly coming back.
+Aside from ticking the box in front of a technical requirement on a list and making a friend happy, this filter was also an interesting challenge to myself. I couldn't find any useful instructions or out of the box solutions before starting doing it on my own which might have been due to wrong Google keywords or just bad luck.
 
 Anyway, I hope this can prove useful to someone looking for something similar. I created a CodePen Demo that can be found here: {% ext "CodePen", "https://codepen.io/ttntm/full/zyxGXe" %}

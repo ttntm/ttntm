@@ -27,7 +27,7 @@ Oh, one more thing: Tailwind is a pure CSS framework and ships without any front
 
 Navigation is certainly one of the essentials when it comes to building a website, so let's get right into that.
 
-1. We're going to build a classic old fashioned page header with a larger logo placed on top and a horizontal menu below that.
+1. We're going to build a classic old-fashioned page header with a larger logo placed on top and a horizontal menu below that.
 
 2. When the page scrolls down, the menu should become sticky so that the navigation options persist for increased accessibility on long pages like blog posts.
 
@@ -144,7 +144,7 @@ The padding for the `<body>` could of course have been done with Tailwind classe
 
 Tailwind CSS is a very versatile, powerful and extremely customizable framework. It's also quite fast once you've gotten into it, making it a joy to work with.
 
-I hope this article is beneficial to someone out there. Here's a pen and a link to the an excellent Tailwind cheatsheet for your convenience:
+I hope this article is beneficial to someone out there. Here's a pen and a link to an excellent Tailwind cheatsheet for your convenience:
 
 - {% ext "CodePen", "https://codepen.io/ttntm/full/dqaNPp" %}
 - {% ext "Cheatsheet", "https://nerdcave.com/tailwind-cheat-sheet" %}

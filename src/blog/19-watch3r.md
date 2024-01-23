@@ -12,11 +12,11 @@ image: /img/blog/watch3r.jpg
 
 <img src="/img/blog/watch3r.jpg" class="img-fluid img-center mb1" alt="WATCH3R logo splash screen">
 
-Nothing fancy, just a small announcement for an app I recently built - WATCH3R is a free service that provides basic information about movies and tv shows. It allows you to create a dedicated watchlist and journal to collect your thoughts after watching something.
+Nothing fancy, just a small announcement for an app I recently built - WATCH3R is a free service that provides basic information about movies and TV shows. It allows you to create a dedicated watchlist and journal to collect your thoughts after watching something.
 
 Both lists are capable of search and sorting, making sure you don't lose track of your listed titles. WATCH3R also includes recommendations based on titles in your journal (via TMDb's API).
 
-More infos and screenshots can be found here: {% ext "About WATCH3R", "https://watch3r.app/about" %}
+More info and screenshots can be found here: {% ext "About WATCH3R", "https://watch3r.app/about" %}
 
 Once again, it's a free app, so you're welcome to {% ext "request an invite", "https://watch3r.app/invite" %} anytime 😎
 

@@ -29,7 +29,7 @@ Please note that this article is based on Vue.js 2.9.6 / June 2020.
 
 The decision for Vue.js was easy; some good reasons can be found here: {% ext "michaelnthiessen.com/underdog-framework", "https://michaelnthiessen.com/underdog-framework" %}
 
-Other than that, there's always a long list of "technologies I'd like to work with"; for this project, I ended up going for {% ext "serverless functions", "https://functions.netlify.com" %} (Netlify) and {% ext "Fauna", "https://fauna.com" %} as the app's data store. Both seemed powerful (and free) enough to build a multi user CRUD app on top of while offering good documentation and development experience.
+Other than that, there's always a long list of "technologies I'd like to work with"; for this project, I ended up going for {% ext "serverless functions", "https://functions.netlify.com" %} (Netlify) and {% ext "Fauna", "https://fauna.com" %} as the app's data store. Both seemed powerful (and free) enough to build a multiuser CRUD app on top of while offering good documentation and development experience.
 
 Most other decisions for (and against) modules/libraries/etc. happened along the way and we'll get to that; the whole list of dependencies can be found in recept0r's `package.json` at {% ext "Codeberg", "https://codeberg.org/ttntm/recept0r/src/branch/main/package.json" %} though, just in case you're curious already.
 
@@ -83,7 +83,7 @@ We've all been there - after some time spent looking up a solution to what seeme
 
 So, this isn't necessarily a "lesson learned", maybe more of a reminder to actually go and *read the manual*.
 
-One such case was {% ext "vue-router", "https://router.vuejs.org" %}, an essential building block in any vue application that has more than a single route the user can navigate to. It took me a while to set it up the way I had intended, including the so called *Navigation Guards* as well as *Programmatic Navigation*.
+One such case was {% ext "vue-router", "https://router.vuejs.org" %}, an essential building block in any vue application that has more than a single route the user can navigate to. It took me a while to set it up the way I had intended, including the so-called *Navigation Guards* as well as *Programmatic Navigation*.
 
 You'll notice an issue with routing immediately when your app keeps acting as if there was a page refresh (i.e. resetting your local data) after clicking on a simple link. In my case, I had all the links in my navigation defined as regular `<a href="...">` elements when I should actually have used `<router-link :to="...">` instead.
 
@@ -191,7 +191,7 @@ This list could go on for a while, in varying degrees of detail. I tried to pick
 
 All of these articles were helpful to me in one way or another:
 
-- {% ext "Notes on Vue", "https://notes-on-vue.netlify.app" %} (notes based on first hand personal learning experience, recommended!)
+- {% ext "Notes on Vue", "https://notes-on-vue.netlify.app" %} (notes based on first-hand personal learning experience, recommended!)
 - {% ext "vuejs.org/v2/guide/reactivity.html", "https://vuejs.org/v2/guide/reactivity.html" %} (must read; the basics of reactivity in vue)
 - {% ext "itnext.io/anyway-heres-how-to-create-a-multiple-layout-system-with-vue-and-vue-router-b379baa91a05", "https://itnext.io/anyway-heres-how-to-create-a-multiple-layout-system-with-vue-and-vue-router-b379baa91a05" %} (re: vue-router)
 - {% ext "netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/", "https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/" %} (esp. useful for the detailed explanations re: serverless functions)

@@ -50,7 +50,7 @@ A good overview: {% ext "Security Headers for a web API" "https://security.stack
 
 Custom Netlify headers defined in `netlify.toml` (see: [Notes#18](/notes/#18)) will only apply to the HTML responses of requests to your site; functions need to return their own (secure) headers - see: {% ext "Is it possible to fetch a netlify function from another domain" "https://answers.netlify.com/t/is-it-possible-to-fetch-a-netlify-function-from-another-domain/26256/5" %}.
 
-I've opted for adding the basic headers to my functions from a single file so I can keep things DRY: used as an import from a file like {% ext "_shared/headers.js" "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/_shared/headers.js" %}, it can be used easily in your functions:
+I've opted for adding the basic headers to my functions from a single file, so I can keep things DRY: used as an import from a file like {% ext "_shared/headers.js" "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/_shared/headers.js" %}, it can be used easily in your functions:
 
 ```jsx
 const fnHeaders = require('./_shared/headers.js');

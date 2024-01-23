@@ -27,7 +27,7 @@ The first time I came across {% ext "FaunaDB", "https://dashboard.fauna.com/acco
 
 So, when I had to pick a database for my recipes app, I found myself looking at FaunaDB's website again, checking out their {% ext "pricing model", "https://dashboard.fauna.com/accounts/register?utm_source=DevTo&utm_medium=referral&utm_campaign=WritewithFauna_ServerlessRecipes_TDoe" %} this time. The "Always Free" plan seemed generous enough to support a small personal use app, so I didn't hesitate much and signed up right away.
 
-To be honest, I didn't really bother looking for alternatives too much - self hosted databases or things like AWS/Azure/Firebase were not quite what I had in mind.
+To be honest, I didn't really bother looking for alternatives too much - self-hosted databases or things like AWS/Azure/Firebase were not quite what I had in mind.
 
 ## Basic App Functionality
 

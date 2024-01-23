@@ -13,11 +13,11 @@ image: /img/blog/code.jpg
 
 > **This article was written a long time ago**. It applies to Vue 2 which has reached its end of life (EOL) on December 31st, 2023.
 
-This article is based on first hand experience of [getting started with Vue.js](/blog/vuejs-getting-started-in-2020).
+This article is based on first-hand experience of [getting started with Vue.js](/blog/vuejs-getting-started-in-2020).
 
 ## Prerequisites
 
-You should have gone through your Vue app's setup procedure before setting up Tailwind CSS for the project. Make sure your new app's available at `localhost:8080` after runnning `npm run serve`.
+You should have gone through your Vue app's setup procedure before setting up Tailwind CSS for the project. Make sure your new app's available at `localhost:8080` after running `npm run serve`.
 
 ## Installation
 

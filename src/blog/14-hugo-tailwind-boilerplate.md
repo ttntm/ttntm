@@ -15,7 +15,7 @@ image: /img/blog/boilerplate.jpg
 
 So far, I've used the combination of Hugo and {% ext "Tailwind CSS", "https://tailwindcss.com" %} for more than 5 different projects. It's an extremely versatile zero dependency toolkit that "just works" without the added bulk of unnecessary pre-made components, jQuery and many lines of (mostly) unused code.
 
-In doing so, I've started using local template project folders that just needed an `npm install` command to be up and running. Turns out that might be useful for others too(dah), so I've created a boilerplate repository of this setup today.
+In doing so, I've started using local template project folders that just needed an `npm install` command to be up and running. Turns out that might be useful for others too (duh), so I've created a boilerplate repository of this setup today.
 
 ### hugo-tailwind-boilerplate
 

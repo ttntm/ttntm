@@ -51,7 +51,7 @@ I'm using a `WritableComputedRef()` (`listItems`, line 19) to leverage Vue's pow
 
 ## Focus Management
 
-Autofocus of the next list item's input right after adding it through button use or pressing enter in the previous item's input is a necessary feature too. The implementation is based on the `ref()` `inputs` (line 29) and so called "Function Refs" ({% ext "Vue docs" "https://vuejs.org/guide/essentials/template-refs.html#function-refs" %}, essentially "`ref` within `v-for`") managed for `<input>` elements from within the `draggable` component's `template` (from line 91 onward):
+Autofocus of the next list item's input right after adding it through button use or pressing enter in the previous item's input is a necessary feature too. The implementation is based on the `ref()` `inputs` (line 29) and so-called "Function Refs" ({% ext "Vue docs" "https://vuejs.org/guide/essentials/template-refs.html#function-refs" %}, essentially "`ref` within `v-for`") managed for `<input>` elements from within the `draggable` component's `template` (from line 91 onward):
 
 ```js
   <template #item="{ element, index }">
@@ -74,7 +74,7 @@ Autofocus of the next list item's input right after adding it through button use
 
 What's important here is line 99: `:ref="el => { if (el) inputs[index] = el }"`
 
-This is the backbone of focus management from inside of `events.onAddItem()` (line 46):
+This is the backbone of focus management from inside `events.onAddItem()` (line 46):
 
 ```js
   async onAddItem(index?: number) {
@@ -101,6 +101,6 @@ We still have to make sure to use `await nextTick()`, but we're able to access s
 
 ## Everything Else
 
-Everything not mentioned specifically is pretty much "just" implemeting vuedraggable - there's the `drag` flag in line 18, `dragOptions` in line 31 and the whole `draggable` component's setup starting from line 78. Their {% ext "documentation at GitHub" "https://github.com/SortableJS/vue.draggable.next" %} was very helpful and I can only recommend it if/when you end up using it in one of your projects.
+Everything not mentioned specifically is pretty much "just" implementing vuedraggable - there's the `drag` flag in line 18, `dragOptions` in line 31 and the whole `draggable` component's setup starting from line 78. Their {% ext "documentation at GitHub" "https://github.com/SortableJS/vue.draggable.next" %} was very helpful and I can only recommend it if/when you end up using it in one of your projects.
 
 I hope this article and the demo can provide some insight when working with simple editable lists and maybe offer some motivation to try drag and drop for convenient sorting. Feel free to fork the demo repository and play around with it. As always, feedback is encouraged and much appreciated.

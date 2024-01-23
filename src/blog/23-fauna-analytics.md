@@ -10,7 +10,7 @@ tags:
 image: /img/blog/reporting.png
 ---
 
-It's been about 6 months since I built and launched {% ext "WATCH3R, an open source movie journal", "https://watch3r.app" %} that's using {% ext "Fauna", "https://dashboard.fauna.com/accounts/register" %} as its database. I kept (and am keeping it) small, so the amount of users and the overall database size is rather manageable. However, the user base is slowly growing and I've become interested in observing the corresponding growth of the application's data over time.
+It's been about 6 months since I built and launched {% ext "WATCH3R, an open source movie journal", "https://watch3r.app" %} that's using {% ext "Fauna", "https://dashboard.fauna.com/accounts/register" %} as its database. I kept (and I am keeping it) small, so the amount of users and the overall database size is rather manageable. However, the user base is slowly growing and I've become interested in observing the corresponding growth of the application's data over time.
 
 Focusing my development efforts primarily on adding features and functionality, I took care of the data growth observation manually so far (if and when I had the time to think about that). I had nowhere to track my findings either, so what I ended up doing was mostly just looking at my app's data curiously, thinking things like "aah nice, ..." whenever I discovered at a bunch of new rows in a collection (= database table).
 

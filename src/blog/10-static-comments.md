@@ -93,7 +93,7 @@ Keep the `input` named `path` in mind, we'll need that later on. Also, don't for
 </div>{% endraw %}
 ```
 
-Once you've deployed your site including the form, Netlify should automatically recognise it and create an entry for it in your account at `app.netlify.com/sites/SiteName/forms`. It will be displayed there using the `<form>` element's `name` property.
+Once you've deployed your site including the form, Netlify should automatically recognize it and create an entry for it in your account at `app.netlify.com/sites/SiteName/forms`. It will be displayed there using the `<form>` element's `name` property.
 
 Feel free to test it now, we'll need some submissions later on anyway.
 

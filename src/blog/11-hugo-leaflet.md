@@ -295,7 +295,7 @@ function clearSearch() {
 }
 ```
 
-`clearSearch()` first performs an "empty" search, thus clearing all the hidden items. Don't know if that's faster/more efficient than another loop through all items, but it's certainly less lines.
+`clearSearch()` first performs an "empty" search, thus clearing all the hidden items. Don't know if that's faster/more efficient than another loop through all items, but it's certainly fewer lines.
 
 Not much else to say here, basically just another convenience feature.
 

@@ -85,7 +85,7 @@ We’re working with rows obtained from an imaginary database that look like thi
 - `Id` is a GUID assigned to each row - we’re not using that for anything, but it’d probably be present in real world data.
 - `Distance…` and `Meters…` properties are the values that the data viewer is going to work with
 - `DateOfCalculation` is a string representation of an SQL `datetime` value
-- `DeviceId` is the id of the device that was used to collect the data; different `DeviceId` values can appear in records beloning to the same `DateOfCalculation`, but each `DeviceId` can only ever appear once per actual *day* of the year
+- `DeviceId` is the id of the device that was used to collect the data; different `DeviceId` values can appear in records belonging to the same `DateOfCalculation`, but each `DeviceId` can only ever appear once per actual *day* of the year
 
 The imaginary back end takes care of handling these constraints and provides the data as shown in `db_rows.js`. It’s safe to rely on this data coming in just like that: the automated processes handling data preparation are protected well from unintended changes (they never *really* are, but we’ve got to live with that).
 

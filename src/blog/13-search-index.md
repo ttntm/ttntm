@@ -38,7 +38,7 @@ When it comes to `RegularPages` that consist of a mixture of pure Markdown conte
 
 Simply talking about that term might be enough for some, but let's just take a look at an example here: {% ext "a 'Services' page", "https://process4.biz/en/services/" %} rendered almost exclusively from Page Resources.
 
-On the top, right underneath the header, there's 2 lines of "real" Markdown content. Then there's a grid of icons with short pieces of text and a larger section with the actual services on offer.
+On the top, right underneath the header, there are 2 lines of "real" Markdown content. Then there's a grid of icons with short pieces of text and a larger section with the actual services on offer.
 
 Each one of these pieces of content is its own *.md Page Resource, mostly due to an easy `range` based approach when creating the template and a high degree of extensibility in case something has to be added, changed or removed in either one of these blocks. Page Resources provide this flexibility here.
 

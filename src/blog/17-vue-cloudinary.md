@@ -10,9 +10,9 @@ tags:
 image: /img/blog/code.jpg
 ---
 
-My Vue app needed user uploaded images; storing Base64 encoded images inside of FaunaDB was my first idea, but that proved both slow and resource heavy (which is probably why Fauna's docs {% ext "advise against", "https://docs.fauna.com/fauna/current/api/fql/documents#limits" %} doing that...).
+My Vue app needed user uploaded images; storing Base64 encoded images inside FaunaDB was my first idea, but that proved both slow and resource heavy (which is probably why Fauna's docs {% ext "advise against", "https://docs.fauna.com/fauna/current/api/fql/documents#limits" %} doing that...).
 
-Taking into consideration that a recipe app's images will hardly ever change, an image CDN seemed more appropriate. I had already heard of Cloudinary somewhere, so I decided to try that service. They offer a generous free tier that can even be extended (permanently!) by inviting other people; here we go, just in case you'd like to check it out and do something nice for me at the same time (in case you end up signing up for an account there): {% ext "Cloudinary invite", "https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/hrdkuf3mpvpupvr4vdh9" %}
+Taking into consideration that a recipe app's images will hardly ever change, an image CDN seemed more appropriate. I had already heard of Cloudinary somewhere, so I decided to try that service. They offer a generous free tier that can even be extended (permanently!) by inviting other people; here we go, just in case you'd like to check it out and do something nice for me at the same time (in case you end up creating an account there): {% ext "Cloudinary invite", "https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/hrdkuf3mpvpupvr4vdh9" %}
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ There's multiple ways of uploading images to your Cloudinary account; I needed s
 
 This approach is called *unsigned upload* and you can {% ext "read all about it in their documentation", "https://cloudinary.com/documentation/upload_images#unsigned_upload" %}. Yes, there could be security concerns obviously - you might want to take another approach here if you're working on something with public image upload for example. My semi private app has only got a few users, there's no public image upload and therefore no security concerns that would outweigh the benefits of using unsigned uploads.
 
-Before taking a look at the implementation, you should take a moment to think about how you'd like to process your uploaded images. Users shouldn't really be expected to have image processing software available that could crop and compress whatever photo they took with their phone to some predefined limits. Our app needs optimized images though, and that's why I recommend using so called *Upload Manipulations* - Cloudinary doesn't just offer image storage, they also offer image processing - very convenient.
+Before taking a look at the implementation, you should take a moment to think about how you'd like to process your uploaded images. Users shouldn't really be expected to have image processing software available that could crop and compress whatever photo they took with their phone to some predefined limits. Our app needs optimized images though, and that's why I recommend using so-called *Upload Manipulations* - Cloudinary doesn't just offer image storage, they also offer image processing - very convenient.
 
 If you had a look at the linked documentation, you probably came across the term *upload preset* already - that's basically an ID that can has to be referenced when communicating with the API that tells Cloudinary what to do with your image, including these manipulations (see: {% ext "Cloudinary docs", "https://cloudinary.com/documentation/upload_presets" %}).
 
@@ -71,7 +71,7 @@ export default {
 };
 ```
 
-As you can see, the component inherits the `recipe` object from its respective parent (create or edit). It only has an object `imageStatus` and the upload preset `uPreset` necessary for Cloudinary in its own `data()` function, both of which are used inside the component itself exclusively. There's also a {% ext "computed property", "https://vuejs.org/v2/api/#computed" %} that checks whether or not a recipe's image was uploaded already.
+As you can see, the component inherits the `recipe` object from its respective parent (create or edit). It only has an object `imageStatus` and the upload preset `uPreset` necessary for Cloudinary in its own `data()` function, both of which are used inside the component itself exclusively. There's also a {% ext "computed property", "https://vuejs.org/v2/api/#computed" %} that checks whether a recipe's image was uploaded already.
 
 We'll get into the actual functionality in a minute, let's first have a look at the HTML in the `<template>` section though:
 
@@ -160,7 +160,7 @@ removeImage() {
 }
 ```
 
-This method is as simple as it looks, replacing the recipes' image with `null` and therefore making the image uploader component's `<input>` element to come back. The status messages are speaking for themselves, again notifiying the user of what's happening. The `else {}` path is in there just in case - it's more than unlikely to ever be reached due to the `v-if` on the "Remove Image" button (i.e. the button only being dsiplayed when there is an image).
+This method is as simple as it looks, replacing the recipes' image with `null` and therefore making the image uploader component's `<input>` element to come back. The status messages are speaking for themselves, again notifying the user of what's happening. The `else {}` path is in there just in case - it's more than unlikely to ever be reached due to the `v-if` on the "Remove Image" button (i.e. the button only being displayed when there is an image).
 
 Now that we know how to add and remove images locally, let's have a look at the `uploadImage()` method that actually handles the image upload to Cloudinary:
 
@@ -225,7 +225,7 @@ function postImage(data) {
 }
 ```
 
-You can see the API path here - simply substitue your username and it should work. All other settings like the image manipulations mentioned earlier are defined in the upload preset you're using.
+You can see the API path here - simply substitute your username and it should work. All other settings like the image manipulations mentioned earlier are defined in the upload preset you're using.
 
 ### Parent Components
 
@@ -259,7 +259,7 @@ imageUpdate(url) {
 
 This makes sure that reactivity works properly in case of a recipe being created without an image first and that image being added later on - unlikely, but just in case. For more details, please have a look at this resource: {% ext "guide/reactivity", "https://vuejs.org/v2/guide/reactivity.html" %}
 
-Careful when sending your data off to your database: the parent component/s should check whether or not the image was actually uploaded (i.e. also use the RegEx used in the image uploader's computed `isUploaded` property) - otherwise you'll write the whole image `data:` returned by the File Reader API into your database.
+Careful when sending your data off to your database: the parent component/s should check whether the image was actually uploaded (i.e. also use the RegEx used in the image uploader's computed `isUploaded` property) - otherwise you'll write the whole image `data:` returned by the File Reader API into your database.
 
 ## Conclusion
 

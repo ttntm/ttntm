@@ -17,7 +17,7 @@ image: /img/blog/11ty.jpg
 
 This site is live since 2018 and there's now been 3 major versions of it. So, I'm going to start this off with the same one word question that also started last year's [Reboot](/blog/reboot-catharsis/) post: "**why?**"
 
-Last week I noticed another one of Hugo's more or less monthly releases and I soon started wondering whether or not it'd finally be time to update this site. For additional context: `ttntm.me` was running based on Hugo 0.58.0 while their current release is 0.82 as of writing this...
+Last week I noticed another one of Hugo's more or less monthly releases and I soon started wondering whether it'd finally be time to update this site. For additional context: `ttntm.me` was running based on Hugo 0.58.0 while their current release is 0.82 as of writing this...
 
 The idea of updating Hugo did not spark joy - mostly due to changes in their Markdown rendering engine dating back to 2019 or so that were one of the reasons I didn't install anything newer than 0.58 in the first place. After thinking about it some more, I was more or less certain that there'd be a bunch of other issues on top of that, so I quickly abandoned that idea.
 
@@ -35,7 +35,7 @@ Getting back to the point of writing an article like this: I'd like to give you 
 
 I can recommend reading {% ext "this article", "https://www.smashingmagazine.com/2021/03/eleventy-static-site-generator/" %} for preparation; it's pretty detailed and you'll get a working mini-site out of it, but it's probably best suited for people that already have experience working with SSGs. I know that I had to scroll up and down a bit in order to collect all the necessary answers to questions that arose while doing things.
 
-The {% ext "official 11ty docs", "https://www.11ty.dev/docs/" %} are also a great place to get acquainted with and having a look at some of the {% ext "starter projects", "https://www.11ty.dev/docs/starter/" %} won't hurt either - most universal one I came across was one called {% ext "eleventastic", "https://github.com/maxboeck/eleventastic" %}. I ended up re-building this site from scratch 'cause I feel that I'm generally doing better that way compared to having to deal with what other people might prefer in terms of configuration, folder structure etc.
+The {% ext "official 11ty docs", "https://www.11ty.dev/docs/" %} are also a great place to get acquainted with and having a look at some {% ext "starter projects", "https://www.11ty.dev/docs/starter/" %} won't hurt either - most universal one I came across was one called {% ext "eleventastic", "https://github.com/maxboeck/eleventastic" %}. I ended up re-building this site from scratch 'cause I feel that I'm generally doing better that way compared to having to deal with what other people might prefer in terms of configuration, folder structure etc.
 
 The following notes are a slightly improved version of my working notes; I'm glad if they can help "as is" but I'd also appreciate questions in case there's too much I didn't explicitly write down.
 

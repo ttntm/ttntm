@@ -29,7 +29,7 @@ Last but not least important, WATCH3R makes use of 2 different (free) APIs that 
 
 ### Handling Application State
 
-Even though it might be overkill for such a small application, I'm using Vuex as centralized state management. Vue 3 and it's Composition API offer a lot of possibilities to handle global application state (see {% ext "this article", "https://dev.to/blacksonic/you-might-not-need-vuex-with-vue-3-52e4" %} for example), but I got quite used to the way Vuex handles things when building recept0r, which made this a somewhat biased decision.
+Even though it might be overkill for such a small application, I'm using Vuex as centralized state management. Vue 3 and its Composition API offer a lot of possibilities to handle global application state (see {% ext "this article", "https://dev.to/blacksonic/you-might-not-need-vuex-with-vue-3-52e4" %} for example), but I got quite used to the way Vuex handles things when building recept0r, which made this a somewhat biased decision.
 
 I'll talk about it some more later on, but I believe I've managed to use it quite well this time around. That means using Vuex to provide a true separation of concerns and making sure that individual views and components *do not* directly interact with global application state without having to go through Vuex actions.
 
@@ -41,11 +41,11 @@ Aside from that, you're more than welcome to have a look at the live application
 
 ### Composition API is a Game Changer
 
-I didn't use Vue 2 for a very long time - I've only built 2 or 3 demo applications and 2 real applications with it, so I wouldn't call myself an expert on that matter at all. However, I immediately noticed how much cleaner using the Composition API and its `setup()` function felt. You import what you need and `return{}` what's necessary. Inside of `setup()`, things are allowed to follow the flow you deem appropriate and that makes them feel a lot less convoluted than they felt using `data()`, `methods()`, etc. in Vue 2.
+I didn't use Vue 2 for a very long time - I've only built 2 or 3 demo applications and 2 real applications with it, so I wouldn't call myself an expert on that matter at all. However, I immediately noticed how much cleaner using the Composition API and its `setup()` function felt. You import what you need and `return{}` what's necessary. Inside `setup()`, things are allowed to follow the flow you deem appropriate and that makes them feel a lot less convoluted than they felt using `data()`, `methods()`, etc. in Vue 2.
 
 This {% ext "list view", "https://codeberg.org/ttntm/watch3r/src/branch/master/src/views/List.vue" %} could be considered WATCH3R's "heart". It's pretty easy to understand what it does, even though it's complex in its functionality (providing both the watchlist and the journal view) and also pieces together a ton of other components.
 
-Getting to the state of things you can see in the linked code took a while though. At first, I had separate components for each list mode (one for the watchlist, one for the journal) but that felt like an anti-pattern quickly. The "key" to making a shared list view component work properly though, was adding a `:key` property to the router view in order for Vue to completely re-render the shared component when navigating between list views. There was also a lot of logic concerning the modals in the component which I eventually extracted and put into Vuex (more on that below).
+Getting to the state of things you can see in the linked code took a while though. At first, I had separate components for each list mode (one for the watchlist, one for the journal) but that felt like an antipattern quickly. The "key" to making a shared list view component work properly though, was adding a `:key` property to the router view in order for Vue to completely re-render the shared component when navigating between list views. There was also a lot of logic concerning the modals in the component which I eventually extracted and put into Vuex (more on that below).
 
 As you can see it now, it's immediately evident that there are dependencies to both `route` and `store` in this view - none of this is hidden behind abstractions (i.e. what `mapGetters` etc. used to do) and looking at the `return{}` statement, it's also quite obvious which data and/or functions are relevant for the view and which ones are "just" used internally in `setup()` (i.e. `getListData()`).
 
@@ -53,7 +53,7 @@ What I mentioned here is nice for sure, but it's still mostly component internal
 
 Take {% ext "this modal", "https://codeberg.org/ttntm/watch3r/src/branch/master/src/components/list/ListAddModal.vue" %} for example: it takes care of querying a serverless function and it also displays the resulting data. Which function it queries depends on the context though - searching for a specific title (`doSearch()`) or processing recommendations (`processRecommendation()`). Both cases result in a `searchResult` and a `searchStatus` which are then used to display the data. In order to keep the component clean (and independent of the API calls), the code that populates those 2 pieces of reactive state was extracted into a Vue 3 composable (see {% ext "get-omdb.js", "https://codeberg.org/ttntm/watch3r/src/branch/master/src/helpers/get-omdb.js" %}).
 
-There's tons of other things you can do with this composable pattern (i.e. the "build your own Vuex" article linked above) and I would probably have used it more if I hadn't committed to Vuex in the first place.
+There are tons of other things you can do with this composable pattern (i.e. the "build your own Vuex" article linked above) and I would probably have used it more if I hadn't committed to Vuex in the first place.
 
 ### Vue Hooks
 
@@ -61,7 +61,7 @@ If you've ever used Vue 2, you've probably come across Vue hooks like `onCreated
 
 Using Vue 3 with the Composition API, `setup()` takes care of most of that already - any code that would have been placed in `onCreated()` gets put in there, executed and ends up working the same way.
 
-Working with other hooks like `onMounted()` or `onUpdated()` is possible from inside of `setup()` (see: {% ext "Vue 3 docs", "https://v3.vuejs.org/guide/composition-api-introduction.html#lifecycle-hook-registration-inside-setup" %}) and can be very useful sometimes (i.e. [handling page refresh](/notes/#10)). Other times though, it can end up causing you a massive headache...
+Working with other hooks like `onMounted()` or `onUpdated()` is possible from inside `setup()` (see: {% ext "Vue 3 docs", "https://v3.vuejs.org/guide/composition-api-introduction.html#lifecycle-hook-registration-inside-setup" %}) and can be very useful sometimes (i.e. [handling page refresh](/notes/#10)). Other times though, it can end up causing you a massive headache...
 
 A quick briefing on what I tried to achieve: new items added to a list should trigger a sorting function. Users are able to set their own sorting preference which means that adding and removing list items might require re-sorting the respective list.
 
@@ -79,7 +79,7 @@ When I started working on WATCH3R, I already had a basic understanding of workin
 
 Compared to working with Vuex in Vue 2 and frequently using things like `mapActions` and `mapGetters`, the way things are done using Vue 3 and its Composition API provide a lot more transparency. That's in line with {% ext "this excellent article", "https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502" %}, especially the section called "Avoid helper calls to the store" - something I'd now consider a better practice due to the clarity it provides.
 
-Let me give you some details on that: working with Vuex inside of `setup()` requires something like `const store = useStore()`. As a result, every interaction with your Vuex store (like `store.dispatch('module/actionName')`) is immediately obvious, instead of being hidden behind obscured helper calls that can easily be confused with in-component methods and imported function calls. It may not seem like a real "wow effect", might even be obvious for many out there, but for me, it made writing and debugging my own code much easier.
+Let me give you some details on that: working with Vuex inside `setup()` requires something like `const store = useStore()`. As a result, every interaction with your Vuex store (like `store.dispatch('module/actionName')`) is immediately obvious, instead of being hidden behind obscured helper calls that can easily be confused with in-component methods and imported function calls. It may not seem like a real "wow effect", might even be obvious for many out there, but for me, it made writing and debugging my own code much easier.
 
 Another Vuex win I'd like to point out here is related to modals. The way I used to implement them frequently resulted in a parent-child dependency, meaning that the respective modal's parent component (i.e. `App.vue` for a global application menu) was made responsible for toggling the modal's display. That's certainly fine if your application has one or 2 modals, but it becomes quite messy when there are 5 or more, resulting in modal related code being spread all over your application.
 

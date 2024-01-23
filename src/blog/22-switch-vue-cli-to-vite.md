@@ -14,7 +14,7 @@ I used Vite to build {% ext "aitrack.work", "http://aitrack.work" %} about 2 mon
 
 Considering that I wasn't using any Vue CLI specific (Webpack) features for a [movie journal app](/blog/watch3r-movie-watchlist-journal-app/) that I launched last year, the choice of using that project as a test case for the switch of tools was an easy one.
 
-We'll start looking at the numbers before heading into the *how*; the following numbers are based on Netlify's deploy logs and present the same set of features and functionality (= same source code) with different build tooling.
+We'll start looking at the numbers before heading into the *how*; the following numbers are based on Netlify's deployment logs and present the same set of features and functionality (= same source code) with different build tooling.
 
 ### Vue CLI
 
@@ -82,7 +82,7 @@ If you're not using any other tools or specific configurations, then it's time t
 }
 ```
 
-And that's it - running your *start* script should serve the app at `localhost:3000`, probably before you can even finish saying "Wow that was really fast and I can't believe how long it takes Vue CLI to do the same thing". Oh and if everything works, you can now remove all the Vue CLI stuff (config files, plugins, etc.) you no longer need.
+And that's it - running your *start* script should serve the app at `localhost:3000`, probably before you can even finish saying "Wow that was really fast and I can't believe how long it takes Vue CLI to do the same thing". Oh, and if everything works, you can now remove all the Vue CLI stuff (config files, plugins, etc.) you no longer need.
 
 ### Resolving Issues
 
@@ -117,7 +117,7 @@ The second issue I had was a missing file in my production build. It took me a w
 - The built global `index.css` got referenced by the code but somehow wasn't there - Netlify returned a 404 for the URL
 - The app wouldn't load due to a missing module
 
-Workaround: set `cssCodeSplit: false` in your Vite config file. That'll bundle up all the CSS into one file; 36 KB in my case, so I'd argue that it actually makes sense to do that instead of having more smaller files around = more HTTP requests.
+Workaround: set `cssCodeSplit: false` in your Vite config file. That'll bundle up all the CSS into one file; 36 KB in my case, so I'd argue that it actually makes sense to do that instead of having many small files around = more HTTP requests.
 
 It felt a little painful and I still don't have a clue as to why that happened; will try to reproduce but haven't had the motivation to do that yet - will update this article accordingly.
 

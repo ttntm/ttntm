@@ -9,6 +9,12 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.7.1
+
+- Revised `blockquote` styling
+- Added a tiled section of non-blog content to the homepage
+- Fixed a lot of grammar and spelling (thank you, {% ext "LTeX", "https://marketplace.visualstudio.com/items?itemName=neo-ltex.ltex" %})
+
 ## Version 3.7
 
 - Added tags to the blog: [/tags](/tags/)
@@ -34,7 +40,7 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
   - The selected theme is stored in / restored from `localStorage`
   - The theme defaults to the user's browser/OS choice
   - The toggle button overrides the browser/OS choice
-  - There is also a `<noscript>` fallback in place: it loads a small CSS fille that contains `:root {}` overrides based on `@media (prefers-color-scheme: dark) {}`
+  - There is also a `<noscript>` fallback in place: it loads a small CSS file that contains `:root {}` overrides based on `@media (prefers-color-scheme: dark) {}`
 
 ## Version 3.6
 
@@ -81,7 +87,7 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 
 ## Version 3.0.1
 
-- Added the Changelog you're currently reading
+- Added the changelog you're currently reading
 
 ## Version 3.0
 

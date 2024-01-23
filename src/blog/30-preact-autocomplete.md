@@ -10,9 +10,9 @@ tags:
 image: /img/blog/autocomplete.png
 ---
 
-"Building something with Preact…" is probably going to sound like an unusual topic if you look at my other articles, but let me explain: I consider it a very powerful yet lightweight tool for building stateful/interactive experiences when {% ext "going buildless" "https://modern-web.dev/guides/going-buildless/getting-started/" %} (together with {% ext "developit's htm" "https://github.com/developit/htm#example" %}). I mostly use it for stuff I do at work (forms, data display, mini-SPAs etc.) and I've come to appreciate it quite a bit. So, this article is probably not going to be the last one about building stuff with Preact… 🤓
+"Building something with Preact..." is probably going to sound like an unusual topic if you look at my other articles, but let me explain: I consider it a very powerful yet lightweight tool for building stateful/interactive experiences when {% ext "going buildless" "https://modern-web.dev/guides/going-buildless/getting-started/" %} (together with {% ext "developit's htm" "https://github.com/developit/htm#example" %}). I mostly use it for stuff I do at work (forms, data display, mini-SPAs etc.) and I've come to appreciate it quite a bit. So, this article is probably not going to be the last one about building stuff with Preact… 🤓
 
-With that out of the way, the topic at hand is an `<input>` that can support auto-complete/suggestions. I built it as an alternative to a `<select>` which would have been too restricitve - users should be able to use a list of pre-configured values while retaining the option of entering another value not contained in the list.
+With that out of the way, the topic at hand is an `<input>` that can support auto-complete/suggestions. I built it as an alternative to a `<select>` which would have been too restrictive - users should be able to use a list of pre-configured values while retaining the option of entering another value not contained in the list.
 
 <p>
   <img src="/img/blog/autocomplete.png" class="img-fluid img-center" alt="Screenshot of a demo app">
@@ -109,7 +109,7 @@ Component usage in a form is rather simple:
 />
 ```
 
-The combination of `name`, `showSuggestions` , `suggestionList` and `target` make sure that multiple instances of the component can be used from within the same parent (here: `const Form()` ) without any detrimental side effects; for example, when using the component in a form rendered from a JSON config file containing the field definitions.
+The combination of `name`, `showSuggestions`, `suggestionList` and `target` make sure that multiple instances of the component can be used from within the same parent (here: `const Form()`) without any detrimental side effects; for example, when using the component in a form rendered from a JSON config file containing the field definitions.
 
 The (mocked) handling of form submissions and the `FormStatus` component are essentially just a gimmick because they don't really add anything to the demo. However, they do complete the picture, so I left them in the code.
 
