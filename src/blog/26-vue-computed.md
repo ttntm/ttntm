@@ -72,7 +72,6 @@ Now there's a single `computed()` call that defines everything that should happe
 I'll end this with the quote from Michael's newsletter that I shamelessly paraphrased into this little article's title:
 
 > Computed properties are the most important feature of Vue.
-
-&gt; _{% ext "Michael Thiessen" "https://michaelnthiessen.com" %}_
+> <small>Michael Thiessen</small>
 
 And please don't get me wrong: I'm not trying to promote someone else and/or their newsletter here, but I think it's a really helpful resource for people working with Vue, even just to get you to remember about things you might not have considered initially (i.e. computed setters in my case).

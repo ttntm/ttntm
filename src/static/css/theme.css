@@ -41,5 +41,6 @@
     --text: var(--lightest);
     --textHeading: silver;
     --textMuted: gray;
+    --textQuote: var(--white);
   }
 }

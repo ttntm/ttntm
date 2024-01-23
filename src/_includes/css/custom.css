@@ -74,6 +74,7 @@
   --text: var(--dark);
   --textHeading: var(--dark);
   --textMuted: var(--sec);
+  --textQuote: var(--darkest);
 }
 
 [data-theme="dark"] {
@@ -118,6 +119,7 @@
   --text: var(--lightest);
   --textHeading: silver;
   --textMuted: gray;
+  --textQuote: var(--white);
 }
 
 /* BASIC PAGE STYLES */
@@ -230,15 +232,39 @@ strong {
 }
 
 blockquote {
-  background-color: var(--quoteBg);
+  /* background-color: var(--quoteBg); */
   border-left: 4px solid var(--prim);
+  color: var(--textQuote);
+  font-family: var(--font-sans);
   font-size: 1.25rem;
+  font-style: italic;
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 2rem 1.5rem 2rem 3rem;
+  position: relative;
+  text-align: justify;
+}
+
+blockquote::before{
+  font-family: Arial;
+  content: '\201C';
+  color: var(--sec);
+  font-size: 4em;
+  position: absolute;
+  left: 12px;
+  top: -8px;
 }
 
 blockquote p {
   margin: 0;
+}
+
+blockquote small::before {
+  content: '― ';
+}
+
+blockquote a,
+blockquote small {
+  font-style: normal;
 }
 
 blockquote code {
@@ -462,6 +488,10 @@ main {
 }
 
 /* POST + clickable headings */
+.post {
+  line-height: 1.625;
+}
+
 .heading a,
 .post a,
 .tag a {
