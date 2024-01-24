@@ -4,10 +4,10 @@ permalink: /tags/
 layout: base.njk
 eleventyExcludeFromCollections: true
 ---
-<section class="container h-feed text-center post">
-  <h1 class="p-name tight">{{ title }}</h1>
-  <div class="hr shadow mt2 mb2"></div>
-  <ul class="list-reset grid grid3 gap1 mt2">
+<section class="container h-feed text-center">
+  <h1 class="p-name tight m0">{{ title }}</h1>
+  <div class="hr shadow mt1 mb2"></div>
+  <ul class="list-reset grid grid3 gap1 post mt2">
     {% for tag in collections.blog | getCollectionTags | sort %}
       {% set tagUrl %}
         /tags/{{ tag | slugify }}/
@@ -21,4 +21,6 @@ eleventyExcludeFromCollections: true
       </li>
     {% endfor %}
   </ul>
+  <div class="hr shadow mt2 mb2"></div>
+  <a href="/blog/" class="d-inline-block btn">View all Posts</a>
 </section>

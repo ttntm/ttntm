@@ -19,7 +19,28 @@
       "img": "drink.svg"
     }
   ],
-  "title": "Tom's Homepage",
+  "readmore": [
+    {
+      "url": "/games/",
+      "title": "/games",
+      "details": "a curated list of my favorite videogames"
+    },
+    {
+      "url": "/likes/",
+      "title": "/likes",
+      "details": "cool things I found on the internet"
+    },
+    {
+      "url": "/now/",
+      "title": "/now",
+      "details": "what I'm (supposed to be…) doing now"
+    },
+    {
+      "url": "/uses/",
+      "title": "/uses",
+      "details": "hardware, software, etc. I currently use"
+    }
+  ],
   "social": [
     {
       "title": "Email",
@@ -42,5 +63,6 @@
       "url": "https://fosstodon.org/@ttntm"
     }
   ],
+  "title": "Tom's Homepage",
   "url": "https://ttntm.me"
 }

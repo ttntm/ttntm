@@ -48,5 +48,20 @@ layout: base.njk
       <div class="hr shadow mt2 mb2"></div>
     {% endif %}
   {%- endfor -%}
-  <a href="/blog/" class="d-inline-block btn">View all Posts</a>
+  <div class="flex justify-content-center" style="gap: 2rem; margin-bottom: 4rem;">
+    <a href="/blog/" class="d-inline-block btn">View all Posts</a>
+    <a href="/tags/" class="d-inline-block btn">View all Tags</a>
+  </div>
+  <h2 class="h2 mt2 mb0 p-name tight">Collections &amp; Pages</h2>
+  <div class="hr shadow mb2"></div>
+  <ul class="list-reset grid grid2 gap1 expand mt2">
+    {%- for r in site.readmore -%}
+      <li class="shadow-md-hover p2" style="border: 1px solid var(--border);">
+        <h3 class="h6 heading">
+          <a href="{{ r.url }}">{{ r.title }}</a>
+        </h3>
+        <p class="cap-first m0">{{ r.details }}</p>
+      </li>
+    {%- endfor -%}
+  </ul>
 </section>

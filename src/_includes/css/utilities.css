@@ -184,49 +184,49 @@
 }
 
 @media (max-width: 767px) {
-    .w100m {
-        width: 100%;
-    }
+  .w100m {
+    width: 100%;
+  }
 
-    .w75m {
-        width: 75%;
-    }
+  .w75m {
+    width: 75%;
+  }
 
-    .w50m {
-        width: 50%;
-    }
+  .w50m {
+    width: 50%;
+  }
 }
 
 /* OTHER */
 
 .text-prim,
 .text-prim-hover:hover {
-    color: var(--prim) !important;
+  color: var(--prim) !important;
 }
 
 
 .text-sec {
-    color: var(--sec) !important;
+  color: var(--sec) !important;
 }
 
 .text-tert {
-    color: var(--tert) !important;
+  color: var(--tert) !important;
 }
 
 .text-dark {
-    color: var(--dark) !important;
+  color: var(--dark) !important;
 }
 
 .text-darker {
-    color: var(--darker) !important;
+  color: var(--darker) !important;
 }
 
 .text-darkest {
-    color: var(--darkest) !important;
+  color: var(--darkest) !important;
 }
 
 .text-light {
-    color: var(--light) !important;
+  color: var(--light) !important;
 }
 
 .text-muted {
@@ -234,134 +234,138 @@
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .bold {
-    font-weight: 700 !important;
+  font-weight: 700 !important;
 }
 
 .regular {
-    font-weight: 400 !important;
+  font-weight: 400 !important;
 }
 
 .uppercase {
-    text-transform: uppercase !important;
+  text-transform: uppercase !important;
 }
 
 .underline {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
 .no-underline {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .small {
-    font-size: 0.75rem !important;
+  font-size: 0.75rem !important;
 }
 
 .list-reset {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .circle {
-    border-radius: 99999px;
+  border-radius: 99999px;
 }
 
 .shadow, .shadow-hover, .shadow-md-hover {
-    transition-timing-function: ease !important;
+  transition-timing-function: ease !important;
 }
 
 .shadow {
-    box-shadow: 0 .125rem .25rem var(--shadowColor);
+  box-shadow: 0 .125rem .25rem var(--shadowColor);
 }
 
 .shadow-hover:hover {
-    box-shadow: 0 .125rem .25rem var(--shadowColor);
+  box-shadow: 0 .125rem .25rem var(--shadowColor);
 }
 
 .shadow-md-hover:hover {
-    box-shadow: 0 .45rem .9rem var(--shadowMdHoverColor);
+  box-shadow: 0 .45rem .9rem var(--shadowMdHoverColor);
 }
 
 .p1 {
-    padding: 1rem !important;
+  padding: 1rem !important;
 }
 
 .px1 {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .py1 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pr1 {
-    padding-right: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .pl1 {
-    padding-left: 1rem !important;
+  padding-left: 1rem !important;
 }
 
 .pt1 {
-    padding-top: 1rem !important;
+  padding-top: 1rem !important;
 }
 
 .pb1 {
-    padding-bottom: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .p2 {
-    padding: 2rem !important;
+  padding: 2rem !important;
 }
 
 .px2 {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
 
 .m0 {
-    margin: 0 !important;
+  margin: 0 !important;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;
 }
 
 .mt1 {
-    margin-top: 1rem !important;
+  margin-top: 1rem !important;
 }
 
 .mr1 {
-    margin-right: 1rem !important;
+  margin-right: 1rem !important;
 }
 
 .ml1 {
-    margin-left: 1rem !important;
+  margin-left: 1rem !important;
 }
 
 .mx1 {
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
 }
 
 .mb1 {
-    margin-bottom: 1rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .mt2 {
-    margin-top: 2rem !important;
+  margin-top: 2rem !important;
 }
 
 .mb2 {
-    margin-bottom: 2rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .mx-auto, .img-center {
-    margin-left: auto !important;
-    margin-right: auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .icon-active {
@@ -391,4 +395,8 @@
 
 .tight {
   line-height: 1;
+}
+
+.cap-first::first-letter {
+  text-transform: capitalize;
 }
