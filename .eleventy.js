@@ -4,6 +4,7 @@ const htmlmin = require('html-minifier')
 const markdownIt = require('markdown-it')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const pluginReadingTime = require('eleventy-plugin-reading-time')
 const { minify } = require('terser')
 
 // LOCAL DEPS
@@ -17,6 +18,7 @@ module.exports = (config) => {
   // PLUGINS
   config.addPlugin(pluginRss)
   config.addPlugin(pluginSyntaxHighlight)
+  config.addPlugin(pluginReadingTime)
 
   // FILTERS
   Object.keys(filters).forEach((filterName) => {
@@ -59,7 +61,7 @@ module.exports = (config) => {
 
   // COLLECTIONS
   config.addCollection('blog', async(collection) => {
-    return collection.getFilteredByGlob('./src/blog/*.md').filter(publishedContent)
+    return collection.getFilteredByGlob('./src/blog/**/*.md').filter(publishedContent)
   })
 
   config.addCollection('likes', async(collection) => {
@@ -68,7 +70,7 @@ module.exports = (config) => {
 
   config.addCollection('postsByYear', (collection) => {
     // collection for /archive => posts grouped by year - see: https://darekkay.com/blog/eleventy-group-posts-by-year/
-    return _.chain(collection.getFilteredByGlob('./src/blog/*.md').filter(publishedContent))
+    return _.chain(collection.getFilteredByGlob('./src/blog/**/*.md').filter(publishedContent))
       .groupBy((post) => post.date.getFullYear())
       .toPairs()
       .reverse()

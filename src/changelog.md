@@ -11,7 +11,8 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 
 ## Version 3.7.1
 
-- Revised `blockquote` styling
+- Added reading time to blog content and previews
+- Revised `blockquote` and code block styling/margins
 - Added a tiled section of non-blog content to the homepage
 - Fixed a lot of grammar and spelling (thank you, {% ext "LTeX", "https://marketplace.visualstudio.com/items?itemName=neo-ltex.ltex" %})
 

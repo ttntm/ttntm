@@ -9,6 +9,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "cssnano": "^5.1.14",
     "date-and-time": "^1.0.0",
+    "eleventy-plugin-reading-time": "0.0.1",
     "html-minifier": "^4.0.0",
     "lodash": "^4.17.21",
     "postcss": "^8.4.31",

@@ -4,9 +4,7 @@ layout: base.njk
 <article class="container">
   <h1 class="">{{ title }}</h1>
   <p class="italic" style="font-size: 0.875rem; margin-bottom: .5rem;">
-    Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">
-      {{ date | date('MMMM DD, YYYY') }}
-    </time>
+    Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">{{ date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;&bull;&nbsp;&nbsp;Reading time: {{ content | readingTime }}
   </p>
   {% include "post.tags.njk" %}
   <div class="hr shadow"></div>

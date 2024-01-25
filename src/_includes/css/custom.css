@@ -204,6 +204,7 @@ a:hover, a:focus {
 pre, code, kbd, samp {
   font-family: var(--font-mono);
   font-size: .875rem;
+  letter-spacing: 0;
 }
 
 pre {
@@ -238,6 +239,8 @@ blockquote {
   font-family: var(--font-sans);
   font-size: 1.25rem;
   font-style: italic;
+  line-height: 1.375;
+  margin: 0 1rem;
   margin-bottom: 1rem;
   padding: 2rem 1.5rem 2rem 3rem;
   position: relative;

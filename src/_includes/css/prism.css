@@ -32,8 +32,12 @@ pre > code[class*="language-"] {
 /* Code blocks */
 pre[class*="language-"] {
   padding: 1rem;
-  margin: 1rem 0;
+  margin: 1rem;
   overflow: auto;
+}
+
+pre[class*="language-"] .tag {
+  font-size: .75rem;
 }
 
 /* Inline code */
