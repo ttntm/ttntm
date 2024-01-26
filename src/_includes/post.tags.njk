@@ -7,7 +7,7 @@
   <li class="list-inline-item sr-only">Tags:&nbsp;</li>
   {% for tag in currentPost.data.tags | sort %}
     <li class="tag list-inline-item">
-      <a href="/tags/{{ tag | slugify }}">
+      <a href="/tags/{{ tag | slugify }}/">
         <span class="small">#</span>{{ tag }}
       </a>
     </li>
