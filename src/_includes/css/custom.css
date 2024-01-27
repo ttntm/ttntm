@@ -240,11 +240,9 @@ blockquote {
   font-size: 1.25rem;
   font-style: italic;
   line-height: 1.375;
-  margin: 0 1rem;
-  margin-bottom: 1rem;
-  padding: 2rem 1.5rem 2rem 3rem;
+  margin: 0 0 1rem 1rem;
+  padding: 2rem 1.5rem 2rem 2.5rem;
   position: relative;
-  text-align: justify;
 }
 
 blockquote::before{
@@ -346,6 +344,11 @@ main {
   .container {
     max-width: 85ch;
     padding: 0 2rem;
+  }
+  blockquote {
+    margin-right: 1rem;
+    padding-left: 3rem;
+    text-align: justify;
   }
 }
 
