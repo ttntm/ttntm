@@ -54,3 +54,7 @@ _<span class="small">The Proton product links above contain a referral which giv
 ## Music
 
 I don't use any music streaming services. It's either local files via {% ext "cmus", "https://cmus.github.io" %} (my own CD/Vinyl rips collected over the years) or actual records played on my Audio Technica AT-LP120XBT-USB. The turntable's Bluetooth connection is super convenient: it lets me listen to music my wife would get a headache from without disturbing her at all.
+
+<div class="hr shadow mb1"></div>
+
+_Inspired by {% ext "lots of other personal websites", "https://uses.tech" %}._

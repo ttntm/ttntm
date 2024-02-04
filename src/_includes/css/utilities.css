@@ -237,6 +237,10 @@
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .bold {
   font-weight: 700 !important;
 }
