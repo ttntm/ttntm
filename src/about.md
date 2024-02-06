@@ -6,7 +6,7 @@ templateEngineOverride: md,njk
 eleventyExcludeFromCollections: true
 ---
 
-I'm a software engineer with 10+ years of experience in both professional and freelance software developmen. My primary skill is front end development based on interest and past engagements, but I also have some solid back end experience from years of working with enterprise systems and workflow automation. I'm an advocate of free and open source software and a Linux user (Fedora, Manjaro).
+I'm a software engineer with 10+ years of experience in both professional and freelance software development. My primary skill is front end development based on interest and past engagements, but I also have some solid back end experience from years of working with enterprise systems and workflow automation. Besides, I'm an advocate of free and open source software and a Linux user (Fedora, Manjaro).
 
 I grew up with the internet, building my first websites around 2002 when frames and `marquee` tags were still state of the art and my code got hacked into text editors without syntax highlighting. We were taught some C, JavaScript and Pascal in school back then, which helped shape a solid understanding of ways to make computers do what I want them to do, long before higher education.
 
