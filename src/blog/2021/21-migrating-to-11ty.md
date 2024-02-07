@@ -15,7 +15,7 @@ image: /img/blog/11ty.jpg
 
 ## Why?
 
-This site is live since 2018 and there's now been 3 major versions of it. So, I'm going to start this off with the same one word question that also started last year's [Reboot](/blog/reboot-catharsis/) post: "**why?**"
+This site is live since 2018 and there's now been 3 major versions of it. So, I'm going to start this off with the same one word question that also started one of last year's post: "**why?**"
 
 Last week I noticed another one of Hugo's more or less monthly releases and I soon started wondering whether it'd finally be time to update this site. For additional context: `ttntm.me` was running based on Hugo 0.58.0 while their current release is 0.82 as of writing this...
 
