@@ -34,6 +34,9 @@ Loved reading "Roadside Picnic" and enjoyed the Tarkovsky movie. Getting the gam
 **Armored Core VI: Fires of Rubicon**
 Really liked this one. Felt like the games of the past that got me into gaming in the first place. A complete package, mission based gameplay instead of an - empty - "open world", no forced online multiplayer stuff, no bugs and no cash grab microtransactions. It was a little challenging at times, but always felt rewarding. I had a truly great time with it and will probably pick it back up whenever I feel like it.
 
+**Tiny Tina's Wonderlands**
+Bought this 2nd hand in late December 2023 and haven't had that much fun with a game in long time! The premise is a game of <s>Dungeons & Dragons</s> Bunkers & Badasses set in a medieval fantasy world with guns and explosions. Sounds a bit silly, but it's the proven Borderlands formula mixed with RPG elements (classes, stats, skill trees) and it works _really_ well.
+
 **Unreal Tournament**
 I will never forget how it felt booting this one up for the first time, getting hit with that amazing soundtrack. The game itself was fast, deadly fun and great when played with a group of friends or at LAN parties.
 
@@ -54,7 +57,7 @@ The base game was originally released for PS3 in 2012; I played its re-release i
 ## Strategy Games & Sims
 
 **Cities: Skylines**
-One of the rare gems that I completely got lost in. Played both the PC and the PS4 versions; the PC version wins, because there are mods that change both gameplay (i.e. traffic) and visuals (i.e. user created assets like buildings). Early (unmodded/vanilla) cities were fun, but what I really discovered as "my thing" was building smaller, highly customized towns that were close/r to reality and (mostly) built using individually placed buildings instead of the vanilla game’s autopopulated zones. It’s definitely a time-consuming game, can be tedious too (traffic…), but building {% ext "a somewhat realistic looking city and looking at it from above", "https://i.imgur.com/Vngxk8K.jpg" %} felt rewarding to me.
+One of the rare gems that I completely got lost in. Played both the PC and the PS4 versions; the PC version wins, because there are mods that change both gameplay (i.e. traffic) and visuals (i.e. user created assets like buildings). Early (unmodded/vanilla) cities were fun, but what I really discovered as "my thing" was building smaller, highly customized towns that were close/r to reality and (mostly) built using individually placed buildings instead of the vanilla game’s autopopulated zones. It’s definitely a time-consuming game, can be tedious too (traffic…), but building {% ext "a somewhat realistic looking city and looking at it from above", "https://i.imgur.com/Vngxk8K.jpeg" %} felt rewarding to me.
 
 **Freelancer**
 Probably the best "space sim RPG" I ever played. Good story, an open world that felt alive and pretty cool ship you could fly around in. I played many other games that looked similar since then, but none ever came close.

@@ -26,14 +26,14 @@
       "url": "https://awesomestro.ttntm.me"
     },
     {
-      "title": "hugo-landing-page",
-      "description": "A simple landing page template built with Hugo and Tailwind CSS.",
-      "url": "https://awesome.ttntm.me"
-    },
-    {
       "title": "buildless-preact-starter",
       "description": "A starter intended to showcase how to use Preact for SPAs in buildless environments.",
       "url": "https://github.com/ttntm/buildless-preact-starter"
+    },
+    {
+      "title": "astro-portfolio-starter",
+      "description": "A filterable portfolio built with Astro and Vue ",
+      "url": "https://github.com/ttntm/astro-potfolio-starter"
     },
     {
       "title": "sfmc-utils",
@@ -46,6 +46,11 @@
       "title": "hugo-leaflet-store-locator",
       "description": "A Leaflet based store locator for Hugo sites.",
       "url": "https://leaflet-store-locator.netlify.app"
+    },
+    {
+      "title": "hugo-landing-page",
+      "description": "A simple landing page template built with Hugo and Tailwind CSS.",
+      "url": "https://awesome.ttntm.me"
     },
     {
       "title": "hugo-comments",

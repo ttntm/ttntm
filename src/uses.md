@@ -5,7 +5,7 @@ layout: page.njk
 eleventyExcludeFromCollections: true
 ---
 
-**Last updated:** Dec. 28th 2023
+**Last updated:** Feb. 13th 2024
 
 ## Hardware
 
@@ -21,6 +21,7 @@ The **VS Code extensions** I use the most are:
 
 - {% ext "GitLess", "https://marketplace.visualstudio.com/items?itemName=maattdd.gitless" %}
 - {% ext "Live Preview", "https://open-vsx.org/extension/ms-vscode/live-server" %}
+- {% ext "LTeX", "https://marketplace.visualstudio.com/items?itemName=neo-ltex.ltex" %}
 - {% ext "Surround", "https://open-vsx.org/extension/yatki/vscode-surround" %}
 - {% ext "Template String Converter", "https://open-vsx.org/extension/meganrogge/template-string-converter" %}
 - {% ext "Volar", "https://open-vsx.org/extension/Vue/volar" %}
@@ -47,7 +48,7 @@ In addition to that, Firefox uses a minimal 1-line config that I'm often tinkeri
 
 Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing. {% ext "Omnivore" "https://omnivore.app" %} is my read-it-later solution and all the information I need/want to keep ends up in my {% ext "personal wiki" "https://kb.ttntm.me" %} eventually. {% ext "Proton Mail", "https://pr.tn/ref/NZA2PC6HYFMG" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
 
-Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "KeeWeb", "https://keeweb.info" %} (phase out) and {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %} (phase in) for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, {% ext "Proton VPN", "https://pr.tn/ref/NZA2PC6HYFMG" %} when I need a VPN and {% ext "Coding.Tools", "https://coding.tools" %} for most other things I need to get done.
+Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %} for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, {% ext "Proton VPN", "https://pr.tn/ref/NZA2PC6HYFMG" %} when I need a VPN and {% ext "Omatsuri", "https://omatsuri.app/" %} for many other things I need to get done.
 
 _<span class="small">The Proton product links above contain a referral which gives you a free month of Proton Plus.</span>_
 
