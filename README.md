@@ -2,15 +2,17 @@
   <samp>
     <b>Hi there, I'm Tom</b> 🚀
     <br><br>
-    <a href="https://ttntm.me">ME</a>
+    <a href="https://ttntm.me">me</a>
     &bull;
-    <a href="https://ttntm.me/blog/">BLOG</a>
+    <a href="https://ttntm.me/blog/">blog</a>
     &bull;
-    <a href="https://ttntm.me/notes/">NOTES</a>
+    <a href="https://ttntm.me/notes/">notes</a>
     &bull;
-    <a href="https://ttntm.me/work/">WORK</a>
+    <a href="https://ttntm.me/work/">work</a>
     &bull;
-    <a rel="me" href="https://fosstodon.org/@ttntm">TOOTS</a>
+    <a rel="me" href="https://fosstodon.org/@ttntm">mastodon</a>
+    &bull;
+    <a href="https://github.com/sponsors/ttntm/">sponsor</a>
   </samp>
   <br><br>
   -
