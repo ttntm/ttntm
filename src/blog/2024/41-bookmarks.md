@@ -2,7 +2,7 @@
 title: "Update: Bookmarks Are Back"
 slug: bookmarks-are-back
 date: 2024-02-15
-description: This website hast a bookmarks directory now.
+description: This website has a bookmarks directory now.
 tags:
   - eleventy
   - news
