@@ -13,9 +13,9 @@
   </div>
   <div>
     <h2 class="h4">Recently Enjoyed</h2>
-    <ul class="grid grid2 list-reset pl1" style="gap: .75rem;">
+    <ul class="list-reset" style="padding-left: .5rem;">
       {%- for h in site.highlights -%}
-        <li class="flex align-items-center" style="gap: .5rem;">
+        <li class="flex align-items-center" style="{{ 'padding-top: .75rem;' if not loop.first }} gap: .5rem;">
           <img src="/img/icons/{{ h.img }}" alt="{{ h.title }}" width="28" style="margin: 2px 0;">
           <span class="d-block">{{ h.title }}</span>
         </li>

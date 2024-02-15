@@ -3,7 +3,7 @@
   "description": "Tom's site about web development, IT and related topics.",
   "highlights": [
     {
-      "title": "Celina - Origins",
+      "title": "Darkthrone - Transilvanian Hunger",
       "img": "music.svg"
     },
     {
@@ -11,7 +11,7 @@
       "img": "game.svg"
     },
     {
-      "title": "TD: Night Country",
+      "title": "True Detective: Night Country",
       "img": "movie.svg"
     },
     {
@@ -21,6 +21,11 @@
   ],
   "readmore": [
     {
+      "url": "/bookmarks/",
+      "title": "/bookmarks",
+      "details": "a directory of useful and interesting links"
+    },
+    {
       "url": "/games/",
       "title": "/games",
       "details": "a curated list of my favorite videogames"
@@ -29,6 +34,11 @@
       "url": "/likes/",
       "title": "/likes",
       "details": "cool things I found on the internet"
+    },
+    {
+      "url": "/links/",
+      "title": "/links",
+      "details": "a list of places I can be found at"
     },
     {
       "url": "/now/",

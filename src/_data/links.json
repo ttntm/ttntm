@@ -4,6 +4,10 @@
     "url": "/blog/"
   },
   {
+    "name": "Bookmarks",
+    "url": "/bookmarks/"
+  },
+  {
     "name": "Codeberg",
     "url": "https://codeberg.org/ttntm"
   },
@@ -27,6 +31,10 @@
   {
     "name": "RSS",
     "url": "/feed.xml"
+  },
+  {
+    "name": "Sponsor",
+    "url": "https://github.com/sponsors/ttntm/"
   },
   {
     "name": "Wiki",

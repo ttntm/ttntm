@@ -9,7 +9,7 @@ module.exports = {
   },
   ext: function(displayText, link) {
     // shortcode to create external 'target=_blank' links
-    return`<a href="${link}" title="${link}" target="_blank" rel="noopener">${displayText}</a>`
+    return`<a href="${link}" target="_blank" rel="noopener">${displayText}</a>`
   },
   replybtn: function(subject) {
     // shortcode to create a "reply with email" button

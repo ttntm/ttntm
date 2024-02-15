@@ -1,0 +1,35 @@
+---
+title: Bookmarks
+description: Tom's bookmarks, a directory of useful and interesting links.
+layout: page.njk
+permalink: /bookmarks/index.html
+eleventyExcludeFromCollections: true
+---
+<details>
+  <summary class="flex align-items-center" style="cursor: pointer;">
+    <h2 class="h5 m0">
+      Categories
+    </h2>
+  </summary>
+  <ul class="list-reset px1 mb2" style="margin-top: .5rem;">
+    {%- for item in collections.bookmarks | sortByTitle -%}
+      <li>
+        <a href="#{{ item.data.title | slugify }}">{{ item.data.title }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</details>
+<div class="hr shadow mb2"></div>
+{%- for item in collections.bookmarks | sortByTitle -%}
+  <article id="{{ 'content' if loop.first }}" class="h-entry">
+    <h2 id="{{ item.data.title | slugify }}" class="h5 d-sm-inline-flex">
+      <span style="margin-right: .5rem;"><a id="{{ item.data.title | slugify }}" href="#{{ item.data.title | slugify }}" class="no-underline u-url" style="border: 0;">#</a></span><span class="p-name">{{ item.data.title }}</span>
+    </h2>
+    <div class="post e-content px1">
+      {{ item.templateContent | safe }}
+    </div>
+    {% if not loop.last %}
+      <div class="hr shadow mt2 mb2"></div>
+    {% endif %}
+  </article>
+{%- endfor -%}

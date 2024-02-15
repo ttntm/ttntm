@@ -60,6 +60,10 @@ module.exports = (config) => {
   )
 
   // COLLECTIONS
+  config.addCollection('bookmarks', async(collection) => {
+    return collection.getFilteredByGlob('./src/bookmarks/**/*.md')
+  })
+
   config.addCollection('blog', async(collection) => {
     return collection.getFilteredByGlob('./src/blog/**/*.md').filter(publishedContent)
   })
@@ -78,7 +82,7 @@ module.exports = (config) => {
   })
 
   config.addCollection('til', async(collection) => {
-    return collection.getFilteredByGlob('./src/til/*.md').filter(publishedContent)
+    return collection.getFilteredByGlob('./src/til/*.md')
   })
 
   // STATIC FILES

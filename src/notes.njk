@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
       Table of Contents
     </h2>
   </summary>
-  <ul class="list-reset mb2" style="margin-top: .5rem;">
+  <ul class="list-reset px1 mb2" style="margin-top: .5rem;">
     {%- for item in collections.til | reverse -%}
       <li>
         <a href="#{{ item.data.weight }}">#{{ item.data.weight }} - {{ item.data.title }}</a>
