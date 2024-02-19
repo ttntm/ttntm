@@ -11,9 +11,6 @@ const { minify } = require('terser')
 const filters = require('./utils/filters.js')
 const shortcodes = require('./utils/shortcodes.js')
 
-// LOCAL FNS
-const publishedContent = (item) => !Boolean(item.data.draft)
-
 module.exports = (config) => {
   // PLUGINS
   config.addPlugin(pluginRss)
@@ -65,16 +62,16 @@ module.exports = (config) => {
   })
 
   config.addCollection('blog', async(collection) => {
-    return collection.getFilteredByGlob('./src/blog/**/*.md').filter(publishedContent)
+    return collection.getFilteredByGlob('./src/blog/**/*.md')
   })
 
   config.addCollection('likes', async(collection) => {
-    return collection.getFilteredByGlob('./src/likes/*.md').filter(publishedContent)
+    return collection.getFilteredByGlob('./src/likes/*.md')
   })
 
   config.addCollection('postsByYear', (collection) => {
     // collection for /archive => posts grouped by year - see: https://darekkay.com/blog/eleventy-group-posts-by-year/
-    return _.chain(collection.getFilteredByGlob('./src/blog/**/*.md').filter(publishedContent))
+    return _.chain(collection.getFilteredByGlob('./src/blog/**/*.md'))
       .groupBy((post) => post.date.getFullYear())
       .toPairs()
       .reverse()
