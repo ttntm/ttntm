@@ -34,3 +34,6 @@ Thousands of screens and videos of old websites, mobile apps and software from 1
 
 {% ext "WikiFlix", "https://wikidata-todo.toolforge.org/wikiflix/#/" %}
 Open source movies.
+
+{% ext "Ye Olde Blogroll", "https://blogroll.org" %}
+A humanly curated list of fine personal & independent blogs that are updated regularly.
