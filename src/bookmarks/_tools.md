@@ -32,6 +32,9 @@ An online ruler.
 {% ext "Ojoy", "https://ojoy.zaps.dev" %}
 Image upscaling in the browser with 100% of the upscaling process performed client-side.
 
+{% ext "Omnivore", "https://omnivore.app" %}
+Save articles, newsletters, and documents and read them later — focused and distraction free.
+
 {% ext "Screely", "https://screely.com" %}
 Puts screenshots into browser windows; does not store any of your screenshots.
 

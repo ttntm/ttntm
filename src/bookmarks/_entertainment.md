@@ -2,6 +2,9 @@
 title: Entertainment
 ---
 
+{% ext "BUKMARK.CLUB", "https://bukmark.club" %}
+A directory of websites that have a curated collection of bookmarks and/or links to other websites.
+
 {% ext "Floor796", "https://floor796.com" %}
 An ever-expanding animation scene showing the life of the 796th floor of the huge space station.
 

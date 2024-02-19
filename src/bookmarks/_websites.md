@@ -5,6 +5,9 @@ title: Website Inspiration
 {% ext "anhvn.com", "https://anhvn.com" %}
 Just overall greatness.
 
+{% ext "Coder's Block", "https://codersblock.com" %}
+Love the colors and how minimal, yet whimsical this site looks.
+
 {% ext "gmunk.com", "https://gmunk.com" %}
 Surprisingly built with a site builder (cargo.site).
 
