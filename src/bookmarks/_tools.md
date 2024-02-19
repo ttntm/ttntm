@@ -5,6 +5,9 @@ title: Tools & Utilities
 {% ext "ASCIIFlow", "https://asciiflow.com" %}
 ASCII flowcharting/UI mockups in the browser.
 
+{% ext "Blacklight", "https://themarkup.org/blacklight" %}
+A Real-Time Website Privacy Inspector.
+
 {% ext "CryptPad", "https://pad.envs.net" %}
 Collaboration suite; end-to-end encrypted and open-source.
 
