@@ -3,8 +3,7 @@
 {% else %}
   {% set currentPost = collections.blog | getCollectionItem(page) %}
 {% endif %}
-<ul class="list-reset list-inline flex align-items-center" style="gap: .75rem;">
-  <li class="list-inline-item sr-only">Tags:&nbsp;</li>
+<ul class="list-reset list-inline flex align-items-center" aria-label="Tags" style="gap: .75rem;">
   {% for tag in currentPost.data.tags | sort %}
     <li class="tag list-inline-item">
       <a href="/tags/{{ tag | slugify }}/">

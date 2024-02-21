@@ -22,5 +22,8 @@ eleventyExcludeFromCollections: true
     {% include "post.preview.njk" %}
     <div class="hr shadow mt2 mb2"></div>
   {% endfor %}
-  <a href="/tags/" class="d-inline-block btn">View all Tags</a>
+  <div class="flex" style="gap: 2rem;">
+    <a href="/blog/" class="d-inline-block btn">View all Posts</a>
+    <a href="/tags/" class="d-inline-block btn">View all Tags</a>
+  </div>
 </section>

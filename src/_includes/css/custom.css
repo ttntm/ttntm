@@ -118,7 +118,7 @@
   --shadowMdHoverColor: rgba(240,240,240,.1);
   --text: var(--lightest);
   --textHeading: silver;
-  --textMuted: gray;
+  --textMuted: #ababab;
   --textQuote: var(--white);
 }
 
@@ -384,7 +384,7 @@ main {
 }
 
 .gap1 {
-  grid-gap: 1rem;
+  gap: 1rem;
 }
 
 @media(min-width:768px) {

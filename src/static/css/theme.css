@@ -40,7 +40,7 @@
     --shadowMdHoverColor: rgba(240,240,240,.1);
     --text: var(--lightest);
     --textHeading: silver;
-    --textMuted: gray;
+    --textMuted: #ababab;
     --textQuote: var(--white);
   }
 }

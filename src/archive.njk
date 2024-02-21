@@ -8,6 +8,7 @@ eleventyExcludeFromCollections: true
 ---
 <section class="container h-feed">
   <h1 class="sr-only p-name">Archive</h1>
+  {% include "archive.tags.njk" %}
   {% for year, yearPosts in collections.postsByYear %}
     <h2 class="text-center tight {{ 'mt2' if not loop.first }}">&bull;&nbsp;{{ year }}&nbsp;&bull;</h2>
     <div class="hr shadow mb2"></div>
