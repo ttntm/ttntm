@@ -9,6 +9,10 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.8.1
+
+- "All Tags" section added at the top of the [/blog](/blog/) archive page
+
 ## Version 3.8
 
 - Added [/bookmarks](/bookmarks/), my very own directory of useful and interesting links
