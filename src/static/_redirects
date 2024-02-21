@@ -2,6 +2,8 @@
 https://ttntm.netlify.app/* https://ttntm.me/:splat 301!
 https://master--ttntm.netlify.app/* https://ttntm.me/:splat 301!
 
+/app-ads.txt /ads.txt 301!
+
 /archive/ /blog/ 301!
 # /blog/ /articles/ 301!
 /articles/ /blog/ 301!
