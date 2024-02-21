@@ -32,5 +32,8 @@ Unique design, a cute bunny and buttery smooth animations.
 {% ext "robinrendle.com", "https://robinrendle.com" %}
 Just overall greatness.
 
+{% ext "Simon Collison", "https://colly.com" %}
+The timeline on the homepage is really nice.
+
 {% ext "The Marginalian", "https://www.themarginalian.org" %}
 In this list because of its mobile version; I like the floating navbar.
