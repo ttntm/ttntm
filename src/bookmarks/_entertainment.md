@@ -17,8 +17,11 @@ A collection of tools for boardgame players.
 {% ext "myNoise", "https://mynoise.net" %}
 A vast library of interactive sound generators.
 
+{% ext "Old Book Illustrations", "https://www.oldbookillustrations.com" %}
+A search engine and library of illustrations and prints found in old books.
+
 {% ext "Pixel Me", "https://pixel-me.tokyo/en" %}
-Convert your photo into pixelart.
+Convert your photo into pixel art.
 
 {% ext "Rainy Mood", "https://rainymood.com" %}
 Rain makes everything better.

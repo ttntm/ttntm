@@ -2,6 +2,9 @@
 title: Knowledge & Research
 ---
 
+{% ext "barnsworthburning.net", "https://barnsworthburning.net" %}
+A truly impressive collection of quotes and excerpts of articles on a large variety of topics.
+
 {% ext "Coding Interview University", "https://github.com/jwasham/coding-interview-university" %}
  A complete computer science study plan to become a software engineer.
 
