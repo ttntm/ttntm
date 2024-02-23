@@ -23,6 +23,9 @@ Docs; collaborative editing in real-time
 {% ext "Excalidraw", "https://excalidraw.com" %}
 A virtual whiteboard.
 
+{% ext "explainshell", "https://explainshell.com" %}
+Turns CLI commands into help text that matches each argument.
+
 {% ext "ffmpeg.app", "https://ffmpeg.app" %}
 FFmpeg in the browser.
 
