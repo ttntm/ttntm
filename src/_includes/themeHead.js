@@ -1,6 +1,12 @@
-function applyTheme(t) {
-  document.documentElement.setAttribute('data-theme', t)
-  localStorage.setItem('theme', t)
+function applyTheme(t = undefined, auto = false) {
+  if (t && typeof t === 'string') {
+    document.documentElement.setAttribute('data-theme', t)
+
+    if (!auto) {
+      // only persist theme choices when they happen intentionally
+      localStorage.setItem('theme', t)
+    }
+  }
   
   const btnHeader = document.querySelector('.btn-theme-header')
   const btnFooter = document.querySelector('.btn-theme-footer')
@@ -35,7 +41,9 @@ window.addEventListener('DOMContentLoaded', () => {
     const preferDark = window.matchMedia('(prefers-color-scheme: dark)').matches
     
     if (preferDark) {
-      applyTheme('dark')
+      applyTheme('dark', true)
+    } else {
+      applyTheme()
     }
   } else {
     applyTheme(themePref)

@@ -237,11 +237,11 @@ blockquote {
   border-left: 4px solid var(--prim);
   color: var(--textQuote);
   font-family: var(--font-sans);
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-style: italic;
   line-height: 1.375;
-  margin: 0 0 1rem 1rem;
-  padding: 2rem 1.5rem 2rem 2.5rem;
+  margin-bottom: 1rem;
+  padding: 2rem 1.5rem 1rem 2.5rem;
   position: relative;
 }
 
@@ -346,7 +346,10 @@ main {
     padding: 0 2rem;
   }
   blockquote {
+    font-size: 1.25rem;
     margin-right: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 1.5rem;
     padding-left: 3rem;
     text-align: justify;
   }
