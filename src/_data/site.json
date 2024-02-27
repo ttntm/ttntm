@@ -1,6 +1,7 @@
 {
   "author": "ttntm",
-  "description": "Tom's site about web development, IT and related topics.",
+  "description": "Tom's personal website; articles, demos and opinions about web development and related topics.",
+  "feedTitle": "ttntm.me",
   "highlights": [
     {
       "title": "Darkthrone - Transilvanian Hunger",
