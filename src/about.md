@@ -47,6 +47,8 @@ Fingerprint: `A8BC EEE0 AF71 7E01 3D8A A2A7 0BC9 FFE9 639B AEC3`
 
 ## About This Website
 
+A bit of information about this website. Feel free to <a href="mailto:ttntm@pm.me?subject=About your website">email me</a> if you want to talk about it.
+
 ### Colophon
 
 There's a [Changelog](/changelog/) that contains all the major changes this website has gone through over the years.

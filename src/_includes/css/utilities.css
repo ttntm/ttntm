@@ -400,8 +400,7 @@
 .hover-scale,
 .hover-scale-sm {
   transform: scale(1);
-  transition: transform ease .35s;
-
+  transition: all ease .35s;
 }
 
 .hover-scale:hover {

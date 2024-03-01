@@ -80,7 +80,7 @@
 [data-theme="dark"] {
   --black: #121212;
   --bg: var(--darker);
-  --border: var(--darkest);
+  --border: var(--dark);
   --btnBg: var(--black);
   --btnText: silver;
   --btnBgHover: var(--darkest);
@@ -115,7 +115,7 @@
   --selectionBg: var(--light);
   --selectionText: var(--black);
   --shadowColor: rgba(240,240,240,.075);
-  --shadowMdHoverColor: rgba(240,240,240,.1);
+  --shadowMdHoverColor: rgba(240,240,240,.25);
   --text: var(--lightest);
   --textHeading: silver;
   --textMuted: #ababab;

@@ -1,8 +1,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    --black: #121212;  
+    --black: #121212;
     --bg: var(--darker);
-    --border: var(--darkest);
+    --border: var(--dark);
     --btnBg: var(--black);
     --btnText: silver;
     --btnBgHover: var(--darkest);
@@ -29,7 +29,7 @@
     --navLinkAfter: var(--dark);
     --navLinkHover: var(--light);
     --navMobileBg: var(--black);
-    --postImgOpacity: .75;
+    --postImgOpacity: .85;
     --prismBg: var(--black);
     --prismOpNumBool: var(--red);
     --prismText: var(--light);
@@ -37,7 +37,7 @@
     --selectionBg: var(--light);
     --selectionText: var(--black);
     --shadowColor: rgba(240,240,240,.075);
-    --shadowMdHoverColor: rgba(240,240,240,.1);
+    --shadowMdHoverColor: rgba(240,240,240,.25);
     --text: var(--lightest);
     --textHeading: silver;
     --textMuted: #ababab;
