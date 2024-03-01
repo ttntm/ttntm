@@ -9,6 +9,15 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.9
+
+- **New homepage layout**
+- A little more animation for card `:hover` states
+- Reviewed and rewrote a couple of things in [/about](/about/)
+  - The illustration from the homepage moved here
+  - Added the {% ext "BUKMARK.CLUB", "https://bukmark.club" %} badge
+  - Changed grouping of sections, added "Memberships" and "Support"
+
 ## Version 3.8.1
 
 - "All Tags" section added at the top of the [/blog](/blog/) archive page

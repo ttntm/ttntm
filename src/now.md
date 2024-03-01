@@ -5,17 +5,17 @@ layout: page.njk
 eleventyExcludeFromCollections: true
 ---
 
-**Last updated:** Dec. 28th 2023
+**Last updated:** March 1st 2024
 
-**Writing**: Migrating notes to my new personal wiki, also working on a bunch of drafts for articles that should have been 2023 blog posts.
+**Writing**: Preparing some more articles about Eleventy, for example about a guestbook I recently built.
 
 **Reading**: Dune Messiah
 
-**Playing**: Borderlands 2, Stellaris, Tiny Tina's Wonderlands
+**Playing**: Ghost of Tsushima (which is _great_)
 
-**Drinking**: Lagavulin 16yo - just wow.
+**Drinking**: Lagavulin 16yo - still wow.
 
-**Living**: Missing cycling season, considering going for ice skating more often.
+**Living**: Preparing for summer - soon to enjoy BBQs, cycling, inline skating and swimming again.
 
 <div class="hr shadow mb1"></div>
 

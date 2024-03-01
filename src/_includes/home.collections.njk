@@ -1,0 +1,18 @@
+<h2 class="tight m0">
+  Collections &amp; Pages
+</h2>
+<div class="hr shadow mb2"></div>
+<ul class="list-reset grid grid2 gap1 mt2">
+  {%- for r in site.readmore -%}
+    <li class="d-block">
+      <a class="d-block wrapper-link shadow-md-hover hover-scale-sm p2" href="{{ r.url }}" style="border: 1px solid var(--border);">
+        <h3 class="h6 heading link" style="">
+          {{ r.title }}
+        </h3>
+        <p class="cap-first m0" style="font-size: .875rem;">
+          {{ r.details }}.
+        </p>
+      </a>
+    </li>
+  {%- endfor -%}
+</ul>

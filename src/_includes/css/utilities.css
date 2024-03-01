@@ -204,7 +204,6 @@
   color: var(--prim) !important;
 }
 
-
 .text-sec {
   color: var(--sec) !important;
 }
@@ -259,6 +258,10 @@
 
 .no-underline {
   text-decoration: none !important;
+}
+
+.large {
+  font-size: 1.25rem;
 }
 
 .small {
@@ -330,6 +333,12 @@
   padding-right: 2rem !important;
 }
 
+@media (min-width: 576px) {
+  .pl2-dsktp {
+    padding-left: 2rem;
+  }
+}
+
 .m0 {
   margin: 0 !important;
 }
@@ -388,13 +397,19 @@
   border-width: 0;
 }
 
-.hover-scale {
+.hover-scale,
+.hover-scale-sm {
   transform: scale(1);
-  transition: ease .35s;
+  transition: transform ease .35s;
+
 }
 
 .hover-scale:hover {
   transform: scale(1.25);
+}
+
+.hover-scale-sm:hover {
+  transform: scale(1.05);
 }
 
 .tight {
@@ -403,4 +418,13 @@
 
 .cap-first::first-letter {
   text-transform: capitalize;
+}
+
+.wrapper-link,
+.wrapper-link:active,
+.wrapper-link:hover {
+  color: inherit;
+  font-weight: normal;
+  letter-spacing: inherit;
+  text-decoration: none;
 }

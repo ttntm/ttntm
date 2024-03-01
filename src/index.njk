@@ -2,66 +2,20 @@
 isFront: true
 layout: base.njk
 ---
-<section class="container">
-  <div class="hello flex flex-row justify-content-between align-items-center flex-wrap pb1 mb2">
-    <div class="w25 w75m mx-auto">
-      <img class="img-fluid circle shadow u-photo" src="/img/ttntm.webp" alt="An illustration showing Tom" title="Yup, that's me." width="285" height="285">
-    </div>
-    <div class="w75 w100m p2">
-      <h1 class="h2 hello-heading">
-        Hi, I'm Tom.
-      </h1>
-      <p class="h4 post m0 p-note text-justify">
-        I'm a software engineer from Austria and this is my personal website. You can get to know a little more <a href="/about">about me</a> here and have a look at some of the <a href="/work">things I did</a>.
-      </p>
-    </div>
+<section class="home mx-auto">
+  <div class="home1">
+    <h1 class="h2 tight m0">
+      Tom's Homepage
+    </h1>
+    <div class="hr shadow mb2"></div>
+    <p class="heading large text-justify m0">
+      &#128075; Hi there, I'm Tom, a software engineer from Austria and this is my personal website. You can get to know a little more <a href="/about/">about me</a> here, browse through my collection of <a href="/notes/">notes</a>, or have a look at some of the <a href="/work/">things I did</a>.
+    </p>
   </div>
-  <div class="flex flex-row justify-content-between align-items-center tight">
-    <h2 class="h2 m0 p-name">Recent Posts</h2>
-    <ul class="list-reset flex align-items-center" style="gap: 1rem;">
-      <li class="d-block">
-        <a href="/tags/" class="d-block regular hover-scale" title="View all Tags" aria-label="View all Tags">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tags" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 8v4.172a2 2 0 0 0 .586 1.414l5.71 5.71a2.41 2.41 0 0 0 3.408 0l3.592 -3.592a2.41 2.41 0 0 0 0 -3.408l-5.71 -5.71a2 2 0 0 0 -1.414 -.586h-4.172a2 2 0 0 0 -2 2z" />
-            <path d="M18 19l1.592 -1.592a4.82 4.82 0 0 0 0 -6.816l-4.592 -4.592" />
-            <path d="M7 10h-.01" />
-          </svg>
-        </a>
-      </li>
-      <li class="d-block">
-        <a href="/blog/" class="d-block regular hover-scale" title="View all Posts" aria-label="View all Posts">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <rect x="3" y="4" width="18" height="4" rx="2" />
-            <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-            <line x1="10" y1="12" x2="14" y2="12" />
-          </svg>
-        </a>
-      </li>
-    </ul>
+  <div class="home2">
+    {% include "home.posts.njk" %}
   </div>
-  <div class="hr shadow mb2"></div>
-  {%- for post in collections.blog | reverse -%}
-    {% if loop.index <= 5 %}
-      {% include "post.preview.njk" %}
-      <div class="hr shadow mt2 mb2"></div>
-    {% endif %}
-  {%- endfor -%}
-  <div class="flex justify-content-center" style="gap: 2rem; margin-bottom: 4rem;">
-    <a href="/blog/" class="d-inline-block btn">View all Posts</a>
-    <a href="/tags/" class="d-inline-block btn">View all Tags</a>
+  <div class="home3">
+    {% include "home.collections.njk" %}
   </div>
-  <h2 class="h2 mt2 mb0 p-name tight">Collections &amp; Pages</h2>
-  <div class="hr shadow mb2"></div>
-  <ul class="list-reset grid grid2 gap1 expand mt2">
-    {%- for r in site.readmore -%}
-      <li class="shadow-md-hover p2" style="border: 1px solid var(--border);">
-        <h3 class="h6 heading">
-          <a href="{{ r.url }}">{{ r.title }}</a>
-        </h3>
-        <p class="cap-first m0">{{ r.details }}</p>
-      </li>
-    {%- endfor -%}
-  </ul>
 </section>
