@@ -240,6 +240,12 @@
   text-align: justify;
 }
 
+@media (min-width: 576px) {
+  .text-justify-lg {
+    text-align: justify;
+  }
+}
+
 .bold {
   font-weight: 700 !important;
 }
