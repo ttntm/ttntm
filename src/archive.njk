@@ -13,7 +13,10 @@ eleventyExcludeFromCollections: true
   <div class="hr shadow mb2"></div>
   {% include "archive.tags.njk" %}
   {% for year, yearPosts in collections.postsByYear %}
-    <h2 class="text-center tight {{ 'mt2' if not loop.first }}">&bull;&nbsp;{{ year }}&nbsp;&bull;</h2>
+    <hgroup class="text-center">
+      <h2 class="tight {{ 'mt2' if not loop.first }}">&bull;&nbsp;{{ year }}&nbsp;&bull;</h2>
+      <p class="small">Posts published: {{ yearPosts.length }}</p>
+    </hgroup>
     <div class="hr shadow mb2"></div>
     {% for post in yearPosts | reverse %}
       {% include "post.preview.njk" %}

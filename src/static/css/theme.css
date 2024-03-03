@@ -16,6 +16,7 @@
     --footerLinkHover: var(--yellow);
     --footerText: var(--light);
     --helloOpacity: .75;
+    --highlight: var(--tert);
     --hr: var(--dark);
     --likeLink: grey;
     --likeLinkHover: var(--yellow);
