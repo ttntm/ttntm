@@ -25,7 +25,7 @@ Let's start with some definitions:
 - _build_ - the process of converting source code into a static website
 - _guestbook_ - a way for visitors to leave a little "I was here" comment and/or feedback about a website
 - _persistence_ - a means to store data reliably, usually a database
-- _serverless_ - means "not running on a web server" in this article's context
+- _serverless_ - means "not running on your own web server" in this article's context
 - _static website_ - a web page that is delivered to a web browser exactly as stored, i.e. not a web application, no islands or hydration
 
 ### Data Flow
