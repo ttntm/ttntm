@@ -61,3 +61,6 @@ File hosting & URL shortening.
 
 {% ext "Wavacity", "https://wavacity.com" %}
 A free, open source audio editor for the web (Audacity in a browser).
+
+{% ext "wiby", "https://wiby.me" %}
+A search engine that's building a web of pages as it was in the earlier days of the internet.

@@ -23,6 +23,9 @@ Playful and very much the opposite of boring.
 {% ext "kld.dev", "https://kld.dev" %}
 A clean personal website by Kevin Drum with a cool "cursor in a computer" animation and a very nice rotating theme switch.
 
+{% ext "Lupin & Holmes", "https://www.landh.tech" %}
+A cybersecurity agency with an outstanding website.
+
 {% ext "nicchan.me", "https://www.nicchan.me" %}
 Nice colors, well-used screen space.
 

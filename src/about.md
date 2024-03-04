@@ -24,7 +24,7 @@ I grew up with the internet, building my first websites around 2002 when frames 
 
 My professional career in IT started in 2008, and I worked for telecom and IT service providers, software development companies and freelance clients since then. As of 2021, I'm working as a software engineer at an agency that delivers custom solutions and tailors standard software to client needs. I'm also volunteering for {% ext "epicenter.works", "https://epicenter.works" %} whenever I can support their activities with my skillset.
 
-When I'm not in front of a screen working, <a href="https://watch3r.app" target="_blank">watching movies</a> or [playing videogames](/games/), I enjoy spending time with my family, parenting a lovely Persian cat and being outside (cycling, gardening, hiking). I also like playing boardgames with friends and working on DIY projects. Oh, and I really love cooking - just head over to <a href="https://recept0r.com" target="_blank">recept0r</a> if you're curious.
+When I'm not in front of a screen working, <a href="https://watch3r.app" target="_blank">watching movies</a> or [playing videogames](/games/), I enjoy spending time with my family, parenting a lovely [Persian cat](#cat) and being outside (cycling, gardening, hiking). I also like playing boardgames with friends and working on DIY projects. Oh, and I really love cooking - just head over to <a href="https://recept0r.com" target="_blank">recept0r</a> if you're curious.
 
 {% contact %}
   {% include "about.contact.njk" %}
@@ -34,7 +34,12 @@ When I'm not in front of a screen working, <a href="https://watch3r.app" target=
 
 {% include "about.highlights.njk" %}
 
-<div class="hr shadow mt2 mb2"></div>
+<p id="cat" class="text-center mt2 mb0">
+  <a href="https://pixelfed.social/alfithecat" rel="noopener" target="_blank" title="Meow!">
+    <img class="mx-auto" src="/img/walking_cat.gif">
+  </a>
+</p>
+<div class="hr shadow mb2" style="margin-top: 0;"></div>
 
 ## My PGP Key
 
@@ -60,6 +65,15 @@ The tech stack used for the current version is:
 - Netlify
 
 This website contains <s>no</s> _only minimal_ JavaScript ([theme persistence](/blog/dark-mode/)) and the total uncompressed size of it's landing page is less than 100KB.
+
+#### Carbon Rating
+
+This website achieves a carbon rating of **A+**.
+
+This is _cleaner than 98 % of all web pages_ globally.
+Only **0.01 g** of CO2 is produced every time someone visits this website.
+
+A detailed report can be found here: {% ext "Website Carbon Calculator", "https://www.websitecarbon.com/website/ttntm-me/" %}
 
 ### License
 
