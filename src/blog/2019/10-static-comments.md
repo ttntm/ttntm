@@ -21,8 +21,6 @@ After some extensive research and hours of studying various services' documentat
 
 So, the following article will describe what I'd summarize as "probably the easiest way of adding comments to your Hugo site". So, taking into consideration that this site also has a comment section now, please feel free to let me know your opinion. 😉
 
-TL;DR - Netlify demo is live at {% ext "comments.ttntm.me" "https://comments.ttntm.me" %}
-
 ### Overview
 
 As described in the linked article, this simple "comment engine" basically works based on 3 components:
@@ -279,9 +277,7 @@ As stated in the introduction, this implementation of a comment engine for a Hug
 
 Overall, I'd say this is good enough for now and I'm happy to have found a "minimum viable solution".
 
-PS: there's a repository in my GitHub account that you can clone and deploy to try all of that yourself: {% ext "GitHub Repo", "https://github.com/ttntm/hugo-comments" %}
-
-The {% ext "demo site", "https://comments.ttntm.me" %} mentioned above is based on the code in that repository.
+PS: there's a {% ext "GitHub Repo", "https://github.com/ttntm/hugo-comments" %} that you can clone and deploy to try all of that yourself.
 
 ### Addendum
 
