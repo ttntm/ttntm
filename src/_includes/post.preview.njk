@@ -4,7 +4,7 @@
   {% set currentPost = collections.blog | getCollectionItem(page) %}
 {% endif %}
 <article class="h-entry">
-  {% if '/tags' in page.url %}<h2 class="heading h3 tight">{% else %}<h3 class="heading tight">{% endif %}
+  {% if '/tags' in page.url %}<h2 class="heading h3">{% else %}<h3 class="heading">{% endif %}
     <a href="{{ currentPost.url }}" class="u-url p-name">{{ currentPost.data.title }}</a>
   {% if '/tags' in page.url %}</h2>{% else %}</h3>{% endif %}
   {% if currentPost.data.date %}
