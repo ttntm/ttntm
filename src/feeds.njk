@@ -1,0 +1,18 @@
+---
+title: RSS Feeds
+description: A directory of the RSS feeds published by this website.
+layout: page.njk
+permalink: /feeds/index.html
+eleventyExcludeFromCollections: true
+---
+
+<p>These RSS feeds are published by this website:</p>
+<ul>
+  {% for item in site.feeds %}
+    <li>
+      <strong>{{ item.name }}</strong>
+      <br>
+      <a href="{{ item.link }}">ttntm.me{{ item.link }}</a>
+    </li>
+  {% endfor %}
+</ul>

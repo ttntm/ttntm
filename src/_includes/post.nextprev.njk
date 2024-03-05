@@ -3,7 +3,7 @@
 {% if previousPost or nextPost %}
   <section class="grid grid2 gap1 expand mt2">
     {% if previousPost %}
-    <div class="shadow-md-hover next-prev first p2" style="border: 1px solid var(--border);">
+    <div class="card shadow-md-hover next-prev first">
       <h2 class="h6 next-prev uppercase tight">Previous Post</h3>
       <h3 class="h6 heading">
         <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
@@ -12,7 +12,7 @@
     </div>
     {% endif %}
     {% if nextPost %}
-      <div class="shadow-md-hover next-prev second p2" style="border: 1px solid var(--border);">
+      <div class="card shadow-md-hover next-prev second">
         <h2 class="h6 next-prev uppercase tight">Next Post</h3>
         <h3 class="h6 heading">
           <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>

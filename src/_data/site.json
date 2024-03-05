@@ -1,6 +1,20 @@
 {
   "author": "ttntm",
   "description": "Tom's personal website; articles, demos and opinions about web development and related topics.",
+  "feeds": [
+    {
+      "name": "Blog",
+      "link": "/feed.xml"
+    },
+    {
+      "name": "Likes",
+      "link": "/likes/feed.xml"
+    },
+    {
+      "name": "Notes",
+      "link": "/notes/feed.xml"
+    }
+  ],
   "feedTitle": "ttntm.me",
   "highlights": [
     {

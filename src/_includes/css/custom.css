@@ -33,6 +33,7 @@
   --font-sans: 'Titillium Web', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-mono: 'Input Mono', 'JetBrains Mono', 'IBM Plex Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   --bg: var(--white);
+  --bg-noise: url('/img/noise-light-32x32.png');
   --border: var(--light);
   --btnBg: var(--light);
   --btnText: var(--dark);
@@ -81,6 +82,7 @@
 [data-theme="dark"] {
   --black: #121212;
   --bg: var(--darker);
+  --bg-noise: url('/img/noise-dark-32x32.png');
   --border: var(--dark);
   --btnBg: var(--black);
   --btnText: silver;
@@ -154,7 +156,8 @@ html {
 }
 
 body {
-  background-color: var(--bg);
+  background: radial-gradient(circle, var(--bg), transparent), var(--bg-noise) repeat, var(--bg);
+  background-attachment: fixed;
   color: var(--text);
   display: flex;
   flex-direction: column;
@@ -494,61 +497,13 @@ main {
   }
 }
 
-
-.u-photo {
-  opacity: var(--helloOpacity);
-  transition: transform ease-in-out 1s;
-
-  &:hover {
-    transform: rotate3d(0,1,.05,180deg);
-  }
-}
-
-.tag {
-  /* font-family: var(--font-mono); */
-  font-size: .875rem;
-
-  & a {
-    font-weight: 500;
-  }
-}
-
-/* POST + clickable headings */
-.post {
-  line-height: 1.625;
-}
-
-.heading a,
-.post a,
-.tag a,
-.link {
-  color: var(--contentLink);
-  text-decoration: underline;
-  text-decoration-color: var(--contentLinkDecoration);
-  text-decoration-thickness: 2px;
-
-  &:hover {
-    color: var(--contentLinkHover);
-    text-decoration-color: var(--contentLinkDecorationHover);
-    text-decoration-thickness: 2px;
-  }
-}
-
-.heading a:active,
-.post a:active {
-  outline: 1px dashed var(--lightest);
-}
-
-.post img {
-  opacity: var(--postImgOpacity);
-}
-
-summary ::marker {
-  color: var(--prim) !important;
-}
-
-summary h2 {
-  display: list-item;
+.navMobile {
+  background-color: var(--navMobileBg);
+  bottom: 0;
+  color: var(--navMobileLink);
+  left: 0;
+  right: 0;
+  position: fixed;
 }
 
 /* FOOTER */
@@ -603,16 +558,7 @@ footer button:hover .icon {
   }
 }
 
-.navMobile {
-  background-color: var(--navMobileBg);
-  bottom: 0;
-  color: var(--navMobileLink);
-  left: 0;
-  right: 0;
-  position: fixed;
-}
-
-/* BUTTONS */
+/* BUTTONS & COMPONENTS */
 
 button {
   cursor: pointer;
@@ -656,34 +602,6 @@ button {
 
 .next-prev {
   font-size: .85rem;
-}
-
-a.btn:hover,
-a.footer-link:hover,
-a.logo-link:hover,
-a.nav-link:hover,
-button:hover,
-summary:hover {
-  transition: all .35s ease-in-out;
-}
-
-a.btn,
-a.footer-link,
-a.logo-link,
-a.nav-link,
-button,
-summary {
-  transition: transform .125s ease;
-}
-
-a.btn:active,
-a.footer-link:active,
-a.logo-link:active,
-a.nav-link:active,
-button:active,
-summary:active {
-  transform: translateY(2px);
-  transition: transform .125s ease;
 }
 
 .like-link {
@@ -749,6 +667,99 @@ summary:active {
   .home {
     max-width: calc(100vw - 24vw);
   }
+}
+
+.u-photo {
+  opacity: var(--helloOpacity);
+  transition: transform ease-in-out 1s;
+
+  &:hover {
+    transform: rotate3d(0,1,.05,180deg);
+  }
+}
+
+.tag {
+  /* font-family: var(--font-mono); */
+  font-size: .875rem;
+
+  & a {
+    font-weight: 500;
+  }
+}
+
+/* POST + clickable headings */
+.post {
+  line-height: 1.625;
+}
+
+.heading a,
+.post a,
+.tag a,
+.link {
+  color: var(--contentLink);
+  text-decoration: underline;
+  text-decoration-color: var(--contentLinkDecoration);
+  text-decoration-thickness: 2px;
+
+  &:hover {
+    color: var(--contentLinkHover);
+    text-decoration-color: var(--contentLinkDecorationHover);
+    text-decoration-thickness: 2px;
+  }
+}
+
+.heading a:active,
+.post a:active {
+  outline: 1px dashed var(--lightest);
+}
+
+.post img {
+  opacity: var(--postImgOpacity);
+}
+
+summary ::marker {
+  color: var(--prim) !important;
+}
+
+summary h2 {
+  display: list-item;
+}
+
+.card {
+  display: block;
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  padding: 2rem;
+}
+
+/* TRANSITIONS */
+
+a.btn:hover,
+a.footer-link:hover,
+a.logo-link:hover,
+a.nav-link:hover,
+button:hover,
+summary:hover {
+  transition: all .35s ease-in-out;
+}
+
+a.btn,
+a.footer-link,
+a.logo-link,
+a.nav-link,
+button,
+summary {
+  transition: transform .125s ease;
+}
+
+a.btn:active,
+a.footer-link:active,
+a.logo-link:active,
+a.nav-link:active,
+button:active,
+summary:active {
+  transform: translateY(2px);
+  transition: transform .125s ease;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {

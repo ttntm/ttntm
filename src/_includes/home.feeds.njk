@@ -1,0 +1,14 @@
+<h2 class="tight mt2 mb0">
+  Feeds
+</h2>
+<div class="hr shadow mb2"></div>
+<p style="margin-bottom: .5rem;">
+  These RSS feeds are published by this website:
+</p>
+<ul class="list-reset flex post gap1 m0">
+  {% for item in site.feeds %}
+    <li>
+      <a href="{{ item.link }}">{{ item.name }}</a>
+    </li>
+  {% endfor %}
+</ul>
