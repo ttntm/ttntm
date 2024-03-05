@@ -1,38 +1,45 @@
 ---
 title: Notes
 description: Tom's personal problem + solution archive.
-layout: page.njk
+layout: base.njk
 permalink: /notes/index.html
 eleventyExcludeFromCollections: true
 ---
-<details>
-  <summary class="flex align-items-center" style="cursor: pointer;">
-    <h2 class="h5 m0">
-      Table of Contents
-    </h2>
-  </summary>
-  <ul class="list-reset px1 mb2" style="margin-top: .5rem;">
-    {%- for item in collections.til | reverse -%}
-      <li>
-        <a href="#{{ item.data.weight }}">#{{ item.data.weight }} - {{ item.data.title }}</a>
-      </li>
+<section class="container h-feed">
+  {%- from 'macro.headerRSS.njk' import header %}
+  {{ header({ text: title, link: '/notes/feed.xml' }) }}
+  <div class="hr shadow"></div>
+  <section class="post">
+    <details>
+      <summary class="flex align-items-center" style="cursor: pointer;">
+        <h2 class="h5 m0">
+          Table of Contents
+        </h2>
+      </summary>
+      <ul class="list-reset px1 mb2" style="margin-top: .5rem;">
+        {%- for item in collections.notes | reverse -%}
+          <li>
+            <a href="#{{ item.data.weight }}">#{{ item.data.weight }} - {{ item.data.title }}</a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </details>
+    <div class="hr shadow mb2"></div>
+    {%- for item in collections.notes | reverse -%}
+      <article id="{{ 'content' if loop.first }}" class="h-entry">
+        <h2 class="h5 d-sm-inline-flex">
+          <span style="margin-right: .5rem;"><a id="{{ item.data.weight }}" href="#{{ item.data.weight }}" class="no-underline u-url" style="border: 0;">#{{ item.data.weight }}</a></span><span class="p-name">{{ item.data.title }}</span>
+        </h2>
+        <p class="small text-muted">
+          Posted: <time class="dt-published" datetime="{{ item.date | date('YYYY-MM-DD') }}">{{ item.date | date('MMMM DD, YYYY') }}</time>
+        </p>
+        <div class="post e-content">
+          {{ item.templateContent | safe }}
+        </div>
+        {% if not loop.last %}
+          <div class="hr shadow mt2 mb2"></div>
+        {% endif %}
+      </article>
     {%- endfor -%}
-  </ul>
-</details>
-<div class="hr shadow mb2"></div>
-{%- for item in collections.til | reverse -%}
-  <article id="{{ 'content' if loop.first }}" class="h-entry">
-    <h2 class="h5 d-sm-inline-flex">
-      <span style="margin-right: .5rem;"><a id="{{ item.data.weight }}" href="#{{ item.data.weight }}" class="no-underline u-url" style="border: 0;">#{{ item.data.weight }}</a></span><span class="p-name">{{ item.data.title }}</span>
-    </h2>
-    <p class="small text-muted">
-      Posted: <time class="dt-published" datetime="{{ item.date | date('YYYY-MM-DD') }}">{{ item.date | date('MMMM DD, YYYY') }}</time>
-    </p>
-    <div class="post e-content">
-      {{ item.templateContent | safe }}
-    </div>
-    {% if not loop.last %}
-      <div class="hr shadow mt2 mb2"></div>
-    {% endif %}
-  </article>
-{%- endfor -%}
+  </section>
+</section>

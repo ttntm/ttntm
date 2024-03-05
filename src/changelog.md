@@ -9,6 +9,13 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.9.1
+
+- Added more RSS feeds, see [/feeds](/feeds/)
+- Added RSS icons to list pages of content that offers a feed
+- Removed redundant icons from the homepage
+- Minor structural improvements in the HTML
+
 ## Version 3.9
 
 - **New homepage layout**

@@ -1,0 +1,19 @@
+{%- macro header(params) -%}
+  <div class="flex flex-row justify-content-between align-items-center tight gap1">
+    <h1 class="p-name tight m0">
+      {{ params.text }}
+    </h1>
+    <ul class="list-reset flex align-items-center gap1">
+      <li class="d-block">
+        <a href="{{ params.link }}" class="d-block regular hover-scale" title="RSS Feed: Blog" aria-label="RSS Feed: Blog">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="5" cy="19" r="1" />
+            <path d="M4 4a16 16 0 0 1 16 16" />
+            <path d="M4 11a9 9 0 0 1 9 9" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+{%- endmacro -%}

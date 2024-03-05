@@ -66,7 +66,11 @@ module.exports = (config) => {
   })
 
   config.addCollection('likes', async(collection) => {
-    return collection.getFilteredByGlob('./src/likes/*.md')
+    return collection.getFilteredByGlob('./src/likes/**/*.md')
+  })
+
+  config.addCollection('notes', async(collection) => {
+    return collection.getFilteredByGlob('./src/notes/*.md')
   })
 
   config.addCollection('postsByYear', (collection) => {
@@ -76,10 +80,6 @@ module.exports = (config) => {
       .toPairs()
       .reverse()
       .value()
-  })
-
-  config.addCollection('til', async(collection) => {
-    return collection.getFilteredByGlob('./src/til/*.md')
   })
 
   // STATIC FILES

@@ -7,9 +7,8 @@ isBlogHome: true
 eleventyExcludeFromCollections: true
 ---
 <section class="container h-feed">
-  <h1 class="tight m0">
-    The {{ title }}
-  </h1>
+  {%- from 'macro.headerRSS.njk' import header %}
+  {{ header({ text: 'The Blog', link: '/feed.xml' }) }}
   <div class="hr shadow mb2"></div>
   {% include "archive.tags.njk" %}
   {% for year, yearPosts in collections.postsByYear %}

@@ -1,0 +1,29 @@
+---
+title: Blog
+parent: /blog/
+permalink: feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  {% include "feed.header.njk" %}
+  {% if collections.blog %}
+    <updated>{{ collections.blog | rssLastUpdatedDate }}</updated>
+  {% endif %}
+  <id>{{ site.url }}/</id>
+  {%- for item in collections.blog | reverse -%}
+    {% set absolutePostUrl %}{{ item.url | url | absoluteUrl(site.url) }}{% endset %}
+    <entry>
+      <title>{{ item.data.title }}</title>
+      {% for tag in item.data.tags | sort %}
+        <category term="{{ tag }}" />
+      {% endfor %}
+      <link href="{{ absolutePostUrl }}"/>
+      <updated>{{ item.date | rssDate }}</updated>
+      <id>{{ absolutePostUrl }}</id>
+      <content type="html"><![CDATA[
+        {{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
+      ]]></content>
+    </entry>
+  {%- endfor -%}
+</feed>
