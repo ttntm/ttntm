@@ -6,8 +6,8 @@ permalink: /likes/index.html
 eleventyExcludeFromCollections: true
 ---
 <section class="container h-feed">
-  {%- from 'macro.headerRSS.njk' import header %}
-  {{ header({ text: title, link: '/likes/feed.xml' }) }}
+  {%- from 'macro.headingRSS.njk' import header %}
+  {{ header({ text: title, link: '/likes/feed.xml', title: title }) }}
   <div class="hr shadow mb2"></div>
   <section class="post">
     <p class="text-center">Some cool things I found on the internet.</p>

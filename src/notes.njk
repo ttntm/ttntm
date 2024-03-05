@@ -6,8 +6,8 @@ permalink: /notes/index.html
 eleventyExcludeFromCollections: true
 ---
 <section class="container h-feed">
-  {%- from 'macro.headerRSS.njk' import header %}
-  {{ header({ text: title, link: '/notes/feed.xml' }) }}
+  {%- from 'macro.headingRSS.njk' import header %}
+  {{ header({ text: title, link: '/notes/feed.xml', title: title }) }}
   <div class="hr shadow"></div>
   <section class="post">
     <details>
