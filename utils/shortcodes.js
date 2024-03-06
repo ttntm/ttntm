@@ -1,11 +1,13 @@
 const dnt = require('date-and-time')
 
 module.exports = {
-  buildDate: function() {
+  buildDate: function(wrap = true) {
     // shortcode to display the last build date
     let now = new Date()
     let display = dnt.format(now, 'ddd, MMMM DD YYYY, HH:mm')
-    return`<time>${display}</time>`
+    return wrap
+      ? `<time>${display}</time>`
+      : display
   },
   ext: function(displayText, link) {
     // shortcode to create external 'target=_blank' links

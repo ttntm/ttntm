@@ -81,7 +81,8 @@
 
 [data-theme="dark"] {
   --black: #121212;
-  --bg: var(--darker);
+  /* --bg: var(--darker); */
+  --bg: #232731;
   --bg-noise: url('/img/noise-dark-32x32.png');
   --border: var(--dark);
   --btnBg: var(--black);

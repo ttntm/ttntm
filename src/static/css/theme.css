@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --black: #121212;
-    --bg: var(--darker);
+    --bg: #232731;
     --border: var(--dark);
     --btnBg: var(--black);
     --btnText: silver;
