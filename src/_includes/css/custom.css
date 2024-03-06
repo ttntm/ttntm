@@ -631,11 +631,11 @@ button {
 }
 
 .home-posts {
-  order: 3;
+  order: 2;
 }
 
 .home-pages {
-  order: 2;
+  order: 3;
 }
 
 @media(min-width:768px) {
