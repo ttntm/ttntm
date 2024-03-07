@@ -136,10 +136,6 @@
   scroll-behavior: smooth;
 }
 
-body *:hover {
-  transition: all .35s ease-in-out;
-}
-
 ::selection,
 ::-moz-selection {
   background: var(--selectionBg);
@@ -200,6 +196,7 @@ a, a:active {
   font-weight: 700;
   letter-spacing: .8px;
   text-decoration: underline;
+  transition: color .35s ease-in-out, text-decoration .35s ease-in-out;
 }
 
 a:hover, a:focus {
@@ -436,6 +433,7 @@ main {
 
 .logo {
   background-color: transparent;
+  transition: all .5s ease-in-out;
 
   &:hover {
     background-color: var(--logoBg);
@@ -530,6 +528,7 @@ footer {
 footer a .icon,
 footer button .icon {
   opacity: 1;
+  transition: opacity .25s ease;
 }
 
 footer a:hover .icon,
@@ -701,6 +700,7 @@ button {
   text-decoration: underline;
   text-decoration-color: var(--contentLinkDecoration);
   text-decoration-thickness: 2px;
+  transition: color .35s ease-in-out, text-decoration .35s ease-in-out;
 
   &:hover {
     color: var(--contentLinkHover);

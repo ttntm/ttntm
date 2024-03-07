@@ -19,4 +19,4 @@ eleventyExcludeFromCollections: true
 
 <div class="hr shadow mb1"></div>
 
-_Inspired by {% ext "lots of other personal websites", "https://nownownow.com" %} that originally got inspired by Derek Sivers._
+Inspired by {% ext "lots of other personal websites", "https://nownownow.com" %} that originally got inspired by Derek Sivers.
