@@ -62,7 +62,7 @@ The tech stack used for the current version is:
 
 - Eleventy
 - PostCSS
-- Netlify
+- Cloudflare Pages
 
 This website contains <s>no</s> _only minimal_ JavaScript ([theme persistence](/blog/dark-mode/)) and the total uncompressed size of it's landing page is less than 100KB.
 
