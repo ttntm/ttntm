@@ -700,7 +700,7 @@ button {
   text-decoration: underline;
   text-decoration-color: var(--contentLinkDecoration);
   text-decoration-thickness: 2px;
-  transition: color .35s ease-in-out, text-decoration .35s ease-in-out;
+  transition: all .35s ease-in-out;
 
   &:hover {
     color: var(--contentLinkHover);
