@@ -26,6 +26,9 @@ A clean personal website by Kevin Drum with a cool "cursor in a computer" animat
 {% ext "Lupin & Holmes", "https://www.landh.tech" %}
 A cybersecurity agency with an outstanding website.
 
+{% ext "meyerweb", "https://meyerweb.com" %}
+Eric A. Meyer's "internet tradition".
+
 {% ext "nicchan.me", "https://www.nicchan.me" %}
 Nice colors, well-used screen space.
 
