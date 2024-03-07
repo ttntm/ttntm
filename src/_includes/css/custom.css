@@ -136,7 +136,7 @@
   scroll-behavior: smooth;
 }
 
-*:hover {
+body *:hover {
   transition: all .35s ease-in-out;
 }
 
@@ -769,7 +769,8 @@ summary:active {
   }
 
   *:hover {
-    transition: all .0s ease-in-out;
+    transition: none;
+    transition-duration: 0ms;
   }
 }
 
