@@ -763,6 +763,10 @@ summary:active {
   transition: transform .125s ease;
 }
 
+* {
+  transition: background .0s ease;
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
   *:active {
     transform: none;
