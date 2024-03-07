@@ -736,7 +736,6 @@ summary h2 {
 .card {
   display: block;
   background-color: var(--bg);
-  background: linear-gradient(to bottom right, transparent, var(--bg), transparent), var(--bg-noise) repeat, var(--bg);
   border: 1px solid var(--border);
   padding: 2rem;
 }
