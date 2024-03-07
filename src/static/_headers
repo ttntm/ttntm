@@ -7,9 +7,9 @@
   Content-Security-Policy: default-src 'self' 'unsafe-inline'; img-src *; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'
 
 /demos/*
+  ! Content-Security-Policy
   X-XSS-Protection: 1; mode=block
   X-Frame-Options: DENY
-  Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval' data: blob:
 
 /fonts/*
   Cache-Control: public, max-age=31536000
