@@ -2,8 +2,9 @@
 
 /archive/ /blog/ 301
 /articles/ /blog/ 301
+/contact /about/ 301
 /contact/* /about/ 301
+/notes/:id /notes/ 301
 /projects/* /work/ 301
-/notes/* /notes/ 301
 /til/* /notes/ 301
 /today-i-learned/* /notes/ 301
