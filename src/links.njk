@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
   <ul class="list-reset grid grid2 gap1 mt2">
     {% for item in links %}
       <li class="d-block">
-        <a class="w100 u-url p-name like-link flex align-items-center justify-content-center shadow-md-hover hover-scale-sm no-underline px2 py1 mx-auto" href="{{ item.url }}" {%- if item.rel -%}rel="{{ item.rel }}{%- endif -%}" style="border: 1px solid var(--border);">
+        <a class="card w100 u-url p-name like-link flex align-items-center justify-content-center shadow-md-hover hover-scale-sm no-underline py1" href="{{ item.url }}" {%- if item.rel -%}rel="{{ item.rel }}{%- endif -%}">
           <span class="d-block">{{ item.name }}</span>
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

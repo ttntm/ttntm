@@ -578,6 +578,7 @@ button {
 
 .btn,
 .btn-theme-header {
+  color: var(--btnText);
   background-color: transparent;
   border: 0;
   border-radius: 99999px;
@@ -585,16 +586,15 @@ button {
   text-decoration: none;
 }
 
-.btn,
-.btn-theme-header {
-  color: var(--btnText);
-}
-
 .btn {
   background-color: var(--btnBg);
   box-shadow: 0 .125rem .25rem var(--shadowColor);
   padding: .5rem 1.5rem;
   font-weight: bold;
+
+  &:active {
+    text-decoration: none;
+  }
 
   &:hover {
     background-color: var(--btnBgHover);
