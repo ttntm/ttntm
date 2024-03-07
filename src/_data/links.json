@@ -30,7 +30,7 @@
   },
   {
     "name": "RSS",
-    "url": "/feed.xml"
+    "url": "/feed/"
   },
   {
     "name": "Sponsor",
