@@ -83,7 +83,7 @@
   --black: #121212;
   /* --bg: var(--darker); */
   --bg: #232731;
-  --bg-noise: url('/img/noise-dark-32x32.png');
+  --bg-noise: url('/img/noise-light-32x32.png');
   --border: var(--dark);
   --btnBg: var(--black);
   --btnText: silver;
@@ -153,7 +153,7 @@ html {
 }
 
 body {
-  background: radial-gradient(circle, var(--bg), transparent), var(--bg-noise) repeat, var(--bg);
+  background: linear-gradient(to right, transparent, var(--bg), transparent), var(--bg-noise) repeat, var(--bg);
   background-attachment: fixed;
   color: var(--text);
   display: flex;
@@ -165,6 +165,13 @@ body {
   line-height: 1.5;
   margin: 0;
   text-align: left;
+}
+
+@media(min-width:768px) {
+  body {
+    background: radial-gradient(circle, var(--bg), transparent), var(--bg-noise) repeat, var(--bg);
+    background-attachment: fixed;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -729,6 +736,7 @@ summary h2 {
 .card {
   display: block;
   background-color: var(--bg);
+  background: linear-gradient(to bottom right, transparent, var(--bg), transparent), var(--bg-noise) repeat, var(--bg);
   border: 1px solid var(--border);
   padding: 2rem;
 }

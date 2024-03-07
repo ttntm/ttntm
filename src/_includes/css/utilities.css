@@ -221,6 +221,7 @@
 }
 
 .shadow, .shadow-hover, .shadow-md-hover {
+  transition: box-shadow .35s;
   transition-timing-function: ease !important;
 }
 
@@ -342,7 +343,8 @@
 .hover-scale,
 .hover-scale-sm {
   transform: scale(1);
-  transition: transform ease .35s;
+  transition: transform .35s, box-shadow .35s;
+  transition-timing-function: ease !important;
 }
 
 .hover-scale:hover {
