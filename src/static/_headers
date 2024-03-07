@@ -1,0 +1,21 @@
+/*
+  X-XSS-Protection: 1; mode=block
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: document-domain=()
+  Content-Security-Policy: default-src 'self' 'unsafe-inline'; img-src *; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'
+
+/demos/*
+  X-XSS-Protection: 1; mode=block
+  X-Frame-Options: DENY
+  Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval' data: blob:
+
+/fonts/*
+  Cache-Control: public, max-age=31536000
+
+/*.css
+  Content-Type: text/css
+
+/*.js
+  Content-Type: application/javascript
