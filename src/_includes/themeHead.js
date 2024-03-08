@@ -33,7 +33,7 @@ function getIcon(theme, className, size, stroke, thickness) {
     : iconMoon
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+function main() {
   const themePref = getThemeFromLS()
   
   if (!themePref) {
@@ -48,4 +48,10 @@ window.addEventListener('DOMContentLoaded', () => {
   } else {
     applyTheme(themePref)
   }
-})
+}
+
+// necessary to show the correct icon
+document.addEventListener('DOMContentLoaded', main)
+
+// necessary to avoid FOUC
+main()
