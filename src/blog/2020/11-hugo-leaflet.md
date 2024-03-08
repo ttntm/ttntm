@@ -301,7 +301,7 @@ Not much else to say here, basically just another convenience feature.
 
 ### Demo
 
-> As mentioned above, there's a live demo on Netlify. It can be found here: {% ext "storelocator.ttntm.me", "https://storelocator.ttntm.me" %}
+> As mentioned above, there's a live demo on Netlify. It can be found here: {% ext "leaflet-store-locator", "https://leaflet-store-locator.netlify.app" %}
 
 The {% ext "GitHub Repository", "https://github.com/ttntm/hugo-leaflet-store-locator" %} requires Hugo to build/run the site; after cloning/downloading it, you can either `hugo server` or `npm run start` in order to view the site on `http://localhost:1313`.
 
