@@ -220,13 +220,13 @@
   border-radius: 99999px;
 }
 
-.shadow, .shadow-hover, .shadow-md-hover {
-  transition: box-shadow .35s;
-  transition-timing-function: ease !important;
-}
-
 .shadow {
   box-shadow: 0 .125rem .25rem var(--shadowColor);
+}
+
+.shadow-hover, .shadow-md-hover {
+  transition: box-shadow .35s;
+  transition-timing-function: ease !important;
 }
 
 .shadow-hover:hover {

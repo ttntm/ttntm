@@ -32,8 +32,5 @@ Ethical, easy-to-use and privacy-conscious alternatives to well-known software.
 {% ext "Teach Yourself Computer Science", "https://teachyourselfcs.com" %}
 World-class CS education without investing years and a small fortune in a degree program.
 
-{% ext "UI Design Daily", "https://www.uidesigndaily.com" %}
-1500+ Open Source UI Resources.
-
 {% ext "untools", "https://untools.co" %}
 Thinking tools and frameworks to help you solve problems, make decisions and understand systems.

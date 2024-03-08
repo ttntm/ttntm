@@ -17,7 +17,7 @@ I love cyberpunk stories and this one was a good one. The game itself definitely
 _Addendum 09/2023_: currently enjoying 2.0 and the DLC which re-designed many of the game's core systems (i.e. cyberware, weapons) and offers a pretty good new storyline.
 
 **Dark Souls I & III**
-Getting into Dark Souls I took me 3 attempts over 6 months back in 2013. But when it finally clicked, it clicked for good. The difficulty aside, From Software is *really* good at building a world for those that go looking for it. Sure, you could also just blaze through the game, enjoy the fights and move on. But for me, the true depth of both DS I and III was found in the cryptic lore and the NPCs storylines. Coop and PVP were fun too. 
+Getting into Dark Souls I took me 3 attempts over 6 months back in 2013. But when it finally clicked, it clicked for good. The difficulty aside, From Software is *really* good at building a world for those that go looking for it. Sure, you could also just blaze through the game, enjoy the fights and move on. But for me, the true depth of both DS I and III was found in the cryptic lore and the NPCs storylines. Coop and PVP were fun too.
 "What about Dark Souls II?", you might ask - well, I played it about halfway through and stopped. It just wasn’t for me and I doubt I’ll ever try again.
 
 **Returnal**
@@ -57,7 +57,7 @@ The base game was originally released for PS3 in 2012; I played its re-release i
 ## Strategy Games & Sims
 
 **Cities: Skylines**
-One of the rare gems that I completely got lost in. Played both the PC and the PS4 versions; the PC version wins, because there are mods that change both gameplay (i.e. traffic) and visuals (i.e. user created assets like buildings). Early (unmodded/vanilla) cities were fun, but what I really discovered as "my thing" was building smaller, highly customized towns that were close/r to reality and (mostly) built using individually placed buildings instead of the vanilla game’s autopopulated zones. It’s definitely a time-consuming game, can be tedious too (traffic…), but building {% ext "a somewhat realistic looking city and looking at it from above", "https://i.imgur.com/Vngxk8K.jpeg" %} felt rewarding to me.
+One of the rare gems that I completely got lost in. Played both the PC and the PS4 versions; the PC version wins, because there are mods that change both gameplay (i.e. traffic) and visuals (i.e. user created assets like buildings). Early (unmodded/vanilla) cities were fun, but what I really discovered as "my thing" was building smaller, highly customized towns that were close/r to reality and (mostly) built using individually placed buildings instead of the vanilla game’s autopopulated zones. It’s definitely a time-consuming game, can be tedious too (traffic…), but building [a somewhat realistic looking city](/img/CS_Screenshot.jpg) and looking at it from above felt rewarding to me.
 
 **Freelancer**
 Probably the best "space sim RPG" I ever played. Good story, an open world that felt alive and pretty cool ship you could fly around in. I played many other games that looked similar since then, but none ever came close.

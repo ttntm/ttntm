@@ -12,12 +12,12 @@
     "url": "https://codeberg.org/ttntm"
   },
   {
-    "name": "Dev.to",
-    "url": "https://dev.to/ttntm"
-  },
-  {
     "name": "GitHub",
     "url": "https://github.com/ttntm"
+  },
+  {
+    "name": "Likes",
+    "url": "/likes/"
   },
   {
     "name": "Mastodon",

@@ -2,7 +2,7 @@
 title: Building a Filterable Portfolio with Astro and Vue
 slug: building-portfolio-with-astro-and-vue
 date: 2024-02-13
-description: I published another Astro starter this week and this article offers an in-depth look at how it's built.
+description: I published a new Astro starter this week and this article offers an in-depth look at how it's built.
 tags:
   - astro
   - template
@@ -10,11 +10,11 @@ tags:
 image: /img/blog/astro-portfolio.jpg
 ---
 
-A couple of months ago, I started working on a re-build of my wife's website. This wasn't the first time I did that, but it's been the most successful attempt so far, considering that we're almost done with it. I knew that I was going to stick with Astro, which I'd already used for a previous attempt in late 2022, but I decided to use Contentful over StoryBlok as a headless CMS. 
+A couple of months ago, I started working on a re-build of my wife's website. This wasn't the first time I did that, but it's been the most successful attempt so far, considering that we're almost done with it. I knew that I was going to stick with Astro, which I'd already used for a previous attempt in late 2022, but I decided to use Contentful over StoryBlok as a headless CMS.
 
 Contentful has been a great choice so far, both in terms of developer experience and end user features. And on top of that, their free tier is _really_ generous if you know what you're doing (mostly in terms of the data model). I think I got a little side-tracked here, might get back to that topic at some point...
 
-Anyway, we're here to talk about building a filterable portfolio with Astro and Vue. 
+Anyway, we're here to talk about building a filterable portfolio with Astro and Vue.
 
 First, let's have a look at a brief summary of the core requirements:
 
@@ -33,7 +33,7 @@ The result is going to look like this:
   <img src="/img/blog/astro-portfolio.jpg" class="img-fluid img-center" alt="Screenshot of a portfolio website">
 </p>
 
-...and has already been published as a {% ext "template repository at GitHub", "https://github.com/ttntm/astro-potfolio-starter/" %}. 
+...and has already been published as a {% ext "template repository at GitHub", "https://github.com/ttntm/astro-potfolio-starter/" %}.
 
 There's also a {% ext "live demo", "https://codesandbox.io/p/github/ttntm/astro-potfolio-starter/main" %} in a CodeSandbox that should help when following the rest of this article.
 
@@ -92,7 +92,7 @@ As mentioned earlier, our portfolio list page is a Vue island with 3 components:
 
 Let's have a closer look at the `script setup` sction of our `PortfolioList.vue` component now.
 
-First, our component receives the whole portfolio collection from the `[...path].astro` page template and proceeds to create a list of unique tags using the `getUniqueTags()` utility function. You're welcome to check it out, but that function's essentially just using `new Set()` to deduplicate an array of arrays of tags obtained from the portfolio pages. 
+First, our component receives the whole portfolio collection from the `[...path].astro` page template and proceeds to create a list of unique tags using the `getUniqueTags()` utility function. You're welcome to check it out, but that function's essentially just using `new Set()` to deduplicate an array of arrays of tags obtained from the portfolio pages.
 
 These unique tags are then passed to the `PortfolioListNav.vue` component that renders the filter/sub-navigation.
 
@@ -135,13 +135,13 @@ function applyFilterFromURL() {
 ```js
 function updateFilter(newVal: string) {
   const url = new URL(window.location.href)
-  
+
   if (newVal) {
     url.searchParams.set('filter', newVal)
   } else {
     url.searchParams.delete('filter')
   }
-  
+
   window.history.pushState({}, '', url.toString())
   currentFilter.value = newVal
 }
@@ -158,7 +158,7 @@ We're using a `<transition-group>` wrapper ({% ext "Vue Docs: TransitionGroup", 
   transition: all .75s;
 }
 
-.list-enter-from, 
+.list-enter-from,
 .list-leave-to {
   opacity: 0;
   transform: translateY(-10px);
