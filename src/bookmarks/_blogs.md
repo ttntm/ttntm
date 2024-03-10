@@ -26,6 +26,9 @@ Matthias Ott
 {% ext "michaelnthiessen.com", "https://michaelnthiessen.com" %}
 Michael Thiessen
 
+{% ext "rootCompute", "https://rootcompute.neocities.org" %}
+rootCompute's personal website
+
 {% ext "urban style engineering", "https://urbanisierung.dev" %}
 Adam Urban
 
