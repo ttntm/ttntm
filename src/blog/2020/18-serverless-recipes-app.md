@@ -13,17 +13,17 @@ image: /img/blog/client-serverless-credit-faunadb.png
 
 ## Introduction
 
-I had already heard of {% ext "client-serverless architecture", "https://fauna.com/client-serverless" %} and read a bunch of articles about the subject when I came up with the idea of creating a {% ext "personal use recipes app", "https://recept0r.com" %} earlier this year - I hadn't done anything like that before though.
+I had already heard of client-serverless architectures and read a bunch of articles about the subject when I came up with the idea of creating a {% ext "personal use recipes app", "https://recept0r.com" %} earlier this year - I hadn't done anything like that before though.
 
 <img src="/img/blog/client-serverless-credit-faunadb.png" class="img-fluid img-center mb1" alt="client-serverless application model">
 
 What I had in mind at this point was a minimal web application that would serve me and {% ext "my wife", "https://sahar.design" %} (who took care of the design) as a recipes collection for food that we enjoy cooking. Convenient bonus features like PWA functionality (i.e. using the app on the phone or tablet when standing in the kitchen) and user authentication should be available too, making sure it's not just functional, but also enjoyable to use.
 
-At first, I was tempted to go for a static site + headless CMS approach that worked really well for many other projects I did - it could be considered serverless, but it wouldn't have been a challenge, nor anything I hadn't done before; and that's precisely the reason I went looking for something else, eventually going for Vue.js + FaunaDB for this project.
+At first, I was tempted to go for a static site + headless CMS approach that worked really well for many other projects I did - it could be considered serverless, but it wouldn't have been a challenge, nor anything I hadn't done before; and that's precisely the reason I went looking for something else, eventually going for Vue.js + Fauna for this project.
 
 ### Why Fauna?
 
-The first time I came across {% ext "FaunaDB", "https://dashboard.fauna.com/accounts/register?utm_source=DevTo&utm_medium=referral&utm_campaign=WritewithFauna_ServerlessRecipes_TDoe" %} was when I was looking for SQL alternatives for a project at work last year. We didn't go for it (PostgreSQL was chosen in the end), but I kept it in mind for the future. Back then, it may have sounded a little "too good to be true" for the majority of the decision makers involved, but marketing statements like "add a global datastore to your app in minutes" and "don't worry about database correctness, sharding, provisioning, latency, or scale" left me with an overall positive impression of their service.
+The first time I came across Fauna was when I was looking for SQL alternatives for a project at work last year. We didn't go for it (PostgreSQL was chosen in the end), but I kept it in mind for the future. Back then, it may have sounded a little "too good to be true" for the majority of the decision makers involved, but marketing statements like "add a global datastore to your app in minutes" and "don't worry about database correctness, sharding, provisioning, latency, or scale" left me with an overall positive impression of their service.
 
 So, when I had to pick a database for my recipes app, I found myself looking at FaunaDB's website again, checking out their {% ext "pricing model", "https://dashboard.fauna.com/accounts/register?utm_source=DevTo&utm_medium=referral&utm_campaign=WritewithFauna_ServerlessRecipes_TDoe" %} this time. The "Always Free" plan seemed generous enough to support a small personal use app, so I didn't hesitate much and signed up right away.
 
@@ -43,15 +43,15 @@ Once logged in, registered users get 2 additional routes: "Create" and "My Recip
 
 Each of the app's individual routes=pages was implemented as its own Vue {% ext "SFC", "https://vuejs.org/v2/guide/single-file-components.html" %} file, shared functionality (i.e. navbar, toast messages, etc.) makes use of reusable components. To tie it all together, Vue extensions like `vue-router` and `vuex` were used to manage rounting and application state more efficiently - you're welcome to browse the full list of dependencies {% ext "on Codeberg", "https://codeberg.org/ttntm/recept0r/src/branch/main/package.json" %} if you're interested in what other packages I used.
 
-### FaunaDB Setup
+### Fauna Setup
 
-Setting up a database in FaunaDB is surprisingly easy - log in to your account, create a database and finally create a collection for your data (i.e. recipes). Their {% ext "documentation", "https://docs.fauna.com/fauna/current/start/cloud" %} regarding "getting started" is quite good and there's also an interactive tutorial that provides a practical introduction once you signed up.
+Setting up a database in Fauna is surprisingly easy - log in to your account, create a database and finally create a collection for your data (i.e. recipes). Their {% ext "documentation", "https://docs.fauna.com/fauna/current/start/cloud" %} regarding "getting started" is quite good and there's also an interactive tutorial that provides a practical introduction once you signed up.
 
-As FaunaDB is schema-less and close to zero-config, the structure of my app's data organically grew from its needs. An example can probably help to clarify what I mean here: initially, I didn't really think much about where to store the images for the recipes. FaunaDB is technically able to store Base64 encoded images inside the recipe objects, so I went for that approach initially. As images tend to be large though, this inflated my database, added a lot of bandwidth consumption and crippled loading times on top of that - I can assure you that it's not a good idea (also {% ext "not recommended", "https://docs.fauna.com/fauna/current/api/fql/documents#limits" %} by FaunaDB themselves).
+As Fauna is schema-less and close to zero-config, the structure of my app's data organically grew from its needs. An example can probably help to clarify what I mean here: initially, I didn't really think much about where to store the images for the recipes. Fauna is technically able to store Base64 encoded images inside the recipe objects, so I went for that approach initially. As images tend to be large though, this inflated my database, added a lot of bandwidth consumption and crippled loading times on top of that - I can assure you that it's not a good idea (also {% ext "not recommended", "https://docs.fauna.com/fauna/current/api/fql/documents#limits" %} by FaunaDB themselves).
 
-That's not the point though - my app wrote the Base64 images into the database without any specific configuration and later [replaced them with links to the actual images](/blog/how-to-use-cloudinary-with-vue-app/) just like that as well. FaunaDB simply adjusts to the data you provide, even if not all data inside a collection has the same set of properties (i.e. some recipes with picture, others without).
+That's not the point though - my app wrote the Base64 images into the database without any specific configuration and later [replaced them with links to the actual images](/blog/how-to-use-cloudinary-with-vue-app/) just like that as well. Fauna simply adjusts to the data you provide, even if not all data inside a collection has the same set of properties (i.e. some recipes with picture, others without).
 
-**To sum it up**: as far as my rather simple application is concerned, FaunaDB was quick and easy to set up and configure, no matter what data I provided or how I ended up transforming and manipulating it.
+**To sum it up**: as far as my rather simple application is concerned, Fauna was quick and easy to set up and configure, no matter what data I provided or how I ended up transforming and manipulating it.
 
 ## Serverless Functionality
 
@@ -191,7 +191,7 @@ exports.handler = (event, context, callback) => {
 
 The correct (=current) user is included in the function call and then used as the variable for the index `recipes_by_owner`. FaunaDB uses indexes for the "retrieval of documents by attributes other than their References" (see: {% ext "Indexes", "https://docs.fauna.com/fauna/current/api/fql/indexes?lang=javascript" %}). That means that you can use them to implement search within the records stored in your collection (based on pre-defined parameters, i.e. the username).
 
-In my FaunaDB dashboard, this specific index looks like this:
+In my Fauna dashboard, this specific index looks like this:
 
 <img src="/img/blog/fauna-dashboard.png" class="img-fluid img-center mb2" alt="FaunaDB dashboard">
 
@@ -257,7 +257,7 @@ exports.handler = (event, context, callback) => {
 }
 ```
 
-Much like `recipe-get.js`, this function works with the respective recipe's ID (based on its URL) in order to find the correct record to update. The data sent into the function is the complete updated recipe object, but keep in mind that in FaunaDB, "Updates are partial, and only modify values that are specified in the param_object" (see {% ext "q.update", "https://docs.fauna.com/fauna/current/api/fql/functions/update?lang=javascript" %}).
+Much like `recipe-get.js`, this function works with the respective recipe's ID (based on its URL) in order to find the correct record to update. The data sent into the function is the complete updated recipe object, but keep in mind that in Fauna, "Updates are partial, and only modify values that are specified in the param_object" (see {% ext "q.update", "https://docs.fauna.com/fauna/current/api/fql/functions/update?lang=javascript" %}).
 
 #### Delete Existing Recipes
 
@@ -298,7 +298,7 @@ Indeed, the function to delete recipes concludes the serverless "backend" functi
 
 Considering that this was my first "real" application (not counting tutorial ToDo apps...) built with this tech stack, I'd like to mention that it was an overall pleasant and reassuring (learning) experience. Yes, there were a few times that exhaustion, frustration and tunnel vision occurred, but I guess that's just normal. None of these "little things" made me regret my choices and all of them were eventually resolved by reading the docs (again) or simply having some rest and having another go at it the next day.
 
-The cloud services I used for this project (Cloudinary, FaunaDB and Netlify) all have a very generous free tier without any noticeable throttling or service restrictions. That means, that as of writing this, I haven't had to pay a single cent to keep my application online and functional. However, this may change if the app's ever going to be publicly accessible (i.e. anyone being able to sign up for an account). Right now, there's only a handful of users, basically no SEO and (probably) hardly any traffic (there's no analytics service running and I don't plan on adding one).
+The cloud services I used for this project (Cloudinary, Fauna and Netlify) all have a very generous free tier without any noticeable throttling or service restrictions. That means, that as of writing this, I haven't had to pay a single cent to keep my application online and functional. However, this may change if the app's ever going to be publicly accessible (i.e. anyone being able to sign up for an account). Right now, there's only a handful of users, basically no SEO and (probably) hardly any traffic (there's no analytics service running and I don't plan on adding one).
 
 In terms of **future improvements**, I definitely see the amount of data (=recipes) as a key "risk" over time. If you read until here, you'll probably know that my app's currently loading *all* recipes whenever navigating to the front page. It's still really fast, but there's only 12 recipes at the moment. A growth in content over time will probably have me working on either infinite scroll or pagination, which in turn will require a "real" (database) search function (instead of the simple `filter()` I'm currently using. Other than that, there's probably going to be some sort of import/export of recipe data at some point and maybe also a larger refactoring effort when Vue 3.0 is officially released (announced as Q3 2020 as of writing this article).
 
@@ -307,10 +307,10 @@ A final remark: there are a lot of helpful resources out there that supported me
 **The tech stack the app's based on:**
 
 - Cloudinary
-- FaunaDB
+- Fauna
 - Netlify (Hosting, Functions & User Identity)
 - Vue.js
 
 **Update Aug. 29th 2021**:
 
-The app this article is based on has been rewritten from scratch - the current source code can be found at {% ext "Codeberg", "https://codeberg.org/ttntm/recept0r" %}
+The app this article is based on has been rewritten from scratch - the current source code can be found at {% ext "Codeberg", "https://codeberg.org/ttntm/recept0r" %}.
