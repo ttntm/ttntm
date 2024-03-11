@@ -5,7 +5,7 @@ layout: page.njk
 eleventyExcludeFromCollections: true
 ---
 
-**Last updated:** Feb. 13th 2024
+**Last updated:** Mar. 11th 2024
 
 ## Hardware
 
@@ -38,11 +38,9 @@ The **VS Code extensions** I use the most are:
 
 I'm using Firefox Dev. Edition, Brave and Ungoogled Chromium as browsers currently. All my browsers use {% ext "my custom start page", "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
 
-- {% ext "uBlock Origin", "https://github.com/gorhill/uBlock#ublock-origin" %} (all browsers)
-- {% ext "Chameleon", "https://github.com/sereneblue/chameleon" %} (FF only)
-- {% ext "CORS Everywhere", "https://github.com/spenibus/cors-everywhere-firefox-addon" %} (FF only)
-- {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %} (FF only)
-- {% ext "uMatrix", "https://github.com/gorhill/uMatrix" %} (FF only)
+- {% ext "CORS Everywhere", "https://github.com/spenibus/cors-everywhere-firefox-addon" %}
+- {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %}
+- {% ext "uBlock Origin", "https://github.com/gorhill/uBlock#ublock-origin" %}
 
 In addition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found over at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
 
@@ -51,6 +49,10 @@ Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes
 Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %} for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, {% ext "Proton VPN", "https://pr.tn/ref/NZA2PC6HYFMG" %} when I need a VPN and {% ext "Omatsuri", "https://omatsuri.app/" %} for many other things I need to get done.
 
 _<span class="small">The Proton product links above contain a referral which gives you a free month of Proton Plus.</span>_
+
+## Entertainment/Gaming
+
+I play my video games on a PlayStation 5 (disk edition, capable of DVD/Blu-ray playback) that's connected to a 58" Samsung Q60T. There's also a Minisforum (mini-) PC connected to the TV that we're using as a media center.
 
 ## Music
 
