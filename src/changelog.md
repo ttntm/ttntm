@@ -9,6 +9,11 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.9.2
+
+- Removed most product links from [/uses](/uses/)
+- Pledged to {% ext "never monetize", "https://www.nevermonetize.com" %} this website's visitors and users
+
 ## Version 3.9.1
 
 - Added more RSS feeds, see [/feeds](/feeds/)

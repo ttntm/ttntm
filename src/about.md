@@ -56,15 +56,16 @@ A bit of information about this website. Feel free to <a href="mailto:ttntm@pm.m
 
 ### Colophon
 
-There's a [Changelog](/changelog/) that contains all the major changes this website has gone through over the years.
-
 The tech stack used for the current version is:
 
-- Eleventy
-- PostCSS
 - Cloudflare Pages
+- Eleventy
+- Git
+- PostCSS
 
-This website contains <s>no</s> _only minimal_ JavaScript ([theme persistence](/blog/dark-mode/)) and the total uncompressed size of it's landing page is less than 100KB.
+This website contains <s>no</s> _only minimal_ JavaScript ([theme persistence](/blog/dark-mode/)) and the total uncompressed size of it's landing page is less than 100 KB. There's absolutely no tracking and I will {% ext "never monetize", "https://www.nevermonetize.com" %} this website's visitors and users.
+
+There's also a [Changelog](/changelog/) that contains all the major changes this website has gone through over the years.
 
 #### Carbon Rating
 
@@ -87,4 +88,8 @@ This website is a proud member of:
 
 ### Support
 
-If you enjoy your time on this website, please consider sponsoring me on <a href="https://github.com/sponsors/ttntm/" target="_blank" rel="noopener">GitHub Sponsors</a> or <a href="https://www.buymeacoffee.com/ttntm" target="_blank" rel="noopener">Buy Me a Coffee</a> to show your appreciation of what I'm doing here. _THANK YOU &#9825;_
+If you're looking for a way to show your appreciation for what I'm doing here: you could consider sponsoring me on <a href="https://github.com/sponsors/ttntm/" target="_blank" rel="noopener">GitHub Sponsors</a> or <a href="https://www.buymeacoffee.com/ttntm" target="_blank" rel="noopener">Buy Me a Coffee</a>.
+
+<a href="mailto:ttntm@pm.me">Kind words</a> are always welcome too.
+
+_THANK YOU &#9825;_

@@ -1,6 +1,6 @@
 ---
 title: My Setup and Tools
-description: The hardware and the software I currently use.
+description: Hardware and software I currently use.
 layout: page.njk
 eleventyExcludeFromCollections: true
 ---
@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 
 ## Hardware
 
-I use an immortal Dell Precision M3800 from 2013 running {% ext "Manjaro", "https://manjaro.org" %} for private stuff and a company owned Lenovo ThinkPad P14s Gen 3 running {% ext "Fedora", "https://getfedora.org" %} for work. I'm mostly working from home these days, but most of the time I don't use an external keyboard or monitor. As far as peripherals are concerned, I use Bose Noise Cancelling Headphones 700 and a 4TB Seagate external hard drive. Once in a while I also use a mouse that keeps hanging around at home.
+I use an immortal Dell Precision M3800 from 2013 running Manjaro for private stuff and a company owned Lenovo ThinkPad P14s Gen 3 running Fedora for work. I'm mostly working from home these days, but most of the time I don't use an external keyboard or monitor. As far as peripherals are concerned, I use Bose Noise Cancelling Headphones 700 and a 4 TB Seagate external hard drive. Once in a while I also use a mouse that keeps hanging around at home.
 
 My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my LG G7 ThinQ after her beloved Sony phone died. The Pixel's a great phone and I got so used to gesture navigation that using other phones feels somehow off now. My work phone is a refurbished iPhone Xs that does what it needs to do (mostly emails, MFA and Teams) rather well.
 
@@ -38,17 +38,15 @@ The **VS Code extensions** I use the most are:
 
 I'm using Firefox Dev. Edition, Brave and Ungoogled Chromium as browsers currently. All my browsers use {% ext "my custom start page", "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
 
-- {% ext "CORS Everywhere", "https://github.com/spenibus/cors-everywhere-firefox-addon" %}
-- {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %}
-- {% ext "uBlock Origin", "https://github.com/gorhill/uBlock#ublock-origin" %}
+- CORS Everywhere
+- Proton Pass
+- uBlock Origin
 
 In addition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found over at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
 
-Other than that, {% ext "Notion", "https://notion.so" %} is what I use for notes, personal task management and writing. {% ext "Omnivore" "https://omnivore.app" %} is my read-it-later solution and all the information I need/want to keep ends up in my {% ext "personal wiki" "https://kb.ttntm.me" %} eventually. {% ext "Proton Mail", "https://pr.tn/ref/NZA2PC6HYFMG" %} takes care of my emails. When I need to edit pixels, I'm using {% ext "GIMP", "https://www.gimp.org" %} or {% ext "Photopea", "https://https://www.photopea.com" %} and when I have to work with vectors, I'm using {% ext "Figma", "https://www.figma.com" %} or {% ext "Inkscape", "https://inkscape.org" %}.
+Other than that, Notion is what I use for notes and personal task management. {% ext "Omnivore" "https://omnivore.app" %} is my read-it-later solution and all the information I need/want to keep ends up in my {% ext "personal wiki" "https://kb.ttntm.me" %} eventually. Proton Mail takes care of my emails. When I need to edit pixels, I'm using GIMP or Photopea and when I have to work with vectors, I'm using Figma or Inkscape.
 
-Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: {% ext "Proton Pass", "https://pr.tn/ref/NZA2PC6HYFMG" %} for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, {% ext "Proton VPN", "https://pr.tn/ref/NZA2PC6HYFMG" %} when I need a VPN and {% ext "Omatsuri", "https://omatsuri.app/" %} for many other things I need to get done.
-
-_<span class="small">The Proton product links above contain a referral which gives you a free month of Proton Plus.</span>_
+Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: Proton Pass for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, Proton VPN when I need a VPN and {% ext "Omatsuri", "https://omatsuri.app" %} for many other things I need to get done.
 
 ## Entertainment/Gaming
 
@@ -60,4 +58,4 @@ I don't use any music streaming services. It's either local files via {% ext "cm
 
 <div class="hr shadow mb1"></div>
 
-_Inspired by {% ext "lots of other personal websites", "https://uses.tech" %}._
+Inspired by {% ext "lots of other personal websites", "https://uses.tech" %}.
