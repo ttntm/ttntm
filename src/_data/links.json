@@ -4,10 +4,6 @@
     "url": "/blog/"
   },
   {
-    "name": "Bookmarks",
-    "url": "/bookmarks/"
-  },
-  {
     "name": "Codeberg",
     "url": "https://codeberg.org/ttntm"
   },
@@ -16,25 +12,13 @@
     "url": "https://github.com/ttntm"
   },
   {
-    "name": "Likes",
-    "url": "/likes/"
-  },
-  {
     "name": "Mastodon",
     "rel": "me",
     "url": "https://fosstodon.org/@ttntm"
   },
   {
-    "name": "Notes",
-    "url": "/notes/"
-  },
-  {
     "name": "RSS",
     "url": "/feeds/"
-  },
-  {
-    "name": "Sponsor",
-    "url": "https://github.com/sponsors/ttntm/"
   },
   {
     "name": "Wiki",

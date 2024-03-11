@@ -35,7 +35,7 @@ When I'm not in front of a screen working, <a href="https://watch3r.app" target=
 {% include "about.highlights.njk" %}
 
 <p id="cat" class="text-center mt2 mb0">
-  <a href="https://pixelfed.social/alfithecat" rel="noopener" target="_blank" title="Meow!">
+  <a href="https://pixelfed.social/alfithecat" rel="noreferrer" target="_blank" title="Meow!">
     <img class="mx-auto" src="/img/walking_cat.gif">
   </a>
 </p>
@@ -46,7 +46,7 @@ When I'm not in front of a screen working, <a href="https://watch3r.app" target=
 Fingerprint: `A8BC EEE0 AF71 7E01 3D8A A2A7 0BC9 FFE9 639B AEC3`
 
 - Key file: [publickey.ttntm@pm.me](/publickey.ttntm@pm.me-a8bceee0af717e013d8aa2a70bc9ffe9639baec3.asc)
-- Mirror: <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/A8BCEEE0AF717E013D8AA2A70BC9FFE9639BAEC3" rel="noopener" target="_blank">keys.openpgp.org</a>
+- Mirror: <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/A8BCEEE0AF717E013D8AA2A70BC9FFE9639BAEC3" rel="noreferrer" target="_blank">keys.openpgp.org</a>
 
 <div class="hr shadow mt2 mb2"></div>
 
@@ -78,7 +78,7 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 
 ### License
 
-<a id="license"></a>All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noopener" target="_blank">CC-BY-NC-SA-4.0</a>
+<a id="license"></a>All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noreferrer" target="_blank">CC-BY-NC-SA-4.0</a>
 
 ### Memberships
 
@@ -88,8 +88,6 @@ This website is a proud member of:
 
 ### Support
 
-If you're looking for a way to show your appreciation for what I'm doing here: you could consider sponsoring me on <a href="https://github.com/sponsors/ttntm/" target="_blank" rel="noopener">GitHub Sponsors</a> or <a href="https://www.buymeacoffee.com/ttntm" target="_blank" rel="noopener">Buy Me a Coffee</a>.
-
-<a href="mailto:ttntm@pm.me">Kind words</a> are always welcome too.
+<a href="mailto:ttntm@pm.me">Kind words</a> are always welcome.
 
 _THANK YOU &#9825;_
