@@ -14,9 +14,6 @@ Collaboration suite; end-to-end encrypted and open-source.
 {% ext "envs.net", "https://envs.net" %}
 A minimalist, non-commercial shared linux system and will always be free to use.
 
-{% ext "envs.sh", "https://envs.sh" %}
-File hosting and URL shortening.
-
 {% ext "Etherpad", "https://etherpad.org" %}
 Docs; collaborative editing in real-time
 

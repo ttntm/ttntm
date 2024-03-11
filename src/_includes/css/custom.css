@@ -134,6 +134,7 @@
 *::after {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  text-size-adjust: none;
 }
 
 ::selection,
@@ -379,56 +380,6 @@ main {
   .expand-xl {
     margin: 0 -5rem;
   }
-
-  .text-center-xl {
-    text-align: center;
-  }
-}
-
-.grid {
-  display: grid;
-}
-
-.grid2 {
-  grid-template-columns: 1fr;
-}
-
-.grid3 {
-  grid-template-columns: 1fr 1fr;
-}
-
-.grid4 {
-  grid-template-columns: 1fr 1fr;
-}
-
-.gap1 {
-  gap: 1rem;
-}
-
-.gap2 {
-  gap: 2rem;
-}
-
-@media(min-width:768px) {
-  .grid2 {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .grid3 {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .grid4 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  .grid .first {
-    grid-column-start: 1;
-  }
-
-  .grid .second {
-    grid-column-start: 2;
-  }
 }
 
 /* NAV STYLES */
@@ -647,7 +598,8 @@ button {
 
 @media(min-width:768px) {
   .home {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-flow: column;
     max-width: calc(100vw - 12vw);
     gap: 4rem;
     margin-top: 3rem;

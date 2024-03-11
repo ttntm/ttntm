@@ -38,12 +38,12 @@
     {
       "url": "/bookmarks/",
       "title": "/bookmarks",
-      "details": "a directory of useful and interesting links"
+      "details": "resources, tools and websites"
     },
     {
       "url": "/games/",
       "title": "/games",
-      "details": "a curated list of my favorite videogames"
+      "details": "some of my favorite videogames"
     },
     {
       "url": "/likes/",
@@ -58,12 +58,12 @@
     {
       "url": "/now/",
       "title": "/now",
-      "details": "what I'm (supposed to be…) doing now"
+      "details": "what I'm doing now"
     },
     {
       "url": "/uses/",
       "title": "/uses",
-      "details": "hardware, software, etc. I currently use"
+      "details": "my current setup"
     }
   ],
   "social": [
