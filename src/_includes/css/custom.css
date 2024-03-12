@@ -689,7 +689,16 @@ summary h2 {
   display: block;
   background-color: var(--bg);
   border: 1px solid var(--border);
+  height: 100%;
   padding: 2rem;
+}
+
+.old-content-note {
+  background: linear-gradient(to bottom right,  color-mix(in srgb, var(--yellow), transparent 75%), var(--bg));
+  border: 2px solid var(--yellow);
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
 }
 
 /* TRANSITIONS */

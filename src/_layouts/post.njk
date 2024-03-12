@@ -8,6 +8,7 @@ layout: base.njk
   </p>
   {% include "post.tags.njk" %}
   <div class="hr shadow"></div>
+  {% oldContentNote date %}
   <div class="post">
     {{ content | safe }}
   </div>

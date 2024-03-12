@@ -26,13 +26,15 @@ My professional career in IT started in 2008, and I worked for telecom and IT se
 
 When I'm not in front of a screen working, <a href="https://watch3r.app" target="_blank">watching movies</a> or [playing videogames](/games/), I enjoy spending time with my family, parenting a lovely [Persian cat](#cat) and being outside (cycling, gardening, hiking). I also like playing boardgames with friends and working on DIY projects. Oh, and I really love cooking - just head over to <a href="https://recept0r.com" target="_blank">recept0r</a> if you're curious.
 
-{% contact %}
-  {% include "about.contact.njk" %}
-{% endcontact %}
+{% include "about.pgp.njk" %}
+
+{% include "about.highlights.njk" %}
 
 <div class="hr shadow mt2 mb2"></div>
 
-{% include "about.highlights.njk" %}
+{% contact %}
+  {% include "about.contact.njk" %}
+{% endcontact %}
 
 <p id="cat" class="text-center mt2 mb0">
   <a href="https://pixelfed.social/alfithecat" rel="noreferrer" target="_blank" title="Meow!">
@@ -40,15 +42,6 @@ When I'm not in front of a screen working, <a href="https://watch3r.app" target=
   </a>
 </p>
 <div class="hr shadow mb2" style="margin-top: 0;"></div>
-
-## My PGP Key
-
-Fingerprint: `A8BC EEE0 AF71 7E01 3D8A A2A7 0BC9 FFE9 639B AEC3`
-
-- Key file: [publickey.ttntm@pm.me](/publickey.ttntm@pm.me-a8bceee0af717e013d8aa2a70bc9ffe9639baec3.asc)
-- Mirror: <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/A8BCEEE0AF717E013D8AA2A70BC9FFE9639BAEC3" rel="noreferrer" target="_blank">keys.openpgp.org</a>
-
-<div class="hr shadow mt2 mb2"></div>
 
 ## About This Website
 
