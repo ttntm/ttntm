@@ -8,6 +8,7 @@
     --btnText: silver;
     --btnBgHover: var(--darkest);
     --btnTextHover: var(--yellow);
+    --cardBg: var(--dark);
     --codeBg: var(--black);
     --contentLink: var(--light);
     --contentLinkDecoration: var(--prim);

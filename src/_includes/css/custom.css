@@ -39,6 +39,7 @@
   --btnText: var(--dark);
   --btnBgHover: var(--dark);
   --btnTextHover: var(--light);
+  --cardBg: var(--lightest);
   --codeBg: var(--lightest);
   --contentLink: var(--prim);
   --contentLinkDecoration: var(--light);
@@ -89,6 +90,7 @@
   --btnText: silver;
   --btnBgHover: var(--darkest);
   --btnTextHover: var(--yellow);
+  --cardBg: var(--dark);
   --codeBg: var(--black);
   --contentLink: var(--light);
   --contentLinkDecoration: var(--prim);
@@ -170,7 +172,7 @@ body {
 
 @media(min-width:1200px) {
   body {
-    background: radial-gradient(circle, var(--bg), transparent), var(--bg-noise) repeat, var(--bg);
+    background: radial-gradient(circle, var(--bg) 50%, transparent), var(--bg-noise) repeat, var(--bg);
     background-attachment: fixed;
   }
 }
@@ -688,6 +690,8 @@ summary h2 {
 .card {
   display: block;
   background-color: var(--bg);
+  background: linear-gradient(to bottom right,  color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
+  backdrop-filter: blur(8px);
   border: 1px solid var(--border);
   height: 100%;
   padding: 2rem;
@@ -695,6 +699,7 @@ summary h2 {
 
 .old-content-note {
   background: linear-gradient(to bottom right,  color-mix(in srgb, var(--yellow), transparent 75%), var(--bg));
+  backdrop-filter: blur(8px);
   border: 2px solid var(--yellow);
   font-size: 1.125rem;
   padding: 1.5rem;
