@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
   <div class="w25 w75m p1 mx-auto">
     <img class="img-fluid circle shadow u-photo" src="/img/ttntm.webp" alt="An illustration showing Tom" title="Yup, that could be me." width="285" height="285">
   </div>
-  <div class="w75 w100m pl2-dsktp">
+  <div class="w75 w100m indent-2-md">
     <h2 class="h3">
       Hi, I'm Tom.
     </h2>

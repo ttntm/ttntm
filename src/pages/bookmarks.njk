@@ -35,7 +35,7 @@ eleventyExcludeFromCollections: true
     <h2 id="{{ item.data.title | slugify }}" class="h5 d-sm-inline-flex">
       <span style="margin-right: .5rem;"><a id="{{ item.data.title | slugify }}" href="#{{ item.data.title | slugify }}" class="no-underline u-url" style="border: 0;">#</a></span><span class="p-name">{{ item.data.title }}</span>
     </h2>
-    <div class="post e-content px1">
+    <div class="post e-content indent-1-lg">
       {{ item.templateContent | safe }}
     </div>
     {% if not loop.last %}

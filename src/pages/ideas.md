@@ -14,5 +14,7 @@ This is a public list of my ideas for future projects. [Email me](mailto:ttntm@p
 - A minimal bookmark manager
 - A reboot reminder bot for ActivityPub/Mastodon
 - A browser game that works on a Q/A basis; user submitted question/answer combinations, 1 question per calendar day
+- An offline version / desktop app for recpt0r; should use a local DB
+- A "bring your own API keys" desktop / mobile version for watch3r; should use a local DB
 
 **Last updated:** March 14th 2024

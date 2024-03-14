@@ -335,8 +335,14 @@
 }
 
 @media (min-width: 576px) {
-  .pl2-dsktp {
+  .indent-2-md {
     padding-left: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .indent-1-lg {
+    padding-left: 1rem;
   }
 }
 
