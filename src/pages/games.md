@@ -1,14 +1,18 @@
 ---
 title: Game Recommendations
 description: A curated list of my favorite videogames with reasons why I love them.
-layout: page.njk
 image: /img/games.jpg
+layout: page.njk
+permalink: /games/index.html
 eleventyExcludeFromCollections: true
 ---
+
 
 This is a curated list of my favorite videogames with reasons why I love them. A lot of games are going to be omitted here; a complete list of (almost) everything I ever played can be found {% ext "at Grouvee", "https://www.grouvee.com/user/ttntm/" %}.
 
 Feel free to [let me know](mailto:ttntm@pm.me) if you enjoy any of the games I listed here or if you want to recommend something you think I'd also like!
+
+<img src="/img/games.jpg" class="img-center img-fluid" alt="Pac-Man tiles" style="width: 100%;">
 
 ## Great Stories
 

@@ -3,6 +3,7 @@ title: About Me
 description: Information about this website and its author.
 layout: page.njk
 templateEngineOverride: md,njk
+permalink: /about/index.html
 eleventyExcludeFromCollections: true
 ---
 
@@ -38,7 +39,7 @@ When I'm not in front of a screen working, <a href="https://watch3r.app" target=
 
 <p id="cat" class="text-center mt2 mb0">
   <a href="https://pixelfed.social/alfithecat" rel="noreferrer" target="_blank" title="Meow!">
-    <img class="mx-auto" src="/img/walking_cat.gif">
+    <img class="m0 mx-auto" src="/img/walking_cat.gif">
   </a>
 </p>
 <div class="hr shadow mb2" style="margin-top: 0;"></div>

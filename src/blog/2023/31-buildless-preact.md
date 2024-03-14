@@ -10,7 +10,7 @@ tags:
 image: /img/blog/buildless-preact.png
 ---
 
-The opening paragraph of the last article published on this site already gave it away: I'm going to be writing about Preact a little more. In fact, the purpose of this article is really "just" an announcement: 
+The opening paragraph of the last article published on this site already gave it away: I'm going to be writing about Preact a little more. In fact, the purpose of this article is really "just" an announcement:
 
 I've published a template/starter intended to showcase how I'm using Preact for SPAs in buildless environments.
 
@@ -18,9 +18,7 @@ It's probably going to seems a little lazy, but I'm going to publish the {% ext 
 
 There's also a demo which can be found here: [ttntm.me/demos/bps/](https://ttntm.me/demos/bps/)
 
-<p>
-  <img src="/img/blog/buildless-preact.png" class="img-fluid img-center" alt="Screenshot of a demo app">
-</p>
+<img src="/img/blog/buildless-preact.png" class="img-fluid img-center" alt="Screenshot of a demo app">
 
 ## Preface
 
@@ -50,7 +48,7 @@ For the most minimal setup, this is where it ends: your Preact SPA is inlined in
 
 Source code: {% ext "./app.js", "https://github.com/ttntm/buildless-preact-starter/blob/main/app.js" %}
 
-Your SPA's entry point, kept in a separate file. Follow this approach if you can (i.e. if your environment supports it). 
+Your SPA's entry point, kept in a separate file. Follow this approach if you can (i.e. if your environment supports it).
 
 The file uses a default export (`export default function App(config)`) that consumes a `config` object. A practical example: `config` could be used to pass data obtained from the server side to the SPA if the target system provides the functionality to run server side code in `index.html`.
 

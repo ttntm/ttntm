@@ -14,9 +14,7 @@ Earlier this week, I ported my "simple landing page" template to {% ext "Astro",
 
 I initially published it for Hugo in July 2020, followed by an 11ty version in March 2021.
 
-<p>
-  <img src="/img/blog/astro-landing-page.jpg" class="img-fluid img-center" alt="Screenshot of a landing page in a browser window">
-</p>
+<img src="/img/blog/astro-landing-page.jpg" class="img-fluid img-center" alt="Screenshot of a landing page in a browser window">
 
 Working with Astro was quite pleasant; I’d used it before (late summer/autumn 2022), but I had to consult the documentation for some things that changed in the meantime and also for a couple of other things that I simply forgot.
 

@@ -29,9 +29,7 @@ I suppose the title gave it away already: we're going to use Astro as our SSG an
 
 The result is going to look like this:
 
-<p>
-  <img src="/img/blog/astro-portfolio.jpg" class="img-fluid img-center" alt="Screenshot of a portfolio website">
-</p>
+<img src="/img/blog/astro-portfolio.jpg" class="img-fluid img-center" alt="Screenshot of a portfolio website">
 
 ...and has already been published as a {% ext "template repository at GitHub", "https://github.com/ttntm/astro-potfolio-starter/" %}.
 

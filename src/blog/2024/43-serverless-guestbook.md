@@ -14,9 +14,7 @@ I recently started working on a new side project, BUKMARK.CLUB, which I introduc
 
 So, this article is going to guide you through the process of building a serverless guestbook for a static website.
 
-<p>
-  <img src="/img/blog/guestbook.png" class="img-fluid img-center" alt="A guestbook illustration taken from undraw.co">
-</p>
+<img src="/img/blog/guestbook.png" class="img-fluid img-center" alt="A guestbook illustration taken from undraw.co">
 
 ## Definitions
 

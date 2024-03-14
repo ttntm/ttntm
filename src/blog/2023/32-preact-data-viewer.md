@@ -12,9 +12,9 @@ image: /img/blog/preact-data-viewer.png
 
 I recently published a template/starter intended to showcase how I’m using Preact for SPAs in buildless environments. Making use of it for this article’s demo application should serve as a nice follow up 😎
 
-So, let’s assume the following premise: 
+So, let’s assume the following premise:
 
-You’ve got to show personal activity data to the end users of a mountain resort (= guests that stay there and move around on bike and foot). 
+You’ve got to show personal activity data to the end users of a mountain resort (= guests that stay there and move around on bike and foot).
 
 Data aggregation, storage etc. is being taken care of by various backend services and you can pull that data into a low code front end environment quite easily. But: you’re not dealing with any kind of infrastructure that’d allow the use of CI/CD, builds, pipelines etc. - your customer wants to keep things simple and efforts to a reasonable minimum, which means you’ll have to work with the systems they’ve got in place.
 
@@ -30,9 +30,7 @@ All code mentioned and referenced in this article can be found in the demo repos
 
 The demo provides a working example that's also been published to this site: {% ext "/demos/pdv/", "https://ttntm.me/demos/pdv/" %}
 
-<p>
-  <img src="/img/blog/preact-data-viewer.png" class="img-fluid img-center" alt="Screenshot of a demo app">
-</p>
+<img src="/img/blog/preact-data-viewer.png" class="img-fluid img-center" alt="Screenshot of a demo app">
 
 Please note that the all code mentioned in this article should also show up explicitly (i.e. unprocessed, unminified) in your browser’s dev tools - it is buildless after all.
 (*A little note on that can be found at the end of the article.*)
@@ -93,7 +91,7 @@ The imaginary back end takes care of handling these constraints and provides the
 
 This file is our SPA’s shell. There’s an `export default function App(config)` in {% ext "app.js#L68", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L68" %} that’s called from `index.html` which is used to pass the data described in the previous section to the application.
 
-The code immediately runs the (destructured) `rawStats` variable through a reverse sorting function (`objectSort()`, {% ext "app.js#L51", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L51" %}) based on the `DateOfCalculation`. The rows obtained from our database are now sorted from newest to oldest record. 
+The code immediately runs the (destructured) `rawStats` variable through a reverse sorting function (`objectSort()`, {% ext "app.js#L51", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/app.js#L51" %}) based on the `DateOfCalculation`. The rows obtained from our database are now sorted from newest to oldest record.
 
 What follows is the definition of the app’s `Main()` component: first, we utilize the `useState()` {% ext "hook", "https://preactjs.com/guide/v10/hooks" %} and define the `statMap` object, then we proceed to a `useEffect()` call that basically mimics the `componentDidMount()` method which would have been used if this were a Class Component. Together with the `firstTimeRender` flag, we make sure that this `useEffect()` call only ever runs once, when the component gets mounted to the DOM:
 
@@ -155,7 +153,7 @@ function createStatMap(input) {
 
 We are using the powerful `Array.prototype.reduce()` method here, which "executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element" ({% ext "MDN", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce" %}).
 
-Let’s start right at the top: looking at `input.reduce((dateMap, currentRow) => { ... }`, `dateMap` is our *accumulator* that first contains the (optional) *initialValue* (an empty object literal `{}`) and then carries the value of each previous call of the callback function, i.e. what’s wrapped by the `return { ... }` statement in the code snippet above. 
+Let’s start right at the top: looking at `input.reduce((dateMap, currentRow) => { ... }`, `dateMap` is our *accumulator* that first contains the (optional) *initialValue* (an empty object literal `{}`) and then carries the value of each previous call of the callback function, i.e. what’s wrapped by the `return { ... }` statement in the code snippet above.
 
 The callback function does the following:
 
@@ -203,7 +201,7 @@ Considering that `Stats` was imported from the components file ({% ext "app.js#L
 
 ### components.js
 
-I prefer keeping components in a separate file. It keeps things clean(er) and helps (me) reduce side effects to a minimum required to make things work. It also makes it easier to find the source of errors that will happen sooner or later. As a quick real world example: 
+I prefer keeping components in a separate file. It keeps things clean(er) and helps (me) reduce side effects to a minimum required to make things work. It also makes it easier to find the source of errors that will happen sooner or later. As a quick real world example:
 
 An application like this one might end up having multiple views and a form somewhere eventually. Considering that forms are (hopefully…) standardized in some way and most likely used elsewhere already, there’s probably an existing `formComponents.js` file you can reuse without having to duplicate some/all of these components into the code of this particular application, creating redundancy and, as a consequence, a maintenance nightmare. On the other hand, putting your components into separate files may make small(er) apps more complicated than they’d have to be, so it’s really just an "as needed" suggestion.
 
@@ -231,7 +229,7 @@ Props:
 - `treeData`: the `statMap` object
 - `onTreeNodeClick`: a method defined in the parent component (`Stats`, {% ext "components.js#L209", "https://github.com/ttntm/preact-data-viewer-demo/blob/main/components.js#L209" %}) that handles the clicks onto the tree nodes
 
-At its core, the tree component renders an `<ul>` with a `<li>` for each one of the date keys in the `statMap` object (which itself is an array with 1 or more records). It then loops through the value of these keys and renders a `<li>` for each one of them into a nested `<ul>` inside the respective main node. The 2 nested loops make use of the `activeNode` prop to determine which one of the main nodes and which one of its children is currently active and should be highlighted (via CSS classes). 
+At its core, the tree component renders an `<ul>` with a `<li>` for each one of the date keys in the `statMap` object (which itself is an array with 1 or more records). It then loops through the value of these keys and renders a `<li>` for each one of them into a nested `<ul>` inside the respective main node. The 2 nested loops make use of the `activeNode` prop to determine which one of the main nodes and which one of its children is currently active and should be highlighted (via CSS classes).
 
 Each node has an unique id built from `key` and `AssetName` that looks like this: `07/01/2023_1-218-0815`. These ids are used by the `onTreeNodeClick` method which handles the navigation:
 
@@ -297,7 +295,7 @@ Assets (i.e. icons) are stored in their own folder and were sourced from TablerI
 
 As mentioned in the beginning of the article, the code is running in your browser just like it’s displayed in your editor. Considering production use in customer environments, this might not be ideal. But we’re still constrained to a buildless approach…
 
-A tool that could help in this situation is {% ext "esbuild", "https://esbuild.github.io/" %}. It allows creating one (or more) mini/uglyfied *.js files that can be pasted into our enterprise system. This way, we avoid using unminified code there which some curious user might end up playing around with. 
+A tool that could help in this situation is {% ext "esbuild", "https://esbuild.github.io/" %}. It allows creating one (or more) mini/uglyfied *.js files that can be pasted into our enterprise system. This way, we avoid using unminified code there which some curious user might end up playing around with.
 
 Once installed, esbuild can be used with Preact like this:
 
@@ -311,6 +309,6 @@ Once installed, esbuild can be used with Preact like this:
 
 If you were following along and/or playing around with a demo app of your own, you should have arrived at a working SPA by now. It’s built on a solid foundation and you shouldn’t have any issues extending the functionality with additional views and/or logic.
 
-This is just one example of buildless Preact; I’ve built many cool things with it in recent years of working in and around enterprise systems like the one imagined for this article. Some of the resulting SPAs are similar to the one built for this article, others are providing web access to custom functionality, some were form generators or (limited) landing page builders. 
+This is just one example of buildless Preact; I’ve built many cool things with it in recent years of working in and around enterprise systems like the one imagined for this article. Some of the resulting SPAs are similar to the one built for this article, others are providing web access to custom functionality, some were form generators or (limited) landing page builders.
 
 I wouldn’t call it something I really love doing, but it’s definitely far ahead of having to deliver similar functionality using 1000s of lines of static HTML with tons of jQuery on top of it for example. And yes, that’s definitely still happening out there, no matter how much you’d like to believe that it’s not - esp. when considering that it’s 2023 at the time of writing this article...

@@ -6,16 +6,14 @@ description: A collection of thoughts about aligning software development with w
 tags:
   - learning
   - opinion
-image: /img/blog/workflow.png
+image: /img/blog/workflow.jpg
 ---
 
 A couple of months ago, I started working on a project with the desired outcome of building a large and complex application including a 3rd party workflow engine. A wild mixture of a planned microservice and orchestration (-driven) architecture was written into the requirements documents supplied by the customer, making the whole thing sound a lot like "I want to draw software..." when read between the lines.
 
 I spent a lot of time with the topic since then: lots of discussions and workshops, and I'm also building an ever-growing proof of concept application. One thing I can already say with a bit of confidence is, that in doing so, I'm definitely learning a lot. Consequently, this article is a collection of thoughts about aligning software development and workflow engines.
 
-<p>
-  <img src="/img/blog/workflow.png" class="img-fluid img-center" alt="An illustration of workflow from Undraw">
-</p>
+<img src="/img/blog/workflow.jpg" class="img-fluid img-center" alt="An illustration of workflow from Undraw">
 
 ## What's a Workflow Engine?
 
@@ -67,7 +65,7 @@ What's likely to cause these misaligned expectations is probably a mixture of bo
 
 So, what a workflow engine ends up being used as eventually, can probably best be described as an _orchestrator_ of functionality that is actually handled by dedicated services, systems and applications. As such, lots of - potential - flexibility gets lost due to constraints of APIs, interfaces, concurrency and the necessary sequence of the actual data processing. Workflow-based orchestration might be a benefit for some use cases (i.e. avoiding hard-coded cron jobs, working with legacy systems), but it also causes an increased overhead in terms of having to maintain the necessary artifacts (i.e. flowcharts) and code (i.e. job workers, interfaces) the workflow engine needs.
 
-## Workflow-Driven Architecture 
+## Workflow-Driven Architecture
 
 Let's think of a monolithic MVC application with 3 layers like this:
 
@@ -106,7 +104,7 @@ An architecture like this becomes necessary when a workflow engine is defined as
         1. Case completed (any resolution): the workflow engine completes the task via an API call to the CSA backend, the workflow instance for this task ends
         2. Case review requested: the workflow engine starts a new instance of the case review sub-process; the parent process stays at this step until the sub-process instance gets completed; whenever that happens, the workflow circles back to a previous step (wait for event/timeout)
 
-I hope that this example is detailed enough to illustrate the _added_ complexity that adopting workflow-driven architecture can cause. 
+I hope that this example is detailed enough to illustrate the _added_ complexity that adopting workflow-driven architecture can cause.
 
 As mentioned earlier, I don't think that developing software the way it would be necessary to enable such architecture makes anything easier at all (re: "facilitates..." from the definition above). I'm saying that specifically due to the following aspects:
 

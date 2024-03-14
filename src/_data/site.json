@@ -46,14 +46,14 @@
       "details": "some of my favorite videogames"
     },
     {
+      "url": "/ideas/",
+      "title": "/ideas",
+      "details": "a list of ideas for future projects"
+    },
+    {
       "url": "/likes/",
       "title": "/likes",
       "details": "cool things found on the internet"
-    },
-    {
-      "url": "/links/",
-      "title": "/links",
-      "details": "a list of places I can be found at"
     },
     {
       "url": "/now/",

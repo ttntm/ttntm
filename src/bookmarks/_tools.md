@@ -11,6 +11,9 @@ A Real-Time Website Privacy Inspector.
 {% ext "CryptPad", "https://pad.envs.net" %}
 Collaboration suite; end-to-end encrypted and open-source.
 
+{% ext "Dithermark", "https://app.dithermark.com" %}
+Use image dithering algorithms with your own photos, right in your browser. Some images on this website were processed using Color Dither / Bayer 16x16 R / Hue Wheel 3.
+
 {% ext "envs.net", "https://envs.net" %}
 A minimalist, non-commercial shared linux system and will always be free to use.
 

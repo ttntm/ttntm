@@ -2,6 +2,7 @@
 title: Changelog
 description: A history of the changes this website has gone through since it launched in 2018.
 layout: page.njk
+permalink: /changelog/index.html
 eleventyExcludeFromCollections: true
 ---
 
@@ -9,8 +10,11 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
-## Version 3.9.3
+## Version 3.10
 
+- Completely rewrote [/work](/work/)
+- Added [/ideas](/ideas/)
+- Updated most images used for blog posts
 - Re-arranged [/about](/about/) some more
 - Added an "old content" notice for all posts older than 365 days
 

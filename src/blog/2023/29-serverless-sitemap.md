@@ -22,7 +22,7 @@ I eventually came across an old {% ext "Netlify support topic" "https://answers.
 
 ## Implementing the Sitemap
 
-The app’s sitemap contains 2 static routes (`/home` and `/about`) and an ever-changing amount of user generated content. 
+The app’s sitemap contains 2 static routes (`/home` and `/about`) and an ever-changing amount of user generated content.
 
 The first thing the sitemap function has to take care of is initializing a new XML response with the hard coded static routes. The resulting sitemap template object is split into `start/mid/end` keys to allow adding further `<url>` elements before returning the final sitemap:
 
@@ -56,7 +56,7 @@ Next, the function queries the database for all (published) content, using the s
   if (rResponse && rResponse.length > 0) {
     rResponse.forEach(el => {
       const itemURL = `${site}/recipe/${el.data.id}/${el.ref['@ref'].id}`
-      
+
       sitemap.mid += `<url>
         <loc>${itemURL}</loc>
         <changefreq>yearly</changefreq>
@@ -70,7 +70,7 @@ After that’s done, the final sitemap response gets concatenated from the `star
 
 ```js
   const sitemapFinal = `${sitemap.start}${sitemap.mid}${sitemap.end}`
-      
+
   return {
     statusCode: 200,
     headers: xmlHeaders,

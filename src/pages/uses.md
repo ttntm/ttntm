@@ -2,6 +2,7 @@
 title: My Setup and Tools
 description: Hardware and software I currently use.
 layout: page.njk
+permalink: /uses/index.html
 eleventyExcludeFromCollections: true
 ---
 

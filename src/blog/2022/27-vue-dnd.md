@@ -18,9 +18,7 @@ Anyway, the use case is pretty simple: we needed an editable list (i.e. ingredie
 
 Here's a screenshot of how it looks in the app:
 
-<p>
-  <img src="/img/blog/recept0r-edit-recipe.png" class="img-fluid img-center" alt="Screenshot of recept0r.com">
-</p>
+<img src="/img/blog/recept0r-edit-recipe.png" class="img-fluid img-center" alt="Screenshot of recept0r.com">
 
 Initial research into "building drag and drop from scratch" was soon deemed pointless (i.e. would take me too much time; feel free to call me lazy) when I remembered {% ext "SortableJS' vuedraggable" "https://github.com/SortableJS/vue.draggable.next" %} which I ended up using to implement this feature.
 
@@ -81,7 +79,7 @@ This is the backbone of focus management from inside `events.onAddItem()` (line 
     let currentEl = null
     let inputEls = inputs.value
     let listEls = [...listItems.value]
-    
+
     if (index !== undefined && index > -1) {
       listEls.splice(index + 1, 0, { id: index+1, name: '' })
       listItems.value = listEls
@@ -92,7 +90,7 @@ This is the backbone of focus management from inside `events.onAddItem()` (line 
       await nextTick()
       currentEl = inputEls[inputEls.length-1]
     }
-    
+
     if (currentEl) currentEl.focus()
   }
 ```

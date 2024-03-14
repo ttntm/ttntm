@@ -17,17 +17,17 @@
 }
 
 :root {
-  --prim:#5E81AC;
-  --sec:#81A1C1;
-  --tert:#88C0D0;
-  --dark:#4C566A;
-  --darker:#3B4252;
-  --darkest:#2E3440;
-  --light:#D8DEE9;
-  --lighter:#E5E9F0;
-  --lightest:#ECEFF4;
-  --red:#BF616A;
-  --yellow:#EBCB8B;
+  --prim: #5E81AC;
+  --sec: #81A1C1;
+  --tert: #88C0D0;
+  --dark: #4C566A;
+  --darker: #3B4252;
+  --darkest: #2E3440;
+  --light: #D8DEE9;
+  --lighter: #E5E9F0;
+  --lightest: #ECEFF4;
+  --red: #BF616A;
+  --yellow: #EBCB8B;
   --white: #fff;
   --black: #000;
   --font-sans: 'Titillium Web', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -677,6 +677,7 @@ button {
 
 .post img {
   opacity: var(--postImgOpacity);
+  margin: 1rem 0;
 }
 
 summary ::marker {

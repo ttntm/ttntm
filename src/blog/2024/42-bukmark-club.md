@@ -11,23 +11,19 @@ image: /img/blog/bukmark-club.png
 
 I recently wrote about [adding bookmarks to my website](/blog/bookmarks-are-back/). While planning and doing that, a slightly larger idea came to my mind: building a directory of websites that provide a curated collection of bookmarks and/or links to other websites.
 
-As far as I know, there's no such directory. 
+As far as I know, there's no such directory.
 
 A quick question I posted on Mastodon didn't surface one either:
 
-<p>
-  <img src="/img/blog/111891597461871340.png" class="img-fluid img-center" alt="Screenshot of one of Tom's mastodon posts from Feb. 7th 2024. It says: 'I know of nownownow, uses.tech and personalsit.es Do you know any index of sites with a bookmarks or links section? I don't, but I'm considering building one.'">
-</p>
+<img src="/img/blog/111891597461871340.png" class="img-fluid img-center" alt="Screenshot of one of Tom's mastodon posts from Feb. 7th 2024. It says: 'I know of nownownow, uses.tech and personalsit.es Do you know any index of sites with a bookmarks or links section? I don't, but I'm considering building one.'">
 
 Original link to the post from Feb. 7th: {% ext "@ttntm/111891597461871340", "https://elk.zone/fosstodon.org/@ttntm/111891597461871340" %}
 
-It took me another week to find a suitable (and cheap enough) TLD for the project and I eventually bought {% ext "BUKMARK.CLUB", "https://bukmark.club" %} on Feb. 17th. 
+It took me another week to find a suitable (and cheap enough) TLD for the project and I eventually bought {% ext "BUKMARK.CLUB", "https://bukmark.club" %} on Feb. 17th.
 
 I used a little spare time on the following weekend and built an MVP using Eleventy while my wife spent a little of her time on the logo:
 
-<p>
-  <img src="/img/blog/bukmark-club.png" class="img-fluid img-center" alt="BUKMARK.CLUB logo">
-</p>
+<img src="/img/blog/bukmark-club.png" class="img-fluid img-center" alt="BUKMARK.CLUB logo">
 
 ## Building the Website
 
@@ -130,6 +126,6 @@ In case you noticed: the lack of error handling is not just lazy - it should ale
 
 --
 
-Right now, the BUKMARK.CLUB is a 0 JS, sub 100 kB website that uses less than 500 lines of CSS. 
+Right now, the BUKMARK.CLUB is a 0 JS, sub 100 kB website that uses less than 500 lines of CSS.
 
 Directory content is stored in Markdown files that Eleventy currently processes in less than 1 second. Thanks to Eleventy, it "just works", which is great for a small side project like that.

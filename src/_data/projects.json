@@ -1,88 +1,196 @@
-{
-  "personal": [
-    {
-      "title": "11ty-landing-page",
-      "description": "A simple landing page template built with 11ty and Tailwind CSS.",
-      "url": "https://awesome11ty.ttntm.me"
-    },
-    {
-      "title": "aitrack.work",
-      "description": "A simple task-based time tracker.",
-      "url": "https://aitrack.work"
-    },
-    {
-      "title": "astro-landing-page",
-      "description": "A simple landing page template built with Astro and Tailwind CSS.",
-      "url": "https://awesomestro.ttntm.me"
-    },
-    {
-      "title": "astro-portfolio-starter",
-      "description": "A filterable portfolio built with Astro and Vue ",
-      "url": "https://github.com/ttntm/astro-potfolio-starter"
-    },
-    {
-      "title": "buildless-preact-starter",
-      "description": "A starter intended to showcase how to use Preact for SPAs in buildless environments.",
-      "url": "https://github.com/ttntm/buildless-preact-starter"
-    },
-    {
-      "title": "BUKMARK.CLUB",
-      "description": "A directory of websites that provide a curated collection of bookmarks and/or links to other websites.",
-      "url": "https://bukmark.club"
-    },
-    {
-      "title": "recept0r",
-      "description": "An app for family recipes built with vue.js and Fauna DB.",
-      "url": "https://recept0r.com"
-    },
-    {
-      "title": "watch3r",
-      "description": "A watchlist/journal for movies and series.",
-      "url": "https://watch3r.app"
-    }
-  ],
-  "old": [
-    {
-      "title": "sfmc-utils",
-      "description": "A collection of reusable SSJS utility functions for SFMC.",
-      "url": "https://github.com/ttntm/sfmc-utils"
-    },
-    {
-      "title": "hugo-leaflet-store-locator",
-      "description": "A Leaflet based store locator for Hugo sites.",
-      "url": "https://leaflet-store-locator.netlify.app"
-    },
-    {
-      "title": "hugo-landing-page",
-      "description": "A simple landing page template built with Hugo and Tailwind CSS.",
-      "url": "https://awesome.ttntm.me"
-    },
-    {
-      "title": "hugo-comments",
-      "description": "\"Static\" comments with Netlify & Hugo.",
-      "url": "https://hugo-comments.netlify.app"
-    }
-  ],
-  "work": [
-    {
-      "title": "psychotherapie-naschmarkt.at",
-      "description": "A website for a group practice of psychotherapists in Vienna, powered by a headless CMS.",
-      "url": "https://www.psychotherapie-naschmarkt.at"
-    },
-    {
-      "title": "komlosi.at",
-      "description": "An informative, multilingual website for an Austrian psychotherapist.",
-      "url": "https://www.komlosi.at"
-    },
-    {
-      "title": "alpengummi.at",
-      "description": "Website migration (WordPress > headless CMS) and re-design for Alpengummi, the first all natural chewing gum from Austria.",
-      "url": "https://www.alpengummi.at"
-    },
-    {
-      "title": "sahar.design",
-      "description": "A personal website powered by a headless CMS for Sahar Heumesser, a freelance graphic designer.",
-      "url": "https://sahar.design"
-    }
-  ]
-}
+[
+  {
+    "title": "FOSS",
+    "description": "Some of the free and open-source software projects I work/ed on.",
+    "data": [
+      {
+        "title": "aitrack.work",
+        "description": "A simple task-based time tracker.",
+        "web": "https://aitrack.work",
+        "source": "https://codeberg.org/ttntm/itrack"
+      },
+      {
+        "title": "BUKMARK.CLUB",
+        "description": "A directory of webs that provide a curated collection of bookmarks and/or links to other webs.",
+        "article": {
+          "title": "Intro: BUKMARK.CLUB",
+          "url": "/blog/bukmark-club-intro/"
+        },
+        "web": "https://bukmark.club",
+        "source": "https://github.com/ttntm/bukmark.club"
+      },
+      {
+        "title": "recept0r",
+        "description": "An app for family recipes built with vue.js and Fauna DB.",
+        "article": {
+          "title": "How I Built a Serverless Recipes App with FaunaDB and Vue.js",
+          "url": "/blog/serverless-recipes-app-faunadb-vuejs/"
+        },
+        "web": "https://recept0r.com",
+        "source": "https://codeberg.org/ttntm/recept0r"
+      },
+      {
+        "title": "sfmc-utils",
+        "description": "A collection of reusable SSJS utility functions for SFMC.",
+        "source": "https://github.com/ttntm/sfmc-utils"
+      },
+      {
+        "title": "snowflake-relay",
+        "description": " A Temporary Tor Snowflake Proxy.",
+        "web": "https://relay.iamover.it",
+        "source": "https://github.com/ttntm/snowflake-relay"
+      },
+      {
+        "title": "TKB",
+        "description": "Tom's Knowledge Base, my personal wiki.",
+        "web": "https://kb.ttntm.me",
+        "source": "https://codeberg.org/ttntm/tkb"
+      },
+      {
+        "title": "watch3r",
+        "description": "A watchlist/journal for movies and series.",
+        "article": {
+          "title": "Introducing: WATCH3R",
+          "url": "/blog/watch3r-movie-watchlist-journal-app/"
+        },
+        "web": "https://watch3r.app",
+        "source": "https://codeberg.org/ttntm/watch3r"
+      }
+    ]
+  },
+  {
+    "title": "Templates",
+    "description": "Starters and templates for various frameworks, SSGs etc.",
+    "data": [
+      {
+        "title": "11ty-landing-page",
+        "description": "A simple landing page template built with 11ty and Tailwind CSS.",
+        "web": "https://awesome11ty.ttntm.me",
+        "source": "https://github.com/ttntm/11ty-landing-page"
+      },
+      {
+        "title": "astro-landing-page",
+        "description": "A simple landing page template built with Astro and Tailwind CSS.",
+        "article": {
+          "title": "A Simple Astro Landing Page Template",
+          "url": "/blog/astro-tailwind-landing-page-template/"
+        },
+        "web": "https://awesomestro.ttntm.me",
+        "source": "https://github.com/ttntm/astro-landing-page"
+      },
+      {
+        "title": "astro-portfolio-starter",
+        "description": "A filterable portfolio built with Astro and Vue.",
+        "article": {
+          "title": "Building a Filterable Portfolio with Astro and Vue",
+          "url": "/blog/building-portfolio-with-astro-and-vue/"
+        },
+        "web": "https://ttntm.github.io/astro-portfolio-starter/",
+        "source": "https://github.com/ttntm/astro-potfolio-starter"
+      },
+      {
+        "title": "buildless-preact-starter",
+        "description": "A starter intended to showcase how to use Preact for SPAs in buildless environments.",
+        "article": {
+          "title": "My Buildless Preact Starter",
+          "url": "/blog/buildless-preact-starter/"
+        },
+        "web": "https://ttntm.me/demos/bps/",
+        "source": "https://github.com/ttntm/buildless-preact-starter"
+      },
+      {
+        "title": "hugo-landing-page",
+        "description": "A simple landing page template built with Hugo and Tailwind CSS.",
+        "web": "https://awesome.ttntm.me",
+        "source": "https://github.com/ttntm/hugo-landing-page"
+      },
+      {
+        "title": " hugo-tailwind-boilerplate",
+        "description": "A boilerplate for Hugo sites based on Tailwind CSS.",
+        "article": {
+          "title": "Boilerplate: Hugo, TailwindCSS and gulp",
+          "url": "/blog/hugo-tailwind-boilerplate/"
+        },
+        "source": "https://github.com/ttntm/hugo-tailwind-boilerplate"
+      },
+      {
+        "title": " startpage",
+        "description": "A minimal, fully customizable start page for your browser.",
+        "web": "https://startpage-demo.netlify.app",
+        "source": "https://github.com/ttntm/startpage"
+      }
+    ]
+  },
+  {
+    "title": "Demos",
+    "description": "Applications, websites, etc.; they usually demonstrate a specific \"build X with Y...\" use case.",
+    "data": [
+      {
+        "title": "hugo-comments",
+        "description": "\"Static\" comments with Netlify & Hugo.",
+        "article": {
+          "title": "\"Static\" Comments with Gulp, Hugo & Netlify",
+          "url": "/blog/static-blog-comments-hugo/"
+        },
+        "web": "https://hugo-comments.netlify.app",
+        "source": "https://github.com/ttntm/hugo-comments"
+      },
+      {
+        "title": "hugo-leaflet-store-locator",
+        "description": "A Leaflet based store locator for Hugo sites.",
+        "article": {
+          "title": "Building a Store Locator Based on Leaflet",
+          "url": "/blog/store-locator-leaflet-hugo/"
+        },
+        "web": "https://leaflet-store-locator.netlify.app",
+        "source": "https://github.com/ttntm/hugo-leaflet-store-locator"
+      },
+      {
+        "title": "preact-auto-suggest-demo",
+        "description": "A little demo of an auto suggest <input> built using Preact.",
+        "article": {
+          "title": "Building an Autocomplete Input with Preact",
+          "url": "/blog/building-an-autocomplete-input-with-preact/"
+        },
+        "web": "https://ttntm.me/demos/pas/",
+        "source": "https://github.com/ttntm/preact-auto-suggest-demo"
+      },
+      {
+        "title": "preact-data-viewer-demo",
+        "description": "A data viewer + nav tree rendered from an array of objects (i.e. rows obtained from a DB).",
+        "article": {
+          "title": "Building a Data Viewer With Preact",
+          "url": "/blog/building-a-data-viewer-with-preact/"
+        },
+        "web": "https://ttntm.me/demos/pdv/",
+        "source": "https://github.com/ttntm/preact-data-viewer-demo"
+      },
+      {
+        "title": "vue-dnd-demo",
+        "description": "A minimal demo of an editable list that also supports drag'n'drop.",
+        "article": {
+          "title": "Building an Editable List with Drag and Drop Sorting in Vue3",
+          "url": "/blog/building-an-editable-list-with-drag-and-drop-sorting-in-vue3/"
+        },
+        "web": "https://stackblitz.com/github/ttntm/vue-dnd-demo?file=src/App.vue",
+        "source": "https://github.com/ttntm/vue-dnd-demo"
+      }
+    ]
+  },
+  {
+    "title": "Themes",
+    "description": "Themes and UI customizations for various applications.",
+    "data": [
+      {
+        "title": "cmus-tokyo-night",
+        "description": "A Tokyo Night inspired theme for the amazing cmus.",
+        "source": "https://github.com/ttntm/cmus-tokyo-night"
+      },
+      {
+        "title": "minimal-one-line-firefox",
+        "description": "Custom userChrome for Firefox to minimize the space used for url and tab bar.",
+        "source": "https://github.com/ttntm/minimal-one-line-firefox"
+      }
+    ]
+  }
+]
