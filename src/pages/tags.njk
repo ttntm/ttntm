@@ -11,7 +11,7 @@ pagination:
     - postsByYear
 layout: base.njk
 eleventyComputed:
-  title: "Posts Tagged With '{{ tag }}'"
+  title: 'Posts Tagged "{{ tag }}"'
 permalink: /tags/{{ tag | slugify }}/
 eleventyExcludeFromCollections: true
 ---
