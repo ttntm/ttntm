@@ -16,5 +16,6 @@ This is a public list of my ideas for future projects. [Email me](mailto:ttntm@p
 - A browser game that works on a Q/A basis; user submitted question/answer combinations, 1 question per calendar day
 - An offline version / desktop app for recpt0r; should use a local DB
 - A "bring your own API keys" desktop / mobile version for watch3r; should use a local DB
+- An interface (later: Eleventy plugin?) for retrieving reading list data from Omnivore 
 
-**Last updated:** March 14th 2024
+**Last updated:** March 16th 2024
