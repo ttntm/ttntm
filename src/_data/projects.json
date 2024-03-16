@@ -11,7 +11,7 @@
       },
       {
         "title": "BUKMARK.CLUB",
-        "description": "A directory of webs that provide a curated collection of bookmarks and/or links to other webs.",
+        "description": "A directory of websites that provide a curated collection of bookmarks and/or links to other websites.",
         "article": {
           "title": "Intro: BUKMARK.CLUB",
           "url": "/blog/bukmark-club-intro/"
@@ -21,7 +21,7 @@
       },
       {
         "title": "recept0r",
-        "description": "An app for family recipes built with vue.js and Fauna DB.",
+        "description": "A web app for family recipes.",
         "article": {
           "title": "How I Built a Serverless Recipes App with FaunaDB and Vue.js",
           "url": "/blog/serverless-recipes-app-faunadb-vuejs/"
@@ -36,7 +36,7 @@
       },
       {
         "title": "snowflake-relay",
-        "description": " A Temporary Tor Snowflake Proxy.",
+        "description": " A temporary Tor Snowflake Proxy.",
         "web": "https://relay.iamover.it",
         "source": "https://github.com/ttntm/snowflake-relay"
       },
@@ -123,7 +123,7 @@
   },
   {
     "title": "Demos",
-    "description": "Applications, websites, etc.; they usually demonstrate a specific \"build X with Y...\" use case.",
+    "description": "Applications, websites, etc.; these projects mostly serve a specific \"build X with Y...\" use case.",
     "data": [
       {
         "title": "hugo-comments",
