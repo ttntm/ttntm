@@ -56,14 +56,14 @@
       "details": "cool things found on the internet"
     },
     {
-      "url": "/now/",
-      "title": "/now",
-      "details": "what I'm doing now"
+      "url": "/reading/",
+      "title": "/reading",
+      "details": "my reading list from Omnivore"
     },
     {
       "url": "/uses/",
       "title": "/uses",
-      "details": "my setup and tools"
+      "details": "my current setup and tools"
     }
   ],
   "social": [

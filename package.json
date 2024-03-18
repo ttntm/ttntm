@@ -5,16 +5,17 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-fetch": "^4.0.1",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "cssnano": "^5.1.14",
     "date-and-time": "^1.0.0",
+    "dotenv": "^16.4.5",
     "eleventy-plugin-reading-time": "0.0.1",
     "html-minifier": "^4.0.0",
     "lodash": "^4.17.21",
     "postcss": "^8.4.31",
     "postcss-import": "^14.0.0",
     "terser": "^5.26.0"
-  },
-  "dependencies": {}
+  }
 }

@@ -10,6 +10,11 @@ A history of the changes this website has gone through since it launched in 2018
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
+## Version 3.11
+
+- Added [/reading](/reading/) which renders the top 10 entries from my Omnivore-based reading list
+- Fix: contrast of `text-muted` for the light theme
+
 ## Version 3.10
 
 - Completely rewrote [/work](/work/)

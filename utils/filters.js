@@ -3,15 +3,16 @@ const dnt = require('date-and-time')
 module.exports = {
   date: function(date, format) {
     // date formatting filter
-    return dnt.format(date, format)
+    let d = new Date(date)
+    return dnt.format(d, format)
   },
   getCollectionTags: function(collection) {
     let tagSet = new Set()
-		
+
     for (let item of collection) {
 			(item.data.tags || []).forEach(tag => tagSet.add(tag))
 		}
-		
+
     return Array.from(tagSet)
   },
   markdown: function(value) {
@@ -19,7 +20,7 @@ module.exports = {
     let markdown = require('markdown-it')({
       html: true
     })
-    
+
     return markdown.render(value)
   },
   sortByTitle: function(values) {

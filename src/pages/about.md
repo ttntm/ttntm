@@ -27,6 +27,8 @@ My professional career in IT started in 2008, and I worked for telecom and IT se
 
 When I'm not in front of a screen working, <a href="https://watch3r.app" target="_blank">watching movies</a> or [playing videogames](/games/), I enjoy spending time with my family, parenting a lovely [Persian cat](#cat) and being outside (cycling, gardening, hiking). I also like playing boardgames with friends and working on DIY projects. Oh, and I really love cooking - just head over to <a href="https://recept0r.com" target="_blank">recept0r</a> if you're curious.
 
+...and if you want to know what I'm doing _right now_, check out my [/now page](/now/) 🚀
+
 {% include "about.pgp.njk" %}
 
 {% include "about.highlights.njk" %}

@@ -76,7 +76,7 @@
   --shadowMdHoverColor: rgba(0,0,0,.1);
   --text: var(--dark);
   --textHeading: var(--dark);
-  --textMuted: var(--sec);
+  --textMuted: #3a5978;
   --textQuote: var(--darkest);
 }
 

@@ -13,8 +13,6 @@ image: /img/blog/default.jpg
 
 ## Tailwind CSS
 
-> Last updated: 03/2020
-
 According to their docs, "**Tailwind is a utility-first CSS framework for rapidly building custom user interfaces.**"
 
 Being used to Bootstrap and/or other component based frameworks, this is quite a different approach.
