@@ -31,7 +31,7 @@ const queryData = {
     }
   `,
   variables: {
-    after: "0",
+    after: '0',
     first: 10,
     query: 'no:subscription'
   }

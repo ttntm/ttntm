@@ -10,7 +10,7 @@ tags:
 image: /img/blog/bookmarks.png
 ---
 
-My website has a bookmarks directory now. 
+My website has a bookmark directory now.
 
 This is something that I wanted to do since finishing "Halt and Catch Fire" in late November '23, but I was working on my personal wiki at that time. You're welcome to have a look at the new [bookmarks page](/bookmarks/) right now, but you could also stay here a little longer and read some more about it first.
 
