@@ -10,33 +10,39 @@ eleventyExcludeFromCollections: true
     <img src="/img/reading.png" class="img-center img-fluid m0" alt="An illustration, taken from undraw.co, showing a female person reading a book while sitting in a chair">
   </div>
   <div>
-    <p>These are the 10 most recent items on my reading list. I keep track of them in <a href="https://omnivore.app" rel="noreferrer" target="_blank">Omnivore</a>, which is a free, open source, read-it-later app. The books I'm reading won't appear on this page - they're usually listed on my <a href="/now/">/now page</a>.</p>
+    <p>These are the 10 most recent items added to my reading list. I keep track of them in <a href="https://omnivore.app" rel="noreferrer" target="_blank">Omnivore</a>, which is a free, open source, read-it-later app. The books I'm reading won't appear on this page - they're usually listed on my <a href="/now/">/now page</a>.</p>
     <p class="m0">The list below gets updated on every new build of this website, and it was last updated on {% buildDate true %}.</p>
   </div>
 </div>
 <div class="hr shadow mt2 mb1"></div>
-<ul class="list-reset">
-  {% for item in reading %}
-    <li class="py1">
-      <h2 class="h5">{{ item.title }}</h2>
-      <ul class="list-reset text-muted small">
-        <li>
-          {% if item.publishedAt %}
-            Published: <time class="dt-published" datetime="{{ item.publishedAt | date('YYYY-MM-DD') }}">{{ item.publishedAt | date('MMMM DD, YYYY') }}</time> at {{ item.siteName }}
-          {% else %}
-            Published at {{ item.siteName }}
-          {% endif %}
-        </li>
-        <li>
-          Saved: <time class="dt-published" datetime="{{ item.savedAt | date('YYYY-MM-DD') }}">{{ item.savedAt | date('MMMM DD, YYYY') }}</time>
-        </li>
-      </ul>
-      <p style="margin: .5rem 0;">
-        {{ item.description }}
-      </p>
-      <p class="m0">
-        <a href="{{ item.url }}" rel="noreferrer" target="_blank">Read Now</a>
-      </p>
-    </li>
-  {% endfor %}
-</ul>
+{% if reading | length %}
+  <ul class="list-reset">
+    {% for item in reading %}
+      <li class="py1">
+        <h2 class="h5">
+          {{ item.title }}
+        </h2>
+        <ul class="list-reset text-muted small">
+          <li>
+            {% if item.publishedAt %}
+              Published: <time class="dt-published" datetime="{{ item.publishedAt | date('YYYY-MM-DD') }}">{{ item.publishedAt | date('MMMM DD, YYYY') }}</time> at {{ item.siteName }}
+            {% else %}
+              Published at {{ item.siteName }}
+            {% endif %}
+          </li>
+          <li>
+            Saved: <time class="dt-published" datetime="{{ item.savedAt | date('YYYY-MM-DD') }}">{{ item.savedAt | date('MMMM DD, YYYY') }}</time>
+          </li>
+        </ul>
+        <p style="margin: .5rem 0;">
+          {{ item.description }}
+        </p>
+        <p class="m0">
+          <a href="{{ item.url }}" rel="noreferrer" target="_blank">Read Now</a>
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No data :(</p>
+{% endif %}
