@@ -22,22 +22,35 @@ eleventyExcludeFromCollections: true
     </h2>
   </summary>
   <ul class="list-reset px1 mb2" style="margin-top: .5rem;">
-    {%- for item in collections.bookmarks | sortByTitle -%}
+    {%- for item in bookmarks -%}
       <li>
-        <a href="#{{ item.data.title | slugify }}">{{ item.data.title }}</a>
+        <a href="#{{ item.title | slugify }}">{{ item.title }}</a>
       </li>
     {%- endfor -%}
   </ul>
 </details>
 <div class="hr shadow mb2"></div>
-{%- for item in collections.bookmarks | sortByTitle -%}
+{%- for item in bookmarks -%}
   <article id="{{ 'content' if loop.first }}" class="h-entry">
-    <h2 id="{{ item.data.title | slugify }}" class="h5 d-sm-inline-flex">
-      <span style="margin-right: .5rem;"><a id="{{ item.data.title | slugify }}" href="#{{ item.data.title | slugify }}" class="no-underline u-url" style="border: 0;">#</a></span><span class="p-name">{{ item.data.title }}</span>
+    <h2 id="{{ item.title | slugify }}" class="h5 d-sm-inline-flex">
+      <span style="margin-right: .5rem;"><a id="{{ item.data.title | slugify }}" href="#{{ item.title | slugify }}" class="no-underline u-url" style="border: 0;">#</a></span><span class="p-name">{{ item.title }}</span>
     </h2>
-    <div class="post e-content indent-1-lg">
-      {{ item.templateContent | safe }}
-    </div>
+    <p>
+      {{ item.description }}
+    </p>
+    <ul class="list-reset post e-content indent-1-lg">
+      {% for link in item.data %}
+        <li>
+          <p>
+            <a href="{{ link.url }}" rel="noreferrer" target="_blank">{{ link.title }}</a>
+            {% if link.description %}
+              <br>
+              {{ link.description }}
+            {% endif %}
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
     {% if not loop.last %}
       <div class="hr shadow mt2 mb2"></div>
     {% endif %}

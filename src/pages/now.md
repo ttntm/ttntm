@@ -6,17 +6,19 @@ permalink: /now/index.html
 eleventyExcludeFromCollections: true
 ---
 
-**Last updated:** March 1st 2024
+**Last updated:** March 19th 2024
 
-**Writing**: Preparing some more articles about Eleventy, for example about a guestbook I recently built.
+**Writing**: Preparing some more articles about Eleventy
 
-**Reading**: Dune Messiah
+**Books**: Dune Messiah
 
-**Playing**: Ghost of Tsushima (which is _great_)
+**Articles**: I publish a list at [/reading](/reading/) which gets updated frequently
 
-**Drinking**: Lagavulin 16yo - still wow.
+**Games**: Ghost of Tsushima (which is _great_)
 
-**Living**: Preparing for summer - soon to enjoy BBQs, cycling, inline skating and swimming again.
+**Drinks**: Lagavulin 16yo - still wow
+
+**Life**: Preparing for summer - soon to enjoy BBQs, cycling, inline skating and swimming again
 
 <div class="hr shadow mb1"></div>
 

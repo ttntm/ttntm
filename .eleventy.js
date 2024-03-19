@@ -2,9 +2,9 @@
 const _ = require('lodash')
 const htmlmin = require('html-minifier')
 const markdownIt = require('markdown-it')
+const pluginReadingTime = require('eleventy-plugin-reading-time')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const pluginReadingTime = require('eleventy-plugin-reading-time')
 const { minify } = require('terser')
 
 // LOCAL DEPS
@@ -57,10 +57,6 @@ module.exports = (config) => {
   )
 
   // COLLECTIONS
-  config.addCollection('bookmarks', async(collection) => {
-    return collection.getFilteredByGlob('./src/bookmarks/**/*.md')
-  })
-
   config.addCollection('blog', async(collection) => {
     return collection.getFilteredByGlob('./src/blog/**/*.md')
   })

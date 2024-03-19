@@ -1,0 +1,367 @@
+[
+  {
+    "title": "Blogs",
+    "description": "Blogs that I read regularly.",
+    "data": [
+      {
+        "title": "antfu.me",
+        "description": "Anthony Fu",
+        "url": "https://antfu.me"
+      },
+      {
+        "title": "The Homepage of Dave Rupert",
+        "description": "Dave Rupert",
+        "url": "https://daverupert.com"
+      },
+      {
+        "title": "garrit.xyz",
+        "description": "Garrit Franke",
+        "url": "https://garrit.xyz"
+      },
+      {
+        "title": "jrsinclair.com",
+        "description": "James Sinclair",
+        "url": "https://jrsinclair.com"
+      },
+      {
+        "title": "Kuketz IT-Security Blog",
+        "description": "A German IT-Security Blog",
+        "url": "https://www.kuketz-blog.de"
+      },
+      {
+        "title": "Luke's Wild Website",
+        "description": "Luke Harris",
+        "url": "https://www.lkhrs.com"
+      },
+      {
+        "title": "matthiasott.com",
+        "description": "Matthias Ott",
+        "url": "https://matthiasott.com"
+      },
+      {
+        "title": "michaelnthiessen.com",
+        "description": "Michael Thiessen",
+        "url": "https://michaelnthiessen.com"
+      },
+      {
+        "title": "rootCompute",
+        "description": "rootCompute's personal website",
+        "url": "https://rootcompute.neocities.org"
+      },
+      {
+        "title": "urban style engineering",
+        "description": "Adam Urban",
+        "url": "https://urbanisierung.dev"
+      },
+      {
+        "title": "victoria.dev",
+        "description": "Victoria Drake",
+        "url": "https://victoria.dev"
+      }
+    ]
+  },
+  {
+    "title": "Entertainment",
+    "description": "Sites I visit for entertainment, unique finds I think others could find entertaining.",
+    "data": [
+      {
+        "title": "BUKMARK.CLUB",
+        "description": "A directory of websites with a curated collection of bookmarks and/or links to other websites.",
+        "url": "https://bukmark.club"
+      },
+      {
+        "title": "Floor796",
+        "description": "An ever-expanding animation scene showing the life of the 796th floor of the huge space station.",
+        "url": "https://floor796.com"
+      },
+      {
+        "title": "masterWiki",
+        "description": "Learn (relatively ordinary skills) from A-list celebrities.",
+        "url": "https://masterwiki.how"
+      },
+      {
+        "title": "Missing Dice",
+        "description": "A collection of tools for boardgame players.",
+        "url": "https://missingdice.com"
+      },
+      {
+        "title": "myNoise",
+        "description": "A vast library of interactive sound generators.",
+        "url": "https://mynoise.net"
+      },
+      {
+        "title": "Old Book Illustrations",
+        "description": "A search engine and library of illustrations and prints found in old books.",
+        "url": "https://www.oldbookillustrations.com"
+      },
+      {
+        "title": "Pixel Me",
+        "description": "Convert your photo into pixel art.",
+        "url": "https://pixel-me.tokyo/en"
+      },
+      {
+        "title": "Rainy Mood",
+        "description": "Rain makes everything better.",
+        "url": "https://rainymood.com"
+      },
+      {
+        "title": "SNESFUN",
+        "description": "Retro SNES / Super Nintendo / Super Famicom games online.",
+        "url": "https://www.snesfun.com"
+      },
+      {
+        "title": "The Useless Web",
+        "description": "Some websites, we just couldn't do without.",
+        "url": "https://theuselessweb.com"
+      },
+      {
+        "title": "Web Design Museum",
+        "description": "Thousands of screens and videos of old websites, mobile apps and software from 1990s to mid-00s.",
+        "url": "https://www.webdesignmuseum.org"
+      },
+      {
+        "title": "WikiFlix",
+        "description": "Open source movies.",
+        "url": "https://wikidata-todo.toolforge.org/wikiflix/#/"
+      },
+      {
+        "title": "Ye Olde Blogroll",
+        "description": "A humanly curated list of fine personal & independent blogs that are updated regularly.",
+        "url": "https://blogroll.org"
+      }
+    ]
+  },
+  {
+    "title": "Knowledge & Research",
+    "description": "Resources I'd consult for specific knowledge and informative sites that might help others.",
+    "data": [
+      {
+        "title": "barnsworthburning.net",
+        "description": "A truly impressive collection of quotes and excerpts of articles on a large variety of topics.",
+        "url": "https://barnsworthburning.net"
+      },
+      {
+        "title": "Index of Aesthetics",
+        "description": "An index of aesthetics (i.e. visual movements) from the Consumer Aesthetics Research Institute.",
+        "url": "https://cari.institute/aesthetics"
+      },
+      {
+        "title": "LanguageTool",
+        "description": "A multilingual spelling, style, and grammar checker that helps correct or paraphrase texts.",
+        "url": "https://languagetool.org"
+      },
+      {
+        "title": "Laws of UX",
+        "description": "A collection of best practices that designers can consider when building user interfaces.",
+        "url": "https://lawsofux.com"
+      },
+      {
+        "title": "Privacy Guides",
+        "description": "Cybersecurity resources and privacy-focused tools to protect yourself online.",
+        "url": "https://www.privacyguides.org"
+      },
+      {
+        "title": "SearXNG",
+        "description": "A metasearch engine, aggregates results from other search engines, does not store user information.",
+        "url": "https://searx.envs.net"
+      },
+      {
+        "title": "switching.software",
+        "description": "Ethical, easy-to-use and privacy-conscious alternatives to well-known software.",
+        "url": "https://switching.software"
+      },
+      {
+        "title": "untools",
+        "description": "Thinking tools and frameworks to help you solve problems, make decisions and understand systems.",
+        "url": "https://untools.co"
+      }
+    ]
+  },
+  {
+    "title": "Tools & Utilities",
+    "description": "Tools I use regularly, OSS alternatives and recommendations.",
+    "data": [
+      {
+        "title": "ASCIIFlow",
+        "description": "ASCII flowcharting/UI mockups in the browser.",
+        "url": "https://asciiflow.com"
+      },
+      {
+        "title": "Blacklight",
+        "description": "A Real-Time Website Privacy Inspector.",
+        "url": "https://themarkup.org/blacklight"
+      },
+      {
+        "title": "CryptPad",
+        "description": "Collaboration suite; end-to-end encrypted and open-source.",
+        "url": "https://pad.envs.net"
+      },
+      {
+        "title": "Dithermark",
+        "description": "Use image dithering algorithms with your own photos, right in your browser. Some images on this website were ",
+        "url": "https://app.dithermark.com"
+      },
+      {
+        "title": "envs.net",
+        "description": "A minimalist, non-commercial shared linux system and will always be free to use.",
+        "url": "https://envs.net"
+      },
+      {
+        "title": "Etherpad",
+        "description": "Docs; collaborative editing in real-time",
+        "url": "https://etherpad.org"
+      },
+      {
+        "title": "Excalidraw",
+        "description": "A virtual whiteboard.",
+        "url": "https://excalidraw.com"
+      },
+      {
+        "title": "explainshell",
+        "description": "Turns CLI commands into help text that matches each argument.",
+        "url": "https://explainshell.com"
+      },
+      {
+        "title": "ffmpeg.app",
+        "description": "FFmpeg in the browser.",
+        "url": "https://ffmpeg.app"
+      },
+      {
+        "title": "GIFcap",
+        "description": "In-Browser GIF capture, client-side only.",
+        "url": "https://gifcap.dev"
+      },
+      {
+        "title": "iRuler.net",
+        "description": "An online ruler.",
+        "url": "https://iruler.net"
+      },
+      {
+        "title": "Ojoy",
+        "description": "Image upscaling in the browser with 100% of the upscaling process performed client-side.",
+        "url": "https://ojoy.zaps.dev"
+      },
+      {
+        "title": "Omnivore",
+        "description": "Save articles, newsletters, and documents and read them later — focused and distraction free.",
+        "url": "https://omnivore.app"
+      },
+      {
+        "title": "Screely",
+        "description": "Puts screenshots into browser windows; does not store any of your screenshots.",
+        "url": "https://screely.com"
+      },
+      {
+        "title": "Squoosh",
+        "description": "Image compressor; doesn't send your image to a server, all image compression processes locally.",
+        "url": "https://quoosh.app"
+      },
+      {
+        "title": "Startpage",
+        "description": "The world's most private search engine.",
+        "url": "https://www.startpage.com"
+      },
+      {
+        "title": "Tenacity",
+        "description": "An easy-to-use, cross-platform multi-track audio editor/recorder.",
+        "url": "https://tenacityaudio.org"
+      },
+      {
+        "title": "tldraw",
+        "description": "An open source canvas/whiteboard.",
+        "url": "https://www.tldraw.com"
+      },
+      {
+        "title": "ttm.sh",
+        "description": "File hosting & URL shortening.",
+        "url": "https://ttm.sh"
+      },
+      {
+        "title": "Wavacity",
+        "description": "A free, open source audio editor for the web (Audacity in a browser).",
+        "url": "https://wavacity.com"
+      },
+      {
+        "title": "wiby",
+        "description": "A search engine that's building a web of pages as it was in the earlier days of the internet.",
+        "url": "https://wiby.me"
+      }
+    ]
+  },
+  {
+    "title": "Website Inspiration",
+    "description": "Websites I find inspiring.",
+    "data": [
+      {
+        "title": "anhvn.com",
+        "description": "Just overall greatness.",
+        "url": "https://anhvn.com"
+      },
+      {
+        "title": "Coder's Block",
+        "description": "Love the colors and how minimal, yet whimsical this site looks.",
+        "url": "https://codersblock.com"
+      },
+      {
+        "title": "gmunk.com",
+        "description": "Surprisingly built with a site builder (cargo.site).",
+        "url": "https://gmunk.com"
+      },
+      {
+        "title": "GNOME Developer Center",
+        "description": "I just love the joyful footer.",
+        "url": "https://developer-old.gnome.org"
+      },
+      {
+        "title": "gwern.net",
+        "description": "A personal site/wiki hybrid that's full of information and quite unique in terms of both UX and UI design.",
+        "url": "https://gwern.net"
+      },
+      {
+        "title": "jackmcdade.com",
+        "description": "Playful and very much the opposite of boring.",
+        "url": "https://jackmcdade.com"
+      },
+      {
+        "title": "kld.dev",
+        "description": "A clean personal website by Kevin Drum with a cool \"cursor in a computer\" animation and a very nice rotating theme switch.",
+        "url": "https://kld.dev"
+      },
+      {
+        "title": "Lupin & Holmes",
+        "description": "A cybersecurity agency with an outstanding website.",
+        "url": "https://www.landh.tech"
+      },
+      {
+        "title": "meyerweb",
+        "description": "Eric A. Meyer's \"internet tradition\".",
+        "url": "https://meyerweb.com"
+      },
+      {
+        "title": "nicchan.me",
+        "description": "Nice colors, well-used screen space.",
+        "url": "https://www.nicchan.me"
+      },
+      {
+        "title": "pixelhop.io",
+        "description": "Unique design, a cute bunny and buttery smooth animations.",
+        "url": "https://www.pixelhop.io"
+      },
+      {
+        "title": "robinrendle.com",
+        "description": "Just overall greatness.",
+        "url": "https://robinrendle.com"
+      },
+      {
+        "title": "Simon Collison",
+        "description": "The timeline on the homepage is really nice.",
+        "url": "https://colly.com"
+      },
+      {
+        "title": "The Marginalian",
+        "description": "In this list because of its mobile version; I like the floating navbar.",
+        "url": "https://www.themarginalian.org"
+      }
+    ]
+  }
+]
