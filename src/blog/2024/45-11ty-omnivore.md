@@ -187,7 +187,7 @@ There's a check for the availability of the list data (`if reading | length`) th
 
 If you've followed this guide so far, you should be in this situation:
 
-- Local build use the `.cache` folder managed by the eleventy-fetch plugin
+- Local builds use the `.cache` folder managed by the eleventy-fetch plugin
 - Remote builds should fetch fresh data every time
 - Saving items to Omnivore does not have any effect on your site
 

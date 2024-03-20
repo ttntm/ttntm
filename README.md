@@ -32,6 +32,7 @@
 
 ## Articles About Things I Built
 
+- [Creating a Reading List with Eleventy and Omnivore](https://ttntm.me/blog/creating-a-reading-list-with-eleventy-and-omnivore)
 - [How to Build a Serverless Guestbook](https://ttntm.me/blog/how-to-build-a-serverless-guestbook/)
 - [Intro: BUKMARK.CLUB](https://ttntm.me/blog/bukmark-club-intro/)
 - [Building a Filterable Portfolio with Astro and Vue](https://ttntm.me/blog/building-portfolio-with-astro-and-vue/)
