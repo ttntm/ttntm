@@ -84,6 +84,6 @@ This website is a proud member of:
 
 ### Support
 
-<a href="mailto:ttntm@pm.me">Kind words</a> are always welcome.
+<a href="mailto:ttntm@pm.me">Kind words</a> are always welcomed and appreciated.
 
 _THANK YOU &#9825;_

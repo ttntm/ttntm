@@ -1,7 +1,7 @@
 [
   {
-    "title": "Blogs",
-    "description": "Blogs that I read regularly.",
+    "title": "Blogs & People",
+    "description": "Blogs and personal websites that I read/visit regularly. Some more links to personal websites can be found in the \"Website Inspiration\" section.",
     "data": [
       {
         "title": "antfu.me",
@@ -123,6 +123,11 @@
         "title": "WikiFlix",
         "description": "Open source movies.",
         "url": "https://wikidata-todo.toolforge.org/wikiflix/#/"
+      },
+      {
+        "title": "Workspaces",
+        "description": "A collection of workspaces of creative individuals.",
+        "url": "https://www.workspaces.xyz"
       },
       {
         "title": "Ye Olde Blogroll",
@@ -296,6 +301,11 @@
         "title": "anhvn.com",
         "description": "Just overall greatness.",
         "url": "https://anhvn.com"
+      },
+      {
+        "title": "Brad Woods Digital Garden",
+        "description": "Notes about creative coding presented in an exceptional UI.",
+        "url": "https://garden.bradwoods.io"
       },
       {
         "title": "Coder's Block",
