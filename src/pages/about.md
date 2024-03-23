@@ -4,7 +4,6 @@ description: Information about this website and its author.
 layout: page.njk
 templateEngineOverride: md,njk
 permalink: /about/index.html
-eleventyExcludeFromCollections: true
 ---
 
 <div class="flex flex-row justify-content-between align-items-center flex-wrap mb1">

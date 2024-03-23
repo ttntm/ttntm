@@ -1,9 +1,8 @@
 ---
-title: My Setup and Tools
-description: Hardware and software I currently use.
+title: Uses
+description: "My setup and tools: hardware and software I currently use."
 layout: page.njk
 permalink: /uses/index.html
-eleventyExcludeFromCollections: true
 ---
 
 **Last updated:** Mar. 11th 2024

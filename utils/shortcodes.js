@@ -5,9 +5,10 @@ module.exports = {
     // shortcode to display the last build date
     let now = new Date()
     let display = dnt.format(now, 'ddd, MMMM DD YYYY, HH:mm')
+    let tag = dnt.format(now, 'YYYY-MM-DD HH:mm')
 
     return wrap
-      ? `<time>${display}</time>`
+      ? `<time datetime="${tag}">${display}</time>`
       : display
   },
   ext: function(displayText, link) {

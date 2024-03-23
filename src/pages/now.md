@@ -1,9 +1,8 @@
 ---
-title: What I'm Doing Now
-description: A public reminder of what I'm (supposed to be...) doing now.
+title: Now
+description: "What I'm doing now: a public reminder of what I'm (supposed to be...) doing."
 layout: page.njk
 permalink: /now/index.html
-eleventyExcludeFromCollections: true
 ---
 
 **Last updated:** March 19th 2024

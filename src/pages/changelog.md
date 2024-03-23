@@ -1,21 +1,27 @@
 ---
 title: Changelog
-description: A history of the changes this website has gone through since it launched in 2018.
+description: All the changes this website has gone through since it launched in 2018.
 layout: page.njk
 permalink: /changelog/index.html
-eleventyExcludeFromCollections: true
 ---
 
-A history of the changes this website has gone through since it launched in 2018.
+All the changes this website has gone through since it launched in 2018.
 
 Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
-## Version 3.11
+<!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
+
+## 3.11.1
+
+- Made the [/sitemap](/sitemap/) usable for humans and linked to it from the homepage and the footer
+- Added version and build date to the footer
+
+## 3.11
 
 - Added [/reading](/reading/) which renders the top 10 entries from my Omnivore-based reading list
 - Fix: contrast of `text-muted` for the light theme
 
-## Version 3.10
+## 3.10
 
 - Completely rewrote [/work](/work/)
 - Added [/ideas](/ideas/)
@@ -23,19 +29,19 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 - Re-arranged [/about](/about/) some more
 - Added an "old content" notice for all posts older than 365 days
 
-## Version 3.9.2
+## 3.9.2
 
 - Removed most product links from [/uses](/uses/)
 - Pledged to {% ext "never monetize", "https://www.nevermonetize.com" %} this website's visitors and users
 
-## Version 3.9.1
+## 3.9.1
 
 - Added more RSS feeds, see [/feeds](/feeds/)
 - Added RSS icons to list pages of content that offers a feed
 - Removed redundant icons from the homepage
 - Minor structural improvements in the HTML
 
-## Version 3.9
+## 3.9
 
 - **New homepage layout**
 - A little more animation for card `:hover` states
@@ -44,22 +50,22 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
   - Added the {% ext "BUKMARK.CLUB", "https://bukmark.club" %} badge
   - Changed grouping of sections, added "Memberships" and "Support"
 
-## Version 3.8.1
+## 3.8.1
 
 - "All Tags" section added at the top of the [/blog](/blog/) archive page
 
-## Version 3.8
+## 3.8
 
 - Added [/bookmarks](/bookmarks/), my own directory of useful and interesting links
 
-## Version 3.7.1
+## 3.7.1
 
 - Added reading time to blog content and previews
 - Revised `blockquote` and code block styling/margins
 - Added a tiled section of non-blog content to the homepage
 - Fixed a lot of grammar and spelling (thank you, {% ext "LTeX", "https://marketplace.visualstudio.com/items?itemName=neo-ltex.ltex" %})
 
-## Version 3.7
+## 3.7
 
 - Added tags to the blog: [/tags](/tags/)
   - They were removed in v3.0 back in 2021 because I thought they were redundant - I was wrong
@@ -68,17 +74,17 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 - Reviewed and updated my older post's tags
 - Refactored a bunch of `<div>` containers into `<ul>` elements
 
-## Version 3.6.2
+## 3.6.2
 
 - Theme toggle button:
   - The icon on the `<button>` now changes based on current theme (via JS)
 - `<noscript>`: The button used to switch themes gets hidden (via CSS)
 
-## Version 3.6.2
+## 3.6.2
 
 - Added Codeberg to the social links
 
-## Version 3.6.1
+## 3.6.1
 
 - Added a theme toggle button in the header and footer of the site
   - The selected theme is stored in / restored from `localStorage`
@@ -86,54 +92,54 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
   - The toggle button overrides the browser/OS choice
   - There is also a `<noscript>` fallback in place: it loads a small CSS file that contains `:root {}` overrides based on `@media (prefers-color-scheme: dark) {}`
 
-## Version 3.6
+## 3.6
 
 - Added dark mode via `@media (prefers-color-scheme: dark) {}`
 - Joined the {% ext "darktheme.club" "https://darktheme.club" %}
 - Moved /archive back to [/blog](/blog/)
 
-## Version 3.5
+## 3.5
 
 - Added [/games](/games/) and [/links](/links/) to this site
 
-## Version 3.4
+## 3.4
 
 - Moved /archive to /articles
 - Added "Recently Enjoyed" to [/about](/about/)
 
-## Version 3.3
+## 3.3
 
 - Added a "Reply with email" button to articles
 - Changed the layout of [/likes](/likes/): it's now a grid of tiles instead of the list it used to be
 - Updated, refined and rearranged [/about](/about/)
 
-## Version 3.2
+## 3.2
 
 - Added [/likes](/likes/) where I'll publish cool things I find on the internet
 - Moved /TIL to /notes
 - Updated the site's icon
 
-## Version 3.1.1
+## 3.1.1
 
 - Added a table of contents to [/notes](/notes/)
 - Joined the {% ext "250kb.club", "https://250kb.club" %} and the {% ext "1MB.club", "https://1mb.club" %}
 
-## Version 3.1
+## 3.1
 
 - Added [/now](/now/) and [/uses](/uses/) to this site
 - Adjusted the width of the content columns
 - Joined the {% ext "512kb.club", "https://512kb.club" %}
 
-## Version 3.0.2
+## 3.0.2
 
 - Updated the styling for links inside the content of this site
 - Changed the old pixelsorted portrait I used to an illustration my wife made for me
 
-## Version 3.0.1
+## 3.0.1
 
 - Added the changelog you're currently reading
 
-## Version 3.0
+## 3.0
 
 **Active since 03/2021.**
 
@@ -143,7 +149,7 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 - Slight visual Cleanup
 - Switched to "Titillium Web" as the site's font
 
-## Version 2.0
+## 2.0
 
 Active from 03/2020 to 03/2021.
 
@@ -154,7 +160,7 @@ Active from 03/2020 to 03/2021.
 - Added the "Today I learned..." page
 - Switched to "Ubuntu" as the site's font
 
-## Version 1.1
+## 1.1
 
 Active from 11/2018 to 03/2020.
 
@@ -164,7 +170,7 @@ Active from 11/2018 to 03/2020.
 - Added a portfolio section called "Projects"
 - Switched to "Nunito" as the site's font
 
-## Version 1.0
+## 1.0
 
 Active from 08/2018 to 11/2018.
 

@@ -1,0 +1,28 @@
+---
+title: Sitemap
+description: This page lists every regular page on this website.
+layout: page.njk
+permalink: /sitemap/index.html
+eleventyExcludeFromCollections: true
+---
+<p>
+  {{ description }}
+</p>
+<p>
+  Collections entries (blog posts, likes and notes) can be found listed on their respective collection list page.
+</p>
+<ul>
+  {% for item in collections.all | sortByTitle %}
+    {% if item.data.isRegularPage %}
+      <li>
+        <p>
+          <a href="{{ item.url }}">{{ item.data.title }}</a>
+          {% if item.data.description %}
+            <br>
+            {{ item.data.description }}
+          {% endif %}
+        </p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
