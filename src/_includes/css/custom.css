@@ -694,7 +694,7 @@ summary h2 {
 .card {
   display: block;
   background-color: var(--bg);
-  background: linear-gradient(to bottom right,  color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
+  background: linear-gradient(to bottom right, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
   backdrop-filter: blur(8px);
   border: 1px solid var(--border);
   height: 100%;
@@ -702,7 +702,7 @@ summary h2 {
 }
 
 .old-content-note {
-  background: linear-gradient(to bottom right,  color-mix(in srgb, var(--yellow), transparent 75%), var(--bg));
+  background: linear-gradient(to bottom right, color-mix(in srgb, var(--yellow), transparent 75%), var(--bg));
   backdrop-filter: blur(8px);
   border: 2px solid var(--yellow);
   font-size: 1.125rem;
@@ -711,9 +711,10 @@ summary h2 {
 }
 
 .wsk-card {
+  background-color: var(--bg);
+  background: linear-gradient(to bottom right, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
+
   & summary {
-    background-color: var(--bg);
-    background: linear-gradient(to bottom right,  color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
     border: 1px solid var(--border);
     list-style: none;
     max-height: 140px;
