@@ -9,4 +9,5 @@ store: Airport Duty Free
 status: empty
 buy_again: no
 image: 003-singleton-glendullan.jpg
+order: 3
 ---

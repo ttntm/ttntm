@@ -9,7 +9,8 @@ store: WiWo Spirits
 status: empty
 buy_again: yes
 image: 017-caol-ila.jpg
-details: true
+notes: true
+order: 17
 ---
 
 #### Notes

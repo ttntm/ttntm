@@ -9,7 +9,8 @@ store: WiWo Spirits
 status: empty
 buy_again: maybe
 image: 016-lagavulin8.jpg
-details: true
+notes: true
+order: 16
 ---
 
 #### Notes

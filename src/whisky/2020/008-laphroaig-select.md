@@ -8,4 +8,5 @@ store: Hofer
 status: empty
 buy_again: no
 image: 008-laphroaig-select.jpg
+order: 8
 ---

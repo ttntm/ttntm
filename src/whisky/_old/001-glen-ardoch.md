@@ -8,7 +8,8 @@ price: 13
 store: Interspar
 status: empty
 buy_again: maybe
-details: true
+notes: true
+order: 1
 ---
 
 #### Notes

@@ -9,7 +9,8 @@ store: Ammersin
 status: open
 buy_again: yes
 image: 020-lagavulin16.jpg
-details: true
+notes: true
+order: 20
 ---
 
 #### Notes

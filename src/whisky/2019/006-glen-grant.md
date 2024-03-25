@@ -8,4 +8,5 @@ price: 30
 store: interspar
 status: empty
 buy_again: no
+order: 6
 ---

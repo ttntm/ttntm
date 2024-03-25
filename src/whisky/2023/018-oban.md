@@ -9,7 +9,8 @@ store: Interspar
 status: empty
 buy_again: yes
 image: 018-oban.jpg
-details: true
+notes: true
+order: 18
 ---
 
 #### Notes

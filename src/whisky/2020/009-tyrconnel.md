@@ -7,4 +7,5 @@ price: 25
 store: Lidl
 status: empty
 buy_again: no
+order: 9
 ---

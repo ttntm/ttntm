@@ -24,51 +24,54 @@
           <img class="img-fluid shadow" src="/img/whisky/{{ item.data.image }}" alt="A photo of a bottle of {{ item.data.name }}">
         </a>
       {% endif %}
-      <ul class="post mb0">
-        <li>
-          <b>Type</b>: {{ item.data.type }}
-        </li>
-        {% if item.data.age %}
+      <div>
+        <h4>Details</h4>
+        <ul class="post mb0">
           <li>
-            <b>Age</b>: {{ item.data.age }}
+            <b>Type</b>: {{ item.data.type }}
           </li>
-        {% endif %}
-        {% if item.data.region %}
-          <li>
-            <b>Region</b>: {{ item.data.region }}
-          </li>
-        {% endif %}
-        {% if item.data.purchased %}
-          <li>
-            <b>Purchased</b>: {{ item.data.purchased }}
-          </li>
-        {% endif %}
-        {% if item.data.price %}
-          <li>
-            <b>Price</b>: {{ item.data.price }}
-          </li>
-        {% endif %}
-        {% if item.data.store %}
-          <li>
-            <b>{% if item.data.status != "wanted" %}Bought at{% else %}Store{% endif %}</b>: {% if item.data.store_url %}
-              <a href="{{ item.data.store_url }}" rel="noreferrer" target="_blank">{{ item.data.store }}</a>
-            {% else %}
-              {{ item.data.store }}
-            {% endif %}
-          </li>
-        {% endif %}
-        {% if item.data.status != "wanted" %}
-          <li>
-            <b>Status</b>: <span class="wsk-status {{ item.data.status }}">{{ item.data.status }}</span>
-          </li>
-        {% endif %}
-        {% if item.data.buy_again %}
-          <li>
-            <b>Buy again</b>: <span class="wsk-again {{ item.data.buy_again }}">{{ item.data.buy_again }}</span>
-          </li>
-        {% endif %}
-      </ul>
-      {% if item.data.details %}
+          {% if item.data.age %}
+            <li>
+              <b>Age</b>: {{ item.data.age }}
+            </li>
+          {% endif %}
+          {% if item.data.region %}
+            <li>
+              <b>Region</b>: {{ item.data.region }}
+            </li>
+          {% endif %}
+          {% if item.data.purchased %}
+            <li>
+              <b>Purchased</b>: {{ item.data.purchased }}
+            </li>
+          {% endif %}
+          {% if item.data.price %}
+            <li>
+              <b>Price</b>: {{ item.data.price }}
+            </li>
+          {% endif %}
+          {% if item.data.store %}
+            <li>
+              <b>{% if item.data.status != "wanted" %}Bought at{% else %}Store{% endif %}</b>: {% if item.data.store_url %}
+                <a href="{{ item.data.store_url }}" rel="noreferrer" target="_blank">{{ item.data.store }}</a>
+              {% else %}
+                {{ item.data.store }}
+              {% endif %}
+            </li>
+          {% endif %}
+          {% if item.data.status != "wanted" %}
+            <li>
+              <b>Status</b>: <span class="wsk-status {{ item.data.status }}">{{ item.data.status }}</span>
+            </li>
+          {% endif %}
+          {% if item.data.buy_again %}
+            <li>
+              <b>Buy again</b>: <span class="wsk-again {{ item.data.buy_again }}">{{ item.data.buy_again }}</span>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+      {% if item.data.notes %}
         <div class="post span2-lg">
           {{ item.templateContent | safe }}
         </div>

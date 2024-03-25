@@ -7,4 +7,5 @@ price: 20
 store: Various
 status: empty
 buy_again: maybe
+order: 2
 ---
