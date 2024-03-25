@@ -17,7 +17,13 @@
       {%- for h in site.highlights -%}
         <li class="flex align-items-center" style="{{ 'padding-top: .75rem;' if not loop.first }} gap: .5rem;">
           <img src="/img/icons/{{ h.img }}" alt="{{ h.title }}" width="28" style="margin: 2px 0;">
-          <span class="d-block">{{ h.title }}</span>
+          <span class="d-block">
+            {%- if h.link -%}
+              <a href="{{ h.link }}">{{ h.title }}</a>
+            {%- else -%}
+              {{ h.title }}
+            {%- endif -%}
+          </span>
         </li>
       {%- endfor -%}
     </ul>

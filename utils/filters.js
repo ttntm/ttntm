@@ -24,6 +24,6 @@ module.exports = {
     return markdown.render(value)
   },
   sortByTitle: function(values) {
-    return values.slice().sort((a, b) => a.data.title.localeCompare(b.data.title))
+    return values.slice().sort((a, b) => a.data?.title?.localeCompare(b.data?.title))
   }
 }

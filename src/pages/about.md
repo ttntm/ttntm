@@ -5,7 +5,6 @@ layout: page.njk
 templateEngineOverride: md,njk
 permalink: /about/index.html
 ---
-
 <div class="flex flex-row justify-content-between align-items-center flex-wrap mb1">
   <div class="w25 w75m p1 mx-auto">
     <img class="img-fluid circle shadow u-photo" src="/img/ttntm.webp" alt="An illustration showing Tom" title="Yup, that could be me." width="285" height="285">

@@ -341,6 +341,10 @@
 }
 
 @media (min-width: 1024px) {
+  .gap2-xl {
+    gap: 2rem;
+  }
+
   .indent-1-lg {
     padding-left: 1rem;
   }

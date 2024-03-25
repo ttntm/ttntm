@@ -8,7 +8,7 @@
 <meta name="author" content="{{ site.author }}">
 <meta name="robots" content="index,follow">
 <meta name="description" content="{{ description or site.description }}">
-<title>{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %} - ttntm.me</title>
+<title>{{ title or site.title }} - ttntm.me</title>
 <link rel="canonical" href="{{ absolutePageUrl }}">
 
 <link rel="manifest" href="/site.webmanifest">
@@ -27,7 +27,7 @@
 {# Open Graph #}
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ title or site.title }}">
-<meta property="og:description" content="{{ description  or site.description }}">
+<meta property="og:description" content="{{ description or site.description }}">
 <meta property="og:url" content="{{ absolutePageUrl }}">
 <meta name="twitter:card" content="{%- if image -%}summary_large_image{% else %}summary{%- endif -%}">
 {%- if image -%}

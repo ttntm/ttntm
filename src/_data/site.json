@@ -1,5 +1,5 @@
 {
-  "version": "3.11.1",
+  "version": "3.12",
   "author": "ttntm",
   "description": "Tom's personal website; articles, demos and opinions about web development and related topics.",
   "feeds": [
@@ -31,8 +31,9 @@
       "img": "movie.svg"
     },
     {
-      "title": "Lagavulin 16yo",
-      "img": "drink.svg"
+      "title": "Talisker 10yo",
+      "img": "drink.svg",
+      "link": "/whisky/#log"
     }
   ],
   "readmore": [

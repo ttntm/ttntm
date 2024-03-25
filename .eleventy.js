@@ -66,7 +66,7 @@ module.exports = (config) => {
   })
 
   config.addCollection('notes', async(collection) => {
-    return collection.getFilteredByGlob('./src/notes/*.md')
+    return collection.getFilteredByGlob('./src/notes/**/*.md')
   })
 
   config.addCollection('postsByYear', (collection) => {
@@ -76,6 +76,10 @@ module.exports = (config) => {
       .toPairs()
       .reverse()
       .value()
+  })
+
+  config.addCollection('whisky', async(collection) => {
+    return collection.getFilteredByGlob('./src/whisky/**/*.md')
   })
 
   // STATIC FILES

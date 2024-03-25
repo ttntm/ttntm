@@ -26,6 +26,8 @@
   --light: #D8DEE9;
   --lighter: #E5E9F0;
   --lightest: #ECEFF4;
+  /* --green: #A3BE8C; */
+  --green: #408773;
   --red: #BF616A;
   --yellow: #EBCB8B;
   --white: #fff;
@@ -242,6 +244,7 @@ em,
   color: var(--highlight);
 }
 
+b,
 strong {
   font-weight: 700;
 }
@@ -306,7 +309,7 @@ small {
 }
 
 ol, ul {
-  padding-inline-start: 40px;
+  padding-inline-start: 2rem;
 }
 
 ol {
@@ -705,6 +708,103 @@ summary h2 {
   font-size: 1.125rem;
   padding: 1.5rem;
   margin: 2rem 0;
+}
+
+.wsk-card {
+  & summary {
+    background-color: var(--bg);
+    background: linear-gradient(to bottom right,  color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
+    border: 1px solid var(--border);
+    list-style: none;
+    max-height: 140px;
+    position: relative;
+  }
+
+  & summary::-webkit-details-marker {
+    display: none;
+  }
+
+  & summary img {
+    align-self: stretch;
+    max-height: 100%;
+    max-width: 125px;
+    object-fit: cover;
+    filter: grayscale(.75);
+    transition: filter .35s ease;
+  }
+
+  & summary:hover {
+    cursor: pointer;
+
+    & img {
+      filter: grayscale(0);
+    }
+  }
+
+  & .wsk-card__date-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--border);
+    font-size: .875rem;
+    line-height: 1;
+    padding: .5rem;
+  }
+
+  & .wsk-card__inner {
+    animation: fadeIn .75s linear forwards;
+    border: 1px solid var(--border);
+    border-top: 0;
+    padding: 2rem 2rem 1rem;
+
+    &:not(:has(div.post)) {
+      padding: 2rem;
+    }
+
+    & img {
+      border-radius: 1rem;
+      max-height: 300px;
+      max-width: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    & div.post {
+      grid-column: 1 / span 2;
+    }
+
+    & .wsk-again,
+    & .wsk-status {
+      background-color: var(--border);
+      border-radius: .25rem;
+      font-size: .75rem;
+      line-height: 1;
+      margin-left: .25rem;
+      padding: .125rem .5rem;
+
+      &.closed,
+      &.yes {
+        background-color: var(--green);
+        color: var(--white);
+      }
+
+      &.empty,
+      &.no {
+        background-color: var(--red);
+        color: var(--white);
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* TRANSITIONS */

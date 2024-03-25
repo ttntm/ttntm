@@ -11,6 +11,10 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.12
+
+- Added a page listing the [/whisky](/whisky/) I drink
+
 ## 3.11.1
 
 - Made the [/sitemap](/sitemap/) usable for humans and linked to it from the homepage and the footer
