@@ -1,6 +1,7 @@
 ---
 title: Ideas
 description: A public list of ideas for future projects.
+image: /img/ideas.png
 layout: page.njk
 permalink: /ideas/index.html
 ---
