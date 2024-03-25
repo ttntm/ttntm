@@ -770,10 +770,6 @@ summary h2 {
       object-fit: cover;
     }
 
-    & div.post {
-      grid-column: 1 / span 2;
-    }
-
     & .wsk-again,
     & .wsk-status {
       background-color: var(--border);
