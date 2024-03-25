@@ -21,7 +21,7 @@ permalink: /whisky/index.html
   <section class="mt2">
     <h2 id="log" class="tight">Scotch Log</h2>
     <div class="hr shadow"></div>
-    {% for item in collections.whisky | reverse %}
+    {% for item in collections.whisky | sortByYearPurchased | reverse %}
       {% if item.data.status != "wanted" %}
         {% include "wsk.card.njk" %}
       {% endif %}
