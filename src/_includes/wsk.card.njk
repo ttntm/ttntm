@@ -1,4 +1,4 @@
-<article class="py1">
+<article class="{% if item.data.status != "wanted" %}wsk-listing {% endif %}py1" data-region="{{ item.data.region | slugify }}">
   <details class="wsk-card shadow-md-hover">
     <summary class="flex align-items-center gap2-lg">
       {% if item.data.status != "wanted" %}

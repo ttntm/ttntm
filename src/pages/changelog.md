@@ -11,6 +11,10 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.12.1
+
+- Added region-based filtering to the Whisky journal
+
 ## 3.12
 
 - Added a page listing the [/whisky](/whisky/) I drink

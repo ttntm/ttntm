@@ -1,3 +1,4 @@
+const _ = require('lodash')
 const dnt = require('date-and-time')
 
 module.exports = {
@@ -11,12 +12,50 @@ module.exports = {
       ? `<time datetime="${tag}">${display}</time>`
       : display
   },
+
+  customFilter: function(collection, filterKey, excludeKey = null, excludeValue = null) {
+    const terms = collection.reduce((map, currentItem) => {
+      const data = currentItem.data ?? undefined
+
+      // `Boolean(o[null] !== null)` => `true` -- to make sure this function
+      // does not break if `excludeKey` and `excludeValue` are omitted
+      if (
+        data
+        && data.hasOwnProperty(filterKey)
+        && data[filterKey]?.length > 0
+        && data[excludeKey] !== excludeValue
+      ) {
+        const filterTerm = data[filterKey]
+        const filterKeyCount = (map[filterTerm] || 0) + 1
+
+        return {
+          ...map,
+          [filterTerm]: filterKeyCount
+        }
+      } else {
+        return map
+      }
+    }, {})
+
+    return Object.keys(terms)
+      .sort()
+      .map((t) => {
+        return `<li>
+          <button class="filter-btn shadow" data-term="${filterKey}" data-value="${_.kebabCase(t)}">
+            ${t}&nbsp;(${terms[t]})
+          </button>
+        </li>`
+      })
+      .join('')
+  },
+
   ext: function(displayText, link) {
     // shortcode to create external 'target=_blank' links
     return`<a href="${link}" target="_blank" rel="noreferrer">${displayText}</a>`
   },
+
   oldContentNote: function(d) {
-    // shortcode to show some notice for older posts
+    // shortcode to show a notice for posts older than 365 days
     let now = new Date()
     let then = new Date(d)
     let age = dnt.subtract(now, then).toDays()
@@ -29,6 +68,7 @@ module.exports = {
         </p>`
       : ''
   },
+
   replybtn: function(subject) {
     // shortcode to create a "reply with email" button
     const encodedSubject = encodeURIComponent(subject)

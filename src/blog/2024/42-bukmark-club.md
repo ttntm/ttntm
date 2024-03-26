@@ -50,8 +50,7 @@ The function passed to `sort()` is using `String.prototype.localeCompare()` ({% 
 Rendering the directory uses two consecutive loops that process the collection:
 
 ```html
-{% raw %}
-<h2>Index</h2>
+{% raw %}<h2>Index</h2>
 <ul class="flex flex-wrap gap1 mb2">
   {% for letter, letterPages in collections.directory %}
     <li>

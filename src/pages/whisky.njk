@@ -22,6 +22,17 @@ permalink: /whisky/index.html
   <section class="mt2">
     <h2 id="log" class="tight">Scotch Log</h2>
     <div class="hr shadow"></div>
+    <div>
+      <h3>Filter by Region</h3>
+      <ul class="filter-list list-reset flex flex-wrap align-items-center gap1 mt1 mb1">
+        {% customFilter collections.whisky, "region", "status", "wanted" %}
+        <li>
+          <button id="reset-filter" class="d-none filter-btn shadow">
+            &#8635;&nbsp;Reset
+          </button>
+        </li>
+      </ul>
+    </div>
     {% for item in collections.whisky | sortByOrder | reverse %}
       {% if item.data.status != "wanted" %}
         {% include "wsk.card.njk" %}
@@ -38,3 +49,9 @@ permalink: /whisky/index.html
     {% endfor %}
   </section>
 </section>
+{% set js %}
+  {% include 'js/filter.whisky.js' %}
+{% endset %}
+<script>
+  {{ js | jsmin | safe }}
+</script>

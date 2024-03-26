@@ -530,6 +530,11 @@ button {
   font-size: 1rem;
   border: 0;
   padding: 0;
+
+  &:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
 }
 
 .btn,
@@ -801,6 +806,27 @@ summary h2 {
 
   100% {
     opacity: 1;
+  }
+}
+
+.filter-btn {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: .25rem;
+  display: inline-block;
+  color: var(--text);
+  font-size: .875rem;
+  padding: .2rem .5rem;
+
+  &:hover {
+    background-color: var(--border);
+  }
+
+  &.filter-btn__active {
+    background-color: color-mix(in srgb, var(--yellow), transparent 10%);
+    border-color: var(--yellow);
+    box-shadow: none;
+    color: var(--darkest);
   }
 }
 

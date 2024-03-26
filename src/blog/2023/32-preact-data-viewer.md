@@ -32,7 +32,7 @@ The demo provides a working example that's also been published to this site: {% 
 
 <img src="/img/blog/preact-data-viewer.png" class="img-fluid img-center" alt="Screenshot of a demo app">
 
-Please note that the all code mentioned in this article should also show up explicitly (i.e. unprocessed, unminified) in your browser’s dev tools - it is buildless after all.
+Please note that all code mentioned in this article should also show up explicitly (i.e. unprocessed, unminified) in your browser’s dev tools - it is buildless after all.
 (*A little note on that can be found at the end of the article.*)
 
 ## Building the App

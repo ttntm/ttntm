@@ -182,8 +182,7 @@ Implementing a whitelist like that offers the 0 config benefit of automatic rebu
 With that taken care of, we can proceed and render our guestbook entries:
 
 ```html
-{% raw %}
-{% if guestbook | length %}
+{% raw %}{% if guestbook | length %}
   <h2>Guestbook Entries</h2>
   <section>
     {% for item in guestbook %}

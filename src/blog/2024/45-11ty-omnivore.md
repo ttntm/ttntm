@@ -150,8 +150,7 @@ NB: there's an official {% ext "API Client Library for Node.js", "https://github
 It's nothing special, but this is how I'm rendering my reading list:
 
 ```html
-{% raw %}
-{% if reading | length %}
+{% raw %}{% if reading | length %}
   <ul>
     {% for item in reading %}
       <li>
