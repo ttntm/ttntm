@@ -40,7 +40,7 @@ Using `curl` is perfectly fine (example in the docs linked above), but GraphQL i
 
 First, you'll need a matching GraphQL query, no matter which tool you decide to use. I checked the docs, only found the {% ext "schema", "https://github.com/omnivore-app/omnivore/blob/main/packages/api/src/schema.ts" %}, and eventually ended up getting a suitable query from the developer tool's network panel:
 
-<img src="/img/blog/ov_network_panel.jpg" class="img-center img-fluid" alt="A screenshot from the network panel of the browser developer tools that shows a GraphQL query of the Omnivore app">
+<img src="/img/blog/ov_network_panel.jpg" class="img-center img-fluid auto-invert" alt="A screenshot from the network panel of the browser developer tools that shows a GraphQL query of the Omnivore app">
 
 Next, I extracted the fields I felt were necessary and ran a test:
 

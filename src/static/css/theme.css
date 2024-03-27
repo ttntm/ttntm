@@ -46,4 +46,8 @@
     --textMuted: #ababab;
     --textQuote: var(--white);
   }
+
+  .auto-invert {
+    filter: grayscale(50%) invert(100%) brightness(95%) hue-rotate(180deg);
+  }
 }

@@ -15,6 +15,8 @@ You're always welcome to [email me](mailto:ttntm@pm.me?subject=Ideas) with feedb
 **Last updated:** March 23rd 2024
 
 - An Eleventy plugin to show the commit activity in the respective site's repository
+  - It exists already: see section "Custom Data" at {% ext "postgraph.rknight.me", "https://postgraph.rknight.me" %}
+  - Refined idea: build such a custom data object from a repository's git history (via JSON, see {% ext "Easily Convert git log Output to JSON", "https://blog.kellybrazil.com/2022/05/17/easily-convert-git-log-output-to-json/" %})
 - A minimal bookmark manager
 - A reboot reminder bot for ActivityPub/Mastodon
 - A browser game that works on a Q/A basis; user submitted question/answer combinations, 1 question per calendar day

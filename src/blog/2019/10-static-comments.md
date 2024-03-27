@@ -31,7 +31,7 @@ As described in the linked article, this simple "comment engine" basically works
 
 Here's a compact flowchart detailing the process:
 
-<img src="/img/blog/comment-flow.jpg" class="img-fluid img-center mb2" alt="Flowchart comment engine">
+<img src="/img/blog/comment-flow.jpg" class="img-fluid img-center auto-invert" alt="Flowchart comment engine">
 
 ### Hugo Configuration
 

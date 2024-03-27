@@ -94,8 +94,6 @@ Overall, this seems to be a rather convenient solution when it's necessary to ma
 
 In the end though, I don't think any of the above is relevant if you're using Sass and/or CSS processing in your build setup. I just haven't gotten around to digging into that yet, so it's a definitive advantage over the copy/paste and the find/replace cycle respectively.
 
---------------------
-
 #### Update 10.09.2018
 
 For some reason, `$(document).ready()` didn't fire consistently enough - it could happen, that `cssVars()` never got executed and the site rendered without resolving the variable values.

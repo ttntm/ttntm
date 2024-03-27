@@ -15,7 +15,7 @@ image: /img/blog/client-serverless-credit-faunadb.png
 
 I had already heard of client-serverless architectures and read a bunch of articles about the subject when I came up with the idea of creating a {% ext "personal use recipes app", "https://recept0r.com" %} earlier this year - I hadn't done anything like that before though.
 
-<img src="/img/blog/client-serverless-credit-faunadb.png" class="img-fluid img-center mb1" alt="client-serverless application model">
+<img src="/img/blog/client-serverless-credit-faunadb.png" class="img-fluid img-center auto-invert" alt="client-serverless application model">
 
 What I had in mind at this point was a minimal web application that would serve me and {% ext "my wife", "https://sahar.design" %} (who took care of the design) as a recipes collection for food that we enjoy cooking. Convenient bonus features like PWA functionality (i.e. using the app on the phone or tablet when standing in the kitchen) and user authentication should be available too, making sure it's not just functional, but also enjoyable to use.
 
@@ -193,7 +193,7 @@ The correct (=current) user is included in the function call and then used as th
 
 In my Fauna dashboard, this specific index looks like this:
 
-<img src="/img/blog/fauna-dashboard.png" class="img-fluid img-center mb2" alt="FaunaDB dashboard">
+<img src="/img/blog/fauna-dashboard.png" class="img-fluid img-center auto-invert" alt="FaunaDB dashboard">
 
 The rest of this Netlify function follows the same logic as `all-recipes.js` described above and eventually returns an array of recipes belonging to the current user that gets displayed on the "My Recipes" page of the app. If the user just came from the front page (and Vuex has a current local version of all recipes), the app saves bandwidth and displays the cached data instead of executing the function.
 

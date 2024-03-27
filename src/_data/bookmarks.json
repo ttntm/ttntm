@@ -110,6 +110,11 @@
         "url": "https://www.snesfun.com"
       },
       {
+        "title": "The Scientific Place",
+        "description": "A place that unlocks your inner curios nerd.",
+        "url": "https://scientific.place"
+      },
+      {
         "title": "The Useless Web",
         "description": "Some websites, we just couldn't do without.",
         "url": "https://theuselessweb.com"
@@ -159,6 +164,11 @@
         "title": "Laws of UX",
         "description": "A collection of best practices that designers can consider when building user interfaces.",
         "url": "https://lawsofux.com"
+      },
+      {
+        "title": "OAPEN",
+        "description": "A quality controlled collection of open access books.",
+        "url": "https://library.oapen.org"
       },
       {
         "title": "Privacy Guides",

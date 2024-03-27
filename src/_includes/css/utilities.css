@@ -104,6 +104,10 @@
   .grid .second {
     grid-column-start: 2;
   }
+
+  .span2-md {
+    grid-column: 1 / span 2;
+  }
 }
 
 @media(min-width:1024px) {
@@ -347,10 +351,6 @@
 
   .indent-1-lg {
     padding-left: 1rem;
-  }
-
-  .span2-lg {
-    grid-column: 1 / span 2;
   }
 }
 
