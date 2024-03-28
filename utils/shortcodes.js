@@ -14,6 +14,7 @@ module.exports = {
   },
 
   customFilter: function(collection, filterKey, excludeKey = null, excludeValue = null) {
+    let displayLength = 0
     const terms = collection.reduce((map, currentItem) => {
       const data = currentItem.data ?? undefined
 
@@ -28,6 +29,8 @@ module.exports = {
         const filterTerm = data[filterKey]
         const filterKeyCount = (map[filterTerm] || 0) + 1
 
+        displayLength++
+
         return {
           ...map,
           [filterTerm]: filterKeyCount
@@ -37,15 +40,20 @@ module.exports = {
       }
     }, {})
 
-    return Object.keys(terms)
-      .sort()
-      .map((t) => {
-        return `<li>
-          <button class="filter-btn shadow" data-term="${filterKey}" data-value="${_.kebabCase(t)}">
-            ${t}&nbsp;(${terms[t]})
-          </button>
-        </li>`
-      })
+    return [`<li>
+      <button class="filter-btn filter-btn__active shadow" data-reset="true" data-value="${filterKey}">
+        All&nbsp;(${displayLength})
+      </button>
+    </li>`]
+      .concat(Object.keys(terms)
+        .sort()
+        .map((t) => {
+          return `<li>
+            <button class="filter-btn shadow" data-term="${filterKey}" data-value="${_.kebabCase(t)}">
+              ${t}&nbsp;(${terms[t]})
+            </button>
+          </li>`
+        }))
       .join('')
   },
 
@@ -55,12 +63,12 @@ module.exports = {
   },
 
   oldContentNote: function(d) {
-    // shortcode to show a notice for posts older than 365 days
+    // shortcode to show a notice for posts older than X days
     let now = new Date()
     let then = new Date(d)
     let age = dnt.subtract(now, then).toDays()
 
-    return age && age > 365
+    return age && age > 730
       ? `<p class="old-content-note">
           <span style="font-family: var(--font-mono); font-size: 1rem;">&#9432;&nbsp;</span><strong>It's been a while...</strong>
           <br>

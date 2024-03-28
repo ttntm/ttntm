@@ -16,11 +16,9 @@ window.addEventListener('DOMContentLoaded', () => {
   const filterBtns = document.querySelectorAll('.filter-btn')
   const filterParam = 'region'
   const listings = document.querySelectorAll('.wsk-listing')
-  const resetBtn = document.getElementById('reset-filter')
+  const resetBtns = document.querySelectorAll(`[data-reset="true"]`)
 
   function applyFilter(term, value) {
-    resetBtn.classList.remove(classHidden)
-
     filterBtns.forEach((btn) => {
       btn.classList.remove(classActive)
       btn.disabled = false
@@ -71,8 +69,6 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
   function resetFilter(updateUrl = true) {
-    resetBtn.classList.add(classHidden)
-
     filterBtns.forEach((btn) => {
       btn.classList.remove(classActive)
       btn.disabled = false
@@ -80,6 +76,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
     listings.forEach((item) => {
       item.classList.remove(classHidden)
+    })
+
+    resetBtns.forEach((btn) => {
+      if (btn.getAttribute('data-value') === filterParam) {
+        btn.classList.add(classActive)
+        btn.disabled = true
+      }
     })
 
     if (updateUrl) {
@@ -93,7 +96,9 @@ window.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', handleFilterBtnClick)
   })
 
-  resetBtn.addEventListener('click', resetFilter)
+  resetBtns.forEach((btn) => {
+    btn.addEventListener('click', resetFilter)
+  })
 
   window.addEventListener('popstate', handleFilterInURL)
   window.addEventListener('pushState', handleFilterInURL)

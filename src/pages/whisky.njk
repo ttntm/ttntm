@@ -23,14 +23,9 @@ permalink: /whisky/index.html
     <h2 id="log" class="tight">Scotch Log</h2>
     <div class="hr shadow"></div>
     <div>
-      <h3>Filter by Region</h3>
+      <p class="h4 bold">Select Region</p>
       <ul class="filter-list list-reset flex flex-wrap align-items-center gap1 mt1 mb1">
         {% customFilter collections.whisky, "region", "status", "wanted" %}
-        <li>
-          <button id="reset-filter" class="d-none filter-btn shadow">
-            &#8635;&nbsp;Reset
-          </button>
-        </li>
       </ul>
     </div>
     {% for item in collections.whisky | sortByOrder | reverse %}
