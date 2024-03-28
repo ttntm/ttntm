@@ -1,13 +1,16 @@
 {
   "scripts": {
-    "serve": "eleventy --serve",
-    "deploy": "eleventy"
+    "gitlog": "git log --format=fuller --stat | jc --git-log -p > ./scripts/gitlog_data.json",
+    "get-pg-data": "npm run gitlog && node ./scripts/get-pg-data.js",
+    "deploy": "eleventy",
+    "serve": "eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-fetch": "^4.0.1",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
+    "@rknightuk/eleventy-plugin-post-graph": "^1.0.7",
     "cssnano": "^5.1.14",
     "date-and-time": "^1.0.0",
     "dotenv": "^16.4.5",

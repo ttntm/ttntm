@@ -2,6 +2,7 @@
 const _ = require('lodash')
 const htmlmin = require('html-minifier')
 const markdownIt = require('markdown-it')
+const pluginPostGraph = require('@rknightuk/eleventy-plugin-post-graph')
 const pluginReadingTime = require('eleventy-plugin-reading-time')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
@@ -13,6 +14,12 @@ const shortcodes = require('./utils/shortcodes.js')
 
 module.exports = (config) => {
   // PLUGINS
+  config.addPlugin(pluginPostGraph, {
+    sort: 'desc',
+    boxColor: 'var(--border)',
+    highlightColor: 'var(--sec)',
+    textColor: 'var(--text)'
+  })
   config.addPlugin(pluginRss)
   config.addPlugin(pluginSyntaxHighlight)
   config.addPlugin(pluginReadingTime)

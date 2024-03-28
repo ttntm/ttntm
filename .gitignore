@@ -1,5 +1,7 @@
 .env
 public/
+gitlog.json
+scripts/gitlog_data.json
 
 # Logs
 logs

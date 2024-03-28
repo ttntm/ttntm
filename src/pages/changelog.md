@@ -1,15 +1,20 @@
 ---
 title: Changelog
-description: All the changes this website has gone through since it launched in 2018.
+description: A logbook of all the changes this website has gone through since it launched in 2018.
 layout: page.njk
+templateEngineOverride: md,njk
 permalink: /changelog/index.html
 ---
 
-All the changes this website has gone through since it launched in 2018.
+A logbook of all the changes this website has gone through since it launched in 2018. A visual representation of the activity in this website's git repository can be found at the bottom of this page: [Activity Timeline](#timeline)
 
-Last built and published: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
+**Last built and published**: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
+
+## 3.12.2
+
+- Added an [Activity Timeline](#timeline) based on `git log` output to this changelog
 
 ## 3.12.1
 
@@ -103,7 +108,7 @@ Last built and published: {% buildDate %} - {% ext "View Source", "https://githu
 ## 3.6
 
 - Added dark mode via `@media (prefers-color-scheme: dark) {}`
-- Joined the {% ext "darktheme.club" "https://darktheme.club" %}
+- Joined the {% ext "darktheme.club", "https://darktheme.club" %}
 - Moved /archive back to [/blog](/blog/)
 
 ## 3.5
@@ -185,3 +190,9 @@ Active from 08/2018 to 11/2018.
 - Launched as a Hugo site deployed via Netlify
 - Visually based on Bootstrap 4
 - Included all the BS4 bloat despite not making much use of it
+
+<div class="hr shadow mt2 mb2"></div>
+
+<h2 id="timeline" class="tight">Activity Timeline</h2>
+
+{% postGraph null, { "data": stats } %}
