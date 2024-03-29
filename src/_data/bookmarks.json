@@ -4,13 +4,18 @@
     "description": "Blogs and personal websites that I read/visit regularly. Some more links to personal websites can be found in the \"Website Inspiration\" section.",
     "data": [
       {
+        "title": "andreinc.net",
+        "description": "The personal blog of Andrei N. Ciobanu",
+        "url": "https://www.andreinc.net"
+      },
+      {
         "title": "antfu.me",
         "description": "Anthony Fu",
         "url": "https://antfu.me"
       },
       {
-        "title": "The Homepage of Dave Rupert",
-        "description": "Dave Rupert",
+        "title": "daverupert.com",
+        "description": "The Homepage of Dave Rupert",
         "url": "https://daverupert.com"
       },
       {
