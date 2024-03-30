@@ -70,9 +70,9 @@ Only **0.01 g** of CO2 is produced every time someone visits this website.
 
 A detailed report can be found here: {% ext "Website Carbon Calculator", "https://www.websitecarbon.com/website/ttntm-me/" %}
 
-### License
+<h3 id="license">License</h3>
 
-<a id="license"></a>All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noreferrer" target="_blank">CC-BY-NC-SA-4.0</a>
+All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noreferrer" target="_blank">CC-BY-NC-SA-4.0</a>
 
 ### Memberships
 
