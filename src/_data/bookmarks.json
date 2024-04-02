@@ -161,11 +161,6 @@
         "url": "https://cari.institute/aesthetics"
       },
       {
-        "title": "LanguageTool",
-        "description": "A multilingual spelling, style, and grammar checker that helps correct or paraphrase texts.",
-        "url": "https://languagetool.org"
-      },
-      {
         "title": "Laws of UX",
         "description": "A collection of best practices that designers can consider when building user interfaces.",
         "url": "https://lawsofux.com"
@@ -252,11 +247,6 @@
         "url": "https://gifcap.dev"
       },
       {
-        "title": "iRuler.net",
-        "description": "An online ruler.",
-        "url": "https://iruler.net"
-      },
-      {
         "title": "Ojoy",
         "description": "Image upscaling in the browser with 100% of the upscaling process performed client-side.",
         "url": "https://ojoy.zaps.dev"
@@ -275,11 +265,6 @@
         "title": "Squoosh",
         "description": "Image compressor; doesn't send your image to a server, all image compression processes locally.",
         "url": "https://quoosh.app"
-      },
-      {
-        "title": "Startpage",
-        "description": "The world's most private search engine.",
-        "url": "https://www.startpage.com"
       },
       {
         "title": "Tenacity",

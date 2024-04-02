@@ -5,7 +5,7 @@ layout: page.njk
 permalink: /uses/index.html
 ---
 
-**Last updated:** Mar. 11th 2024
+**Last updated:** Apr. 2nd 2024
 
 ## Hardware
 
@@ -36,7 +36,7 @@ The **VS Code extensions** I use the most are:
 - {% ext "Plastic", "https://plastictheme.com/themes/vscode" %}
 - {% ext "Nord", "https://open-vsx.org/extension/arcticicestudio/nord-visual-studio-code" %}
 
-I'm using Firefox Dev. Edition, Brave and Ungoogled Chromium as browsers currently. All my browsers use {% ext "my custom start page", "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
+I'm using Firefox Dev. Edition, Brave and Ungoogled Chromium as browsers currently. All my browsers use {% ext "Startpage", "https://www.startpage.com" %} as search engine and {% ext "my custom browser homepage", "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Firefox as my main browser and my extensions are pretty basic:
 
 - CORS Everywhere
 - Proton Pass
@@ -44,7 +44,7 @@ I'm using Firefox Dev. Edition, Brave and Ungoogled Chromium as browsers current
 
 In addition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found over at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
 
-Other than that, Notion is what I use for notes and personal task management. {% ext "Omnivore" "https://omnivore.app" %} is my read-it-later solution and all the information I need/want to keep ends up in my {% ext "personal wiki" "https://kb.ttntm.me" %} eventually. Proton Mail takes care of my emails. When I need to edit pixels, I'm using GIMP or Photopea and when I have to work with vectors, I'm using Figma or Inkscape.
+Notion is what I currently use for notes and personal task management, Proton takes care of my calendar and emails. When I need to edit pixels, I'm using GIMP or Photopea and when I have to work with vectors, I'm using Figma or Inkscape. {% ext "Omnivore" "https://omnivore.app" %} is my read-it-later solution and I [publish the most recent items](/blog/creating-a-reading-list-with-eleventy-and-omnivore/) added to my reading list [on this website](/reading).
 
 Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: Proton Pass for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, Proton VPN when I need a VPN and {% ext "Omatsuri", "https://omatsuri.app" %} for many other things I need to get done.
 

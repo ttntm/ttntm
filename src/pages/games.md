@@ -56,6 +56,9 @@ Diablo II has the most significance to me based on time spent and memories made.
 **Dragon's Dogma: Dark Arisen**
 The base game was originally released for PS3 in 2012; I played its re-release including the "Dark Arisen" expansion on PS4 in late 2020/early 2021. Definitely on the weirder end of ARPGs, but quite a "hidden gem" in terms of gameplay depth, build/character customization and its unique world. Bonus points to the endgame/expansion area which was at times reminiscent of things that From Software did/does. Recommended for ARPG fans that don’t necessarily need a strong story.
 
+**Gothic**
+I played this game soon after its release, and long before it became a "cult classic". It offered a unique open world to immerse yourself in, a cool story and combat/loot that felt really rewarding. It was also full of bugs that were sometimes frustrating, but often hilarious. I quite fondly remember many long gaming sessions and phone calls with friends, trying to collectively figure out quests and workarounds for bugs/glitches.
+
 ## Strategy Games & Sims
 
 **Cities: Skylines**
