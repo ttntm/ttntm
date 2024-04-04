@@ -813,6 +813,7 @@ summary h2 {
   }
 }
 
+.btn-muted,
 .filter-btn {
   background-color: var(--bg);
   border: 1px solid var(--border);

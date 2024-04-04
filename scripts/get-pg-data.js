@@ -27,7 +27,7 @@ function getCustomData(log) {
       const currentDate = new Date(currentEl)
       const year = dnt.format(currentDate, 'YYYY')
       const dateIndexKey = `${year}-${dayOfYear(currentDate)}`
-      const currentCount = (map[dateIndexKey] || 0) + 1
+      const currentCount = (map?.counts?.[dateIndexKey] || 0) + 1
 
       return {
         counts: {

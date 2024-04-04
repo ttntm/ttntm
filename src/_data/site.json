@@ -1,5 +1,5 @@
 {
-  "version": "3.12.2",
+  "version": "3.12.3",
   "author": "ttntm",
   "description": "Tom's personal website; articles, demos and opinions about web development and related topics.",
   "feeds": [
@@ -23,7 +23,7 @@
       "img": "music.svg"
     },
     {
-      "title": "Ghost of Tsushima",
+      "title": "Urbek City Builder",
       "img": "game.svg"
     },
     {

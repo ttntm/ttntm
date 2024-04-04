@@ -20,7 +20,10 @@ permalink: /whisky/index.html
     </p>
   </div>
   <section class="mt2">
-    <h2 id="log" class="tight">Scotch Log</h2>
+    <div class="flex flex-row justify-content-between align-items-center tight gap1">
+      <h2 id="log" class="m0">Scotch Log</h2>
+      <button id="btn-expand" class="btn-muted shadow">Expand All</button>
+    </div>
     <div class="hr shadow"></div>
     <div>
       <p class="h4 bold">Select Region</p>
@@ -45,7 +48,7 @@ permalink: /whisky/index.html
   </section>
 </section>
 {% set js %}
-  {% include 'js/filter.whisky.js' %}
+  {% include 'js/whisky.js' %}
 {% endset %}
 <script>
   {{ js | jsmin | safe }}

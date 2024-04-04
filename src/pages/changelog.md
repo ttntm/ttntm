@@ -12,6 +12,11 @@ A logbook of all the changes this website has gone through since it launched in 
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.12.3
+
+- Added an expand/collapse all button to the Scotch Log in [/whisky](/whisky/)
+- Fixed activity timeline input data aggregation
+
 ## 3.12.2
 
 - Added an [Activity Timeline](#timeline) based on `git log` output to this changelog

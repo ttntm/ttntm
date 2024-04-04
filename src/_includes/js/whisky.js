@@ -13,10 +13,14 @@ function updateSearchParams(term, value) {
 window.addEventListener('DOMContentLoaded', () => {
   const classActive = 'filter-btn__active'
   const classHidden = 'd-none'
+  const expandBtn = document.getElementById('btn-expand')
   const filterBtns = document.querySelectorAll('.filter-btn')
   const filterParam = 'region'
   const listings = document.querySelectorAll('.wsk-listing')
   const resetBtns = document.querySelectorAll(`[data-reset="true"]`)
+  const state = {
+    isExpandAll: false
+  }
 
   function applyFilter(term, value) {
     filterBtns.forEach((btn) => {
@@ -33,6 +37,24 @@ window.addEventListener('DOMContentLoaded', () => {
         item.classList.remove(classHidden)
       }
     })
+  }
+
+  function expandCollapse() {
+    listings.forEach((item) => {
+      if (!state.isExpandAll) {
+        item.childNodes[0].setAttribute('open', '')
+      } else {
+        item.childNodes[0].removeAttribute('open')
+      }
+    })
+
+    if (!state.isExpandAll) {
+      expandBtn.innerText = 'Collapse All'
+    } else {
+      expandBtn.innerText = 'Expand All'
+    }
+
+    state.isExpandAll = !state.isExpandAll
   }
 
   function handleFilterBtnClick(event) {
@@ -91,6 +113,8 @@ window.addEventListener('DOMContentLoaded', () => {
       updateSearchParams(filterParam, undefined)
     }
   }
+
+  expandBtn.addEventListener('click', expandCollapse)
 
   filterBtns.forEach((btn) => {
     btn.addEventListener('click', handleFilterBtnClick)
