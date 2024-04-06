@@ -3,6 +3,7 @@ name: Oban
 type: Single Malt
 age: 14
 region: Highlands
+abv: 43
 purchased: 2023
 price: 61.42
 store: Interspar

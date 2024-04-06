@@ -40,6 +40,11 @@
               <b>Region</b>: {{ item.data.region }}
             </li>
           {% endif %}
+          {% if item.data.abv %}
+            <li>
+              <b>ABV</b>: {{ item.data.abv }}&percnt;
+            </li>
+          {% endif %}
           {% if item.data.purchased %}
             <li>
               <b>Purchased</b>: {{ item.data.purchased }}

@@ -3,6 +3,7 @@ name: Caol Ila
 type: Single Malt
 age: 12
 region: Islay
+abv: 43
 purchased: 2023
 price: 42.90
 store: WiWo Spirits

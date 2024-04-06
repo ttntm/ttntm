@@ -15,6 +15,7 @@ A logbook of all the changes this website has gone through since it launched in 
 ## 3.12.3
 
 - Added an expand/collapse all button to the Scotch Log in [/whisky](/whisky/)
+- Added ABV percentages to whisky listings
 - Fixed activity timeline input data aggregation
 
 ## 3.12.2

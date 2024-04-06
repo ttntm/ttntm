@@ -3,6 +3,7 @@ name: Lagavulin
 type: Single Malt
 age: 8
 region: Islay
+abv: 48
 purchased: 2023
 price: 54.90
 store: WiWo Spirits

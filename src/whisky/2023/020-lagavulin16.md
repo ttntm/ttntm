@@ -3,6 +3,7 @@ name: Lagavulin
 type: Single Malt
 age: 16
 region: Islay
+abv: 43
 purchased: 2023
 price: 79.99
 store: Ammersin

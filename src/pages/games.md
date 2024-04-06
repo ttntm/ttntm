@@ -6,7 +6,7 @@ layout: page.njk
 permalink: /games/index.html
 ---
 
-This is a curated list of my favorite videogames with reasons why I love them. A lot of games are going to be omitted here; a complete list of (almost) everything I ever played can be found {% ext "at Grouvee", "https://www.grouvee.com/user/ttntm/" %}.
+This is a curated list of my favorite video games with reasons why I love them. A lot of games are going to be omitted here; a complete list of (almost) everything I ever played can be found {% ext "at Grouvee", "https://www.grouvee.com/user/ttntm/" %}.
 
 Feel free to [let me know](mailto:ttntm@pm.me) if you enjoy any of the games I listed here or if you want to recommend something you think I'd also like!
 
@@ -19,7 +19,7 @@ I love cyberpunk stories and this one was a good one. The game itself definitely
 _Addendum 09/2023_: currently enjoying 2.0 and the DLC which re-designed many of the game's core systems (i.e. cyberware, weapons) and offers a pretty good new storyline.
 
 **Dark Souls I & III**
-Getting into Dark Souls I took me 3 attempts over 6 months back in 2013. But when it finally clicked, it clicked for good. The difficulty aside, From Software is *really* good at building a world for those that go looking for it. Sure, you could also just blaze through the game, enjoy the fights and move on. But for me, the true depth of both DS I and III was found in the cryptic lore and the NPCs storylines. Coop and PVP were fun too.
+Getting into Dark Souls I took me 3 attempts over 6 months back in 2013. But when it finally clicked, it clicked for good. The difficulty aside, From Software is extremely skilled at building a world full of mysterious, interesting stories for those that go looking for it. Sure, you could also just blaze through the game, enjoy the fights and move on. But for me, the true depth of both DS I and III was found in the cryptic lore and the NPCs storylines. Coop and PVP were fun too.
 "What about Dark Souls II?", you might ask - well, I played it about halfway through and stopped. It just wasn’t for me and I doubt I’ll ever try again.
 
 **Returnal**
