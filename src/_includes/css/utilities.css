@@ -108,6 +108,10 @@
   .span2-md {
     grid-column: 1 / span 2;
   }
+
+  .tight-md {
+    line-height: 1;
+  }
 }
 
 @media(min-width:1024px) {

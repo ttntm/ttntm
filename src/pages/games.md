@@ -5,14 +5,23 @@ image: /img/games.jpg
 layout: page.njk
 permalink: /games/index.html
 ---
-
-This is a curated list of my favorite video games with reasons why I love them.
-
-A lot of games are going to be omitted here; you can browse my PSN activity since 2015 at {% ext "PSNProfiles", "https://psnprofiles.com/teitantom" %}, and a longer list of (almost) everything I ever played can be found at {% ext "Grouvee", "https://www.grouvee.com/user/ttntm/" %}.
-
-Feel free to [let me know](mailto:ttntm@pm.me) if you enjoy any of the games I listed here or if you want to recommend something you think I'd also like!
-
-<img src="/img/games.jpg" class="img-center img-fluid" alt="Pac-Man tiles" style="width: 100%;">
+<div class="grid grid2 gap2 mt2">
+  <div>
+    <img src="/img/games.jpg" class="img-center img-fluid m0" alt="Pac-Man tiles">
+  </div>
+  <div>
+    <p>
+      This is a curated list of my favorite video games with reasons why I love them.
+    </p>
+    <p>
+      A lot of games are going to be omitted here; you can browse my PSN activity since 2015 at <a href="https://psnprofiles.com/teitantom" rel="noreferrer" target="_blank">PSNProfiles</a>, and a longer list of (almost) everything I ever played can be found at <a href="https://www.grouvee.com/user/ttntm/" rel="noreferrer" target="_blank">Grouvee</a>.
+    </p>
+    <p class="m0">
+      Feel free to <a href="mailto:ttntm@pm.me">let me know</a> if you enjoy any of the games I listed here or if you want to recommend something you think I'd also like!
+    </p>
+  </div>
+</div>
+<div class="hr shadow mt2 mb1"></div>
 
 ## Great Stories
 
@@ -60,6 +69,9 @@ The base game was originally released for PS3 in 2012; I played its re-release i
 
 **Gothic**
 I played this game soon after its release, and long before it became a "cult classic". It offered a unique open world to immerse yourself in, a cool story and combat/loot that felt really rewarding. It was also full of bugs that were sometimes frustrating, but often hilarious. I quite fondly remember many long gaming sessions and phone calls with friends, trying to collectively figure out quests and workarounds for bugs/glitches.
+
+**The Elder Scrolls III: Morrowind**
+A great game, one of the first I ever played that truly made its open world feel alive. Over the years, I think I must've started 20 or more different characters, most of them never even getting started with the main story. I also remember the graphics, and especially the water, being a highlight that I often used to show off my GeForce 3 Ti500.
 
 ## Strategy Games & Sims
 
