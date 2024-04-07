@@ -3,6 +3,7 @@ name: Glen Ardoch
 type: Single Malt
 age: 8
 region: Highlands
+abv: 40
 purchased: 2015
 price: 13
 store: Interspar
@@ -16,4 +17,4 @@ order: 1
 
 The cheapest single malt I know of.
 
-It's nothing special, but quite drinkable when there are no other options.
+It's nothing special, but drinkable when there are no other options or when scotch is needed for a cocktail.

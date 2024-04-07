@@ -6,7 +6,9 @@ layout: page.njk
 permalink: /games/index.html
 ---
 
-This is a curated list of my favorite video games with reasons why I love them. A lot of games are going to be omitted here; a complete list of (almost) everything I ever played can be found {% ext "at Grouvee", "https://www.grouvee.com/user/ttntm/" %}.
+This is a curated list of my favorite video games with reasons why I love them.
+
+A lot of games are going to be omitted here; you can browse my PSN activity since 2015 at {% ext "PSNProfiles", "https://psnprofiles.com/teitantom" %}, and a longer list of (almost) everything I ever played can be found at {% ext "Grouvee", "https://www.grouvee.com/user/ttntm/" %}.
 
 Feel free to [let me know](mailto:ttntm@pm.me) if you enjoy any of the games I listed here or if you want to recommend something you think I'd also like!
 
@@ -16,7 +18,7 @@ Feel free to [let me know](mailto:ttntm@pm.me) if you enjoy any of the games I l
 
 **Cyberpunk 2077**
 I love cyberpunk stories and this one was a good one. The game itself definitely wasn’t matching all the promises made before release, but the version I played on the PS5 in 2022 (after checking out the free demo first...) was good enough for what turned out to be a truly wild ride into the world of cyberpunk and the neon lights of Night City.
-_Addendum 09/2023_: currently enjoying 2.0 and the DLC which re-designed many of the game's core systems (i.e. cyberware, weapons) and offers a pretty good new storyline.
+_Addendum 09/2023_: enjoyed 2.0 and the DLC, which re-designed many of the game's core systems (i.e. cyberware, weapons) and offers a pretty cool new storyline.
 
 **Dark Souls I & III**
 Getting into Dark Souls I took me 3 attempts over 6 months back in 2013. But when it finally clicked, it clicked for good. The difficulty aside, From Software is extremely skilled at building a world full of mysterious, interesting stories for those that go looking for it. Sure, you could also just blaze through the game, enjoy the fights and move on. But for me, the true depth of both DS I and III was found in the cryptic lore and the NPCs storylines. Coop and PVP were fun too.
@@ -61,8 +63,20 @@ I played this game soon after its release, and long before it became a "cult cla
 
 ## Strategy Games & Sims
 
+**Age of Empires**
+I still remember the day I first touched this game: a classmate got it as a birthday gift and we were glued to the screen immediately. Every part of the core gameplay made sense and both the campaign and the scenarios provided fun for many hours. I lost count of how many old company laptops this was installed on during family holidays, but it must have been a lot.
+
+**Anno 1602**
+This was one of the first games I got completely lost in, especially during holidays. The core gameplay is a wonderful mix of exploration, resource management and city building, with some occasional diplomacy and conflicts. Someone else once labelled this one "relaxing, rewarding and highly addictive", and I couldn't agree more.
+
 **Cities: Skylines**
 One of the rare gems that I completely got lost in. Played both the PC and the PS4 versions; the PC version wins, because there are mods that change both gameplay (i.e. traffic) and visuals (i.e. user created assets like buildings). Early (unmodded/vanilla) cities were fun, but what I really discovered as "my thing" was building smaller, highly customized towns that were close/r to reality and (mostly) built using individually placed buildings instead of the vanilla game’s autopopulated zones. It’s definitely a time-consuming game, can be tedious too (traffic…), but building [a somewhat realistic looking city](/img/CS_Screenshot.jpg) and looking at it from above felt rewarding to me.
 
+**Civilization III**
+Pretty much the same story as "Age of Empires" and "Anno 1602": hooked as soon as I touched it. The turn-based system was a nice change, but turns took longer the larger my empire grew. This made "just one more turn..." increasingly more time-consuming, and I remember many short nights as a result of that.
+
 **Freelancer**
 Probably the best "space sim RPG" I ever played. Good story, an open world that felt alive and pretty cool ship you could fly around in. I played many other games that looked similar since then, but none ever came close.
+
+**Jagged Alliance 2**
+I knew I wanted to give this one a shot when I first saw the box. It took a couple of years though, and I ended up getting it from some "games at a discount" series that was around back then. I think it took about 2 or 3 restarts until I got it right, but it turned out to be a very rewarding game. The turn-based combat kept things interesting and made it feel more manageable than similar tactical RTS games (i.e. "Commandos" which was around at the same time). I also liked how you could combine items to make new ones, like DIY barrel extenders for your guns.
