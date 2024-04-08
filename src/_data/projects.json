@@ -182,8 +182,13 @@
     "description": "Themes and UI customizations for various applications.",
     "data": [
       {
+        "title": "cmus-kanagawa",
+        "description": "My spin of the Kanagawa theme for cmus.",
+        "source": "https://github.com/ttntm/cmus-kanagawa"
+      },
+      {
         "title": "cmus-tokyo-night",
-        "description": "A Tokyo Night inspired theme for the amazing cmus.",
+        "description": "A Tokyo Night inspired theme for cmus.",
         "source": "https://github.com/ttntm/cmus-tokyo-night"
       },
       {
