@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
   {% if collections.blog %}
     <updated>{{ collections.blog | rssLastUpdatedDate }}</updated>
   {% endif %}
-  <id>{{ site.url }}/</id>
+  <id>ttntm.me/blog</id>
   {%- for item in collections.blog | reverse -%}
     {% set absolutePostUrl %}{{ item.url | url | absoluteUrl(site.url) }}{% endset %}
     <entry>
