@@ -206,3 +206,13 @@ Active from 08/2018 to 11/2018.
 <h2 id="timeline" class="tight">Activity Timeline</h2>
 
 {% postGraph null, { "data": stats } %}
+
+<style>
+  /*
+    This bizarre rule fixes a broken grid in Chrome due to an extra `<br>` tag at the
+    very end of the list of `<div>`s representing the days of the year.
+  */
+  .epg__squares > :not(div) {
+    display: none;
+  }
+</style>
