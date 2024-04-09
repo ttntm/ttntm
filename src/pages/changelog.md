@@ -12,6 +12,10 @@ A logbook of all the changes this website has gone through since it launched in 
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.12.4
+
+- Reduced the `letter-spacing` used for headings and links
+
 ## 3.12.3
 
 - Added an expand/collapse all button to the Scotch Log in [/whisky](/whisky/)

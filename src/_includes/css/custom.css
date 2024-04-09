@@ -186,7 +186,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: var(--textHeading);
   font-weight: 700;
-  letter-spacing: .1rem;
+  letter-spacing: .5px;
   margin-bottom: .5rem;
 }
 
@@ -210,7 +210,7 @@ ol, ul, p, pre, code, kbd, samp {
 a, a:active {
   color: var(--prim);
   font-weight: 700;
-  letter-spacing: .8px;
+  letter-spacing: .5px;
   text-decoration: underline;
   transition: color .35s ease-in-out, text-decoration .35s ease-in-out;
 }
