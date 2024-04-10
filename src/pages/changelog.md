@@ -12,6 +12,14 @@ A logbook of all the changes this website has gone through since it launched in 
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.13
+
+<small>Released: 2024-04-10</small>
+
+- Added the [/appendix](/appendix/)
+- Added dates to minor versions listed in this changelog
+- The whisky wishlist is now sorted alphabetically
+
 ## 3.12.4
 
 - Reduced the `letter-spacing` used for headings and links
@@ -32,6 +40,8 @@ A logbook of all the changes this website has gone through since it launched in 
 
 ## 3.12
 
+<small>Released: 2024-03-25</small>
+
 - Added a page listing the [/whisky](/whisky/) I drink
 
 ## 3.11.1
@@ -41,10 +51,14 @@ A logbook of all the changes this website has gone through since it launched in 
 
 ## 3.11
 
+<small>Released: 2024-03-18</small>
+
 - Added [/reading](/reading/) which renders the top 10 entries from my Omnivore-based reading list
 - Fix: contrast of `text-muted` for the light theme
 
 ## 3.10
+
+<small>Released: 2024-03-14</small>
 
 - Completely rewrote [/work](/work/)
 - Added [/ideas](/ideas/)
@@ -66,6 +80,8 @@ A logbook of all the changes this website has gone through since it launched in 
 
 ## 3.9
 
+<small>Released: 2024-03-01</small>
+
 - **New homepage layout**
 - A little more animation for card `:hover` states
 - Reviewed and rewrote a couple of things in [/about](/about/)
@@ -79,6 +95,8 @@ A logbook of all the changes this website has gone through since it launched in 
 
 ## 3.8
 
+<small>Released: 2024-02-15</small>
+
 - Added [/bookmarks](/bookmarks/), my own directory of useful and interesting links
 
 ## 3.7.1
@@ -89,6 +107,8 @@ A logbook of all the changes this website has gone through since it launched in 
 - Fixed a lot of grammar and spelling (thank you, {% ext "LTeX", "https://marketplace.visualstudio.com/items?itemName=neo-ltex.ltex" %})
 
 ## 3.7
+
+<small>Released: 2024-01-16</small>
 
 - Added tags to the blog: [/tags](/tags/)
   - They were removed in v3.0 back in 2021 because I thought they were redundant - I was wrong
@@ -102,9 +122,6 @@ A logbook of all the changes this website has gone through since it launched in 
 - Theme toggle button:
   - The icon on the `<button>` now changes based on current theme (via JS)
 - `<noscript>`: The button used to switch themes gets hidden (via CSS)
-
-## 3.6.2
-
 - Added Codeberg to the social links
 
 ## 3.6.1
@@ -117,26 +134,36 @@ A logbook of all the changes this website has gone through since it launched in 
 
 ## 3.6
 
+<small>Released: 2024-01-03</small>
+
 - Added dark mode via `@media (prefers-color-scheme: dark) {}`
 - Joined the {% ext "darktheme.club", "https://darktheme.club" %}
 - Moved /archive back to [/blog](/blog/)
 
 ## 3.5
 
+<small>Released: 2023-09-25</small>
+
 - Added [/games](/games/) and [/links](/links/) to this site
 
 ## 3.4
+
+<small>Released: 2023-06-21</small>
 
 - Moved /archive to /articles
 - Added "Recently Enjoyed" to [/about](/about/)
 
 ## 3.3
 
+<small>Released: 2023-05-31</small>
+
 - Added a "Reply with email" button to articles
 - Changed the layout of [/likes](/likes/): it's now a grid of tiles instead of the list it used to be
 - Updated, refined and rearranged [/about](/about/)
 
 ## 3.2
+
+<small>Released: 2021-05-30</small>
 
 - Added [/likes](/likes/) where I'll publish cool things I find on the internet
 - Moved /TIL to /notes
@@ -148,6 +175,8 @@ A logbook of all the changes this website has gone through since it launched in 
 - Joined the {% ext "250kb.club", "https://250kb.club" %} and the {% ext "1MB.club", "https://1mb.club" %}
 
 ## 3.1
+
+<small>Released: 2021-05-01</small>
 
 - Added [/now](/now/) and [/uses](/uses/) to this site
 - Adjusted the width of the content columns

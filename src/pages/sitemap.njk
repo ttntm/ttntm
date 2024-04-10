@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
   Blog posts, likes and notes can be found listed on their respective collection list page.
 </p>
 <ul>
-  {% for item in collections.all | sortByTitle %}
+  {% for item in collections.all | sortByText('title') %}
     {% if item.data.isRegularPage %}
       <li>
         <p>

@@ -42,9 +42,9 @@ window.addEventListener('DOMContentLoaded', () => {
   function expandCollapse() {
     listings.forEach((item) => {
       if (!state.isExpandAll) {
-        item.childNodes[0].setAttribute('open', '')
+        item?.children[0]?.setAttribute('open', '')
       } else {
-        item.childNodes[0].removeAttribute('open')
+        item?.children[0]?.removeAttribute('open')
       }
     })
 

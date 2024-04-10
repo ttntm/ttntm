@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: Information about this website and its author.
+description: About Tom, the author of this website.
 layout: page.njk
 templateEngineOverride: md,njk
 permalink: /about/index.html
@@ -46,42 +46,6 @@ When I'm not in front of a screen working, <a href="https://watch3r.app" target=
 
 ## About This Website
 
-A bit of information about this website. Feel free to <a href="mailto:ttntm@pm.me?subject=About your website">email me</a> if you want to talk about it.
+This section was moved recently.
 
-### Colophon
-
-The tech stack used for the current version is:
-
-- Cloudflare Pages
-- Eleventy
-- Git
-- PostCSS
-
-This website contains <s>no</s> _only minimal_ JavaScript ([theme persistence](/blog/dark-mode/)) and the total uncompressed size of it's landing page is less than 100 KB. There's absolutely no tracking and I will {% ext "never monetize", "https://www.nevermonetize.com" %} this website's visitors and users.
-
-There's also a [Changelog](/changelog/) that contains all the major changes this website has gone through over the years.
-
-#### Carbon Rating
-
-This website achieves a carbon rating of **A+**.
-
-This is _cleaner than 98 % of all web pages_ globally.
-Only **0.01 g** of CO2 is produced every time someone visits this website.
-
-A detailed report can be found here: {% ext "Website Carbon Calculator", "https://www.websitecarbon.com/website/ttntm-me/" %}
-
-<h3 id="license">License</h3>
-
-All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noreferrer" target="_blank">CC-BY-NC-SA-4.0</a>
-
-### Memberships
-
-This website is a proud member of:
-
-{% include "about.stats.njk" %}
-
-### Support
-
-<a href="mailto:ttntm@pm.me">Kind words</a> are always welcomed and appreciated.
-
-_THANK YOU &#9825;_
+It is now available at: [/appendix](/appendix/)

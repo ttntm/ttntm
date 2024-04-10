@@ -26,7 +26,7 @@ module.exports = {
   sortByOrder: function(values) {
     return values.slice().sort((a, b) => a.data?.order - b.data?.order)
   },
-  sortByTitle: function(values) {
-    return values.slice().sort((a, b) => a.data?.title?.localeCompare(b.data?.title))
+  sortByText: function(values, text) {
+    return values.slice().sort((a, b) => a.data?.[text]?.localeCompare(b.data?.[text]))
   }
 }

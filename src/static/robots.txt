@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /feed.xml
+Disallow: /likes/feed.xml
+Disallow: /notes/feed.xml
 Disallow: /bookmarks/
 Disallow: /likes/
 

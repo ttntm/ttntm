@@ -40,7 +40,7 @@ permalink: /whisky/index.html
   <section>
     <h2 id="wishlist" class="tight mt2">Wishlist</h2>
     <div class="hr shadow"></div>
-    {% for item in collections.whisky | sortByOrder %}
+    {% for item in collections.whisky | sortByText('name') %}
       {% if item.data.status == "wanted" %}
         {% include "wsk.card.njk" %}
       {% endif %}
