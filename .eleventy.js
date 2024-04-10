@@ -2,6 +2,7 @@
 const _ = require('lodash')
 const htmlmin = require('html-minifier')
 const markdownIt = require('markdown-it')
+const nodeEnv = require('dotenv').config()
 const pluginPostGraph = require('@rknightuk/eleventy-plugin-post-graph')
 const pluginReadingTime = require('eleventy-plugin-reading-time')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
@@ -93,17 +94,20 @@ module.exports = (config) => {
   config.addPassthroughCopy({ './src/static/': '/' })
 
   // TRANSFORM -- Minify HTML Output
-  config.addTransform('htmlmin', (content, outputPath) => {
-    if (outputPath && outputPath.endsWith('.html')) {
-      let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
-      })
-      return minified
-    }
-    return content
-  })
+  // Unless we're running `serve` mode for local development
+  if (process.env.ELEVENTY_RUN_MODE && process.env.ELEVENTY_RUN_MODE === 'build') {
+    config.addTransform('htmlmin', (content, outputPath) => {
+      if (outputPath && outputPath.endsWith('.html')) {
+        let minified = htmlmin.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true
+        })
+        return minified
+      }
+      return content
+    })
+  }
 
   return {
     dir: {

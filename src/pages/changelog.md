@@ -209,9 +209,11 @@ Active from 08/2018 to 11/2018.
 
 <style>
   /*
-    This bizarre rule fixes a broken grid in Chrome due to an extra `<br>` tag at the
-    very end of the list of `<div>`s representing the days of the year.
+    These bizarre rules hide some extra HTML tags which can lead to issues, i.e. a broken
+    grid in Chrome due to an extra `<br>` tag at the very end of the list of `<div>` elements
+    representing the days of the year.
   */
+  .epg__months > :not(div),
   .epg__squares > :not(div) {
     display: none;
   }
