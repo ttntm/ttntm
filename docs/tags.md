@@ -1,0 +1,53 @@
+# Documentation: Tags
+
+How tags are used on this website.
+
+## Guidelines
+
+- Tags are used for blog posts only
+- Tags should be limited to one word
+- Min. 1 / max. 3 tags per post
+
+## Tag Usage
+
+Last update: 2024-04-11
+
+- #astro
+  Anything about Astro, a web framework and SSG
+- #css
+  Posts about CSS
+- #defaults
+  The annual "App Defaults" series
+- #eleventy
+  Anything about Eleventy, an SSG
+- #evolution
+  The Website Evolution series, started in 2024
+- #guide
+  Guides, how-tos and tutorials
+- #hugo
+  Anything about Hugo, an SSG
+- #jquery
+  Guides, how-tos and tutorials jQuery was used for
+- #learning
+  Posts about things I learned and problems I solved
+- #news
+  Updates, generally about this website and/or FOSS activities
+- #opinion
+  Posts containing opinionated content
+- #oss
+  FOSS activities
+- #personal
+  Personal stuff, like defaults or annual recaps
+- #preact
+  Guides, how-tos and tutorials Preact was used for
+- #recap
+  A series of annual recaps, started in 2022
+- #serverless
+  Guides, how-tos and tutorials making use of serverless patterns and technologies
+- #tailwind
+  Guides, how-tos and tutorials Tailwind CSS was used for
+- #template
+  FOSS template announcements and deep dives
+- #vue
+  Guides, how-tos and tutorials Vue was used for
+- #website

@@ -28,7 +28,7 @@ Only **0.01 g** of CO2 is produced every time someone visits this website.
 
 A detailed report can be found here: {% ext "Website Carbon Calculator", "https://www.websitecarbon.com/website/ttntm-me/" %}
 
-## Intentions & To-Dos
+## Intentions and To-Dos
 
 Things I intend to do with this website, and thing I'd like this website to do.
 
