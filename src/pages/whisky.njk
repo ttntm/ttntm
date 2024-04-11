@@ -22,10 +22,10 @@ permalink: /whisky/index.html
   <section class="mt2">
     <div class="flex flex-row justify-content-between align-items-center tight-md gap1">
       <h2 id="log" class="m0">Scotch Log</h2>
-      <button id="btn-expand" class="btn-muted shadow">Expand All</button>
+      <button id="btn-expand" class="btn-muted shadow hide-no-js">Expand All</button>
     </div>
     <div class="hr shadow"></div>
-    <div>
+    <div class="hide-no-js">
       <p class="h4 bold">Select Region</p>
       <ul class="filter-list list-reset flex flex-wrap align-items-center gap1 mt1 mb1">
         {% customFilter collections.whisky, "region", "status", "wanted" %}
