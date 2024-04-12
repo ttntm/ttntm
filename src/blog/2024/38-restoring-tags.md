@@ -78,7 +78,7 @@ This one was the only tricky bit.
 
 The `filter` config was necessary to prevent duplicate permalink errors (due to draft content) and unintended content getting built into the `/tags/` folder.
 
-Also `data: collections.blog` kept giving me errors. I have no idea why, but I plan to get to a minimal reproducible example to report it if it turns out it isn't "just" some config that's specific to this site.
+Also, `data: collections.blog` kept giving me errors. I have no idea why, but I plan to get to a minimal reproducible example to report it if it turns out it isn't "just" some config that's specific to this site.
 
 ```yaml
 {% raw %}---

@@ -15,7 +15,7 @@ The tech stack used for the current version is:
 - Git
 - PostCSS
 
-This website contains <s>no</s> _only minimal_ JavaScript ([theme persistence](/blog/dark-mode/)) and the total uncompressed size of it's landing page is less than 100 KB. There's absolutely no tracking and I will {% ext "never monetize", "https://www.nevermonetize.com" %} this website's visitors and users.
+This website contains <s>no</s> _only minimal_ JavaScript ([theme persistence](/blog/dark-mode/)) and the total uncompressed size of it's landing page is less than 100 KB.
 
 Feel free to <a href="mailto:ttntm@pm.me?subject=About your website">email me</a> if you want to talk about any of this.
 
@@ -30,19 +30,24 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 
 ## Intentions and To-Dos
 
-Things I intend to do with this website, and thing I'd like this website to do.
+**Things I intend to do with this website**:
 
 - Feel like me and change with me
-- Stay lightweight
-- Support webmentions
-- Offer linkable headings
-- Stay FOSS forever
 - Offer more personal posts and opinion pieces
-- Update frequently
 - Consider adding a page dedicated to music
 - Rewrite this website's CSS
 
-Feel free to browse the [Changelog](/changelog/) - it contains all the features, pages and everything else that was added, changed and removed over time.
+**And things I'd like this website to do**:
+
+- Stay FOSS
+- Stay lightweight
+- Never track visitors/users
+- {% ext "Never monetize", "https://www.nevermonetize.com" %} visitors/users
+- Support webmentions
+- Offer linkable headings
+- Update frequently
+
+Finally, **everything that was done already**, can be found in the [Changelog](/changelog/).
 
 <h2 id="license">License</h2>
 

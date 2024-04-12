@@ -42,6 +42,8 @@ Last update: 2024-04-11
   Guides, how-tos and tutorials Preact was used for
 - #recap
   A series of annual recaps, started in 2022
+- #series
+  Marks posts that are part of a series indicated by another tag
 - #serverless
   Guides, how-tos and tutorials making use of serverless patterns and technologies
 - #tailwind
@@ -51,3 +53,4 @@ Last update: 2024-04-11
 - #vue
   Guides, how-tos and tutorials Vue was used for
 - #website
+  Anything about the website itself, like features, updates etc.

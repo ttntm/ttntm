@@ -5,19 +5,19 @@ layout: page.njk
 permalink: /now/index.html
 ---
 
-**Last updated:** March 19th 2024
+**Last updated:** April 11th 2024
 
-**Writing**: Preparing some more articles about Eleventy
+**Writing**: Cleaning out Notion, re-writing a ton of stuff in my personal wiki
 
 **Books**: Dune Messiah
 
-**Articles**: I publish a list at [/reading](/reading/) which gets updated frequently
+**Articles**: Check my [reading list](/reading/), it gets updated frequently
 
 **Games**: Ghost of Tsushima (which is _great_)
 
-**Drinks**: Lagavulin 16yo - still wow
+**Drinks**: Talisker 10yo
 
-**Life**: Preparing for summer - soon to enjoy BBQs, cycling, inline skating and swimming again
+**Life**: Spring cleaning, and preparing for summer - soon to enjoy BBQs, cycling, inline skating and swimming again
 
 <div class="hr shadow mb1"></div>
 

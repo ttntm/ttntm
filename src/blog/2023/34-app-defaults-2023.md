@@ -7,6 +7,7 @@ description: My extended "frozen /uses page" for late 2023.
 tags:
   - defaults
   - personal
+  - series
 image: /img/blog/empty.jpg
 ---
 
