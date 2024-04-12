@@ -44,6 +44,9 @@ permalink: /reading/index.html
         <p class="m0">
           <a href="{{ item.url }}" rel="noreferrer" target="_blank">Read Now</a>
         </p>
+        {% if not loop.last %}
+          <div class="hr shadow mt2 mb0"></div>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
