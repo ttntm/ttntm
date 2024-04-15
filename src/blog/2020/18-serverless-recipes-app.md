@@ -25,7 +25,7 @@ At first, I was tempted to go for a static site + headless CMS approach that wor
 
 The first time I came across Fauna was when I was looking for SQL alternatives for a project at work last year. We didn't go for it (PostgreSQL was chosen in the end), but I kept it in mind for the future. Back then, it may have sounded a little "too good to be true" for the majority of the decision makers involved, but marketing statements like "add a global datastore to your app in minutes" and "don't worry about database correctness, sharding, provisioning, latency, or scale" left me with an overall positive impression of their service.
 
-So, when I had to pick a database for my recipes app, I found myself looking at FaunaDB's website again, checking out their {% ext "pricing model", "https://dashboard.fauna.com/accounts/register?utm_source=DevTo&utm_medium=referral&utm_campaign=WritewithFauna_ServerlessRecipes_TDoe" %} this time. The "Always Free" plan seemed generous enough to support a small personal use app, so I didn't hesitate much and signed up right away.
+So, when I had to pick a database for my recipes app, I found myself looking at {% ext "Fauna's website", "https://fauna.com" %} again, checking out their pricing model this time. The "Always Free" plan seemed generous enough to support a small personal use app, so I didn't hesitate much and signed up right away.
 
 To be honest, I didn't really bother looking for alternatives too much - self-hosted databases or things like AWS/Azure/Firebase were not quite what I had in mind.
 
@@ -313,4 +313,4 @@ A final remark: there are a lot of helpful resources out there that supported me
 
 **Update Aug. 29th 2021**:
 
-The app this article is based on has been rewritten from scratch - the current source code can be found at {% ext "Codeberg", "https://codeberg.org/ttntm/recept0r" %}.
+The app this article is based on has been rewritten from scratch using Vue 3 and TypeScript - the current source code can be found at {% ext "Codeberg", "https://codeberg.org/ttntm/recept0r" %}.

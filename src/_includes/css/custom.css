@@ -647,6 +647,7 @@ button {
   transition: transform ease-in-out 1s;
 
   &:hover {
+    cursor: progress;
     transform: rotate3d(0,1,.05,180deg);
   }
 }
@@ -778,6 +779,10 @@ summary h2 {
       max-width: 100%;
       width: 100%;
       object-fit: cover;
+
+      &:hover {
+        cursor: zoom-in;
+      }
     }
 
     & .wsk-again,

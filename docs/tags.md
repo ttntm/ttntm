@@ -22,6 +22,8 @@ Last update: 2024-04-11
   Anything about Eleventy, an SSG
 - #evolution
   The Website Evolution series, started in 2024
+- #fauna
+  Anything concerning Fauna, a serverless database
 - #guide
   Guides, how-tos and tutorials
 - #hugo
