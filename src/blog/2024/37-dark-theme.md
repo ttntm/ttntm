@@ -21,14 +21,14 @@ And just in case I broke something: I'd really appreciate it if you could let me
 
 ## Update: Jan. 5th 2024
 
-I added a theme toggle button thanks to feedback I received: I did not know that using `privacy.resistFingerprinting` in FF's `about:config` forces light mode. 
+I added a theme toggle button thanks to feedback I received: I did not know that using `privacy.resistFingerprinting` in FF's `about:config` forces light mode.
 
 From the [Changelog](/changelog/) for the current version 3.6.1 of this website:
 
 Added a theme toggle button in the header and footer of the site.
 
 - The selected theme is stored in / restored from `localStorage`
-- The theme defaults to the user’s browser/OS choice
+- The theme defaults to the user's browser/OS choice
 - The toggle button overrides the browser/OS choice
 - There is also a `<noscript>` fallback in place: it loads a small CSS file that contains `:root {}` overrides based on `@media (prefers-color-scheme: dark) {}`
   - The button used to switch themes gets hidden (via CSS) in this case

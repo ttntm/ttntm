@@ -26,15 +26,15 @@ permalink: /games/index.html
 ## Great Stories
 
 **Cyberpunk 2077**
-I love cyberpunk stories and this one was a good one. The game itself definitely wasn’t matching all the promises made before release, but the version I played on the PS5 in 2022 (after checking out the free demo first...) was good enough for what turned out to be a truly wild ride into the world of cyberpunk and the neon lights of Night City.
+I love cyberpunk stories and this one was a good one. The game itself definitely wasn't matching all the promises made before release, but the version I played on the PS5 in 2022 (after checking out the free demo first...) was good enough for what turned out to be a truly wild ride into the world of cyberpunk and the neon lights of Night City.
 _Addendum 09/2023_: enjoyed 2.0 and the DLC, which re-designed many of the game's core systems (i.e. cyberware, weapons) and offers a pretty cool new storyline.
 
 **Dark Souls I & III**
 Getting into Dark Souls I took me 3 attempts over 6 months back in 2013. But when it finally clicked, it clicked for good. The difficulty aside, From Software is extremely skilled at building a world full of mysterious, interesting stories for those that go looking for it. Sure, you could also just blaze through the game, enjoy the fights and move on. But for me, the true depth of both DS I and III was found in the cryptic lore and the NPCs storylines. Coop and PVP were fun too.
-"What about Dark Souls II?", you might ask - well, I played it about halfway through and stopped. It just wasn’t for me and I doubt I’ll ever try again.
+"What about Dark Souls II?", you might ask - well, I played it about halfway through and stopped. It just wasn't for me and I doubt I'll ever try again.
 
 **Returnal**
-The 2nd game I played on my PS5 after getting one in June 2021. A thrilling (and challenging) game with a mysterious story that has to be uncovered and put together from various pieces. It's a polished game with wonderfully smooth gameplay, super precise controls and a great sound design. I can absolutely recommend playing it, but please keep in mind that it’s (more or less) a roguelike with bullet hell elements.
+The 2nd game I played on my PS5 after getting one in June 2021. A thrilling (and challenging) game with a mysterious story that has to be uncovered and put together from various pieces. It's a polished game with wonderfully smooth gameplay, super precise controls and a great sound design. I can absolutely recommend playing it, but please keep in mind that it's (more or less) a roguelike with bullet hell elements.
 
 **Sleeping Dogs**
 An action packed trip to the Triads of Hong Kong with gameplay quite similar to the GTA series. I really enjoyed the story and its characters (a nod to you, Old Salty Crab), the depiction of Hong Kong felt quite realistic and alive too.
@@ -56,16 +56,16 @@ I will never forget how it felt booting this one up for the first time, getting 
 ## Adventures
 
 **Stray**
-A wonderful game! The player character is an actual cat that has to survive in a post-apocalyptic world. Keeping this short to avoid spoilers, but loved every minute of it and can’t recommend it enough.
+A wonderful game! The player character is an actual cat that has to survive in a post-apocalyptic world. Keeping this short to avoid spoilers, but loved every minute of it and can't recommend it enough.
 
 ## (A)RPGs
 
 **Diablo** (series)
 To me, the series will always be ranked like this: *D2 > D1 > D3 > D4* (best > rest).
-Diablo II has the most significance to me based on time spent and memories made. Playing in a LAN during long summer vacation/s, unpatched corpse explosions, the rush of online boss runs on a crappy internet connection, collecting ears, rune words etc. - it’s probably lots of nostalgia, but no other Diablo ever came quite close to D2 for me.
+Diablo II has the most significance to me based on time spent and memories made. Playing in a LAN during long summer vacation/s, unpatched corpse explosions, the rush of online boss runs on a crappy internet connection, collecting ears, rune words etc. - it's probably lots of nostalgia, but no other Diablo ever came quite close to D2 for me.
 
 **Dragon's Dogma: Dark Arisen**
-The base game was originally released for PS3 in 2012; I played its re-release including the "Dark Arisen" expansion on PS4 in late 2020/early 2021. Definitely on the weirder end of ARPGs, but quite a "hidden gem" in terms of gameplay depth, build/character customization and its unique world. Bonus points to the endgame/expansion area which was at times reminiscent of things that From Software did/does. Recommended for ARPG fans that don’t necessarily need a strong story.
+The base game was originally released for PS3 in 2012; I played its re-release including the "Dark Arisen" expansion on PS4 in late 2020/early 2021. Definitely on the weirder end of ARPGs, but quite a "hidden gem" in terms of gameplay depth, build/character customization and its unique world. Bonus points to the endgame/expansion area which was at times reminiscent of things that From Software did/does. Recommended for ARPG fans that don't necessarily need a strong story.
 
 **Gothic**
 I played this game soon after its release, and long before it became a "cult classic". It offered a unique open world to immerse yourself in, a cool story and combat/loot that felt really rewarding. It was also full of bugs that were sometimes frustrating, but often hilarious. I quite fondly remember many long gaming sessions and phone calls with friends, trying to collectively figure out quests and workarounds for bugs/glitches.
@@ -82,7 +82,7 @@ I still remember the day I first touched this game: a classmate got it as a birt
 This was one of the first games I got completely lost in, especially during holidays. The core gameplay is a wonderful mix of exploration, resource management and city building, with some occasional diplomacy and conflicts. Someone else once labelled this one "relaxing, rewarding and highly addictive", and I couldn't agree more.
 
 **Cities: Skylines**
-One of the rare gems that I completely got lost in. Played both the PC and the PS4 versions; the PC version wins, because there are mods that change both gameplay (i.e. traffic) and visuals (i.e. user created assets like buildings). Early (unmodded/vanilla) cities were fun, but what I really discovered as "my thing" was building smaller, highly customized towns that were close/r to reality and (mostly) built using individually placed buildings instead of the vanilla game’s autopopulated zones. It’s definitely a time-consuming game, can be tedious too (traffic…), but building [a somewhat realistic looking city](/img/CS_Screenshot.jpg) and looking at it from above felt rewarding to me.
+One of the rare gems that I completely got lost in. Played both the PC and the PS4 versions; the PC version wins, because there are mods that change both gameplay (i.e. traffic) and visuals (i.e. user created assets like buildings). Early (unmodded/vanilla) cities were fun, but what I really discovered as "my thing" was building smaller, highly customized towns that were close/r to reality and (mostly) built using individually placed buildings instead of the vanilla game's autopopulated zones. It's definitely a time-consuming game, can be tedious too (traffic…), but building [a somewhat realistic looking city](/img/CS_Screenshot.jpg) and looking at it from above felt rewarding to me.
 
 **Civilization III**
 Pretty much the same story as "Age of Empires" and "Anno 1602": hooked as soon as I touched it. The turn-based system was a nice change, but turns took longer the larger my empire grew. This made "just one more turn..." increasingly more time-consuming, and I remember many short nights as a result of that.

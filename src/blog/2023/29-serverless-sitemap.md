@@ -12,17 +12,17 @@ image: /img/blog/sitemap.png
 
 <img src="/img/blog/sitemap.png" class="img-fluid img-center" alt="Illustration of a sitemap">
 
-Having a sitemap might not be an immediate priority when working on a small side project. Even more so, if it’s an SPA with dynamic routes that display content from a database - there’s no SSR at all and no builds/deployments to hook into.
+Having a sitemap might not be an immediate priority when working on a small side project. Even more so, if it's an SPA with dynamic routes that display content from a database - there's no SSR at all and no builds/deployments to hook into.
 
 Thinking about the somewhat similar scenario of SSGs and user submitted content (i.e. comments), my first idea of how to tackle this feature was automating builds/deployments on a schedule which would create an opportunity for (re-)creating the sitemap as a part of the build process.
 
-This approach didn’t feel right though, so I started thinking about how to generate the sitemap on demand, leveraging the app’s (serverless) back end.
+This approach didn't feel right though, so I started thinking about how to generate the sitemap on demand, leveraging the app's (serverless) back end.
 
 I eventually came across an old {% ext "Netlify support topic" "https://answers.netlify.com/t/returning-content-type-xml-from-calling-a-function/1107" %} about returning XML from a serverless function - this looked and felt much better than the “automated rebuilds” approach mentioned above, so I gave it a try.
 
 ## Implementing the Sitemap
 
-The app’s sitemap contains 2 static routes (`/home` and `/about`) and an ever-changing amount of user generated content.
+The app's sitemap contains 2 static routes (`/home` and `/about`) and an ever-changing amount of user generated content.
 
 The first thing the sitemap function has to take care of is initializing a new XML response with the hard coded static routes. The resulting sitemap template object is split into `start/mid/end` keys to allow adding further `<url>` elements before returning the final sitemap:
 
@@ -45,7 +45,7 @@ The first thing the sitemap function has to take care of is initializing a new X
   }
 ```
 
-Next, the function queries the database for all (published) content, using the same API endpoint that the app itself uses to get its front page content. If there’s a usable response, the function’s code loops through the response, adding the individual content page’s `<url>` objects to the sitemap:
+Next, the function queries the database for all (published) content, using the same API endpoint that the app itself uses to get its front page content. If there's a usable response, the function's code loops through the response, adding the individual content page's `<url>` objects to the sitemap:
 
 ```js
   const sitemap = initSitemap()
@@ -66,7 +66,7 @@ Next, the function queries the database for all (published) content, using the s
   }
 ```
 
-After that’s done, the final sitemap response gets concatenated from the `start/mid/end` keys of the sitemap template object (via `initSitemap()` above) and returned by the function:
+After that's done, the final sitemap response gets concatenated from the `start/mid/end` keys of the sitemap template object (via `initSitemap()` above) and returned by the function:
 
 ```js
   const sitemapFinal = `${sitemap.start}${sitemap.mid}${sitemap.end}`
@@ -84,9 +84,9 @@ Finally, don't forget to add a redirect to your app's config:
   /sitemap.xml /.netlify/functions/sitemap 200
 ```
 
-That’s it basically; here’s some additional context:
+That's it basically; here's some additional context:
 
 - The merged PR: {% ext "feat #20: sitemap@Codeberg" "https://codeberg.org/ttntm/recept0r/pulls/21/files" %}
 - The final function: {% ext "sitemap.js" "https://codeberg.org/ttntm/recept0r/src/branch/main/functions/sitemap.js" %}
 
-I’m pretty happy with the result and I have to say that using a(nother) serverless function here feels right to me, certainly much better than the idea of using some sort of automated rebuilds on a schedule just to create an XML file. It’s also in line with the rest of the app’s back end and it properly leverages existing functionality to keep things DRY.
+I'm pretty happy with the result and I have to say that using a(nother) serverless function here feels right to me, certainly much better than the idea of using some sort of automated rebuilds on a schedule just to create an XML file. It's also in line with the rest of the app's back end and it properly leverages existing functionality to keep things DRY.

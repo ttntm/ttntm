@@ -43,9 +43,10 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 - Stay lightweight
 - Never track visitors/users
 - {% ext "Never monetize", "https://www.nevermonetize.com" %} visitors/users
+- Update frequently
 - Support webmentions
 - Offer linkable headings
-- Update frequently
+- Be searchable at some point
 
 Finally, **everything that was done already**, can be found in the [Changelog](/changelog/).
 

@@ -35,7 +35,7 @@ The recipes app I built can be described as a basic CRUD (create-read-update-del
 
 ### Vue App Setup
 
-Vue.js was on my list of “frameworks I’d like to work with” for a while, so the decision of going for it was a rather easy one. If you're looking for some good reasons in favor of using Vue in general, some of them can be found here: {% ext "michaelnthiessen.com/underdog-framework", "https://michaelnthiessen.com/underdog-framework" %}
+Vue.js was on my list of “frameworks I'd like to work with” for a while, so the decision of going for it was a rather easy one. If you're looking for some good reasons in favor of using Vue in general, some of them can be found here: {% ext "michaelnthiessen.com/underdog-framework", "https://michaelnthiessen.com/underdog-framework" %}
 
 What I ended up building can be described as a classic SPA with multiple routes (i.e. pages) for different functions. For anonymous users, it loads a page of recipe cards that can be searched and an "About" page. Each recipe card can be clicked, which opens its respective details page containing the actual cooking instructions and a nice image. There's a login button that can be used to both sign up and sign in - public signup is currently disabled though, as this is an invite only service at the moment.
 
@@ -61,7 +61,7 @@ But what are Netlify functions?
 
 Here's an explanatory paragraph from {% ext "their website", "https://functions.netlify.com" %}:
 
-> Functions are scripts that you write and deploy with Netlify. The function’s code is hidden from the public, but you can interact with it just like any other API service.
+> Functions are scripts that you write and deploy with Netlify. The function's code is hidden from the public, but you can interact with it just like any other API service.
 
 For my app, I am using a couple of these functions for what would otherwise have to be backend or server-side functionality - more specifically for all database operations and user identity management (via {% ext "Netlify Identity", "https://docs.netlify.com/visitor-access/identity" %}).
 
@@ -71,7 +71,7 @@ It was my first time using Netlify functions and as such, I based my choice of N
 
 After some hours of less successful trial and error cycles, I stumbled upon this article recommending the `netlify-cli` module: {% ext "Solve CORS once and for all with Netlify Dev", "https://alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev" %}
 
-So, if you’re going to use Netlify functions, this is as good as it gets - really simple configuration and immediate success. Just keep in mind or bookmark `localhost:8888` - your terminal output (based on Vue CLI and Webpack) will continue to direct you to port 8080 instead where functions don't work and none of the success is visible.
+So, if you're going to use Netlify functions, this is as good as it gets - really simple configuration and immediate success. Just keep in mind or bookmark `localhost:8888` - your terminal output (based on Vue CLI and Webpack) will continue to direct you to port 8080 instead where functions don't work and none of the success is visible.
 
 ### User Authentication
 

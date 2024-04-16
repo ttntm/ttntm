@@ -16,7 +16,7 @@ I initially published it for Hugo in July 2020, followed by an 11ty version in M
 
 <img src="/img/blog/astro-landing-page.png" class="img-fluid img-center" alt="3 screenshot of a landing page on a blue background">
 
-Working with Astro was quite pleasant; I’d used it before (late summer/autumn 2022), but I had to consult the documentation for some things that changed in the meantime and also for a couple of other things that I simply forgot.
+Working with Astro was quite pleasant; I'd used it before (late summer/autumn 2022), but I had to consult the documentation for some things that changed in the meantime and also for a couple of other things that I simply forgot.
 
 ## Good Things
 

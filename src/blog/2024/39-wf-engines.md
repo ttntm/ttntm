@@ -116,7 +116,7 @@ As mentioned earlier, I don't think that developing software the way it would be
 
 I'm probably missing something, but that's a lot already anyway. And what's probably the best conclusion for this section, is this 2nd hand quote from an older {% ext "Martin Fowler article on software architecture", "https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf" %} that I think fits very well here:
 
-> There is no theoretical reason that anything is hard to change about software. If you pick any one aspect of software then you can make it easy to change, but we don’t know how to make everything easy to change. Making something easy to change makes the overall system a little more complex, and making everything easy to change makes the entire system very complex. Complexity is what makes software hard to change. That, and duplication.
+> There is no theoretical reason that anything is hard to change about software. If you pick any one aspect of software then you can make it easy to change, but we don't know how to make everything easy to change. Making something easy to change makes the overall system a little more complex, and making everything easy to change makes the entire system very complex. Complexity is what makes software hard to change. That, and duplication.
 >
 > <small>Ralph E. Johnson</small>
 
