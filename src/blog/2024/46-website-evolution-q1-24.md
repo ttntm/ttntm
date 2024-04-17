@@ -12,7 +12,7 @@ image: /img/blog/website-evolution-q1-24.jpg
 
 2024 has been a very productive year so far. I'd planned to write more, and I feel like that's going quite well at the moment. I've also managed to launch [a new side project](/blog/bukmark-club-intro/) in February, and shipped a ton of updates and enhancements for this website.
 
-Some of these updates were announced in previous blog posts, others evolved into longer deep dive articles. However, I've added, changed and updated many more things recently, which lead to the idea of a new "Website Evolution" series taking shape. Right now, you're reading the first post in this new series, and I'm planning to add more posts to it occasionally.
+Some of these updates were announced in [previous blog posts](/tags/website/), others evolved into longer deep dive articles. However, I've added, changed and updated many more things recently, which lead to the idea of a new "Website Evolution" series taking shape. Right now, you're reading the first post in this new series, and I'm planning to add more posts to it occasionally.
 
 A quick remark before we get started: this post will try to add context to the changes, updates and enhancements. An uncommented chronology of changes can always be found in the [Changelog](/changelog/).
 

@@ -44,9 +44,9 @@ I'm using Firefox Dev. Edition, Brave and Ungoogled Chromium as browsers current
 
 In addition to that, Firefox uses a minimal 1-line config that I'm often tinkering with. A somewhat stable version of it can be found over at GitHub: {% ext "ttntm/minimal-one-line-firefox" "https://github.com/ttntm/minimal-one-line-firefox" %}
 
-Notion is what I currently use for notes and personal task management, Proton takes care of my calendar and emails. When I need to edit pixels, I'm using GIMP or Photopea and when I have to work with vectors, I'm using Figma or Inkscape. {% ext "Omnivore" "https://omnivore.app" %} is my read-it-later solution and I [publish the most recent items](/blog/creating-a-reading-list-with-eleventy-and-omnivore/) added to my reading list [on this website](/reading).
+Notion is what I currently use for notes and personal task management, Proton takes care of my calendar and emails. When I need to edit pixels, I'm using GIMP or Photopea and when I have to work with vectors, I'm using Figma or Inkscape. {% ext "Omnivore" "https://omnivore.app" %} is my read-it-later solution and I publish the most recent items added to my reading list [on this website](/reading).
 
-Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: Proton Pass for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, Proton VPN when I need a VPN and {% ext "Omatsuri", "https://omatsuri.app" %} for many other things I need to get done.
+Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: Proton Pass for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, Proton VPN when I need a VPN and of course {% ext "TKB", "https://kb.ttntm.me" %}, my personal knowledge base.
 
 ## Entertainment/Gaming
 

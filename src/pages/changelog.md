@@ -15,6 +15,7 @@ A logbook of all the changes this website has gone through since it launched in 
 ## 3.13.1
 
 - Updated the header of the [/bookmarks](/bookmarks/) page
+- Updated the CSS cursor used to enlarge images in whisky listings
 
 ## 3.13
 

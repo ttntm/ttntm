@@ -1,7 +1,7 @@
 [
   {
     "title": "Blogs & People",
-    "description": "Blogs and personal websites that I read/visit regularly. Some more links to personal websites can be found in the \"Website Inspiration\" section.",
+    "description": "Some of my favorite blogs, and personal websites that I read/visit regularly. More links to personal websites can be found in the \"Website Inspiration\" section.",
     "data": [
       {
         "title": "andreinc.net",
@@ -14,11 +14,6 @@
         "url": "https://antfu.me"
       },
       {
-        "title": "daverupert.com",
-        "description": "The Homepage of Dave Rupert",
-        "url": "https://daverupert.com"
-      },
-      {
         "title": "garrit.xyz",
         "description": "Garrit Franke",
         "url": "https://garrit.xyz"
@@ -27,6 +22,16 @@
         "title": "jrsinclair.com",
         "description": "James Sinclair",
         "url": "https://jrsinclair.com"
+      },
+      {
+        "title": "kayserifserif.place",
+        "description": "Katherine Yang",
+        "url": "https://kayserifserif.place"
+      },
+      {
+        "title": "kld.dev",
+        "description": "Kevin Lee Drum.",
+        "url": "https://kld.dev"
       },
       {
         "title": "Kuketz IT-Security Blog",
@@ -39,16 +44,6 @@
         "url": "https://www.lkhrs.com"
       },
       {
-        "title": "matthiasott.com",
-        "description": "Matthias Ott",
-        "url": "https://matthiasott.com"
-      },
-      {
-        "title": "michaelnthiessen.com",
-        "description": "Michael Thiessen",
-        "url": "https://michaelnthiessen.com"
-      },
-      {
         "title": "mikestreety.co.uk",
         "description": "Mike Street",
         "url": "https://www.mikestreety.co.uk"
@@ -57,11 +52,6 @@
         "title": "rootCompute",
         "description": "rootCompute's personal website",
         "url": "https://rootcompute.neocities.org"
-      },
-      {
-        "title": "urban style engineering",
-        "description": "Adam Urban",
-        "url": "https://urbanisierung.dev"
       },
       {
         "title": "victoria.dev",
@@ -228,7 +218,7 @@
       },
       {
         "title": "envs.net",
-        "description": "A minimalist, non-commercial shared linux system and will always be free to use.",
+        "description": "A minimalist, non-commercial shared linux system that will always be free to use.",
         "url": "https://envs.net"
       },
       {
@@ -305,7 +295,7 @@
   },
   {
     "title": "Website Inspiration",
-    "description": "Websites I find inspiring.",
+    "description": "Websites I find inspiring, visually or otherwise.",
     "data": [
       {
         "title": "anhvn.com",
@@ -341,11 +331,6 @@
         "title": "jackmcdade.com",
         "description": "Playful and very much the opposite of boring.",
         "url": "https://jackmcdade.com"
-      },
-      {
-        "title": "kld.dev",
-        "description": "A clean personal website by Kevin Drum with a cool \"cursor in a computer\" animation and a very nice rotating theme switch.",
-        "url": "https://kld.dev"
       },
       {
         "title": "Lupin & Holmes",
