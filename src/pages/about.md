@@ -14,14 +14,14 @@ permalink: /about/index.html
       Hi, I'm Tom.
     </h2>
     <p class="p-note m0">
-      I'm <s>a software engineer</s> <em>not-a-fan-of-titles</em> with many years of experience in both professional and freelance software development. My expertise lies in web development, with a clear focus on the front end. However, years of working with enterprise systems and workflow automation have taught me <em>a lot</em> about backend development. Besides, I'm an advocate of free and open source software and a Linux user (Fedora, Manjaro).
+      I'm a software engineer with many years of experience in both professional and freelance software development. I specialize in web development, specifically focusing on the front end. And due to years of experience in enterprise systems and workflow automation, I've gained extensive knowledge in backend development as well.
     </p>
   </div>
 </div>
 
-I grew up with the internet, building my first websites around 2002 when frames and `marquee` tags were still state of the art and my code got hacked into text editors without syntax highlighting. We were taught some C, JavaScript and Pascal in school back then, which helped shape a solid understanding of ways to make computers do what I want them to do, long before higher education.
+I grew up with the internet, building my first websites around 2002 when frames and `marquee` tags were still state of the art and my code got hacked into text editors without syntax highlighting. We were taught some C, JavaScript and Pascal in school back then, which helped shape a solid understanding for ways to make computers do what I want them to do.
 
-My professional career in IT started in 2008, and I worked for telecom and IT service providers, software development companies and freelance clients since then. As of 2021, I'm working as a software engineer at an agency that delivers custom solutions and tailors standard software to client needs. I'm also volunteering for {% ext "epicenter.works", "https://epicenter.works" %} whenever I can support their activities with my skill set.
+My professional career in IT started a couple of years later, and I worked for telecom and IT service providers, software development companies and freelance clients since then. As of 2021, I'm working as a software engineer at an agency that delivers custom solutions and tailors standard software to client needs. I'm also volunteering for {% ext "epicenter.works", "https://epicenter.works" %} whenever I can support their activities with my skill set.
 
 When I'm not in front of a screen working, <a href="https://watch3r.app" target="_blank">watching movies</a> or [playing video games](/games/), I enjoy spending time with my family, parenting a lovely [Persian cat](#cat) and being outside (cycling, gardening, hiking). I also like playing board games with friends and working on DIY projects. Oh, and I really love cooking - just head over to <a href="https://recept0r.com" target="_blank">recept0r</a> if you're curious.
 

@@ -5,3 +5,20 @@
 @import "./prism.css";
 
 @import "./utilities.css";
+
+@media (prefers-reduced-motion) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto;
+  }
+
+  *:active {
+    transform: none;
+  }
+
+  *:hover {
+    transition: none;
+    transition-duration: 0ms;
+  }
+}

@@ -875,23 +875,6 @@ summary:active {
   transition: background .0s ease;
 }
 
-@media (prefers-reduced-motion) {
-  *,
-  *::before,
-  *::after {
-    scroll-behavior: auto;
-  }
-
-  *:active {
-    transform: none;
-  }
-
-  *:hover {
-    transition: none;
-    transition-duration: 0ms;
-  }
-}
-
 @supports (-webkit-touch-callout: none) {
   summary {
     list-style: none !important;

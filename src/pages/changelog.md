@@ -12,6 +12,10 @@ A logbook of all the changes this website has gone through since it launched in 
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.13.2
+
+- Updated the text in [/about](/about/)
+
 ## 3.13.1
 
 - Updated the header of the [/bookmarks](/bookmarks/) page
