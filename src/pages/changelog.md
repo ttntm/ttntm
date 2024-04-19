@@ -6,7 +6,9 @@ templateEngineOverride: md,njk
 permalink: /changelog/index.html
 ---
 
-A logbook of all the changes this website has gone through since it launched in 2018. A visual representation of the activity in this website's git repository can be found at the bottom of this page: [Activity Timeline](#timeline)
+A logbook of all the changes this website has gone through since it launched in 2018.
+
+This also includes the [Activity Timeline](#timeline), a visual representation of all commits in this website's git repository, which can be found at the bottom of this page.
 
 **Last built and published**: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
@@ -15,6 +17,7 @@ A logbook of all the changes this website has gone through since it launched in 
 ## 3.13.2
 
 - Updated the text in [/about](/about/)
+- Updated the intro of this changelog
 
 ## 3.13.1
 
