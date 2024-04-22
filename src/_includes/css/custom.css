@@ -229,7 +229,7 @@ pre, code, kbd, samp {
 pre {
   border-left: 4px solid var(--prim);
   overflow-x: auto;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 p code, li code {

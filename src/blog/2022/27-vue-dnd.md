@@ -34,14 +34,14 @@ The setup is pretty straightforward: a parent component (`App.vue`) is passing t
 I'm using a `WritableComputedRef()` (`listItems`, line 19) to leverage Vue's powerful computed getters/setters in my code as well as making them usable for the `draggable` component's `v-model`:
 
 ```js
-  const listItems: WritableComputedRef<SortableEl[]> = computed({
-    get(): SortableEl[] {
-      return objectify(props.input)
-    },
-    set(newVal: SortableEl[]): void {
-      emit('update:list', valuefy(newVal))
-    }
-  })
+const listItems: WritableComputedRef<SortableEl[]> = computed({
+  get(): SortableEl[] {
+    return objectify(props.input)
+  },
+  set(newVal: SortableEl[]): void {
+    emit('update:list', valuefy(newVal))
+  }
+})
 ```
 
 - `get()` is processing the incoming list (`props.input`) and passes it through the function `objectify()` (line 37) which makes sure that the incoming `string[]` gets converted to `SortableEl[]` required by vuedraggable.
@@ -52,22 +52,22 @@ I'm using a `WritableComputedRef()` (`listItems`, line 19) to leverage Vue's pow
 Autofocus of the next list item's input right after adding it through button use or pressing enter in the previous item's input is a necessary feature too. The implementation is based on the `ref()` `inputs` (line 29) and so-called "Function Refs" ({% ext "Vue docs" "https://vuejs.org/guide/essentials/template-refs.html#function-refs" %}, essentially "`ref` within `v-for`") managed for `<input>` elements from within the `draggable` component's `template` (from line 91 onward):
 
 ```js
-  <template #item="{ element, index }">
-    <li :class="{ 'grabbing' : drag }" class="flex flex-row items-center border border-transparent px-1 py-2 mb-1">
-      <span :class="{ 'text-gray-900' : drag }" class="handle mr-2" title="Move element">
-        <GripVertical />
-      </span>
-      <input type="text"
-        v-model.trim="element.name"
-        :placeholder="`Ingredient ${index + 1}`"
-        :ref="el => { if (el) inputs[index] = el }"
-        class="inline-block form-control text-sm"
-        @input="events.onChangeItem"
-        @keydown.enter="events.onAddItem(index)"
-      >
-      <ButtonX size="20" class="rounded-full text-gray-700 hover:text-gray-900 focus:text-gray-900 ml-2" @click="events.onRemoveItem(index)" />
-    </li>
-  </template>
+<template #item="{ element, index }">
+  <li :class="{ 'grabbing' : drag }" class="flex flex-row items-center border border-transparent px-1 py-2 mb-1">
+    <span :class="{ 'text-gray-900' : drag }" class="handle mr-2" title="Move element">
+      <GripVertical />
+    </span>
+    <input type="text"
+      v-model.trim="element.name"
+      :placeholder="`Ingredient ${index + 1}`"
+      :ref="el => { if (el) inputs[index] = el }"
+      class="inline-block form-control text-sm"
+      @input="events.onChangeItem"
+      @keydown.enter="events.onAddItem(index)"
+    >
+    <ButtonX size="20" class="rounded-full text-gray-700 hover:text-gray-900 focus:text-gray-900 ml-2" @click="events.onRemoveItem(index)" />
+  </li>
+</template>
 ```
 
 What's important here is line 99: `:ref="el => { if (el) inputs[index] = el }"`
@@ -75,24 +75,24 @@ What's important here is line 99: `:ref="el => { if (el) inputs[index] = el }"`
 This is the backbone of focus management from inside `events.onAddItem()` (line 46):
 
 ```js
-  async onAddItem(index?: number) {
-    let currentEl = null
-    let inputEls = inputs.value
-    let listEls = [...listItems.value]
+async onAddItem(index?: number) {
+  let currentEl = null
+  let inputEls = inputs.value
+  let listEls = [...listItems.value]
 
-    if (index !== undefined && index > -1) {
-      listEls.splice(index + 1, 0, { id: index+1, name: '' })
-      listItems.value = listEls
-      await nextTick()
-      currentEl = inputEls[index+1]
-    } else {
-      listItems.value = listEls.concat({ id: listEls.length, name: '' })
-      await nextTick()
-      currentEl = inputEls[inputEls.length-1]
-    }
-
-    if (currentEl) currentEl.focus()
+  if (index !== undefined && index > -1) {
+    listEls.splice(index + 1, 0, { id: index+1, name: '' })
+    listItems.value = listEls
+    await nextTick()
+    currentEl = inputEls[index+1]
+  } else {
+    listItems.value = listEls.concat({ id: listEls.length, name: '' })
+    await nextTick()
+    currentEl = inputEls[inputEls.length-1]
   }
+
+  if (currentEl) currentEl.focus()
+}
 ```
 
 We still have to make sure to use `await nextTick()`, but we're able to access specific `<input>` elements which allows focusing the next and/or most recently added list item programmatically (see line 62). As such, using the "Add List Item" button will always focus the added (last) item and using the enter key will automatically focus the item at `currentIndex+1` no matter which list item input is being used.

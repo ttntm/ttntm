@@ -31,8 +31,15 @@ pre > code[class*="language-"] {
 
 /* Code blocks */
 pre[class*="language-"] {
-  padding: 1rem;
   overflow: auto;
+
+  & > code {
+    display: block;
+    overflow-x: auto;
+    margin: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+  }
 }
 
 @media(min-width:768px) {

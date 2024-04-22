@@ -27,61 +27,61 @@ The app's sitemap contains 2 static routes (`/home` and `/about`) and an ever-ch
 The first thing the sitemap function has to take care of is initializing a new XML response with the hard coded static routes. The resulting sitemap template object is split into `start/mid/end` keys to allow adding further `<url>` elements before returning the final sitemap:
 
 ```js
-  const initSitemap = () => {
-    return {
-      start: `<?xml version="1.0" encoding="UTF-8"?>
-      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`,
-      mid: `<url>
-        <loc>${site}/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-      </url><url>
-        <loc>${site}/about</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
-      </url>`,
-      end: `</urlset>`
-    }
+const initSitemap = () => {
+  return {
+    start: `<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`,
+    mid: `<url>
+      <loc>${site}/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url><url>
+      <loc>${site}/about</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>`,
+    end: `</urlset>`
   }
+}
 ```
 
 Next, the function queries the database for all (published) content, using the same API endpoint that the app itself uses to get its front page content. If there's a usable response, the function's code loops through the response, adding the individual content page's `<url>` objects to the sitemap:
 
 ```js
-  const sitemap = initSitemap()
+const sitemap = initSitemap()
 
-  const rRequest = await fetch(`${site}${readAll}`, { method: 'GET' })
-  let rResponse = await rRequest.json()
+const rRequest = await fetch(`${site}${readAll}`, { method: 'GET' })
+let rResponse = await rRequest.json()
 
-  if (rResponse && rResponse.length > 0) {
-    rResponse.forEach(el => {
-      const itemURL = `${site}/recipe/${el.data.id}/${el.ref['@ref'].id}`
+if (rResponse && rResponse.length > 0) {
+  rResponse.forEach(el => {
+    const itemURL = `${site}/recipe/${el.data.id}/${el.ref['@ref'].id}`
 
-      sitemap.mid += `<url>
-        <loc>${itemURL}</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
-      </url>`
-    })
-  }
+    sitemap.mid += `<url>
+      <loc>${itemURL}</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>`
+  })
+}
 ```
 
 After that's done, the final sitemap response gets concatenated from the `start/mid/end` keys of the sitemap template object (via `initSitemap()` above) and returned by the function:
 
 ```js
-  const sitemapFinal = `${sitemap.start}${sitemap.mid}${sitemap.end}`
+const sitemapFinal = `${sitemap.start}${sitemap.mid}${sitemap.end}`
 
-  return {
-    statusCode: 200,
-    headers: xmlHeaders,
-    body: sitemapFinal
-  }
+return {
+  statusCode: 200,
+  headers: xmlHeaders,
+  body: sitemapFinal
+}
 ```
 
 Finally, don't forget to add a redirect to your app's config:
 
 ```toml
-  /sitemap.xml /.netlify/functions/sitemap 200
+/sitemap.xml /.netlify/functions/sitemap 200
 ```
 
 That's it basically; here's some additional context:

@@ -14,6 +14,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.13.3
+
+- Fixed an issue with the overflow `margin`/`padding` of code blocks
+
 ## 3.13.2
 
 - Updated the text in [/about](/about/)
