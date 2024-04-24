@@ -5,7 +5,7 @@ layout: page.njk
 permalink: /now/index.html
 ---
 
-**Last updated:** April 11th 2024
+**Last updated:** Apr. 24th 2024
 
 **Writing**: Cleaning out Notion, re-writing a ton of stuff in my personal wiki
 
@@ -13,11 +13,11 @@ permalink: /now/index.html
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Ghost of Tsushima (which is _great_)
+**Games**: Kingdom Come: Deliverance, Ghost of Tsushima (almost done)
 
-**Drinks**: Talisker 10yo
+**Drinks**: [Talisker 10yo](/whisky/#log)
 
-**Life**: Spring cleaning, and preparing for summer - soon to enjoy BBQs, cycling, inline skating and swimming again
+**Life**: Spring cleaning, planning a holiday, and preparing for summer - soon to enjoy BBQs, cycling, inline skating and swimming again
 
 <div class="hr shadow mb1"></div>
 
