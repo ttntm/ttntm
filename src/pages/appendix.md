@@ -35,14 +35,13 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 - Feel like me and change with me
 - Offer more personal posts and opinion pieces
 - Consider adding a page dedicated to music
-- Rewrite this website's CSS
+- Rewrite its CSS
 
 **And things I'd like this website to do**:
 
 - Stay FOSS
 - Stay lightweight
-- Never track visitors/users
-- {% ext "Never monetize", "https://www.nevermonetize.com" %} visitors/users
+- Never track and {% ext "never monetize", "https://www.nevermonetize.com" %} its visitors
 - Update frequently
 - Support webmentions
 - Offer linkable headings
