@@ -14,6 +14,14 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.14
+
+<small>Released: 2024-04-25</small>
+
+- Blog posts: added an indicator for reading progress
+- Notes: put the table of contents into a scrollable box
+- Increased the contrast of body text (light theme)
+
 ## 3.13.3
 
 - Fixed an issue with the overflow `margin`/`padding` of code blocks

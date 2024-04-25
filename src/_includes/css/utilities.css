@@ -142,19 +142,24 @@
   .d-sm-none {
     display: none !important;
   }
+
   .d-sm-inline {
     display: inline !important;
   }
+
   .d-sm-inline-block {
     display: inline-block !important;
   }
+
   .d-sm-block {
     display: block !important;
   }
+
   .d-sm-flex {
     display: -ms-flexbox !important;
     display: flex !important;
   }
+
   .d-sm-inline-flex {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important;
@@ -349,6 +354,10 @@
 }
 
 @media (min-width: 1024px) {
+  .d-lg-block {
+    display: block !important;
+  }
+
   .gap2-lg {
     gap: 2rem;
   }

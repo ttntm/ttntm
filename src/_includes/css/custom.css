@@ -76,7 +76,7 @@
   --selectionText: var(--white);
   --shadowColor: rgba(0,0,0,.075);
   --shadowMdHoverColor: rgba(0,0,0,.1);
-  --text: var(--dark);
+  --text: var(--darkest);
   --textHeading: var(--dark);
   --textMuted: #3a5978;
   --textQuote: var(--darkest);
@@ -250,6 +250,7 @@ em,
 
 b,
 strong {
+  color: var(--textHeading);
   font-weight: 700;
 }
 
@@ -302,7 +303,7 @@ hr {
 }
 
 .hr {
-  background: linear-gradient(90deg,var(--bg),var(--hr),var(--bg));
+  background: linear-gradient(90deg, var(--bg), var(--hr), var(--bg));
   height: 1px;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -691,6 +692,53 @@ button {
 .post img {
   opacity: var(--postImgOpacity);
   margin: 1rem 0;
+}
+
+.progress-bar {
+  --barBorderRadius: 99999px;
+  /* --barColor: #b48ead; */
+  --barColor: #8fbcbb;
+
+  background-color: var(--border);
+  background: linear-gradient(to bottom, var(--hr), var(--bg));
+  border-radius: var(--barBorderRadius);
+  position: fixed;
+  top: 6.5rem;
+  height: 256px;
+  width: .125rem;
+  margin-left: -5rem;
+
+  & .progress-bar__inner {
+    background-color: var(--barColor);
+    background: linear-gradient(45deg, var(--barColor), color-mix(in srgb, var(--barColor), transparent 75%));
+    border-radius: var(--barBorderRadius);
+    width: 100%;
+    height: 100%;
+    transform-origin: 0 0;
+    transform: scaleY(0);
+    transition: transform .35s ease-out;
+  }
+
+  &::after {
+    --size: .5rem;
+
+    display: block;
+    border-radius: var(--barBorderRadius);
+    background-color: var(--barColor);
+    content: '';
+    position: absolute;
+    bottom: calc(var(--size) * -1);
+    left: -3px;
+    width: var(--size);
+    height: var(--size);
+    opacity: 0;
+    transition: opacity .35s ease-out;
+  }
+
+  &.done::after {
+    opacity: 1;
+    /* transition: opacity .35s ease-out; */
+  }
 }
 
 summary ::marker {

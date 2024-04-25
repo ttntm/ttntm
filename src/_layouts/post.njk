@@ -1,8 +1,11 @@
 ---
 layout: base.njk
 ---
-<article class="container">
-  <h1 class="">{{ title }}</h1>
+<article id="post" class="container">
+  <aside class="progress-bar hide-no-js d-none d-lg-block">
+    <div class="progress-bar__inner"></div>
+  </aside>
+  <h1>{{ title }}</h1>
   <p class="italic" style="font-size: 0.875rem; margin-bottom: .5rem;">
     Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">{{ date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;&bull;&nbsp;&nbsp;Reading time: {{ content | readingTime }}
   </p>
@@ -17,3 +20,9 @@ layout: base.njk
   <div class="hr shadow mt2 mb2"></div>
   {% include "post.nextprev.njk" %}
 </article>
+{% set js %}
+  {% include 'js/post.progress.js' %}
+{% endset %}
+<script>
+  {{ js | jsmin | safe }}
+</script>

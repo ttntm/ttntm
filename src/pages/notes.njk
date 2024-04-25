@@ -10,13 +10,13 @@ permalink: /notes/index.html
   {{ header({ text: title, link: '/notes/feed.xml', title: title }) }}
   <div class="hr shadow"></div>
   <section class="post">
-    <details>
+    <details style="max-height: 350px; overflow-y: scroll;">
       <summary class="flex align-items-center" style="cursor: pointer;">
         <h2 class="h5 m0">
           Table of Contents
         </h2>
       </summary>
-      <ul class="list-reset px1 mb2" style="margin-top: .5rem;">
+      <ul class="list-reset px1 mb1" style="margin-top: .5rem;">
         {%- for item in collections.notes | reverse -%}
           <li>
             <a href="#{{ item.data.weight }}">#{{ item.data.weight }} - {{ item.data.title }}</a>
