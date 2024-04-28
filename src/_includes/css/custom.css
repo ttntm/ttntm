@@ -20,6 +20,7 @@
   --prim: #5E81AC;
   --sec: #81A1C1;
   --tert: #88C0D0;
+  --muted: #3a5978;
   --dark: #4C566A;
   --darker: #3B4252;
   --darkest: #2E3440;
@@ -52,7 +53,7 @@
   --footerText: var(--dark);
   --footerTextDsktp: var(--light);
   --helloOpacity: 1;
-  --highlight: var(--darkest);
+  --highlight: var(--muted);
   --hr: var(--light);
   --likeLink: var(--dark);
   --likeLinkHover: var(--prim);
@@ -78,7 +79,7 @@
   --shadowMdHoverColor: rgba(0,0,0,.1);
   --text: var(--darkest);
   --textHeading: var(--dark);
-  --textMuted: #3a5978;
+  --textMuted: var(--muted);
   --textQuote: var(--darkest);
 }
 
