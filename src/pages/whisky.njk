@@ -37,8 +37,8 @@ permalink: /whisky/index.html
       {% endif %}
     {% endfor %}
   </section>
-  <section>
-    <h2 id="wishlist" class="tight mt2">Wishlist</h2>
+  <section class="mt2">
+    <h2 id="wishlist" class="tight">Wishlist</h2>
     <div class="hr shadow"></div>
     {% for item in collections.whisky | sortByText('name') %}
       {% if item.data.status == "wanted" %}
