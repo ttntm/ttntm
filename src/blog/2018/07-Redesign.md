@@ -3,16 +3,12 @@ title: Site Redesign
 slug: site-redesign
 type: blog
 date: 2018-11-19
-description: Short update summarizing the changes done to this site recently.
+description: Short update summarizing recent design changes.
 tags:
-    - css
-    - design
-    - news
+  - news
+  - website
 image: /img/blog/default.jpg
-draft: true
 ---
-
-## Redesign
 
 When this site was put together initially, it was basically a prototype for some kind of blog/portfolio kind of thing.
 
@@ -20,7 +16,7 @@ Now, about 6 months later, there's been a slight redesign - the first of many I'
 
 Anyway, this post will probably just serve me as a personal tracker of what's changed, so here we go:
 
-### Behind the Scenes
+## Behind the Scenes
 
 1. Reduced Bootstrap 4 to the bare minimum of required components, thereby reducing the size of the CSS significantly. Currently using:
     - BS4 reboot
@@ -31,7 +27,7 @@ Anyway, this post will probably just serve me as a personal tracker of what's ch
 2. Implemented CSS processing via `gulp` in conjunction with `postcss`, `concat-css` and `cssnano`
 3. Started using a Hugo Base Template, which is supposed to be making future changes easier to apply globally
 
-### Visible Changes
+## Visible Changes
 
 1. Switched to <s>Nunito</s> "Inter" as the site's font face
 2. Found a nice colour palette and changed the site's color scheme based on that

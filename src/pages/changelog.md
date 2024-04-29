@@ -14,6 +14,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.14.1
+
+- Restored some old blog posts
+- Updated the styling of highlighted text
+
 ## 3.14
 
 <small>Released: 2024-04-25</small>

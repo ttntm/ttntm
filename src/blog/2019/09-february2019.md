@@ -5,12 +5,10 @@ type: blog
 date: 2019-02-10
 description: A brief update from February 2019.
 tags:
-    - news
-    - personal
+  - news
+  - website
 draft: true
 ---
-
-## What Happened?
 
 Judging by the silence here, I must have been busy...
 
@@ -20,15 +18,15 @@ I took on a project for a friend some weeks before that though, she needed a por
 
 Aside from that, I also managed to get another website project for a startup which will start within the next weeks or as soon as the design is finished.
 
-### Updates!
+## Updates!
 
 As far as this site's concerned, here's what's changed:
 
-- moved from Github pages and their `username.github.io` domain to **ttntm.me** which was on sale at porkbun.com
-- moved the deployment over to Netlify
-- enabled an RSS feed for the blog - subscribe at [ttntm.me/feed.xml](https://ttntm.me/feed.xml)
+- Moved from Github pages and their `username.github.io` domain to [ttntm.me](https://ttntm.me) which was on sale at Porkbun
+- Moved the deployment over to Netlify
+- Enabled an RSS feed for the blog - subscribe at [/feed.xml](/feed.xml)
 
-### Coming Soon
+## Coming Soon
 
-- planning to ditch gulp, replacing it with Hugo's native asset processing functionality
-- <s>going to build a projects/portfolio section into this site</s> - *Update 03/2019: done!*
+- Planning to ditch gulp, replacing it with Hugo's native asset processing functionality
+- <s>Going to build a projects/portfolio section into this site</s> - *Update 03/2019: done!*
