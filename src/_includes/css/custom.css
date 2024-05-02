@@ -940,3 +940,13 @@ summary:active {
     display: block !important;
   }
 }
+
+/*
+  hacky desktop safari `summary h2` fix
+  src: https://wojtek.im/journal/targeting-safari-with-css-media-query
+*/
+@supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) {
+  summary h2 {
+    display: block !important;
+  }
+}
