@@ -4,22 +4,6 @@ slug: 202Y-wXX
 published: 202Y-MM-DD
 ---
 
-- [NimbleText](https://nimbletext.com/live) (Text manipulation and code generation)
-- LibreOffice: [QR and Barcode](https://help.libreoffice.org/latest/en-US/text/shared/01/qrcode.html)
-  A nice feature
-- [NocoDB](https://nocodb.com)
-  "Databases as Spreadsheets", looks quite useful
-- [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
-  "Algorithms are a fascinating use case for visualization"
-- [The Millennial CAPTCHA](https://www.mcsweeneys.net/articles/the-millennial-captcha)
-- [Please Don't Share Our Links on Mastodon: Here's Why!](https://news.itsfoss.com/mastodon-link-problem/)
-  Interesting, did not know why this was happening; reated GitHub issue for future reference: [Reduce load of preview fetching on third-party servers](https://github.com/mastodon/mastodon/issues/23662)
-- [The new old: Jamstack and MACH's journey towards traditional CMS concepts](https://dri.es/the-new-old-jamstack-and-mach-journey-towards-traditional-cms-concepts)
-  An opinion piece, worth reading
-- [Creating a pleasant blog reading experience](https://www.markpitblado.me/blog/creating-a-pleasant-blog-reading-experience)
-  "It is okay to keep things simple, to stay grounded in the primary purpose that people use something for" - absolutely, I agree
-- [DSA whistleblower tool](https://digital-services-act-whistleblower.integrityline.app/)
-  An important initiative
 - []()
 - []()
 - []()
