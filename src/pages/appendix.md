@@ -33,19 +33,18 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 **Things I intend to do with this website**:
 
 - Feel like me and change with me
-- Offer more personal posts and opinion pieces
+- Offer content about everything, and nothing
 - Consider adding a page dedicated to music
 - Rewrite its CSS
 
 **And things I'd like this website to do**:
 
-- Stay FOSS
-- Stay lightweight
+- Be my journal, weblog and diary
 - Never track and {% ext "never monetize", "https://www.nevermonetize.com" %} its visitors
 - Update frequently
 - Support webmentions
 - Offer linkable headings
-- Be searchable at some point
+- Become searchable at some point
 
 Finally, **everything that was done already**, can be found in the [Changelog](/changelog/).
 
