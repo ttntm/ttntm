@@ -1,7 +1,6 @@
 ---
 title: Hacking <hr> into vue-quill
 slug: hacking-hr-into-vue-quill
-type: blog
 date: 2023-12-28
 description: A hacky workaround making <hr> usable in vue-quill.
 tags:
@@ -14,7 +13,7 @@ A long time ago, I decided to use {% ext "vue-quill" "https://github.com/vueup/v
 
 Not long after that, the missing `<hr>` tag was noticed, which led to a feature request {% ext "Feature: add `<hr>` tag to editor" "https://codeberg.org/ttntm/recept0r/issues/15" %} that I ended up ignoring for almost 2 years.
 
-I'm not quite sure what it was exactly that got me thinking about it again back in September, but I ended up with a rather simple workaround: using a regular expression based on the - escaped - string `vue-quill` produces when a literal `<hr>` is used. 
+I'm not quite sure what it was exactly that got me thinking about it again back in September, but I ended up with a rather simple workaround: using a regular expression based on the - escaped - string `vue-quill` produces when a literal `<hr>` is used.
 
 The workaround has 2 stages:
 
@@ -26,7 +25,7 @@ The regular expression used for this workaround looks like this: `/\<p\>\&lt\;hr
 When editing content, the code uses `String.prototype.replaceAll()` (see: {% ext "MDN" "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll" %}) to replace the actual HTML with the placeholder:
 
 ```js
-const updateEditMode = (input: Recipe) => { 
+const updateEditMode = (input: Recipe) => {
   Object.keys(input).map(key => events.onUpdateRecipe(key, input[key]))
   editor.value.setHTML(recipe.body)
   // We've got to add in a marker for <hr> elements that will actually get rendered by Quill

@@ -1,7 +1,6 @@
 ---
 title: Random Content from Data in Hugo
 slug: hugo-random-content-from-data
-type: blog
 date: 2018-08-21
 description: An article about pulling random records from a JSON data file in Hugo and using the same data file to build a page from it.
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Hello World
 slug: hello-world
-type: blog
 date: 2018-08-20
 description: The first post.
 tags:

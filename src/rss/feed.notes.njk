@@ -12,14 +12,14 @@ eleventyExcludeFromCollections: true
   {% endif %}
   <id>ttntm.me/notes</id>
   {%- for item in collections.notes | reverse -%}
-    {% set absolutePostUrl %}{{ item.url | url | absoluteUrl(site.url) }}{% endset %}
+    {% set absolutePostUrl %}https://ttntm.me/notes/#{{ item.data.weight }}{% endset %}
     <entry>
       <title>{{ item.data.title }}</title>
       <link href="{{ absolutePostUrl }}"/>
       <updated>{{ item.date | rssDate }}</updated>
       <id>{{ absolutePostUrl }}</id>
       <content type="html"><![CDATA[
-        {{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
+        {{ item.templateContent | safe }}
       ]]></content>
     </entry>
   {%- endfor -%}

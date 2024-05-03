@@ -1,5 +1,7 @@
 /app-ads.txt /ads.txt 301
 
+/feed.xml /blog/feed.xml 301
+
 /archive/ /blog/ 301
 /articles/ /blog/ 301
 /contact /about/ 301
@@ -8,3 +10,6 @@
 /projects/* /work/ 301
 /til/* /notes/ 301
 /today-i-learned/* /notes/ 301
+
+/wiki https://kb.ttntm.me 301
+/wiki/* https://kb.ttntm.me 301

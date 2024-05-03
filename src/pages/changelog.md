@@ -14,6 +14,12 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.15
+
+- Added [/everything](/everything/) and a matching [feed](/everything.xml)
+- Cleanup of old front matter data (blog posts)
+- Fix: Notes feed > item IDs
+
 ## 3.14.2
 
 - Updated

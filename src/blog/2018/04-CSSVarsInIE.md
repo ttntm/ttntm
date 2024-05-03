@@ -1,7 +1,6 @@
 ---
 title: Using CSS Variables in Internet Explorer
 slug: using-css-variables-internet-explorer
-type: blog
 date: 2018-09-03
 description: An article about using CSS variables in Internet Explorer which doesn't natively support them.
 tags:

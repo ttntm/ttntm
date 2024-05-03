@@ -1,7 +1,6 @@
 ---
 title: Lessons Learned Building WATCH3R
 slug: lessons-learned-building-watch3r
-type: blog
 date: 2020-12-18
 description: Some thoughts on what I learned building WATCH3R.
 tags:

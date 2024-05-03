@@ -1,4 +1,6 @@
 {
+  "inEverything": true,
   "layout": "post.njk",
-  "permalink": "blog/{{ slug }}/index.html"
+  "permalink": "blog/{{ slug }}/index.html",
+  "type": "Blog Post"
 }

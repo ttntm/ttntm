@@ -1,4 +1,6 @@
 {
+  "inEverything": true,
   "layout": "like.njk",
-  "permalink": "likes/{{ slug }}/index.html"
+  "permalink": "likes/{{ slug }}/index.html",
+  "type": "Like"
 }

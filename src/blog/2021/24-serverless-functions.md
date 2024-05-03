@@ -1,7 +1,6 @@
 ---
 title: Using Netlify Functions as a Back End
 slug: using-netlify-functions-as-a-backend
-type: blog
 date: 2021-07-24
 description: Notes on Using Netlify Functions as a Back End for a Web Application.
 tags:
@@ -12,9 +11,9 @@ image: /img/blog/backend.png
 
 <img src="/img/blog/backend.png" class="img-fluid img-center" alt="Illustration of a back end">
 
-Serverless functions are great - they provide instant superpowers to front end focused developers and they're also quite addictive once you've gotten into using them. There's also a ton of tutorials, proof of concept articles etc. that make it really easy to get started. 
+Serverless functions are great - they provide instant superpowers to front end focused developers and they're also quite addictive once you've gotten into using them. There's also a ton of tutorials, proof of concept articles etc. that make it really easy to get started.
 
-Many of these resources, including some of my own, are sometimes missing the aspect of security though. That's probably ok when building a quick demo or proof of concept site, but there's always a chance of that code ending up in production apps. And when considering that serverless functions work just like any other API's endpoints, responding to requests and doing CRUD operations with data, security should probably get mentioned a little more often. 
+Many of these resources, including some of my own, are sometimes missing the aspect of security though. That's probably ok when building a quick demo or proof of concept site, but there's always a chance of that code ending up in production apps. And when considering that serverless functions work just like any other API's endpoints, responding to requests and doing CRUD operations with data, security should probably get mentioned a little more often.
 
 For additional context: the following article is based on the notes and resources I collected when refactoring the serverless back end of one of my side projects. It probably won't end up being a complete tutorial, but it will hopefully provide some helpful information for those looking to secure their serverless functions.
 
@@ -26,7 +25,7 @@ Furthermore, I'd like to point out that a lot of excellent information on the to
 
 ## Architecting a Serverless Back End
 
-When I launched my application's first 'finished version' (side projects never really are...), I basically had a `./functions` folder full of individual files that did CRUD operations. It worked, but it was a bit of a mess to work with. 
+When I launched my application's first 'finished version' (side projects never really are...), I basically had a `./functions` folder full of individual files that did CRUD operations. It worked, but it was a bit of a mess to work with.
 
 Adopting the {% ext "REST API pattern" "https://github.com/DavidWells/netlify-functions-workshop/tree/master/lessons-code-complete/use-cases/1-rest-api" %} from the functions workshop mentioned above, I ended up with a central {% ext "api.js function" "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/api.js" %}. That's not just better looking, it also offers some additional benefits:
 
@@ -56,9 +55,9 @@ I've opted for adding the basic headers to my functions from a single file, so I
 const fnHeaders = require('./_shared/headers.js');
 ...
 return callback(null, {
-	statusCode: 200, 
-	headers: { ...fnHeaders }, 
-	body: JSON.stringify(apiData) 
+	statusCode: 200,
+	headers: { ...fnHeaders },
+	body: JSON.stringify(apiData)
 })
 ```
 

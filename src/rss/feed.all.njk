@@ -1,0 +1,39 @@
+---
+title: Everything
+parent: /everything/
+permalink: /everything.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  {% include "feed.header.njk" %}
+  {% if collections.all %}
+    <updated>{{ collections.all | rssLastUpdatedDate }}</updated>
+  {% endif %}
+  <id>ttntm.me/everything</id>
+  {%- for item in collections.all | reverse -%}
+    {% if item.data.inEverything %}
+      {% set absoluteItemUrl %}
+        {%- if item.url -%}
+          {{ item.url | url | absoluteUrl(site.url) }}
+        {%- else -%}
+          https://ttntm.me/notes/#{{ item.data.weight }}
+        {%- endif -%}
+      {% endset %}
+      <entry>
+        <title>{{ item.data.title }}</title>
+        {% if item.data.tags %}
+          {% for tag in item.data.tags | sort %}
+            <category term="{{ tag }}" />
+          {% endfor %}
+        {% endif %}
+        <link href="{{ absoluteItemUrl }}"/>
+        <updated>{{ item.date | rssDate }}</updated>
+        <id>{{ absoluteItemUrl }}</id>
+        <content type="html"><![CDATA[
+          {{ item.templateContent | htmlToAbsoluteUrls(absoluteItemUrl) | safe }}
+        ]]></content>
+      </entry>
+    {% endif %}
+  {%- endfor -%}
+</feed>

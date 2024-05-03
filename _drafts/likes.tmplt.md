@@ -1,7 +1,7 @@
 ---
 title: Week XX, 202Y
 slug: 202Y-wXX
-published: 202Y-MM-DD
+date: 202Y-MM-DD
 ---
 
 - [React, Electron, and LLMs have a common purpose: the labour arbitrage theory of dev tool popularity](https://www.baldurbjarnason.com/2024/react-electron-llms-labour-arbitrage/)

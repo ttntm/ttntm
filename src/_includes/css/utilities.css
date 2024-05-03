@@ -364,6 +364,12 @@
 
   .indent-1-lg {
     padding-left: 1rem;
+
+    &.indent-border-lg {
+      border-left: 1px solid var(--border);
+      padding: 1rem;
+      padding-left: 2rem;
+    }
   }
 }
 

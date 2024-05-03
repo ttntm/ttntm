@@ -1,7 +1,6 @@
 ---
 title: Vue's Computed Properties - The Most Important Feature?
 slug: vue-computed-properties-the-most-important-feature
-type: blog
 date: 2022-01-25
 description: A quick example of Vue's computed properties which might be the framework's most important feature.
 tags:
@@ -17,10 +16,10 @@ I was implementing drag and drop sorting for the tasks the app uses to track tim
 ```js
 <script setup>
   import { ref, watch } from 'vue'
-  
+
   const localList = ref([])
-  
-  // ...  
+
+  // ...
 
   watch(tasklist, () => localList.value = tasklist.value)
 
@@ -50,10 +49,10 @@ Eventually, this is what I ended up with:
 ```js
 <script setup>
   import { computed } from 'vue'
-  
+
   const localList = computed({
     get: () => [...tasklist.value],
-    set: (val) => {      
+    set: (val) => {
       const ordered = (arr) => arr.map((el, index) => {
         el.order = index
         return el
@@ -62,7 +61,7 @@ Eventually, this is what I ended up with:
       setState('tasklist', ordered(val), false)
     }
   })
-  
+
   // ...
 </script>
 ```

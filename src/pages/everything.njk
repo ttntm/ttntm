@@ -1,0 +1,46 @@
+---
+title: Everything
+description: A list of every Blog Post, Like and Note published on this website.
+layout: base.njk
+permalink: /everything/index.html
+---
+<section class="container h-feed">
+  {%- from 'macro.headingRSS.njk' import header %}
+  {{ header({ text: title, link: '/everything.xml', title: title }) }}
+  <div class="hr shadow mb2"></div>
+  <p>
+    {{ description }}
+  </p>
+  <ul class="list-reset">
+    {% for item in collections.all | reverse %}
+      {% if item.data.inEverything %}
+        {%- set itemURL -%}
+          {%- if item.url -%}
+            {{ item.url }}
+          {%- else -%}
+            https://ttntm.me/notes/#{{ item.data.weight }}
+          {%- endif -%}
+        {%- endset -%}
+        <li>
+          <div class="hr shadow mt2 mb2"></div>
+          <p class="text-muted bold small uppercase" style="margin-bottom: .5rem;">
+            {{ item.data.type }}
+          </p>
+          <div class="indent-1-lg indent-border-lg">
+            <h2 class="h4 heading">
+              <a href="{{ itemURL }}">{{ item.data.title }}</a>
+            </h2>
+            {% if item.data.description %}
+              <p>
+                {{ item.data.description }}
+              </p>
+            {% endif %}
+            <p class="text-muted small mb0">
+              Published: <time class="dt-published" datetime="{{ item.data.date | date('YYYY-MM-DD') }}">{{ item.data.date | date('MMMM DD, YYYY') }}</time>
+            </p>
+          </div>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>

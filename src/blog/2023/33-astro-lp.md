@@ -1,7 +1,6 @@
 ---
 title: A Simple Astro Landing Page Template
 slug: astro-tailwind-landing-page-template
-type: blog
 date: 2023-08-23
 description: I recently published a new version of my landing page template built with Astro and Tailwind CSS.
 tags:

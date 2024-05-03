@@ -1,7 +1,6 @@
 ---
 title: "Using Tailwind CSS with Vue.js"
 slug: tailwind-css-with-vuejs
-type: blog
 date: 2020-07-09
 description: "Tailwind CSS is an incredibly powerful utility-first CSS framework. It's super easy to set up and makes you very flexible."
 tags:

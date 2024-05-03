@@ -1,11 +1,11 @@
 {
-  "version": "3.14.2",
+  "version": "3.15",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and diary. Everything, and nothing.",
   "feeds": [
     {
       "name": "Blog",
-      "link": "/feed.xml"
+      "link": "/blog/feed.xml"
     },
     {
       "name": "Likes",
@@ -14,6 +14,10 @@
     {
       "name": "Notes",
       "link": "/notes/feed.xml"
+    },
+    {
+      "name": "Everything",
+      "link": "/everything.xml"
     }
   ],
   "feedTitle": "ttntm.me",
