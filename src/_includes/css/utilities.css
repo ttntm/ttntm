@@ -456,3 +456,10 @@
   letter-spacing: inherit;
   text-decoration: none;
 }
+
+details[open] {
+  &.details-scrollable {
+    max-height: 350px;
+    overflow-y: scroll;
+  }
+}

@@ -12,7 +12,8 @@ published: 202Y-MM-DD
   Interesting, might consider doing that in the future
 - [restorativland](https://restorativland.org)
   Wonderful - a project that restores "web ruins" like geocities, making them accessible again
-- []()
+- [Growing home infrastructure](https://shivering-isles.com/2024/05/growing-home-infrastructure
+  Lessons learned re: self-hosting)
 - []()
 - []()
 - []()
