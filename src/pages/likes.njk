@@ -15,7 +15,7 @@ permalink: /likes/index.html
         <li class="d-block">
           <a class="card w100 u-url p-name like-link shadow-md-hover hover-scale-sm no-underline py1" href="{{ item.url }}">
             <span class="d-block" style="margin-bottom: .5rem;">{{ item.data.title }}</span>
-            <time class="d-block regular small">{{ item.data.published | date('MMM DD, YYYY') }}</time>
+            <time class="d-block regular small">{{ item.date | date('MMM DD, YYYY') }}</time>
           </a>
         </li>
       {% endfor %}
