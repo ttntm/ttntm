@@ -30,6 +30,7 @@
   /* --green: #A3BE8C; */
   --green: #408773;
   --red: #BF616A;
+  --orange: #d08770;
   --yellow: #EBCB8B;
   --white: #fff;
   --black: #000;
@@ -42,6 +43,7 @@
   --btnText: var(--dark);
   --btnBgHover: var(--dark);
   --btnTextHover: var(--light);
+  --btnThemeHover: var(--black);
   --cardBg: var(--lightest);
   --codeBg: var(--lightest);
   --contentLink: var(--prim);
@@ -93,6 +95,7 @@
   --btnText: silver;
   --btnBgHover: var(--darkest);
   --btnTextHover: var(--yellow);
+  --btnThemeHover: var(--yellow);
   --cardBg: var(--dark);
   --codeBg: var(--black);
   --contentLink: var(--light);
@@ -461,7 +464,7 @@ main {
   color: var(--navBtn);
 
   &:hover {
-    color: var(--navBtnHover);
+    color: var(--orange);
   }
 }
 
@@ -571,7 +574,13 @@ button {
 }
 
 .btn-theme-header:hover {
-  color: var(--navBtnHover);
+  color: var(--btnThemeHover);
+}
+
+.icon-rss {
+  &:hover {
+    color: var(--orange);
+  }
 }
 
 .next-prev {

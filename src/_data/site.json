@@ -1,23 +1,27 @@
 {
-  "version": "3.15",
+  "version": "3.15.1",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and diary. Everything, and nothing.",
   "feeds": [
     {
       "name": "Blog",
-      "link": "/blog/feed.xml"
+      "link": "/blog/feed.xml",
+      "page": "/blog/"
     },
     {
       "name": "Likes",
-      "link": "/likes/feed.xml"
+      "link": "/likes/feed.xml",
+      "page": "/likes/"
     },
     {
       "name": "Notes",
-      "link": "/notes/feed.xml"
+      "link": "/notes/feed.xml",
+      "page": "/notes/"
     },
     {
       "name": "Everything",
-      "link": "/everything.xml"
+      "link": "/everything.xml",
+      "page": "/everything/"
     }
   ],
   "feedTitle": "ttntm.me",

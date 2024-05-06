@@ -8,7 +8,7 @@ permalink: /everything/index.html
   {%- from 'macro.headingRSS.njk' import header %}
   {{ header({ text: title, link: '/everything.xml', title: title }) }}
   <div class="hr shadow mb2"></div>
-  <p>
+  <p class="p-summary">
     {{ description }}
   </p>
   <ul class="list-reset">
@@ -21,17 +21,17 @@ permalink: /everything/index.html
             https://ttntm.me/notes/#{{ item.data.weight }}
           {%- endif -%}
         {%- endset -%}
-        <li>
+        <li class="h-entry">
           <div class="hr shadow mt2 mb2"></div>
           <p class="text-muted bold small uppercase" style="margin-bottom: .5rem;">
             {{ item.data.type }}
           </p>
           <div class="indent-1-lg indent-border-lg">
             <h2 class="h4 heading">
-              <a href="{{ itemURL }}">{{ item.data.title }}</a>
+              <a class="u-url p-name" href="{{ itemURL }}">{{ item.data.title }}</a>
             </h2>
             {% if item.data.description %}
-              <p>
+              <p class="p-summary">
                 {{ item.data.description }}
               </p>
             {% endif %}

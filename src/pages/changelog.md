@@ -14,7 +14,14 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.15.1
+
+- Update: icon colors (theme, feeds)
+- Fix: `h-feed` implementation
+
 ## 3.15
+
+<small>Released: 2024-05-03</small>
 
 - Added [/everything](/everything/) and a matching [feed](/everything.xml)
 - Cleanup of old front matter data (blog posts)

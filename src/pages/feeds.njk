@@ -1,17 +1,23 @@
 ---
-title: RSS Feeds
-description: A directory of the RSS feeds published on this website.
+title: Feeds
+description: A list of the feeds published on this website.
 image: /img/blog/content.jpg
 layout: page.njk
 permalink: /feeds/index.html
 ---
-<p>These RSS feeds are published on this website:</p>
-<ul>
+<p class="">These feeds are published on this website:</p>
+<ul class="list-reset">
   {% for item in site.feeds %}
-    <li>
-      <strong>{{ item.name }}</strong>
-      <br>
-      <a href="{{ item.link }}">ttntm.me{{ item.link }}</a>
+    <li class="py1">
+      <h2 class="h4 tight">{{ item.name }}</h2>
+      <ul>
+        <li>
+          HTML: <a href="{{ item.page }}">ttntm.me{{ item.page }}</a>
+        </li>
+        <li>
+          RSS: <a href="{{ item.link }}">ttntm.me{{ item.link }}</a>
+        </li>
+      </ul>
     </li>
   {% endfor %}
 </ul>
