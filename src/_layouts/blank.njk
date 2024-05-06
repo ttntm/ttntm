@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include 'head.njk' %}
+</head>
+<body>
+  <main class="flex">
+    {{ content | safe }}
+  </main>
+  {% set js %}
+    {% include 'js/theme.js' %}
+  {% endset %}
+  <script>
+    {{ js | jsmin | safe }}
+  </script>
+</body>
+</html>

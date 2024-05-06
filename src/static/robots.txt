@@ -1,9 +1,11 @@
 User-agent: *
-Disallow: /feed.xml
+Disallow: /everything.xml
+Disallow: /blog/feed.xml
 Disallow: /likes/feed.xml
 Disallow: /notes/feed.xml
 Disallow: /bookmarks/
 Disallow: /likes/
+Disallow: /629318c103e39f4fd693e43e0cab9cbc.html
 
 # I opt out of online advertising so malware that injects ads on my site won't get paid.
 # You should do the same. my ads.txt file contains a standard placeholder to forbid any

@@ -16,6 +16,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.15.1
 
+- Add: [/blank](/blank/)
 - Update: icon colors (theme, feeds)
 - Fix: `h-feed` implementation
 

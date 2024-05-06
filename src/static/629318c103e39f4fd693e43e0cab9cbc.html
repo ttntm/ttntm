@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>
+      629318c103e39f4fd693e43e0cab9cbc
+    </title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        background: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="cntdwn" style="display: flex; align-items: center; justify-content: center; color: #ada; height: 100vh;">
+      3...
+    </h1>
+
+    <canvas id="629318c"></canvas>
+
+    <script type="module">
+      function boom() {
+        const canvas = document.getElementById('629318c')
+        const chars = 'ヵヮヰルモマホウヒネナテタセサキ'.split('')
+        const ctx = canvas.getContext('2d')
+        const drops = []
+        const fontSize = 10
+
+        canvas.height = window.innerHeight
+        canvas.width = window.innerWidth
+
+        const columns = canvas.width / fontSize
+
+        for (let x = 0; x < columns; x++) {
+          drops[x] = 1
+        }
+
+        function kaBoom() {
+          ctx.fillStyle = 'rgba(0, 0, 0, .05)'
+          ctx.fillRect(0, 0, canvas.width, canvas.height)
+          ctx.fillStyle = '#ada'
+          ctx.font = fontSize + 'px arial'
+
+          for (let i = 0; i < drops.length; i++) {
+            const text = chars[Math.floor(Math.random() * chars.length)]
+            const vertical = drops[i] * fontSize
+            ctx.fillText(text, i * fontSize, vertical)
+
+            if (
+              vertical > canvas.height
+              && Math.random() > 0.975
+            ) {
+              drops[i] = 0
+            }
+
+            drops[i]++
+          }
+        }
+
+        setInterval(kaBoom, 40)
+      }
+
+      window.addEventListener('DOMContentLoaded', () => {
+        const c = document.getElementById('cntdwn')
+        let cnt = 2
+
+        console.log(`
+          //--------
+            Congratulations for finding this page :)
+            Go full screen, refresh if necessary, and enjoy the rain.
+          --------//
+        `)
+
+        let countdown = setInterval(() => {
+          if (cnt < 0) {
+            c.remove()
+
+            clearInterval(countdown)
+            countdown = null
+
+            boom()
+          } else {
+            c.innerText = cnt === 0 ? `${cnt}!!!` : `${cnt}...`
+            cnt--
+          }
+        }, 1000)
+      })
+    </script>
+  </body>
+</html>

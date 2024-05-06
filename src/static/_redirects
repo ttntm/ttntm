@@ -2,12 +2,17 @@
 
 /feed.xml /blog/feed.xml 301
 
+/archive /blog/ 301
 /archive/ /blog/ 301
+/articles /blog/ 301
 /articles/ /blog/ 301
 /contact /about/ 301
 /contact/* /about/ 301
 /notes/:id /notes/ 301
+/projects /work/ 301
 /projects/* /work/ 301
+/rain /629318c103e39f4fd693e43e0cab9cbc.html 301
+/rain/* /629318c103e39f4fd693e43e0cab9cbc.html 301
 /til/* /notes/ 301
 /today-i-learned/* /notes/ 301
 

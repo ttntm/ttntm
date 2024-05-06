@@ -200,6 +200,10 @@
 
 /* OTHER */
 
+.font-mono {
+  font-family: var(--font-mono);
+}
+
 .text-prim,
 .text-prim-hover:hover {
   color: var(--prim);
