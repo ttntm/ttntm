@@ -28,6 +28,7 @@
 
         canvas.height = window.innerHeight
         canvas.width = window.innerWidth
+        ctx.font = fontSize + 'px arial'
 
         const columns = canvas.width / fontSize
 
@@ -39,7 +40,6 @@
           ctx.fillStyle = 'rgba(0, 0, 0, .05)'
           ctx.fillRect(0, 0, canvas.width, canvas.height)
           ctx.fillStyle = '#ada'
-          ctx.font = fontSize + 'px arial'
 
           for (let i = 0; i < drops.length; i++) {
             const text = chars[Math.floor(Math.random() * chars.length)]
