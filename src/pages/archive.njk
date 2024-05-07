@@ -10,7 +10,20 @@ isBlogHome: true
   {%- from 'macro.headingRSS.njk' import header %}
   {{ header({ text: 'The Blog', link: '/blog/feed.xml', title: title }) }}
   <div class="hr shadow mb2"></div>
-  {% include "archive.tags.njk" %}
+  <h2 class="h3 text-center">
+    Tags
+  </h2>
+  <ul class="list-reset flex justify-content-center flex-wrap mb2" style="gap: .75rem;">
+    {% for tag in collections.blog | getCollectionTags | sort %}
+      <li class="tag">
+        <a href="/tags/{{ tag | slugify }}/">
+          <span>
+            <span class="small">#</span>{{ tag }}
+          </span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
   {% for year, yearPosts in collections.postsByYear %}
     <hgroup class="text-center">
       <h2 class="tight {{ 'mt2' if not loop.first }}">&bull;&nbsp;{{ year }}&nbsp;&bull;</h2>

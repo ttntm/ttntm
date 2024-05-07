@@ -460,9 +460,15 @@ main {
   color: var(--navLinkActive);
 }
 
-.nav-rss {
+.nav-icon {
   color: var(--navBtn);
 
+  &.nav-icon-active {
+    color: var(--prim);
+  }
+}
+
+.nav-rss {
   &:hover {
     color: var(--orange);
   }

@@ -14,6 +14,7 @@ date: 202Y-MM-DD
   Wonderful - a project that restores "web ruins" like geocities, making them accessible again
 - [Growing home infrastructure](https://shivering-isles.com/2024/05/growing-home-infrastructure)
   Lessons learned re: self-hosting
-- []()
+- [Novel attack against virtually all VPN apps neuters their entire purpose](https://arstechnica.com/security/2024/05/novel-attack-against-virtually-all-vpn-apps-neuters-their-entire-purpose/)
+  Keep that in mind and be careful out there
 - []()
 - []()

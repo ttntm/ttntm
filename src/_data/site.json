@@ -1,7 +1,10 @@
 {
-  "version": "3.15.1",
+  "version": "3.15",
+  "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and diary. Everything, and nothing.",
+  "url": "https://ttntm.me",
+  "feedTitle": "ttntm.me",
   "feeds": [
     {
       "name": "Blog",
@@ -24,7 +27,6 @@
       "page": "/everything/"
     }
   ],
-  "feedTitle": "ttntm.me",
   "highlights": [
     {
       "title": "90s Misfits",
@@ -98,6 +100,11 @@
       "url": "https://fosstodon.org/@ttntm"
     }
   ],
-  "title": "Tom's Homepage",
-  "url": "https://ttntm.me"
+  "buttons": [
+    "11ty.gif",
+    "fedora.gif",
+    "firefox.gif",
+    "ublock.png",
+    "vscode.gif"
+  ]
 }

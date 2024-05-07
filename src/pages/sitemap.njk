@@ -1,6 +1,6 @@
 ---
 title: Sitemap
-description: This page lists every regular page on this website.
+description: This page lists all regular pages on this website.
 image: /img/blog/sitemap.png
 layout: page.njk
 permalink: /sitemap/index.html
@@ -10,8 +10,10 @@ eleventyExcludeFromCollections: true
   {{ description }}
 </p>
 <p>
-  Blog posts, likes and notes can be found listed on their respective collection list page.
+  Collection items - Blog Posts, Likes and Notes - can be found listed on their respective collection list page and in the <a href="/everything/">/everything</a> feed.
 </p>
+<div class="hr shadow mt2"></div>
+<h2>All Pages</h2>
 <ul>
   {% for item in collections.all | sortByText('title') %}
     {% if item.data.isRegularPage %}

@@ -1,37 +1,26 @@
 <style>
-  .kb-club {
-    color: var(--text) !important;
-    transition: .4s;
-  }
-
-  .kb-club-bg,
-  .kb-club-no-bg {
-    border: 2px solid #4caf50;
-    padding: .25rem .5rem;
-  }
-
-  .kb-club-bg {
-    background: #4caf50;
-    color: #212121 !important;
-  }
-
-  .kb-club:hover {
-    background: #c8e6c9;
-    color: var(--black) !important;
-  }
-
   .club {
     border: 2px solid var(--darkest);
     color: var(--text) !important;
     padding: .25rem .5rem;
+    transition: .4s;
+
+    &:hover {
+      background: var(--dark);
+      color: var(--light) !important;
+    }
   }
 
-  .club:hover {
-    background: var(--dark);
-    color: var(--light) !important;
+  .green {
+    border-color: var(--green);
+
+    &:hover {
+      background: var(--green);
+      color: var(--black);
+    }
   }
 </style>
-<ul class="flex flex-row flex-wrap align-items-center list-reset gap1 mb1">
+<ul class="flex flex-row flex-wrap align-items-center justify-content-center list-reset gap1 mt2 mb1">
   <li class="d-block">
     <a href="https://bukmark.club" target="_blank" rel="noreferrer">
       <img class="d-block m0" src="/img/bc_button_member.png" width="88" height="31">
@@ -41,9 +30,7 @@
     <a class="club d-inline-block no-underline small" href="https://250kb.club" target="_blank" rel="noreferrer">250kb Club</a>
   </li>
   <li class="d-block">
-    <a class="kb-club small d-inline-block no-underline bold" href="https://512kb.club" target="_blank" rel="noreferrer" title="This Website is a proud member of the 512KB Club">
-      <span class="d-inline-block kb-club-no-bg">512KB Club</span><span class="d-inline-block kb-club-bg">Green Team</span>
-    </a>
+    <a class="club green d-inline-block no-underline small" href="https://512kb.club" target="_blank" rel="noreferrer">512KB Club</a>
   </li>
   <li class="d-block">
     <a class="club d-inline-block no-underline small" href="https://1mb.club" target="_blank" rel="noreferrer">1MB Club</a>

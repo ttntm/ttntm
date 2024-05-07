@@ -1,36 +1,36 @@
-<ul class="d-none d-sm-block list-reset list-inline bold">
-  <li class="d-none d-sm-inline-block list-inline-item px1">
+<ul class="d-none d-sm-flex list-reset align-items-center justify-content-center gap2 bold">
+  <li class="d-none d-sm-inline-block list-inline-item">
     <a class="footer-link no-underline" href="/">Home</a>
   </li>
-  <li class="list-inline-item px1">
+  <li class="list-inline-item">
     <a class="footer-link no-underline" href="/blog/">Blog</a>
   </li>
-  <li class="list-inline-item px1">
+  <li class="list-inline-item">
     <a class="footer-link no-underline" href="/notes/">Notes</a>
   </li>
-  <li class="list-inline-item px1">
+  <li class="list-inline-item">
     <a class="footer-link no-underline" href="/work/">Work</a>
   </li>
-  <li class="list-inline-item px1">
+  <li class="list-inline-item">
     <a class="footer-link no-underline" href="/about/">About</a>
   </li>
 </ul>
-<ul class="list-reset list-inline small" style="margin: 1.5rem 0;">
+<ul class="list-reset flex align-items-center justify-content-center small gap2" style="margin: 1.5rem auto;">
   {% for icon in site.social %}
-    <li class="list-inline-item px1">
+    <li class="list-inline-item">
       <a class="footer-link no-underline" href="{{ icon.url }}" target="_blank" rel="me noreferrer">
         <img src="/img/icons/{{ icon.img }}" class="icon" alt="{{ icon.title }}" title="{{ icon.title }}" width="24" height="24">
       </a>
     </li>
   {% endfor %}
-  <li class="list-inline-item hide-no-js px1">
+  <li class="list-inline-item hide-no-js">
     <button class="btn-theme btn-theme-footer footer-link" title="Change theme">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#81a1c1" fill="none" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       </svg>
     </button>
   </li>
-  <li class="list-inline-item px1">
+  <li class="list-inline-item">
     <a class="footer-link no-underline" href="#top" aria-label="Back To Top">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#81a1c1" fill="none" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

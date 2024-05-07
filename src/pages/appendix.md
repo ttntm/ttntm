@@ -19,6 +19,10 @@ This website contains <s>no</s> _only minimal_ JavaScript ([theme persistence](/
 
 Feel free to <a href="mailto:ttntm@pm.me?subject=About your website">email me</a> if you want to talk about any of this.
 
+<div class="hr shadow mt2 mb2"></div>
+
+{% include "apx.buttons.njk" %}
+
 ## Carbon Rating
 
 This website achieves a carbon rating of **A+**.
@@ -45,6 +49,7 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 - Support webmentions
 - Offer linkable headings
 - Become searchable at some point
+- Provide a home for {% ext "neko", "https://github.com/adryd325/oneko.js" %} ({% ext "+context", "https://github.com/eliot-akira/neko/" %})
 
 Finally, **everything that was done already**, can be found in the [Changelog](/changelog/).
 
@@ -56,4 +61,4 @@ All content on this site is licensed under the Attribution-NonCommercial-ShareAl
 
 This website is a proud member of:
 
-{% include "about.stats.njk" %}
+{% include "apx.stats.njk" %}
