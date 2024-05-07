@@ -291,6 +291,10 @@ Active from 08/2018 to 11/2018.
 {% postGraph null, { "data": stats } %}
 
 <style>
+  .epg__squares {
+    grid-gap: 1px;
+  }
+
   /*
     These bizarre rules hide some extra HTML tags which can lead to issues, i.e. a broken
     grid in Chrome due to an extra `<br>` tag at the very end of the list of `<div>` elements

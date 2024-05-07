@@ -16,5 +16,7 @@ date: 202Y-MM-DD
   Lessons learned re: self-hosting
 - [Novel attack against virtually all VPN apps neuters their entire purpose](https://arstechnica.com/security/2024/05/novel-attack-against-virtually-all-vpn-apps-neuters-their-entire-purpose/)
   Keep that in mind and be careful out there
-- []()
-- []()
+- [Heat Death of the Internet](https://www.takahe.org.nz/heat-death-of-the-internet/)
+  Sad, but true
+- [a view source web](https://viewsource.info)
+  A great piece about HTML and its transparency
