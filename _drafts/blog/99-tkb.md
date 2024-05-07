@@ -2,9 +2,11 @@
 
 From: https://matklad.github.io/2024/03/22/basic-things.html
 
+Link to another article with a similar motivation: https://www.markpitblado.me/blog/goodbye-logseq-obsidian-and-vimwiki-hello-mdbook/
+
 # Outline
 
-notebook pg. 29
+from: physical notebook pg. 29
 
 - How + why
 - boring tools, limiting self to prevent constant tinkering when content is in focus
