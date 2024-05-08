@@ -49,6 +49,10 @@
       {
         "title": "TKB",
         "description": "Tom's Knowledge Base, my personal wiki.",
+        "article": {
+          "title": "My Personal Knowledge Base",
+          "url": "/blog/personal-knowledge-base"
+        },
         "web": "https://kb.ttntm.me",
         "source": "https://codeberg.org/ttntm/tkb"
       },

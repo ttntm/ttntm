@@ -18,6 +18,8 @@ Last update: 2024-04-11
   Posts about CSS
 - #defaults
   The annual "App Defaults" series
+- #docs
+  Everything about documenting things, taking notes etc.
 - #eleventy
   Anything about Eleventy, an SSG
 - #evolution
