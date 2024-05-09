@@ -19,6 +19,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 <small>Released: 2024-05-09</small>
 
 - Added an [/interests](/interests/) page
+- Updated the list of collections and pages
 
 ## 3.15
 
