@@ -14,6 +14,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.16
+
+<small>Released: 2024-05-09</small>
+
+- Added an [/interests](/interests/) page
 
 ## 3.15
 

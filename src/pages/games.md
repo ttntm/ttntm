@@ -1,6 +1,6 @@
 ---
 title: Game Recommendations
-description: A curated list of my favorite videogames with reasons why I love them.
+description: A curated list of my favorite video games with reasons why I love them.
 image: /img/games.jpg
 layout: page.njk
 permalink: /games/index.html
