@@ -62,11 +62,11 @@ The musical genres I enjoy the most are:
 
 I really love cooking, and I've been interested in trying out new recipes since my late teenage years. Thankfully, that's a family thing and my wife loves it too. So much so, that we ended up building (and maintaining) our own {% ext "open source recipes collection", "https://recept0r.com" %} a couple of years ago.
 
-If I had to pick just one favorite food, it'd have to be pizza. I simply love making and eating that!
+If I had to pick just one favorite food, it'd have to be pizza - I simply love making and eating it!
 
 ### Whisky
 
-Focusing on Scotch Whisky is a rather recent interest, but one I really enjoy. You can find out more about this interest on my [Whisky page](/whisky/).
+Exploring Scotch Whisky is a rather recent interest, but one I really enjoy. You can find out more about this interest on my [Whisky page](/whisky/).
 
 ## The Rest
 
