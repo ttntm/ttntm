@@ -148,7 +148,7 @@ Changes of how the source code is organized:
 - Added folders to collection root folders to organize them based on years
 - Added a `pages` folder to keep content pages and templates in one place
 - Added `humans.txt`
-- Extended and updated `robots.txt` (see: {% ext "tkb/user-agents", "https://kb.ttntm.me/development/user-agents.html" %})
+- Extended and updated `robots.txt` (see: {% ext "tkb/user-agents", "https://kb.ttntm.me/development/webdev/user-agents.html" %})
 - Updated the Eleventy config: `html-min` now runs for productive builds only
 
 ## Closing Thoughts
