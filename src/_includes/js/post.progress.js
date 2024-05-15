@@ -21,9 +21,17 @@ window.addEventListener('DOMContentLoaded', () => {
   let contentOffsetHeight = 0
 
   if (postContent && progressBar) {
-    window.addEventListener('scroll', useDebounce(() => {
-      const wScrollY = window.scrollY
+    const progressBarVisible = () => {
+      return window.getComputedStyle(progressBar?.parentElement)?.getPropertyValue('display') !== 'none'
+    }
 
+    window.addEventListener('scroll', useDebounce(() => {
+      if (!progressBarVisible()) {
+        // mobile device, no progress bar - abort
+        return
+      }
+
+      const wScrollY = window.scrollY
       contentTop = postContent.offsetTop
       contentOffsetHeight = postContent.offsetHeight
 

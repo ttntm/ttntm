@@ -43,7 +43,7 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 
 **And things I'd like this website to do**:
 
-- Be my journal, weblog and diary
+- Be a journal, weblog and playground
 - Never track and {% ext "never monetize", "https://www.nevermonetize.com" %} its visitors
 - Update frequently
 - Support webmentions

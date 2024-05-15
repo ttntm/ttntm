@@ -27,9 +27,8 @@ You're always welcome to [email me](mailto:ttntm@pm.me?subject=Ideas) with feedb
 ## Done
 
 - A reboot reminder bot for ActivityPub/Mastodon
-- An Eleventy plugin to show the git activity in the respective site's repository
-    - It exists already: see section "Custom Data" at {% ext "postgraph.rknight.me", "https://postgraph.rknight.me" %}
-    - Refined idea: build such a custom data object from a repository's git history
+- Showing the git activity in this website's repository
+    - Added 03/24, see [/changelog](/changelog/#timeline)
 - Add a sitemap to this website to make it more user-friendly for humans
     - Added 03/24, see [/sitemap](/sitemap/)
 - An interface for Eleventy to retrieve reading list data from Omnivore
