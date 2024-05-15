@@ -25,6 +25,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
   - /about
   - /interests
   - /notes
+  - /sitemap
   - /work
 
 ## 3.16.1

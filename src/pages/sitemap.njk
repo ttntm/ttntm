@@ -14,16 +14,19 @@ eleventyExcludeFromCollections: true
 </p>
 <div class="hr shadow mt2"></div>
 <h2>All Pages</h2>
-<ul>
+<ul class="list-reset grid grid2 gap1">
   {% for item in collections.all | sortByText('title') %}
     {% if item.data.isRegularPage %}
+      {% if item.data.description %}
+        {% set text = item.data.description %}
+      {% elif item.data.isFront %}
+        {% set text = "The homepage, start here." %}
+      {% endif %}
       <li>
-        <p>
+        <p class="m0">
           <a href="{{ item.url }}">{{ item.data.title }}</a>
-          {% if item.data.description %}
-            <br>
-            {{ item.data.description }}
-          {% endif %}
+          <br>
+          <span class="d-inline-block" style="padding-left: .5rem;">&ndash;&nbsp;{{ text }}</span>
         </p>
       </li>
     {% endif %}
