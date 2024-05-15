@@ -21,7 +21,7 @@ permalink: /games/index.html
     </p>
   </div>
 </div>
-<div class="hr shadow mt2 mb1"></div>
+<div class="hr shadow mt2"></div>
 
 ## Great Stories
 

@@ -10,7 +10,10 @@ permalink: /notes/index.html
   {{ header({ text: title, link: '/notes/feed.xml', title: title }) }}
   <div class="hr shadow"></div>
   <section class="post">
-    <details class="details-scrollable">
+    <p>
+      {{ description }}
+    </p>
+    <details class="details-scrollable mt1">
       <summary class="flex align-items-center" style="cursor: pointer;">
         <h2 class="h5 m0">
           Table of Contents

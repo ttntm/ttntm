@@ -14,6 +14,19 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.17
+
+<small>Released: 2024-05-15</small>
+
+- Added /likes to header/footer navigation, replacing /work
+- Updated individual /likes entry layout
+- Updated the list of collections and pages
+- Updated
+  - /about
+  - /interests
+  - /notes
+  - /work
+
 ## 3.16.1
 
 - Updated buttons in [/appendix](/appendix/)

@@ -1,6 +1,6 @@
 ---
 title: Likes
-description: Some cool things I found on the internet.
+description: A collection of weekly notes with links to interesting articles, resources and tools.
 layout: base.njk
 permalink: /likes/index.html
 ---
@@ -9,7 +9,9 @@ permalink: /likes/index.html
   {{ header({ text: title, link: '/likes/feed.xml', title: title }) }}
   <div class="hr shadow mb2"></div>
   <section class="post">
-    <p class="text-center p-summary">Some cool things I found on the internet.</p>
+    <p class="p-summary">
+      A collection of weekly notes with links to interesting articles, resources and tools.
+    </p>
     <ul class="list-reset grid grid3 gap1 mt2">
       {% for item in collections.likes | reverse %}
         <li class="d-block h-entry">

@@ -8,7 +8,7 @@ permalink: /interests/index.html
 
 A list of the things I'm interested in and a constant work in progress that will grow over time.
 
-**Last updated:** May 9th 2024
+**Last updated:** May 15th 2024
 
 <img src="/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
 
@@ -46,6 +46,12 @@ I grew up playing video games and I still love playing them. In 2015, I switched
 
 Some of my favorite games can be found listed on my [Game Recommendations](/games/) page.
 
+## Movies and TV
+
+Watching movies and TV series is a mutual interest of my wife and me. We also share a similar taste, so it's usually quite easy for us to find something both of us will enjoy.
+
+A while ago, I started working on {% ext "watch3r", "https://watch3r.app" %}, a watchlist/journal application for movies and series. It's a very helpful companion and makes it easy for us to keep track of what to watch.
+
 ## Music
 
 Music used to be an important part of my life for many years, but it's moved to a much less involved and rather passive role these days. I played the guitar in various underground bands, and I sometimes still do, but that's mostly just motivated by nostalgia.
@@ -76,7 +82,7 @@ These might turn into more detailed sections over time:
 - Car culture and customization/tuning (mostly the visual aspect)
 - Cycling and Bicycle maintenance
 - Gardening, hiking and nature
-- Home improvements and DIY
+- Home improvements and DIY projects
 - Reading and learning about (new) things
 
 <div class="hr shadow mb1"></div>

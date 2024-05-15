@@ -23,7 +23,8 @@ I grew up with the internet, building my first websites around 2002 when frames 
 
 My professional career in IT started a couple of years later, and I worked for telecom and IT service providers, software development companies and freelance clients since then. As of 2021, I'm working as a software engineer at an agency that delivers custom solutions and tailors standard software to client needs. I'm also volunteering for {% ext "epicenter.works", "https://epicenter.works" %} whenever I can support their activities with my skill set.
 
-When I'm not in front of a screen working, <a href="https://watch3r.app" target="_blank">watching movies</a> or [playing video games](/games/), I enjoy spending time with my family, parenting a lovely [Persian cat](#cat) and being outside (cycling, gardening, hiking). I also like playing board games with friends and working on DIY projects. Oh, and I really love cooking - just head over to <a href="https://recept0r.com" target="_blank">recept0r</a> if you're curious.
+I'm interested in a lot of things, and you can read all about that on my <a href="/interests/">/interests page</a>.
+In short: when I'm not in front of a screen working, watching movies or playing video games, I enjoy spending time with my family, parenting a lovely [Persian cat](#cat) and being outside (cycling, gardening, hiking). I also play board games with friends occasionally and enjoy working on DIY projects. Oh, and I really love cooking!
 
 ...and if you want to know what I'm doing _right now_, check out my [/now page](/now/) 🚀
 

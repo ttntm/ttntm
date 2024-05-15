@@ -7,11 +7,11 @@
     <a class="nav-link d-none d-sm-block {{ 'nav-link-active' if isBlogHome }}" href="/blog/">
       Blog
     </a>
+    <a class="nav-link d-none d-sm-block {{ 'nav-link-active' if '/likes' in page.url and not '/blog/' in page.url }}" href="/likes/">
+      Likes
+    </a>
     <a class="nav-link d-none d-sm-block {{ 'nav-link-active' if '/notes' in page.url and not '/blog/' in page.url }}" href="/notes/">
       Notes
-    </a>
-    <a class="nav-link d-none d-sm-block {{ 'nav-link-active' if '/work' in page.url and not '/blog/' in page.url }}" href="/work/">
-      Work
     </a>
     <a class="nav-link d-none d-sm-block {{ 'nav-link-active' if '/about' in page.url and not '/blog/' in page.url }}" href="/about/">
       About

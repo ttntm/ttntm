@@ -1,5 +1,5 @@
 {
-  "version": "3.16.1",
+  "version": "3.17",
   "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and diary. Everything, and nothing.",
@@ -63,14 +63,14 @@
       "details": "a list of ideas for future projects"
     },
     {
-      "url": "/likes/",
-      "title": "/likes",
-      "details": "cool things found on the internet"
-    },
-    {
       "url": "/reading/",
       "title": "/reading",
       "details": "my reading list from Omnivore"
+    },
+    {
+      "url": "/work/",
+      "title": "/work",
+      "details": "things I did over the years"
     },
     {
       "url": "/sitemap/",
