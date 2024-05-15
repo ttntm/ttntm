@@ -150,7 +150,7 @@ Now we'll create the map and add OpenStreetMap tiles:
 var mymap = L.map('map', {scrollWheelZoom: false}).setView([startLat, startLon], startZoom);
 // Add tiles
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors | <a href="javascript:resetMap();">Reset map</a>'
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors | <a href="javascript:resetMap();">Reset map</a>'
 }).addTo(mymap);
 ```
 

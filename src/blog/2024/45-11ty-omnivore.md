@@ -169,7 +169,7 @@ It's nothing special, but this is how I'm rendering my reading list:
         </ul>
         <p>{{ item.description }}</p>
         <p>
-          <a href="{{ item.url }}" rel="noreferrer" target="_blank">Read Now</a>
+          <a href="{{ item.url }}" target="_blank">Read Now</a>
         </p>
       </li>
     {% endfor %}

@@ -11,7 +11,7 @@ permalink: /bookmarks/index.html
   </div>
   <div>
     <p>
-      This is my personal collection of bookmarks that you can think of as my very own <em>treasure map</em> (a term I borrowed from <a href="https://flower.codes/links.html" target="_blank" rel="noreferrer">Zach</a>). It's a small directory of blogs, resources and websites that I find interesting and that I can recommend visiting. Articles and other recent discoveries can be found in my <a href="/likes/">/likes collection</a>.
+      This is my personal collection of bookmarks that you can think of as my very own <em>treasure map</em> (a term I borrowed from <a href="https://flower.codes/links.html" target="_blank">Zach</a>). It's a small directory of blogs, resources and websites that I find interesting and that I can recommend visiting. Articles and other recent discoveries can be found in my <a href="/likes/">/likes collection</a>.
     </p>
     <p class="bold m0">
       Have fun exploring :D
@@ -46,7 +46,7 @@ permalink: /bookmarks/index.html
       {% for link in item.data %}
         <li>
           <p>
-            <a href="{{ link.url }}" rel="noreferrer" target="_blank">{{ link.title }}</a>
+            <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
             {% if link.description %}
               <br>
               {{ link.description }}

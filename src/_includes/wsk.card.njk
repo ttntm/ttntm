@@ -58,7 +58,7 @@
           {% if item.data.store %}
             <li>
               <b>{% if item.data.status != "wanted" %}Bought at{% else %}Store{% endif %}</b>: {% if item.data.store_url %}
-                <a href="{{ item.data.store_url }}" rel="noreferrer" target="_blank">{{ item.data.store }}</a>
+                <a href="{{ item.data.store_url }}" target="_blank">{{ item.data.store }}</a>
               {% else %}
                 {{ item.data.store }}
               {% endif %}

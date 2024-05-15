@@ -55,7 +55,7 @@ Finally, **everything that was done already**, can be found in the [Changelog](/
 
 <h2 id="license">License</h2>
 
-All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noreferrer" target="_blank">CC-BY-NC-SA-4.0</a>
+All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">CC-BY-NC-SA-4.0</a>
 
 ## Memberships
 

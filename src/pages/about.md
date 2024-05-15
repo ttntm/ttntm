@@ -39,7 +39,7 @@ In short: when I'm not in front of a screen working, watching movies or playing 
 {% endcontact %}
 
 <p id="cat" class="text-center mt2 mb0">
-  <a href="https://pixelfed.social/alfithecat" rel="noreferrer" target="_blank" title="Meow!">
+  <a href="https://pixelfed.social/alfithecat" target="_blank" title="Meow!">
     <img class="m0 mx-auto" src="/img/walking_cat.gif">
   </a>
 </p>

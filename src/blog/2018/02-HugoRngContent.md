@@ -117,7 +117,7 @@ The respective template `references.html` is stored in the `/layouts/` folder an
             <img class="img-center" src="/img/klg/{{ $content.custLogo }}.png" alt="{{ $content.custName }}" title="{{ $content.custName }}">
             <h5>{{ $content.custName }}</h5>
             <p>{{ $content.custDesc }}</p>
-            <p><a class="reflink" href="{{ $content.custLink }}" rel="noreferrer" target="_blank">Customer Website</a></p>
+            <p><a class="reflink" href="{{ $content.custLink }}" target="_blank">Customer Website</a></p>
           </div>
         </div>
         {{- if modBool $counter 3 -}}<div class="clearfix"></div>{{ end }}

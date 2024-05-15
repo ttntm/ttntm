@@ -190,7 +190,7 @@ With that taken care of, we can proceed and render our guestbook entries:
         <div>
           <p>
             {% if item.website %}
-              <a href="{{ item.website }}" rel="noreferrer" target="_blank">
+              <a href="{{ item.website }}" target="_blank">
                 {{ item.name }}
               </a>
             {% else %}
