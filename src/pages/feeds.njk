@@ -5,8 +5,10 @@ image: /img/blog/content.jpg
 layout: page.njk
 permalink: /feeds/index.html
 ---
-<p class="">These feeds are published on this website:</p>
-<ul class="list-reset">
+<p class="">
+  This website offers the following feeds:
+</p>
+<ul class="list-reset grid grid2 gap1">
   {% for item in site.feeds %}
     <li class="py1">
       <h2 class="h4 tight">{{ item.name }}</h2>

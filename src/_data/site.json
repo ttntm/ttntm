@@ -1,8 +1,8 @@
 {
-  "version": "3.17",
+  "version": "3.17.1",
   "title": "Tom's Homepage",
   "author": "ttntm",
-  "description": "Tom's homepage. A personal website, journal and diary. Everything, and nothing.",
+  "description": "Tom's homepage. A personal website, journal and playground. Everything, and nothing.",
   "url": "https://ttntm.me",
   "feedTitle": "ttntm.me",
   "feeds": [

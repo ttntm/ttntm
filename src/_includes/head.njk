@@ -1,5 +1,5 @@
 {%- set absolutePageUrl -%}
-  {{ page.url | url | absoluteUrl(site.url) }}
+  {{- page.url | url | absoluteUrl(site.url) -}}
 {%- endset -%}
 
 {# Preload stuff #}

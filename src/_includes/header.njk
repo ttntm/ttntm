@@ -7,7 +7,7 @@
     <a class="nav-link d-none d-sm-block {{ 'nav-link-active' if isBlogHome }}" href="/blog/">
       Blog
     </a>
-    <a class="nav-link d-none d-sm-block {{ 'nav-link-active' if '/likes' in page.url and not '/blog/' in page.url }}" href="/likes/">
+    <a class="nav-link d-none d-sm-block {{ 'nav-link-active' if isLikesHome }}" href="/likes/">
       Likes
     </a>
     <a class="nav-link d-none d-sm-block {{ 'nav-link-active' if '/notes' in page.url and not '/blog/' in page.url }}" href="/notes/">

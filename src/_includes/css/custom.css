@@ -28,6 +28,7 @@
   --lighter: #E5E9F0;
   --lightest: #ECEFF4;
   /* --green: #A3BE8C; */
+  --daintree: #021F2C;
   --green: #408773;
   --red: #BF616A;
   --orange: #d08770;
@@ -50,7 +51,7 @@
   --contentLinkDecoration: var(--light);
   --contentLinkDecorationHover: var(--prim);
   --contentLinkHover: var(--dark);
-  --footerBgDsktp: var(--darkest);
+  --footerBgDsktp: var(--daintree);
   --footerLinkHover: var(--lighter);
   --footerText: var(--dark);
   --footerTextDsktp: var(--light);
@@ -59,7 +60,7 @@
   --hr: var(--light);
   --likeLink: var(--dark);
   --likeLinkHover: var(--prim);
-  --logoBg: var(--dark);
+  --logoBg: var(--daintree);
   --logoLink: var(--dark);
   --navBtn: var(--dark);
   --navBtnHover: var(--prim);

@@ -14,6 +14,13 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.17.1
+
+- Better images for /likes and /notes
+- Fixes
+- Footer background color (light theme)
+- Progress bar improvements (math, reusability)
+
 ## 3.17
 
 <small>Released: 2024-05-15</small>

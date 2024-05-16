@@ -1,10 +1,23 @@
 ---
 layout: base.njk
 ---
-<article class="container">
+<article id="content" class="container">
+  {% if showProgress %}
+    <aside class="progress-bar hide-no-js d-none d-lg-block">
+      <div class="progress-bar__inner"></div>
+    </aside>
+  {% endif %}
   <h1 class="tight-md m0">{{ title }}</h1>
   <div class="hr shadow mb1"></div>
   <div class="post">
     {{ content | safe }}
   </div>
 </article>
+{% if showProgress %}
+  {% set js %}
+    {% include 'js/progress.js' %}
+  {% endset %}
+  <script>
+    {{ js | jsmin | safe }}
+  </script>
+{% endif %}

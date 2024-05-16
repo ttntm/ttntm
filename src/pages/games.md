@@ -4,6 +4,7 @@ description: A curated list of my favorite video games with reasons why I love t
 image: /img/games.jpg
 layout: page.njk
 permalink: /games/index.html
+showProgress: true
 ---
 <div class="grid grid2 gap2 mt2">
   <div>

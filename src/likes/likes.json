@@ -1,6 +1,7 @@
 {
   "inEverything": true,
   "layout": "like.njk",
+  "image": "/img/likes.jpg",
   "permalink": "likes/{{ slug }}/index.html",
   "type": "Like"
 }

@@ -14,13 +14,13 @@ function useDebounce(callback, wait) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  const postContent = document.getElementById('post')
+  const contentArea = document.getElementById('content')
   const progressBar = document.querySelector('.progress-bar__inner')
   const wInnerHeight = window.innerHeight
   let contentTop = 0
   let contentOffsetHeight = 0
 
-  if (postContent && progressBar) {
+  if (contentArea && progressBar) {
     const progressBarVisible = () => {
       return window.getComputedStyle(progressBar?.parentElement)?.getPropertyValue('display') !== 'none'
     }
@@ -32,14 +32,14 @@ window.addEventListener('DOMContentLoaded', () => {
       }
 
       const wScrollY = window.scrollY
-      contentTop = postContent.offsetTop
-      contentOffsetHeight = postContent.offsetHeight
+      contentTop = contentArea.offsetTop
+      contentOffsetHeight = contentArea.offsetHeight
 
       if (
         contentTop
         && (contentTop - wInnerHeight) < wScrollY
       ) {
-        const progress = wScrollY / (contentOffsetHeight - (contentTop + wInnerHeight))
+        const progress = wScrollY / ((wInnerHeight - (contentTop + contentOffsetHeight)) * -1)
 
         progressBar.style.transform = `scaleY(${progress <= 1 ? progress : 1})`
 

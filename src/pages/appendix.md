@@ -15,7 +15,7 @@ The tech stack used for the current version is:
 - Git
 - PostCSS
 
-This website contains <s>no</s> _only minimal_ JavaScript ([theme persistence](/blog/dark-mode/)) and the total uncompressed size of it's landing page is less than 100 KB.
+This website contains only minimal JavaScript for progressive enhancement, and the total uncompressed size of its landing page is less than 100 KB.
 
 Feel free to <a href="mailto:ttntm@pm.me?subject=About your website">email me</a> if you want to talk about any of this.
 

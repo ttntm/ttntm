@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 ---
-<article id="post" class="container">
+<article id="content" class="container">
   <aside class="progress-bar hide-no-js d-none d-lg-block">
     <div class="progress-bar__inner"></div>
   </aside>
@@ -21,7 +21,7 @@ layout: base.njk
   {% include "post.nextprev.njk" %}
 </article>
 {% set js %}
-  {% include 'js/post.progress.js' %}
+  {% include 'js/progress.js' %}
 {% endset %}
 <script>
   {{ js | jsmin | safe }}
