@@ -4,10 +4,10 @@
   {% include 'head.njk' %}
 </head>
 <body class="{{ 'h-card' if isFront }}">
-  <header>
+  <header id="top">
     {% include 'header.njk' %}
   </header>
-  <main>
+  <main class="mt2">
     {{ content | safe }}
   </main>
   <footer id="footer" class="px1">

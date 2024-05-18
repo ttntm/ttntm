@@ -1,5 +1,5 @@
 <nav class="navTop flex flex-row justify-content-between align-items-center">
-  <div id="top" class="logo {{ 'h-card' if not isFront }}">
+  <div class="logo {{ 'h-card' if not isFront }}">
     <a href="/" class="d-block logo-link p1 u-url">[T]</a>
   </div>
   <span class="p-name d-none" style="pointer-events: none;">ttntm</span>
@@ -27,6 +27,13 @@
         <path d="M12 9l0 3" />
       </svg>
     </a>
+    <button id="nav-pin" class="btn-pin d-none d-sm-block regular hide-no-js" title="Pin/unpin header">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-pinned" style="pointer-events: none;">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M9 4v6l-2 4v2h10v-2l-2 -4v-6" />
+        <path d="M12 16l0 5" /><path d="M8 4l8 0" />
+      </svg>
+    </button>
     <button class="btn-theme btn-theme-header d-block regular hide-no-js" title="Change theme">
       <svg xmlns="http://www.w3.org/2000/svg" class="d-block" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"  style="opacity: .5; pointer-events: none;">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />

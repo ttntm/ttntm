@@ -164,6 +164,10 @@ html {
   font-family: var(--font-sans);
   line-height: 1.15;
   scroll-padding-top: 1rem;
+
+  &:has(.navTop.sticky) {
+    scroll-padding-top: 5rem;
+  }
 }
 
 body {
@@ -179,6 +183,10 @@ body {
   line-height: 1.5;
   margin: 0;
   text-align: left;
+
+  &:has(.navTop.sticky) {
+    padding-top: 5.8rem;
+  }
 }
 
 @media(min-width:1200px) {
@@ -400,8 +408,30 @@ main {
 /* NAV STYLES */
 
 .navTop {
+  border-bottom: 1px solid transparent;
   font-size: 1.15rem;
   margin-bottom: 2rem;
+  transition: all .35s ease;
+
+  &.sticky {
+    --borderRadius: .0rem;
+
+    background: linear-gradient(to bottom, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
+    backdrop-filter: blur(5px);
+    position: fixed;
+    border-color: var(--border);
+    border-radius: var(--borderRadius);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* margin: 1rem auto; */
+    z-index: 50;
+
+    & .logo {
+      border-radius: var(--borderRadius);
+    }
+  }
 }
 
 .logo {
@@ -554,6 +584,7 @@ button {
 }
 
 .btn,
+.btn-pin,
 .btn-theme-header {
   color: var(--btnText);
   background-color: transparent;
@@ -577,6 +608,18 @@ button {
     background-color: var(--btnBgHover);
     box-shadow: none;
     color: var(--btnTextHover);
+  }
+}
+
+.btn-pin {
+  transform: rotate(45deg);
+
+  &:hover {
+    color: #8fbcbb;
+  }
+
+  &.pinned {
+    transform: rotate(0);
   }
 }
 
@@ -609,7 +652,6 @@ button {
   grid-template-rows: auto;
   gap: 3rem;
   max-width: calc(100vw - 3rem);
-  margin-top: 1rem;
 }
 
 .home-intro {
@@ -634,7 +676,7 @@ button {
     grid-auto-flow: column;
     max-width: calc(100vw - 12vw);
     gap: 4rem;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
   }
 
   .home-intro {
@@ -657,6 +699,7 @@ button {
 @media(min-width:1280px) {
   .home {
     max-width: calc(100vw - 24vw);
+    margin-bottom: 1rem;
   }
 }
 
@@ -720,7 +763,7 @@ button {
   background: linear-gradient(to bottom, var(--hr), var(--bg));
   border-radius: var(--barBorderRadius);
   position: fixed;
-  top: 6.5rem;
+  top: 7.5rem;
   height: 256px;
   width: .125rem;
   margin-left: -5rem;
