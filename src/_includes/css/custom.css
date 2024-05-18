@@ -612,14 +612,20 @@ button {
 }
 
 .btn-pin {
-  transform: rotate(45deg);
+  padding: .25rem;
+  transform: rotate(35deg);
+
+  &:active {
+    transform: rotate(5deg);
+  }
 
   &:hover {
     color: #8fbcbb;
   }
 
   &.pinned {
-    transform: rotate(0);
+    background-color: color-mix(in srgb, var(--border), transparent 50%);
+    /* transform: rotate(0); */
   }
 }
 
