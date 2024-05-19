@@ -29,6 +29,7 @@
   --lightest: #ECEFF4;
   /* --green: #A3BE8C; */
   --daintree: #021F2C;
+  --blueGreen: #8fbcbb;
   --green: #408773;
   --red: #BF616A;
   --orange: #d08770;
@@ -416,6 +417,7 @@ main {
   &.sticky {
     --borderRadius: .0rem;
 
+    background: var(--bg);
     background: linear-gradient(to bottom, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
     backdrop-filter: blur(5px);
     position: fixed;
@@ -512,6 +514,16 @@ main {
   left: 0;
   right: 0;
   position: fixed;
+
+  & .nav-mobile-icon {
+    color: var(--light);
+    pointer-events: none;
+
+    &.icon-active {
+      /* opacity: 0.35; */
+      color: var(--blueGreen);
+    }
+  }
 }
 
 /* FOOTER */
@@ -617,10 +629,11 @@ button {
 
   &:active {
     transform: rotate(5deg);
+    transition: transform .45s ease;
   }
 
   &:hover {
-    color: #8fbcbb;
+    color: var(--blueGreen);
   }
 
   &.pinned {
@@ -763,7 +776,7 @@ button {
 .progress-bar {
   --barBorderRadius: 99999px;
   /* --barColor: #b48ead; */
-  --barColor: #8fbcbb;
+  --barColor: var(--blueGreen);
 
   background-color: var(--border);
   background: linear-gradient(to bottom, var(--hr), var(--bg));

@@ -1,7 +1,7 @@
 <section class="navMobile d-sm-none">
   <nav class="flex align-items-center justify-content-around gap1">
     <a class="d-block p1" href="/" aria-label="Home">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if page.url === '/' }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block nav-mobile-icon {{ 'icon-active' if page.url === '/' }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <polyline points="5 12 3 12 12 3 21 12 19 12" />
         <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
@@ -9,7 +9,7 @@
       </svg>
     </a>
     <a class="d-block p1" href="/blog/" aria-label="Blog">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if isBlogHome }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block nav-mobile-icon {{ 'icon-active' if isBlogHome }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <rect x="3" y="4" width="18" height="4" rx="2" />
         <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
@@ -17,14 +17,14 @@
       </svg>
     </a>
     <a class="d-block p1" href="/likes/" aria-label="Likes">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if isLikesHome }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block nav-mobile-icon {{ 'icon-active' if isLikesHome }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <path d="M15 10v11l-5 -3l-5 3v-11a3 3 0 0 1 3 -3h4a3 3 0 0 1 3 3z" />
         <path d="M11 3h5a3 3 0 0 1 3 3v11" />
       </svg>
     </a>
     <a class="d-block p1" href="/notes/" aria-label="Notes">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/notes' in page.url and not '/blog/' in page.url }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block nav-mobile-icon {{ 'icon-active' if '/notes' in page.url and not '/blog/' in page.url }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
         <line x1="13" y1="8" x2="15" y2="8" />
@@ -32,7 +32,7 @@
       </svg>
     </a>
     <a class="d-block p1" href="/sitemap/" aria-label="Sitemap">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block {{ 'icon-active' if '/sitemap' in page.url and not '/blog/' in page.url }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D8DEE9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block nav-mobile-icon {{ 'icon-active' if '/sitemap' in page.url and not '/blog/' in page.url }}" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <path d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
         <path d="M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />

@@ -419,10 +419,6 @@
   margin-right: auto !important;
 }
 
-.icon-active {
-  opacity: 0.35;
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -471,5 +467,12 @@ details[open] {
   &.details-scrollable {
     max-height: 350px;
     overflow-y: scroll;
+
+    & summary {
+      background: var(--bg);
+      position: sticky;
+      top: 0;
+      box-shadow: 0 .125rem .25rem var(--shadowColor);
+    }
   }
 }
