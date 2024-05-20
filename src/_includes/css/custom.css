@@ -834,6 +834,7 @@ summary h2 {
   background-color: var(--bg);
   background: linear-gradient(to bottom right, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border: 1px solid var(--border);
   height: 100%;
   padding: 2rem;
@@ -842,6 +843,7 @@ summary h2 {
 .old-content-note {
   background: linear-gradient(to bottom right, color-mix(in srgb, var(--yellow), transparent 75%), var(--bg));
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border: 2px solid var(--yellow);
   font-size: 1.125rem;
   padding: 1.5rem;
