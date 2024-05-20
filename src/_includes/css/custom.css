@@ -1025,6 +1025,12 @@ summary:active {
   src: https://wojtek.im/journal/targeting-safari-with-css-media-query
 */
 @supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) {
+  .navTop {
+    &.sticky {
+      background: color-mix(in srgb, var(--bg), transparent 75%);
+    }
+  }
+
   summary h2 {
     display: block !important;
   }
