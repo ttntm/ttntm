@@ -420,6 +420,7 @@ main {
     background: var(--bg);
     background: linear-gradient(to bottom, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     position: fixed;
     border-color: var(--border);
     border-radius: var(--borderRadius);
