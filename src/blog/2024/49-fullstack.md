@@ -5,7 +5,7 @@ date: 2024-05-16
 description: A note based on a recent email conversation about growing into full stack development.
 tags:
   - learning
-  - opinion
+  - thoughts
   - personal
 image: /img/blog/content.jpg
 ---

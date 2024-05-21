@@ -4,7 +4,7 @@ slug: vue-computed-properties-the-most-important-feature
 date: 2022-01-25
 description: A quick example of Vue's computed properties which might be the framework's most important feature.
 tags:
-  - opinion
+  - thoughts
   - vue
 image: /img/blog/code.jpg
 ---

@@ -8,7 +8,7 @@ permalink: /interests/index.html
 
 A list of the things I'm interested in and a constant work in progress that will grow over time.
 
-**Last updated:** May 15th 2024
+**Last updated:** May 21st 2024
 
 <img src="/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
 
@@ -56,13 +56,15 @@ A while ago, I started working on {% ext "watch3r", "https://watch3r.app" %}, a 
 
 Music used to be an important part of my life for many years, but it's moved to a much less involved and rather passive role these days. I played the guitar in various underground bands, and I sometimes still do, but that's mostly just motivated by nostalgia.
 
-I also own a decent record collection that consists of CDs, MCs and vinyl records, which is something I really treasure and make good use of.
+I'm fortunate to have had the time and money to build a decent collection of CDs, MCs and vinyl records over the years, which is something I really treasure and make good use of.
 
 The musical genres I enjoy the most are:
 
 - Black and Death Metal (mostly old school)
 - Hard Rock and (Heavy) Metal
 - Synth- and Retrowave
+
+Some of my favorite albums: [#albums](/tags/albums/)
 
 ## Food and Drinks
 

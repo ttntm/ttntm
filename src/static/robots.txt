@@ -4,6 +4,10 @@ Disallow: /blog/feed.xml
 Disallow: /likes/feed.xml
 Disallow: /notes/feed.xml
 Disallow: /bookmarks/
+Disallow: /img/88x31/
+Disallow: /img/albums/
+Disallow: /img/icons/
+Disallow: /img/whisky/
 Disallow: /likes/
 Disallow: /629318c103e39f4fd693e43e0cab9cbc.html
 

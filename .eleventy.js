@@ -13,6 +13,11 @@ const { minify } = require('terser')
 const filters = require('./utils/filters.js')
 const shortcodes = require('./utils/shortcodes.js')
 
+const isProdDeployment = Boolean(
+  process.env.ELEVENTY_RUN_MODE
+  && process.env.ELEVENTY_RUN_MODE === 'build'
+)
+
 module.exports = (config) => {
   // PLUGINS
   config.addPlugin(pluginPostGraph, {
@@ -31,12 +36,17 @@ module.exports = (config) => {
   })
 
   config.addNunjucksAsyncFilter('jsmin', async function(code, callback) {
-    try {
-      const minified = await minify(code)
-      callback(null, minified.code)
-    } catch (ex) {
-      console.error('Terser error: ', ex)
-      // Fail gracefully.
+    if (isProdDeployment) {
+      try {
+        const minified = await minify(code)
+        callback(null, minified.code)
+      } catch (ex) {
+        console.error('Terser error: ', ex)
+        // Fail gracefully.
+        callback(null, code)
+      }
+    } else {
+      // localhost: output unminified JS
       callback(null, code)
     }
   })
@@ -95,7 +105,7 @@ module.exports = (config) => {
 
   // TRANSFORM -- Minify HTML Output
   // Unless we're running `serve` mode for local development
-  if (process.env.ELEVENTY_RUN_MODE && process.env.ELEVENTY_RUN_MODE === 'build') {
+  if (isProdDeployment) {
     config.addTransform('htmlmin', (content, outputPath) => {
       if (outputPath && outputPath.endsWith('.html')) {
         let minified = htmlmin.minify(content, {

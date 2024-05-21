@@ -29,7 +29,7 @@ Some more research was done, and I soon discovered *mdBook* (ref. [[3]](#refs)),
 
 Naming things is notoriously hard, but I didn't have any issues with that this time. The heading above already gave it away: I chose "knowledge base" over "wiki" and ended up with "TKB", a rather appealing abbreviation.
 
-TKB's content is stored in a Codeberg repository (ref. [[4]](#refs)) and gets published to Codeberg Pages using local builds. To get this done, I'm using a `.gitignore`'d subdirectory (`cdbrg-pages`) that a script copies the build artifacts into (ref. [[5]](#refs)). Running the script is a manual process and gives me full control over what and when to publish new versions. I might automate this process (ref. [[6]](#refs)) at some point, but I'm happy with it for the time being.
+TKB's content is stored in a public Codeberg repository (ref. [[4]](#refs)) and gets published to Codeberg Pages using local builds. To get this done, I'm using a `.gitignore`'d subdirectory (`cdbrg-pages`) that a script copies the build artifacts into (ref. [[5]](#refs)). Running the script is a manual process and gives me full control over what and when to publish new versions. I might automate this process (ref. [[6]](#refs)) at some point, but I'm happy with it for the time being.
 
 NB: I never really got into the more personal (diary) aspect of note-taking, so having TKB available in public is fine for me. Whatever really personal stuff I need to write down is not much usually and can easily be stored elsewhere.
 

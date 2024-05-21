@@ -14,6 +14,7 @@ module.exports = {
   },
 
   customFilter: function(collection, filterKey, excludeKey = null, excludeValue = null) {
+    // shortcode that creates a custom filter for an input collection (i.e. whisky)
     let displayLength = 0
     const terms = collection.reduce((map, currentItem) => {
       const data = currentItem.data ?? undefined
@@ -59,7 +60,22 @@ module.exports = {
 
   ext: function(displayText, link) {
     // shortcode to create external 'target=_blank' links
-    return`<a href="${link}" target="_blank">${displayText}</a>`
+    return `<a href="${link}" target="_blank">${displayText}</a>`
+  },
+
+  imageHeader: function(imgPath, imgSize, titleSize, title, subtitle) {
+    // shortcode to create an image + text heading row (dsktp) / block (mobile)
+    const content = subtitle?.length > 0
+      ? `<hgroup class="w100m">
+          <h2 class="${titleSize}">${title}</h2>
+          <p class="large m0">${subtitle}</p>
+        </hgroup>`
+      : `<h2 class="${titleSize} w100m m0">${title}</h2>`
+
+    return `<div class="flex wrap-mobile align-items-start gap1 gap2-lg mt2 mb1">
+      <img class="w100m m0" src="${imgPath}" width="${imgSize}" alt="${title}" />
+      ${content}
+    </div>`
   },
 
   oldContentNote: function(d) {

@@ -36,7 +36,7 @@ Last update: 2024-04-11
   Posts about things I learned and problems I solved
 - #news
   Updates, generally about this website and/or FOSS activities
-- #opinion
+- #opinion >> OBSOLETE >> thoughts
   Posts containing opinionated content
 - #oss
   FOSS activities
@@ -54,6 +54,8 @@ Last update: 2024-04-11
   Guides, how-tos and tutorials Tailwind CSS was used for
 - #template
   FOSS template announcements and deep dives
+- thoughts
+  Thoughts and opinions, successor of the old #opinion tag
 - #vue
   Guides, how-tos and tutorials Vue was used for
 - #website

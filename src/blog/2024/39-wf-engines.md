@@ -5,7 +5,7 @@ date: 2024-01-25
 description: A collection of thoughts about aligning software development with workflow engines.
 tags:
   - learning
-  - opinion
+  - thoughts
 image: /img/blog/workflow.jpg
 ---
 

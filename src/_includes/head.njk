@@ -13,6 +13,18 @@
 <meta name="author" content="{{ site.author }}">
 <meta name="description" content="{{ description or site.description }}">
 
+{# Open Graph #}
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ title or site.title }}">
+<meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:url" content="{{ absolutePageUrl }}">
+<meta name="twitter:card" content="{%- if image -%}summary_large_image{% else %}summary{%- endif -%}">
+{%- if image -%}
+  <meta property="og:image" content="{{ image | url | absoluteUrl(site.url) }}">
+{% else %}
+  <meta property="og:image" content="https://ttntm.me/img/social.jpg">
+{%- endif -%}
+
 {# Favicon etc. #}
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#fff">
@@ -31,18 +43,6 @@
 <link rel="canonical" href="{{ absolutePageUrl }}">
 <meta name="robots" content="index,follow">
 <meta name="google-site-verification" content="xnb1OPOcw77ws6qsMtbTNh6CVyT4H0hPq1JPimFDwyI" />
-
-{# Open Graph #}
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ title or site.title }}">
-<meta property="og:description" content="{{ description or site.description }}">
-<meta property="og:url" content="{{ absolutePageUrl }}">
-<meta name="twitter:card" content="{%- if image -%}summary_large_image{% else %}summary{%- endif -%}">
-{%- if image -%}
-  <meta property="og:image" content="{{ image | url | absoluteUrl(site.url) }}">
-{% else %}
-  <meta property="og:image" content="https://ttntm.me/img/social.jpg">
-{%- endif -%}
 
 {# RSS Feeds #}
 {% for item in site.feeds %}
