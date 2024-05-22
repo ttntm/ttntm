@@ -138,6 +138,9 @@ Disallow: /
 User-agent: YouBot
 Disallow: /
 
+User-agent: Feed2Pages/0.1
+Disallow:
+
 # =============================================
 # SITEMAP
 Sitemap: https://ttntm.me/sitemap.xml
