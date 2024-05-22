@@ -22,7 +22,7 @@ date: 202Y-MM-DD
 
 - [Uzumaki](https://uzumaki-manga.online)
   A Japanese horror manga series written and illustrated by Junji Ito, originally published as a series in a weekly magazine from 1998 to 1999
-- []()
+- [Should I Deploy Today?](https://shouldideploy.today)
 - []()
 - []()
 - []()

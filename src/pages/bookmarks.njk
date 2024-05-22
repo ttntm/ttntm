@@ -35,18 +35,23 @@ permalink: /bookmarks/index.html
 </details>
 <div class="hr shadow mb2"></div>
 {%- for item in bookmarks -%}
-  <article id="{{ 'content' if loop.first }}" class="h-entry">
+  <article class="h-entry">
     <h2 id="{{ item.title | slugify }}" class="h5 d-sm-inline-flex">
       <span style="margin-right: .5rem;"><a id="{{ item.data.title | slugify }}" href="#{{ item.title | slugify }}" class="no-underline u-url" style="border: 0;">#</a></span><span class="p-name">{{ item.title }}</span>
     </h2>
     <p>
       {{ item.description }}
     </p>
+    {% if loop.first %}
+      <p>
+        Download this list: <a href="/blogroll.opml">OPML Blogroll</a>
+      </p>
+    {% endif %}
     <ul class="list-reset post e-content indent-1-lg">
       {% for link in item.data %}
         <li>
           <p>
-            <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+            <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% if link.feed %}&nbsp;&nbsp;<a href="{{ link.feed }}" target="_blank" style="font-size: .875rem; font-weight: 500;">(RSS)</a>{% endif %}
             {% if link.description %}
               <br>
               &ndash;&nbsp;{{ link.description }}

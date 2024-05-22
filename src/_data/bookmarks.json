@@ -6,52 +6,62 @@
       {
         "title": "andreinc.net",
         "description": "The personal blog of Andrei N. Ciobanu",
-        "url": "https://www.andreinc.net"
+        "url": "https://www.andreinc.net",
+        "feed": "https://www.andreinc.net/feed.xml"
       },
       {
         "title": "antfu.me",
         "description": "Anthony Fu",
-        "url": "https://antfu.me"
+        "url": "https://antfu.me",
+        "feed": "https://antfu.me/feed.xml"
       },
       {
         "title": "chrisburnell.com",
         "description": "Chris Burnell",
-        "url": "https://chrisburnell.com"
+        "url": "https://chrisburnell.com",
+        "feed": "https://chrisburnell.com/feed.xml"
       },
       {
         "title": "garrit.xyz",
         "description": "Garrit Franke",
-        "url": "https://garrit.xyz"
+        "url": "https://garrit.xyz",
+        "feed": "https://garrit.xyz/rss.xml"
       },
       {
         "title": "jrsinclair.com",
         "description": "James Sinclair",
-        "url": "https://jrsinclair.com"
+        "url": "https://jrsinclair.com",
+        "feed": "https://jrsinclair.com/index.rss"
       },
       {
         "title": "kayserifserif.place",
         "description": "Katherine Yang",
-        "url": "https://kayserifserif.place"
+        "url": "https://kayserifserif.place",
+        "feed": "https://kayserifserif.place/feed.xml"
       },
       {
         "title": "kld.dev",
         "description": "Kevin Lee Drum.",
-        "url": "https://kld.dev"
+        "url": "https://kld.dev",
+        "feed": "https://kld.dev/rss.xml"
       },
       {
         "title": "Kuketz IT-Security Blog",
         "description": "A German IT-Security Blog",
-        "url": "https://www.kuketz-blog.de"
+        "url": "https://www.kuketz-blog.de",
+        "feed": "https://www.kuketz-blog.de/feed/"
       },
       {
         "title": "Luke's Wild Website",
         "description": "Luke Harris",
-        "url": "https://www.lkhrs.com"
+        "url": "https://www.lkhrs.com",
+        "feed": "https://www.lkhrs.com/blog/index.xml"
       },
       {
         "title": "mikestreety.co.uk",
         "description": "Mike Street",
-        "url": "https://www.mikestreety.co.uk"
+        "url": "https://www.mikestreety.co.uk",
+        "feed": "https://www.mikestreety.co.uk/rss-all.xml"
       },
       {
         "title": "rootCompute",
@@ -61,7 +71,8 @@
       {
         "title": "victoria.dev",
         "description": "Victoria Drake",
-        "url": "https://victoria.dev"
+        "url": "https://victoria.dev",
+        "feed": "https://victoria.dev/blog/index.xml"
       }
     ]
   },
@@ -305,17 +316,20 @@
       {
         "title": "anhvn.com",
         "description": "Just overall greatness.",
-        "url": "https://anhvn.com"
+        "url": "https://anhvn.com",
+        "feed": "https://anhvn.com/feed.xml"
       },
       {
         "title": "Brad Woods Digital Garden",
         "description": "Notes about creative coding presented in an exceptional UI.",
-        "url": "https://garden.bradwoods.io"
+        "url": "https://garden.bradwoods.io",
+        "feed": "https://garden.bradwoods.io/rss.xml"
       },
       {
         "title": "Coder's Block",
         "description": "Love the colors and how minimal, yet whimsical this site looks.",
-        "url": "https://codersblock.com"
+        "url": "https://codersblock.com",
+        "feed": "https://codersblock.com/rss.xml"
       },
       {
         "title": "gmunk.com",
@@ -355,7 +369,8 @@
       {
         "title": "nicchan.me",
         "description": "Nice colors, well-used screen space.",
-        "url": "https://www.nicchan.me"
+        "url": "https://www.nicchan.me",
+        "feed": "https://www.nicchan.me/feed.xml"
       },
       {
         "title": "pixelhop.io",
@@ -365,17 +380,20 @@
       {
         "title": "robinrendle.com",
         "description": "Just overall greatness.",
-        "url": "https://robinrendle.com"
+        "url": "https://robinrendle.com",
+        "feed": "https://robinrendle.com/feed.xml"
       },
       {
         "title": "Simon Collison",
         "description": "The timeline on the homepage is really nice.",
-        "url": "https://colly.com"
+        "url": "https://colly.com",
+        "feed": "https://colly.com/articles/feed"
       },
       {
         "title": "The Marginalian",
         "description": "In this list because of its mobile version; I like the floating navbar.",
-        "url": "https://www.themarginalian.org"
+        "url": "https://www.themarginalian.org",
+        "feed": "https://feeds.feedburner.com/brainpickings/rss"
       }
     ]
   }

@@ -1,0 +1,18 @@
+---
+permalink: /blogroll.opml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>blogroll.opml</title>
+    <dateCreated>{% buildDate false %}</dateCreated>
+  </head>
+  <body>
+    {%- for item in bookmarks[0].data -%}
+      {%- if item.feed -%}
+        <outline text="{{ item.title }}" description="{{ item.description }}" type="rss" xmlUrl="{{ item.feed }}" htmlUrl="{{ item.url }}" title="{{ item.title }}" />
+      {%- endif -%}
+    {%- endfor -%}
+  </body>
+</opml>
