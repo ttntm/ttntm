@@ -9,7 +9,7 @@
   {% if '/tags' in page.url %}</h2>{% else %}</h3>{% endif %}
   {% if currentPost.data.date %}
     <p class="small text-muted">
-      Published: <time class="dt-published" datetime="{{ currentPost.data.date | date('YYYY-MM-DD') }}">{{ currentPost.data.date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;&bull;&nbsp;&nbsp;Reading time: {{ currentPost | readingTime }}
+      Published: <time class="dt-published" datetime="{{ currentPost.data.date | date('YYYY-MM-DD') }}">{{ currentPost.data.date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;<span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span>&nbsp;&nbsp;Reading time: {{ currentPost | readingTime }}
     </p>
   {% endif %}
   <p class="p-summary">

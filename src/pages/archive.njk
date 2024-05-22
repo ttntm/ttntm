@@ -11,7 +11,7 @@ isBlogHome: true
   {{ header({ text: 'The Blog', link: '/blog/feed.xml', title: title }) }}
   <div class="hr shadow mb2"></div>
   <h2 class="h3 text-center">
-    Tags
+    Explore
   </h2>
   <ul class="list-reset flex justify-content-center flex-wrap mb2" style="gap: .75rem;">
     {% for tag in collections.blog | getCollectionTags | sort %}
@@ -26,7 +26,7 @@ isBlogHome: true
   </ul>
   {% for year, yearPosts in collections.postsByYear %}
     <hgroup class="text-center">
-      <h2 class="tight {{ 'mt2' if not loop.first }}">&bull;&nbsp;{{ year }}&nbsp;&bull;</h2>
+      <h2 class="tight {{ 'mt2' if not loop.first }}"><span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span>&nbsp;{{ year }}&nbsp;<span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span></h2>
       <p class="small">Posts published: {{ yearPosts.length }}</p>
     </hgroup>
     <div class="hr shadow mb2"></div>

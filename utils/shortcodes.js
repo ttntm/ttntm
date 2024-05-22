@@ -73,7 +73,7 @@ module.exports = {
       : `<h2 class="${titleSize} w100m m0">${title}</h2>`
 
     return `<div class="flex wrap-mobile align-items-start gap1 gap2-lg mt2 mb1">
-      <img class="w100m m0" src="${imgPath}" width="${imgSize}" alt="${title}" />
+      <img class="w100m m0" src="${imgPath}" width="${imgSize}" alt="${title}" decoding="async" loading="lazy" />
       ${content}
     </div>`
   },

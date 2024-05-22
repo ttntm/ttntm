@@ -36,8 +36,6 @@ Last update: 2024-04-11
   Posts about things I learned and problems I solved
 - #news
   Updates, generally about this website and/or FOSS activities
-- #opinion >> OBSOLETE >> thoughts
-  Posts containing opinionated content
 - #oss
   FOSS activities
 - #personal
@@ -60,3 +58,8 @@ Last update: 2024-04-11
   Guides, how-tos and tutorials Vue was used for
 - #website
   Anything about the website itself, like features, updates etc.
+
+## Obsolete
+
+- #opinion >> OBSOLETE >> #thoughts
+  Posts containing opinionated content

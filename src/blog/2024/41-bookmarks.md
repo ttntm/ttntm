@@ -8,6 +8,7 @@ tags:
   - news
   - website
 image: /img/blog/bookmarks.png
+updated: 2024-04-12
 ---
 
 My website has a bookmark directory now.
@@ -56,3 +57,7 @@ I wrote this shortcode as an alternative to a JavaScript-based solution (i.e. re
 The shortcode can be used like this: `{% raw %}{% ext "xmpl", "https://example.com" %}{% endraw %}`
 
 It's nothing fancy, it works well, and I don't see any reason to change it for the time being.
+
+## Updates
+
+**2024/04**: I've moved the collection into a JSON data file, which makes maintaining it a little easier.

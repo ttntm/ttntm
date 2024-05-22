@@ -17,6 +17,8 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 ## 3.17.3
 
 - Retired the "opinion" tag; it's succeeded by the [#thoughts](/tags/thoughts/) tag
+- Added support for a "last update" date to blog posts
+- Added all posts/tags button to the post layout's bottom section
 
 ## 3.17.2
 

@@ -6,9 +6,14 @@ layout: base.njk
     <div class="progress-bar__inner"></div>
   </aside>
   <h1>{{ title }}</h1>
-  <p class="text-muted" style="font-size: 0.875rem; margin-bottom: .5rem;">
-    Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">{{ date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;&bull;&nbsp;&nbsp;Reading time: {{ content | readingTime }}
+  <p class="text-muted" style="font-size: .875rem; margin-bottom: .5rem;">
+    Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">{{ date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;<span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span>&nbsp;&nbsp;Reading time: {{ content | readingTime }}
   </p>
+  {% if updated %}
+    <p class="text-muted" style="font-size: .875rem; margin-bottom: .5rem;">
+      Last update: <time class="dt-published" datetime="{{ updated | date('YYYY-MM-DD') }}">{{ updated | date('MMMM DD, YYYY') }}</time>
+    </p>
+  {% endif %}
   {% include "post.tags.njk" %}
   <div class="hr shadow"></div>
   {% oldContentNote date %}
@@ -17,9 +22,15 @@ layout: base.njk
   </div>
   <div class="hr shadow mt2 mb2"></div>
   {% replybtn title %}
+</article>
+<section class="container">
   <div class="hr shadow mt2 mb2"></div>
   {% include "post.nextprev.njk" %}
-</article>
+  <div class="hr shadow mt2 mb2"></div>
+  <div class="flex justify-content-center gap2">
+    {% include "post.buttons.njk" %}
+  </div>
+</section>
 {% set js %}
   {% include 'js/progress.js' %}
 {% endset %}

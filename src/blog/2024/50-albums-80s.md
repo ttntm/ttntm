@@ -91,6 +91,6 @@ I never got into later Morbid Angel records (after "Blessed are the Sick"), but 
 
 I suppose that many of the records listed above eventually culminated in this one.
 
-"World Downfall" is a monument of extreme music and leaves behind nothing but sonic destructions.
+"World Downfall" is a monument of extreme music and leaves behind nothing but sonic destruction.
 
 Some highlights: "After World Obliteration", "Fear of Napalm" and "Dead Shall Rise".

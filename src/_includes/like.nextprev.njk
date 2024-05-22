@@ -3,7 +3,7 @@
 {% if previousLike or nextLike %}
   <section class="grid grid2 gap1 mt2">
     {% if previousLike %}
-    <div class="card shadow-md-hover next-prev first">
+    <div class="card shadow-md-hover next-prev second first-md">
       <h2 class="h6 next-prev uppercase tight">Previous Entry</h3>
       <h3 class="h6 heading">
         <a href="{{ previousLike.url }}">{{ previousLike.data.title }}</a>
@@ -14,7 +14,7 @@
     </div>
     {% endif %}
     {% if nextLike %}
-      <div class="card shadow-md-hover next-prev second">
+      <div class="card shadow-md-hover next-prev first second-md">
         <h2 class="h6 next-prev uppercase tight">Next Entry</h3>
         <h3 class="h6 heading">
           <a href="{{ nextLike.url }}">{{ nextLike.data.title }}</a>
