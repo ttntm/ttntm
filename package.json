@@ -1,4 +1,15 @@
 {
+  "name": "ttntm.me",
+  "version": "3.18.0",
+  "description": "Tom's homepage. A personal website, journal and playground. Everything, and nothing.",
+  "author": "ttntm",
+  "type": "module",
+  "homepage": "https://ttntm.me",
+  "license": "CC-BY-NC-SA-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttntm/ttntm.git"
+  },
   "scripts": {
     "gitlog": "git log --format=fuller --stat | jc --git-log -p > ./scripts/gitlog_data.json",
     "get-pg-data": "npm run gitlog && node ./scripts/get-pg-data.js",
@@ -6,7 +17,7 @@
     "serve": "npm run get-pg-data && eleventy --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "3.0.0-alpha.10",
     "@11ty/eleventy-fetch": "^4.0.1",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",

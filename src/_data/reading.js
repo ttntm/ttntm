@@ -1,5 +1,7 @@
-const config = require('dotenv').config()
-const eleventyFetch = require('@11ty/eleventy-fetch')
+import dotenv from 'dotenv'
+import eleventyFetch from '@11ty/eleventy-fetch'
+
+dotenv.config()
 
 const ovURL = 'https://api-prod.omnivore.app/api/graphql'
 const queryData = {
@@ -37,7 +39,7 @@ const queryData = {
   }
 }
 
-module.exports = async function() {
+export default async function() {
   try {
     const response = await eleventyFetch(ovURL, {
       directory: '.cache',
