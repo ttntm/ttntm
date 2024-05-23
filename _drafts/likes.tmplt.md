@@ -8,7 +8,8 @@ date: 202Y-MM-DD
 
 - [Better 11ty Development with Tooling](https://www.jetbrains.com/guide/javascript/tutorials/eleventy-tsx/)
   A series about "getting a component-driven development experience" when working with 11ty
-- []()
+- [Build a Blogroll with Eleventy](https://benmyers.dev/blog/eleventy-blogroll/)
+  Nice one, going to keep that in mind in case I ever end up doing something similar
 - []()
 - []()
 - []()
