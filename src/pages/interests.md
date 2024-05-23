@@ -8,7 +8,7 @@ permalink: /interests/index.html
 
 A list of the things I'm interested in and a constant work in progress that will grow over time.
 
-**Last updated:** May 21st 2024
+**Last updated:** May 23rd 2024
 
 <img src="/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
 
@@ -86,6 +86,19 @@ These might turn into more detailed sections over time:
 - Gardening, hiking and nature
 - Home improvements and DIY projects
 - Reading and learning about (new) things
+
+## Disinterests
+
+The things I'm not interested in:
+
+- Religion
+- Politics
+- Sports, in terms of entertainment and fandom, and team sports in terms of participation
+- Superheroes and their comic/movie/TV/game appearances
+- Monetizing side projects and building a "me"-brand
+- Internet videos and streamers
+- Celebrities and influencers
+- Children and parenting
 
 <div class="hr shadow mb1"></div>
 

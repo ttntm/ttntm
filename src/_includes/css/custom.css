@@ -412,7 +412,7 @@ main {
   border-bottom: 1px solid transparent;
   font-size: 1.15rem;
   margin-bottom: 2rem;
-  transition: all .35s ease;
+  /* transition: all .35s ease; */
 
   &.sticky {
     --borderRadius: .0rem;

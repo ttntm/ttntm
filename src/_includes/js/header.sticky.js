@@ -30,6 +30,8 @@ window.addEventListener('DOMContentLoaded', () => {
   })()
 
   toggle?.addEventListener('click', (evt) => {
+    header.style.transition = 'all .35s ease'
+
     if (getNavStateFromLS() === 'pinned') {
       unpin()
     } else {
