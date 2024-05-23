@@ -17,6 +17,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 ## 3.18
 
 - Upgraded to Eleventy 3.0.0-alpha.10
+- Added a [/hello](/hello/) page
 
 ## 3.17.3
 

@@ -56,7 +56,7 @@ export default async function(config) {
   })
 
   config.addPairedShortcode('contact', (content) => {
-    return `<h2 class="h4 text-center mt2">Nice to meet you! Say hello?</h2><ul class="flex align-items-center justify-content-center list-reset">${content}</ul>`
+    return `<h2 class="h4 text-center mt2">Nice to meet you! <a href="/hello/">Say hello</a>?</h2><ul class="flex align-items-center justify-content-center list-reset">${content}</ul>`
   })
 
   // rebuild on CSS changes

@@ -5,7 +5,7 @@ layout: page.njk
 permalink: /now/index.html
 ---
 
-**Last updated:** Apr. 24th 2024
+**Last updated:** May 23rd 2024
 
 **Writing**: Cleaning out Notion, re-writing a ton of stuff in my personal wiki
 
@@ -13,7 +13,7 @@ permalink: /now/index.html
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Kingdom Come: Deliverance, Ghost of Tsushima (almost done)
+**Games**: a bit of Evil West, GT7 and Firewatch here and there, but not much really; focusing on other things right now
 
 **Drinks**: [Talisker 10yo](/whisky/#log)
 
