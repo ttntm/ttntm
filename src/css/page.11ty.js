@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import postcss from 'postcss'
 import postcssImport from 'postcss-import'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath } from 'url'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
