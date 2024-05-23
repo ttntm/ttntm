@@ -1,6 +1,7 @@
-const dnt = require('date-and-time')
+import dnt from 'date-and-time'
+import markdownIt from 'markdown-it'
 
-module.exports = {
+export default {
   date: function(date, format) {
     // date formatting filter
     let d = new Date(date)
@@ -19,7 +20,7 @@ module.exports = {
 
   markdown: function(value) {
     // markdown from string filter => {{ STRING | markdown | safe }}
-    let markdown = require('markdown-it')({
+    let markdown = markdownIt({
       html: true
     })
 

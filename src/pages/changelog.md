@@ -14,6 +14,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.18
+
+- Upgraded to Eleventy 3.0.0-alpha.10
+
 ## 3.17.3
 
 - Retired the "opinion" tag; it's succeeded by the [#thoughts](/tags/thoughts/) tag

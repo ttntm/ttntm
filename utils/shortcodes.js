@@ -1,7 +1,7 @@
-const _ = require('lodash')
-const dnt = require('date-and-time')
+import _ from 'lodash'
+import dnt from 'date-and-time'
 
-module.exports = {
+export default {
   buildDate: function(wrap = true) {
     // shortcode to display the last build date
     let now = new Date()

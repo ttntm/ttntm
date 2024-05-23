@@ -1,24 +1,23 @@
-// PKGS
-const _ = require('lodash')
-const htmlmin = require('html-minifier')
-const markdownIt = require('markdown-it')
-const nodeEnv = require('dotenv').config()
-const pluginPostGraph = require('@rknightuk/eleventy-plugin-post-graph')
-const pluginReadingTime = require('eleventy-plugin-reading-time')
-const pluginRss = require('@11ty/eleventy-plugin-rss')
-const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const { minify } = require('terser')
+import _ from 'lodash'
+import dotenv from 'dotenv'
+import htmlmin from 'html-minifier'
+import markdownIt from 'markdown-it'
+import pluginPostGraph from '@rknightuk/eleventy-plugin-post-graph'
+import pluginReadingTime from 'eleventy-plugin-reading-time'
+import pluginRss from '@11ty/eleventy-plugin-rss'
+import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight'
+import { minify } from 'terser'
+import filters from './utils/filters.js'
+import shortcodes from './utils/shortcodes.js'
 
-// LOCAL DEPS
-const filters = require('./utils/filters.js')
-const shortcodes = require('./utils/shortcodes.js')
+dotenv.config()
 
 const isProdDeployment = Boolean(
   process.env.ELEVENTY_RUN_MODE
   && process.env.ELEVENTY_RUN_MODE === 'build'
 )
 
-module.exports = (config) => {
+export default async function(config) {
   // PLUGINS
   config.addPlugin(pluginPostGraph, {
     sort: 'desc',

@@ -1,8 +1,7 @@
-const _ = require('lodash')
-const dnt = require('date-and-time')
-const fs = require('fs')
-const inputData = require('./gitlog_data.json')
-const path = require('path')
+import _ from 'lodash'
+import dnt from 'date-and-time'
+import fs from 'fs'
+import inputData from './gitlog_data.json' assert { type: 'json' }
 
 const offsets = {
   Mo: 0,
