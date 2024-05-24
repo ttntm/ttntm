@@ -99,7 +99,8 @@ The things I'm not interested in:
 - Internet videos and streamers
 - Celebrities and influencers
 - Children and parenting
+- Podcasts
 
 <div class="hr shadow mb1"></div>
 
-This page is listed in the {% ext "the /interests Directory", "https://chrisburnell.github.io/interests-directory/" %}.
+This page is listed in the {% ext "/interests Directory", "https://chrisburnell.github.io/interests-directory/" %}.

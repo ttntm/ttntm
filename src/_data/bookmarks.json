@@ -69,6 +69,12 @@
         "url": "https://rootcompute.neocities.org"
       },
       {
+        "title": "ttt/log",
+        "description": "T's personal log",
+        "url": "https://write.as/tttlog/",
+        "feed": "https://write.as/tttlog/feed/"
+      },
+      {
         "title": "victoria.dev",
         "description": "Victoria Drake",
         "url": "https://victoria.dev",
