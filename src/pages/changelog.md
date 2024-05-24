@@ -14,7 +14,13 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.18.1
+
+- Removed `target="_blank"` from wherever it was used
+
 ## 3.18
+
+<small>Released: 2024-05-23</small>
 
 - Upgraded to Eleventy 3.0.0-alpha.10
 - Added a [/hello](/hello/) page

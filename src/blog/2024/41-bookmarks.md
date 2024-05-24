@@ -47,8 +47,8 @@ Inside those files, a {% ext "shortcode", "https://www.11ty.dev/docs/shortcodes/
 
 ```js
 function(displayText, link) {
-  // shortcode to create external 'target=_blank' links
-  return`<a href="${link}" target="_blank">${displayText}</a>`
+  // shortcode to create external links
+  return`<a class="ext" href="${link}">${displayText}</a>`
 }
 ```
 

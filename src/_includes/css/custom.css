@@ -229,6 +229,22 @@ a, a:active {
   transition: color .35s ease-in-out, text-decoration .35s ease-in-out;
 }
 
+a.ext,
+:is(.like) a {
+  display: inline-block;
+
+  &::after {
+    display: inline-block;
+    content: "\2197";
+    background: color-mix(in srgb, var(--border), transparent 50%);
+    border-radius: 4px;
+    font-weight: normal;
+    margin-left: 2px;
+    line-height: .875em;
+    padding: 2px;
+  }
+}
+
 a:hover, a:focus {
   color: var(--prim);
   text-decoration: none;

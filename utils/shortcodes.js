@@ -59,8 +59,8 @@ export default {
   },
 
   ext: function(displayText, link) {
-    // shortcode to create external 'target=_blank' links
-    return `<a href="${link}" target="_blank">${displayText}</a>`
+    // shortcode to create external links (with a marker after the link text)
+    return `<a class="ext" href="${link}">${displayText}</a>`
   },
 
   imageHeader: function(imgPath, imgSize, titleSize, title, subtitle) {

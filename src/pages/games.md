@@ -15,7 +15,7 @@ showProgress: true
       This is a curated list of my favorite video games with reasons why I love them.
     </p>
     <p>
-      A lot of games are going to be omitted here; you can browse my PSN activity since 2015 at <a href="https://psnprofiles.com/teitantom" target="_blank">PSNProfiles</a>, and a longer list of (almost) everything I ever played can be found at <a href="https://www.grouvee.com/user/ttntm/" target="_blank">Grouvee</a>.
+      A lot of games are going to be omitted here; you can browse my PSN activity since 2015 at <a class="ext" href="https://psnprofiles.com/teitantom">PSNProfiles</a>, and a longer list of (almost) everything I ever played can be found at <a class="ext" href="https://www.grouvee.com/user/ttntm/">Grouvee</a>.
     </p>
     <p class="m0">
       Feel free to <a href="mailto:ttntm@pm.me">let me know</a> if you enjoy any of the games I listed here or if you want to recommend something you think I'd also like!

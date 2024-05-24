@@ -50,11 +50,11 @@ permalink: /work/index.html
           </p>
           <ul class="list-reset flex gap1 m0" style="border-top: 1px solid var(--border); padding-top: .25rem; width: fit-content;">
             <li>
-              <a href="{{ entry.source }}" target="_blank">Browse Code</a>
+              <a class="ext" href="{{ entry.source }}">Browse Code</a>
             </li>
             {% if entry.web %}
               <li>
-                <a href="{{ entry.web }}">{{ webLinkName }}</a>
+                <a class="ext" href="{{ entry.web }}">{{ webLinkName }}</a>
               </li>
             {% endif %}
           </ul>

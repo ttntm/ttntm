@@ -9,13 +9,13 @@ layout: base.njk
     </time>
   </p>
   <div class="hr shadow mt2 mb2"></div>
-  <div class="post">
+  <div class="post like">
     {{ content | safe }}
   </div>
   <div class="hr shadow mt2 mb2"></div>
-  <div class="text-center">
-    <p class="small m0">Links <em>do not</em> open in new tabs.</p>
-  </div>
-  <div class="hr shadow mt2 mb2"></div>
   {% include "like.nextprev.njk" %}
+  <div class="hr shadow mt2 mb2"></div>
+  <div class="flex justify-content-center gap2">
+    <a href="/likes/" class="d-inline-block btn cap-first">View all Likes</a>
+  </div>
 </article>
