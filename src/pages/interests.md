@@ -8,7 +8,7 @@ permalink: /interests/index.html
 
 A list of the things I'm interested in and a constant work in progress that will grow over time.
 
-**Last updated:** May 23rd 2024
+**Last updated:** May 24th 2024
 
 <img src="/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
 
@@ -100,6 +100,7 @@ The things I'm not interested in:
 - Celebrities and influencers
 - Children and parenting
 - Podcasts
+- Gambling
 
 <div class="hr shadow mb1"></div>
 
