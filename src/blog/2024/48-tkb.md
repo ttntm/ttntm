@@ -21,7 +21,7 @@ I briefly considered building my own "wiki framework" using a cool new tool, but
 
 > Today's web stacks gravitate towards infinite complexity. It's all too natural to pick an "easy" heavy framework at the start, and then get yourself into npm's bog. Website is about content, and content has gravity. [...] Do carefully consider the choice of your web stack.
 >
-> <small>Ref. [[1]](#refs)</small>
+> <small>Ref. [[2]](#refs)</small>
 
 Some more research was done, and I soon discovered *mdBook* (ref. [[3]](#refs)), which looked like a perfect fit for my use case. I gave it a try, customized it a little and had my wiki up and running rather quickly.
 

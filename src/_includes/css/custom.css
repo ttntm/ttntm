@@ -766,6 +766,18 @@ button {
 /* POST + clickable headings */
 .post {
   line-height: 1.625;
+
+  & img {
+    opacity: var(--postImgOpacity);
+    margin: 1rem 0;
+  }
+
+  & #refs {
+    padding-top: .5rem;
+    border-top: 1px solid var(--border);
+    margin-top: 1.5rem;
+    width: 50%;
+  }
 }
 
 .heading a,
@@ -788,11 +800,6 @@ button {
 .heading a:active,
 .post a:active {
   outline: 1px dashed var(--lightest);
-}
-
-.post img {
-  opacity: var(--postImgOpacity);
-  margin: 1rem 0;
 }
 
 .progress-bar {

@@ -31,7 +31,8 @@ eleventyExcludeFromCollections: true
         <updated>{{ item.date | rssDate }}</updated>
         <id>{{ absoluteItemUrl }}</id>
         <content type="html"><![CDATA[
-          {{ item.templateContent | htmlToAbsoluteUrls(absoluteItemUrl) | safe }}
+          {# {{ item.templateContent | htmlToAbsoluteUrls(absoluteItemUrl) | safe }} #}
+          {{ item.templateContent | safe }}
         ]]></content>
       </entry>
     {% endif %}
