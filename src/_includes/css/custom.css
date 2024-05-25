@@ -229,8 +229,8 @@ a, a:active {
   transition: color .35s ease-in-out, text-decoration .35s ease-in-out;
 }
 
-a.ext,
-:is(.like) a {
+a[href^="https://"].ext,
+:is(.like) a[href^="https://"] {
   display: inline-block;
 
   &::after {
