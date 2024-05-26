@@ -2,191 +2,229 @@
   {
     "cover": "/img/albums/bs-hah.jpg",
     "title": "Black Sabbath - Heaven and Hell",
-    "release": 1980
+    "release": 1980,
+    "genre": "Heavy Metal"
   },
   {
     "cover": "/img/albums/bf-d.jpg",
     "title": "Black Flag - Damaged",
-    "release": 1981
+    "release": 1981,
+    "genre": "Hardcore Punk"
   },
   {
     "cover": "/img/albums/m-wau.jpg",
     "title": "Misfits - Walk Among Us",
-    "release": 1982
+    "release": 1982,
+    "genre": "Hardcore Punk"
   },
   {
     "cover": "/img/albums/d-hnsnsn.jpg",
     "title": "Discharge - Hear Nothing See Nothing Say Nothing",
-    "release": 1982
+    "release": 1982,
+    "genre": "Hardcore Punk"
   },
   {
     "cover": "/img/albums/m-rtl.jpg",
     "title": "Metallica - Ride the Lightning",
-    "release": 1984
+    "release": 1984,
+    "genre": "Thrash Metal"
   },
   {
     "cover": "/img/albums/s-ha.jpg",
     "title": "Slayer - Hell Awaits",
-    "release": 1985
+    "release": 1985,
+    "genre": "Thrash Metal"
   },
   {
     "cover": "/img/albums/im-sit.jpg",
     "title": "Iron Maiden - Somewhere in Time",
-    "release": 1986
+    "release": 1986,
+    "genre": "Heavy Metal"
   },
   {
     "cover": "/img/albums/k-ptk.jpg",
     "title": "Kreator - Pleasure to Kill",
-    "release": 1986
+    "release": 1986,
+    "genre": "Thrash Metal"
   },
   {
     "cover": "/img/albums/d-sbg.jpg",
     "title": "Death - Scream Bloody Gore",
-    "release": 1987
+    "release": 1987,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/ma-aom.jpg",
     "title": "Morbid Angel - Altars of Madness",
-    "release": 1989
+    "release": 1989,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/t-wd.jpg",
     "title": "Terrorizer - World Downfall",
-    "release": 1989
+    "release": 1989,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/b-faod.jpg",
     "title": "Blasphemy - Fallen Angel of Doom....",
-    "release": 1990
+    "release": 1990,
+    "genre": "Black/Death Metal"
   },
   {
     "cover": "/img/albums/jp-p.jpg",
     "title": "Judas Priest - Painkiller",
-    "release": 1990
+    "release": 1990,
+    "genre": "Heavy Metal"
   },
   {
     "cover": "/img/albums/d-laefs.jpg",
     "title": "Dismember - Like an Ever Flowing Stream",
-    "release": 1991
+    "release": 1991,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/n-n.jpg",
     "title": "Nirvana - Nevermind",
-    "release": 1991
+    "release": 1991,
+    "genre": "Grunge"
   },
   {
     "cover": "/img/albums/d-abitns.jpg",
     "title": "Darkthrone - A Blaze in the Northern Sky",
-    "release": 1992
+    "release": 1992,
+    "genre": "Black Metal"
   },
   {
     "cover": "/img/albums/i-otg.jpg",
     "title": "Incantation - Onward to Golgotha",
-    "release": 1992
+    "release": 1992,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/n-i.jpg",
     "title": "Necrosanct - Incarnate",
-    "release": 1992
+    "release": 1992,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/b-ddtm.jpg",
     "title": "Beherit - Drawing Down the Moon",
-    "release": 1993
+    "release": 1993,
+    "genre": "Black/Death Metal"
   },
   {
     "cover": "/img/albums/m-dmds.jpg",
     "title": "Mayhem - De Mysteriis Dom Sathanas",
-    "release": 1994
+    "release": 1994,
+    "genre": "Black Metal"
   },
   {
     "cover": "/img/albums/d-s.jpg",
     "title": "Death - Symbolic",
-    "release": 1995
+    "release": 1995,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/d-outc.jpg",
     "title": "Deicide - Once Upon the Cross",
-    "release": 1995
+    "release": 1995,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/a-hog.jpg",
     "title": "Angelcorpse - Hammer of Gods",
-    "release": 1996
+    "release": 1996,
+    "genre": "Black/Death Metal"
   },
   {
     "cover": "/img/albums/a-etd.jpg",
     "title": "Asphyx - Embrace the Death",
-    "release": 1996
+    "release": 1996,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/mf-itu.jpg",
     "title": "Mercyful Fate - Into the Unknown",
-    "release": 1996
+    "release": 1996,
+    "genre": "Heavy Metal"
   },
   {
     "cover": "/img/albums/i-itirotac.jpg",
     "title": "Inquisition - Into the Infernal Regions of the Ancient Cult",
-    "release": 1998
+    "release": 1998,
+    "genre": "Black Metal"
   },
   {
     "cover": "/img/albums/aop-fdt.jpg",
     "title": "Altar of Perversion - From Dead Temples",
-    "release": 2001
+    "release": 2001,
+    "genre": "Black Metal"
   },
   {
     "cover": "/img/albums/k-k.jpg",
     "title": "Kaamos - Kaamos",
-    "release": 2002
+    "release": 2002,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/qotsa-sftd.jpg",
     "title": "Queens of the Stone Age - Songs for the Deaf",
-    "release": 2002
+    "release": 2002,
+    "genre": "Hard Rock"
   },
   {
     "cover": "/img/albums/v-v.jpg",
     "title": "Verdunkeln - Verdunkeln",
-    "release": 2005
+    "release": 2005,
+    "genre": "Black Metal"
   },
   {
     "cover": "/img/albums/k-wwe.jpg",
     "title": "Katharsis - VVorldVVithoutEnd",
-    "release": 2006
+    "release": 2006,
+    "genre": "Black Metal"
   },
   {
     "cover": "/img/albums/r-eod.jpg",
     "title": "Repugnant - Epitome of Darkness",
-    "release": 2006
+    "release": 2006,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/nc-tir.jpg",
     "title": "Necros Christos - Trivne Impvrity Rites",
-    "release": 2007
+    "release": 2007,
+    "genre": "Black/Death Metal"
   },
   {
     "cover": "/img/albums/cdg-h.jpg",
     "title": "Cultes Des Ghoules - Häxan",
-    "release": 2008
+    "release": 2008,
+    "genre": "Black Metal"
   },
   {
     "cover": "/img/albums/dc-gota.jpg",
     "title": "Dead Congregation - Graves of the Archangels",
-    "release": 2008
+    "release": 2008,
+    "genre": "Death Metal"
   },
   {
     "cover": "/img/albums/ir-reoce.jpg",
     "title": "Impetuous Ritual - Relentless Execution of Ceremonial Excrescence",
-    "release": 2009
+    "release": 2009,
+    "genre": "Black/Death Metal"
   },
   {
     "cover": "/img/albums/sas-lfv.jpg",
     "title": "Soap&Skin - Lovetune for Vacuum",
-    "release": 2009
+    "release": 2009,
+    "genre": "Experimental"
   },
   {
     "cover": "/img/albums/t-sc.jpg",
     "title": "Teitanblood - Seven Chalices",
-    "release": 2009
+    "release": 2009,
+    "genre": "Black/Death Metal"
   }
 ]
