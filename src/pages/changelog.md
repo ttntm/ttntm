@@ -16,7 +16,8 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.18.1
 
-- Removed `target="_blank"` from wherever it was used
+- Added [/albums](/albums/)
+- Removed `target="_blank"` from wherever it was used; external links now display with an "external link" icon
 
 ## 3.18
 
