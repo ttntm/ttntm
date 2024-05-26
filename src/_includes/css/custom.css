@@ -772,6 +772,11 @@ button {
     margin: 1rem 0;
   }
 
+  & ul:not(.list-reset) > li > a[href^="https://"] {
+    /* fix bullet points stuck to bottom for multi-line list items */
+    display: inline !important;
+  }
+
   & #refs {
     padding-top: .5rem;
     border-top: 1px solid var(--border);
