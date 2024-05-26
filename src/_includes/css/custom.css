@@ -71,6 +71,7 @@
   --navLinkAfter: var(--light);
   --navLinkHover: var(--dark);
   --navMobileBg: var(--darkest);
+  --navMobileBorder: var(--navMobileBg);
   --navMobileLink: var(--sec);
   --postImgOpacity: 1;
   --prismBg: #f5f7ff;
@@ -122,6 +123,7 @@
   --navLinkAfter: var(--dark);
   --navLinkHover: var(--light);
   --navMobileBg: var(--black);
+  --navMobileBorder: var(--border);
   --postImgOpacity: .85;
   --prismBg: var(--black);
   --prismOpNumBool: var(--red);
@@ -535,7 +537,7 @@ main {
   left: 0;
   right: 0;
   position: fixed;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--navMobileBorder);
 
   & .nav-mobile-icon {
     color: var(--navMobileLink);

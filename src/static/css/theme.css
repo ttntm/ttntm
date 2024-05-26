@@ -8,6 +8,7 @@
     --btnText: silver;
     --btnBgHover: var(--darkest);
     --btnTextHover: var(--yellow);
+    --btnThemeHover: var(--yellow);
     --cardBg: var(--dark);
     --codeBg: var(--black);
     --contentLink: var(--light);
@@ -32,6 +33,7 @@
     --navLinkAfter: var(--dark);
     --navLinkHover: var(--light);
     --navMobileBg: var(--black);
+    --navMobileBorder: var(--border);
     --postImgOpacity: .85;
     --prismBg: var(--black);
     --prismOpNumBool: var(--red);
