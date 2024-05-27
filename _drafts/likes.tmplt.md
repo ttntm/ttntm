@@ -6,6 +6,13 @@ date: 202Y-MM-DD
 
 ## Articles
 
+- [Look Mum, No Breakpoints!](https://robmc.dev/blog/look_mum_no_breakpoints/)
+  A gret article about breakpoints and fluid design
+- []()
+- []()
+- []()
+- []()
+- []()
 - []()
 - []()
 - []()
@@ -20,5 +27,16 @@ date: 202Y-MM-DD
   [Manuel's](https://matuzo.at) new book "with dozens of recipes to help you build common components on the web"
 - [Bungee](https://djr.com/bungee)
   A pretty cool font
+- [The History of the Web](https://thehistoryoftheweb.com/timeline/)
+  A great website that's "unraveling the web's story"
+- [Perplexica](https://github.com/ItzCrazyKns/Perplexica)
+  "An Open source alternative to Perplexity AI"
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 - []()
 - []()
