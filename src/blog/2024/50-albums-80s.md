@@ -21,7 +21,7 @@ Also, the opening post of my new [#albums](/tags/albums/) series.
 
 Black Sabbath's first album with Ronnie James Dio as their singer.
 
-The A-side is nothing short of phenomenal and the title track, "Heaven and Hell", is definitely one of the greatest Heavy Metal songs of its time.
+The A-side is nothing short of phenomenal and the title track, "Heaven and Hell", is definitely one of the greatest Hard Rock (early Heavy Metal) songs of its time.
 
 {% imageHeader "/img/albums/bf-d.jpg", imageHeaderSize, "h3", "Black Flag - Damaged", "Release: 1981" %}
 

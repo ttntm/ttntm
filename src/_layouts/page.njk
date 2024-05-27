@@ -15,7 +15,7 @@ layout: base.njk
 </article>
 {% if showProgress %}
   {% set js %}
-    {% include 'js/progress.js' %}
+    {% include 'js/useProgress.js' %}
   {% endset %}
   <script>
     {{ js | jsmin | safe }}

@@ -54,7 +54,7 @@ A while ago, I started working on {% ext "watch3r", "https://watch3r.app" %}, a 
 
 ## Music
 
-Music used to be an important part of my life for many years, but it's moved to a much less involved and rather passive role these days. I played the guitar in various underground bands, and I sometimes still do, but that's mostly just motivated by nostalgia.
+Music used to be an important part of my life for many years, but it's moved to a much less involved and rather passive role these days. I played the guitar in various underground bands, and I sometimes still play, but that's mostly just motivated by nostalgia.
 
 I'm fortunate to have had the time and money to build a decent collection of CDs, MCs and vinyl records over the years, which is something I really treasure and make good use of.
 
@@ -64,7 +64,7 @@ The musical genres I enjoy the most are:
 - Hard Rock and (Heavy) Metal
 - Synth- and Retrowave
 
-Some of my favorite albums: [#albums](/tags/albums/)
+Some of my favorite albums: [/albums](/albums/)
 
 ## Food and Drinks
 

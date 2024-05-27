@@ -53,7 +53,7 @@
 {# Global JavaScript #}
 {% set js %}
   {% include 'js/theme.head.js' %}
-  {% include "js/header.sticky.js" %}
+  {% include "js/useStickyHeader.js" %}
 {% endset %}
 <script>
   {{ js | jsmin | safe }}

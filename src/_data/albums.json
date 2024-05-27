@@ -1,27 +1,51 @@
 [
   {
+    "cover": "/img/albums/lz-lz.jpg",
+    "title": "Led Zeppelin - Led Zeppelin",
+    "release": 1969,
+    "genre": "Hard Rock"
+  },
+  {
+    "cover": "/img/albums/bs-bs.jpg",
+    "title": "Black Sabbath - Black Sabbath",
+    "release": 1970,
+    "genre": "Hard Rock"
+  },
+  {
+    "cover": "/img/albums/bs-p.jpg",
+    "title": "Black Sabbath - Paranoid",
+    "release": 1970,
+    "genre": "Hard Rock"
+  },
+  {
+    "cover": "/img/albums/sp-nmtb.jpg",
+    "title": "Sex Pistols - Never Mind the Bollocks",
+    "release": 1977,
+    "genre": "Punk"
+  },
+  {
     "cover": "/img/albums/bs-hah.jpg",
     "title": "Black Sabbath - Heaven and Hell",
     "release": 1980,
-    "genre": "Heavy Metal"
+    "genre": "Hard Rock"
   },
   {
     "cover": "/img/albums/bf-d.jpg",
     "title": "Black Flag - Damaged",
     "release": 1981,
-    "genre": "Hardcore Punk"
+    "genre": "Punk"
   },
   {
     "cover": "/img/albums/m-wau.jpg",
     "title": "Misfits - Walk Among Us",
     "release": 1982,
-    "genre": "Hardcore Punk"
+    "genre": "Punk"
   },
   {
     "cover": "/img/albums/d-hnsnsn.jpg",
     "title": "Discharge - Hear Nothing See Nothing Say Nothing",
     "release": 1982,
-    "genre": "Hardcore Punk"
+    "genre": "Punk"
   },
   {
     "cover": "/img/albums/m-rtl.jpg",
@@ -226,5 +250,59 @@
     "title": "Teitanblood - Seven Chalices",
     "release": 2009,
     "genre": "Black/Death Metal"
+  },
+  {
+    "cover": "/img/albums/c-cc2.jpg",
+    "title": "Crystal Castles - Crystal Castles (II)",
+    "release": 2010,
+    "genre": "Electro"
+  },
+  {
+    "cover": "/img/albums/m-whtn.jpg",
+    "title": "Mgła - With Hearts Toward None",
+    "release": 2012,
+    "genre": "Black Metal"
+  },
+  {
+    "cover": "/img/albums/p-iatn.jpg",
+    "title": "Perturbator - I am the Night",
+    "release": 2012,
+    "genre": "Synthwave"
+  },
+  {
+    "cover": "/img/albums/md-h.jpg",
+    "title": "Mega Drive - Hardwired",
+    "release": 2013,
+    "genre": "Synthwave"
+  },
+  {
+    "cover": "/img/albums/d-sc.jpg",
+    "title": "Domains - Sinister Ceremonies",
+    "release": 2014,
+    "genre": "Death Metal"
+  },
+  {
+    "cover": "/img/albums/md-198xad.jpg",
+    "title": "Mega Drive - 198XAD",
+    "release": 2014,
+    "genre": "Synthwave"
+  },
+  {
+    "cover": "/img/albums/p-dd.jpg",
+    "title": "Perturbator - Dangerous Days",
+    "release": 2014,
+    "genre": "Synthwave"
+  },
+  {
+    "cover": "/img/albums/vd-ta.jpg",
+    "title": "VHS Dreams - Trans Am",
+    "release": 2015,
+    "genre": "Electro"
+  },
+  {
+    "cover": "/img/albums/c-o.jpg",
+    "title": "Celina - Origins",
+    "release": 2022,
+    "genre": "Synthwave"
   }
 ]
