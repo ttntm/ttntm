@@ -9,7 +9,9 @@ window.addEventListener('DOMContentLoaded', () => {
     isExpandAll: false
   }
 
-  function expandCollapse() {
+  useCollectionFilter(filterOptions)
+
+  expandBtn.addEventListener('click', () => {
     expandableListings.forEach((item) => {
       if (!state.isExpandAll) {
         item?.children[0]?.setAttribute('open', '')
@@ -25,9 +27,5 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     state.isExpandAll = !state.isExpandAll
-  }
-
-  expandBtn.addEventListener('click', expandCollapse)
-
-  useCollectionFilter(filterOptions)
+  })
 })

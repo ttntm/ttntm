@@ -1,5 +1,5 @@
 {
-  "version": "3.18.1",
+  "version": "3.18.2",
   "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and playground. Everything, and nothing.",
@@ -75,7 +75,7 @@
     {
       "url": "/sitemap/",
       "title": "...and many more",
-      "details": "view the sitemap"
+      "details": "explore the sitemap"
     }
   ],
   "social": [

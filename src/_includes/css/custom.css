@@ -335,19 +335,13 @@ blockquote {
 hr {
   border-style: none;
   border-top: 1px solid var(--border);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .hr {
   background: linear-gradient(90deg, var(--bg), var(--hr), var(--bg));
   height: 1px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-small {
-  font-size: .75rem;
+  margin: 1rem 0;
 }
 
 ol, ul {
@@ -570,15 +564,16 @@ footer {
   display: block;
 }
 
-footer a .icon,
-footer button .icon {
-  opacity: 1;
-  transition: opacity .25s ease;
-}
+footer a,
+footer button {
+  & .icon {
+    opacity: 1;
+    transition: opacity .25s ease;
+  }
 
-footer a:hover .icon,
-footer button:hover .icon {
-  opacity: .5;
+  &:hover .icon {
+    opacity: .5;
+  }
 }
 
 .footer-link {
@@ -590,16 +585,15 @@ footer button:hover .icon {
     background-color: var(--footerBgDsktp);
     color: var(--footerTextDsktp);
     padding: 1rem;
-  }
 
-  footer a,
-  footer button {
-    color: var(--sec);
-  }
+    & a,
+    & button {
+      color: var(--sec);
 
-  footer a:hover,
-  footer button:hover {
-    color: var(--footerLinkHover);
+      &:hover {
+        color: var(--footerLinkHover);
+      }
+    }
   }
 }
 
@@ -1002,6 +996,7 @@ summary h2 {
     background-color: var(--border);
   }
 
+  &.active,
   &.filter-btn__active {
     background-color: color-mix(in srgb, var(--yellow), transparent 10%);
     border-color: var(--yellow);

@@ -297,8 +297,9 @@
   font-size: 1.25rem;
 }
 
+small,
 .small {
-  font-size: 0.75rem !important;
+  font-size: .75rem !important;
 }
 
 .list-reset {

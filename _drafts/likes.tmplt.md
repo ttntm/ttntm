@@ -7,8 +7,9 @@ date: 202Y-MM-DD
 ## Articles
 
 - [Look Mum, No Breakpoints!](https://robmc.dev/blog/look_mum_no_breakpoints/)
-  A gret article about breakpoints and fluid design
-- []()
+  A great article about breakpoints and fluid design
+- [Cloudflare took down our website after trying to force us to pay 120k$ within 24h](https://robindev.substack.com/p/cloudflare-took-down-our-website)
+  Another item on my long list of reasons for self-hosting; will hopefully get to that soon
 - []()
 - []()
 - []()

@@ -7,6 +7,7 @@ tags:
   - personal
   - serverless
 image: /img/blog/content.jpg
+updated: 2024-05-28
 ---
 
 Sometimes, all it takes to question our own choices is just a headline. Most recently, that headline was: "Netlify just sent me a $104K bill for a simple static site".
@@ -40,3 +41,7 @@ This is a screenshot of this website's "Overview" in the dashboard:
 I'm not used to that much information for my personal projects, so that's a rather pleasant surprise.
 
 Overall, I think reviewing my cloud platform and service provider choices was long overdue. Distributing sites and projects across different platforms feels like a good decision and should help minimize risks - at least until I can commit to self-hosting everything.
+
+## Updates
+
+2024/05: Another side of CF - [Cloudflare took down our website after trying to force us to pay 120k$ within 24h](https://robindev.substack.com/p/cloudflare-took-down-our-website) incl. the linked stories from HN.

@@ -24,12 +24,17 @@ imageHeaderSize: 125
 </div>
 <div class="hr shadow mt2"></div>
 <div class="hide-no-js">
+  <p class="h4 bold">Layout</p>
+  <div class="flex align-items-center gap1 mb1">
+    <button id="btn-list" class="d-inline-block btn-muted shadow active" disabled>Show List</button>
+    <button id="btn-grid" class="d-inline-block btn-muted shadow">Show Grid</button>
+  </div>
   <p class="h4 bold">Select Genre</p>
   <ul class="filter-list list-reset flex flex-wrap align-items-center gap1 mt1 mb1">
     {% customFilter albums, "genre" %}
   </ul>
 </div>
-<ul class="list-reset post">
+<ul id="albums" class="list-reset post">
   {% for item in albums %}
     <li class="album-listing" data-genre="{{ item.genre | slugify }}">
       {% set released = ["Released: ", item.release] | join %}
