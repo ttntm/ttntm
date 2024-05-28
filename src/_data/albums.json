@@ -186,6 +186,12 @@
     "genre": "Black Metal"
   },
   {
+    "cover": "/img/albums/af-bft.jpg",
+    "title": "Aslan Faction - Blunt Force Trauma",
+    "release": 2002,
+    "genre": "Electronic"
+  },
+  {
     "cover": "/img/albums/k-k.jpg",
     "title": "Kaamos - Kaamos",
     "release": 2002,
@@ -243,7 +249,7 @@
     "cover": "/img/albums/sas-lfv.jpg",
     "title": "Soap&Skin - Lovetune for Vacuum",
     "release": 2009,
-    "genre": "Experimental"
+    "genre": "Pop"
   },
   {
     "cover": "/img/albums/t-sc.jpg",
@@ -255,7 +261,13 @@
     "cover": "/img/albums/c-cc2.jpg",
     "title": "Crystal Castles - Crystal Castles (II)",
     "release": 2010,
-    "genre": "Electro"
+    "genre": "Electronic"
+  },
+  {
+    "cover": "/img/albums/ng-ng.jpg",
+    "title": "NiT GriT - NiT GriT",
+    "release": 2010,
+    "genre": "Electronic"
   },
   {
     "cover": "/img/albums/m-whtn.jpg",
@@ -297,7 +309,13 @@
     "cover": "/img/albums/vd-ta.jpg",
     "title": "VHS Dreams - Trans Am",
     "release": 2015,
-    "genre": "Electro"
+    "genre": "Electronic"
+  },
+  {
+    "cover": "/img/albums/mbr-ip.jpg",
+    "title": "Master Boot Record - Internet Protocol",
+    "release": 2019,
+    "genre": "Electronic"
   },
   {
     "cover": "/img/albums/c-o.jpg",
