@@ -21,7 +21,7 @@ layout: base.njk
     {{ content | safe }}
   </div>
   <div class="hr shadow mt2 mb2"></div>
-  {% replybtn title %}
+  {% postReplyShare title %}
 </article>
 <section class="container">
   <div class="hr shadow mt2 mb2"></div>
@@ -32,6 +32,7 @@ layout: base.njk
   </div>
 </section>
 {% set js %}
+  {% include 'js/useCopyShare.js' %}
   {% include 'js/useProgress.js' %}
 {% endset %}
 <script>

@@ -14,6 +14,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.18.3
+
+- Updated the blog post footer and added a "Copy Link" button
+
 ## 3.18.2
 
 - Added a layout toggle to /albums that controls switching between grid and list mode
