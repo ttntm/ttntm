@@ -22,8 +22,8 @@ eleventyExcludeFromCollections: true
       <updated>{{ item.date | rssDate }}</updated>
       <id>{{ absolutePostUrl }}</id>
       <content type="html"><![CDATA[
-        {# {{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }} #}
-        {{ item.templateContent | safe }}
+        {{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
+        {# {{ item.templateContent | safe }} #}
       ]]></content>
     </entry>
   {%- endfor -%}
