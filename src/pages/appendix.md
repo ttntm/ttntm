@@ -48,7 +48,6 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 - Offer linkable headings
 - Become searchable at some point
 - Provide a home for {% ext "neko", "https://github.com/adryd325/oneko.js" %} ({% ext "+context", "https://github.com/eliot-akira/neko/" %})
-- Offer platform-agnostic sharing links
 
 Finally, **everything that was done already**, can be found in the [Changelog](/changelog/).
 
