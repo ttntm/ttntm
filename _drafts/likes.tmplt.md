@@ -18,7 +18,8 @@ date: 202Y-MM-DD
 
 ## Links
 
-- []()
+- [fffuel](https://www.fffuel.co)
+  A wonderful "collection of color tools and free SVG generators"
 - []()
 - []()
 - []()
