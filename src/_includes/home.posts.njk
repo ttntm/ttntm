@@ -1,47 +1,24 @@
-<div class="flex flex-row justify-content-between align-items-center tight-md">
-  <h2 class="m0">
-    Recent Articles
-  </h2>
-  <ul class="list-reset flex align-items-center gap1">
-    {# <li class="d-none d-sm-block">
-      <a href="/tags/" class="d-block regular hover-scale" title="View all Tags" aria-label="View all Tags">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tags" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M3 8v4.172a2 2 0 0 0 .586 1.414l5.71 5.71a2.41 2.41 0 0 0 3.408 0l3.592 -3.592a2.41 2.41 0 0 0 0 -3.408l-5.71 -5.71a2 2 0 0 0 -1.414 -.586h-4.172a2 2 0 0 0 -2 2z" />
-          <path d="M18 19l1.592 -1.592a4.82 4.82 0 0 0 0 -6.816l-4.592 -4.592" />
-          <path d="M7 10h-.01" />
-        </svg>
-      </a>
-    </li>
-    <li class="d-none d-sm-block">
-      <a href="/blog/" class="d-block regular hover-scale" title="View all Posts" aria-label="View all Posts">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <rect x="3" y="4" width="18" height="4" rx="2" />
-          <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-          <line x1="10" y1="12" x2="14" y2="12" />
-        </svg>
-      </a>
-    </li> #}
-    <li class="d-block">
-      <a href="/blog/feed.xml" class="d-block icon-rss regular hover-scale" title="RSS Feed: Blog" aria-label="RSS Feed: Blog">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <circle cx="5" cy="19" r="1" />
-          <path d="M4 4a16 16 0 0 1 16 16" />
-          <path d="M4 11a9 9 0 0 1 9 9" />
-        </svg>
-      </a>
-    </li>
-  </ul>
-</div>
+<h2 class="tight-md m0">
+  Recent Activity
+</h2>
 <div class="hr shadow mb2"></div>
-{%- for post in collections.blog | reverse -%}
-  {% if loop.index <= 4 %}
-    {% include "post.preview.njk" %}
-    <div class="hr shadow mt2 mb2"></div>
-  {% endif %}
-{%- endfor -%}
+<ul class="list-reset">
+  {% for item in collections.all | reverse %}
+    {% if item.data.inEverything and loop.index < 6 %}
+      {%- set itemURL -%}
+        {%- if item.url -%}
+          {{ item.url }}
+        {%- else -%}
+          /notes/#{{ item.data.weight }}
+        {%- endif -%}
+      {%- endset -%}
+      <li>
+        {% include "activity.item.njk" %}
+        <div class="hr shadow mt2 mb2"></div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 <div class="flex gap2">
-  {% include "post.buttons.njk" %}
+  <a href="/everything/" class="d-inline-block btn cap-first">Show More</a>
 </div>

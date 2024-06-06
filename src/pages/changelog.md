@@ -17,6 +17,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 ## 3.18.4
 
 - Added an SVG wave to the footer
+- Homepage: replaced "Recent Posts" with "Recent Activity"
 
 ## 3.18.3
 

@@ -23,22 +23,7 @@ permalink: /everything/index.html
         {%- endset -%}
         <li class="h-entry">
           <div class="hr shadow mt2 mb2"></div>
-          <p class="text-muted bold small uppercase" style="margin-bottom: .5rem;">
-            {{ item.data.type }}
-          </p>
-          <div class="indent-1-lg indent-border-lg">
-            <h2 class="h4 heading">
-              <a class="u-url p-name" href="{{ itemURL }}">{{ item.data.title }}</a>
-            </h2>
-            {% if item.data.description %}
-              <p class="p-summary">
-                {{ item.data.description }}
-              </p>
-            {% endif %}
-            <p class="text-muted small mb0">
-              Published: <time class="dt-published" datetime="{{ item.data.date | date('YYYY-MM-DD') }}">{{ item.data.date | date('MMMM DD, YYYY') }}</time>
-            </p>
-          </div>
+          {% include "activity.item.njk" %}
         </li>
       {% endif %}
     {% endfor %}
