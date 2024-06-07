@@ -38,7 +38,8 @@ imageHeaderSize: 125
   {% for item in albums %}
     <li class="album-listing" data-genre="{{ item.genre | slugify }}">
       {% set released = ["Released: ", item.release] | join %}
-      {% imageHeader item.cover, imageHeaderSize, "h3", item.title, released %}
+      {% set titleText = [item.title, " (", item.release, ")"] | join %}
+      {% imageHeader item.cover, imageHeaderSize, "h3", titleText, released %}
     </li>
   {% endfor %}
 </ul>

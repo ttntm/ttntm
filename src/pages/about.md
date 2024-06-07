@@ -38,9 +38,9 @@ In short: when I'm not in front of a screen working, watching movies or playing 
   {% include "about.contact.njk" %}
 {% endcontact %}
 
-<p id="cat" class="text-center mt2 mb0">
-  <a href="https://pixelfed.social/alfithecat" title="Meow!" style="display: inline;">
-    <img class="m0 mx-auto" src="/img/walking_cat.gif">
+<p id="cat" class="text-center mt2 mb0" style="line-height: 0;">
+  <a class="d-inline-block" href="https://pixelfed.social/alfithecat" title="Meow!">
+    <img class="d-inline-block m0" src="/img/walking_cat.gif">
   </a>
 </p>
 <div class="hr shadow mb2" style="margin-top: 0;"></div>
