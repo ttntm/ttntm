@@ -6,13 +6,13 @@
     <h2 class="h4 heading">
       <a class="u-url p-name" href="{{ itemURL }}">{{ item.data.title }}</a>
     </h2>
-    {% if item.data.description %}
-      <p class="p-summary">
-        {{ item.data.description }}
-      </p>
-    {% endif %}
     <p class="text-muted small mb0">
       Published: <time class="dt-published" datetime="{{ item.data.date | date('YYYY-MM-DD') }}">{{ item.data.date | date('MMMM DD, YYYY') }}</time>
     </p>
+    {% if item.data.description %}
+      <p class="p-summary mt1 mb0">
+        {{ item.data.description }}
+      </p>
+    {% endif %}
   </div>
 </article>
