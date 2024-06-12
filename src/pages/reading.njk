@@ -22,7 +22,7 @@ permalink: /reading/index.html
 {% if reading | length %}
   <ul class="list-reset">
     {% for item in reading %}
-      <li class="py1">
+      <li class="py1" {% if loop.last %} style="padding-bottom: 0 !important;"{% endif %}>
         <h2 class="h5">
           {{ item.title }}
         </h2>

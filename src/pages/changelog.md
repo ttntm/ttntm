@@ -368,7 +368,14 @@ Active from 08/2018 to 11/2018.
     representing the days of the year.
   */
   .epg__months > :not(div),
-  .epg__squares > :not(div) {
+  .epg__squares > :not(div),
+  p:empty {
     display: none;
+  }
+
+  .epg:last-of-type,
+  .epg__squares:last-of-type,
+  p:empty {
+    margin-bottom: 0;
   }
 </style>

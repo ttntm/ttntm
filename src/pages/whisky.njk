@@ -47,6 +47,15 @@ permalink: /whisky/index.html
     {% endfor %}
   </section>
 </section>
+<style>
+  article:last-of-type {
+    padding-bottom: 0 !important;
+  }
+
+  #wishlist {
+    margin-top: 4rem;
+  }
+</style>
 {% set js %}
   {% include 'js/useCollectionFilter.js' %}
   {% include 'js/whisky.js' %}

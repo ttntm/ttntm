@@ -50,7 +50,7 @@ permalink: /bookmarks/index.html
     <ul class="list-reset post e-content indent-1-lg">
       {% for link in item.data %}
         <li>
-          <p>
+          <p {% if loop.last %} class="m0"{%- endif -%}>
             <a class="ext" href="{{ link.url }}">{{ link.title }}</a>{% if link.feed %}&nbsp;&nbsp;<a href="{{ link.feed }}" style="font-size: .875rem; font-weight: 500;">(RSS)</a>{% endif %}
             {% if link.description %}
               <br>
