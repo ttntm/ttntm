@@ -3,19 +3,19 @@
     "cover": "/img/albums/lz-lz.jpg",
     "title": "Led Zeppelin - Led Zeppelin",
     "release": 1969,
-    "genre": "Hard Rock"
+    "genre": "Rock"
   },
   {
     "cover": "/img/albums/bs-bs.jpg",
     "title": "Black Sabbath - Black Sabbath",
     "release": 1970,
-    "genre": "Hard Rock"
+    "genre": "Heavy Metal"
   },
   {
     "cover": "/img/albums/bs-p.jpg",
     "title": "Black Sabbath - Paranoid",
     "release": 1970,
-    "genre": "Hard Rock"
+    "genre": "Heavy Metal"
   },
   {
     "cover": "/img/albums/sp-nmtb.jpg",
@@ -27,7 +27,7 @@
     "cover": "/img/albums/bs-hah.jpg",
     "title": "Black Sabbath - Heaven and Hell",
     "release": 1980,
-    "genre": "Hard Rock"
+    "genre": "Heavy Metal"
   },
   {
     "cover": "/img/albums/bf-d.jpg",
@@ -111,7 +111,7 @@
     "cover": "/img/albums/n-n.jpg",
     "title": "Nirvana - Nevermind",
     "release": 1991,
-    "genre": "Grunge"
+    "genre": "Rock"
   },
   {
     "cover": "/img/albums/d-abitns.jpg",
@@ -201,7 +201,7 @@
     "cover": "/img/albums/qotsa-sftd.jpg",
     "title": "Queens of the Stone Age - Songs for the Deaf",
     "release": 2002,
-    "genre": "Hard Rock"
+    "genre": "Rock"
   },
   {
     "cover": "/img/albums/v-v.jpg",
@@ -285,7 +285,7 @@
     "cover": "/img/albums/b-c.jpg",
     "title": "Beastmilk - Climax",
     "release": 2013,
-    "genre": "Punk"
+    "genre": "Rock"
   },
   {
     "cover": "/img/albums/md-h.jpg",
