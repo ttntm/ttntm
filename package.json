@@ -1,6 +1,6 @@
 {
   "name": "ttntm.me",
-  "version": "3.18.4",
+  "version": "3.18.5",
   "description": "Tom's homepage. A personal website, journal and playground. Everything, and nothing.",
   "author": "ttntm",
   "type": "module",
@@ -17,9 +17,9 @@
     "serve": "npm run get-pg-data && eleventy --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.0.0-alpha.10",
+    "@11ty/eleventy": "^3.0.0-alpha.11",
     "@11ty/eleventy-fetch": "^4.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@11ty/eleventy-plugin-rss": "^2.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "@rknightuk/eleventy-plugin-post-graph": "^1.0.7",
     "cssnano": "^5.1.14",
@@ -28,6 +28,7 @@
     "eleventy-plugin-reading-time": "0.0.1",
     "html-minifier": "^4.0.0",
     "lodash": "^4.17.21",
+    "markdown-it-anchor": "^9.0.1",
     "postcss": "^8.4.31",
     "postcss-import": "^14.0.0",
     "terser": "^5.26.0"

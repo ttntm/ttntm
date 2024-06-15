@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom">
   {% include "feed.header.njk" %}
   {% if collections.likes %}
-    <updated>{{ collections.likes | rssLastUpdatedDate }}</updated>
+    <updated>{{ collections.likes | getNewestCollectionItemDate | dateToRfc822 }}</updated>
   {% endif %}
   <id>ttntm.me/likes</id>
   {%- for item in collections.likes | reverse -%}
@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
     <entry>
       <title>{{ item.data.title }}</title>
       <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ item.date | rssDate }}</updated>
+      <updated>{{ item.date | dateToRfc822 }}</updated>
       <id>{{ absolutePostUrl }}</id>
       <content type="html"><![CDATA[
         {{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}

@@ -1,0 +1,10 @@
+{
+  "external link": {
+    "scope": "markdown",
+    "prefix": "ext",
+    "body": [
+      "{% ext \"${1:name}\", \"${2:url}\" %}"
+    ],
+    "description": "external link shortcode"
+  }
+}

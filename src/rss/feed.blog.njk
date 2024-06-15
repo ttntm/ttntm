@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom">
   {% include "feed.header.njk" %}
   {% if collections.blog %}
-    <updated>{{ collections.blog | rssLastUpdatedDate }}</updated>
+    <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc822 }}</updated>
   {% endif %}
   <id>ttntm.me/blog</id>
   {%- for item in collections.blog | reverse -%}
@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
         <category term="{{ tag }}" />
       {% endfor %}
       <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ item.date | rssDate }}</updated>
+      <updated>{{ item.date | dateToRfc822 }}</updated>
       <id>{{ absolutePostUrl }}</id>
       <content type="html"><![CDATA[
         {{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}

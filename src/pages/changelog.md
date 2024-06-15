@@ -4,6 +4,7 @@ description: A logbook of all the changes this website has gone through since it
 layout: page.njk
 templateEngineOverride: md,njk
 permalink: /changelog/index.html
+showProgress: true
 ---
 
 A logbook of all the changes this website has gone through since it launched in 2018.
@@ -13,6 +14,12 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 **Last built and published**: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
+
+## 3.18.5
+
+- Added a "back to index" anchor to individual entries in /notes
+- Tweaked the homepage layout for tablet-sized screens
+- Updated the "Recent Activity" section on the homepage - it's no longer focused on blog posts only
 
 ## 3.18.4
 

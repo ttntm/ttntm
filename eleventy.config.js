@@ -1,4 +1,5 @@
 import _ from 'lodash'
+import anchor from 'markdown-it-anchor'
 import dotenv from 'dotenv'
 import htmlmin from 'html-minifier'
 import markdownIt from 'markdown-it'
@@ -70,6 +71,8 @@ export default async function(config) {
       breaks: true,
       linkify: true,
       typographer: true
+    }).use(anchor, {
+      slugify: s => _.kebabCase(s)
     })
   )
 
@@ -87,7 +90,7 @@ export default async function(config) {
   })
 
   config.addCollection('postsByYear', (collection) => {
-    // collection for /archive => posts grouped by year - see: https://darekkay.com/blog/eleventy-group-posts-by-year/
+    // collection for the blog archive => posts grouped by year - see: https://darekkay.com/blog/eleventy-group-posts-by-year/
     return _.chain(collection.getFilteredByGlob('./src/blog/**/*.md'))
       .groupBy((post) => post.date.getFullYear())
       .toPairs()

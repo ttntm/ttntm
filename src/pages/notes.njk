@@ -16,7 +16,7 @@ permalink: /notes/index.html
     <details class="details-scrollable mt1">
       <summary class="flex align-items-center" style="cursor: pointer;">
         <h2 class="h5 m0">
-          Table of Contents
+          Index
         </h2>
       </summary>
       <ul class="list-reset px1 mb1" style="margin-top: .5rem;">
@@ -40,6 +40,9 @@ permalink: /notes/index.html
           {{ item.templateContent | safe }}
         </div>
         {% if not loop.last %}
+          <p class="small mt1 mb0" style="text-align: right;">
+            &ndash;&nbsp;<a href="#top">^Index</a>
+          </p>
           <div class="hr shadow mt2 mb2"></div>
         {% endif %}
       </article>
