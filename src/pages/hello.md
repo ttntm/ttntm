@@ -5,7 +5,7 @@ layout: page.njk
 permalink: /hello/index.html
 ---
 
-&#128075; Hi there, I'm Tom, a software engineer from Austria.
+&#128075; Hi there, I'm Tom. Nice to meet you!
 
 ## How to Contact Me
 

@@ -1,5 +1,5 @@
 {
-  "version": "3.18.5",
+  "version": "3.19",
   "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and playground. Everything, and nothing.",
@@ -29,15 +29,15 @@
   ],
   "highlights": [
     {
-      "title": "90s Misfits",
+      "title": "Katharsis",
       "img": "music.svg"
     },
     {
-      "title": "Kingdom Come: Deliverance",
+      "title": "Metro Exodus",
       "img": "game.svg"
     },
     {
-      "title": "Fallout",
+      "title": "Dark Matter",
       "img": "movie.svg"
     },
     {
@@ -58,9 +58,9 @@
       "details": "some of my favorite videogames"
     },
     {
-      "url": "/ideas/",
-      "title": "/ideas",
-      "details": "a list of ideas for future projects"
+      "url": "/interests/",
+      "title": "/interests",
+      "details": "things I'm interested in"
     },
     {
       "url": "/reading/",
@@ -75,7 +75,7 @@
     {
       "url": "/sitemap/",
       "title": "...and many more",
-      "details": "explore the sitemap"
+      "details": "explore this website"
     }
   ],
   "social": [

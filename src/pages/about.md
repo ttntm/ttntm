@@ -14,7 +14,7 @@ permalink: /about/index.html
       Hi, I'm Tom.
     </h2>
     <p class="p-note m0">
-      I'm a software engineer with many years of experience in both professional and freelance software development. I specialize in web development, specifically focusing on the front end. And due to years of experience in enterprise systems and workflow automation, I've gained extensive knowledge in backend development as well.
+      I'm from Austria and I work as a software engineer. I've got many years of experience in both professional and freelance software development, and I specialize in web development. I'm usually focusing on the front end, but due to years of experience in enterprise systems and workflow automation, I've also gained extensive knowledge in backend development.
     </p>
   </div>
 </div>

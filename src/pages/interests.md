@@ -4,6 +4,7 @@ description: A list of the things I'm interested in.
 image: /img/interests.jpg
 layout: page.njk
 permalink: /interests/index.html
+showProgress: true
 ---
 
 A list of the things I'm interested in and a constant work in progress that will grow over time.
@@ -82,7 +83,7 @@ These might turn into more detailed sections over time:
 
 - Board games and TTRPGs
 - Car culture and customization/tuning (mostly the visual aspect)
-- Cycling and Bicycle maintenance
+- Cycling and bicycle maintenance
 - Gardening, hiking and nature
 - Home improvements and DIY projects
 - Reading and learning about (new) things

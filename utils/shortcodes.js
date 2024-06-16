@@ -65,12 +65,17 @@ export default {
 
   imageHeader: function(imgPath, imgSize, titleSize, title, subtitle) {
     // shortcode to create an image + text heading row (dsktp) / block (mobile)
+    const slug = _.kebabCase(title)
     const content = subtitle?.length > 0
       ? `<hgroup class="image-header__text w100m">
-          <h2 id="${_.kebabCase(title)}" class="${titleSize}">${title}</h2>
+          <h2 id="${slug}" class="${titleSize}">
+            <a class="header-anchor" href="#${slug}"><span>${title}</span></a>
+          </h2>
           <p class="large m0">${subtitle}</p>
         </hgroup>`
-      : `<h2 id="${_.kebabCase(title)}" class="image-header__text ${titleSize} w100m m0">${title}</h2>`
+      : `<h2 id="${slug}" class="image-header__text ${titleSize} w100m m0">
+          <a class="header-anchor" href="#${slug}"><span>${title}</span></a>
+        </h2>`
 
     return `<div class="image-header flex wrap-mobile align-items-start gap1 gap2-lg mt2 mb1">
       <img class="image-header__cover w100m m0" src="${imgPath}" width="${imgSize}" alt="${title}" title="${title}" decoding="async" loading="lazy" />

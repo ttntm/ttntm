@@ -45,13 +45,12 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 - Be a journal, weblog and playground
 - Update frequently
 - Support webmentions
-- Offer linkable headings
 - Become searchable at some point
 - Provide a home for {% ext "neko", "https://github.com/adryd325/oneko.js" %} ({% ext "+context", "https://github.com/eliot-akira/neko/" %})
 
 Finally, **everything that was done already**, can be found in the [Changelog](/changelog/).
 
-<h2 id="license">License</h2>
+## License
 
 All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a class="ext" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC-BY-NC-SA-4.0</a>
 

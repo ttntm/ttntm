@@ -72,6 +72,7 @@ export default async function(config) {
       linkify: true,
       typographer: true
     }).use(anchor, {
+      permalink: anchor.permalink.headerLink({ safariReaderFix: true }),
       slugify: s => _.kebabCase(s)
     })
   )

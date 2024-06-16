@@ -22,10 +22,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // persist pin state during navigation
   (() => {
-    if (currentPinState === 'pinned') {
-      pin()
-    } else {
-      unpin()
+    if (header && toggle) {
+      if (currentPinState === 'pinned') {
+        pin()
+      } else {
+        unpin()
+      }
     }
   })()
 

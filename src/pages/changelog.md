@@ -15,16 +15,16 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
-## 3.18.5
+## 3.19
 
-- Added a "back to index" anchor to individual entries in /notes
-- Tweaked the homepage layout for tablet-sized screens
-- Updated the "Recent Activity" section on the homepage - it's no longer focused on blog posts only
-
-## 3.18.4
+<small>Released: 2024-06-16</small>
 
 - Added an SVG wave to the footer
-- Homepage: replaced "Recent Posts" with "Recent Activity"
+- Added a "back to index" anchor to individual entries in /notes
+- Implemented linkable headings for Markdown content
+- Homepage:
+  - Replaced "Recent Posts" with "Recent Activity"
+  - Tweaked the layout for tablet-sized screens
 
 ## 3.18.3
 

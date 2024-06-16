@@ -35,7 +35,7 @@ The result is going to look like this:
 
 There's also a {% ext "live demo", "https://codesandbox.io/p/github/ttntm/astro-potfolio-starter/main" %} in a CodeSandbox that should help when following the rest of this article.
 
-## Content
+## Portfolio Content
 
 We're working with standalone content here, so our portfolio is a {% ext "collection", "https://docs.astro.build/en/guides/content-collections/" %} that's defined in `./src/content/config.ts`.
 
