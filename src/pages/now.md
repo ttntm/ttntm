@@ -5,6 +5,8 @@ layout: page.njk
 permalink: /now/index.html
 ---
 
+<img src="/img/now.jpg" class="img-center img-fluid w100" alt="A photo of a graffiti on a wall saying 'What now?'">
+
 **Last updated:** June 16th 2024
 
 **Writing**: finishing the [#albums](/tags/albums/) series, preparing an article about filtering 11ty collections

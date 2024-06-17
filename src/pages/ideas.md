@@ -6,7 +6,7 @@ layout: page.njk
 permalink: /ideas/index.html
 ---
 
-<img src="/img/ideas.png" class="img-center img-fluid" alt="Illustration of an old computer" style="width: 100%;">
+<img src="/img/ideas.png" class="img-center img-fluid w100" alt="Illustration of an old computer">
 
 This is a public list of my ideas for future projects. Additional features and improvements for my existing projects and websites are also listed here.
 
