@@ -1,7 +1,7 @@
 ---
 title: Site Redesign
 slug: site-redesign
-date: 2018-11-19
+date: 2018-11-19T10:30:00Z
 description: Short update summarizing recent design changes.
 tags:
   - news

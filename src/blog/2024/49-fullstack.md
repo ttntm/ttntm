@@ -1,7 +1,7 @@
 ---
 title: Growing Into Full Stack Development
 slug: growing-into-full-stack-development
-date: 2024-05-16
+date: 2024-05-16T10:30:00Z
 description: A note based on a recent email conversation about growing into full stack development.
 tags:
   - learning

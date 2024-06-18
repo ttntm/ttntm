@@ -1,7 +1,7 @@
 ---
 title: My Personal Knowledge Base
 slug: personal-knowledge-base
-date: 2024-05-08
+date: 2024-05-08T10:30:00Z
 description: How and why I decided to build TKB, my personal knowledge base.
 tags:
   - docs

@@ -1,7 +1,7 @@
 ---
 title: How to Build a Serverless Guestbook
 slug: how-to-build-a-serverless-guestbook
-date: 2024-03-04
+date: 2024-03-04T10:30:00Z
 description: An article about building a serverless guestbook for a static website.
 tags:
   - eleventy

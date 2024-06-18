@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Vue.js in 2020"
 slug: vuejs-getting-started-in-2020
-date: 2020-07-04
+date: 2020-07-04T10:30:00Z
 description: "Lessons learned when building my first apps with Vue.js in 2020; not a typical Vue.js tutorial."
 tags:
   - guide

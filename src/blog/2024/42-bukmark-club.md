@@ -1,7 +1,7 @@
 ---
 title: "Intro: BUKMARK.CLUB"
 slug: bukmark-club-intro
-date: 2024-02-21
+date: 2024-02-21T10:30:00Z
 description: "Introducing a new side project: I built a directory of websites that provide a curated collection of bookmarks and/or links to other websites."
 tags:
   - eleventy

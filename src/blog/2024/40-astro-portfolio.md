@@ -1,7 +1,7 @@
 ---
 title: Building a Filterable Portfolio with Astro and Vue
 slug: building-portfolio-with-astro-and-vue
-date: 2024-02-13
+date: 2024-02-13T10:30:00Z
 description: I published a new Astro starter this week and this article offers an in-depth look at how it's built.
 tags:
   - astro

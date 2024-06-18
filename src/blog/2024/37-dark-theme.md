@@ -1,7 +1,7 @@
 ---
 title: "Update: Dark Mode"
 slug: dark-mode
-date: 2024-01-03
+date: 2024-01-03T10:30:00Z
 description: This website supports dark mode now 🌙.
 tags:
   - news

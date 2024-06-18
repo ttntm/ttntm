@@ -1,7 +1,7 @@
 ---
 title: Creating a Reading List with Eleventy and Omnivore
 slug: creating-a-reading-list-with-eleventy-and-omnivore
-date: 2024-03-20
+date: 2024-03-20T10:30:00Z
 description: This website includes my personal reading list now. It was built using Eleventy and Omnivore, an approach described in this article.
 tags:
   - eleventy

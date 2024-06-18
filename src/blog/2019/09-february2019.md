@@ -1,7 +1,7 @@
 ---
 title: Update - February 2019
 slug: update-february-2019
-date: 2019-02-10
+date: 2019-02-10T10:30:00Z
 description: A brief update from February 2019.
 tags:
   - news

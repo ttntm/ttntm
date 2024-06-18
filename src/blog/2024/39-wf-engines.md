@@ -1,7 +1,7 @@
 ---
 title: Thoughts About Workflow Engines
 slug: thoughts-about-workflow-engines
-date: 2024-01-25
+date: 2024-01-25T10:30:00Z
 description: A collection of thoughts about aligning software development with workflow engines.
 tags:
   - learning

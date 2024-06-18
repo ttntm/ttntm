@@ -1,7 +1,7 @@
 ---
 title: "Website Evolution: Q1 2024"
 slug: website-evolution-q1-2024
-date: 2024-04-12
+date: 2024-04-12T10:30:00Z
 description: A summary of updates and enhancements in Q1 2024, also the first post in the "Website Evolution" series.
 tags:
   - evolution

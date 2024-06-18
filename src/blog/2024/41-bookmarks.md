@@ -1,14 +1,14 @@
 ---
 title: "Update: Bookmarks Are Back"
 slug: bookmarks-are-back
-date: 2024-02-15
+date: 2024-02-15T10:30:00Z
 description: This website has a bookmarks directory now.
 tags:
   - eleventy
   - news
   - website
 image: /img/blog/bookmarks.png
-updated: 2024-04-12
+updated: 2024-04-12T10:30:00Z
 ---
 
 My website has a bookmark directory now.

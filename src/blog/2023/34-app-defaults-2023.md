@@ -1,7 +1,7 @@
 ---
 title: App Defaults - 2023
 slug: app-defaults-2023
-date: 2023-11-14
+date: 2023-11-14T10:30:00Z
 description: My extended "frozen /uses page" for late 2023.
 tags:
   - defaults

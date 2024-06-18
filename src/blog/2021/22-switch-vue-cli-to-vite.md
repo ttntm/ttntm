@@ -1,7 +1,7 @@
 ---
 title: Switching from Vue CLI to Vite
 slug: switch-vue-cli-to-vite
-date: 2021-04-04
+date: 2021-04-04T10:30:00Z
 description: Some numbers and thoughts after moving a production app from Vue CLI to Vite.
 tags:
   - guide

@@ -1,7 +1,7 @@
 ---
 title: Hacking <hr> into vue-quill
 slug: hacking-hr-into-vue-quill
-date: 2023-12-28
+date: 2023-12-28T10:30:00Z
 description: A hacky workaround making <hr> usable in vue-quill.
 tags:
   - guide

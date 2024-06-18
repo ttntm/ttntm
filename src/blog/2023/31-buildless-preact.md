@@ -1,7 +1,7 @@
 ---
 title: My Buildless Preact Starter
 slug: buildless-preact-starter
-date: 2023-07-27
+date: 2023-07-27T10:30:00Z
 description: A template/starter intended to showcase how I'm using Preact for SPAs in buildless environments.
 tags:
   - preact

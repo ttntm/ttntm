@@ -8,21 +8,22 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom">
   {% include "feed.header.njk" %}
   {% if collections.blog %}
-    <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc822 }}</updated>
+    <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   {% endif %}
   <id>ttntm.me/blog</id>
   {%- for item in collections.blog | reverse -%}
-    {% set absolutePostUrl %}{{ item.url | url | absoluteUrl(site.url) }}{% endset %}
+    {% set absolutePostUrl %}{{ item.url | url | htmlBaseUrl(site.url) }}{% endset %}
     <entry>
       <title>{{ item.data.title }}</title>
       {% for tag in item.data.tags | sort %}
         <category term="{{ tag }}" />
       {% endfor %}
       <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ item.date | dateToRfc822 }}</updated>
+      {% set updated = item.data.updated or item.date %}
+      <updated>{{ updated | dateToRfc3339 }}</updated>
       <id>{{ absolutePostUrl }}</id>
       <content type="html"><![CDATA[
-        {{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
+        {{ item.templateContent | transformWithHtmlBase(site.url) | safe }}
         {# {{ item.templateContent | safe }} #}
       ]]></content>
     </entry>

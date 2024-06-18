@@ -1,14 +1,14 @@
 ---
 title: Building a Responsive Menu with Tailwind CSS
 slug: tailwind-responsive-menu
-date: 2018-09-20
+date: 2018-09-20T10:30:00Z
 description: This article shows how to build a responsive menu/navigation with Tailwind CSS and also includes a CodePen example.
 tags:
   - css
   - guide
   - tailwind
 image: /img/blog/default.jpg
-updated: 2020-03-15
+updated: 2020-03-15T10:30:00Z
 ---
 
 ## Tailwind CSS

@@ -8,14 +8,14 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom">
   {% include "feed.header.njk" %}
   {% if collections.all %}
-    <updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc822 }}</updated>
+    <updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   {% endif %}
   <id>ttntm.me/everything</id>
   {%- for item in collections.all | reverse -%}
     {% if item.data.inEverything %}
       {% set absoluteItemUrl %}
         {%- if item.url -%}
-          {{ item.url | url | absoluteUrl(site.url) }}
+          {{ item.url | htmlBaseUrl(site.url) }}
         {%- else -%}
           https://ttntm.me/notes/#{{ item.data.weight }}
         {%- endif -%}
@@ -28,11 +28,17 @@ eleventyExcludeFromCollections: true
           {% endfor %}
         {% endif %}
         <link href="{{ absoluteItemUrl }}"/>
-        <updated>{{ item.date | dateToRfc822 }}</updated>
+        {% set updated = item.data.updated or item.date %}
+        <updated>{{ updated | dateToRfc3339 }}</updated>
         <id>{{ absoluteItemUrl }}</id>
         <content type="html"><![CDATA[
-          {{ item.templateContent | htmlToAbsoluteUrls(absoluteItemUrl) | safe }}
-          {# {{ item.templateContent | safe }} #}
+          {% if item.data.tags %}
+            {# only blog posts have images & tags #}
+            {{ item.templateContent | transformWithHtmlBase(site.url) | safe }}
+          {% else %}
+            {# skip `transformWithHtmlBase` for everything else #}
+            {{ item.templateContent | safe }}
+          {% endif %}
         ]]></content>
       </entry>
     {% endif %}

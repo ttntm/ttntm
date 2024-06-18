@@ -1,7 +1,7 @@
 ---
 title: Building an Autocomplete Input with Preact
 slug: building-an-autocomplete-input-with-preact
-date: 2023-02-17
+date: 2023-02-17T10:30:00Z
 description: An article (incl. demo) about building an autocomplete input with Preact.
 tags:
   - guide

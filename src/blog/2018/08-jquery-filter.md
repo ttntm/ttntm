@@ -1,7 +1,7 @@
 ---
 title: jQuery Multiselect Filter
 slug: jquery-multiselect-filter
-date: 2018-12-12
+date: 2018-12-12T10:30:00Z
 description: An article about building a portfolio filter capable of multiselect with jQuery. Also includes a working CodePen example.
 tags:
   - guide

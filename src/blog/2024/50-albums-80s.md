@@ -1,7 +1,7 @@
 ---
 title: My Favorite Albums - The 1980s
 slug: my-favorite-albums-from-the-1980s
-date: 2024-05-21
+date: 2024-05-21T10:30:00Z
 description: An annotated list of my favorite albums from 1980 to 1989.
 tags:
   - albums

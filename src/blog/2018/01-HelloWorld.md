@@ -1,7 +1,7 @@
 ---
 title: Hello World
 slug: hello-world
-date: 2018-08-20
+date: 2018-08-20T10:30:00Z
 description: The first post.
 tags:
   - personal

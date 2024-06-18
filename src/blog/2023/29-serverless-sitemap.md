@@ -1,7 +1,7 @@
 ---
 title: Using a Serverless Function as a Sitemap
 slug: using-a-serverless-function-as-a-sitemap
-date: 2023-01-15
+date: 2023-01-15T10:30:00Z
 description: How to use a serverless function as a sitemap for an app with dynamic user created content.
 tags:
   - guide

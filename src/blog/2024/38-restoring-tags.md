@@ -1,7 +1,7 @@
 ---
 title: "Update: Tags Are Back"
 slug: restoring-tags
-date: 2024-01-16
+date: 2024-01-16T10:30:00Z
 description: This website used to have tags. They were gone for about 3 years, but they're back now.
 tags:
   - eleventy

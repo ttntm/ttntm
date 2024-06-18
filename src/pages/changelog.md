@@ -15,6 +15,13 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.19.1
+
+- Fixes:
+  - Content dates (assumed midnight in UTC)
+  - RSS feed dates
+  - Replaced deprecated `absoluteUrl` filter
+
 ## 3.19
 
 <small>Released: 2024-06-16</small>

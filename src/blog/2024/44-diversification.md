@@ -1,13 +1,13 @@
 ---
 title: About Diversification
 slug: about-diversification
-date: 2024-03-15
+date: 2024-03-15T10:30:00Z
 description: A few words about my cloud platforms and service provider choices.
 tags:
   - personal
   - serverless
 image: /img/blog/content.jpg
-updated: 2024-05-28
+updated: 2024-05-28T10:30:00Z
 ---
 
 Sometimes, all it takes to question our own choices is just a headline. Most recently, that headline was: "Netlify just sent me a $104K bill for a simple static site".

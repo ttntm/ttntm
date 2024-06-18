@@ -1,7 +1,7 @@
 ---
 title: How I Built a Serverless Recipes App with FaunaDB and Vue.js
 slug: serverless-recipes-app-faunadb-vuejs
-date: 2020-09-09
+date: 2020-09-09T10:30:00Z
 description: Building a CRUD web application that serves as a personal recipes collection.
 tags:
   - guide
