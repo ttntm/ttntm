@@ -9,7 +9,6 @@
 /articles/ /blog/ 301
 /contact /about/ 301
 /contact/* /about/ 301
-/notes/:id /notes/ 301
 /projects /work/ 301
 /projects/* /work/ 301
 /rain /629318c103e39f4fd693e43e0cab9cbc.html 301
