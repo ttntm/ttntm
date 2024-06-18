@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
   {% if collections.all %}
     <updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   {% endif %}
-  <id>ttntm.me/everything</id>
+  <id>https://ttntm.me/everything</id>
   {%- for item in collections.all | reverse -%}
     {% if item.data.inEverything %}
       {% set absoluteItemUrl %}

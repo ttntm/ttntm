@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
   {% if collections.likes %}
     <updated>{{ collections.likes | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   {% endif %}
-  <id>ttntm.me/likes</id>
+  <id>https://ttntm.me/likes</id>
   {%- for item in collections.likes | reverse -%}
     {% set absolutePostUrl %}{{ item.url | url | htmlBaseUrl(site.url) }}{% endset %}
     <entry>

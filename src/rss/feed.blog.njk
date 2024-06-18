@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
   {% if collections.blog %}
     <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   {% endif %}
-  <id>ttntm.me/blog</id>
+  <id>https://ttntm.me/blog</id>
   {%- for item in collections.blog | reverse -%}
     {% set absolutePostUrl %}{{ item.url | url | htmlBaseUrl(site.url) }}{% endset %}
     <entry>

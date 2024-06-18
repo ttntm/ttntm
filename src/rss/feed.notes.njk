@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
   {% if collections.notes %}
     <updated>{{ collections.notes | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   {% endif %}
-  <id>ttntm.me/notes</id>
+  <id>https://ttntm.me/notes</id>
   {%- for item in collections.notes | reverse -%}
     {% set absolutePostUrl %}https://ttntm.me/notes/#{{ item.data.weight }}{% endset %}
     <entry>
