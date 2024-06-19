@@ -19,7 +19,8 @@ date: 202Y-MM-DD
 
 ## Links
 
-- []()
+- [botwiki](https://botwiki.org)
+  A nice collection of "examples of interesting and creative online bots"
 - []()
 - []()
 - []()

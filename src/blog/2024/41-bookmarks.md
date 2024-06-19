@@ -8,7 +8,7 @@ tags:
   - news
   - website
 image: /img/blog/bookmarks.png
-updated: 2024-04-12T10:30:00Z
+updated: 2024-04-12T10:35:00Z
 ---
 
 My website has a bookmark directory now.
