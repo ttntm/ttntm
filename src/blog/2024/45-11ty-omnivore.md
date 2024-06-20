@@ -22,7 +22,7 @@ Before we start: you're welcome to check out all posts with the [#website](/tags
 - An {% ext "Omnivore", "https://omnivore.app" %} account
 - Optional: some kind of CI/CD that supports deployments triggered by webhooks
 
-## 1, Get an API Key
+## Get an API Key
 
 The first thing we'll have to take care of is getting an Omnivore API key.
 
@@ -55,7 +55,7 @@ The query variables are used to limit the results we get:
 
 More information about search, filters and queries can be found here: {% ext "Find all your saved items with Omnivore's new advanced search", "https://blog.omnivore.app/p/find-all-your-saved-items-with-omnivores" %}
 
-## 2, Data Fetching with Eleventy
+## Data Fetching with Eleventy
 
 Based on the successful test described above, we can proceed and set up the code that pulls the data into Eleventy.
 
@@ -145,7 +145,7 @@ const queryData = {
 
 NB: there's an official {% ext "API Client Library for Node.js", "https://github.com/omnivore-app/omnivore-api" %}, but the eleventy-fetch plugin offers caching, so I decided to use that instead. Otherwise, I could end up hammering the Omnivore API with requests during local development, which is something I'd rather not risk.
 
-## 3, Rendering the Reading List
+## Rendering the Reading List
 
 It's nothing special, but this is how I'm rendering my reading list:
 
@@ -182,7 +182,7 @@ It's nothing special, but this is how I'm rendering my reading list:
 
 There's a check for the availability of the list data (`if reading | length`) that makes sure we don't run into any rendering errors. Dates are formatted by a `date()` filter and wrapped in `<time>` tags. `publishedAt` is an optional - it's wrapped in an IF-statement to avoid 1970 fallback dates.
 
-## 4, Updating the List
+## Updating the List
 
 If you've followed this guide so far, you should be in this situation:
 

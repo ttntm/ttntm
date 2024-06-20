@@ -818,6 +818,19 @@ summary h2 {
   }
 }
 
+.toc-wrapper {
+  &:not(:has(.toc)) {
+    display: none;
+  }
+
+  & .toc {
+    & ol:first-child {
+      margin-top: .5rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
 .wsk-card {
   background-color: var(--bg);
   background: linear-gradient(to bottom right, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
@@ -1047,6 +1060,7 @@ summary h2 {
 .heading a,
 .post a,
 .tag a,
+.toc a,
 .link {
   color: var(--contentLink);
   text-decoration: underline;

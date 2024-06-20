@@ -8,6 +8,7 @@ import pluginPostGraph from '@rknightuk/eleventy-plugin-post-graph'
 import pluginReadingTime from 'eleventy-plugin-reading-time'
 import pluginRss from '@11ty/eleventy-plugin-rss'
 import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight'
+import pluginToC from 'eleventy-plugin-toc'
 import { minify } from 'terser'
 import filters from './utils/filters.js'
 import shortcodes from './utils/shortcodes.js'
@@ -28,9 +29,10 @@ export default async function(config) {
     highlightColor: 'var(--sec)',
     textColor: 'var(--text)'
   })
+  config.addPlugin(pluginReadingTime)
   config.addPlugin(pluginRss)
   config.addPlugin(pluginSyntaxHighlight)
-  config.addPlugin(pluginReadingTime)
+  config.addPlugin(pluginToC)
 
   // FILTERS
   Object.keys(filters).forEach((filterName) => {

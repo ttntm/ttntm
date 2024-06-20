@@ -16,6 +16,17 @@ layout: base.njk
   {% endif %}
   {% include "post.tags.njk" %}
   <div class="hr shadow"></div>
+  <div class="toc-wrapper mb1">
+    <details>
+      <summary class="flex align-items-center" style="cursor: pointer;">
+        <h2 class="h5 m0">
+          Table of Contents
+        </h2>
+      </summary>
+      {{ content | toc | safe }}
+    </details>
+    <div class="hr shadow"></div>
+  </div>
   {% oldContentNote date %}
   <div class="post">
     {{ content | safe }}

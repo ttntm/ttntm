@@ -29,7 +29,7 @@ I used a little spare time on the following weekend and built an MVP using Eleve
 
 There are 2 sections of code that might be worth highlighting:
 
-### 1, Generating the Directory Index
+### Generating the Directory Index
 
 I've recycled the logic that builds this website's blog archive, a bit of code originally taken from a post by Darek Kay called {% ext "Group posts by year in Eleventy", "https://darekkay.com/blog/eleventy-group-posts-by-year/" %}, and made some changes:
 
@@ -76,7 +76,7 @@ Rendering the directory uses two consecutive loops that process the collection:
 {% endraw %}
 ```
 
-### 2, Updating the Directory Stats
+### Updating the Directory Stats
 
 I'm using a Node.js script for this task. It was inspired by a post called {% ext "Find the Newest File in Directory Using NodeJS", "https://brianchildress.co/find-latest-file-in-directory-in-nodejs/" %}.
 

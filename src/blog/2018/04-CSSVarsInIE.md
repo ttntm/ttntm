@@ -7,6 +7,7 @@ tags:
   - css
   - guide
 image: /img/blog/default.jpg
+updated: 2018-09-10T10:30:00Z
 ---
 
 ## Using CSS Variables

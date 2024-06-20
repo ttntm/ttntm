@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.19.2
+
+- Added a "Table of Contents" section to the blog post layout
+
 ## 3.19.1
 
 - Fixes:
