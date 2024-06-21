@@ -808,16 +808,6 @@ summary h2 {
   }
 }
 
-.u-photo {
-  opacity: var(--helloOpacity);
-  transition: transform ease-in-out 1s;
-
-  &:hover {
-    cursor: progress;
-    transform: rotate3d(0,1,.05,180deg);
-  }
-}
-
 .toc-wrapper {
   &:not(:has(.toc)) {
     display: none;
@@ -826,8 +816,18 @@ summary h2 {
   & .toc {
     & ol:first-child {
       margin-top: .5rem;
-      margin-bottom: 0;
+      margin-bottom: 1.5rem;
     }
+  }
+}
+
+.u-photo {
+  opacity: var(--helloOpacity);
+  transition: transform ease-in-out 1s;
+
+  &:hover {
+    cursor: progress;
+    transform: rotate3d(0,1,.05,180deg);
   }
 }
 
