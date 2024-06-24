@@ -7,7 +7,7 @@ permalink: /now/index.html
 
 <img src="/img/now.jpg" class="img-center img-fluid w100" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Last updated:** June 16th 2024
+**Last updated:** June 24th 2024
 
 **Writing**: finishing the [#albums](/tags/albums/) series, preparing an article about filtering 11ty collections
 
@@ -17,9 +17,11 @@ permalink: /now/index.html
 
 **Games**: Metro Exodus, Tunic
 
-**Drinks**: Corona, while thinking about which [whisky](/whisky/) to buy next
+**Drinks**: Protein shakes, and the occasional beer
 
-**Life**: enjoying BBQs, cycling, standup paddleboarding and swimming; also considering joining a gym that opened around the corner
+**Work**: building a couple of websites with Astro, also preparing for an SF certification
+
+**Life**: joined a gym, to build some strength and to do something good for my back; also enjoying summer things like BBQs, cycling, standup paddleboarding and swimming
 
 <div class="hr shadow"></div>
 

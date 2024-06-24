@@ -814,6 +814,21 @@ summary h2 {
   }
 
   & .toc {
+    & ol {
+      counter-reset: item;
+      padding-inline-start: 1.5rem;
+    }
+
+    li {
+      counter-increment: item;
+      display: block;
+    }
+
+    li:before {
+      content: counters(item, '.') ' ';
+      margin-right: .75rem;
+    }
+
     & ol:first-child {
       margin-top: .5rem;
       margin-bottom: 1.5rem;
