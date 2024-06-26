@@ -8,6 +8,7 @@ tags:
   - guide
   - website
 image: /img/reading.png
+updated: 2024-06-26T10:10:00Z
 ---
 
 It's been a productive year so far - I've managed to add a couple of cool new things to this website, which is something I'd been planning to do for a while. This article is about the most recent addition, my [personal reading list](/reading/) powered by Omnivore, a free, open source, read-it-later app.
@@ -223,3 +224,7 @@ I got to know about Omnivore less than 6 months ago, but I'm already wondering h
 Right now, I'm really glad that I have a tool like Omnivore back at my disposal. In addition to its read-it-later functionality, subscribing to RSS feeds and email newsletters with the very same application is an absolute game changer for me - it decluttered my email inboxes significantly and made it easier to keep track of things I should actually be focusing on.
 
 Having the possibility of adding a reading list to my personal website based on data that I'm already aggregating anyway is a great bonus and might help others discover articles, posts etc. that they might have missed otherwise. It's a really convenient solution that can be added to almost any kind of website in a matter of hours.
+
+## Updates:
+
+Clayton Errington referenced this article when he built his own /bookmarks page. He also wrote about it: {% ext "Showing Omnivore links as Bookmarks", "https://claytonerrington.com/blog/showing-omnivore-links-as-bookmarks/" %}.

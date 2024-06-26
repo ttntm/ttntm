@@ -8,6 +8,7 @@ tags:
   - hugo
   - serverless
 image: /img/blog/code.jpg
+updated: 2023-06-14T19:30:00Z
 ---
 
 ## "Static" Comments...?
