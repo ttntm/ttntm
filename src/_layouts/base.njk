@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% include 'head.njk' %}
+  {% include "components/head.njk" %}
 </head>
 <body class="{{ 'h-card' if isFront }}">
   <header id="top">
-    {% include 'header.njk' %}
+    {% include "components/header.njk" %}
   </header>
   <main class="mt2">
     {{ content | safe }}
   </main>
   <section class="wave"></section>
   <footer id="footer">
-    {% include 'footer.njk' %}
+    {% include "components/footer.njk" %}
   </footer>
-  {% include 'nav.mobile.njk' %}
+  {% include "components/nav.mobile.njk" %}
   {% set js %}
-    {% include 'js/useTheme.js' %}
+    {% include "js/useTheme.js" %}
   {% endset %}
   <script>
     {{ js | jsmin | safe }}

@@ -14,7 +14,7 @@ layout: base.njk
       Last update: <time class="dt-published" datetime="{{ updated | date('YYYY-MM-DD') }}">{{ updated | date('MMMM DD, YYYY') }}</time>
     </p>
   {% endif %}
-  {% include "post.tags.njk" %}
+  {% include "components/post.tags.njk" %}
   <div class="hr shadow"></div>
   <div class="toc-wrapper mb1">
     <details>
@@ -36,15 +36,15 @@ layout: base.njk
 </article>
 <section class="container">
   <div class="hr shadow mt2 mb2"></div>
-  {% include "post.nextprev.njk" %}
+  {% include "components/post.nextprev.njk" %}
   <div class="hr shadow mt2 mb2"></div>
   <div class="flex justify-content-center gap2">
-    {% include "post.buttons.njk" %}
+    {% include "components/post.buttons.njk" %}
   </div>
 </section>
 {% set js %}
-  {% include 'js/useCopyShare.js' %}
-  {% include 'js/useProgress.js' %}
+  {% include "js/useCopyShare.js" %}
+  {% include "js/useProgress.js" %}
 {% endset %}
 <script>
   {{ js | jsmin | safe }}

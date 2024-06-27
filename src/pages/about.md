@@ -28,14 +28,14 @@ In short: when I'm not in front of a screen working, watching movies or playing 
 
 ...and if you want to know what I'm doing _right now_, check out my [/now page](/now/) 🚀
 
-{% include "about.pgp.njk" %}
+{% include "components/about.pgp.njk" %}
 
-{% include "about.highlights.njk" %}
+{% include "components/about.highlights.njk" %}
 
 <div class="hr shadow mt2 mb2"></div>
 
 {% contact %}
-  {% include "about.contact.njk" %}
+  {% include "components/about.contact.njk" %}
 {% endcontact %}
 
 <p id="cat" class="text-center mt2 mb0" style="line-height: 0;">

@@ -6,7 +6,7 @@ layout: base.njk
 permalink: /notes/index.html
 ---
 <section class="container h-feed">
-  {%- from 'macro.headingRSS.njk' import header %}
+  {%- from 'macros/macro.headingRSS.njk' import header %}
   {{ header({ text: title, link: '/notes/feed.xml', title: title }) }}
   <div class="hr shadow"></div>
   <section class="post">

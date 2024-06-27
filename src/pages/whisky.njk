@@ -33,7 +33,7 @@ permalink: /whisky/index.html
     </div>
     {% for item in collections.whisky | sortByOrder | reverse %}
       {% if item.data.status != "wanted" %}
-        {% include "wsk.card.njk" %}
+        {% include "components/wsk.card.njk" %}
       {% endif %}
     {% endfor %}
   </section>
@@ -42,7 +42,7 @@ permalink: /whisky/index.html
     <div class="hr shadow"></div>
     {% for item in collections.whisky | sortByText('name') %}
       {% if item.data.status == "wanted" %}
-        {% include "wsk.card.njk" %}
+        {% include "components/wsk.card.njk" %}
       {% endif %}
     {% endfor %}
   </section>
@@ -57,8 +57,8 @@ permalink: /whisky/index.html
   }
 </style>
 {% set js %}
-  {% include 'js/useCollectionFilter.js' %}
-  {% include 'js/whisky.js' %}
+  {% include "js/useCollectionFilter.js" %}
+  {% include "js/whisky.js" %}
 {% endset %}
 <script>
   {{ js | jsmin | safe }}

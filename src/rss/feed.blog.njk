@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  {% include "feed.header.njk" %}
+  {% include "components/feed.header.njk" %}
   {% if collections.blog %}
     <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   {% endif %}

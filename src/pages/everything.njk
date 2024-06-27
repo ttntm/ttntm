@@ -5,7 +5,7 @@ layout: base.njk
 permalink: /everything/index.html
 ---
 <section class="container h-feed">
-  {%- from 'macro.headingRSS.njk' import header %}
+  {%- from 'macros/macro.headingRSS.njk' import header %}
   {{ header({ text: title, link: '/everything.xml', title: title }) }}
   <div class="hr shadow mb2"></div>
   <p class="p-summary">
@@ -23,7 +23,7 @@ permalink: /everything/index.html
         {%- endset -%}
         <li class="h-entry">
           <div class="hr shadow mt2 mb2"></div>
-          {% include "activity.item.njk" %}
+          {% include "components/activity.item.njk" %}
         </li>
       {% endif %}
     {% endfor %}

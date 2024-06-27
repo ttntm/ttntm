@@ -68,7 +68,7 @@ Rendering the directory uses two consecutive loops that process the collection:
     </div>
     <ul class="grid grid3 gap2 my1">
       {% for page in letterPages %}
-        {% include "card.njk" %}
+        {% include "components/card.njk" %}
       {% endfor %}
     </ul>
   </article>

@@ -98,7 +98,7 @@ permalink: /tags/{{ tag | slugify }}/
 ---
 <!-- omitted wrapper html -->
   {% for post in collections[ tag ] | reverse %}
-    {% include "post.preview.njk" %}
+    {% include "components/post.preview.njk" %}
   {% endfor %}
 <!-- omitted wrapper html -->{% endraw %}
 ```

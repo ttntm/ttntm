@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% include 'head.njk' %}
+  {% include "components/head.njk" %}
 </head>
 <body>
   <main class="flex">
     {{ content | safe }}
   </main>
   {% set js %}
-    {% include 'js/useTheme.js' %}
+    {% include "js/useTheme.js" %}
   {% endset %}
   <script>
     {{ js | jsmin | safe }}

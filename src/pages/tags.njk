@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: true
   </h1>
   <div class="hr shadow mb2"></div>
   {% for post in collections[ tag ] | reverse %}
-    {% include "post.preview.njk" %}
+    {% include "components/post.preview.njk" %}
     <div class="hr shadow mt2 mb2"></div>
   {% endfor %}
   <div class="flex gap2">

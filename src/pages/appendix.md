@@ -21,7 +21,7 @@ Feel free to <a href="mailto:ttntm@pm.me?subject=About your website">email me</a
 
 <div class="hr shadow mt2 mb2"></div>
 
-{% include "apx.buttons.njk" %}
+{% include "components/apx.buttons.njk" %}
 
 ## Carbon Rating
 
@@ -58,4 +58,4 @@ All content on this site is licensed under the Attribution-NonCommercial-ShareAl
 
 This website is a proud member of:
 
-{% include "apx.stats.njk" %}
+{% include "components/apx.stats.njk" %}
