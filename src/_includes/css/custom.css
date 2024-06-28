@@ -1,18 +1,18 @@
 /* titillium-web-regular - latin */
 @font-face {
+  font-display: optional;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 400;
-  font-display: optional;
   src: local(''), url('/fonts/titillium-web-v9-latin-regular.woff2') format('woff2');
 }
 
 /* titillium-web-700 - latin */
 @font-face {
+  font-display: optional;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-display: optional;
   src: local(''), url('/fonts/titillium-web-v9-latin-700.woff2') format('woff2');
 }
 
@@ -157,8 +157,8 @@
 
 ::selection,
 ::-moz-selection {
-  background: var(--selectionBg);
   color: var(--selectionText);
+  background: var(--selectionBg);
 }
 
 html, body {
@@ -240,17 +240,17 @@ a[href^="https://"].ext,
   &::after {
     --size: .875em;
 
-    display: inline-block;
-    content: "";
-    color: var(--text);
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%235E81AC' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none' /%3E%3Cpath d='M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6' /%3E%3Cpath d='M11 13l9 -9' /%3E%3Cpath d='M15 4h5v5' /%3E%3C/svg%3E");
     background-position: center;
-    background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 2px;
-    line-height: var(--size);
-    width: var(--size);
+    background-size: contain;
+    color: var(--text);
+    content: '';
+    display: inline-block;
     height: var(--size);
+    line-height: var(--size);
+    margin-left: 2px;
+    width: var(--size);
   }
 }
 
@@ -306,12 +306,12 @@ blockquote {
   position: relative;
 
   &::before {
-    font-family: Arial;
-    content: '\201C';
     color: var(--sec);
+    content: '\201C';
+    font-family: Arial;
     font-size: 4em;
-    position: absolute;
     left: 12px;
+    position: absolute;
     top: -8px;
   }
 
@@ -383,11 +383,11 @@ img {
 }
 
 button {
-  cursor: pointer;
   background-color: transparent;
+  border: 0;
+  cursor: pointer;
   font-family: var(--font-sans);
   font-size: 1rem;
-  border: 0;
   padding: 0;
 
   &:disabled {
@@ -417,8 +417,8 @@ main {
 
   blockquote {
     font-size: 1.25rem;
-    margin-right: 1rem;
     margin-left: 1rem;
+    margin-right: 1rem;
     padding-bottom: 1.5rem;
     padding-left: 3rem;
     text-align: justify;
@@ -450,18 +450,18 @@ main {
   &.sticky {
     --borderRadius: .0rem;
 
-    background: var(--bg);
-    background: linear-gradient(to bottom, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    position: fixed;
+    background: var(--bg);
+    background: linear-gradient(to bottom, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
     border-color: var(--border);
     border-radius: var(--borderRadius);
-    width: 100%;
-    top: 0;
     left: 0;
-    right: 0;
     /* margin: 1rem auto; */
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
     z-index: 50;
 
     & .logo {
@@ -544,11 +544,11 @@ main {
 
 .navMobile {
   background-color: var(--navMobileBg);
+  border-top: 1px solid var(--navMobileBorder);
   bottom: 0;
   left: 0;
-  right: 0;
   position: fixed;
-  border-top: 1px solid var(--navMobileBorder);
+  right: 0;
 
   & .nav-mobile-icon {
     color: var(--navMobileLink);
@@ -567,8 +567,8 @@ footer {
   color: var(--footerText);
   flex-shrink: 0;
   margin-top: 4rem;
-  padding-top: 1rem;
   padding-bottom: 5rem;
+  padding-top: 1rem;
   text-align: center;
 
   & a,
@@ -597,12 +597,11 @@ footer button {
 @media(min-width:768px) {
   .wave {
     background-image: var(--wave);
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 75px;
     margin-bottom: -1px; /* just in case */
-
   }
 
   body:not(:has(.home)) .wave {
@@ -631,10 +630,10 @@ footer button {
 .btn,
 .btn-pin,
 .btn-theme-header {
-  color: var(--btnText);
   background-color: transparent;
   border: 0;
   border-radius: 99999px;
+  color: var(--btnText);
   padding: 0;
   text-decoration: none;
 }
@@ -642,8 +641,8 @@ footer button {
 .btn {
   background-color: var(--btnBg);
   box-shadow: 0 .125rem .25rem var(--shadowColor);
-  padding: .5rem 1.5rem;
   font-weight: bold;
+  padding: .5rem 1.5rem;
 
   &:active {
     text-decoration: none;
@@ -702,12 +701,12 @@ footer button {
 }
 
 .card {
-  display: block;
   background-color: var(--bg);
   background: linear-gradient(to bottom right, color-mix(in srgb, var(--cardBg), transparent 75%), var(--bg));
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid var(--border);
+  display: block;
   height: 100%;
   padding: 2rem;
 }
@@ -753,37 +752,37 @@ footer button {
   background-color: var(--border);
   background: linear-gradient(to bottom, var(--hr), var(--bg));
   border-radius: var(--barBorderRadius);
+  height: 256px;
+  margin-left: -5rem;
   position: fixed;
   top: 7.5rem;
-  height: 256px;
   width: .125rem;
-  margin-left: -5rem;
 
   & .progress-bar__inner {
     background-color: var(--barColor);
     background: linear-gradient(45deg, var(--barColor), color-mix(in srgb, var(--barColor), transparent 75%));
     border-radius: var(--barBorderRadius);
-    width: 100%;
     height: 100%;
     transform-origin: 0 0;
     transform: scaleY(0);
     transition: transform .35s ease-out;
+    width: 100%;
   }
 
   &::after {
     --size: .5rem;
 
-    display: block;
-    border-radius: var(--barBorderRadius);
     background-color: var(--barColor);
-    content: '';
-    position: absolute;
+    border-radius: var(--barBorderRadius);
     bottom: calc(var(--size) * -1);
-    left: -3px;
-    width: var(--size);
+    content: '';
+    display: block;
     height: var(--size);
+    left: -3px;
     opacity: 0;
+    position: absolute;
     transition: opacity .35s ease-out;
+    width: var(--size);
   }
 
   &.done::after {
@@ -830,8 +829,8 @@ summary h2 {
     }
 
     & ol:first-child {
-      margin-top: .5rem;
       margin-bottom: 1.5rem;
+      margin-top: .5rem;
     }
   }
 }
@@ -863,11 +862,11 @@ summary h2 {
 
   & summary img {
     align-self: stretch;
+    filter: grayscale(.75);
     height: auto;
     max-height: 100%;
     max-width: 125px;
     object-fit: cover;
-    filter: grayscale(.75);
     transition: filter .35s ease;
   }
 
@@ -880,13 +879,13 @@ summary h2 {
   }
 
   & .wsk-card__date-badge {
-    position: absolute;
-    top: 0;
-    right: 0;
     background-color: var(--border);
     font-size: .875rem;
     line-height: 1;
     padding: .5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 
   & .wsk-card__inner {
@@ -903,8 +902,8 @@ summary h2 {
       border-radius: 1rem;
       max-height: 300px;
       max-width: 100%;
-      width: 100%;
       object-fit: cover;
+      width: 100%;
 
       &:hover {
         cursor: zoom-in;
@@ -949,9 +948,9 @@ summary h2 {
 
 .home {
   display: grid;
+  gap: 3rem;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  gap: 3rem;
   max-width: calc(100vw - 3rem);
 }
 
@@ -977,11 +976,11 @@ summary h2 {
 
 @media(min-width:768px) {
   .home {
+    gap: 4rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-auto-flow: column;
-    max-width: calc(100vw - 12vw);
-    gap: 4rem;
     margin-bottom: 2rem;
+    max-width: calc(100vw - 12vw);
   }
 
   .home-intro {
@@ -1065,9 +1064,9 @@ summary h2 {
   }
 
   & #refs {
-    padding-top: .5rem;
     border-top: 1px solid var(--border);
     margin-top: 1.5rem;
+    padding-top: .5rem;
     width: 50%;
   }
 }
@@ -1150,7 +1149,7 @@ summary:active {
 }
 
 /*
-  hacky desktop safari `summary h2` fix
+  hacky desktop safari fixes
   src: https://wojtek.im/journal/targeting-safari-with-css-media-query
 */
 @supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) {

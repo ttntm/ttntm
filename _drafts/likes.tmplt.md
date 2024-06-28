@@ -16,6 +16,7 @@ date: 202Y-MM-DDT10:30:00Z
   Looks gooood, should give this a try asap
 - [Anna's Archive](https://annas-archive.org)
   "The largest truly open library in human history"
-- []()
+- [Should I Use a Carousel?](https://shouldiuseacarousel.com)
+  A good question with a simple answer...
 - []()
 - []()

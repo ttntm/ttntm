@@ -1,3 +1,9 @@
+/**
+ * @param {{
+ *   filterParam: string
+ *   listingClass: string
+ * }} config
+ */
 function useCollectionFilter(config) {
   function updateSearchParams(term, value) {
     const url = new URL(window.location.href)
@@ -17,7 +23,7 @@ function useCollectionFilter(config) {
     const filterBtns = document.querySelectorAll('.filter-btn')
     const filterParam = config.filterParam
     const listings = document.querySelectorAll(config.listingClass)
-    const resetBtns = document.querySelectorAll(`[data-reset="true"]`)
+    const resetBtns = document.querySelectorAll('[data-reset="true"]')
 
     function applyFilter(term, value) {
       filterBtns.forEach((btn) => {

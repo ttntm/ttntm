@@ -168,12 +168,10 @@
   }
 
   .d-sm-flex {
-    display: -ms-flexbox !important;
     display: flex !important;
   }
 
   .d-sm-inline-flex {
-    display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
 }
@@ -304,8 +302,8 @@ small,
 
 .list-reset {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .circle {
@@ -339,8 +337,8 @@ small,
 }
 
 .py1 {
-  padding-top: 1rem !important;
   padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
 }
 
 .pr1 {
@@ -437,15 +435,15 @@ small,
 }
 
 .sr-only {
-  position: absolute;
-  width: 1px;
+  border-width: 0;
+  clip: rect(0, 0, 0, 0);
   height: 1px;
-  padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  padding: 0;
+  position: absolute;
   white-space: nowrap;
-  border-width: 0;
+  width: 1px;
 }
 
 .hover-scale,
@@ -487,9 +485,9 @@ details[open] {
 
     & summary {
       background: var(--bg);
+      box-shadow: 0 .125rem .25rem var(--shadowColor);
       position: sticky;
       top: 0;
-      box-shadow: 0 .125rem .25rem var(--shadowColor);
     }
   }
 }

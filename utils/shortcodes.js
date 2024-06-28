@@ -17,7 +17,7 @@ export default {
     // shortcode that creates a custom filter for an input collection (i.e. whisky)
     let displayLength = 0
     const terms = collection.reduce((map, currentItem) => {
-    const data = currentItem.data ?? currentItem
+      const data = currentItem.data ?? currentItem
 
       // `Boolean(o[null] !== null)` => `true` -- to make sure this function
       // does not break if `excludeKey` and `excludeValue` are omitted

@@ -225,6 +225,6 @@ Right now, I'm really glad that I have a tool like Omnivore back at my disposal.
 
 Having the possibility of adding a reading list to my personal website based on data that I'm already aggregating anyway is a great bonus and might help others discover articles, posts etc. that they might have missed otherwise. It's a really convenient solution that can be added to almost any kind of website in a matter of hours.
 
-## Updates:
+## Updates
 
 Clayton Errington referenced this article when he built his own /bookmarks page. He also wrote about it: {% ext "Showing Omnivore links as Bookmarks", "https://claytonerrington.com/blog/showing-omnivore-links-as-bookmarks/" %}.
