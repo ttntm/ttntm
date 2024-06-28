@@ -28,12 +28,6 @@
         "feed": "https://garrit.xyz/rss.xml"
       },
       {
-        "title": "jrsinclair.com",
-        "description": "James Sinclair",
-        "url": "https://jrsinclair.com",
-        "feed": "https://jrsinclair.com/index.rss"
-      },
-      {
         "title": "kayserifserif.place",
         "description": "Katherine Yang",
         "url": "https://kayserifserif.place",
