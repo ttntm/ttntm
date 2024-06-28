@@ -1,9 +1,3 @@
-/**
- * @param {{
- *   filterParam: string
- *   listingClass: string
- * }} config
- */
 function useCollectionFilter(config) {
   function updateSearchParams(term, value) {
     const url = new URL(window.location.href)
