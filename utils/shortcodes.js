@@ -40,12 +40,13 @@ export default {
         return map
       }
     }, {})
-
-    return [`<li>
+    const resetBtn = `<li>
       <button class="filter-btn filter-btn__active shadow" data-reset="true" data-value="${filterKey}">
         All&nbsp;(${displayLength})
       </button>
-    </li>`]
+    </li>`
+
+    return [resetBtn]
       .concat(Object.keys(terms)
         .sort()
         .map((t) => {

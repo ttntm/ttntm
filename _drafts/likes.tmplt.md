@@ -32,8 +32,10 @@ date: 202Y-MM-DDT10:30:00Z
   "The largest truly open library in human history"
 - [Should I Use a Carousel?](https://shouldiuseacarousel.com)
   A good question with a simple answer...
-- []()
-- []()
+- [1x Engineer](https://1x.engineer)
+  Definitely not a 10x engineer
+- [Theme Machine](https://tools.keithjgrant.com/theme-machine/)
+  Two color tools for practical CSS development, a color picker and a palette builder
 - []()
 - []()
 - []()
