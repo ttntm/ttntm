@@ -58,6 +58,12 @@
         "feed": "https://www.mikestreety.co.uk/rss-all.xml"
       },
       {
+        "title": "prma.dev",
+        "description": "Perma",
+        "url": "https://prma.dev",
+        "feed": "https://prma.dev/index.xml"
+      },
+      {
         "title": "rootCompute",
         "description": "rootCompute's personal website",
         "url": "https://rootcompute.neocities.org"
