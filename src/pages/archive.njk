@@ -13,7 +13,7 @@ isBlogHome: true
   <h2 class="h3 text-center">
     Explore
   </h2>
-  <ul class="list-reset flex justify-content-center flex-wrap mb2" style="gap: .75rem;">
+  <ul class="list-reset flex justify-content-center flex-wrap" style="gap: .75rem; margin-bottom: 4rem;">
     {% for tag in collections.blog | getCollectionTags | sort %}
       <li class="tag">
         <a href="/tags/{{ tag | slugify }}/">
@@ -25,8 +25,14 @@ isBlogHome: true
     {% endfor %}
   </ul>
   {% for year, yearPosts in collections.postsByYear %}
+    {% if not loop.first %}
+      <div class="hr shadow mt2"></div>
+      <p class="post small text-center mt1" style="margin-bottom: 4rem;">
+        <a href="#top">↑&nbsp;Back to top</a>
+      </p>
+    {% endif %}
     <hgroup class="text-center">
-      <h2 class="tight {{ 'mt2' if not loop.first }}"><span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span>&nbsp;{{ year }}&nbsp;<span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span></h2>
+      <h2 class="tight {{ 'mt2' if not loop.first }}"><span style="font-family: Arial, Helvetica, sans-serif; font-weight: normal;">&lurdshar;</span>&nbsp;{{ year }}&nbsp;<span style="font-family: Arial, Helvetica, sans-serif; font-weight: normal;">&ldrushar;</span></h2>
       <p class="small">Posts published: {{ yearPosts.length }}</p>
     </hgroup>
     <div class="hr shadow mb2"></div>
