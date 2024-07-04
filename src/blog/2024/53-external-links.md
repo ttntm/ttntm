@@ -6,6 +6,7 @@ description: 'Re-evaluating external links, target="_blank", and their styling.'
 tags:
   - css
   - thoughts
+  - website
 image: /img/blog/content.jpg
 ---
 

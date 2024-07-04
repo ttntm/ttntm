@@ -17,9 +17,12 @@ permalink: /tags/{{ tag | slugify }}/
 eleventyExcludeFromCollections: true
 ---
 <section class="container">
-  <h1 class="h2 tight-md m0">
+  <h1 class="h2">
     {{ title }}
   </h1>
+  <p class="m0">
+    {{ tagData[ tag ] }}
+  </p>
   <div class="hr shadow mb2"></div>
   {% for post in collections[ tag ] | reverse %}
     {% include "components/post.preview.njk" %}

@@ -15,6 +15,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.19.3
+
+- Added descriptions for tags on pages listing tagged content
+- Updated the icon before/after the year headings on the blog archive page
+
 ## 3.19.2
 
 - Added a "Table of Contents" section to the blog post layout

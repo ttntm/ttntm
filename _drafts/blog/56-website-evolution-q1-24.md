@@ -26,7 +26,7 @@ URL: [/albums](/albums/)
 
 Creating this page was something that I wanted to do for a long time. Thinking about the music I love also lead to the posts in the [#albums](/tags/albums/) series, and I had a lot of fun writing them. Some of these posts also lead to interesting email conversations that I enjoyed very much.
 
-Building the page turned into a second use case for my custom filter, and I [wrote about that](/blog/building-a-custom-filter-for-eleventy-collections) in detail recently. I also added a "Layout" toggle to the page that currently supports both list and grid views.
+Building the page turned into a second use case for my custom filter, and I [wrote about that](/blog/building-a-custom-filter-for-eleventy-collections/) in detail recently. I also added a "Layout" toggle to the page that currently supports both list and grid views.
 
 ### Everything
 
@@ -91,7 +91,7 @@ In addition to that, the links in the main navigation were also updated:
 - /likes was added to the header and footer navigation, replacing /work
 
 There's also been a significant change of how (external) links are handled: I removed `target="_blank"` from wherever it was used, and decided that external links should display with a dedicated icon instead.
-I also wrote a post called [external links and target="_blank"](/blog/external-links-and-target-blank) about my recent insight regarding this topic.
+I also wrote a post called [external links and target="_blank"](/blog/external-links-and-target-blank/) about my recent insight regarding this topic.
 
 ### Reading Progress
 
@@ -102,7 +102,7 @@ The progress indicator is enabled for all blog posts, but it can also be used fo
 The code that manages this progress indicator can be found here: {% ext "useProgress.js", "https://github.com/ttntm/ttntm/blob/master/src/_includes/js/useProgress.js" %}
 
 A nice detail: I'm using `window.getComputedStyle()` to determine the visibility of the progress indicator and only run the code if the element actually is visible. It's hidden on mobile devices, for example, and there's no need to waste resources on an event handler for a hidden element.
-More information can be found in a recent note I wrote about it: [JavaScript: element visibility](http://localhost:8080/notes/#35)
+More information can be found in a recent note I wrote about it: [JavaScript: element visibility](/notes/#35)
 
 ## Look and Feel
 
@@ -114,7 +114,7 @@ Not too much happened here:
 
 ## Setup and Other Technical Stuff
 
-I upgraded to Eleventy 3.0.0-alpha.* and wrote about it: [Upgraded to Eleventy v3](/blog/upgraded-to-eleventy-v3)
+I upgraded to Eleventy 3.0.0-alpha.* and wrote about it: [Upgraded to Eleventy v3](/blog/upgraded-to-eleventy-v3/)
 
 I also restructured my `_includes` folder because it was getting way too messy.
 There are 3 subfolders now:
@@ -128,4 +128,4 @@ There are 3 subfolders now:
 - `/macros`
   Nunjucks macros
 
-The new structure works better for me, but updating all my old `include` statements manually would've been a lot of pain. I'm happy I figured out how to use RegEx-based search and replace with append in VS Code, and I shared that as a note: [VS Code: RegEx replace and append](http://localhost:8080/notes/#37)
+The new structure works better for me, but updating all my old `include` statements manually would've been a lot of pain. I'm happy I figured out how to use RegEx-based search and replace with append in VS Code, and I shared that as a note: [VS Code: RegEx replace and append](/notes/#37)
