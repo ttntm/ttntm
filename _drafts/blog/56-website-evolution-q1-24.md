@@ -1,7 +1,7 @@
 ---
 title: "Website Evolution: Q2 2024"
 slug: website-evolution-q2-2024
-date: 2024-07-04T10:30:00Z
+date: 2024-07-09T10:30:00Z
 description: A summary of updates and enhancements of this website in Q2 2024.
 tags:
   - evolution
@@ -70,7 +70,7 @@ I've added a new "Table of Contents" section to my blog posts which should help 
 }
 ```
 
-Implementing linkable headings for Markdown content was a prerequisite for that, and I'm happy I finally did that (using `markdown-it-anchor`) - it's been on my list of website improvements for a very long time.
+Implementing linkable headings for Markdown content was a prerequisite for that, and I'm happy I finally did that (using `markdown-it-anchor`) - it's been on my list of website improvements for a very long time. I've also added an override front matter key - `showToc` - to my `post` layout. It can be used to hide the ToC, even when it's not empty, because it'd be a bit silly to have one there (i.e. posts with only one heading).
 
 Furthermore, my blog post template (and the RSS feed) now support a "last update" date. It gets displayed in the post header, right underneath the paragraph with the publication date and reading time.
 
@@ -111,6 +111,8 @@ Not too much happened here:
 - An SVG wave background image was added to the footer, it's less boring now
 - `position: sticky;` was used to put the ever-growing table of contents of the /notes page into a scrollable box
 - The layout of individual /likes entries was updated
+- Descriptions for tags were added to pages listing tagged content
+- The icon before/after the year headings on the blog archive page was changed
 
 ## Setup and Other Technical Stuff
 

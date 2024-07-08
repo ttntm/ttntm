@@ -8,6 +8,7 @@ tags:
   - personal
   - series
 image: /img/blog/empty.jpg
+showToc: false
 ---
 
 I saw a couple of similar posts from people's websites in my RSS reader recently, so here's my extended "frozen [/uses](/uses) page" for late 2023.

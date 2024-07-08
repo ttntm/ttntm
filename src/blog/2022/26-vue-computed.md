@@ -7,6 +7,7 @@ tags:
   - thoughts
   - vue
 image: /img/blog/code.jpg
+showToc: false
 ---
 
 Coincidences sometimes happen, and last night was one such occasion. I was casually checking my inbox and read Michael Thiessen's newsletter, one of my favorites when it comes to Vue. This particular issue dealt with Vue's "most important feature", computed properties - a statement that I tend to agree with and also one that made me write better code when working on version 2 of {% ext "aitrack.work" "https://aitrack.work" %}, my FOSS time tracking companion app.

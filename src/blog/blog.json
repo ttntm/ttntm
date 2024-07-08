@@ -2,5 +2,6 @@
   "inEverything": true,
   "layout": "post.njk",
   "permalink": "blog/{{ slug }}/index.html",
-  "type": "Blog Post"
+  "type": "Blog Post",
+  "showToc": true
 }

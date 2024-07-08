@@ -7,6 +7,7 @@ tags:
   - guide
   - vue
 image: /img/blog/code.jpg
+showToc: false
 ---
 
 A long time ago, I decided to use {% ext "vue-quill" "https://github.com/vueup/vue-quill" %} for recept0r, my personal recipes app.

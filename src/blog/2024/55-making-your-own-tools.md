@@ -7,6 +7,7 @@ tags:
   - personal
   - thoughts
 image: /img/blog/content.jpg
+showToc: false
 ---
 
 Growing up with computers and the internet, my idea of a _tool_ became equivalent to software at a rather early age. Actual tools, in terms of hammers, power tools or screwdrivers, certainly existed in our household and were also interesting enough for me to learn how to use them at some point. However, none of that came quite close to how it felt to build my first website or to set up a brand-new wireless home network.

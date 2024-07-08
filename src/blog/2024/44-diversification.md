@@ -8,6 +8,7 @@ tags:
   - serverless
 image: /img/blog/content.jpg
 updated: 2024-05-28T10:30:00Z
+showToc: false
 ---
 
 Sometimes, all it takes to question our own choices is just a headline. Most recently, that headline was: "Netlify just sent me a $104K bill for a simple static site".

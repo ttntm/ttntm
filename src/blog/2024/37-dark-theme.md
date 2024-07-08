@@ -7,6 +7,7 @@ tags:
   - news
   - website
 image: /img/blog/empty.jpg
+showToc: false
 ---
 
 **This website supports dark mode now** 🌙.

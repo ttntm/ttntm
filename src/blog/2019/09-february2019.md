@@ -6,7 +6,7 @@ description: A brief update from February 2019.
 tags:
   - news
   - website
-draft: true
+showToc: false
 ---
 
 Judging by the silence here, I must have been busy...
