@@ -6,6 +6,12 @@ date: 202Y-MM-DDT10:30:00Z
 
 ## Articles
 
+- [Unsafe Pricing at Any Scale ](https://melkat.blog/p/unsafe-pricing)
+  Cool article with some very interesting suggestions for things you might want to consider doing
+- [A Rant about Front-end Development](https://blog.frankmtaylor.com/2024/06/20/a-rant-about-front-end-development/)
+  A good rant, worth reading
+- [Microfeatures I Love in Blogs and Personal Websites](https://danilafe.com/blog/blog_microfeatures/)
+  A cool list, glad to have implemented many of them already
 - []()
 - []()
 - []()

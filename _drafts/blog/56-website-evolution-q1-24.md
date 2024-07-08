@@ -60,7 +60,7 @@ Additional features and changes enhancing the website's functionality.
 
 ### Blog Posts
 
-I've added a new "Table of Contents" section to my blog posts which should help navigate the longer ones. It's a `details/summary` element that's collapsed by default. I'm using the `eleventy-plugin-toc` to create the ToC, and there's also a bit of modern CSS that hides it if it should ever be empty, which can happen for shorter posts:
+I've added a new "(Table of) Contents" section to my blog posts which should help navigate the longer ones. It's a `details/summary` element that's collapsed by default. I'm using the `eleventy-plugin-toc` to create the ToC, and there's also a bit of modern CSS that hides it if it should ever be empty, which can happen for shorter posts:
 
 ```css
 .toc-wrapper {

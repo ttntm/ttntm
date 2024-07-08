@@ -52,6 +52,12 @@
         "feed": "https://www.lkhrs.com/blog/index.xml"
       },
       {
+        "title": "melkat.blog",
+        "description": "Melanie Kat",
+        "url": "https://melkat.blog",
+        "feed": "https://melkat.blog/rss.xml"
+      },
+      {
         "title": "mikestreety.co.uk",
         "description": "Mike Street",
         "url": "https://www.mikestreety.co.uk",
