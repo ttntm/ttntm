@@ -12,7 +12,8 @@ date: 202Y-MM-DDT10:30:00Z
   A good rant, worth reading
 - [Microfeatures I Love in Blogs and Personal Websites](https://danilafe.com/blog/blog_microfeatures/)
   A cool list, glad to have implemented many of them already
-- []()
+- [Every website and web app should have a service worker](https://gomakethings.com/every-website-and-web-app-should-have-a-service-worker/)
+  Definitely something to consider
 - []()
 - []()
 - []()
@@ -32,5 +33,6 @@ date: 202Y-MM-DDT10:30:00Z
   Interesting, didn't know about that one
 - [edna](https://github.com/kjk/edna)
   A pretty cool "note taking app for developers and power users"
-- []()
+- [Johnny.Decimal](https://jdcm.al)
+  An interesting system designed to "help you find things quickly, with more confidence, and less stress"
 - []()
