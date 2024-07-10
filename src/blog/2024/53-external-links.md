@@ -1,5 +1,5 @@
 ---
-title: 'External links and target="_blank"'
+title: 'External Links and target="_blank"'
 slug: external-links-and-target-blank
 date: 2024-05-26T10:30:00Z
 description: 'Re-evaluating external links, target="_blank", and their styling.'

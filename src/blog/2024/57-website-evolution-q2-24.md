@@ -1,7 +1,7 @@
 ---
 title: "Website Evolution: Q2 2024"
 slug: website-evolution-q2-2024
-date: 2024-07-09T10:30:00Z
+date: 2024-07-10T17:15:00Z
 description: A summary of updates and enhancements of this website in Q2 2024.
 tags:
   - evolution
@@ -12,7 +12,7 @@ image: /img/blog/website-evolution-q2-2024.jpg
 
 There weren't quite as many changes in Q2 2024 as there were in Q1, but I managed to do lots of cool things nevertheless.
 
-Part of the website [#evolution](/tags/albums/) series.
+Part of the website [#evolution](/tags/evolution/) series.
 
 Just a short remark before we get started: this post will try to add context to changes, updates and enhancements. An uncommented chronology of changes can always be found in the [Changelog](/changelog/).
 
@@ -83,7 +83,7 @@ In addition to that, blog posts are using the new [reading progress indicator](#
 
 Some cool stuff happened to my website's navigation.
 
-I added the option of making the header sticky, using persistence in `localStorage`. It's a cool feature that leaves the decision of whether the header should be fixed to the top in the hands of the user.
+I added the option of making the header sticky, using persistence in `localStorage`. It's a cool feature that leaves the decision of whether the header should be fixed at the top of the page in the hands of the user.
 
 In addition to that, the links in the main navigation were also updated:
 
@@ -91,7 +91,7 @@ In addition to that, the links in the main navigation were also updated:
 - /likes was added to the header and footer navigation, replacing /work
 
 There's also been a significant change of how (external) links are handled: I removed `target="_blank"` from wherever it was used, and decided that external links should display with a dedicated icon instead.
-I also wrote a post called [external links and target="_blank"](/blog/external-links-and-target-blank/) about my recent insight regarding this topic.
+I also wrote a post called [External Links and target="_blank"](/blog/external-links-and-target-blank/) about my recent insight regarding this topic.
 
 ### Reading Progress
 
