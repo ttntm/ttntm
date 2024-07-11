@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.19.4
+
+- Added years to the "Explore" section of the blog
+
 ## 3.19.3
 
 - Added descriptions for tags on pages listing tagged content

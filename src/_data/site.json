@@ -1,5 +1,5 @@
 {
-  "version": "3.19.3",
+  "version": "3.19.4",
   "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and playground. Everything, and nothing.",
@@ -33,15 +33,15 @@
       "img": "music.svg"
     },
     {
-      "title": "Metro Exodus",
+      "title": "The First Descendant",
       "img": "game.svg"
     },
     {
-      "title": "Dark Matter",
+      "title": "Wayward Pines",
       "img": "movie.svg"
     },
     {
-      "title": "Talisker 10yo",
+      "title": "Clynelish 14yo",
       "img": "drink.svg",
       "link": "/whisky/#log"
     }

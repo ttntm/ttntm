@@ -1,21 +1,21 @@
 ---
 title: Now
-description: "What I'm doing now: a public reminder of what I'm (supposed to be...) doing."
+description: "A public reminder of what I'm (supposed to be...) doing now."
 layout: page.njk
 permalink: /now/index.html
 ---
 
 <img src="/img/now.jpg" class="img-center img-fluid w100" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Last updated:** June 24th 2024
+**Last updated:** July 11th 2024
 
-**Writing**: finishing the [#albums](/tags/albums/) series, preparing an article about filtering 11ty collections
+**Writing**: trying to finish the [#albums](/tags/albums/) series
 
 **Books**: Dune Messiah, Leviathan Wakes
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Metro Exodus, Tunic
+**Games**: The First Descendant, Metro Exodus, Tunic
 
 **Drinks**: Protein shakes, and the occasional beer
 
