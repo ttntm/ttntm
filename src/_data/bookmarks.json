@@ -117,14 +117,14 @@
         "url": "https://www.oldbookillustrations.com"
       },
       {
-        "title": "Public Work",
-        "description": "A search engine for public domain content.",
-        "url": "https://public.work"
-      },
-      {
         "title": "Pixel Me",
         "description": "Convert your photo into pixel art.",
         "url": "https://pixel-me.tokyo/en"
+      },
+      {
+        "title": "Public Work",
+        "description": "A search engine for public domain content.",
+        "url": "https://public.work"
       },
       {
         "title": "Rainy Mood",
