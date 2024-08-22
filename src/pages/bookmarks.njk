@@ -60,8 +60,17 @@ permalink: /bookmarks/index.html
         </li>
       {% endfor %}
     </ul>
-    {% if not loop.last %}
+    {# {% if not loop.last %} #}
       <div class="hr shadow mt2 mb2"></div>
-    {% endif %}
+    {# {% endif %} #}
   </article>
 {%- endfor -%}
+<div class="text-center">
+  <h2>More Sites Like This?</h2>
+  <p>Explore the Wayward Web, a collection of personal guides to the human side of the Web.</p>
+  <div class="flex align-items-center justify-content-center gap1">
+    <a href="https://waywardweb.org/sites/ttntm.me/previous">&larr;<!-- left arrow --></a>
+    <a href="https://waywardweb.org">The Wayward Webring</a>
+    <a href="https://waywardweb.org/sites/ttntm.me/next">&rarr;<!-- right arrow --></a>
+  </div>
+</div>
