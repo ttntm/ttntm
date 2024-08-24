@@ -9,7 +9,7 @@ showProgress: true
 
 A list of the things I'm interested in and a constant work in progress that will grow over time.
 
-**Last updated:** May 24th 2024
+**Last updated:** Aug. 24th 2024
 
 <img src="/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
 
@@ -27,7 +27,7 @@ I love discovering people's websites and finding out more about them.
 
 ### Privacy
 
-I try to stay informed and put best practices into action wherever possible.
+I try to stay informed and put best practices into action wherever possible. I'm also volunteering for {% ext "epicenter.works", "https://epicenter.works" %} whenever I can support their activities with my skill set.
 
 ### Software Architecture
 
@@ -87,6 +87,7 @@ These might turn into more detailed sections over time:
 - Gardening, hiking and nature
 - Home improvements and DIY projects
 - Reading and learning about (new) things
+- Lifting weights
 
 ## Disinterests
 
