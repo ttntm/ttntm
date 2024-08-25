@@ -26,14 +26,14 @@ The following is a list of some of the things I remember from growing up in the 
 
 ## Music & TV
 
-- Taping radio to cassette for the car and/or the (used) Walkman I got from some older relative that upgrade to MiniDisc
+- Taping radio to cassette for the car and/or the (used) Walkman I got from some older relative that upgraded to MiniDisc
 - Taping TV (i.e. Star Wars) to VHS because it ran so long past bedtime that this was the only deal my parents would accept (I was about 6 then)
 - Watching Dragon Ball Z on TV - 5 mins of new stuff, 5 mins each for recap/preview and a 5 min ad break in between
 - Watching MTV, when they were still (mostly) a music channel
 - Watching TV series... on TV - one episode per week, with a repeat late in the night a day or two later, in case you missed it or forgot to tape it
 - Warez
     - Early mp3 dealings, managing a music library with Winamp
-    - Movie downloads, and burning to multiple CDs just to watch a single on the slightly bigger TV screen in front of the couch
+    - Movie downloads, and burning to multiple CDs just to watch a single film on the slightly bigger TV screen in front of the couch
 - Video rentals, first on VHS, then on DVD
 
 ## Video Games
@@ -58,7 +58,7 @@ The following is a list of some of the things I remember from growing up in the 
 - Getting my first email address, which came with 25 MB of webspace (FTP access)
 - Early mobile phone customization with banners and ringtones
 - Using all my prepaid phone credit for SMS
-- Building my first gaming PC
+- Building my first gaming PC - it had a GeForce 3 that could even handle Doom 3 a couple of years later
 - Building my first websites, feeling like I can do everything on the web
 - Mobile phones kept getting smaller - I actually broke one of mine when I accidentally scored during a game of basketball, the phone flew through the net together with the ball
 - My first mp3 player, and the freedom that came with it
