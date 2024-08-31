@@ -61,7 +61,7 @@ export default {
 
   ext: function(displayText, link) {
     // shortcode to create external links (with a marker after the link text)
-    return `<a class="ext" href="${link}">${displayText}</a>`
+    return `<a class="ext" href="${link}" rel="noopener">${displayText}</a>`
   },
 
   imageHeader: function(imgPath, imgSize, titleSize, title, subtitle) {

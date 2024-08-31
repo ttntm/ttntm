@@ -11,7 +11,7 @@ permalink: /bookmarks/index.html
   </div>
   <div>
     <p>
-      This is my personal collection of bookmarks that you can think of as my very own <em>treasure map</em> (a term I borrowed from <a class="ext" href="https://flower.codes/links.html">Zach</a>). It's a small directory of blogs, resources and websites that I find interesting and that I can recommend visiting. Articles and other recent discoveries can be found in my <a href="/likes/">/likes collection</a>.
+      This is my personal collection of bookmarks that you can think of as my very own <em>treasure map</em> (a term I borrowed from <a class="ext" href="https://flower.codes/links.html" rel="noopener">Zach</a>). It's a small directory of blogs, resources and websites that I find interesting and that I can recommend visiting. Articles and other recent discoveries can be found in my <a href="/likes/">/likes collection</a>.
     </p>
     <p class="bold m0">
       Have fun exploring :D
@@ -44,14 +44,14 @@ permalink: /bookmarks/index.html
     </p>
     {% if loop.first %}
       <p>
-        Download this list: <a href="/blogroll.opml">OPML Blogroll</a>
+        Download this list: <a href="/blogroll.opml" rel="nofollow">OPML Blogroll</a>
       </p>
     {% endif %}
     <ul class="list-reset post e-content indent-1-lg">
       {% for link in item.data %}
         <li>
           <p {% if loop.last %} class="m0"{%- endif -%}>
-            <a class="ext" href="{{ link.url }}">{{ link.title }}</a>{% if link.feed %}&nbsp;&nbsp;|&nbsp;&nbsp;<a class="ext" href="{{ link.feed }}" style="font-size: .875rem; font-weight: 500;">(RSS)</a>{% endif %}
+            <a class="ext" href="{{ link.url }}" rel="noopener nofollow">{{ link.title }}</a>{% if link.feed %}&nbsp;&nbsp;|&nbsp;&nbsp;<a class="ext" href="{{ link.feed }}" rel="noopener nofollow" style="font-size: .875rem; font-weight: 500;">(RSS)</a>{% endif %}
             {% if link.description %}
               <br>
               &ndash;&nbsp;{{ link.description }}
@@ -69,8 +69,8 @@ permalink: /bookmarks/index.html
   <h2>More Sites Like This?</h2>
   <p>Explore the Wayward Web, a collection of personal guides to the human side of the Web.</p>
   <div class="flex align-items-center justify-content-center gap1">
-    <a href="https://waywardweb.org/sites/ttntm.me/previous">&larr;<!-- left arrow --></a>
-    <a href="https://waywardweb.org">The Wayward Webring</a>
-    <a href="https://waywardweb.org/sites/ttntm.me/next">&rarr;<!-- right arrow --></a>
+    <a href="https://waywardweb.org/sites/ttntm.me/previous" rel="noopener nofollow">&larr;<!-- left arrow --></a>
+    <a href="https://waywardweb.org" rel="noopener nofollow">The Wayward Webring</a>
+    <a href="https://waywardweb.org/sites/ttntm.me/next" rel="noopener nofollow">&rarr;<!-- right arrow --></a>
   </div>
 </div>
