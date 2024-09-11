@@ -5,7 +5,7 @@ layout: page.njk
 permalink: /uses/index.html
 ---
 
-**Last updated:** Apr. 2nd 2024
+**Last updated:** Sep. 11th 2024
 
 ## Hardware
 
@@ -23,10 +23,8 @@ The **VS Code extensions** I use the most are:
 - {% ext "Live Preview", "https://open-vsx.org/extension/ms-vscode/live-server" %}
 - {% ext "LTeX", "https://marketplace.visualstudio.com/items?itemName=neo-ltex.ltex" %}
 - {% ext "Surround", "https://open-vsx.org/extension/yatki/vscode-surround" %}
-- {% ext "Template String Converter", "https://open-vsx.org/extension/meganrogge/template-string-converter" %}
-- {% ext "Volar", "https://open-vsx.org/extension/Vue/volar" %}
 
-...there's a bunch of others like "XYZ language support" (PostCSS, TOML, etc.) or "XYZ IntelliSense" too, but they're not really going to be of much interest to anyone.
+...there's a bunch of others too, like "XYZ language support" or "XYZ IntelliSense", but they're not really going to be of much interest to anyone.
 
 **VS Code Theme History**
 
