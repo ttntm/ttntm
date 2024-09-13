@@ -5,7 +5,7 @@ layout: page.njk
 permalink: /uses/index.html
 ---
 
-**Last updated:** Sep. 11th 2024
+**Last updated:** Sep. 13th 2024
 
 ## Hardware
 
@@ -15,7 +15,7 @@ My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my
 
 ## Software
 
-My terminal emulator is {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %} running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "Input Mono", "https://input.djr.com" %} typeface and the {% ext "Kanagawa", "https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa" %} theme is my primary editor. I also use {% ext "Neovim", "https://neovim.io" %} or {% ext "micro" "https://micro-editor.github.io" %} whenever I need to edit files in a terminal and {% ext "gedit", "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
+My terminal emulator is {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %} running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "GitLab Mono", "https://gitlab-org.gitlab.io/frontend/fonts/" %} typeface and the {% ext "Kanagawa", "https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa" %} theme is my primary editor. I also use {% ext "Neovim", "https://neovim.io" %} or {% ext "micro" "https://micro-editor.github.io" %} whenever I need to edit files in a terminal and {% ext "gedit", "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
 
 The **VS Code extensions** I use the most are:
 

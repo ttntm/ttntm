@@ -150,7 +150,7 @@
   display: block !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .d-sm-none {
     display: none !important;
   }
@@ -265,7 +265,7 @@
   text-align: justify;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .text-justify-lg {
     text-align: justify;
   }
@@ -366,7 +366,7 @@ small,
   padding-right: 2rem !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .indent-2-md {
     padding-left: 2rem;
   }
