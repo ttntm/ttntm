@@ -9,7 +9,7 @@ showProgress: true
 
 A list of the things I'm interested in and a constant work in progress that will grow over time.
 
-**Last updated:** Aug. 24th 2024
+**Last updated:** Sep. 21st 2024
 
 <img src="/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
 
@@ -77,6 +77,12 @@ If I had to pick just one favorite food, it'd have to be pizza - I simply love m
 
 Exploring Scotch Whisky is a rather recent interest, but one I really enjoy. You can find out more about this interest on my [Whisky page](/whisky/).
 
+## Weight Lifting
+
+I got into lifting weights in my early 20s, when I realized I needed to gain weight and straighten my back. It took me a while, but I managed to grow from borderline underweight 65 kg (at 188 cm height) to a little healthier weight of 80kg. University sports offers definitely helped, but the whole process took a while because I didn't want to join a gym and preferred working out at home. Other things eventually became more important, and I spent many sedentary years, mostly seated at a desk, or on a couch.
+
+I got back into lifting in mid 2024, after a new gym opened around the corner, voiding any excuse to stay lazy. After about 3 months, I'm very satisfied with my progress - I tried a couple of different programs, but eventually settled for GZCLP, which works really well for me so far.
+
 ## The Rest
 
 These might turn into more detailed sections over time:
@@ -87,7 +93,6 @@ These might turn into more detailed sections over time:
 - Gardening, hiking and nature
 - Home improvements and DIY projects
 - Reading and learning about (new) things
-- Lifting weights
 
 ## Disinterests
 

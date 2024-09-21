@@ -95,12 +95,6 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 - Added /likes to header/footer navigation, replacing /work
 - Updated individual /likes entry layout
 - Updated the list of collections and pages
-- Updated
-  - /about
-  - /interests
-  - /notes
-  - /sitemap
-  - /work
 
 ## 3.16.1
 
