@@ -92,7 +92,7 @@ The base game was originally released for PS3 in 2012; I played its re-release i
 
 ### Freelancer
 
-Probably the best "space sim RPG" I ever played. Good story, an open world that felt alive and pretty cool ship you could fly around in. I played many other games that looked similar since then, but none ever came close.
+Probably the best "space sim RPG" I ever played. Good story, an open world that felt alive and pretty cool ships you could fly around in. I played many other games that looked similar since then, but none ever came close.
 
 ### Gothic
 
