@@ -7,21 +7,21 @@ permalink: /now/index.html
 
 <img src="/img/now.jpg" class="img-center img-fluid w100" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Last updated:** July 11th 2024
+**Last updated:** Oct. 7th 2024
 
-**Writing**: trying to finish the [#albums](/tags/albums/) series
+**Writing**: trying to find more time to write, i.e. finish the [#albums](/tags/albums/) series, and something about cool projects I recently worked on
 
 **Books**: Dune Messiah, Leviathan Wakes
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: The First Descendant, Metro Exodus, Tunic
+**Games**: Everspace 2; _really_ tempted to get Diablo II: Resurrected, but afraid of having to cope with a severe case of Diablo addiction
 
-**Drinks**: Protein shakes, and the occasional beer
+**Drinks**: Protein shakes, Milk, almost no alcohol at all
 
-**Work**: building a couple of websites with Astro, also preparing for an SF certification
+**Work**: building a couple of websites, also preparing for some certifications
 
-**Life**: joined a gym, to build some strength and to do something good for my back; also enjoying summer things like BBQs, cycling, standup paddleboarding and swimming
+**Life**: joined a gym, got back into lifting; autumn's here, so I'm trying to get onto the bike some more before it's too cold for that
 
 <div class="hr shadow"></div>
 
