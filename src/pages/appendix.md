@@ -59,3 +59,13 @@ All content on this site is licensed under the Attribution-NonCommercial-ShareAl
 This website is a proud member of:
 
 {% include "components/apx.stats.njk" %}
+
+<div class="text-center mt2">
+  <h3>Static.Quest Webring</h3>
+  <div class="flex align-items-center justify-content-center gap1">
+    <a href="https://static.quest/previous/?host=static.quest">&#8592;</a>
+    <a href="https://static.quest/members">View Members</a>
+    <a href="https://static.quest/next/?host=static.quest">&#8594;</a>
+  </div>
+  <a href="https://static.quest/random">Feeling lucky?</a>
+</div>

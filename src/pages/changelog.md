@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.19.6
+
+- Joined the {% ext "Static.Quest Webring", "https://static.quest" %}
+
 ## 3.19.5
 
 - Joined the {% ext "Wayward Webring", "https://waywardweb.org" %}

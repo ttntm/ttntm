@@ -7,7 +7,7 @@ permalink: /now/index.html
 
 <img src="/img/now.jpg" class="img-center img-fluid w100" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Last updated:** Oct. 7th 2024
+**Last updated:** Oct. 16th 2024
 
 **Writing**: trying to find more time to write, i.e. finish the [#albums](/tags/albums/) series, and something about cool projects I recently worked on
 
@@ -15,7 +15,7 @@ permalink: /now/index.html
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Everspace 2; _really_ tempted to get Diablo II: Resurrected, but afraid of having to cope with a severe case of Diablo addiction
+**Games**: Everspace 2, but mostly Diablo II: Resurrected, which I love just like the original all those years ago
 
 **Drinks**: Protein shakes, Milk, almost no alcohol at all
 
