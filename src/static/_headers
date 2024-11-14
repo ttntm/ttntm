@@ -6,7 +6,7 @@
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
   Content-Security-Policy: default-src 'self' 'unsafe-inline'; img-src * data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'
-  X-Robots-Tag: noai, noimageai, GPC
+  X-Robots-Tag: noai, noimageai, SPC
 
 /demos/*
   ! Content-Security-Policy
