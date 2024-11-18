@@ -84,7 +84,7 @@ A wonderful game! The player character is an actual cat that has to survive in a
 
 To me, the series will always be ranked like this: *D2 > D1 > D3 > D4* (best > rest).
 
-Diablo II has the most significance to me based on time spent and memories made. Playing in a LAN during long summer vacation/s, unpatched corpse explosions, the rush of online boss runs on a crappy internet connection, collecting ears, rune words etc. - it's probably lots of nostalgia, but no other Diablo ever came quite close to D2 for me.
+Diablo II has the most significance to me based on time spent and memories made. Playing in a LAN during long summer vacation/s, unpatched corpse explosions, the rush of online boss runs on a crappy internet connection, collecting ears, rune words etc. - it's probably lots of nostalgia, but no other Diablo ever came quite close to D2 for me. A longer essay about D2/D2R can be found in {% ext "issue 17 of Ctrl-ZINE", "https://ctrl-c.club/~loghead/ctrl-zine.html" %}.
 
 ### Dragon's Dogma: Dark Arisen
 
