@@ -67,7 +67,7 @@ Also, really cool album artwork!
 
 My favorite Kreator album.
 
-A furious German thrash metal record that's intense, relentless and full of aggression:
+A furious German thrash metal record that's intense, relentless and full of aggression. It's really heavy and intense for '86, bordering on death/thrash, despite death metal being in it's infancy still ("Seven Churches" was released in '85).
 
 I remember wearing a matching t-shirt to a first aid class and having an interesting conversation about the album title printed on the back of the shirt - fun times!
 
