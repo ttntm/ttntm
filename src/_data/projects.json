@@ -22,7 +22,7 @@
       {
         "title": "Reboot Reminder",
         "description": "A Mastodon bot that kindly reminds you to reboot your devices once a week.",
-        "web": "https://mast.to/@rebootbot",
+        "web": "https://mas.to/@rebootbot",
         "source": "https://codeberg.org/ttntm/reboot-reminder"
       },
       {
