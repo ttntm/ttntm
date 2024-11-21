@@ -888,6 +888,10 @@ summary h2 {
     top: 0;
   }
 
+  &:not([open]) .wsk-card__inner {
+    animation: fadeOut .75s linear forwards;
+  }
+
   & .wsk-card__inner {
     animation: fadeIn .75s linear forwards;
     border: 1px solid var(--border);
@@ -941,6 +945,16 @@ summary h2 {
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 

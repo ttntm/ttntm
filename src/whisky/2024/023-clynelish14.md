@@ -8,7 +8,11 @@ purchased: 2024
 price: 57.90
 store: Ammersin
 status: open
-buy_again:
+buy_again: maybe
 image: 023-clynelish14.jpg
 order: 23
 ---
+
+#### Notes
+
+Not peaty enough, otherwise ok.
