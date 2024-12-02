@@ -39,6 +39,7 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 - Feel like me and change with me
 - Offer content about everything, and nothing
 - Never track and {% ext "never monetize", "https://www.nevermonetize.com" %} its visitors
+- Add a copy button to code blocks ({% ext "11ty plugin", "https://github.com/mamezou-tech/eleventy-plugin-code-clipboard" %})
 
 **And things I'd like this website to do**:
 
