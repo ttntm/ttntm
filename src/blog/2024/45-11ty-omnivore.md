@@ -8,8 +8,14 @@ tags:
   - guide
   - website
 image: /img/reading.png
-updated: 2024-06-26T10:10:00Z
+updated: 2024-12-16T09:30:00Z
 ---
+
+**Omnivore was shut down in late 2024**
+See: {% ext "One of my favorite read-later apps is shutting down", "https://www.theverge.com/2024/10/29/24283055/one-of-my-favorite-read-later-apps-is-shutting-down" %}
+This article can be considered lasrgely obsolete, but the approach might apply to other services/tools.
+
+--
 
 It's been a productive year so far - I've managed to add a couple of cool new things to this website, which is something I'd been planning to do for a while. This article is about the most recent addition, my [personal reading list](/reading/) powered by Omnivore, a free, open source, read-it-later app.
 
@@ -20,16 +26,14 @@ Before we start: you're welcome to check out all posts with the [#website](/tags
 ## Prerequisites
 
 - A website; following this guide will be a little easier if it's built with Eleventy
-- An {% ext "Omnivore", "https://omnivore.app" %} account
+- An Omnivore account
 - Optional: some kind of CI/CD that supports deployments triggered by webhooks
 
 ## Get an API Key
 
 The first thing we'll have to take care of is getting an Omnivore API key.
 
-It only takes a couple of clicks and the whole procedure is well documented: {% ext "Getting an API token", "https://docs.omnivore.app/integrations/api.html#getting-an-api-token" %}
-
-You'll end up with an API key that looks like this: `FFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF`
+It only takes a couple of clicks and the whole procedure is well documented - you'll end up with an API key that looks like this: `FFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF`
 
 ### Test Your API Key
 
@@ -53,8 +57,6 @@ The query variables are used to limit the results we get:
 
 - `"first": 10` results in the 10 most recently saved items
 - `"query": "no:subscription"` filters for items that were saved intentionally, i.e. excludes feeds and newsletters that can end up in your Omnivore account automatically (a _great_ feature actually, just not what we want here)
-
-More information about search, filters and queries can be found here: {% ext "Find all your saved items with Omnivore's new advanced search", "https://blog.omnivore.app/p/find-all-your-saved-items-with-omnivores" %}
 
 ## Data Fetching with Eleventy
 
@@ -199,7 +201,7 @@ Otherwise, keep reading and set up automatic deployments using webhooks.
 
 > Omnivore allows you to send your reading data in realtime using webhooks. When a new page is saved or updated, a webhook can be triggered.
 >
-> <small>{% ext "Omnivore docs", "https://docs.omnivore.app/integrations/webhooks.html" %}</small>
+> <small>Omnivore docs</small>
 
 Services and Platforms like Cloudflare Pages, Netlify etc. usually allow their users to set up dedicated endpoints to receive webhook data and use them to trigger deployments of the respective site.
 

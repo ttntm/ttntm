@@ -10,7 +10,6 @@
 Triggers:
 
 1. GIT
-2. Omnivore Webhook
 
 Builds and deployments:
 

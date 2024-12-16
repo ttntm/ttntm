@@ -5,7 +5,7 @@ layout: page.njk
 permalink: /uses/index.html
 ---
 
-**Last updated:** Nov. 18th 2024
+**Last updated:** Dec. 16th 2024
 
 ## Hardware
 
@@ -39,7 +39,7 @@ I'm using {% ext "Zen Browser", "https://zen-browser.app" %}, Brave and Ungoogle
 - Proton Pass
 - uBlock Origin
 
-Plain text files are what I'm currently using for notes, and Proton takes care of my calendar and emails. When I need to edit pixels, I'm using GIMP, or Photopea, and when I have to work with vectors, I'm using Figma, or Inkscape. {% ext "Omnivore" "https://omnivore.app" %} is my read-it-later solution, and I publish the most recent items added to my reading list [on this website](/reading).
+Plain text files are what I'm currently using for notes, and Proton takes care of my calendar and emails. When I need to edit pixels, I'm using GIMP, or Photopea, and when I have to work with vectors, I'm using Figma, or Inkscape. I'm currently looking for a new read-it-later solution, and I will eventually publish the most recent items added to my reading list [on this website](/reading) (again).
 
 Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: Proton Pass for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, Proton VPN when I need a VPN and of course {% ext "TKB", "https://kb.ttntm.me" %}, my personal knowledge base.
 

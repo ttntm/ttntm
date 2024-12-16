@@ -47,11 +47,11 @@ Whenever multiple applications are listed, `p` marks private use, `w` marks soft
 
 - **Photos**: Google Photos
 
-- **RSS**: _Omnivore_
+- **RSS**: _TBD (they killed Omnivore)_
 
 - **Chat**: Signal (`p`), Teams (`w`)
 
-- **Bookmarks/Links**: _Omnivore, TKB_
+- **Bookmarks/Links**: _TKB, /bookmarks_
 
 - **Shopping List**: Google Keep
 

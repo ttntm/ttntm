@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.19.7
+
+- Removed Omnivore integration (service shut down)
+
 ## 3.19.6
 
 - Joined the {% ext "Static.Quest Webring", "https://static.quest" %}
@@ -203,7 +207,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <small>Released: 2024-03-18</small>
 
-- Added [/reading](/reading/) which renders the top 10 entries from my Omnivore-based reading list
+- Added [/reading](/reading/) which renders entries from my Omnivore-based reading list
 - Fix: contrast of `text-muted` for the light theme
 
 ## 3.10
