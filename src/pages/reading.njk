@@ -11,10 +11,10 @@ permalink: /reading/index.html
   </div>
   <div>
     <p>
-      These are the most recent items added to my reading list. The books I'm reading won't appear on this page - they're usually listed on my <a href="/now/">/now page</a>.
+      These are the most recent items added to my reading list in Raindrop.io. The books I'm reading won't appear on this page - they're usually listed on my <a href="/now/">/now page</a>.
     </p>
     <p class="m0">
-      The list below might be empty because <a class="ext" href="https://www.theverge.com/2024/10/29/24283055/one-of-my-favorite-read-later-apps-is-shutting-down">Omnivore was shut down recently</a> - I'm working on finding a replacement and migrating my data.
+      The list below gets updated on every new build of this website, and it was last updated on {% buildDate true %}.
     </p>
   </div>
 </div>
@@ -28,14 +28,7 @@ permalink: /reading/index.html
         </h2>
         <ul class="list-reset text-muted small">
           <li>
-            {% if item.publishedAt %}
-              Published: <time class="dt-published" datetime="{{ item.publishedAt | date('YYYY-MM-DD') }}">{{ item.publishedAt | date('MMMM DD, YYYY') }}</time> at {{ item.siteName }}
-            {% else %}
-              Published at {{ item.siteName }}
-            {% endif %}
-          </li>
-          <li>
-            Saved: <time class="dt-published" datetime="{{ item.savedAt | date('YYYY-MM-DD') }}">{{ item.savedAt | date('MMMM DD, YYYY') }}</time>
+            Saved: <time class="dt-published" datetime="{{ item.saved | date('YYYY-MM-DD') }}">{{ item.saved | date('MMMM DD, YYYY') }}</time> from {{ item.domain }}
           </li>
         </ul>
         <p style="margin: .5rem 0;">
