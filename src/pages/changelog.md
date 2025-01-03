@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.19.8
+
+- Reviewed /likes archive and added annual grouping similar to the blog
+
 ## 3.19.7
 
 - Removed Omnivore integration (service shut down)

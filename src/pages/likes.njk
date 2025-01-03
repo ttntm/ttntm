@@ -10,18 +10,37 @@ isLikesHome: true
   {{ header({ text: title, link: '/likes/feed.xml', title: title }) }}
   <div class="hr shadow mb2"></div>
   <section class="post">
-    <p class="p-summary">
-      A collection of weekly notes with links to interesting articles, resources and tools.
-    </p>
-    <ul class="list-reset grid grid3 gap1 mt2">
-      {% for item in collections.likes | reverse %}
-        <li class="d-block h-entry">
-          <a class="card w100 u-url p-name like-link shadow-md-hover hover-scale-sm no-underline py1" href="{{ item.url }}">
-            <span class="d-block" style="margin-bottom: .5rem;">{{ item.data.title }}</span>
-            <time class="d-block regular small dt-published" datetime="{{ item.date | date('YYYY-MM-DD') }}">{{ item.date | date('MMM DD, YYYY') }}</time>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+    <div class="text-center mb2">
+      <p class="p-summary">
+        A collection of weekly notes with links to interesting articles, resources and tools.
+      </p>
+      <ul class="list-reset flex justify-content-center flex-wrap mb2" style="gap: .75rem;">
+        {% for year, x in collections.likesByYear %}
+          <li class="tag">
+            <a href="#{{ year }}">{{ year }}</a> [{{ x.length }}]
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% for year, yearLikes in collections.likesByYear %}
+      {% if not loop.first %}
+        <div class="hr shadow mt2"></div>
+        <p class="post small text-center mt1" style="margin-bottom: 4rem;">
+          <a href="#top">↑&nbsp;Back to top</a>
+        </p>
+      {% endif %}
+      <h2 id="{{ year }}" class="text-center tight {{ 'mt2' if not loop.first }}"><span style="font-weight: normal;">&lurdshar;</span>&nbsp;{{ year }}&nbsp;<span style="font-weight: normal;">&ldrushar;</span></h2>
+      <div class="hr shadow mb2"></div>
+      <ul class="list-reset grid grid3 gap1 mt2">
+        {% for item in yearLikes | reverse %}
+          <li class="d-block h-entry">
+            <a class="card w100 u-url p-name like-link shadow-md-hover hover-scale-sm no-underline py1" href="{{ item.url }}">
+              <h3 class="d-block" style="margin-bottom: .5rem;">{{ item.data.title }}</h3>
+              <time class="d-block regular small dt-published" datetime="{{ item.date | date('YYYY-MM-DD') }}">{{ item.date | date('MMM DD, YYYY') }}</time>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
   </section>
 </section>

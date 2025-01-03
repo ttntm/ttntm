@@ -728,6 +728,11 @@ footer button {
   &:hover {
     color: var(--likeLinkHover) !important;
   }
+
+  & h3 {
+    color: inherit;
+    font-size: unset;
+  }
 }
 
 .next-prev {

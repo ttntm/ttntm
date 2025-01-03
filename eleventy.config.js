@@ -90,6 +90,14 @@ export default async function(config) {
     return collection.getFilteredByGlob('./src/likes/**/*.md')
   })
 
+  config.addCollection('likesByYear', (collection) => {
+    return _.chain(collection.getFilteredByGlob('./src/likes/**/*.md'))
+      .groupBy((like) => like.date.getFullYear())
+      .toPairs()
+      .reverse()
+      .value()
+  })
+
   config.addCollection('notes', async(collection) => {
     return collection.getFilteredByGlob('./src/notes/**/*.md')
   })
