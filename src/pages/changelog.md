@@ -18,7 +18,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 ## 3.19.8
 
 - Reviewed /likes archive and added annual grouping similar to the blog
-- Fix /reading (data from Raindrop.io)
+- Fix /reading (data from <span>Raindrop.io</span>)
 
 ## 3.19.7
 
