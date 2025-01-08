@@ -28,6 +28,12 @@
         "feed": "https://garrit.xyz/rss.xml"
       },
       {
+        "title": "home.hedy.dev",
+        "description": "~hedy's home",
+        "url": "https://home.hedy.dev",
+        "feed": "https://home.hedy.dev/posts/index.xml"
+      },
+      {
         "title": "kayserifserif.place",
         "description": "Katherine Yang",
         "url": "https://kayserifserif.place",

@@ -37,7 +37,7 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 **Things I intend to do with this website**:
 
 - Feel like me and change with me
-- Offer content about everything, and nothing
+- Offer content about things that matter to me
 - Never track and {% ext "never monetize", "https://www.nevermonetize.com" %} its visitors
 - Add a copy button to code blocks ({% ext "11ty plugin", "https://github.com/mamezou-tech/eleventy-plugin-code-clipboard" %})
 
@@ -48,6 +48,7 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 - Support webmentions
 - Become searchable at some point
 - Provide a home for {% ext "neko", "https://github.com/adryd325/oneko.js" %} ({% ext "+context", "https://github.com/eliot-akira/neko/" %})
+- Offer an archive of past versions of the [/now](/now/) page
 
 Finally, **everything that was done already**, can be found in the [Changelog](/changelog/).
 

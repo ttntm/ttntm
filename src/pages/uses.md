@@ -7,6 +7,8 @@ permalink: /uses/index.html
 
 **Last updated:** Jan. 7th 2024
 
+Annual summaries: [#defaults](/tags/defaults/)
+
 ## Hardware
 
 I use an immortal Dell Precision M3800 from 2013 running Manjaro for private stuff and a company owned Lenovo ThinkPad P14s Gen 3 running Fedora for work. I'm mostly working from home these days, but most of the time I don't use an external keyboard or monitor. As far as peripherals are concerned, I use Bose Noise Cancelling Headphones 700 and a 4 TB Seagate external hard drive. Once in a while I also use a mouse that keeps hanging around at home.
