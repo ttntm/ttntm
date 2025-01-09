@@ -4,6 +4,12 @@
     "description": "Some of my favorite blogs, and personal websites that I read/visit regularly. More links to personal websites can be found in the \"Website Inspiration\" section.",
     "data": [
       {
+        "title": "anhvn.com",
+        "description": "Anh's fabulous website",
+        "url": "https://anhvn.com",
+        "feed": "https://anhvn.com/feed.xml"
+      },
+      {
         "title": "andreinc.net",
         "description": "The personal blog of Andrei N. Ciobanu",
         "url": "https://www.andreinc.net",
@@ -79,12 +85,6 @@
         "title": "rootCompute",
         "description": "rootCompute's personal website",
         "url": "https://rootcompute.neocities.org"
-      },
-      {
-        "title": "victoria.dev",
-        "description": "Victoria Drake",
-        "url": "https://victoria.dev",
-        "feed": "https://victoria.dev/blog/index.xml"
       }
     ]
   },
@@ -336,12 +336,6 @@
     "description": "Websites I find inspiring, visually or otherwise.",
     "data": [
       {
-        "title": "anhvn.com",
-        "description": "Just overall greatness.",
-        "url": "https://anhvn.com",
-        "feed": "https://anhvn.com/feed.xml"
-      },
-      {
         "title": "Brad Woods Digital Garden",
         "description": "Notes about creative coding presented in an exceptional UI.",
         "url": "https://garden.bradwoods.io",
@@ -387,12 +381,6 @@
         "title": "meyerweb",
         "description": "Eric A. Meyer's \"internet tradition\".",
         "url": "https://meyerweb.com"
-      },
-      {
-        "title": "nicchan.me",
-        "description": "Nice colors, well-used screen space.",
-        "url": "https://www.nicchan.me",
-        "feed": "https://www.nicchan.me/feed.xml"
       },
       {
         "title": "pixelhop.io",
