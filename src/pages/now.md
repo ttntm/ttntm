@@ -7,21 +7,23 @@ permalink: /now/index.html
 
 <img src="/img/now.jpg" class="img-center img-fluid w100" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Last updated:** Oct. 16th 2024
+**Last updated:** Jan. 10th 2025
 
-**Writing**: trying to find more time to write, i.e. finish the [#albums](/tags/albums/) series, and something about cool projects I recently worked on
+**Writing**: trying to find more time to write, i.e. finish the [#albums](/tags/albums/) series, and something about cool projects I recently worked on, the recent switch to a new read-it-later setup
 
-**Books**: Dune Messiah, Leviathan Wakes
+**Books**: Dune Messiah, Leviathan Wakes, If Cats Disappeared from the World
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Everspace 2, but mostly Diablo II: Resurrected, which I love just like the original all those years ago
+**Games**: Hogwarts Legacy, Sense: A Cyberpunk Ghost Story, D2R
 
-**Drinks**: Protein shakes, Milk, almost no alcohol at all
+**Drinks**: Protein shakes, Milk, Ovomaltine
 
 **Work**: building a couple of websites, also preparing for some certifications
 
-**Life**: joined a gym, got back into lifting; autumn's here, so I'm trying to get onto the bike some more before it's too cold for that
+**Life**: planning the year, catching up on all the leftovers and undone things from the last year
+
+**Weight Lifting**: GZCLP, cycle II (started on Dec. 28th 2024)
 
 <div class="hr shadow"></div>
 

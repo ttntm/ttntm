@@ -448,17 +448,19 @@ small,
 
 .hover-scale,
 .hover-scale-sm {
-  transform: scale(1);
-  transition: transform .35s, box-shadow .35s;
+  /* transform: scale(1); */
+  transition: transform .25s, box-shadow .35s;
   transition-timing-function: ease !important;
+  will-change: transform;
 }
 
 .hover-scale:hover {
-  transform: scale(1.25);
+  transform: scale(1.25) translateZ(0);
 }
 
 .hover-scale-sm:hover {
-  transform: scale(1.05);
+  backface-visibility: hidden;
+  transform: scale(1.05) translateZ(0);
 }
 
 .tight {

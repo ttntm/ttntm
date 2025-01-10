@@ -48,10 +48,10 @@
   --btnThemeHover: var(--black);
   --cardBg: var(--lightest);
   --codeBg: var(--lightest);
-  --contentLink: var(--prim);
-  --contentLinkDecoration: var(--light);
-  --contentLinkDecorationHover: var(--prim);
-  --contentLinkHover: var(--dark);
+  --contentLink: var(--darker);
+  --contentLinkDecoration: var(--prim);
+  --contentLinkDecorationHover: var(--light);
+  --contentLinkHover: var(--prim);
   --footerBgDsktp: var(--daintree);
   --footerLinkHover: var(--lighter);
   --footerText: var(--dark);
@@ -184,7 +184,7 @@ body {
   font-family: var(--font-sans);
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: .175px;
+  letter-spacing: .25px;
   line-height: 1.5;
   margin: 0;
   text-align: left;
@@ -204,7 +204,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: var(--textHeading);
   font-weight: 700;
-  letter-spacing: .5px;
   margin-bottom: .5rem;
 }
 
@@ -228,7 +227,6 @@ ol, ul, p, pre, code, kbd, samp {
 a, a:active {
   color: var(--prim);
   font-weight: 700;
-  letter-spacing: .5px;
   text-decoration: underline;
   transition: color .35s ease-in-out, text-decoration .35s ease-in-out;
 }
@@ -1050,6 +1048,10 @@ summary h2 {
     letter-spacing: inherit;
     text-decoration: none;
 
+    &:is(:focus, :hover) {
+      color: inherit;
+    }
+
     &::after {
       content: '#';
       color: var(--textMuted);
@@ -1096,6 +1098,7 @@ summary h2 {
 .toc a,
 .link {
   color: var(--contentLink);
+  font-weight: inherit;
   text-decoration: underline;
   text-decoration-color: var(--contentLinkDecoration);
   text-decoration-thickness: 2px;
@@ -1111,6 +1114,11 @@ summary h2 {
 .heading a:active,
 .post a:active {
   outline: 1px dashed var(--lightest);
+}
+
+a .heading,
+a .link {
+  font-weight: 700;
 }
 
 /* TRANSITIONS */

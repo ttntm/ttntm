@@ -1,5 +1,5 @@
 {
-  "version": "3.19.8",
+  "version": "3.20",
   "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and playground.",
@@ -70,7 +70,7 @@
     {
       "url": "/work/",
       "title": "/work",
-      "details": "things I did over the years"
+      "details": "projects I work/ed on"
     },
     {
       "url": "/sitemap/",

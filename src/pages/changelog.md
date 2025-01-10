@@ -15,6 +15,16 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.20
+
+<small>Released: 2025-01-10</small>
+
+- Updated the styling of links used in content
+  - Boldness is mostly gone, except for headings/titles
+  - Links colors were updated (light theme)
+- Improved some blur that could occur during scale transforms
+  - Almost perfect in FF now, still a bit wonky in Chromiums
+
 ## 3.19.8
 
 - Reviewed /likes archive and added annual grouping similar to the blog

@@ -108,7 +108,7 @@ export default {
       <p>
         Do you have feedback, questions or suggestions?
         <br>
-        <a href="mailto:ttntm@pm.me?subject=${encodedSubject}">Reply With Email</a>
+        <a class="bold" href="mailto:ttntm@pm.me?subject=${encodedSubject}">Reply With Email</a>
       </p>
       <p class="hide-no-js">
         Share this post with others?
