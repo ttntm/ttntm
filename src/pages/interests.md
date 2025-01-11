@@ -7,11 +7,11 @@ permalink: /interests/index.html
 showProgress: true
 ---
 
-A list of the things I'm interested in and a constant work in progress that will grow over time.
+<img src="/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
+
+A list of the things I'm interested in, and a constant work in progress that will grow over time.
 
 **Last updated:** Sep. 21st 2024
-
-<img src="/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
 
 ## Tech and Web Stuff
 
@@ -111,4 +111,6 @@ The things I'm not interested in:
 
 <div class="hr shadow mb1"></div>
 
-This page is listed in the {% ext "/interests Directory", "https://chrisburnell.github.io/interests-directory/" %}.
+## More Pages Like This?
+
+I recommend exploring {% ext "the /interests Directory", "https://chrisburnell.github.io/interests-directory/" %}.

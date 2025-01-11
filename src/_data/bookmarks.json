@@ -93,11 +93,6 @@
     "description": "Sites I visit for entertainment, unique finds I think others could find entertaining.",
     "data": [
       {
-        "title": "BUKMARK.CLUB",
-        "description": "A directory of websites with a curated collection of bookmarks and/or links to other websites.",
-        "url": "https://bukmark.club"
-      },
-      {
         "title": "Ctrl-ZINE",
         "description": "A Ctrl-c collaborative zine, celebrating tech and the Smol Web.",
         "url": "https://ctrl-c.club/~loghead/ctrl-zine.html"
@@ -176,11 +171,6 @@
         "title": "Workspaces",
         "description": "A collection of workspaces of creative individuals.",
         "url": "https://www.workspaces.xyz"
-      },
-      {
-        "title": "Ye Olde Blogroll",
-        "description": "A humanly curated list of fine personal & independent blogs that are updated regularly.",
-        "url": "https://blogroll.org"
       }
     ]
   },
@@ -328,6 +318,37 @@
         "title": "wiby",
         "description": "A search engine that's building a web of pages as it was in the earlier days of the internet.",
         "url": "https://wiby.me"
+      }
+    ]
+  },
+  {
+    "title": "Web Directories",
+    "description": "A few web directories - browse and discover websites like it's the 90s.",
+    "data": [
+      {
+        "title": "BlogScroll",
+        "description": "An open directory of personal sites and blogs.",
+        "url": "https://blogscroll.com"
+      },
+      {
+        "title": "BUKMARK.CLUB",
+        "description": "A directory of websites with a curated collection of bookmarks and/or links to other websites.",
+        "url": "https://bukmark.club"
+      },
+      {
+        "title": "nownownow.com",
+        "description": "Websites with a /now page.",
+        "url": "https://nownownow.com"
+      },
+      {
+        "title": "uses.tech",
+        "description": "A list of /uses pages detailing developer setups, gear, software and configs.",
+        "url": "https://uses.tech"
+      },
+      {
+        "title": "Ye Olde Blogroll",
+        "description": "A humanly curated list of fine personal & independent blogs that are updated regularly.",
+        "url": "https://blogroll.org"
       }
     ]
   },

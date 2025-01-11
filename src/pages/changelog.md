@@ -24,6 +24,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
   - Links colors were updated (light theme)
 - Improved some blur that could occur during scale transforms
   - Almost perfect in FF now, still a bit wonky in Chromiums
+- Added a new section for web directories to my /bookmarks page
 
 ## 3.19.8
 

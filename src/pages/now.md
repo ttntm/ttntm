@@ -24,7 +24,3 @@ permalink: /now/index.html
 **Life**: planning the year, catching up on all the leftovers and undone things from the last year
 
 **Weight Lifting**: GZCLP, cycle II (started on Dec. 28th 2024)
-
-<div class="hr shadow"></div>
-
-Inspired by {% ext "lots of other personal websites", "https://nownownow.com" %} that originally got inspired by Derek Sivers.

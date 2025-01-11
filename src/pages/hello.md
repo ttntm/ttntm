@@ -25,7 +25,3 @@ You _won't_ find me using:
 - Dev&period;to; I used to syndicate my articles there, but the site's full of bot accounts these days
 - LinkedIn
 - Twitter, or whatever it's called when you read this
-
-<div class="hr shadow"></div>
-
-The idea for this page came from {% ext "Alastair Johnson", "https://alastairjohnston.com/introducing-hello-pages/" %}.
