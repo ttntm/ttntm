@@ -899,7 +899,7 @@ summary h2 {
     animation: fadeIn .75s linear forwards;
     border: 1px solid var(--border);
     border-top: 0;
-    padding: 2rem 2rem 1rem;
+    padding: 2rem;
 
     &:not(:has(div.post)) {
       padding: 2rem;
