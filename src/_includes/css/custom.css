@@ -998,6 +998,18 @@ summary h2 {
     grid-auto-flow: column;
     margin-bottom: 2rem;
     max-width: calc(100vw - 12vw);
+
+    @media(min-width:1280px) {
+      max-width: calc(100vw - 24vw);
+    }
+
+    @media(min-width:1680px) {
+      max-width: calc(100vw - 30vw);
+    }
+
+    @media(min-width:2000px) {
+      max-width: calc(100vw - 40vw);
+    }
   }
 
   .home-intro {
@@ -1028,12 +1040,6 @@ summary h2 {
 
   .home-feeds {
     grid-area: 3 / 1 / 4 / 1;
-  }
-}
-
-@media(min-width:1280px) {
-  .home {
-    max-width: calc(100vw - 24vw);
   }
 }
 

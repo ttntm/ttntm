@@ -8,12 +8,19 @@ permalink: /appendix/index.html
 
 Some information about this website.
 
-The tech stack used for the current version is:
+The tech stack used for the current version [{{ site.version }}](/changelog/) is:
 
-- Cloudflare Pages
-- Eleventy
+- Eleventy with
+  - eleventy-fetch
+  - eleventy-plugin-post-graph
+  - eleventy-plugin-reading-time
+  - eleventy-plugin-rss
+  - eleventy-plugin-syntaxhighlight
+  - eleventy-plugin-toc
+  - markdown-it-anchor
+  - postcss
 - Git
-- PostCSS
+- Cloudflare Pages
 
 This website contains only minimal JavaScript for progressive enhancement, and the total uncompressed size of its landing page is less than 100 KB.
 
