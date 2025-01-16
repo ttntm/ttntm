@@ -245,7 +245,7 @@ function handleFilterInURL() {
 Using the composable filter should end up looking like this (after including the `useCollectionFilter` code somewhere before the code in this snippet):
 
 ```js
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const filterOptions = {
     filterParam: 'genre',
     listingClass: '.album-listing'

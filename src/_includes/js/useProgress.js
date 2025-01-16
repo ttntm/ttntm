@@ -13,7 +13,7 @@ function useDebounce(callback, wait) {
   }
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const contentArea = document.getElementById('content')
   const progressBar = document.querySelector('.progress-bar__inner')
   const wInnerHeight = window.innerHeight

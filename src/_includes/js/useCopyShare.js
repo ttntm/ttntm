@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const csBtn = document.getElementById('copy-share')
 
   csBtn.addEventListener('click', async() => {

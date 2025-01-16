@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const filterOptions = {
     filterParam: 'genre',
     listingClass: '.album-listing'

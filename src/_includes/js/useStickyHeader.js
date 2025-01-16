@@ -2,7 +2,7 @@ function getNavStateFromLS() {
   return localStorage.getItem('navState')
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const currentPinState = getNavStateFromLS()
   const header = document.querySelector('.navTop')
   const pinned = ['sticky', 'shadow']
