@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: About Tom, the author of this website.
+description: About Tom, who made this website.
 layout: page.njk
 templateEngineOverride: md,njk
 permalink: /about/index.html

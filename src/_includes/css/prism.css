@@ -11,18 +11,19 @@ pre[class*="language-"] {
   direction: ltr;
   font-family: var(--font-mono);
   font-size: 0.75rem;
-  line-height: 1.25;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  tab-size: 4;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
   hyphens: none;
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
+  line-height: 1.25;
+  scrollbar-width: thin;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
 }
 
 pre > code[class*="language-"] {

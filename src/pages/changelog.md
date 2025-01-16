@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.20.1
+
+- Added copy buttons to code blocks (blog posts, notes)
+
 ## 3.20
 
 <small>Released: 2025-01-10</small>

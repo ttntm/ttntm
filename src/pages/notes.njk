@@ -49,3 +49,9 @@ permalink: /notes/index.html
     {%- endfor -%}
   </section>
 </section>
+{% set js %}
+  {% include "js/useCopyCode.js" %}
+{% endset %}
+<script>
+  {{ js | jsmin | safe }}
+</script>

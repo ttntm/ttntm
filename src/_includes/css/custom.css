@@ -392,6 +392,10 @@ button {
     cursor: not-allowed;
     pointer-events: none;
   }
+
+  & svg {
+    pointer-events: none;
+  }
 }
 
 main {
@@ -711,6 +715,7 @@ footer button {
 
 .icon {
   display: block;
+  pointer-events: none;
 }
 
 .icon-rss {
@@ -730,6 +735,15 @@ footer button {
   & h3 {
     color: inherit;
     font-size: unset;
+  }
+}
+
+.cc-wrapper {
+  @media(min-width: 768px) {
+    margin-bottom: -34px;
+    margin-right: 1.5rem;
+    margin-top: -.5rem;
+    text-align: right;
   }
 }
 
