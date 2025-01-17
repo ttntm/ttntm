@@ -21,7 +21,7 @@ It's been a productive year so far - I've managed to add a couple of cool new th
 
 Before we start: you're welcome to check out all posts with the [#website](/tags/website/) tag and the [changelog](/changelog/) if you're curious about other recent changes.
 
-<img src="/img/reading.png" class="img-fluid img-center" alt="An illustration, taken from undraw.co, showing a female person reading a book while sitting in a chair">
+<img src="/static/img/reading.png" class="img-fluid img-center" alt="An illustration, taken from undraw.co, showing a female person reading a book while sitting in a chair">
 
 ## Prerequisites
 
@@ -45,11 +45,11 @@ Using `curl` is perfectly fine (example in the docs linked above), but GraphQL i
 
 First, you'll need a matching GraphQL query, no matter which tool you decide to use. I checked the docs, only found the {% ext "schema", "https://github.com/omnivore-app/omnivore/blob/main/packages/api/src/schema.ts" %}, and eventually ended up getting a suitable query from the developer tool's network panel:
 
-<img src="/img/blog/ov_network_panel.jpg" class="img-center img-fluid auto-invert" alt="A screenshot from the network panel of the browser developer tools that shows a GraphQL query of the Omnivore app">
+<img src="/static/img/blog/ov_network_panel.jpg" class="img-center img-fluid auto-invert" alt="A screenshot from the network panel of the browser developer tools that shows a GraphQL query of the Omnivore app">
 
 Next, I extracted the fields I felt were necessary and ran a test:
 
-<img src="/img/blog/ov_api_test.jpg" class="img-center img-fluid" alt="A screenshot of 2 panes in Insomnium that shows a GraphQL query (left pane) that was executed against the Omnivore API and its results (right pane)">
+<img src="/static/img/blog/ov_api_test.jpg" class="img-center img-fluid" alt="A screenshot of 2 panes in Insomnium that shows a GraphQL query (left pane) that was executed against the Omnivore API and its results (right pane)">
 
 NB: please excuse the squiggly lines, they're caused by a bug in the application GUI.
 

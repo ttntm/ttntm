@@ -5,7 +5,7 @@ layout: page.njk
 permalink: /now/index.html
 ---
 
-<img src="/img/now.jpg" class="img-center img-fluid w100" alt="A photo of a graffiti on a wall saying 'What now?'">
+<img src="/static/img/now.jpg" class="img-center img-fluid w100" alt="A photo of a graffiti on a wall saying 'What now?'">
 
 **Last updated:** Jan. 10th 2025
 

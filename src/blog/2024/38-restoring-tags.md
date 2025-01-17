@@ -14,7 +14,7 @@ This website used to have tags in the past.
 
 They were gone for about 3 years, but they're back now!
 
-<img src="/img/blog/content_structure.jpg" class="img-fluid img-center" alt="An illustration of content structure from Undraw">
+<img src="/static/img/blog/content_structure.jpg" class="img-fluid img-center" alt="An illustration of content structure from Undraw">
 
 I didn't think too much about to decision to remove them when I [switched from Hugo to Eleventy](/blog/migrating-from-hugo-to-eleventy/) back in the spring of 2021, I guess I thought they don't really add much value to the site and I was also following a very minimalist mindset.
 

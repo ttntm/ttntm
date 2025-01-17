@@ -9,7 +9,7 @@ tags:
 image: /img/blog/backend.png
 ---
 
-<img src="/img/blog/backend.png" class="img-fluid img-center" alt="Illustration of a back end">
+<img src="/static/img/blog/backend.png" class="img-fluid img-center" alt="Illustration of a back end">
 
 Serverless functions are great - they provide instant superpowers to front end focused developers and they're also quite addictive once you've gotten into using them. There's also a ton of tutorials, proof of concept articles etc. that make it really easy to get started.
 

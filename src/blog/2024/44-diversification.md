@@ -37,7 +37,7 @@ So far, I moved both {% ext "aitrack.work", "https://aitrack.work" %} and this w
 
 This is a screenshot of this website's "Overview" in the dashboard:
 
-<img src="/img/blog/cfp_overview.jpg" class="img-fluid img-center" alt="A screenshot of this website's 'Overview' in the Cloudflare Pages dashboard">
+<img src="/static/img/blog/cfp_overview.jpg" class="img-fluid img-center" alt="A screenshot of this website's 'Overview' in the Cloudflare Pages dashboard">
 
 I'm not used to that much information for my personal projects, so that's a rather pleasant surprise.
 

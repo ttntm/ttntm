@@ -8,7 +8,7 @@ showProgress: true
 ---
 <div class="grid grid2 gap2 mt2">
   <div>
-    <img src="/img/games.jpg" class="img-center img-fluid m0" alt="Pac-Man tiles">
+    <img src="/static/img/games.jpg" class="img-center img-fluid m0" alt="Pac-Man tiles">
   </div>
   <div>
     <p>

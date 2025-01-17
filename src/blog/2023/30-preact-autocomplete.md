@@ -13,7 +13,7 @@ image: /img/blog/autocomplete.png
 
 With that out of the way, the topic at hand is an `<input>` that can support auto-complete/suggestions. I built it as an alternative to a `<select>` which would have been too restrictive - users should be able to use a list of pre-configured values while retaining the option of entering another value not contained in the list.
 
-<img src="/img/blog/autocomplete.png" class="img-fluid img-center" alt="Screenshot of a demo app">
+<img src="/static/img/blog/autocomplete.png" class="img-fluid img-center" alt="Screenshot of a demo app">
 
 **Demo**: [ttntm.me/demos/pas/](http://ttntm.me/demos/pas/)
 

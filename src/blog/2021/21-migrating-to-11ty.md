@@ -10,7 +10,7 @@ tags:
 image: /img/blog/11ty.jpg
 ---
 
-<img src="/img/blog/11ty.jpg" class="img-fluid img-center mb1" alt="Eleventy logo splash screen">
+<img src="/static/img/blog/11ty.jpg" class="img-fluid img-center mb1" alt="Eleventy logo splash screen">
 
 ## Why?
 

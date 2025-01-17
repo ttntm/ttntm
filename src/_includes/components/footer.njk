@@ -22,7 +22,7 @@
   {% for icon in site.social %}
     <li class="list-inline-item">
       <a class="footer-link no-underline" href="{{ icon.url }}" rel="me">
-        <img src="/img/icons/{{ icon.img }}" class="icon" alt="{{ icon.title }}" title="{{ icon.title }}" width="24" height="24">
+        <img src="/img/icons/{{ icon.img }}" class="icon" alt="{{ icon.title }}" title="{{ icon.title }}" width="24" height="24" eleventy:ignore>
       </a>
     </li>
   {% endfor %}

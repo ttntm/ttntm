@@ -29,7 +29,7 @@ All code mentioned and referenced in this article can be found in the demo repos
 
 The demo provides a working example that's also been published to this site: {% ext "/demos/pdv/", "https://ttntm.me/demos/pdv/" %}
 
-<img src="/img/blog/preact-data-viewer.png" class="img-fluid img-center" alt="Screenshot of a demo app">
+<img src="/static/img/blog/preact-data-viewer.png" class="img-fluid img-center" alt="Screenshot of a demo app">
 
 Please note that all code mentioned in this article should also show up explicitly (i.e. unprocessed, unminified) in your browser's dev tools - it is buildless after all.
 (*A little note on that can be found at the end of the article.*)

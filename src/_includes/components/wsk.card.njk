@@ -2,7 +2,7 @@
   <details class="wsk-card shadow-md-hover">
     <summary class="flex align-items-center gap2-lg">
       {% if item.data.status != "wanted" %}
-        <img src="/img/whisky/{{ item.data.image or "scotch-web.jpg" }}" height="140" alt="{{ item.data.name }}" decoding="async" loading="lazy">
+        <img src="/static/img/whisky/{{ item.data.image or "scotch-web.jpg" }}" height="140" alt="{{ item.data.name }}" decoding="async" loading="lazy">
       {% endif %}
       <div class="{% if item.data.status != "wanted" %}p2{% else %}p1 px2{% endif %}">
         {% if item.data.age %}
@@ -21,7 +21,7 @@
     <div class="wsk-card__inner grid grid2 gap2">
       {% if item.data.image %}
         <a class="d-block hover-scale-sm" href="/img/whisky/{{ item.data.image }}" title="Click to enlarge (open image)">
-          <img class="img-fluid shadow" src="/img/whisky/{{ item.data.image }}" alt="A photo of a bottle of {{ item.data.name }}">
+          <img class="img-fluid shadow" src="/static/img/whisky/{{ item.data.image }}" alt="A photo of a bottle of {{ item.data.name }}">
         </a>
       {% endif %}
       <div>

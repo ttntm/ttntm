@@ -17,7 +17,7 @@ It's probably going to seems a little lazy, but I'm going to publish the {% ext 
 
 There's also a demo which can be found here: [ttntm.me/demos/bps/](https://ttntm.me/demos/bps/)
 
-<img src="/img/blog/buildless-preact.png" class="img-fluid img-center" alt="Screenshot of a demo app">
+<img src="/static/img/blog/buildless-preact.png" class="img-fluid img-center" alt="Screenshot of a demo app">
 
 ## Preface
 

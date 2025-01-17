@@ -7,7 +7,7 @@ permalink: /about/index.html
 ---
 <div class="flex flex-row justify-content-between align-items-center flex-wrap mb1">
   <div class="w25 w75m p1 mx-auto">
-    <img class="img-fluid circle shadow u-photo" src="/img/ttntm.webp" alt="An illustration showing Tom" title="Yup, that could be me." width="285" height="285">
+    <img class="img-fluid circle shadow u-photo" src="/img/ttntm.webp" alt="An illustration showing Tom" title="Yup, that could be me." width="285" height="285" eleventy:ignore>
   </div>
   <div class="w75 w100m indent-2-md">
     <h2 class="h3">
@@ -40,7 +40,7 @@ In short: when I'm not in front of a screen working, watching movies or playing 
 
 <p id="cat" class="text-center mt2 mb0" style="line-height: 0;">
   <a class="d-inline-block" href="https://pixelfed.social/alfithecat" title="Meow!">
-    <img class="d-inline-block m0" src="/img/walking_cat.gif">
+    <img class="d-inline-block m0" src="/img/walking_cat.gif" eleventy:ignore>
   </a>
 </p>
 <div class="hr shadow mb2" style="margin-top: 0;"></div>
