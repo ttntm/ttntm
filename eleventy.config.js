@@ -2,6 +2,7 @@ import _ from 'lodash'
 import anchor from 'markdown-it-anchor'
 import dotenv from 'dotenv'
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy'
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import htmlmin from 'html-minifier'
 import markdownIt from 'markdown-it'
 import pluginPostGraph from '@rknightuk/eleventy-plugin-post-graph'
@@ -23,6 +24,7 @@ const isProdDeployment = Boolean(
 export default async function(config) {
   // PLUGINS
   config.addPlugin(EleventyHtmlBasePlugin)
+  config.addPlugin(eleventyImageTransformPlugin)
   config.addPlugin(pluginPostGraph, {
     sort: 'desc',
     boxColor: 'var(--border)',

@@ -15,7 +15,7 @@ As far as I know, there's no such directory.
 
 A quick question I posted on Mastodon didn't surface one either:
 
-<img src="/img/blog/111891597461871340.png" class="img-fluid img-center" alt="Screenshot of one of Tom's mastodon posts from Feb. 7th 2024. It says: 'I know of nownownow, uses.tech and personalsit.es Do you know any index of sites with a bookmarks or links section? I don't, but I'm considering building one.'">
+<img src="/static/img/blog/111891597461871340.png" class="img-fluid img-center" alt="Screenshot of one of Tom's mastodon posts from Feb. 7th 2024. It says: 'I know of nownownow, uses.tech and personalsit.es Do you know any index of sites with a bookmarks or links section? I don't, but I'm considering building one.'">
 
 Original link to the post from Feb. 7th: {% ext "@ttntm/111891597461871340", "https://elk.zone/fosstodon.org/@ttntm/111891597461871340" %}
 
@@ -23,7 +23,7 @@ It took me another week to find a suitable (and cheap enough) TLD for the projec
 
 I used a little spare time on the following weekend and built an MVP using Eleventy while my wife spent a little of her time on the logo:
 
-<img src="/img/blog/bukmark-club.png" class="img-fluid img-center" alt="BUKMARK.CLUB logo">
+<img src="/static/img/blog/bukmark-club.png" class="img-fluid img-center" alt="BUKMARK.CLUB logo">
 
 ## Building the Website
 

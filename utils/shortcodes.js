@@ -79,7 +79,7 @@ export default {
         </h2>`
 
     return `<div class="image-header flex wrap-mobile align-items-start gap1 gap2-lg mt2 mb1">
-      <img class="image-header__cover w100m m0" src="${imgPath}" width="${imgSize}" alt="${title}" title="${title}" decoding="async" loading="lazy" />
+      <img class="image-header__cover w100m m0" src="${imgPath}" width="${imgSize}" alt="${title}" title="${title}" decoding="async" loading="lazy" eleventy:ignore />
       ${content}
     </div>`
   },

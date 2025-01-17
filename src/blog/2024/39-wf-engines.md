@@ -14,7 +14,7 @@ A couple of months ago, I started working on a project with the desired outcome 
 
 I spent a lot of time with the topic since then: lots of discussions and workshops, and I'm also building an ever-growing proof of concept application. One thing I can already say with a bit of confidence is, that in doing so, I'm definitely learning a lot. Consequently, this article is a collection of thoughts about aligning software development and workflow engines.
 
-<img src="/img/blog/workflow.jpg" class="img-fluid img-center" alt="An illustration of workflow from Undraw">
+<img src="/static/img/blog/workflow.jpg" class="img-fluid img-center" alt="An illustration of workflow from Undraw">
 
 ## What's a Workflow Engine?
 

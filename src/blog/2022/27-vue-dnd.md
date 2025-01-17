@@ -17,7 +17,7 @@ Anyway, the use case is pretty simple: we needed an editable list (i.e. ingredie
 
 Here's a screenshot of how it looks in the app:
 
-<img src="/img/blog/recept0r-edit-recipe.png" class="img-fluid img-center" alt="Screenshot of recept0r.com">
+<img src="/static/img/blog/recept0r-edit-recipe.png" class="img-fluid img-center" alt="Screenshot of recept0r.com">
 
 Initial research into "building drag and drop from scratch" was soon deemed pointless (i.e. would take me too much time; feel free to call me lazy) when I remembered {% ext "SortableJS' vuedraggable" "https://github.com/SortableJS/vue.draggable.next" %} which I ended up using to implement this feature.
 

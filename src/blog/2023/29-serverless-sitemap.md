@@ -9,7 +9,7 @@ tags:
 image: /img/blog/sitemap.png
 ---
 
-<img src="/img/blog/sitemap.png" class="img-fluid img-center" alt="Illustration of a sitemap">
+<img src="/static/img/blog/sitemap.png" class="img-fluid img-center" alt="Illustration of a sitemap">
 
 Having a sitemap might not be an immediate priority when working on a small side project. Even more so, if it's an SPA with dynamic routes that display content from a database - there's no SSR at all and no builds/deployments to hook into.
 

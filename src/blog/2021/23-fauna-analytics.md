@@ -24,7 +24,7 @@ But let's get started on the details now: this article is going to provide a hig
 
 Let's start with a flowchart:
 
-<img src="/img/blog/ServiceArchitecture.jpg" class="img-fluid img-center auto-invert" alt="Flowchart showing the service architecture">
+<img src="/static/img/blog/ServiceArchitecture.jpg" class="img-fluid img-center auto-invert" alt="Flowchart showing the service architecture">
 
 Based on a schedule, automated `POST` requests to the URL the service runs at happens. These requests contain an `action` that determines what logic (database queries, etc.) the service will execute. Finally, the queried information gets transformed and written into a spreadsheet for tracking and further analysis.
 

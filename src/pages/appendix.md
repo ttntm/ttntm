@@ -12,6 +12,7 @@ The tech stack used for the current version [{{ site.version }}](/changelog/) is
 
 - Eleventy with
   - eleventy-fetch
+  - eleventy-img
   - eleventy-plugin-post-graph
   - eleventy-plugin-reading-time
   - eleventy-plugin-rss

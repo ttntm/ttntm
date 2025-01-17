@@ -7,7 +7,7 @@ permalink: /interests/index.html
 showProgress: true
 ---
 
-<img src="/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
+<img src="/static/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
 
 A list of the things I'm interested in, and a constant work in progress that will grow over time.
 
