@@ -393,7 +393,8 @@ button {
     pointer-events: none;
   }
 
-  & svg {
+  & svg,
+  & .icon {
     pointer-events: none;
   }
 }
@@ -715,7 +716,6 @@ footer button {
 
 .icon {
   display: block;
-  pointer-events: none;
 }
 
 .icon-rss {
