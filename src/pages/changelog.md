@@ -34,12 +34,12 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
   - Links colors were updated (light theme)
 - Improved some blur that could occur during scale transforms
   - Almost perfect in FF now, still a bit wonky in Chromiums
-- Added a new section for web directories to my /bookmarks page
+- Added a new section for web directories to my [/bookmarks](/bookmarks/) page
 
 ## 3.19.8
 
-- Reviewed /likes archive and added annual grouping similar to the blog
-- Fix /reading (data from <span>Raindrop.io</span>)
+- Reviewed [/likes](/likes/) archive and added annual grouping similar to the blog
+- Fix [/reading](/reading/) (data from <span>Raindrop.io</span>)
 
 ## 3.19.7
 
@@ -78,7 +78,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 <small>Released: 2024-06-16</small>
 
 - Added an SVG wave to the footer
-- Added a "back to index" anchor to individual entries in /notes
+- Added a "back to index" anchor to individual entries in [/notes](/notes/)
 - Implemented linkable headings for Markdown content
 - Homepage:
   - Replaced "Recent Posts" with "Recent Activity"
@@ -90,7 +90,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.18.2
 
-- Added a layout toggle to /albums that controls switching between grid and list mode
+- Added a layout toggle to [/albums](/albums/) that controls switching between grid and list mode
 
 ## 3.18.1
 
@@ -117,7 +117,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.17.1
 
-- Better images for /likes and /notes
+- Better images for [/likes](/likes/) and [/notes](/notes)
 - Fixes
 - Footer background color (light theme)
 - Progress bar improvements (math, reusability)
@@ -126,8 +126,8 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <small>Released: 2024-05-15</small>
 
-- Added /likes to header/footer navigation, replacing /work
-- Updated individual /likes entry layout
+- Added [/likes](/likes/) to header/footer navigation, replacing [/work](/work/)
+- Updated individual [/likes](/likes/) entry layout
 - Updated the list of collections and pages
 
 ## 3.16.1
@@ -161,9 +161,9 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 ## 3.14.2
 
 - Updated
-  - /appendix
-  - /games
-  - /ideas
+  - [/appendix](/appendix/)
+  - [/games](/games/)
+  - [/ideas](/ideas/)
 
 ## 3.14.1
 
@@ -346,7 +346,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 <small>Released: 2021-05-30</small>
 
 - Added [/likes](/likes/) where I'll publish cool things I find on the internet
-- Moved /TIL to /notes
+- Moved /TIL to [/notes](/notes/)
 - Updated the site's icon
 
 ## 3.1.1
