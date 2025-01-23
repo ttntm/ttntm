@@ -47,6 +47,6 @@ In short: when I'm not in front of a screen working, watching movies or playing 
 
 ## About This Website
 
-This section was moved recently.
+This section was moved in version [3.13](/changelog/#3-13).
 
 It is now available at: [/appendix](/appendix/)
