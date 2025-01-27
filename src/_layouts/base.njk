@@ -15,11 +15,6 @@
     {% include "components/footer.njk" %}
   </footer>
   {% include "components/nav.mobile.njk" %}
-  {% set js %}
-    {% include "js/useTheme.js" %}
-  {% endset %}
-  <script>
-    {{ js | jsmin | safe }}
-  </script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

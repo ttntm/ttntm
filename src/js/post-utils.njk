@@ -1,0 +1,9 @@
+---
+permalink: /js/post-utils.js
+---
+{% set js %}
+  {% include "js/useCopyCode.js" %}
+  {% include "js/useCopyShare.js" %}
+{% endset %}
+
+{{ js | jsmin | safe }}

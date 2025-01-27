@@ -15,6 +15,12 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.22
+
+<small>Released: 2025-01-27</small>
+
+- Refactored JS for better reusability and caching (less inlined code, created dedicated files instead)
+
 ## 3.21
 
 <small>Released: 2025-01-17</small>

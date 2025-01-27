@@ -44,11 +44,4 @@ layout: base.njk
     {% include "components/post.buttons.njk" %}
   </div>
 </section>
-{% set js %}
-  {% include "js/useCopyCode.js" %}
-  {% include "js/useCopyShare.js" %}
-  {% include "js/useProgress.js" %}
-{% endset %}
-<script>
-  {{ js | jsmin | safe }}
-</script>
+<script src="/js/post-utils.js"></script>

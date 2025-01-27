@@ -1,0 +1,9 @@
+---
+permalink: /js/main.js
+---
+{% set js %}
+  {% include "js/useTheme.js" %}
+  {% include "js/useProgress.js" %}
+{% endset %}
+
+{{ js | jsmin | safe }}

@@ -1,0 +1,8 @@
+---
+permalink: /js/collection-filter.js
+---
+{% set js %}
+  {% include "js/useCollectionFilter.js" %}
+{% endset %}
+
+{{ js | jsmin | safe }}

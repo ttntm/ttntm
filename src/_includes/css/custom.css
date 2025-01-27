@@ -877,7 +877,8 @@ summary h2 {
     display: none;
   }
 
-  & summary img {
+  & summary img,
+  & summary picture {
     align-self: stretch;
     filter: grayscale(.75);
     height: auto;
