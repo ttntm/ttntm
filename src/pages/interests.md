@@ -11,7 +11,7 @@ showProgress: true
 
 A list of the things I'm interested in, and a constant work in progress that will grow over time.
 
-**Last updated:** Sep. 21st 2024
+**Last updated:** Feb. 4th 2025
 
 ## Tech and Web Stuff
 
@@ -20,6 +20,12 @@ A couple of the web and tech topics that I'm most interested in.
 ### Building Your Own Tools
 
 Building and growing your own tools is something I really enjoy. Anything from web applications to libraries and scripts really.
+
+### OS Customization
+
+Whatever device/OS I use, I feel the need to customize it. Often it's just simple things, like changing colors, icon themes, or choosing the perfect wallpaper, but I also enjoy over-customizing ("ricing") my OSes sometimes. Hoarding things like fonts, icons and wallpapers is also part of this interest - one never knows what one might need at some point in the future.
+
+Some recent examples can be found here: {% ext "TKB/linux/setups", "https://kb.ttntm.me/linux/setups/" %}
 
 ### Personal Websites
 
