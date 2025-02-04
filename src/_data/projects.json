@@ -1,7 +1,7 @@
 [
   {
     "title": "FOSS",
-    "description": "Some of the free and open-source software projects I work/ed on.",
+    "description": "Some open-source software projects I work(ed) on as a developer/maintainer.",
     "data": [
       {
         "title": "aitrack.work",
@@ -18,6 +18,12 @@
         },
         "web": "https://bukmark.club",
         "source": "https://github.com/ttntm/bukmark.club"
+      },
+      {
+        "title": "bundestrojaner.at",
+        "description": "A website for a campaign against mass surveillance.",
+        "web": "https://bundestrojaner.at",
+        "source": "https://github.com/AKVorrat/bundestrojaner.at"
       },
       {
         "title": "Reboot Reminder",

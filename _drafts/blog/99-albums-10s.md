@@ -1,7 +1,7 @@
 ---
 title: My Favorite Albums - The 2010s
 slug: my-favorite-albums-from-the-2010s
-date: 2024-12-20T10:30:00Z
+date: 2025-02-10T10:30:00Z
 description: An annotated list of my favorite albums from 2010 to 2019.
 tags:
   - albums

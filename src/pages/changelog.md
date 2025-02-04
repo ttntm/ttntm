@@ -1,6 +1,6 @@
 ---
 title: Changelog
-description: A logbook of all the changes this website has gone through since it launched in 2018.
+description: A logbook of all the changes this website has gone through since it launched.
 layout: page.njk
 templateEngineOverride: md,njk
 permalink: /changelog/index.html

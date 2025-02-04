@@ -281,7 +281,7 @@ code {
 
 em,
 .italic {
-  /* font-style: italic; */
+  font-style: italic;
   color: var(--highlight);
 }
 

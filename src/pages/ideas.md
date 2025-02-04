@@ -31,5 +31,5 @@ You're always welcome to [email me](mailto:ttntm@pm.me?subject=Ideas) with feedb
     - Added 03/24, see [/changelog](/changelog/#timeline)
 - Add a sitemap to this website to make it more user-friendly for humans
     - Added 03/24, see [/sitemap](/sitemap/)
-- An interface for Eleventy to retrieve reading list data from Omnivore
+- An interface for Eleventy to retrieve reading list data from an API
     - Added 03/24, see [/reading](/reading/)

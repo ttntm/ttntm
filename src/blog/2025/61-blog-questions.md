@@ -88,7 +88,7 @@ In terms of writing _and publishing it on this website_, the answer's pretty muc
 Writing elsewhere?
 Sometimes.
 
-I used to publish some of my articles on <span>Dev.to</span> (in addition to being published here), but left that platform a while ago. I also had an article published in the {% ext "Ctrl-ZINE", "https://ctrl-c.club/~loghead/ctrl-zine.html" %} recently, and might do that again at some point. Not much else otherwise.
+I used to publish some of my articles on `Dev.to` (in addition to being published here), but left that platform a while ago. I also had an article published in the {% ext "Ctrl-ZINE", "https://ctrl-c.club/~loghead/ctrl-zine.html" %} recently, and might do that again at some point. Not much else otherwise.
 
 ## It's Your Turn Now
 
