@@ -38,7 +38,7 @@
   --black: #000;
   --font-sans: 'Titillium Web', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-mono: 'Input Mono', 'JetBrains Mono', 'IBM Plex Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-  --bg: var(--white);
+  --bg: #f9f8fa;
   --bg-noise: url('/img/noise-light-32x32.png');
   --border: var(--light);
   --btnBg: var(--light);
