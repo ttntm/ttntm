@@ -11,8 +11,6 @@ showProgress: true
 
 A list of the things I'm interested in, and a constant work in progress that will grow over time.
 
-**Last updated:** Feb. 4th 2025
-
 ## Tech and Web Stuff
 
 A couple of the web and tech topics that I'm most interested in.
@@ -117,6 +115,5 @@ The things I'm not interested in:
 
 <div class="hr shadow mb1"></div>
 
-## More Pages Like This?
-
-I recommend exploring {% ext "the /interests Directory", "https://chrisburnell.github.io/interests-directory/" %}.
+**Updated**
+`Feb. 4th 2025`

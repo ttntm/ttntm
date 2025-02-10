@@ -5,9 +5,7 @@ layout: page.njk
 permalink: /uses/index.html
 ---
 
-**Last updated:** Jan. 7th 2024
-
-Annual summaries: [#defaults](/tags/defaults/)
+{{description}}
 
 ## Hardware
 
@@ -52,3 +50,12 @@ I play my video games on a PlayStation 5 (disk edition, capable of DVD/Blu-ray p
 ## Music
 
 I don't use any music streaming services. It's either local files via {% ext "cmus", "https://cmus.github.io" %} (my own CD/Vinyl rips collected over the years) or actual records played on my Audio Technica AT-LP120XBT-USB. The turntable's Bluetooth connection is super convenient: it lets me listen to music my wife would get a headache from without disturbing her at all.
+
+## Annual Summaries
+
+...can be found as posts tagged [#defaults](/tags/defaults/).
+
+<div class="hr shadow mb1"></div>
+
+**Updated**
+`Jan. 7th 2024`

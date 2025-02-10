@@ -26,6 +26,11 @@
         "source": "https://github.com/AKVorrat/bundestrojaner.at"
       },
       {
+        "title": "cf-form-to-email-worker",
+        "description": "A minimal Cloudflare worker that turns form submissions into SendGrid emails.",
+        "source": "https://codeberg.org/ttntm/cf-form-to-email-worker"
+      },
+      {
         "title": "Reboot Reminder",
         "description": "A Mastodon bot that kindly reminds you to reboot your devices once a week.",
         "web": "https://mas.to/@rebootbot",

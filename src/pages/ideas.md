@@ -12,8 +12,6 @@ This is a public list of my ideas for future projects. Additional features and i
 
 You're always welcome to [email me](mailto:ttntm@pm.me?subject=Ideas) with feedback, or if you feel like we could work together and make any of these happen.
 
-**Last updated:** May 3rd 2024
-
 - A minimal bookmark manager
 - A browser game that works on a Q/A basis; user submitted question/answer combinations, 1 question per calendar day
 - An offline version / desktop app for recept0r; should use a local DB
@@ -33,3 +31,8 @@ You're always welcome to [email me](mailto:ttntm@pm.me?subject=Ideas) with feedb
     - Added 03/24, see [/sitemap](/sitemap/)
 - An interface for Eleventy to retrieve reading list data from an API
     - Added 03/24, see [/reading](/reading/)
+
+<div class="hr shadow mb1"></div>
+
+**Updated**
+`May 3rd 2024`

@@ -5,9 +5,7 @@ layout: page.njk
 permalink: /now/index.html
 ---
 
-<img src="/static/img/now.jpg" class="img-center img-fluid w100" alt="A photo of a graffiti on a wall saying 'What now?'">
-
-**Last updated:** Jan. 10th 2025
+<img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
 **Writing**: trying to find more time to write, i.e. finish the [#albums](/tags/albums/) series, and something about cool projects I recently worked on, the recent switch to a new read-it-later setup
 
@@ -24,3 +22,8 @@ permalink: /now/index.html
 **Life**: planning the year, catching up on all the leftovers and undone things from the last year
 
 **Weight Lifting**: GZCLP, cycle II (started on Dec. 28th 2024)
+
+<div class="hr shadow mb1"></div>
+
+**Updated**
+`Jan. 10th 2025`
