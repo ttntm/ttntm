@@ -21,7 +21,7 @@ For additional context: the following article is based on the notes and resource
 
 This article is based on a web application that's built into the Netlify ecosystem. As such, the findings and practices outlined here might end up being helpful in general, but might not apply 1:1 to other services.
 
-Furthermore, I'd like to point out that a lot of excellent information on the topic of serverless functions can be found here: {% ext "github.com/DavidWells/netlify-functions-workshop" "https://github.com/DavidWells/netlify-functions-workshop" %}. It's the most complete resource on the topic I came across and I haven't seen it mentioned quite as much as I thought it deserves to be.
+Furthermore, I'd like to point out that a lot of excellent information on the topic of serverless functions can be found here: {% ext "DavidWells/netlify-functions-workshop" "https://github.com/DavidWells/netlify-functions-workshop" %}. It's the most complete resource on the topic I came across and I haven't seen it mentioned quite as much as I thought it deserves to be.
 
 ## Architecting a Serverless Back End
 

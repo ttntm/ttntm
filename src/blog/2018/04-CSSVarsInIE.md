@@ -74,7 +74,7 @@ Most of the code above is based on this helpful resource found on CodePen: {% ex
 
 #### The Ponyfill
 
-A so called "Ponyfill" "doesn't monkey patch anything, but instead exports the functionality as a normal module, so you can use it locally without affecting other code". The one used here is called "css-vars-ponyfill" and comes from this repository on GitHub: {% ext "github.com/jhildenbiddle/css-vars-ponyfill" "https://github.com/jhildenbiddle/css-vars-ponyfill" %}
+A so called "Ponyfill" "doesn't monkey patch anything, but instead exports the functionality as a normal module, so you can use it locally without affecting other code". The one used here is called "css-vars-ponyfill" and comes from this repository on GitHub: {% ext "jhildenbiddle/css-vars-ponyfill" "https://github.com/jhildenbiddle/css-vars-ponyfill" %}
 
 Simply adding the ponyfill to a page won't do the trick, it also has to be executed via `cssVars()`. The site this example came from is also using jQuery, so this call has been placed in `document.ready()`, which looks like that:
 

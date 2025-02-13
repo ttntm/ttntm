@@ -25,7 +25,7 @@ Initial research into "building drag and drop from scratch" was soon deemed poin
 
 Let's dig in - here are 2 links to get things started:
 
-1. The demo's GitHub repo: {% ext "github.com/ttntm/vue-dnd-demo" "https://github.com/ttntm/vue-dnd-demo" %}
+1. The demo's GitHub repo: {% ext "ttntm/vue-dnd-demo" "https://github.com/ttntm/vue-dnd-demo" %}
 2. A live sandbox: {% ext "stackblitz.com/github/ttntm/vue-dnd-demo?file=src/App.vue" "https://stackblitz.com/github/ttntm/vue-dnd-demo?file=src/App.vue" %}
 
 The setup is pretty straightforward: a parent component (`App.vue`) is passing the list down to a child component (`DndList.vue`) that takes care of editing and sorting it. The child emits events (`update:list`, see `defineEmits` in line 10) up to the parent whenever the list and/or the list items change.

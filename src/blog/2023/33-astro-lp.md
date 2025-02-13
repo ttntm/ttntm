@@ -35,10 +35,10 @@ Working with Astro was quite pleasant; I'd used it before (late summer/autumn 20
 
 Astro Template:
 
-- {% ext "github.com/ttntm/astro-landing-page", "https://github.com/ttntm/astro-landing-page" %}
+- {% ext "ttntm/astro-landing-page", "https://github.com/ttntm/astro-landing-page" %}
 - {% ext "Live Demo", "https://awesomestro.ttntm.me" %}
 
 Other versions:
 
-- {% ext "github.com/ttntm/11ty-landing-page", "https://github.com/ttntm/11ty-landing-page" %}
-- {% ext "github.com/ttntm/hugo-landing-page", "https://github.com/ttntm/hugo-landing-page" %}
+- {% ext "ttntm/11ty-landing-page", "https://github.com/ttntm/11ty-landing-page" %}
+- {% ext "ttntm/hugo-landing-page", "https://github.com/ttntm/hugo-landing-page" %}
