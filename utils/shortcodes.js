@@ -97,24 +97,5 @@ export default {
           <span class="d-inline-block" style="padding-left: 1.6rem;">Facts and circumstances may have changed since publication. Please contact me before jumping to conclusions if something seems wrong or unclear.</span>
         </p>`
       : ''
-  },
-
-  postReplyShare: function(subject) {
-    // shortcode to create a "reply with email" link and a "copy link" button
-    const encodedSubject = encodeURIComponent(subject)
-
-    return `<div class="post text-center">
-      <h2 class="large mb1">Thanks for reading!</h2>
-      <p>
-        Do you have feedback, questions or suggestions?
-        <br>
-        <a class="bold" href="mailto:ttntm@pm.me?subject=${encodedSubject}">Reply With Email</a>
-      </p>
-      <p class="hide-no-js">
-        Share this post with others?
-        <br>
-        <button id="copy-share" class="link bold">Copy Link</button>
-      </p>
-    </div>`
   }
 }
