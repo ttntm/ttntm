@@ -38,7 +38,7 @@ export default async function() {
         if (existing) {
           wmMap.set(target, {
             ...existing,
-            [type]: (existing[type] || 0) + 1
+            [type]: (existing[type] ?? 0) + 1
           })
         } else {
           wmMap.set(target, {
@@ -50,7 +50,6 @@ export default async function() {
   } catch (ex) {
     console.log(ex.message || ex)
   } finally {
-    console.log(Object.fromEntries(wmMap))
     return wmMap
   }
 }

@@ -20,6 +20,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 <small>Released: 2025-02-13</small>
 
 - Added support for webmentions
+- Updated the background color of code blocks (light theme)
 
 ## 3.22.1
 
