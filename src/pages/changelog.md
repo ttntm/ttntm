@@ -15,6 +15,12 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.23
+
+<small>Released: 2025-02-13</small>
+
+- Added support for webmentions
+
 ## 3.22.1
 
 - Updated the placement of "Last update" dates across various pages

@@ -50,6 +50,7 @@ export default async function() {
   } catch (ex) {
     console.log(ex.message || ex)
   } finally {
+    console.log(Object.fromEntries(wmMap))
     return wmMap
   }
 }
