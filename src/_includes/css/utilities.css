@@ -52,8 +52,16 @@
   justify-content: space-around;
 }
 
+.align-items-end {
+  align-items: flex-end;
+}
+
 .align-items-center {
   align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
 }
 
 .align-self-center {

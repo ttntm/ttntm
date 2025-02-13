@@ -1,20 +1,54 @@
 ---
 layout: base.njk
 ---
+{%- set postMentions = webmentions | getPostMentions(page.url) -%}
+
 <article id="content" class="container h-entry">
   <aside class="progress-bar hide-no-js d-none d-lg-block">
     <div class="progress-bar__inner"></div>
   </aside>
   <h1>{{ title }}</h1>
-  <p class="text-muted" style="font-size: .875rem; margin-bottom: .5rem;">
-    Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">{{ date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;<span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span>&nbsp;&nbsp;Reading time: {{ content | readingTime }}
-  </p>
-  {% if updated %}
-    <p class="text-muted" style="font-size: .875rem; margin-bottom: .5rem;">
-      Last update: <time class="dt-published" datetime="{{ updated | date('YYYY-MM-DD') }}">{{ updated | date('MMMM DD, YYYY') }}</time>
-    </p>
-  {% endif %}
-  {% include "components/post.tags.njk" %}
+  <div class="grid d-sm-flex justify-content-between align-items-end gap1">
+    <div>
+      <p class="text-muted" style="font-size: .875rem; margin-bottom: .5rem;">
+        Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">{{ date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;<span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span>&nbsp;&nbsp;Reading time: {{ content | readingTime }}
+      </p>
+      {% if updated %}
+        <p class="text-muted" style="font-size: .875rem; margin-bottom: .5rem;">
+          Last update: <time class="dt-published" datetime="{{ updated | date('YYYY-MM-DD') }}">{{ updated | date('MMMM DD, YYYY') }}</time>
+        </p>
+      {% endif %}
+      {% include "components/post.tags.njk" %}
+    </div>
+    {% if postMentions %}
+      <ul class="list-reset list-inline flex align-items-center text-muted gap1" style="font-size: .875rem">
+        <li class="flex align-items-center list-inline-item" title="Likes" style="gap: .5rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+          </svg>
+          <span>{{ postMentions['like-of'] or '-' }}<span>
+        </li>
+        <li class="flex align-items-center list-inline-item" title="Shares" style="gap: .5rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
+            <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
+          </svg>
+          <span>{{ postMentions['repost-of'] or '-' }}<br><span>
+        </li>
+        <li class="flex align-items-center list-inline-item" title="Replies" style="gap: .5rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M8 9h8" />
+            <path d="M8 13h6" />
+            <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z" />
+          </svg>
+          <span>{{ postMentions['in-reply-to'] or '-' }}<span>
+        </li>
+      </ul>
+    {% endif %}
+  </div>
   <div class="hr shadow"></div>
   {% if showToc %}
     <div class="toc-wrapper mb1">
@@ -34,7 +68,25 @@ layout: base.njk
     {{ content | safe }}
   </div>
   <div class="hr shadow mt2 mb2"></div>
-  {% postReplyShare title %}
+  <div class="post text-center">
+    <h2 class="large mb1">Thanks for reading!</h2>
+    <p class="m0">
+      Do you have feedback, questions or suggestions?
+    </p>
+    <ul class="list-reset list-inline flex flex-wrap justify-content-center align-items-center gap1 mb1">
+      <li class="list-inline-item">
+        <a class="bold" href="mailto:ttntm@pm.me?subject={{ title | getEmailSubject }}">Reply With Email</a>
+      </li>
+      <li class="list-inline-item">
+        <a class="bold ext" href="https://webmention.io/ttntm.me/webmention">Send Webmention</a>
+      </li>
+    </ul>
+    <p class="hide-no-js">
+      Share this post with others?
+      <br>
+      <button id="copy-share" class="link bold">Copy Link</button>
+    </p>
+  </div>
 </article>
 <section class="container">
   <div class="hr shadow mt2 mb2"></div>

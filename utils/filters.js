@@ -18,12 +18,19 @@ export default {
     return Array.from(tagSet)
   },
 
+  getEmailSubject: function(title) {
+    const encodedSubject = encodeURIComponent(title)
+    return encodedSubject
+  },
+
+  getPostMentions: function(mentions, url) {
+    const data = mentions.get(`https://ttntm.me${url}`)
+    return Boolean(data) ? data : undefined
+  },
+
   markdown: function(value) {
     // markdown from string filter => {{ STRING | markdown | safe }}
-    let markdown = markdownIt({
-      html: true
-    })
-
+    let markdown = markdownIt({ html: true })
     return markdown.render(value)
   },
 

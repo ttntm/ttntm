@@ -74,7 +74,7 @@
   --navMobileBorder: var(--navMobileBg);
   --navMobileLink: var(--sec);
   --postImgOpacity: 1;
-  --prismBg: #f5f7ff;
+  --prismBg: var(--lightest);
   --prismOpNumBool: #c76b29;
   --prismText: #5e6687;
   --quoteBg: var(--lightest);
