@@ -98,7 +98,7 @@ In the end though, I don't think any of the above is relevant if you're using Sa
 
 For some reason, `$(document).ready()` didn't fire consistently enough - it could happen, that `cssVars()` never got executed and the site rendered without resolving the variable values.
 
-Putting `cssVars()` into an _EventListener_ instead helped here:
+Putting `cssVars()` into an event listener instead helped here:
 
 ```js
 window.addEventListener('load', function() {

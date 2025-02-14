@@ -198,9 +198,9 @@ gulp.task("get-comments", function (done) {
 
 `var url` is a template literal making use of our `.env` file and its respective content. Make sure to change that accordingly in case your files entries are named differently.
 
-`fs.writeFile(buildSrc + "data/comments.json",` creates a new JSON file in Hugo's _data_ directory that we'll pull the comments from. If you want your JSON data file to be called differently, change it here. In terms of the GDPR, this file should probably _not_ be available in your (public) repository. It's sufficient to have this as a build-time resource only, i.e. not having a local and/or committed copy of it at all.
+`fs.writeFile(buildSrc + "data/comments.json",` creates a new JSON file in Hugo's `data` directory that we'll pull the comments from. If you want your JSON data file to be called differently, change it here. In terms of the GDPR, this file should probably _not_ be available in your (public) repository. It's sufficient to have this as a build-time resource only, i.e. not having a local and/or committed copy of it at all.
 
-You can test this gulp task now - `gulp get-comments` should connect to Netlify successfully and then proceed to create a `comments.json` file in you _data_ directory.
+You can test this gulp task now - `gulp get-comments` should connect to Netlify successfully and then proceed to create a `comments.json` file in you `data` directory.
 
 ### Displaying the Comments
 

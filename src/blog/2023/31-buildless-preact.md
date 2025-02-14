@@ -57,7 +57,7 @@ Source code: {% ext "./components.js", "https://github.com/ttntm/buildless-preac
 
 Uses a default export to provide reusable components. Use {% ext "Preact Hooks", "https://preactjs.com/guide/v10/hooks" %} if you want to make use of stateful components.
 
-NB: using components in a separate file (or even _files_) is a nice way to follow the separation of concerns and to remove (reusable) component code from `app.js`. It is not required though - components can (also) be defined in `app.js` and/or inline (`<script type="module">`) without any issues - check out the `Heading` component in `app.js` for an example.
+NB: using components in a separate file (or even multiple files) is a nice way to follow the separation of concerns and to remove (reusable) component code from `app.js`. It is not required though - components can (also) be defined in `app.js` and/or inline (`<script type="module">`) without any issues - check out the `Heading` component in `app.js` for an example.
 
 ### config.js
 

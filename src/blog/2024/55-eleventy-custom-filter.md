@@ -105,10 +105,10 @@ That's quite a chunk of code - let's have a look at it.
 This shortcode is a function that accepts 4 parameters and returns HTML.
 The parameters are:
 
-1. `collection` (_object[]_): an Eleventy collection
-2. `filterKey` (_string_): the front matter or JSON key the filter should be based on, i.e. "genre" for the albums collection
-3. `excludeKey?` (_string_ | _null_): used together with `excludeValue`; a way to exclude certain items in a collection from the filter
-4. `excludeValue?` (_any_ | _null_): used together with `excludeKey`
+1. `collection` (`object[]`): an Eleventy collection
+2. `filterKey` (`string`): the front matter or JSON key the filter should be based on, i.e. "genre" for the albums collection
+3. `excludeKey?` (`string | null`): used together with `excludeValue`; a way to exclude certain items in a collection from the filter
+4. `excludeValue?` (`any | null`): used together with `excludeKey`
 
 Both `excludeKey` and `excludeValue` are optional parameters that default to `null`. That's a deliberate choice, because `Boolean(o[null] !== null)` returns `true`, which means that the code won't break if/when either (or both) of them are omitted.
 

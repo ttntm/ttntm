@@ -25,7 +25,7 @@ First, let's have a look at a brief summary of the core requirements:
 - There should be a way to link to filtered list views
 - The list view should feel "alive" somehow (i.e. transitions/animations)
 
-I suppose the title gave it away already: we're going to use Astro as our SSG and we're including a Vue _island_ (see: {% ext "Astro docs", "https://docs.astro.build/en/concepts/islands/" %}) for the list view incl. transitions and filtering.
+I suppose the title gave it away already: we're going to use Astro as our SSG and we're including a Vue {% ext "island", "https://docs.astro.build/en/concepts/islands/" %} for the list view incl. transitions and filtering.
 
 The result is going to look like this:
 
@@ -85,7 +85,7 @@ The rendered content can be placed anywhere in the template using the built-in `
 As mentioned earlier, our portfolio list page is a Vue island with 3 components:
 
 - `PortfolioList.vue`: the outer wrapper and common parent of the other 2 components; manages data and handles events
-- `PortfolioListItem.vue`: just a _dumb_ display component
+- `PortfolioListItem.vue`: just a display component
 - `PortfolioListNav.vue`: lists all tags and emits an `update:filter` event when a filter gets selected or removed
 
 Let's have a closer look at the `script setup` sction of our `PortfolioList.vue` component now.

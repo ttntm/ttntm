@@ -101,7 +101,7 @@ module.exports = async function() {
 }
 ```
 
-The Omnivore API key is stored in an _untracked_ local `.env` file and is made available using the `dotenv` package. Don't forget that the API key should also be configured in whatever CI/CD service you're using to deploy your website.
+The Omnivore API key is stored in a local `.env` file and is made available using the `dotenv` package. Don't forget that the API key should also be configured in whatever CI/CD service you're using to deploy your website.
 
 Other than that, the code is pretty straightforward: we either get a response, that we then process with a `map()` function, or we don't, which leads to an empty array being returned by the data file. That, and the outer try/catch, should make sure that potentials errors, timeouts etc. don't break the build.
 
