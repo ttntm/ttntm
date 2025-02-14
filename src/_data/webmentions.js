@@ -10,7 +10,7 @@ export default async function() {
   try {
     const response = await eleventyFetch(wmURL, {
       directory: '.cache',
-      duration: '1d',
+      duration: '4h',
       type: 'json',
       fetchOptions: {
         method: 'GET',
