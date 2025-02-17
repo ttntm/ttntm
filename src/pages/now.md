@@ -1,29 +1,32 @@
 ---
 title: Now
 description: "A public reminder of what I'm (supposed to be...) doing now."
+image: /img/now.jpg
 layout: page.njk
 permalink: /now/index.html
 ---
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Writing**: trying to find more time to write, i.e. finish the [#albums](/tags/albums/) series, and something about cool projects I recently worked on, the recent switch to a new read-it-later setup
+**Writing**: trying to find more time to write - some drafts are almost ready, i.e. stuff about cool projects I recently worked on, or the recent switch to a new read-it-later setup
 
 **Books**: Dune Messiah, Leviathan Wakes, If Cats Disappeared from the World
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Hogwarts Legacy, Sense: A Cyberpunk Ghost Story, D2R
+**Games**: The Outer Worlds
 
-**Drinks**: Protein shakes, Milk, Ovomaltine
+**Drinks**: Protein shakes, milk, ice tea
 
-**Work**: building a couple of websites, also preparing for some certifications
+**Work**: working on a couple of websites, also preparing for some certifications, and planning a refresher of my limited C#/.NET knowledge
 
-**Life**: planning the year, catching up on all the leftovers and undone things from the last year
+**Life**: done with winter, cold, and the flu; watching too many good things right now (i.e. Fringe, Paradise, Severance); trying to figure out holiday plans for this year
 
 **Weight Lifting**: GZCLP, cycle II (started on Dec. 28th 2024)
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Jan. 10th 2025`
+`Feb. 17th 2025`
+
+An archive of past updates of this page can be found at [/then](/then/).

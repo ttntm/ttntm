@@ -1,0 +1,37 @@
+---
+layout: base.njk
+---
+<article id="content" class="container">
+  <h1 class="tight-md m0">{{ title }}</h1>
+  <div class="hr shadow"></div>
+  <div class="post">
+    {{ content | safe }}
+  </div>
+  <div class="hr shadow mb1"></div>
+  {% set previousEntry = collections.then | getPreviousCollectionItem(page) %}
+  {% set nextEntry = collections.then | getNextCollectionItem(page) %}
+  {% if previousEntry or nextEntry %}
+    <section class="grid grid2 gap1 mt2">
+      {% if previousEntry %}
+        <div class="post second first-md">
+          <h2 class="h6 next-prev uppercase tight">Previous Entry</h2>
+          <p class="m0">
+            <a href="{{ previousEntry.url }}">{{ previousEntry.data.slug }}</a>
+          </p>
+        </div>
+      {% endif %}
+      {% if nextEntry %}
+        <div class="post first second-md">
+          <h2 class="h6 next-prev uppercase tight">Next Entry</h2>
+          <p class="m0">
+            <a href="{{ nextEntry.url }}">{{ nextEntry.data.slug }}</a>
+          </p>
+        </div>
+      {% endif %}
+    </section>
+  {% endif %}
+  <div class="hr shadow mt2 mb1"></div>
+  <p class="post text-center m0">
+    &lt;&nbsp;&nbsp;<a href="/now/">/now</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/then/">/then</a>&nbsp;&nbsp;&gt;
+  </p>
+</article>

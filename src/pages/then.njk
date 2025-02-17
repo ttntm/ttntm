@@ -1,0 +1,17 @@
+---
+title: Then
+description: An archive of past /now page updates.
+layout: page.njk
+permalink: /then/index.html
+---
+<ul class="list-reset flex justify-content-center flex-wrap mt2 mb2" style="gap: 1rem;">
+  {%- for item in collections.then | reverse -%}
+    <li>
+      <a href="{{ item.url }}">{{ item.data.slug }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<div class="hr shadow mb2"></div>
+<p class="text-center mb0">
+  <a href="/now/">Back to /now</a>
+</p>
