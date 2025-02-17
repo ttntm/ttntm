@@ -113,6 +113,10 @@ export default async function(config) {
       .value()
   })
 
+  config.addCollection('then', async(collection) => {
+    return collection.getFilteredByGlob('./src/then/**/*.md')
+  })
+
   config.addCollection('whisky', async(collection) => {
     return collection.getFilteredByGlob('./src/whisky/**/*.md')
   })
