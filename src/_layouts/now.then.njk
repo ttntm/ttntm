@@ -7,11 +7,11 @@ layout: base.njk
   <div class="post">
     {{ content | safe }}
   </div>
-  <div class="hr shadow mb1"></div>
   {% set previousEntry = collections.then | getPreviousCollectionItem(page) %}
   {% set nextEntry = collections.then | getNextCollectionItem(page) %}
   {% if previousEntry or nextEntry %}
-    <section class="grid grid2 gap1 mt2">
+    <div class="hr shadow mb1"></div>
+    <section class="grid grid2 gap1 mt2 mb2">
       {% if previousEntry %}
         <div class="post second first-md">
           <h2 class="h6 next-prev uppercase tight">Previous Entry</h2>
@@ -30,7 +30,7 @@ layout: base.njk
       {% endif %}
     </section>
   {% endif %}
-  <div class="hr shadow mt2 mb1"></div>
+  <div class="hr shadow mb1"></div>
   <p class="post text-center m0">
     &lt;&nbsp;&nbsp;<a href="/now/">/now</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/then/">/then</a>&nbsp;&nbsp;&gt;
   </p>

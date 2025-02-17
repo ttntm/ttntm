@@ -78,7 +78,7 @@ layout: base.njk
         <a class="bold" href="mailto:ttntm@pm.me?subject={{ title | getEmailSubject }}">Reply With Email</a>
       </li>
       <li class="list-inline-item">
-        <a class="bold ext" href="https://webmention.io/ttntm.me/webmention">Send Webmention</a>
+        <a class="bold ext" href="{{ site.wmUrl }}">Send Webmention</a>
       </li>
     </ul>
     <p class="hide-no-js">
@@ -90,10 +90,34 @@ layout: base.njk
 </article>
 <section class="container">
   <div class="hr shadow mt2 mb2"></div>
-  {% include "components/post.nextprev.njk" %}
+  {% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+  {% set nextPost = collections.blog | getNextCollectionItem(page) %}
+  {% if previousPost or nextPost %}
+    <section class="grid grid2 gap1 expand mt2">
+      {% if previousPost %}
+      <div class="card shadow-md-hover next-prev second first-md">
+        <h2 class="h6 next-prev uppercase tight">Previous Post</h3>
+        <h3 class="h6 heading">
+          <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+        </h3>
+        <p class="m0">{{ previousPost.data.description }}</p>
+      </div>
+      {% endif %}
+      {% if nextPost %}
+        <div class="card shadow-md-hover next-prev first second-md">
+          <h2 class="h6 next-prev uppercase tight">Next Post</h3>
+          <h3 class="h6 heading">
+            <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+          </h3>
+          <p class="m0">{{ nextPost.data.description }}</p>
+        </div>
+      {% endif %}
+    </section>
+  {% endif %}
   <div class="hr shadow mt2 mb2"></div>
   <div class="flex justify-content-center gap2">
-    {% include "components/post.buttons.njk" %}
+    <a href="/blog/" class="d-inline-block btn cap-first"><span class="d-none d-sm-inline">View&nbsp;</span>all Posts</a>
+    <a href="/tags/" class="d-inline-block btn cap-first"><span class="d-none d-sm-inline">View&nbsp;</span>all Tags</a>
   </div>
 </section>
 <script src="/js/post-utils.js"></script>

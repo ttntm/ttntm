@@ -15,6 +15,12 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.24
+
+<small>Released: 2025-02-17</small>
+
+- Added [/then](/then/), an archive of past [/now](/now/) page updates
+
 ## 3.23
 
 <small>Released: 2025-02-13</small>
