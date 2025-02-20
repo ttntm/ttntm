@@ -13,13 +13,11 @@ updated: 2024-12-16T09:30:00Z
 
 **Omnivore was shut down in late 2024**
 See: {% ext "One of my favorite read-later apps is shutting down", "https://www.theverge.com/2024/10/29/24283055/one-of-my-favorite-read-later-apps-is-shutting-down" %}
-This article can be considered lasrgely obsolete, but the approach might apply to other services/tools.
+This article is probably obsolete now, but the general approach might apply to other services/tools.
 
 --
 
 It's been a productive year so far - I've managed to add a couple of cool new things to this website, which is something I'd been planning to do for a while. This article is about the most recent addition, my [personal reading list](/reading/) powered by Omnivore, a free, open source, read-it-later app.
-
-Before we start: you're welcome to check out all posts with the [#website](/tags/website/) tag and the [changelog](/changelog/) if you're curious about other recent changes.
 
 <img src="/static/img/reading.png" class="img-fluid img-center" alt="An illustration, taken from undraw.co, showing a female person reading a book while sitting in a chair">
 
