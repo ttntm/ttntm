@@ -191,9 +191,9 @@ This list could go on for a while, in varying degrees of detail. I tried to pick
 All of these articles were helpful to me in one way or another:
 
 - {% ext "Notes on Vue", "https://notes-on-vue.netlify.app" %} (notes based on first-hand personal learning experience, recommended!)
-- {% ext "vuejs.org/v2/guide/reactivity.html", "https://vuejs.org/v2/guide/reactivity.html" %} (must read; the basics of reactivity in vue)
-- {% ext "itnext.io/anyway-heres-how-to-create-a-multiple-layout-system-with-vue-and-vue-router-b379baa91a05", "https://itnext.io/anyway-heres-how-to-create-a-multiple-layout-system-with-vue-and-vue-router-b379baa91a05" %} (re: vue-router)
-- {% ext "netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/", "https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/" %} (esp. useful for the detailed explanations re: serverless functions)
-- {% ext "dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno", "https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno" %} (must read; user authentication with Netlify Identity/GoTrueJS)
-- {% ext "alligator.io/vuejs/vue-lazy-load-images/", "https://alligator.io/vuejs/vue-lazy-load-images/" %} (convenient and recommended)
-- {% ext "medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502", "https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502" %} (very well written and useful for a better understanding of how to properly use vuex)
+- {% ext "Reactivity in Depth", "https://v2.vuejs.org/v2/guide/reactivity.html" %} (must read; the basics of reactivity in vue)
+- {% ext "How to create a multiple layout system with Vue and Vue-router", "https://itnext.io/anyway-heres-how-to-create-a-multiple-layout-system-with-vue-and-vue-router-b379baa91a05" %} (re: vue-router)
+- {% ext "Building Serverless CRUD apps with Netlify Functions & FaunaDB", "https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/" %} (esp. useful for the detailed explanations re: serverless functions)
+- {% ext "Build a serverless CRUD app with authentication using Vue.js Netlify and FaunaDB", "https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno" %} (must read; user authentication with Netlify Identity/GoTrueJS)
+- {% ext "Lazy-Load Images In Vue.js with vue-clazy-load", "https://alligator.io/vuejs/vue-lazy-load-images/" %} (convenient and recommended)
+- {% ext "Making a large scale app with vue.js (part 1): modularize your store!", "https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502" %} (very well written and useful for a better understanding of how to properly use vuex)

@@ -15,6 +15,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.24.1
+
+- Status badges for entries on the [/work](/work/) page
+- Tuning of the external link icon position in hopes of better handling of edge cases re: line breaks
+
 ## 3.24
 
 <small>Released: 2025-02-17</small>

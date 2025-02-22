@@ -41,6 +41,20 @@ permalink: /work/index.html
       {% for entry in item.data %}
         <li class="py1">
           <h3 class="h4 tight">{{ entry.title }}</h3>
+          {% if entry.status %}
+            {% if entry.status == 1 %}
+              {% set statusText = 'active' %}
+            {% endif %}
+            {% if entry.status == 2 %}
+              {% set statusText = 'finished' %}
+            {% endif %}
+            {% if entry.status == 3 %}
+              {% set statusText = 'abandoned' %}
+            {% endif %}
+            <p class="small" style="margin-bottom: .5rem;">
+              Status: <span class="status-badge {{ statusText }}">{{ statusText }}</span>
+            </p>
+          {% endif %}
           <p style="margin-bottom: .75rem;">
             {{ entry.description }}
             {% if entry.article %}

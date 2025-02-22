@@ -5,12 +5,14 @@
     "data": [
       {
         "title": "aitrack.work",
+        "status": 1,
         "description": "A simple task-based time tracker.",
         "web": "https://aitrack.work",
         "source": "https://codeberg.org/ttntm/itrack"
       },
       {
         "title": "BUKMARK.CLUB",
+        "status": 1,
         "description": "A directory of websites that provide a curated collection of bookmarks and/or links to other websites.",
         "article": {
           "title": "Intro: BUKMARK.CLUB",
@@ -21,23 +23,27 @@
       },
       {
         "title": "bundestrojaner.at",
+        "status": 2,
         "description": "A website for a campaign against mass surveillance.",
         "web": "https://bundestrojaner.at",
         "source": "https://github.com/AKVorrat/bundestrojaner.at"
       },
       {
         "title": "cf-form-to-email-worker",
+        "status": 2,
         "description": "A minimal Cloudflare worker that turns form submissions into SendGrid emails.",
         "source": "https://codeberg.org/ttntm/cf-form-to-email-worker"
       },
       {
         "title": "Reboot Reminder",
+        "status": 2,
         "description": "A Mastodon bot that kindly reminds you to reboot your devices once a week.",
         "web": "https://mas.to/@rebootbot",
         "source": "https://codeberg.org/ttntm/reboot-reminder"
       },
       {
         "title": "recept0r",
+        "status": 1,
         "description": "A web app for family recipes.",
         "article": {
           "title": "How I Built a Serverless Recipes App with FaunaDB and Vue.js",
@@ -48,17 +54,20 @@
       },
       {
         "title": "sfmc-utils",
+        "status": 1,
         "description": "A collection of reusable SSJS utility functions for SFMC.",
         "source": "https://github.com/ttntm/sfmc-utils"
       },
       {
         "title": "snowflake-relay",
+        "status": 2,
         "description": " A temporary Tor Snowflake Proxy.",
         "web": "https://relay.iamover.it",
         "source": "https://github.com/ttntm/snowflake-relay"
       },
       {
         "title": "TKB",
+        "status": 1,
         "description": "Tom's Knowledge Base, my personal wiki.",
         "article": {
           "title": "My Personal Knowledge Base",
@@ -69,6 +78,7 @@
       },
       {
         "title": "watch3r",
+        "status": 1,
         "description": "A watchlist/journal for movies and series.",
         "article": {
           "title": "Introducing: WATCH3R",
@@ -85,12 +95,14 @@
     "data": [
       {
         "title": "11ty-landing-page",
+        "status": 1,
         "description": "A simple landing page template built with 11ty and Tailwind CSS.",
         "web": "https://awesome11ty.ttntm.me",
         "source": "https://github.com/ttntm/11ty-landing-page"
       },
       {
         "title": "astro-landing-page",
+        "status": 1,
         "description": "A simple landing page template built with Astro and Tailwind CSS.",
         "article": {
           "title": "A Simple Astro Landing Page Template",
@@ -101,6 +113,7 @@
       },
       {
         "title": "astro-portfolio-starter",
+        "status": 2,
         "description": "A filterable portfolio built with Astro and Vue.",
         "article": {
           "title": "Building a Filterable Portfolio with Astro and Vue",
@@ -111,6 +124,7 @@
       },
       {
         "title": "buildless-preact-starter",
+        "status": 2,
         "description": "A starter intended to showcase how to use Preact for SPAs in buildless environments.",
         "article": {
           "title": "My Buildless Preact Starter",
@@ -121,12 +135,14 @@
       },
       {
         "title": "hugo-landing-page",
+        "status": 3,
         "description": "A simple landing page template built with Hugo and Tailwind CSS.",
         "web": "https://awesome.ttntm.me",
         "source": "https://github.com/ttntm/hugo-landing-page"
       },
       {
         "title": " hugo-tailwind-boilerplate",
+        "status": 3,
         "description": "A boilerplate for Hugo sites based on Tailwind CSS.",
         "article": {
           "title": "Boilerplate: Hugo, TailwindCSS and gulp",
@@ -136,6 +152,7 @@
       },
       {
         "title": " startpage",
+        "status": 2,
         "description": "A minimal, fully customizable start page for your browser.",
         "web": "https://startpage-demo.netlify.app",
         "source": "https://github.com/ttntm/startpage"
@@ -204,16 +221,19 @@
     "data": [
       {
         "title": "cmus-kanagawa",
+        "status": 2,
         "description": "My spin of the Kanagawa theme for cmus.",
         "source": "https://github.com/ttntm/cmus-kanagawa"
       },
       {
         "title": "cmus-tokyo-night",
+        "status": 2,
         "description": "A Tokyo Night inspired theme for cmus.",
         "source": "https://github.com/ttntm/cmus-tokyo-night"
       },
       {
         "title": "minimal-one-line-firefox",
+        "status": 2,
         "description": "Custom userChrome for Firefox to minimize the space used for url and tab bar.",
         "source": "https://github.com/ttntm/minimal-one-line-firefox"
       }
