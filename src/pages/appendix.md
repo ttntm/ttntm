@@ -54,7 +54,6 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 - Update frequently
 - Become searchable at some point
 - Provide a home for {% ext "neko", "https://github.com/adryd325/oneko.js" %} ({% ext "+context", "https://github.com/eliot-akira/neko/" %})
-- Offer an archive of past versions of the [/now](/now/) page
 
 Finally, **everything that was done already**, can be found in the [Changelog](/changelog/).
 
