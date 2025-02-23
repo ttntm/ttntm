@@ -954,6 +954,7 @@ summary h2 {
 
   &.finished {
     background-color: var(--yellow);
+    color: var(--darkest);
   }
 
   &.empty,
