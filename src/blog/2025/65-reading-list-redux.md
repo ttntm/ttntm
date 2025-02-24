@@ -40,7 +40,7 @@ I'm not interested in additional browser extensions, so I ended up with a bookma
 javascript:(()=>{var i,o;window.open((i=window.location,o=document.title,`https://app.raindrop.io/add?link=${i}&title=${o}`))})();
 ```
 
-After a couple of days of using Raindrop.io, I decided to stick with it. I'll miss the newsletter/RSS feed support Omnivore had, but I couldn't find any (FOSS) option out there that'd offer this whole package anyway.
+After a couple of days of using Raindrop, I decided to stick with it. I'll miss the newsletter/RSS feed support Omnivore had, but I couldn't find any (FOSS) option out there that'd offer this whole package anyway.
 
 ## Website Integration
 
@@ -52,9 +52,9 @@ After: {% ext "View Code (GitHub)", "https://github.com/ttntm/ttntm/blob/master/
 
 The current version is actually _less_ code, because there's no more GraphQL query.
 
-If you're curious: the `-1` in the URL the data gets fetched from, references Raindrop.io's `Unsorted` collection, where bookmarked links go by default. That's a good place for me to store things that I haven't read yet, so it makes sense to use that collection for my reading list.
+If you're curious: the `-1` in the URL the data gets fetched from, references Raindrop's `Unsorted` collection, where bookmarked links go by default. That's a good place for me to store things that I haven't read yet, so it makes sense to use that collection for my reading list.
 
-Happy to have my reading list back, I realized that there was one more thing I almost forgot to take care of: updates of the reading list data should trigger website builds, so the list stays up to date. That's another thing that Omnivore made easy - a few clicks to configure a webhook, and that's it. No webhooks in Raindrop.io, however, so I had to figure out another solution...
+Happy to have my reading list back, I realized that there was one more thing I almost forgot to take care of: updates of the reading list data should trigger website builds, so the list stays up to date. That's another thing that Omnivore made easy - a few clicks to configure a webhook, and that's it. No webhooks in Raindrop, however, so I had to figure out another solution...
 
 I checked their documentation on {% ext "integrations", "https://raindrop.io/integrations" %}, and remembered that I signed up for IFTTT a very long time ago. That wasn't very helpful - as it turned out, IFTTT doesn't allow using outgoing HTTP requests on their free plan. Too bad, but they won't get my money.
 
