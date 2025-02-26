@@ -28,7 +28,7 @@ Last but not least important, WATCH3R makes use of 2 different (free) APIs that 
 
 ### Handling Application State
 
-Even though it might be overkill for such a small application, I'm using Vuex as centralized state management. Vue 3 and its Composition API offer a lot of possibilities to handle global application state (see {% ext "this article", "https://dev.to/blacksonic/you-might-not-need-vuex-with-vue-3-52e4" %} for example), but I got quite used to the way Vuex handles things when building recept0r, which made this a somewhat biased decision.
+Even though it might be overkill for such a small application, I'm using Vuex as centralized state management. Vue 3 and its Composition API offer a lot of possibilities to handle global application state (see {% reply "this article", "https://dev.to/blacksonic/you-might-not-need-vuex-with-vue-3-52e4" %} for example), but I got quite used to the way Vuex handles things when building recept0r, which made this a somewhat biased decision.
 
 I'll talk about it some more later on, but I believe I've managed to use it quite well this time around. That means using Vuex to provide a true separation of concerns and making sure that individual views and components *do not* directly interact with global application state without having to go through Vuex actions.
 
@@ -76,7 +76,7 @@ Sometimes it seems like getting simple things (a list...) right should not be un
 
 When I started working on WATCH3R, I already had a basic understanding of working with Vuex based on a previous Vue 2 application. In terms of how things work, Vue 3 and Vuex 4 don't really change too much, so I got my store set up rather quickly.
 
-Compared to working with Vuex in Vue 2 and frequently using things like `mapActions` and `mapGetters`, the way things are done using Vue 3 and its Composition API provide a lot more transparency. That's in line with {% ext "this excellent article", "https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502" %}, especially the section called "Avoid helper calls to the store" - something I'd now consider a better practice due to the clarity it provides.
+Compared to working with Vuex in Vue 2 and frequently using things like `mapActions` and `mapGetters`, the way things are done using Vue 3 and its Composition API provide a lot more transparency. That's in line with {% reply "this excellent article", "https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502" %}, especially the section called "Avoid helper calls to the store" - something I'd now consider a better practice due to the clarity it provides.
 
 Let me give you some details on that: working with Vuex inside `setup()` requires something like `const store = useStore()`. As a result, every interaction with your Vuex store (like `store.dispatch('module/actionName')`) is immediately obvious, instead of being hidden behind obscured helper calls that can easily be confused with in-component methods and imported function calls. It may not seem like a real "wow effect", might even be obvious for many out there, but for me, it made writing and debugging my own code much easier.
 

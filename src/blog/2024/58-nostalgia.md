@@ -10,8 +10,8 @@ image: /img/blog/content.jpg
 
 Others wrote about their share of the "Millennial nostalgia", and I enjoyed reading about their memories very much:
 
-- {% ext "My Millennial Memories", "https://notes.jeddacp.com/my-millennial-memories/" %}
-- {% ext "Millennial Energy", "https://flamedfury.com/posts/millennial-energy/" %}
+- {% reply "My Millennial Memories", "https://notes.jeddacp.com/my-millennial-memories/" %}
+- {% reply "Millennial Energy", "https://flamedfury.com/posts/millennial-energy/" %}
 
 The following is a list of some of the things I remember from growing up in the 1990s and early 2000s in Central Europe.
 

@@ -8,7 +8,7 @@ tags:
   - website
 ---
 
-I saw a couple of posts about a "blog questions challenge" pop up in my feed reader this week (written by {% ext "Leilukin", "https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/" %}, {% ext "Hedy", "https://home.hedy.dev/posts/blog-questions-challenge/" %}, or {% ext "Luke", "https://www.lkhrs.com/blog/2025/blog-questions-challenge/" %}, for example) and decided to participate.
+I saw a couple of posts about a "blog questions challenge" pop up in my feed reader this week (written by {% reply "Leilukin", "https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/" %}, {% reply "Hedy", "https://home.hedy.dev/posts/blog-questions-challenge/" %}, or {% reply "Luke", "https://www.lkhrs.com/blog/2025/blog-questions-challenge/" %}, for example) and decided to participate.
 
 It's a collection of interesting questions, and I enjoyed reading what other people had to say so far.
 Below you'll find my answers.

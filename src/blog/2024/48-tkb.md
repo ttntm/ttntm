@@ -44,13 +44,13 @@ Overall, I'd say I'd recommend creating/maintaining a personal kb/wiki. It feels
 Oh, I almost forgot - here's a link, feel free to check it out: [TKB](/wiki/)
 
 PS: Mark wrote a similar article that I can recommend.
-{% ext "Goodbye Logseq, Obsidian, and Vimwiki. Hello, mdBook!", "https://www.markpitblado.me/blog/goodbye-logseq-obsidian-and-vimwiki-hello-mdbook/" %}
+{% reply "Goodbye Logseq, Obsidian, and Vimwiki. Hello, mdBook!", "https://www.markpitblado.me/blog/goodbye-logseq-obsidian-and-vimwiki-hello-mdbook/" %}
 
 <h2 id="refs">References</h2>
 
-1. {% ext 'Derek Sivers, "Write plain text files"', "https://sive.rs/plaintext" %}
-2. {% ext 'Alex Kladov, "Basic Things"', "https://matklad.github.io/2024/03/22/basic-things.html" %}
+1. {% reply 'Derek Sivers, "Write plain text files"', "https://sive.rs/plaintext" %}
+2. {% reply 'Alex Kladov, "Basic Things"', "https://matklad.github.io/2024/03/22/basic-things.html" %}
 3. {% ext "github/rust-lang/mdBook", "https://github.com/rust-lang/mdBook" %}
 4. {% ext "Codeberg repository", "https://codeberg.org/ttntm/tkb/" %}
 5. {% ext "tkb/deploy.sh", "https://codeberg.org/ttntm/tkb/src/branch/main/deploy.sh" %}
-6. {% ext "Deploying mdbook to codeberg pages using woodpecker CI", "https://www.markpitblado.me/blog/deploying-mdbook-to-codeberg-pages-using-woodpecker-ci/" %}
+6. {% reply "Deploying mdbook to codeberg pages using woodpecker CI", "https://www.markpitblado.me/blog/deploying-mdbook-to-codeberg-pages-using-woodpecker-ci/" %}

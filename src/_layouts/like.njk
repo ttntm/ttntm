@@ -3,12 +3,15 @@ layout: base.njk
 ---
 <article class="container h-entry">
   <h1>{{ title }}</h1>
-  <p class="small">
-    Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">
-      {{ date | date('MMMM DD, YYYY') }}
-    </time>
-  </p>
-  <div class="hr shadow mt2 mb2"></div>
+  <div class="grid d-sm-flex justify-content-between align-items-end gap1">
+    <p class="text-muted m0" style="font-size: .875rem;">
+      Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">
+        {{ date | date('MMMM DD, YYYY') }}
+      </time>
+    </p>
+    {% include "components/page.mentions.njk" %}
+  </div>
+  <div class="hr shadow mt1 mb2"></div>
   <div class="post like">
     {{ content | safe }}
   </div>

@@ -1,6 +1,10 @@
 import _ from 'lodash'
 import dnt from 'date-and-time'
 
+function externalLink(link, text, classList) {
+  return `<a class="${classList.join(' ')}" href="${link}" rel="noopener">${text}</a>`
+}
+
 export default {
   buildDate: function(wrap = true) {
     // shortcode to display the last build date
@@ -60,8 +64,8 @@ export default {
   },
 
   ext: function(displayText, link) {
-    // shortcode to create external links (with a marker after the link text)
-    return `<a class="ext u-in-reply-to" href="${link}" rel="noopener">${displayText}</a>`
+    // shortcode to create non-webmention external links (with a marker after the link text)
+    return externalLink(link, displayText, ['ext'])
   },
 
   imageHeader: function(imgPath, imgSize, titleSize, title, subtitle) {
@@ -97,5 +101,10 @@ export default {
           <span class="d-inline-block" style="padding-left: 1.6rem;">Facts and circumstances may have changed since publication. Please contact me before jumping to conclusions if something seems wrong or unclear.</span>
         </p>`
       : ''
+  },
+
+  reply: function(displayText, link) {
+    // shortcode to create external webmention reply links
+    return externalLink(link, displayText, ['ext', 'u-in-reply-to'])
   }
 }

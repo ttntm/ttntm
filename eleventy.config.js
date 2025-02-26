@@ -3,6 +3,7 @@ import anchor from 'markdown-it-anchor'
 import dotenv from 'dotenv'
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
+import externalLinks from 'markdown-it-external-links'
 import htmlmin from 'html-minifier'
 import markdownIt from 'markdown-it'
 import pluginPostGraph from '@rknightuk/eleventy-plugin-post-graph'
@@ -80,6 +81,11 @@ export default async function(config) {
     }).use(anchor, {
       permalink: anchor.permalink.headerLink({ safariReaderFix: true }),
       slugify: s => _.kebabCase(s)
+    }).use(externalLinks, {
+      externalClassName: 'ext u-like-of',
+      externalRel: 'noopener',
+      internalClassName: 'int',
+      internalDomains: ['ttntm.me']
     })
   )
 

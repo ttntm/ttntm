@@ -84,4 +84,4 @@ I also updated my website, making external link targets much more transparent, a
 <h2 id="refs">References</h2>
 
 1. {% ext "fabian-mcfly, Apr 1, 2022", "https://stackoverflow.com/questions/4198788/is-it-alright-to-use-target-blank-in-html5" %}
-2. {% ext "Styling External Links with an Icon in CSS", "https://christianoliff.com/blog/styling-external-links-with-an-icon-in-css/" %}
+2. {% reply "Styling External Links with an Icon in CSS", "https://christianoliff.com/blog/styling-external-links-with-an-icon-in-css/" %}

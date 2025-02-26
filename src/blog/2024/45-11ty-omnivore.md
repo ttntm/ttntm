@@ -227,4 +227,4 @@ Having the possibility of adding a reading list to my personal website based on 
 
 ## Updates
 
-Clayton Errington referenced this article when he built his own /bookmarks page. He also wrote about it: {% ext "Showing Omnivore links as Bookmarks", "https://claytonerrington.com/blog/showing-omnivore-links-as-bookmarks/" %}.
+Clayton Errington referenced this article when he built his own /bookmarks page. He also wrote about it: {% reply "Showing Omnivore links as Bookmarks", "https://claytonerrington.com/blog/showing-omnivore-links-as-bookmarks/" %}.

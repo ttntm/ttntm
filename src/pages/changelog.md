@@ -15,6 +15,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.24.2
+
+- Webmention support for [/likes](/likes/) via {% ext "markdown-it-external-links", "https://github.com/rotorz/markdown-it-external-links" %}
+- Support for outgoing webmentions via {% ext "webmention.app", "https://webmention.app" %}
+
 ## 3.24.1
 
 - Status badges for entries on the [/work](/work/) page

@@ -6,5 +6,13 @@
       "{% ext \"${1:name}\", \"${2:url}\" %}"
     ],
     "description": "external link shortcode"
+  },
+  "reply link": {
+    "scope": "markdown",
+    "prefix": "reply",
+    "body": [
+      "{% reply \"${1:name}\", \"${2:url}\" %}"
+    ],
+    "description": "webmention reply link shortcode"
   }
 }

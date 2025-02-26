@@ -78,7 +78,7 @@ Rendering the directory uses two consecutive loops that process the collection:
 
 ### Updating the Directory Stats
 
-I'm using a Node.js script for this task. It was inspired by a post called {% ext "Find the Newest File in Directory Using NodeJS", "https://brianchildress.co/find-latest-file-in-directory-in-nodejs/" %}.
+I'm using a Node.js script for this task. It was inspired by a post called {% reply "Find the Newest File in Directory Using NodeJS", "https://brianchildress.co/find-latest-file-in-directory-in-nodejs/" %}.
 
 ```js
 const fs = require('fs')

@@ -117,7 +117,7 @@ In the template, this filter is used with the global data:
   <ul>
     <li>
       <svg ... ></svg>
-      <span>{{ postMentions['like-of'] or '-' }}<span>
+      <span>{{ postMentions['like-of'] or '-' }}</span>
     </li>
     <!-- more code to render replies/shares -->
   </ul>

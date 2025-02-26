@@ -1,6 +1,6 @@
 {
   "name": "ttntm.me",
-  "version": "3.24.1",
+  "version": "3.24.2",
   "description": "Tom's homepage. A personal website, journal and playground. Everything, and nothing.",
   "author": "ttntm",
   "type": "module",
@@ -34,5 +34,8 @@
     "postcss": "^8.4.31",
     "postcss-import": "^14.0.0",
     "terser": "^5.26.0"
+  },
+  "dependencies": {
+    "markdown-it-external-links": "^0.0.6"
   }
 }

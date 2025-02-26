@@ -32,7 +32,7 @@ From an architectural point of view, the service itself is making use of multipl
 
 The tools I used to automate the reporting process are:
 
-1. {% ext "IFTTT", "https://ifttt.com" %} for scheduling and making the `POST` requests
+1. IFTTT for scheduling and making the `POST` requests
 2. {% ext "Netlify Functions", "https://functions.netlify.com/playground/" %} as host and runtime environment
 3. A Google Spreadsheet as target to collect the reporting data in
 
@@ -177,7 +177,7 @@ switch (data.action) {
 }
 ```
 
-The database queries from step 2 get executed from inside the `for(listname of lists)` loop in case of the `indexSize` action or provide input for another `for`-loop in case of the `userListSize` action. The latter `for` is written using older syntax for the sake of slightly better performance (see: {% ext "Performance of for loops with JavaScript", "https://www.incredible-web.com/blog/performance-of-for-loops-with-javascript/" %}).
+The database queries from step 2 get executed from inside the `for(listname of lists)` loop in case of the `indexSize` action or provide input for another `for`-loop in case of the `userListSize` action. The latter `for` is written using older syntax for the sake of slightly better performance (see: {% reply "Performance of for loops with JavaScript", "https://www.incredible-web.com/blog/performance-of-for-loops-with-javascript/" %}).
 
 Both `listGrowthSheet` and `listSizeUserSheet` represent individual sheets in the spreadsheet accessed via their index ({% ext "other options", "https://theoephraim.github.io/node-google-spreadsheet/#/?id=the-basics" %}). The API method `addRow()` then uses these variables to write the data into a new row of the respective sheet.
 
@@ -203,11 +203,11 @@ There's many ways of sending automated `POST` requests to an endpoint using its 
 
 - GitHub actions; something like {% ext "this", "https://github.com/marketplace/actions/fetch-api-data" %} on an {% ext "event that triggers a workflow", "https://docs.github.com/en/actions/reference/events-that-trigger-workflows" %}
     - Not predicatable enough, in terms of a recurring schedule
-- {% ext "IFTTT", "https://ifttt.com/" %}
+- IFTTT
     - Max. of 3 applets = automations for free accounts
 - Netlify's {% ext "outgoing webhooks", "https://docs.netlify.com/site-deploys/notifications/#outgoing-webhooks" %}
     - Does *not* allow a custom paypload
-- {% ext "Zapier", "https://zapier.com/" %}
+- Zapier
     - Triggering webhooks is a premium feature
 
 I chose IFTTT - their free features (max. 3 applets with max. 2 steps each) are enough to send 2 payloads (one for each `action` the service currently performs) to my service every week. I can also use my third free applet for another request in the future, which is cool too.

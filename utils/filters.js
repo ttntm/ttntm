@@ -23,7 +23,7 @@ export default {
     return encodedSubject
   },
 
-  getPostMentions: function(mentions, url) {
+  getPageMentions: function(mentions, url) {
     const data = mentions.get(`https://ttntm.me${url}`)
     return Boolean(data) ? data : undefined
   },

@@ -12,7 +12,7 @@ image: /img/reading.png
 
 Discovering Omnivore about a year ago felt like an instant win. A free, open source, read-it-later app that could also handle all my newsletter subscriptions and RSS feeds - absolutely marvelous!
 
-Less than a year later, {% ext "Omnivore shut down", "https://www.theverge.com/2024/10/29/24283055/one-of-my-favorite-read-later-apps-is-shutting-down" %} because they were acquired by a "software company that specializes in developing natural-sounding speech synthesis software using deep learning", as their Wikipedia page states. Shit happens, as we all know too well, and that also meant that [my reading list](/reading/) had no more data left to show.
+Less than a year later, {% reply "Omnivore shut down", "https://www.theverge.com/2024/10/29/24283055/one-of-my-favorite-read-later-apps-is-shutting-down" %} because they were acquired by a "software company that specializes in developing natural-sounding speech synthesis software using deep learning", as their Wikipedia page states. Shit happens, as we all know too well, and that also meant that [my reading list](/reading/) had no more data left to show.
 
 I found myself doing some research and evaluated some alternatives at the end of 2024, during the holidays. {% ext "Wallabag", "https://www.wallabag.it/en" %} was the first application I evaluated:
 

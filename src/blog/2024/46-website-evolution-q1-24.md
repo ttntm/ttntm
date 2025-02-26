@@ -90,7 +90,7 @@ After a bit of research, I discovered the {% ext "Eleventy Post Graph", "https:/
 
 I wanted to have some a kind of "visualized changelog", so that wasn't enough. However, there's also the option to use the plugin with custom data, so I went looking for a way to convert `git log` output to JSON, which I could then use in a data file rather easily.
 
-Eventually, I found an article about {% ext "easily converting git log output to JSON", "https://blog.kellybrazil.com/2022/05/17/easily-convert-git-log-output-to-json/" %} and got to work. The `git log` JSON output gets processed by a small Node.js script that does a lot of date stuff (extraction, formatting) and eventually makes use of `reduce()` to build an object as expected by the postgraph plugin requires it.
+Eventually, I found an article about {% reply "easily converting git log output to JSON", "https://blog.kellybrazil.com/2022/05/17/easily-convert-git-log-output-to-json/" %} and got to work. The `git log` JSON output gets processed by a small Node.js script that does a lot of date stuff (extraction, formatting) and eventually makes use of `reduce()` to build an object as expected by the postgraph plugin requires it.
 
 A solution that works nicely and produces the [desired result](/changelog/#timeline). However, I encountered a little UI issue that I eventually found a CSS-based workaround for: {% ext "Strange Behaviour: Extra HTML Tags", "https://github.com/rknightuk/eleventy-plugin-post-graph/issues/9" %}
 

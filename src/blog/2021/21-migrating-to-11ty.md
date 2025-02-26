@@ -32,7 +32,7 @@ I've spent about 12 hours on this migration; that's probably more time than the 
 
 Getting back to the point of writing an article like this: I'd like to give you a brief overview of how one could accomplish such a migration from Hugo to Eleventy.
 
-I can recommend reading {% ext "this article", "https://www.smashingmagazine.com/2021/03/eleventy-static-site-generator/" %} for preparation; it's pretty detailed and you'll get a working mini-site out of it, but it's probably best suited for people that already have experience working with SSGs. I know that I had to scroll up and down a bit in order to collect all the necessary answers to questions that arose while doing things.
+I can recommend reading {% reply "this article", "https://www.smashingmagazine.com/2021/03/eleventy-static-site-generator/" %} for preparation; it's pretty detailed and you'll get a working mini-site out of it, but it's probably best suited for people that already have experience working with SSGs. I know that I had to scroll up and down a bit in order to collect all the necessary answers to questions that arose while doing things.
 
 The {% ext "official 11ty docs", "https://www.11ty.dev/docs/" %} are also a great place to get acquainted with and having a look at some {% ext "starter projects", "https://www.11ty.dev/docs/starter/" %} won't hurt either - most universal one I came across was one called {% ext "eleventastic", "https://github.com/maxboeck/eleventastic" %}. I ended up re-building this site from scratch 'cause I feel that I'm generally doing better that way compared to having to deal with what other people might prefer in terms of configuration, folder structure etc.
 
@@ -56,8 +56,8 @@ The following notes are a slightly improved version of my working notes; I'm gla
 
 - Contents of Hugo's `layouts` directory => `src/_layouts/` (_except for partials and shortcodes_)
 - Hugo partials => `src/_includes/`
-- Create an Archive page for your posts: {% ext "darekkay.com/blog/eleventy-group-posts-by-year/", "https://darekkay.com/blog/eleventy-group-posts-by-year/" %}
-- Implement `active` navigation state: {% ext "using-nunjucks-if-expressions-to-create-an-active-navigation-state-in-11ty/", "https://bryanlrobinson.com/blog/using-nunjucks-if-expressions-to-create-an-active-navigation-state-in-11ty/" %}
+- Create an Archive page for your posts: {% reply "darekkay.com/blog/eleventy-group-posts-by-year/", "https://darekkay.com/blog/eleventy-group-posts-by-year/" %}
+- Implement `active` navigation state: {% reply "using-nunjucks-if-expressions-to-create-an-active-navigation-state-in-11ty/", "https://bryanlrobinson.com/blog/using-nunjucks-if-expressions-to-create-an-active-navigation-state-in-11ty/" %}
 - Don't forget about:
   - Sitemap
   - OG/Twitter/... Metadata
@@ -107,7 +107,7 @@ module.exports = class {
 - `src/_includes/css/` contains all the CSS files that get imported into `_page.css` which is the blueprint for PostCSS processing
 - Needs `11ty.js` in `templateFormats: []` in the 11ty config file; otherwise 11ty will ignore this template = no CSS
 
-Idea taken from: {% ext "florian.ec/blog/cache-busting-eleventy-postcss/", "https://florian.ec/blog/cache-busting-eleventy-postcss/" %}
+Idea taken from: {% reply "florian.ec/blog/cache-busting-eleventy-postcss/", "https://florian.ec/blog/cache-busting-eleventy-postcss/" %}
 
 ### Plugins and Shortcodes
 

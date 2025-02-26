@@ -40,5 +40,5 @@ Feel free to explore the [Projects page](/work/) if you want to know more about 
 
 &mdash;
 
-This post was written as part of the {% ext "July 2024 IndieWeb blog carnival", "https://jamesg.blog/2024/07/01/indieweb-carnival-tools/" %}.
+This post was written as part of the {% reply "July 2024 IndieWeb blog carnival", "https://jamesg.blog/2024/07/01/indieweb-carnival-tools/" %}.
 The carnival is hosted by {% ext "James", "https://jamesg.blog" %}, and this month's topic is "Tools".

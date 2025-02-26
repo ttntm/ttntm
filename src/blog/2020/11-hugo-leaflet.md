@@ -52,7 +52,7 @@ The raw JSON for one store looks like this then:
 }
 ```
 
-It should all be rather self-explanatory - name, address, postcode/city and country are based on data you'll either have or easily find. The latitude/longitude can be a bit tricky to obtain, but I found {% ext "this article", "https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/" %} helpful in case you're looking for something similar.
+It should all be rather self-explanatory - name, address, postcode/city and country are based on data you'll either have or easily find. The latitude/longitude can be a bit tricky to obtain, but I found {% reply "this article", "https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/" %} helpful in case you're looking for something similar.
 
 The `shopActive` key is simply a toggle: show/hide the respective store in the list/map. Not absolutely necessary, but certainly convenient.
 
@@ -310,6 +310,6 @@ All necessary information regarding Hugo installation can be found here: {% ext 
 
 Building this store locator was fun and so was building a demo and writing this up.
 
-Another article on the subject that was of some help can be found here: {% ext "getbounds.com/blog/leaflet-store-locator/", "https://www.getbounds.com/blog/leafet-store-locator/" %}
+Another article on the subject that was of some help can be found here: {% reply "getbounds.com/blog/leaflet-store-locator/", "https://www.getbounds.com/blog/leafet-store-locator/" %}
 
 I hope it helps someone, I spent quite some time reading Leaflet's documentation and researching on the internet to build this. Just leave a comment below, feedback appreciated.

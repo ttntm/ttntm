@@ -40,13 +40,13 @@ The page itself is nothing special, just something I felt was missing. Oh, and t
 
 URL: [/hello](/hello/)
 
-A new (kind of) "Contact" page, based on an idea that Alastair Johnson came up with in a post called {% ext "Introducing Hello pages", "https://alastairjohnston.com/introducing-hello-pages/" %}. It's a little more than the classic "Contact" page however, because it also explains _how_ one prefers to be contacted.
+A new (kind of) "Contact" page, based on an idea that Alastair Johnson came up with in a post called {% reply "Introducing Hello pages", "https://alastairjohnston.com/introducing-hello-pages/" %}. It's a little more than the classic "Contact" page however, because it also explains _how_ one prefers to be contacted.
 
 ### Interests
 
 URL: [/interests](/interests/)
 
-Another new page that aims to shed some light on the person behind a (personal) website. Its creation was inspired by Chris Burnell's {% ext "/interests Directory", "https://chrisburnell.github.io/interests-directory/" %} that lists pages that have an /interests page, and his post titled {% ext "What are you interested in?", "https://chrisburnell.com/note/slash-interests/" %}.
+Another new page that aims to shed some light on the person behind a (personal) website. Its creation was inspired by Chris Burnell's {% ext "/interests Directory", "https://chrisburnell.github.io/interests-directory/" %} that lists pages that have an /interests page, and his post titled {% reply "What are you interested in?", "https://chrisburnell.com/note/slash-interests/" %}.
 
 ### Other Changes
 

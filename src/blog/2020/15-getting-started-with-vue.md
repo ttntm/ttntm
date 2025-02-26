@@ -26,7 +26,7 @@ Please note that this article is based on Vue.js 2.9.6 / June 2020.
 
 ### 1. Initial Research and Decision Making
 
-The decision for Vue.js was easy; some good reasons can be found here: {% ext "michaelnthiessen.com/underdog-framework", "https://michaelnthiessen.com/underdog-framework" %}
+The decision for Vue.js was easy; some good reasons can be found here: {% reply "michaelnthiessen.com/underdog-framework", "https://michaelnthiessen.com/underdog-framework" %}
 
 Other than that, there's always a long list of "technologies I'd like to work with"; for this project, I ended up going for {% ext "serverless functions", "https://functions.netlify.com" %} (Netlify) and {% ext "Fauna", "https://fauna.com" %} as the app's data store. Both seemed powerful (and free) enough to build a multiuser CRUD app on top of while offering good documentation and development experience.
 
@@ -36,7 +36,7 @@ Most other decisions for (and against) modules/libraries/etc. happened along the
 
 I had heard of Vue.js before and I knew I wanted to use it for this project. I hadn't actually *used* it before though, so I thought it would be a good idea to start with some sort of tutorial to get my head around the basics before going for my actual project.
 
-After a bit of research, I came across this one here: {% ext "taniarascia.com/getting-started-with-vue", "https://www.taniarascia.com/getting-started-with-vue" %}
+After a bit of research, I came across this one here: {% reply "taniarascia.com/getting-started-with-vue", "https://www.taniarascia.com/getting-started-with-vue" %}
 
 This tutorial provided a very good "code along" kind of introduction from basic project setup (Vue CLI) to accessing external APIs - I stopped before the API part though, as I felt comfortable enough already, eager to dive into my own project. Overall a decent and well written tutorial.
 
@@ -92,13 +92,13 @@ Another such case was **configuring Webpack**. Things work differently when usin
 
 I had some issues when it came to setting up **Netlify functions** to run locally; research I based my choice of node modules and configuration on seemingly outdated information and my functions returned errors instead of data...
 
-Eventually, I stumbled upon this article recommending `netlify-cli`: {% ext "Solve CORS once and for all with Netlify Dev", "https://alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev" %}
+Eventually, I stumbled upon this article recommending `netlify-cli`: {% reply "Solve CORS once and for all with Netlify Dev", "https://alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev" %}
 
 If you're going the Netlify route, this is as good as it gets basically - simple configuration and immediate success. Just memorize `localhost:8888`, as you terminal output will still direct you to 8080 instead where none of the success is visible.
 
 Another case that belongs in this category was **toast messages**. Yes, there are a lot (!) of modules out there that can handle every imaginable notification use case including respective customization. I won't recommend any of them, because I didn't use any - I opted against adding yet another dependency to my app just for the sake of an occasional notification and decided to build it from scratch.
 
-I came across {% ext "this article", "https://laravel-news.com/building-a-flash-message-component-with-vue-js-and-tailwind-css" %} that quickly provided a working solution that was rather easy to follow without adding any more dependencies to my app.
+I came across {% reply "this article", "https://laravel-news.com/building-a-flash-message-component-with-vue-js-and-tailwind-css" %} that quickly provided a working solution that was rather easy to follow without adding any more dependencies to my app.
 
 ### 6. Refactoring is Good, Keep Doing it
 
@@ -192,8 +192,8 @@ All of these articles were helpful to me in one way or another:
 
 - {% ext "Notes on Vue", "https://notes-on-vue.netlify.app" %} (notes based on first-hand personal learning experience, recommended!)
 - {% ext "Reactivity in Depth", "https://v2.vuejs.org/v2/guide/reactivity.html" %} (must read; the basics of reactivity in vue)
-- {% ext "How to create a multiple layout system with Vue and Vue-router", "https://itnext.io/anyway-heres-how-to-create-a-multiple-layout-system-with-vue-and-vue-router-b379baa91a05" %} (re: vue-router)
-- {% ext "Building Serverless CRUD apps with Netlify Functions & FaunaDB", "https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/" %} (esp. useful for the detailed explanations re: serverless functions)
-- {% ext "Build a serverless CRUD app with authentication using Vue.js Netlify and FaunaDB", "https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno" %} (must read; user authentication with Netlify Identity/GoTrueJS)
-- {% ext "Lazy-Load Images In Vue.js with vue-clazy-load", "https://alligator.io/vuejs/vue-lazy-load-images/" %} (convenient and recommended)
-- {% ext "Making a large scale app with vue.js (part 1): modularize your store!", "https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502" %} (very well written and useful for a better understanding of how to properly use vuex)
+- {% reply "How to create a multiple layout system with Vue and Vue-router", "https://itnext.io/anyway-heres-how-to-create-a-multiple-layout-system-with-vue-and-vue-router-b379baa91a05" %} (re: vue-router)
+- {% reply "Building Serverless CRUD apps with Netlify Functions & FaunaDB", "https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/" %} (esp. useful for the detailed explanations re: serverless functions)
+- {% reply "Build a serverless CRUD app with authentication using Vue.js Netlify and FaunaDB", "https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno" %} (must read; user authentication with Netlify Identity/GoTrueJS)
+- {% reply "Lazy-Load Images In Vue.js with vue-clazy-load", "https://alligator.io/vuejs/vue-lazy-load-images/" %} (convenient and recommended)
+- {% reply "Making a large scale app with vue.js (part 1): modularize your store!", "https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502" %} (very well written and useful for a better understanding of how to properly use vuex)
