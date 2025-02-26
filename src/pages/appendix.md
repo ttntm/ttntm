@@ -19,13 +19,16 @@ The tech stack used for the current version [{{ site.version }}](/changelog/) is
   - eleventy-plugin-syntaxhighlight
   - eleventy-plugin-toc
   - markdown-it-anchor
+  - markdown-it-external-links
   - postcss
 - Git
 - Cloudflare Pages
 
-This website contains only minimal JavaScript for progressive enhancement, and the total uncompressed size of its landing page is less than 100 KB.
+An overview of this website's architecture, including interfaces:
 
-Feel free to <a href="mailto:ttntm@pm.me?subject=About your website">email me</a> if you want to talk about any of this.
+<img src="/static/img/Architecture_ttntm.me.svg" class="img-center img-fluid mb2" alt="Architectural diagram for ttntm.me">
+
+More information about this setup and its constant evolution can be found in posts tagged [#website](/tags/website). You can also [contact me](/hello) if you'd like to talk about the details.
 
 <div class="hr shadow mt2 mb2"></div>
 

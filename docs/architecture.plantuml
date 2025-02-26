@@ -1,0 +1,32 @@
+@startuml "Architecture - ttntm.me"
+
+'last update: 2025-02-26
+
+'node setup
+  node Cloudflare
+  node Mastodon
+  node ttntm.me
+
+'ci/cd
+  Cloudflare -->> ttntm.me
+  Git -->> Cloudflare
+  Make -->> Cloudflare
+  Manual_HTTP -->> Cloudflare
+  webmention.io -->> Cloudflare
+
+'Mastodon
+  ' brid.gy -->> Mastodon
+  brid.gy -->> webmention.io
+  Mastodon -right->> brid.gy
+  ' ttntm.me -->> brid.gy
+
+'Raindrop
+  Raindrop <<-[dotted]->> Make
+  Raindrop <<-[dotted]->> ttntm.me
+
+'Webmentions
+  EchoFeed -->> webmention.app
+  webmention.io <<-[dotted]->> ttntm.me
+  ttntm.me -right->> EchoFeed
+
+@enduml

@@ -20,6 +20,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 - Webmention support for [/likes](/likes/) via {% ext "markdown-it-external-links", "https://github.com/rotorz/markdown-it-external-links" %}
 - Support for outgoing webmentions via {% ext "webmention.app", "https://webmention.app" %}
 - Added a slight gradient to the footer
+- Added an architecture diagram to the [/appendix](/appendix/)
 
 ## 3.24.1
 
@@ -166,7 +167,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.16.1
 
-- Updated buttons in [/appendix](/appendix/)
+- Updated the buttons in the [/appendix](/appendix/)
 
 ## 3.16
 
