@@ -22,6 +22,12 @@
         "feed": "https://antfu.me/feed.xml"
       },
       {
+        "title": "boehs.org",
+        "description": "Evan Boehs",
+        "url": "https://boehs.org",
+        "feed": "https://boehs.org/in/blog.xml"
+      },
+      {
         "title": "chrisburnell.com",
         "description": "Chris Burnell",
         "url": "https://chrisburnell.com",
@@ -50,12 +56,6 @@
         "description": "Kevin Lee Drum.",
         "url": "https://kld.dev",
         "feed": "https://kld.dev/rss.xml"
-      },
-      {
-        "title": "Kuketz IT-Security Blog",
-        "description": "A German IT-Security Blog",
-        "url": "https://www.kuketz-blog.de",
-        "feed": "https://www.kuketz-blog.de/feed/"
       },
       {
         "title": "Luke's Wild Website",
@@ -252,11 +252,6 @@
         "url": "https://themarkup.org/blacklight"
       },
       {
-        "title": "CryptPad",
-        "description": "Collaboration suite; end-to-end encrypted and open-source.",
-        "url": "https://pad.envs.net"
-      },
-      {
         "title": "Dithermark",
         "description": "Use image dithering algorithms with your own photos, right in your browser. Some images on this website were ",
         "url": "https://app.dithermark.com"
@@ -265,11 +260,6 @@
         "title": "envs.net",
         "description": "A minimalist, non-commercial shared linux system that will always be free to use.",
         "url": "https://envs.net"
-      },
-      {
-        "title": "Etherpad",
-        "description": "Docs; collaborative editing in real-time",
-        "url": "https://etherpad.org"
       },
       {
         "title": "Excalidraw",
@@ -304,7 +294,7 @@
       {
         "title": "Squoosh",
         "description": "Image compressor; doesn't send your image to a server, all image compression processes locally.",
-        "url": "https://quoosh.app"
+        "url": "https://squoosh.app"
       },
       {
         "title": "Tenacity",
@@ -315,11 +305,6 @@
         "title": "tldraw",
         "description": "An open source canvas/whiteboard.",
         "url": "https://www.tldraw.com"
-      },
-      {
-        "title": "ttm.sh",
-        "description": "File hosting & URL shortening.",
-        "url": "https://ttm.sh"
       },
       {
         "title": "Wavacity",
@@ -338,6 +323,11 @@
     "description": "A few web directories - browse and discover websites like it's the 90s.",
     "data": [
       {
+        "title": "A Blog Directory",
+        "description": "A home for everyone's blog and post rolls",
+        "url": "https://blogroll.club"
+      },
+      {
         "title": "BlogScroll",
         "description": "An open directory of personal sites and blogs.",
         "url": "https://blogscroll.com"
@@ -348,14 +338,9 @@
         "url": "https://bukmark.club"
       },
       {
-        "title": "nownownow.com",
-        "description": "Websites with a /now page.",
-        "url": "https://nownownow.com"
-      },
-      {
-        "title": "uses.tech",
-        "description": "A list of /uses pages detailing developer setups, gear, software and configs.",
-        "url": "https://uses.tech"
+        "title": "indieblog.page",
+        "description": "A list of blogs to discover the IndieWeb.",
+        "url": "https://indieblog.page"
       },
       {
         "title": "Ye Olde Blogroll",
@@ -384,11 +369,6 @@
         "title": "gmunk.com",
         "description": "Surprisingly built with a site builder (cargo.site).",
         "url": "https://gmunk.com"
-      },
-      {
-        "title": "GNOME Developer Center",
-        "description": "I just love the joyful footer.",
-        "url": "https://developer-old.gnome.org"
       },
       {
         "title": "gwern.net",
