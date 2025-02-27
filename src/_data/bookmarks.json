@@ -64,6 +64,12 @@
         "feed": "https://www.lkhrs.com/blog/index.xml"
       },
       {
+        "title": "markpitblado.me",
+        "description": "Mark Pitblado",
+        "url": "https://www.markpitblado.me",
+        "feed": "https://www.markpitblado.me/feed.xml"
+      },
+      {
         "title": "melkat.blog",
         "description": "Melanie Kat",
         "url": "https://melkat.blog",

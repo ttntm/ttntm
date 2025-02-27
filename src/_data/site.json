@@ -4,6 +4,7 @@
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and playground.",
   "url": "https://ttntm.me",
+  "wmPingback": "https://webmention.io/ttntm.me/xmlrpc",
   "wmUrl": "https://webmention.io/ttntm.me/webmention",
   "feedTitle": "ttntm.me",
   "feeds": [
@@ -38,7 +39,7 @@
       "img": "game.svg"
     },
     {
-      "title": "Silo (Season 2)",
+      "title": "Fringe",
       "img": "movie.svg"
     },
     {
