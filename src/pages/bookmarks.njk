@@ -11,7 +11,7 @@ permalink: /bookmarks/index.html
   </div>
   <div>
     <p>
-      This is my personal collection of bookmarks that you can think of as my very own <em>treasure map</em> (a term I borrowed from <a class="ext" href="https://flower.codes/links.html" rel="noopener">Zach</a>). It's a small directory of blogs, resources and websites that I find interesting and that I can recommend visiting. Articles and other recent discoveries can be found in my <a href="/likes/">/likes collection</a>.
+      This is my personal collection of bookmarks that you can think of as my very own <em>treasure map</em> (a term I borrowed from <a class="ext" href="https://flower.codes/links.html" rel="noopener">Zach</a>) - a small directory of blogs, resources and websites that I find interesting and that I recommend visiting.
     </p>
     <p class="bold m0">
       Have fun exploring :D
@@ -51,7 +51,7 @@ permalink: /bookmarks/index.html
       {% for link in item.data %}
         <li>
           <p {% if loop.last %} class="m0"{%- endif -%}>
-            <a class="ext" href="{{ link.url }}" rel="noopener nofollow">{{ link.title }}</a>{% if link.feed %}&nbsp;&nbsp;|&nbsp;&nbsp;<a class="ext" href="{{ link.feed }}" rel="noopener nofollow" style="font-size: .875rem; font-weight: 500;">(RSS)</a>{% endif %}
+            <a class="ext" href="{{ link.url }}" rel="noopener nofollow">{{ link.title }}</a>{% if link.feed %}&nbsp;|&nbsp;<a class="ext" href="{{ link.feed }}" rel="noopener nofollow" style="font-size: .875rem; font-weight: 500;">(RSS)</a>{% endif %}
             {% if link.description %}
               <br>
               &ndash;&nbsp;{{ link.description }}

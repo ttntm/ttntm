@@ -16,18 +16,12 @@ isBlogHome: true
   <ul class="list-reset flex justify-content-center flex-wrap mb2" style="gap: .75rem;">
     {% for year, x in collections.postsByYear %}
       <li class="tag">
-        <a href="#{{ year }}">{{ year }}</a> [{{ x.length }}]
+        <a href="#{{ year }}">{{ year }}</a>[{{ x.length }}]
       </li>
     {% endfor %}
   </ul>
   <ul class="list-reset flex justify-content-center flex-wrap" style="gap: .75rem; margin-bottom: 4rem;">
-    {% for tag in collections.blog | getCollectionTags | sort %}
-      <li class="tag">
-        <a href="/tags/{{ tag | slugify }}/">
-          <span class="small">#</span>{{ tag }}
-        </a>
-      </li>
-    {% endfor %}
+    {% include "components/tags.all.njk" %}
   </ul>
   {% for year, yearPosts in collections.postsByYear %}
     {% if not loop.first %}

@@ -78,9 +78,9 @@ export default async function() {
 }
 ```
 
-There are many implementation guides out there that use code which runs the same sequential array `filter()` functions _for every page/post_ - that's not very efficient, and also not necessary.
+There are many implementation guides out there that use code which runs the same sequential array `filter()` functions _for every page/post_ - that's not very efficient, and also not necessary...
 
-As an alternative, I wrote the code that you can see above - once the data is received from the API, it's building a {% ext "Map", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" %} of all content with mentions. The code in the data file runs _once_ (at build time), using post URLs (`wm-target`) as unique keys, and the result looks like this (via `Object.fromEntries()`):
+As an alternative, I wrote the code that you can see above - with the data from the API, my code is building a {% ext "Map", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" %} of all content with mentions. The code in the data file runs _once_ (at build time), using post URLs (`wm-target`) as unique keys, and the result looks like this (via `Object.fromEntries()`):
 
 ```js
 {

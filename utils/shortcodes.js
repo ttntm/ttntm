@@ -76,7 +76,7 @@ export default {
           <h2 id="${slug}" class="${titleSize}">
             <a class="header-anchor" href="#${slug}"><span>${title}</span></a>
           </h2>
-          <p class="large m0">${subtitle}</p>
+          <p class="m0">${subtitle}</p>
         </hgroup>`
       : `<h2 id="${slug}" class="image-header__text ${titleSize} w100m m0">
           <a class="header-anchor" href="#${slug}"><span>${title}</span></a>

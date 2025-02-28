@@ -1,0 +1,7 @@
+{% for tag in collections.blog | getCollectionTags | sort %}
+  <li class="tag">
+    <a href="/tags/{{ tag | slugify }}/">
+      <span class="">#</span>{{ tag }}
+    </a>
+  </li>
+{% endfor %}

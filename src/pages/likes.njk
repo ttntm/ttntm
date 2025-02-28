@@ -17,7 +17,7 @@ isLikesHome: true
       <ul class="list-reset flex justify-content-center flex-wrap mb2" style="gap: .75rem;">
         {% for year, x in collections.likesByYear %}
           <li class="tag">
-            <a href="#{{ year }}">{{ year }}</a> [{{ x.length }}]
+            <a href="#{{ year }}">{{ year }}</a>[{{ x.length }}]
           </li>
         {% endfor %}
       </ul>

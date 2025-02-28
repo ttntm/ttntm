@@ -4,6 +4,12 @@
     "description": "Some of my favorite blogs, and personal websites that I read/visit regularly. More links to personal websites can be found in the \"Website Inspiration\" section.",
     "data": [
       {
+        "title": "82MHz",
+        "description": "Andreas' website",
+        "url": "https://82mhz.net",
+        "feed": "https://82mhz.net/index.xml"
+      },
+      {
         "title": "anhvn.com",
         "description": "Anh's fabulous website",
         "url": "https://anhvn.com",
@@ -83,7 +89,7 @@
       },
       {
         "title": "prma.dev",
-        "description": "Perma",
+        "description": "Perma's website",
         "url": "https://prma.dev",
         "feed": "https://prma.dev/index.xml"
       },
@@ -107,7 +113,7 @@
       {
         "title": "Ctrl-ZINE",
         "description": "A Ctrl-c collaborative zine, celebrating tech and the Smol Web.",
-        "url": "https://ctrl-c.club/~loghead/ctrl-zine.html"
+        "url": "https://ctrl-c.club/~singletona082/zine/index.html"
       },
       {
         "title": "Floor796",
@@ -193,7 +199,8 @@
       {
         "title": "barnsworthburning.net",
         "description": "A truly impressive collection of quotes and excerpts of articles on a large variety of topics.",
-        "url": "https://barnsworthburning.net"
+        "url": "https://barnsworthburning.net",
+        "feed": "https://barnsworthburning.net/feed.xml"
       },
       {
         "title": "Byrne's Euclid",

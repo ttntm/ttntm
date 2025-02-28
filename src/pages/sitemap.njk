@@ -25,12 +25,12 @@ eleventyExcludeFromCollections: true
       <li>
         <p class="m0">
           {% if item.data.isFront %}
-            &#8962;&nbsp;&nbsp;<a href="{{ item.url }}">{{ item.data.title }}</a>
+            &#8962;&nbsp;<a href="{{ item.url }}">{{ item.data.title }}</a>
           {% else %}
             <a href="{{ item.url }}">{{ item.data.title }}</a>
           {% endif %}
           <br>
-          <span class="d-inline-block" style="padding-left: .5rem;">&ndash;&nbsp;{{ text }}</span>
+          <span class="d-inline-block small" style="padding-left: .5rem;">&ndash;&nbsp;{{ text }}</span>
         </p>
       </li>
     {% endif %}

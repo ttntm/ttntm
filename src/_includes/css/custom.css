@@ -1,11 +1,11 @@
 /* titillium-web-regular - latin */
-@font-face {
+/* @font-face {
   font-display: optional;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 400;
   src: local(''), url('/fonts/titillium-web-v9-latin-regular.woff2') format('woff2');
-}
+} */
 
 /* titillium-web-700 - latin */
 @font-face {
@@ -14,6 +14,24 @@
   font-style: normal;
   font-weight: 700;
   src: local(''), url('/fonts/titillium-web-v9-latin-700.woff2') format('woff2');
+}
+
+/* space mono - latin */
+@font-face {
+  font-display: optional;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('/fonts/space-mono-v15-latin-regular.woff2') format('woff2');
+}
+
+/* space mono 700 - latin */
+@font-face {
+  font-display: optional;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('/fonts/space-mono-v15-latin-700.woff2') format('woff2');
 }
 
 :root {
@@ -36,8 +54,9 @@
   --yellow: #EBCB8B;
   --white: #fff;
   --black: #000;
-  --font-sans: 'Titillium Web', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --font-mono: 'Input Mono', 'JetBrains Mono', 'IBM Plex Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --font-heading: 'Titillium Web', sans-serif;
+  --font-mono: 'Input Mono', 'JetBrains Mono', 'IBM Plex Mono', Inconsolata, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --font-sans: 'Space Mono', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --bg: #f9f8fa;
   --bg-noise: url('/img/noise-light-32x32.png');
   --border: var(--light);
@@ -184,7 +203,7 @@ body {
   font-family: var(--font-sans);
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: .25px;
+  /* letter-spacing: .25px; */
   line-height: 1.5;
   margin: 0;
   text-align: left;
@@ -203,6 +222,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--textHeading);
+  font-family: var(--font-heading);
   font-weight: 700;
   margin-bottom: .5rem;
 }
@@ -385,7 +405,7 @@ button {
   background-color: transparent;
   border: 0;
   cursor: pointer;
-  font-family: var(--font-sans);
+  font-family: var(--font-heading);
   font-size: 1rem;
   padding: 0;
 
@@ -415,7 +435,7 @@ main {
 
 @media(min-width:768px) {
   .container {
-    max-width: 85ch;
+    max-width: 80ch;
     padding: 0 2rem;
   }
 
@@ -443,10 +463,17 @@ main {
   }
 }
 
+@media(min-width:1900px) {
+  .container {
+    max-width: 90ch;
+  }
+}
+
 /* NAV STYLES */
 
 .navTop {
   border-bottom: 1px solid transparent;
+  font-family: var(--font-heading);
   font-size: 1.15rem;
   margin-bottom: 2rem;
   /* transition: all .35s ease; */
@@ -596,6 +623,7 @@ footer button {
 
 .footer-link {
   display: block;
+  font-family: var(--font-heading);
 }
 
 @media(min-width:768px) {
@@ -618,6 +646,12 @@ footer button {
     color: var(--footerTextDsktp);
     padding: 1rem;
     margin-top: 0;
+
+    & ::selection,
+    & ::-moz-selection {
+      color: var(--black);
+      background: var(--light);
+    }
 
     & a,
     & button {
@@ -646,6 +680,7 @@ footer button {
 .btn {
   background-color: var(--btnBg);
   box-shadow: 0 .125rem .25rem var(--shadowColor);
+  font-family: var(--font-heading);
   font-weight: bold;
   padding: .5rem 1.5rem;
 
@@ -941,6 +976,7 @@ summary h2 {
 .wsk-status {
   background-color: var(--border);
   border-radius: .25rem;
+  font-family: var(--font-heading);
   font-size: .75rem;
   line-height: 1;
   margin-left: .25rem;
@@ -1015,6 +1051,10 @@ summary h2 {
   order: 4
 }
 
+.home-tags {
+  order: 5
+}
+
 @media(min-width:768px) {
   .home {
     gap: 4rem;
@@ -1055,6 +1095,10 @@ summary h2 {
   .home-feeds {
     grid-area: 4 / 2 / 6 / 2;
   }
+
+  .home-tags {
+    grid-area: 6 / 1 / 6 / 3;
+  }
 }
 
 @media(min-width:1024px) {
@@ -1064,6 +1108,10 @@ summary h2 {
 
   .home-feeds {
     grid-area: 3 / 1 / 4 / 1;
+  }
+
+  .home-tags {
+    grid-area: 4 / 1 / 4 / 3;
   }
 }
 

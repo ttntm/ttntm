@@ -28,7 +28,7 @@ An overview of this website's architecture, including interfaces:
 
 <img src="/static/img/Architecture_ttntm.me.svg" class="img-center img-fluid mb2" alt="Architectural diagram for ttntm.me">
 
-More information about this setup and its constant evolution can be found in posts tagged [#website](/tags/website). You can also [contact me](/hello) if you'd like to talk about the details.
+More information about this setup and its continued evolution can be found in posts tagged [#website](/tags/website). You can also [contact me](/hello) to talk about the details.
 
 <div class="hr shadow mt2 mb2"></div>
 
@@ -62,7 +62,9 @@ Finally, **everything that was done already**, can be found in the [Changelog](/
 
 ## License
 
-All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You can find the all details here: <a class="ext" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC-BY-NC-SA-4.0</a>
+All content on this site is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license.
+
+You can find the all details here: <a class="ext" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC-BY-NC-SA-4.0</a>
 
 ## Memberships
 

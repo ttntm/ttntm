@@ -7,13 +7,22 @@ permalink: /changelog/index.html
 showProgress: true
 ---
 
-A logbook of all the changes this website has gone through since it launched in 2018.
+A logbook of all the changes this website has gone through since it launched in the summer of 2018.
 
 This also includes the [Activity Timeline](#timeline), a visual representation of all commits in this website's git repository, which can be found at the bottom of this page.
 
 **Last built and published**: {% buildDate %} - {% ext "View Source", "https://github.com/ttntm/ttntm" %}
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
+
+## 3.25
+
+<small>Released: 2025-02-28</small>
+
+- It's been 4 years since [3.0](#3-0), and after a lot of deliberation, I've decided to **use a new font** - _Space Mono_ - for the content on this website
+- Added the "Tagged Content" section to the homepage
+- Verified, added and updated entries on the [/bookmarks](/bookmarks/) page
+- Various adjustments of spacing, wording, etc. across pages
 
 ## 3.24.2
 
@@ -130,7 +139,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 ## 3.18.1
 
 - Added [/albums](/albums/)
-- Removed `target="_blank"` from wherever it was used; external links now display with an "external link" icon
+- Removed `target="_blank"` from wherever it was used; external links now display with an "external link" icon - check [this post](/blog/external-links-and-target-blank/) for reasons why
 
 ## 3.18
 

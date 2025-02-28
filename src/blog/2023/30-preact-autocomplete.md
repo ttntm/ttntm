@@ -9,7 +9,7 @@ tags:
 image: /img/blog/autocomplete.png
 ---
 
-"Building something with Preact..." is probably going to sound like an unusual topic if you look at my other articles, but let me explain: I consider it a very powerful yet lightweight tool for building stateful/interactive experiences when {% ext "going buildless" "https://modern-web.dev/guides/going-buildless/getting-started/" %} (together with {% ext "developit's htm" "https://github.com/developit/htm#example" %}). I mostly use it for stuff I do at work (forms, data display, mini-SPAs etc.) and I've come to appreciate it quite a bit. So, this article is probably not going to be the last one about building stuff with Preact… 🤓
+"Building something with Preact..." is probably going to sound like an unusual topic if you look at my other articles, but let me explain: I consider it a very powerful yet lightweight tool for building stateful/interactive experiences when {% ext "going buildless" "https://modern-web.dev/guides/going-buildless/getting-started/" %} (together with {% ext "developit's htm" "https://github.com/developit/htm#example" %}). I mostly use it for stuff I do at work (forms, data display, mini-SPAs etc.) and I've come to appreciate it quite a bit. So, this article won't be the last one about building stuff with Preact... 🤓
 
 With that out of the way, the topic at hand is an `<input>` that can support auto-complete/suggestions. I built it as an alternative to a `<select>` which would have been too restrictive - users should be able to use a list of pre-configured values while retaining the option of entering another value not contained in the list.
 

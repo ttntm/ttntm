@@ -185,7 +185,7 @@
       },
       {
         "title": "preact-auto-suggest-demo",
-        "description": "A little demo of an auto suggest <input> built using Preact.",
+        "description": "A demo of an <input> with autocomplete.",
         "article": {
           "title": "Building an Autocomplete Input with Preact",
           "url": "/blog/building-an-autocomplete-input-with-preact/"

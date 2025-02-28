@@ -12,13 +12,13 @@ showProgress: true
   </div>
   <div>
     <p>
-      This is a curated list of my favorite video games with reasons why I love them.
+      My favorite video games, with reasons why I love them.
     </p>
     <p>
-      A lot of games are going to be omitted here; you can browse my PSN activity since 2015 at <a class="ext" href="https://psnprofiles.com/teitantom" rel="noreferrer nofollow">PSNProfiles</a>, and a longer list of (almost) everything I ever played can be found at <a class="ext" href="https://www.grouvee.com/user/ttntm/" rel="noreferrer nofollow">Grouvee</a>.
+      You can browse my PSN activity since 2015 at <a class="ext" href="https://psnprofiles.com/teitantom" rel="noreferrer nofollow">PSNProfiles</a>, and a long list of (almost) everything I ever played can be found at <a class="ext" href="https://www.grouvee.com/user/ttntm/" rel="noreferrer nofollow">Grouvee</a>.
     </p>
     <p class="m0">
-      Feel free to <a href="mailto:ttntm@pm.me">let me know</a> if you enjoy any of the games I listed here or if you want to recommend something you think I'd also like!
+      <a href="/hello">Contact me</a> to talk about the games I listed here, or to recommend games you think I should try.
     </p>
   </div>
 </div>
@@ -86,9 +86,12 @@ A wonderful game! The player character is an actual cat that has to survive in a
 
 ### Diablo (series)
 
-To me, the series will always be ranked like this: *D2 > D1 > D3 > D4* (best > rest).
+To me, the Diablo games rank like this (best > rest):
+*D2 > D1 > D3 > D4*
 
-Diablo II has the most significance to me based on time spent and memories made. Playing in a LAN during long summer vacation/s, unpatched corpse explosions, the rush of online boss runs on a crappy internet connection, collecting ears, rune words etc. - it's probably lots of nostalgia, but no other Diablo ever came quite close to D2 for me. A longer essay about D2/D2R can be found in {% ext "issue 17 of Ctrl-ZINE", "https://ctrl-c.club/~loghead/ctrl-zine.html" %}.
+Diablo II has the most significance to me based on time spent and memories made. Playing in a LAN during long summer vacation/s, unpatched corpse explosions, the rush of online boss runs on a crappy internet connection, collecting ears, rune words etc. - it's probably lots of nostalgia, but no other Diablo ever came quite close to D2 for me.
+
+A longer essay about D2/D2R can be found in {% ext "issue 17 of Ctrl-ZINE", "https://ctrl-c.club/~singletona082/zine/2024/Ctrl-ZINE.Issue.17.pdf" %}.
 
 ### Dragon's Dogma: Dark Arisen
 
