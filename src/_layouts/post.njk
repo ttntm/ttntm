@@ -9,9 +9,17 @@ layout: base.njk
   <h1>{{ title }}</h1>
   <div class="grid d-sm-flex justify-content-between align-items-end gap1">
     <div>
-      <p class="text-muted" style="font-size: .875rem; margin-bottom: .5rem;">
-        Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">{{ date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;<span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span>&nbsp;&nbsp;Reading time: {{ content | readingTime }}
-      </p>
+      <div class="flex wrap-mobile" style="gap: .5rem; margin-bottom: .5rem;">
+        <p class="w100m small text-muted m0">
+          Published: <time class="dt-published" datetime="{{ date | date('YYYY-MM-DD') }}">{{ date | date('MMMM DD, YYYY') }}</time>
+        </p>
+        <p class="d-none d-sm-block small text-muted m0" style="font-family: Arial, Helvetica, sans-serif;">
+          &bull;
+        </p>
+        <p class="w100m small text-muted m0">
+          Reading time: {{ content | readingTime }}
+        </p>
+      </div>
       {% if updated %}
         <p class="text-muted" style="font-size: .875rem; margin-bottom: .5rem;">
           Last update: <time class="dt-published" datetime="{{ updated | date('YYYY-MM-DD') }}">{{ updated | date('MMMM DD, YYYY') }}</time>

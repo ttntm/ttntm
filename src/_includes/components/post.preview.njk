@@ -8,9 +8,17 @@
     <a href="{{ currentPost.url }}" class="u-url p-name">{{ currentPost.data.title }}</a>
   {% if '/tags' in page.url %}</h2>{% else %}</h3>{% endif %}
   {% if currentPost.data.date %}
-    <p class="small text-muted">
-      Published: <time class="dt-published" datetime="{{ currentPost.data.date | date('YYYY-MM-DD') }}">{{ currentPost.data.date | date('MMMM DD, YYYY') }}</time>&nbsp;&nbsp;<span style="font-family: Arial, Helvetica, sans-serif;">&bull;</span>&nbsp;&nbsp;Reading time: {{ currentPost | readingTime }}
-    </p>
+    <div class="flex wrap-mobile mb1" style="gap: .5rem;">
+      <p class="w100m small text-muted m0">
+        Published: <time class="dt-published" datetime="{{ currentPost.data.date | date('YYYY-MM-DD') }}">{{ currentPost.data.date | date('MMMM DD, YYYY') }}</time>
+      </p>
+      <p class="d-none d-sm-block small text-muted m0" style="font-family: Arial, Helvetica, sans-serif;">
+        &bull;
+      </p>
+      <p class="w100m small text-muted m0">
+        Reading time: {{ currentPost | readingTime }}
+      </p>
+    </div>
   {% endif %}
   <p class="p-summary">
     {{ currentPost.data.description }}
