@@ -26,7 +26,7 @@ The tech stack used for the current version [{{ site.version }}](/changelog/) is
 
 An overview of this website's architecture, including interfaces:
 
-<img src="/static/img/Architecture_ttntm.me.svg" class="img-center img-fluid mb2" alt="Architectural diagram for ttntm.me">
+<img src="/static/img/Architecture_ttntm.me.svg" class="img-center img-fluid auto-invert mb2" alt="Architectural diagram for ttntm.me">
 
 More information about this setup and its continued evolution can be found in posts tagged [#website](/tags/website). You can also [contact me](/hello) to talk about the details.
 
