@@ -82,22 +82,22 @@
   ],
   "social": [
     {
-      "title": "Email",
+      "title": "Contact me",
       "img": "email.svg",
       "url": "/hello"
     },
     {
-      "title": "Codeberg",
+      "title": "View my projects on Codeberg",
       "img": "codeberg.svg",
       "url": "https://codeberg.org/ttntm"
     },
     {
-      "title": "GitHub",
+      "title": "View my projects on GitHub",
       "img": "github.svg",
       "url": "https://github.com/ttntm"
     },
     {
-      "title": "Mastodon",
+      "title": "Find me on Mastodon",
       "img": "mastodon.svg",
       "url": "https://fosstodon.org/@ttntm"
     }
