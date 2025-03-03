@@ -849,7 +849,8 @@ summary ::marker {
   color: var(--prim) !important;
 }
 
-summary h2 {
+summary h2,
+summary h3 {
   display: list-item;
 }
 
@@ -1254,7 +1255,8 @@ summary:active {
     display: none !important;
   }
 
-  summary h2 {
+  summary h2,
+  summary h3 {
     display: block !important;
   }
 }
@@ -1270,7 +1272,8 @@ summary:active {
     }
   }
 
-  summary h2 {
+  summary h2,
+  summary h3 {
     display: block !important;
   }
 }

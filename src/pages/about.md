@@ -27,7 +27,7 @@ I'm interested in a lot of things, and you can read about that on my <a href="/i
 
 ...and if you want to know what I'm doing _right now_, check out my [/now page](/now/) 🚀
 
-{% include "components/about.pgp.njk" %}
+<div class="hr shadow mt2 mb2"></div>
 
 {% include "components/about.highlights.njk" %}
 

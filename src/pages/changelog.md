@@ -15,6 +15,12 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.25.1
+
+- Move some things from [/about](/about/) to [/hello](/hello/) and added links for identity verification
+- Footer: `mailto` link removed from the envelope icon, now navigates to [/hello](/hello/) instead
+- Small fixes and adjustment after the recent font change
+
 ## 3.25
 
 <small>Released: 2025-02-28</small>

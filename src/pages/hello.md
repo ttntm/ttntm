@@ -14,10 +14,14 @@ Here's **how I prefer to keep in touch**, and why:
 - My favored way to communicate is [via email](mailto:ttntm@pm.me); it's the fastest/fairest way for me to respond to people
 - If you have my phone number: use Signal, and please don't call; I generally dislike phone calls, especially ones that I don't expect
 - I write about what I am doing on this website, and usually share links elsewhere
-- {% ext "Mastodon", "https://fosstodon.org/@ttntm" %} is my only social media, please follow me there
-- {% ext "Codeberg", "https://codeberg.org/ttntm" %} and {% ext "GitHub", "https://github.com/ttntm" %} for my public projects
+- {% ext "Mastodon", "https://fosstodon.org/@ttntm" %} is my only social media, you can follow me there
+- My public projects are available at {% ext "Codeberg", "https://codeberg.org/ttntm" %} and {% ext "GitHub", "https://github.com/ttntm" %}
 
-<div class="hr shadow"></div>
+Identity claims and verification: {% ext "7DQAYHLWT6J6555DZFNBLP3IZI", "https://keyoxide.org/aspe:keyoxide.org:7DQAYHLWT6J6555DZFNBLP3IZI" %}
+
+{% include "components/contact.pgp.njk" %}
+
+<div class="hr shadow mt2 mb2"></div>
 
 You _won't_ find me using:
 
