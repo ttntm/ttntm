@@ -6,36 +6,38 @@
   "url": "https://ttntm.me",
   "wmPingback": "https://webmention.io/ttntm.me/xmlrpc",
   "wmUrl": "https://webmention.io/ttntm.me/webmention",
-  "feedTitle": "ttntm.me",
-  "feeds": [
-    {
-      "name": "Blog",
-      "link": "/blog/feed.xml",
-      "page": "/blog/"
-    },
-    {
-      "name": "Likes",
-      "link": "/likes/feed.xml",
-      "page": "/likes/"
-    },
-    {
-      "name": "Notes",
-      "link": "/notes/feed.xml",
-      "page": "/notes/"
-    },
-    {
-      "name": "Everything",
-      "link": "/everything.xml",
-      "page": "/everything/"
-    }
-  ],
+  "feeds": {
+    "title": "ttntm.me",
+    "data": [
+      {
+        "name": "Blog",
+        "link": "/blog/feed.xml",
+        "page": "/blog/"
+      },
+      {
+        "name": "Likes",
+        "link": "/likes/feed.xml",
+        "page": "/likes/"
+      },
+      {
+        "name": "Notes",
+        "link": "/notes/feed.xml",
+        "page": "/notes/"
+      },
+      {
+        "name": "Everything",
+        "link": "/everything.xml",
+        "page": "/everything/"
+      }
+    ]
+  },
   "highlights": [
     {
       "title": "Bolt Thrower - Mercenary",
       "img": "music.svg"
     },
     {
-      "title": "Citizen Sleeper",
+      "title": "The Outer Worlds",
       "img": "game.svg"
     },
     {
@@ -76,7 +78,7 @@
     },
     {
       "url": "/sitemap/",
-      "title": "...and many more",
+      "title": "…and many more",
       "details": "explore this website"
     }
   ],

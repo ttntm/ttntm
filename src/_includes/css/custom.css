@@ -45,7 +45,6 @@
   --light: #D8DEE9;
   --lighter: #E5E9F0;
   --lightest: #ECEFF4;
-  /* --green: #A3BE8C; */
   --daintree: #021F2C;
   --blueGreen: #8fbcbb;
   --green: #408773;
@@ -110,7 +109,6 @@
 
 [data-theme="dark"] {
   --black: #121212;
-  /* --bg: var(--darker); */
   --bg: #232731;
   --bg-noise: url('/img/noise-light-32x32.png');
   --border: var(--dark);
@@ -203,7 +201,6 @@ body {
   font-family: var(--font-sans);
   font-size: 1rem;
   font-weight: 400;
-  /* letter-spacing: .25px; */
   line-height: 1.5;
   margin: 0;
   text-align: left;
@@ -476,7 +473,6 @@ main {
   font-family: var(--font-heading);
   font-size: 1.15rem;
   margin-bottom: 2rem;
-  /* transition: all .35s ease; */
 
   &.sticky {
     --borderRadius: .0rem;
@@ -488,7 +484,6 @@ main {
     border-color: var(--border);
     border-radius: var(--borderRadius);
     left: 0;
-    /* margin: 1rem auto; */
     position: fixed;
     right: 0;
     top: 0;
@@ -586,7 +581,6 @@ main {
     pointer-events: none;
 
     &.icon-active {
-      /* opacity: 0.35; */
       color: var(--footerLinkHover);
     }
   }
@@ -800,7 +794,6 @@ footer button {
 
 .progress-bar {
   --barBorderRadius: 99999px;
-  /* --barColor: #b48ead; */
   --barColor: var(--blueGreen);
 
   background-color: var(--border);
@@ -841,7 +834,6 @@ footer button {
 
   &.done::after {
     opacity: 1;
-    /* transition: opacity .35s ease-out; */
   }
 }
 

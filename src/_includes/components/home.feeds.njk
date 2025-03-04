@@ -6,7 +6,7 @@
   These are the RSS feeds for content published on this website:
 </p>
 <ul class="list-reset flex post gap1 m0">
-  {% for item in site.feeds %}
+  {% for item in site.feeds.data %}
     <li>
       <a class="bold" href="{{ item.link }}">{{ item.name }}</a>
     </li>

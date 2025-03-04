@@ -9,7 +9,7 @@ permalink: /feeds/index.html
   This website offers the following feeds:
 </p>
 <ul class="list-reset grid grid2 gap1">
-  {% for item in site.feeds %}
+  {% for item in site.feeds.data %}
     <li class="py1">
       <h2 class="h4 tight">{{ item.name }}</h2>
       <ul>

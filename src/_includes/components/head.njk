@@ -49,7 +49,7 @@
 <link rel="pingback" href="{{ site.wmPingback }}">
 
 {# RSS Feeds #}
-{% for item in site.feeds %}
+{% for item in site.feeds.data %}
   <link type="application/atom+xml" rel="alternate" href="{{ site.url }}{{ item.link }}" title="{{ item.name }} Feed">
 {% endfor %}
 
