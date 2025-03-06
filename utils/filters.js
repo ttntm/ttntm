@@ -23,6 +23,38 @@ export default {
     return encodedSubject
   },
 
+  getMostPopular: function(mentions) {
+    const listSize = 16
+    const mapObj = Object.fromEntries(mentions)
+    const mapObjKeys = Object.keys(mapObj)
+
+    if (mapObjKeys.length <= 0) {
+      return []
+    }
+
+    return mapObjKeys
+      .map((k) => {
+        const wmData = mapObj[k]
+
+        if (
+          (wmData['like-of'] > 0 || wmData['repost-of'] > 0)
+          && (k.includes('/blog/') || k.includes('/likes/'))
+        ) {
+          return {
+            page: {
+              slug: k.split('/')[k.split('/').length - 2],
+              url: k
+            },
+            data: wmData,
+            score: ((wmData['like-of'] ?? 0) + (wmData['repost-of'] ?? 0) + (wmData['in-reply-to'] ?? 0))
+          }
+        }
+      })
+      .filter(Boolean)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, listSize)
+  },
+
   getPageMentions: function(mentions, url) {
     const data = mentions.get(`https://ttntm.me${url}`)
     return Boolean(data) ? data : undefined

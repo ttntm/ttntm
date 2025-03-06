@@ -1,5 +1,5 @@
 {
-  "version": "3.25.1",
+  "version": "3.25.2",
   "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and playground.",
@@ -37,17 +37,16 @@
       "img": "music.svg"
     },
     {
-      "title": "The Outer Worlds",
+      "title": "Stellar Blade",
       "img": "game.svg"
     },
     {
-      "title": "Fringe",
+      "title": "Paradise",
       "img": "movie.svg"
     },
     {
-      "title": "Clynelish 14yo",
-      "img": "drink.svg",
-      "link": "/whisky/#log"
+      "title": "Protein shakes",
+      "img": "drink.svg"
     }
   ],
   "readmore": [

@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.25.2
+
+- Added [/best-of](/best-of/), a list of my most popular content (based on [webmentions](#3-23))
+
 ## 3.25.1
 
 - Move some things from [/about](/about/) to [/hello](/hello/) and added links for identity verification

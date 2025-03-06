@@ -32,10 +32,10 @@ import eleventyFetch from '@11ty/eleventy-fetch'
 
 dotenv.config()
 
-const wmMap = new Map()
-const wmURL = `https://webmention.io/api/mentions.jf2?domain=ttntm.me&token=${process.env.WM_TOKEN}&per-page=1000`
-
 export default async function() {
+  const wmMap = new Map()
+  const wmURL = `https://webmention.io/api/mentions.jf2?domain=ttntm.me&token=${process.env.WM_TOKEN}&per-page=1000`
+
   try {
     const response = await eleventyFetch(wmURL, {
       directory: '.cache',

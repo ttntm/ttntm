@@ -103,6 +103,19 @@ export default {
       : ''
   },
 
+  pageTitleFromSlug: function(collection, pgSlug) {
+    // shortcode to look up page title based on a slug (i.e. webmention data)
+    if (!collection) {
+      return pgSlug
+    }
+
+    const page = collection.find(p => p.data.slug === pgSlug)
+
+    return page
+      ? page.data.title
+      : pgSlug
+  },
+
   reply: function(displayText, link) {
     // shortcode to create external webmention reply links
     return externalLink(link, displayText, ['ext', 'u-in-reply-to'])

@@ -1,0 +1,39 @@
+---
+title: Best Of
+description: A list of my most popular content.
+image: /img/popular.jpg
+layout: page.njk
+permalink: /best-of/index.html
+---
+<p>
+  {{ description }}
+</p>
+{%- set popular = webmentions | getMostPopular -%}
+{% if popular | length %}
+  <ol class="ml1">
+    {% for item in popular %}
+      <li class="mt1">
+        <p class="m0">
+          <a href="{{ item.page.url }}">{% pageTitleFromSlug collections.all, item.page.slug %}</a>
+        </p>
+        <ul class="list-reset flex small gap1 m0">
+          {% if item.data['like-of'] %}
+            <li>
+              Likes: {{ item.data['like-of'] }}
+            </li>
+          {% endif %}
+          {% if item.data['repost-of'] %}
+            <li>
+              Shares: {{ item.data['repost-of'] }}
+            </li>
+          {% endif %}
+          {% if item.data['in-reply-to'] %}
+            <li>
+              Replies: {{ item.data['in-reply-to'] }}
+            </li>
+          {% endif %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ol>
+{% endif %}
