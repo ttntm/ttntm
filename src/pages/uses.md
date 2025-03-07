@@ -34,7 +34,7 @@ The **VS Code extensions** I use the most are:
 - {% ext "Plastic", "https://plastictheme.com/themes/vscode" %}
 - {% ext "Nord", "https://open-vsx.org/extension/arcticicestudio/nord-visual-studio-code" %}
 
-I'm using {% ext "Zen Browser", "https://zen-browser.app" %}, Brave and Ungoogled Chromium as browsers currently. All my browsers use DuckDuckGo as search engine and {% ext "my custom browser homepage", "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Zen as my main browser and my extensions are pretty basic:
+I'm using {% ext "Zen Browser", "https://zen-browser.app" %} and Ungoogled Chromium as browsers currently. All my browsers use DuckDuckGo as search engine and {% ext "my custom browser homepage", "https://github.com/ttntm/startpage" %} to have everything important right at my fingertips. I use Zen as my main browser and my extensions are pretty basic:
 
 - Proton Pass
 - uBlock Origin

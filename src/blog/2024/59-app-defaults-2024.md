@@ -27,7 +27,7 @@ Whenever multiple applications are listed, `p` marks private use, `w` marks soft
 
 - **Shell**: zsh with Oh My Zsh and p10k
 
-- **Browser (Desktop)**: _Zen Browser_, Brave (`w`), Ungoogled Chromium (`w`)
+- **Browser (Desktop)**: _Zen Browser_, Ungoogled Chromium (`w`)
 
 - **Browser (Mobile)**: _Cromite_ (Android), Safari (iOS)
 
