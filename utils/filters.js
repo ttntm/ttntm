@@ -36,10 +36,7 @@ export default {
       .map((k) => {
         const wmData = mapObj[k]
 
-        if (
-          (wmData['like-of'] > 0 || wmData['repost-of'] > 0)
-          && (k.includes('/blog/') || k.includes('/likes/'))
-        ) {
+        if (k.includes('/blog/')) {
           return {
             page: {
               slug: k.split('/')[k.split('/').length - 2],
