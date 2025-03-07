@@ -33,21 +33,22 @@ export default {
     }
 
     return mapObjKeys
-      .map((k) => {
+      .reduce((_, k) => {
         const wmData = mapObj[k]
 
         if (k.includes('/blog/')) {
-          return {
+          _.push({
             page: {
               slug: k.split('/')[k.split('/').length - 2],
               url: k
             },
             data: wmData,
             score: ((wmData['like-of'] ?? 0) + (wmData['repost-of'] ?? 0) + (wmData['in-reply-to'] ?? 0))
-          }
+          })
         }
-      })
-      .filter(Boolean)
+
+        return _
+      }, [])
       .sort((a, b) => b.score - a.score)
       .slice(0, listSize)
   },
