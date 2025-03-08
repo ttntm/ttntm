@@ -97,12 +97,6 @@
         "title": "rootCompute",
         "description": "rootCompute's personal website",
         "url": "https://rootcompute.neocities.org"
-      },
-      {
-        "title": "ttt + computer",
-        "description": "ttt's blog",
-        "url": "https://write.as/ttt-computer/",
-        "feed": "https://write.as/ttt-computer/feed/"
       }
     ]
   },
