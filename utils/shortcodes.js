@@ -103,17 +103,18 @@ export default {
       : ''
   },
 
-  pageTitleFromSlug: function(collection, pgSlug) {
-    // shortcode to look up page title based on a slug (i.e. webmention data)
+  pageDataFromSlug: function(collection, pgSlug, pgProp, isDate = false) {
+    // shortcode to look up page data based on a slug (i.e. webmention data)
     if (!collection) {
-      return pgSlug
+      return undefined
     }
 
     const page = collection.find(p => p.data.slug === pgSlug)
+    const result = page ? page.data[pgProp] : undefined
 
-    return page
-      ? page.data.title
-      : pgSlug
+    return result && isDate
+      ? dnt.format(result, 'MMM DD, YYYY')
+      : result
   },
 
   reply: function(displayText, link) {

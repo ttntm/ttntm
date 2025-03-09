@@ -48,30 +48,7 @@ layout: base.njk
     {{ content | safe }}
   </div>
   <div class="hr shadow mt2 mb2"></div>
-  <div class="post text-center">
-    <h2 class="large mb1">Thanks for reading!</h2>
-    <p class="m0">
-      Do you have feedback, questions or suggestions?
-    </p>
-    <ul class="list-reset list-inline flex flex-wrap justify-content-center align-items-center gap1 mb1">
-      <li class="list-inline-item">
-        <a class="bold" href="mailto:ttntm@pm.me?subject={{ title | getEmailSubject }}">Reply With Email</a>
-      </li>
-      {% if toot %}
-        <li class="list-inline-item">
-          <a class="bold ext" href="{{ toot }}">Discuss on Mastodon</a>
-        </li>
-      {% endif %}
-      <li class="list-inline-item">
-        <a class="bold ext" href="{{ site.wmUrl }}">Send Webmention</a>
-      </li>
-    </ul>
-    <p class="hide-no-js">
-      Share this post with others?
-      <br>
-      <button id="copy-share" class="link bold">Copy Link</button>
-    </p>
-  </div>
+  {% include "components/page.share.njk" %}
 </article>
 <section class="container">
   <div class="hr shadow mt2 mb2"></div>

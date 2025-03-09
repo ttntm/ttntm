@@ -17,7 +17,8 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.25.3
 
-- Added "Discuss on Mastodon" links to the feedback/share section at the end of blog posts
+- Added the feedback/share section to entries in the [/likes](/likes/) collection
+- Added "Discuss on Mastodon" links to the feedback/share section at the end of blog posts/likes
 
 ## 3.25.2
 

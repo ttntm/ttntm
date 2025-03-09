@@ -16,6 +16,10 @@ layout: base.njk
     {{ content | safe }}
   </div>
   <div class="hr shadow mt2 mb2"></div>
+  {% include "components/page.share.njk" %}
+</article>
+<section class="container">
+  <div class="hr shadow mt2 mb2"></div>
   {% set previousLike = collections.likes | getPreviousCollectionItem(page) %}
   {% set nextLike = collections.likes | getNextCollectionItem(page) %}
   {% if previousLike or nextLike %}
@@ -48,4 +52,5 @@ layout: base.njk
   <div class="flex justify-content-center gap2">
     <a href="/likes/" class="d-inline-block btn cap-first">View all Likes</a>
   </div>
-</article>
+</section>
+<script src="/js/post-utils.js"></script>

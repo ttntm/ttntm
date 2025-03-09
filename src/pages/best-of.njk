@@ -14,7 +14,10 @@ permalink: /best-of/index.html
     {% for item in popular %}
       <li class="mt1">
         <p class="m0">
-          <a href="{{ item.page.url }}">{% pageTitleFromSlug collections.all, item.page.slug %}</a>
+          <a href="{{ item.page.url }}">{% pageDataFromSlug collections.all, item.page.slug, "title" %}</a>
+        </p>
+        <p class="small text-muted m0">
+          Published: {% pageDataFromSlug collections.all, item.page.slug, "date", true %}
         </p>
         <ul class="list-reset flex small gap1 m0">
           {% if item.data['like-of'] %}
