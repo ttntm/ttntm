@@ -7,6 +7,7 @@ tags:
   - docs
   - personal
 image: /img/blog/content.jpg
+toot: https://fosstodon.org/@ttntm/112405867785267318
 ---
 
 I started using Notion in 2018 when it was very new. I was very convenient and fast, which made using it a rather pleasant experience. Over time, I built small personal wiki in there, drafted articles with it and used lists of to-dos and tables to track lots of different things.

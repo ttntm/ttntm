@@ -9,6 +9,7 @@ tags:
   - series
 image: /img/record.jpg
 imageHeaderSize: 125
+toot: https://fosstodon.org/@ttntm/112496391756135968
 ---
 
 A chronological list of my favorite albums from 1990 to 1999 with reasons why I like them.

@@ -8,6 +8,7 @@ tags:
   - guide
   - serverless
 image: /img/blog/guestbook.png
+toot: https://fosstodon.org/@ttntm/112039614547292918
 ---
 
 I recently started working on a new side project, BUKMARK.CLUB, which I introduced in the [previous article](/blog/bukmark-club-intro/) published here on this website. The MVP launched with a couple of open feature requests, and one of them was adding a guestbook, which I already implemented in the meantime.

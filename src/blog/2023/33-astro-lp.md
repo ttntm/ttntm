@@ -7,6 +7,7 @@ tags:
   - astro
   - template
 image: /img/blog/astro-landing-page.png
+toot: https://fosstodon.org/@ttntm/110940548857147393
 ---
 
 Earlier this week, I ported my "simple landing page" template to {% ext "Astro", "https://astro.build" %}.

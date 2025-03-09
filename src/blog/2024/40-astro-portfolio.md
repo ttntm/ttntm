@@ -8,6 +8,7 @@ tags:
   - template
   - vue
 image: /img/blog/astro-portfolio.jpg
+toot: https://fosstodon.org/@ttntm/111923810984584500
 ---
 
 A couple of months ago, I started working on a re-build of my wife's website. This wasn't the first time I did that, but it's been the most successful attempt so far, considering that we're almost done with it. I knew that I was going to stick with Astro, which I'd already used for a previous attempt in late 2022, but I decided to use Contentful over StoryBlok as a headless CMS.

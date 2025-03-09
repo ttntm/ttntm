@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.25.3
+
+- Added "Discuss on Mastodon" links to the feedback/share section at the end of blog posts
+
 ## 3.25.2
 
 - Added [/best-of](/best-of/), a list of my most popular content (based on [webmentions](#3-23))

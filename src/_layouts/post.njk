@@ -57,6 +57,11 @@ layout: base.njk
       <li class="list-inline-item">
         <a class="bold" href="mailto:ttntm@pm.me?subject={{ title | getEmailSubject }}">Reply With Email</a>
       </li>
+      {% if toot %}
+        <li class="list-inline-item">
+          <a class="bold ext" href="{{ toot }}">Discuss on Mastodon</a>
+        </li>
+      {% endif %}
       <li class="list-inline-item">
         <a class="bold ext" href="{{ site.wmUrl }}">Send Webmention</a>
       </li>

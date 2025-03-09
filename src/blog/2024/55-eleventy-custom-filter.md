@@ -8,6 +8,7 @@ tags:
   - guide
   - website
 image: /img/blog/building-a-custom-filter-for-eleventy-collections.jpg
+toot: https://fosstodon.org/@ttntm/112712507191120915
 ---
 
 Collections and lists are a wonderful thing, and filters simply make them better.

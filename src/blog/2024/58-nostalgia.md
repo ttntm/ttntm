@@ -6,6 +6,7 @@ description: Some of the things I remember from growing up in the 1990s and earl
 tags:
   - personal
 image: /img/blog/content.jpg
+toot: https://fosstodon.org/@ttntm/113018957489668508
 ---
 
 Others wrote about their share of the "Millennial nostalgia", and I enjoyed reading about their memories very much:

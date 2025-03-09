@@ -8,6 +8,7 @@ tags:
   - guide
   - serverless
 image: /img/blog/how-to-export-data-from-fauna.jpg
+toot: https://fosstodon.org/@ttntm/112276786648176017
 ---
 
 Just this morning, I had a brief online conversation that made me realize something: I'm using Fauna for two live web applications and I didn't even think about database backups for a second.

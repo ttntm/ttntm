@@ -8,6 +8,7 @@ tags:
   - guide
   - website
 image: /img/blog/backend.png
+toot: https://fosstodon.org/@ttntm/113997528405160813
 ---
 
 I wanted to add webmentions to this website for a very long time, and I finally got it done today. The reason for this task rotting on my list for such a long time (years...) was that thought it'd be a lot more complicated. I was wrong.

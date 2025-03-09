@@ -9,6 +9,7 @@ tags:
   - series
 image: /img/record.jpg
 imageHeaderSize: 125
+toot: https://fosstodon.org/@ttntm/113991270729562516
 ---
 
 A chronological list of my favorite albums from 2010 to 2019 with reasons why I like them.

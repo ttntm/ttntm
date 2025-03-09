@@ -9,6 +9,7 @@ tags:
   - website
 image: /img/reading.png
 updated: 2024-12-16T09:30:00Z
+toot: https://fosstodon.org/@ttntm/112126728921154510
 ---
 
 **Omnivore was shut down in late 2024**

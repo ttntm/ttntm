@@ -7,6 +7,7 @@ tags:
   - eleventy
   - news
 image: /img/blog/bukmark-club.png
+toot: https://fosstodon.org/@ttntm/111968991400429515
 ---
 
 I recently wrote about [adding bookmarks to my website](/blog/bookmarks-are-back/). While planning and doing that, a slightly larger idea came to my mind: building a directory of websites that provide a curated collection of bookmarks and/or links to other websites.

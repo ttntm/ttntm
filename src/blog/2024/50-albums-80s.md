@@ -9,6 +9,7 @@ tags:
   - series
 image: /img/record.jpg
 imageHeaderSize: 125
+toot: https://fosstodon.org/@ttntm/112479564856710827
 ---
 
 A chronological list of my favorite albums from 1980 to 1989 with reasons why I like them.

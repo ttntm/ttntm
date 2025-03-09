@@ -8,6 +8,7 @@ tags:
   - serverless
   - website
 image: /img/reading.png
+toot: https://fosstodon.org/@ttntm/114036667958255221
 ---
 
 Discovering Omnivore about a year ago felt like an instant win. A free, open source, read-it-later app that could also handle all my newsletter subscriptions and RSS feeds - absolutely marvelous!

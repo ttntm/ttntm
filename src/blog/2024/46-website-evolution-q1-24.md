@@ -8,6 +8,7 @@ tags:
   - series
   - website
 image: /img/blog/website-evolution-q1-24.jpg
+toot: https://fosstodon.org/@ttntm/112257686809705858
 ---
 
 2024 has been a very productive year so far. I'd planned to write more, and I feel like that's going quite well at the moment. I've also managed to launch [a new side project](/blog/bukmark-club-intro/) in February, and shipped a ton of updates and enhancements for this website.

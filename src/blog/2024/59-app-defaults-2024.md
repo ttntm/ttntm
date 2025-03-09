@@ -9,6 +9,7 @@ tags:
   - series
 image: /img/blog/defaults-2024.jpg
 showToc: false
+toot: https://fosstodon.org/@ttntm/113509235456238803
 ---
 
 It's that time of the year again: here's my extended "frozen [/uses](/uses) page" for late 2024.

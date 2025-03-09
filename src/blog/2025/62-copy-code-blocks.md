@@ -8,6 +8,7 @@ tags:
   - guide
   - website
 image: /img/blog/adding-a-copy-button-to-code-blocks.jpg
+toot: https://fosstodon.org/@ttntm/113838015776762900
 ---
 
 Copying code from code blocks, without having to manually select it all first, is very handy convenience feature. But despite having published a ton of code snippets on this website, adding copy functionality wasn't a top priority so far. A bit sad, considering that it can be done in less than an hour, using only 61 lines of vanilla JavaScript (and some CSS, of course).

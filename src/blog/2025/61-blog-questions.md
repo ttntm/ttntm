@@ -6,6 +6,7 @@ description: Why Am I Doing This? And How? Answers to questions about this websi
 tags:
   - personal
   - website
+toot: https://fosstodon.org/@ttntm/113797755545044009
 ---
 
 I saw a couple of posts about a "blog questions challenge" pop up in my feed reader this week (written by {% reply "Leilukin", "https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/" %}, {% reply "Hedy", "https://home.hedy.dev/posts/blog-questions-challenge/" %}, or {% reply "Luke", "https://www.lkhrs.com/blog/2025/blog-questions-challenge/" %}, for example) and decided to participate.

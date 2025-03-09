@@ -8,6 +8,7 @@ tags:
   - news
   - website
 image: /img/blog/content_structure.jpg
+toot: https://fosstodon.org/@ttntm/111766829981507064
 ---
 
 This website used to have tags in the past.
