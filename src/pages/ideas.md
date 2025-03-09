@@ -10,7 +10,7 @@ permalink: /ideas/index.html
 
 This is a public list of my ideas for future projects. Additional features and improvements for my existing projects and websites are also listed here.
 
-You're always welcome to [email me](mailto:ttntm@pm.me?subject=Ideas) with feedback, or if you feel like we could work together and make any of these happen.
+You're always welcome to [contact me](/hello/) with feedback, or if you feel like we could work together and make any of these happen.
 
 - A minimal bookmark manager
 - A browser game that works on a Q/A basis; user submitted question/answer combinations, 1 question per calendar day

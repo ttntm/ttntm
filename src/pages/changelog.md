@@ -19,6 +19,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 - Added the feedback/share section to entries in the [/likes](/likes/) collection
 - Added "Discuss on Mastodon" links to the feedback/share section at the end of blog posts/likes
+- Rewrote the text on my [/about](/about/) page
 
 ## 3.25.2
 

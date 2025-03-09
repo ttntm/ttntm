@@ -9,7 +9,7 @@ showProgress: true
 
 <img src="/static/img/interests.jpg" class="img-center img-fluid" alt="Illustration of a person, a tree and the sun" style="width: 100%;">
 
-A list of the things I'm interested in, and a constant work in progress that will grow over time.
+A list of the things I'm interested in, and a constant work in progress, that will grow over time.
 
 ## Tech and Web Stuff
 
@@ -35,9 +35,7 @@ I try to stay informed and put best practices into action wherever possible. I'm
 
 ### Software Architecture
 
-A recent interest, and to some extent an increasingly important necessity for my job.
-
-I enjoy digging into this vast topic, and I'm (re-) learning many things about building (sometimes distributed) systems and applications.
+A recent interest, and to some extent an increasingly important necessity for my job. I enjoy digging into this vast topic, and I'm (re-) learning many things about building (sometimes distributed) systems and applications.
 
 ### The Old Internet
 
@@ -107,7 +105,7 @@ The things I'm not interested in:
 - Sports, in terms of entertainment and fandom, and team sports in terms of participation
 - Superheroes and their comic/movie/TV/game appearances
 - Monetizing side projects and building a "me"-brand
-- Internet videos and streamers
+- "Internet TV" (videos, streamers, etc.)
 - Celebrities and influencers
 - Children and parenting
 - Podcasts

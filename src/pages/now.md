@@ -8,7 +8,7 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Writing**: working on a larger article about my Astro and different headless CMS options, but procrastinating a lot and tinkering with this website instead
+**Writing**: working on a larger article about Astro and different headless CMS options, but procrastinating a lot and tinkering with this website instead
 
 **Books**: Dune Messiah, Leviathan Wakes, If Cats Disappeared from the World
 

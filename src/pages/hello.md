@@ -5,7 +5,7 @@ layout: page.njk
 permalink: /hello/index.html
 ---
 
-<span class="large">&#128075; Hi there, I'm Tom. Nice to meet you!</span>
+<span class="large">&#128075; Hi there, nice to meet you!</span>
 
 ## How to Contact Me
 
