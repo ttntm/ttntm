@@ -1,21 +1,9 @@
-<div id="highlights" class="grid grid2 gap1 mb2">
-  <div>
-    <h2 class="h4">Collections & Pages</h2>
-    <div class="px1">
-      <ul class="p0 m0" style="padding-inline-start: 1rem;">
-        {%- for r in site.readmore -%}
-          <li style="padding-bottom: .375rem;">
-            <a href="{{ r.url }}">{{ r.title }}</a>:&nbsp;<span class="small">{{ r.details }}</span>
-          </li>
-        {%- endfor -%}
-      </ul>
-    </div>
-  </div>
-  <div>
+<div id="highlights" class="mb2">
     <h2 class="h4">Recently Enjoyed</h2>
-    <ul class="list-reset" style="padding-left: .5rem;">
+    <p>Highlights from recent media consumption.</p>
+    <ul class="grid grid2 gap1 list-reset">
       {%- for h in site.highlights -%}
-        <li class="flex align-items-center" style="{{ 'padding-top: .75rem;' if not loop.first }} gap: .5rem;">
+        <li class="flex align-items-center" style="gap: .5rem; padding-left: .5rem;">
           <img src="/img/icons/{{ h.img }}" alt="{{ h.title }}" width="28" style="margin: 2px 0;" eleventy:ignore>
           <span class="d-block">
             {%- if h.link -%}
@@ -27,5 +15,4 @@
         </li>
       {%- endfor -%}
     </ul>
-  </div>
 </div>
