@@ -34,18 +34,22 @@
   "highlights": [
     {
       "title": "Bolt Thrower - Mercenary",
+      "label": "Music",
       "img": "music.svg"
     },
     {
       "title": "Stellar Blade",
+      "label": "Videogames",
       "img": "game.svg"
     },
     {
       "title": "Paradise",
+      "label": "Movies and TV",
       "img": "movie.svg"
     },
     {
       "title": "Dune Messiah",
+      "label": "Books",
       "img": "book.svg"
     }
   ],

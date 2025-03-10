@@ -15,7 +15,7 @@ toot: https://fosstodon.org/@ttntm/112257686809705858
 
 Some of these updates were announced in [previous blog posts](/tags/website/), others evolved into longer deep dive articles. However, I've added, changed and updated many more things recently, which lead to the idea of a new "Website Evolution" series taking shape. Right now, you're reading the first post in this new series, and I'm planning to add more posts to it occasionally.
 
-A quick remark before we get started: this post will try to add context to the changes, updates and enhancements. An uncommented chronology of changes can always be found in the [Changelog](/changelog/).
+A quick remark before we get started: this post will try to add context to the changes, updates and enhancements. An uncommented chronology of changes can always be found in the [Changelog](/changelog/). This post covers versions [3.6](/changelog/#3-6) to [3.13](/changelog/#3-13).
 
 ## Content and Pages
 

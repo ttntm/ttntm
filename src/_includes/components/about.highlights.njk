@@ -4,7 +4,7 @@
     <ul class="grid grid2 gap1 list-reset">
       {%- for h in site.highlights -%}
         <li class="flex align-items-center" style="gap: .5rem; padding-left: .5rem;">
-          <img src="/img/icons/{{ h.img }}" alt="{{ h.title }}" width="28" style="margin: 2px 0;" eleventy:ignore>
+          <img src="/img/icons/{{ h.img }}" title="{{ h.label }}" alt="Icon {{ h.label }}" width="28" style="margin: 2px 0;" eleventy:ignore>
           <span class="d-block">
             {%- if h.link -%}
               <a href="{{ h.link }}">{{ h.title }}</a>

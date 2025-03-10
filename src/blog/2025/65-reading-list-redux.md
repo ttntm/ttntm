@@ -69,7 +69,12 @@ That's a neat solution, and it works well enough to forget about it easily. Dail
 
 I was very happy to have my reading list back, but I still hadn't found a replacement for Omnivore's newsletter subscriptions and RSS functionality.
 
-Regarding RSS, my needs are very simple: I want to add feeds, read their entries, and do that across devices.
+Regarding RSS, my needs are very simple - I want to:
+
+- add feeds
+- read their entries
+- do that across devices
+
 With that in mind, I eventually found {% ext "Qi Reader", "https://www.qireader.com" %}, which describes itself as "a modern RSS reader for the web". It's a minimal application focused on its core functionality, uBlock doesn't complain about a single thing (Umami instead of GA), and it comes with the added bonus of not having to install anything anywhere - I really like it so far, and it offers exactly what I was looking for.
 
 Newsletters... well, I actually didn't miss them at all. So, I decided to let my newsletter subscriptions die with Omnivore, and moved on.

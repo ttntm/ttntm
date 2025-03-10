@@ -12,9 +12,7 @@ image: /img/blog/website-evolution-q2-2024.jpg
 
 There weren't quite as many changes in Q2 2024 as there were in Q1, but I managed to do lots of cool things nevertheless.
 
-Part of the website [#evolution](/tags/evolution/) series.
-
-Just a short remark before we get started: this post will try to add context to changes, updates and enhancements. An uncommented chronology of changes can always be found in the [Changelog](/changelog/).
+Part of the website [#evolution](/tags/evolution/) series. This post covers versions [3.14](/changelog/#3-14) to [3.19](/changelog/#3-19).
 
 ## Content and Pages
 

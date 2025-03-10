@@ -8,7 +8,7 @@ permalink: /about/index.html
 
 A short list of things that folks might want to know about me.
 
-Tom...
+**Tom**...
 
 - Was born at the end of the 80s
 - Lives near Vienna/Austria

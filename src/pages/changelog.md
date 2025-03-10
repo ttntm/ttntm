@@ -89,17 +89,14 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <small>Released: 2025-01-10</small>
 
+- Reviewed [/likes](/likes/) archive and added annual grouping similar to the blog
+- Fix [/reading](/reading/) (data from <span>Raindrop.io</span>)
 - Updated the styling of links used in content
   - Boldness is mostly gone, except for headings/titles
   - Links colors were updated (light theme)
 - Improved some blur that could occur during scale transforms
   - Almost perfect in FF now, still a bit wonky in Chromiums
 - Added a new section for web directories to my [/bookmarks](/bookmarks/) page
-
-## 3.19.8
-
-- Reviewed [/likes](/likes/) archive and added annual grouping similar to the blog
-- Fix [/reading](/reading/) (data from <span>Raindrop.io</span>)
 
 ## 3.19.7
 
