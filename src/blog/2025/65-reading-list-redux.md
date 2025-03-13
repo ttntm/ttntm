@@ -65,7 +65,7 @@ I checked their documentation on {% ext "integrations", "https://raindrop.io/int
 
 That's a neat solution, and it works well enough to forget about it easily. Daily updates of my reading list are sufficient for me, but the interval can be shortened, should that ever become necessary.
 
-## What About Newsletters and RSS?
+## Newsletters and RSS?
 
 I was very happy to have my reading list back, but I still hadn't found a replacement for Omnivore's newsletter subscriptions and RSS functionality.
 
