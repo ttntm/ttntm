@@ -201,6 +201,7 @@ body {
   font-family: var(--font-sans);
   font-size: 1rem;
   font-weight: 400;
+  letter-spacing: -.5px;
   line-height: 1.5;
   margin: 0;
   text-align: left;
@@ -221,6 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--textHeading);
   font-family: var(--font-heading);
   font-weight: 700;
+  letter-spacing: normal;
   margin-bottom: .5rem;
 }
 
@@ -404,6 +406,7 @@ button {
   cursor: pointer;
   font-family: var(--font-heading);
   font-size: 1rem;
+  letter-spacing: normal;
   padding: 0;
 
   &:disabled {
@@ -517,6 +520,7 @@ main {
 .nav-link {
   color: var(--navLink);
   font-weight: 700;
+  letter-spacing: normal;
   position: relative;
   text-decoration: none;
 
@@ -618,6 +622,7 @@ footer button {
 .footer-link {
   display: block;
   font-family: var(--font-heading);
+  letter-spacing: normal;
 }
 
 @media(min-width:768px) {
@@ -676,6 +681,7 @@ footer button {
   box-shadow: 0 .125rem .25rem var(--shadowColor);
   font-family: var(--font-heading);
   font-weight: bold;
+  letter-spacing: normal;
   padding: .5rem 1.5rem;
 
   &:active {

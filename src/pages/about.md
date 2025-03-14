@@ -50,6 +50,4 @@ A short list of things that folks might want to know about me.
 
 ## About This Website
 
-This section was moved in version [3.13](/changelog/#3-13).
-
-It is now available at: [/appendix](/appendix/)
+Check out the [/appendix](/appendix/) - it contains a lot of information about this website.

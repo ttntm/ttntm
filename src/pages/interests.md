@@ -43,19 +43,31 @@ This one's about (re-) discovering what made the web such a great place so many 
 
 It also led to me growing and maintaining the {% ext "BUKMARK.CLUB", "https://bukmark.club" %}, a new web directory listing websites that provide a curated collection of bookmarks and/or links to other websites.
 
-## Video Games
+## Media
+
+Entertainment media.
+
+### Video Games
 
 I grew up playing video games and I still love playing them. In 2015, I switched from PC to the PlayStation as my primary platform, and I'm really happy there.
 
 Some of my favorite games can be found listed on my [Game Recommendations](/games/) page.
 
-## Movies and TV
+### Movies and TV
 
 Watching movies and TV series is a mutual interest of my wife and me. We also share a similar taste, so it's usually quite easy for us to find something both of us will enjoy.
 
 A while ago, I started working on {% ext "watch3r", "https://watch3r.app" %}, a watchlist/journal application for movies and series. It's a very helpful companion and makes it easy for us to keep track of what to watch.
 
-## Music
+The film and TV genres I enjoy the most are:
+
+- Science fiction
+- Fantasy
+- Horror
+- Action/Adventure
+- Crime/Thriller
+
+### Music
 
 Music used to be an important part of my life for many years, but it's moved to a much less involved and rather passive role these days. I played the guitar in various underground bands, and I sometimes still play, but that's mostly just motivated by nostalgia.
 
@@ -114,4 +126,4 @@ The things I'm not interested in:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Feb. 4th 2025`
+`Mar. 14th 2025`

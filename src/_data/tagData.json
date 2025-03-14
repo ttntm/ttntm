@@ -1,8 +1,8 @@
 {
-  "albums": "The \"albums\" series, started in 2024. ",
+  "albums": "The Albums series, started in 2024. ",
   "astro": "Anything about Astro, a web framework and SSG.",
   "css": "Posts about CSS.",
-  "defaults": "The annual \"App Defaults\" series.",
+  "defaults": "The annual App Defaults series.",
   "docs": "Everything about documenting things, taking notes etc.",
   "eleventy": "Anything about Eleventy, an SSG.",
   "evolution": "The Website Evolution series, started in 2024.",
@@ -20,7 +20,7 @@
   "serverless": "Guides, how-tos and tutorials making use of serverless patterns and technologies.",
   "tailwind": "Guides, how-tos and tutorials about building things with Tailwind CSS.",
   "template": "FOSS template announcements and deep dives.",
-  "thoughts": "Thoughts and opinions, successor of the old \"opinion\" tag.",
+  "thoughts": "Thoughts and opinionated posts.",
   "vue": "Guides, how-tos and tutorials about building things with Vue.",
   "website": "Posts about this website, changes, new features and updates."
 }
