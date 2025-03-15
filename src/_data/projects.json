@@ -161,7 +161,7 @@
   },
   {
     "title": "Demos",
-    "description": "Applications, websites, etc.; these projects mostly serve a specific \"build X with Y...\" use case.",
+    "description": "Applications, websites, etc.; small demo projects that serve a specific \"build X with Y...\" use case.",
     "data": [
       {
         "title": "hugo-comments",

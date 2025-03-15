@@ -6,6 +6,7 @@ description: "Introducing a new side project: I built a directory of websites th
 tags:
   - eleventy
   - news
+  - project
 image: /img/blog/bukmark-club.png
 toot: https://fosstodon.org/@ttntm/111968991400429515
 ---

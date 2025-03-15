@@ -5,7 +5,7 @@ date: 2020-12-18T10:30:00Z
 description: Some thoughts on what I learned building WATCH3R.
 tags:
   - learning
-  - serverless
+  - project
   - vue
 image: /img/blog/watch3r.jpg
 ---

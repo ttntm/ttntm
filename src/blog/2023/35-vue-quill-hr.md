@@ -5,6 +5,7 @@ date: 2023-12-28T10:30:00Z
 description: A hacky workaround making <hr> usable in vue-quill.
 tags:
   - guide
+  - project
   - vue
 image: /img/blog/code.jpg
 showToc: false

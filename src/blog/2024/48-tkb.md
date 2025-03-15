@@ -6,6 +6,7 @@ description: How and why I decided to build TKB, my personal knowledge base.
 tags:
   - docs
   - personal
+  - project
 image: /img/blog/content.jpg
 toot: https://fosstodon.org/@ttntm/112405867785267318
 ---

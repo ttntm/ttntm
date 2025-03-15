@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.25.4
+
+- Added the [#project](/tags/project/) tag
+
 ## 3.25.3
 
 - Added the feedback/share section to entries in the [/likes](/likes/) collection

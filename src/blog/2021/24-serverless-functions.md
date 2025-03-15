@@ -5,6 +5,7 @@ date: 2021-07-24T10:30:00Z
 description: Notes on Using Netlify Functions as a Back End for a Web Application.
 tags:
   - guide
+  - project
   - serverless
 image: /img/blog/backend.png
 ---
@@ -33,7 +34,7 @@ Adopting the {% ext "REST API pattern" "https://github.com/DavidWells/netlify-fu
 - User authentication gets verified in one place for all API operations
 - Unrecognized HTTP methods get rejected before hitting any 'real' functionality
 - Actual functionality is split up into individual files that are much easier to maintain (see: {% ext "./functions/api-methods" "https://codeberg.org/ttntm/watch3r/src/branch/master/functions/api-methods" %}
-- If you prefer tidier paths, you could even work with a redirect to change your API's path from `your.app/.netlify/functions/api` to `your.app/api` - see {% ext "this Tweet" "https://twitter.com/Netlify/status/1417937708203249665?s=19" %} for the 'official' recommendation
+- If you prefer tidier paths, you could even work with a redirect to change your API's path from `your.app/.netlify/functions/api` to `your.app/api` - see {% ext "this Tweet" "https://twitter.com/Netlify/status/1417937708203249665" %} for the 'official' recommendation
 
 I'm probably missing some benefits, but that's probably already well worth the effort of refactoring - it was to me at least.
 

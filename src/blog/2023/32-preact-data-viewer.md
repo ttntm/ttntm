@@ -6,6 +6,7 @@ description: A data viewer with a nav tree, rendered from an array of objects (r
 tags:
   - guide
   - preact
+  - project
 image: /img/blog/preact-data-viewer.png
 ---
 

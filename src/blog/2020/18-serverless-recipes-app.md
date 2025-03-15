@@ -5,7 +5,7 @@ date: 2020-09-09T10:30:00Z
 description: Building a CRUD web application that serves as a personal recipes collection.
 tags:
   - guide
-  - serverless
+  - project
   - vue
 image: /img/blog/client-serverless-credit-faunadb.png
 ---

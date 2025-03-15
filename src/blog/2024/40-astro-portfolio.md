@@ -21,7 +21,7 @@ First, let's have a look at a brief summary of the core requirements:
 
 - Content (i.e. projects) should be rendered as a list
 - Individual projects should be rendered as pages
-- Projects should have tags (1 or more)
+- project should have tags (1 or more)
 - The list of projects should be filterable based on a selected tag (single choice)
 - There should be a way to link to filtered list views
 - The list view should feel "alive" somehow (i.e. transitions/animations)

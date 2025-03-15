@@ -4,8 +4,8 @@ slug: watch3r-movie-watchlist-journal-app
 date: 2020-10-31T10:30:00Z
 description: Introducing WATCH3R, a free, open source movie watchlist and journal app.
 tags:
-  - oss
   - news
+  - project
 image: /img/blog/watch3r.jpg
 ---
 

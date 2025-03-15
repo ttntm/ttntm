@@ -17,7 +17,7 @@ Thinking about the somewhat similar scenario of SSGs and user submitted content 
 
 This approach didn't feel right though, so I started thinking about how to generate the sitemap on demand, leveraging the app's (serverless) back end.
 
-I eventually came across an old {% ext "Netlify support topic" "https://answers.netlify.com/t/returning-content-type-xml-from-calling-a-function/1107" %} about returning XML from a serverless function - this looked and felt much better than the “automated rebuilds” approach mentioned above, so I gave it a try.
+I eventually came across an old {% ext "Netlify support topic" "https://answers.netlify.com/t/returning-content-type-xml-from-calling-a-function/1107" %} about returning XML from a serverless function - this looked and felt much better than the "automated rebuilds" approach mentioned above, so I gave it a try.
 
 ## Implementing the Sitemap
 
