@@ -70,7 +70,7 @@ You can find the all details here: <a class="ext" href="https://creativecommons.
 
 This website is a proud member of:
 
-{% include "components/apx.stats.njk" %}
+{% include "components/apx.clubs.njk" %}
 
 <div class="text-center mt2">
   <h3>Static.Quest Webring</h3>
