@@ -3,7 +3,7 @@
   X-XSS-Protection: 1; mode=block
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer
+  Referrer-Policy: no-referrer, strict-origin-when-cross-origin
   Permissions-Policy: document-domain=()
   Content-Security-Policy: default-src 'self' 'unsafe-inline'; img-src * data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'
   X-Robots-Tag: noai, noimageai, SPC
