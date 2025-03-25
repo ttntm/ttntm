@@ -207,7 +207,7 @@ body {
   text-align: left;
 
   &:has(.navTop.sticky) {
-    padding-top: 5.8rem;
+    padding-top: calc(65px + 2rem);
   }
 }
 
@@ -493,15 +493,19 @@ main {
     width: 100%;
     z-index: 50;
 
-    & .logo {
+    /* & .logo {
       border-radius: var(--borderRadius);
-    }
+    } */
   }
 }
 
 .logo {
   background-color: transparent;
+  border-radius: 99999px;
+  height: 3rem;
+  margin: .5rem;
   transition: all .5s ease-in-out;
+  width: 3rem;
 
   &:hover {
     background-color: var(--logoBg);
@@ -509,6 +513,8 @@ main {
 
   & a {
     color: var(--logoLink);
+    letter-spacing: normal;
+    line-height: 1;
     text-decoration: none;
   }
 
@@ -688,7 +694,7 @@ footer button {
     text-decoration: none;
   }
 
-  &:hover {
+  &:is(:focus, :hover) {
     background-color: var(--btnBgHover);
     box-shadow: none;
     color: var(--btnTextHover);
