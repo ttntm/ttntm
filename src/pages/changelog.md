@@ -15,6 +15,14 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.26
+
+<small>Released: 2025-03-26</small>
+
+- Interesting: 3.26 released on March 26th
+- Updated the homepage once again - "Recent Activity" now displays the 5 last entries from each collection
+- Small CSS adjustments for the header - made the icon/logo rounded
+
 ## 3.25.4
 
 - Added the [#project](/tags/project/) tag

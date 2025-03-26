@@ -1,0 +1,73 @@
+<h2 class="tight-md m0">
+  Recent Activity
+</h2>
+<div class="hr shadow"></div>
+<div class="mt2 mb1 mb2m">
+  <h3 class="text-muted bold small font-sans uppercase" style="margin-bottom: .5rem;">
+    Blog Posts
+  </h3>
+  <div class="indent-1-lg indent-border-lg">
+    <ul class="list-reset flex flex-column" style="gap: .5rem;">
+      {% set count = 0 %}
+      {% for item in collections.blog | reverse %}
+        {% if count < 5 %}
+          {% set count = count + 1 %}
+          <li>
+            {% include "components/recent.item.njk" %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="hr shadow" style="margin-top: .5rem;"></div>
+  <p class="post text-right-lg" style="margin-top: -.25rem;">
+    <a class="bold" href="/blog/">All Posts →</a>
+  </p>
+</div>
+<div class="mb1 mb2m">
+  <h3 class="text-muted bold small font-sans uppercase" style="margin-bottom: .5rem;">
+    Likes
+  </h3>
+  <div class="indent-1-lg indent-border-lg">
+    <ul class="list-reset flex flex-column" style="gap: .5rem;">
+      {% set count = 0 %}
+      {% for item in collections.likes | reverse %}
+        {% if count < 5 %}
+          {% set count = count + 1 %}
+          <li>
+            {% include "components/recent.item.njk" %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="hr shadow" style="margin-top: .5rem;"></div>
+  <p class="post text-right-lg" style="margin-top: -.25rem;">
+    <a class="bold" href="/likes/">All Likes →</a>
+  </p>
+</div>
+<div>
+  <h3 class="text-muted bold small font-sans uppercase" style="margin-bottom: .5rem;">
+    Notes
+  </h3>
+  <div class="indent-1-lg indent-border-lg">
+    <ul class="list-reset flex flex-column" style="gap: .5rem;">
+      {% set count = 0 %}
+      {% for item in collections.notes | reverse %}
+        {% if count < 5 %}
+          {% set count = count + 1 %}
+          <li>
+            {% include "components/recent.item.njk" %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="hr shadow" style="margin-top: .5rem;"></div>
+  <p class="post text-right-lg" style="margin-top: -.25rem;">
+    <a class="bold" href="/notes/">All Notes →</a>
+  </p>
+</div>
+<div class="text-center mt2">
+  <a href="/everything/" class="d-inline-block btn cap-first">View Everything</a>
+</div>

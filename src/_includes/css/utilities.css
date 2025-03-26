@@ -226,6 +226,10 @@
   font-family: var(--font-mono);
 }
 
+.font-sans {
+  font-family: var(--font-sans);
+}
+
 .text-prim,
 .text-prim-hover:hover {
   color: var(--prim);
@@ -276,6 +280,16 @@
 @media (min-width: 768px) {
   .text-justify-lg {
     text-align: justify;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .text-right-lg {
+    text-align: right;
   }
 }
 
@@ -435,6 +449,12 @@ small,
 
 .mb2 {
   margin-bottom: 2rem !important;
+}
+
+@media (max-width: 767px) {
+  .mb2m {
+    margin-bottom: 2rem !important;
+  }
 }
 
 .mx-auto, .img-center {

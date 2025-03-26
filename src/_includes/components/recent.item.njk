@@ -1,0 +1,16 @@
+{%- set itemURL -%}
+  {%- if item.url -%}
+    {{ item.url }}
+  {%- else -%}
+    /notes/#{{ item.data.weight }}
+  {%- endif -%}
+{%- endset -%}
+
+<article class="flex align-items-center justify-content-between wrap-mobile gap1">
+  <p class="heading w100m m0">
+    <a class="u-url p-name" href="{{ itemURL }}">{{ item.data.title }}</a>
+  </p>
+  <p class="text-muted small flex-shrink-0 text-right-lg w100m m0">
+    <time class="dt-published" datetime="{{ item.data.date | date('YYYY-MM-DD') }}">{{ item.data.date | date('MMM DD, YYYY') }}</time>
+  </p>
+</article>
