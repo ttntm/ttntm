@@ -184,6 +184,24 @@
   }
 }
 
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
+}
+
+@media (min-width: 768px) {
+  .order1-md {
+    order: 1;
+  }
+
+  .order2-md {
+    order: 2;
+  }
+}
+
 /* SIZING */
 
 .w100 {
@@ -397,6 +415,10 @@ small,
 @media (min-width: 1024px) {
   .d-lg-block {
     display: block !important;
+  }
+
+  .gap1-lg {
+    gap: 1rem;
   }
 
   .gap2-lg {
