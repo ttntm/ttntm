@@ -18,7 +18,7 @@ permalink: /now/index.html
 
 **Drinks**: Protein shakes, milk, ice tea and coffee
 
-**Work**: working on a couple of new opportunities "we need a website..." somehow turned into "we need a web _platform_", also preparing for some certifications, and planning a refresher of my limited C#/.NET knowledge
+**Work**: working on a couple of new opportunities where "we need a website..." somehow turned into "we need a web _platform_", also preparing for some certifications, and planning a refresher of my limited C#/.NET knowledge
 
 **Life**: spring is around the corner, so it's time to ready the bike and prepare for more outdoor activity; still haven't figured out holiday plans for this year, but made plans for a few cool day trips (i.e. Bratislava, visits to different spas)
 

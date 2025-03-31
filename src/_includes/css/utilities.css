@@ -134,9 +134,17 @@
   }
 }
 
-@media(min-width:1024px) {
+@media(min-width: 1024px) {
   .grid2-lg {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .noWrap-lg {
+    flex-wrap: nowrap;
+  }
+
+  .wAuto-lg {
+    width: auto !important;
   }
 }
 
@@ -156,6 +164,14 @@
 
 .d-block {
   display: block !important;
+}
+
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
 }
 
 @media (min-width: 768px) {
@@ -182,17 +198,7 @@
   .d-sm-inline-flex {
     display: inline-flex !important;
   }
-}
 
-.order1 {
-  order: 1;
-}
-
-.order2 {
-  order: 2;
-}
-
-@media (min-width: 768px) {
   .order1-md {
     order: 1;
   }
