@@ -8,6 +8,7 @@ tags:
   - series
   - website
 image: /img/blog/website-evolution-q1-2025.jpg
+toot: https://fosstodon.org/@ttntm/114268640478479349
 ---
 
 As the first quarter of 2025 comes to an end, it's time for another entry in the website [#evolution](/tags/evolution/) series.
