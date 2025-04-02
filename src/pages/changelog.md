@@ -31,7 +31,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 - Added the feedback/share section to entries in the [/likes](/likes/) collection
 - Added "Discuss on Mastodon" links to the feedback/share section at the end of blog posts/likes
-- Rewrote the text on my [/about](/about/) page
+- Rewrote the text on the [/about](/about/) page
 
 ## 3.25.2
 
@@ -61,7 +61,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.24.1
 
-- Status badges for entries on the [/work](/work/) page
+- Added status badges for entries on the [/work](/work/) page
 - Tuning of the external link icon position in hopes of better handling of edge cases re: line breaks
 
 ## 3.24
