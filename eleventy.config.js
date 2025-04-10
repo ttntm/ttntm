@@ -90,6 +90,8 @@ export default async function(config) {
   )
 
   // COLLECTIONS
+  // these collections need to be excluded from tag generation
+  // use `filter` in `posts-by-tag.njk` to do that
   config.addCollection('blog', async(collection) => {
     return collection.getFilteredByGlob('./src/blog/**/*.md')
   })
