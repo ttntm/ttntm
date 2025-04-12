@@ -8,6 +8,7 @@ tags:
   - projects
   - supabase
 image: /img/blog/backend.png
+toot: https://fosstodon.org/@ttntm/114325795620214411
 ---
 
 The announcement that Fauna made the decision to sunset their service hit me by surprise. The main reason for this decision seems to be money - as they've put it: "it is not possible to raise the capital needed" (see {% ext "The Future of Fauna", "https://fauna.com/blog/the-future-of-fauna" %}).
