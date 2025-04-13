@@ -62,7 +62,7 @@ However, normalizing the data and making sure it ends up in multiple columns (co
 
 For watch3r, I chose a different approach: I skipped the temporary table filled with JSON, and inserted properly mapped data right away instead. I don't mind writing SQL queries, but skipping the extra step actually saved me some time. Time, that I immediately used to figure out a rather hacky way of preserving the chronological order of the database entries.
 
-I'm not proud of it, and I'm sure there are many better ways to accomplish chronological order (i.e. working with a proper `created` data from the beginning...), but it worked - you can have a look at {% ext "the script", "https://codeberg.org/ttntm/spb_migrate/src/branch/main/scripts/watch3r/migrate.js#L26" %} if you're curious.
+I'm not proud of it, and I'm sure there are many better ways to accomplish chronological order (i.e. working with a proper `created` date from the beginning...), but it worked - you can have a look at {% ext "the script", "https://codeberg.org/ttntm/spb_migrate/src/branch/main/scripts/watch3r/migrate.js#L26" %} if you're curious.
 
 ## Updating the Web Applications
 
