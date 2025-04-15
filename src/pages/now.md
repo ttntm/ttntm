@@ -1,6 +1,6 @@
 ---
 title: Now
-description: "A public reminder of what I'm (supposed to be...) doing now."
+description: A page about what I'm doing now.
 image: /img/now.jpg
 layout: page.njk
 permalink: /now/index.html
@@ -8,25 +8,25 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Writing**: working on a larger article about Astro and different headless CMS options, but procrastinating a lot and tinkering with this website instead
+**Writing**: I'd like to work on a larger article about Astro and different headless CMS options, but I had to migrate 2 web applications from Fauna to Supabase instead
 
 **Books**: Dune Messiah, Leviathan Wakes, If Cats Disappeared from the World
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Stellar Blade (finally!)
+**Games**: Kingdome Come: Deliverance II - an amazing game so far!
 
-**Drinks**: Protein shakes, milk, ice tea and coffee
+**Drinks**: Protein shakes, milk, ice tea and the occasional coffee
 
-**Work**: working on a couple of new opportunities where "we need a website..." somehow turned into "we need a web _platform_", also preparing for some certifications, and planning a refresher of my limited C#/.NET knowledge
+**Work**: preparing for some Azure certifications, doing too much architecture, trying to refresh my limited C#/.NET/Python knowledge
 
-**Life**: spring is around the corner, so it's time to ready the bike and prepare for more outdoor activity; still haven't figured out holiday plans for this year, but made plans for a few cool day trips (i.e. Bratislava, visits to different spas)
+**Life**: spring is here - bikes are ready, plants were planted, and we also set up a solar powered irrigation system; I also sold an old guitar and bought a new one, an Ibanez AS53-TKF, which will hopefully arrive soon
 
-**Weight Lifting**: GZCLP, cycle II (started on Dec. 28th 2024)
+**Weight Lifting**: GZCLP, cycle II (started on Dec. 28th 2024) - I'm close to the end of the cycle, got to figure out what to do next
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Mar. 6th 2025`
+`Apr. 15th 2025`
 
 An archive of past updates of this page can be found at [/then](/then/).
