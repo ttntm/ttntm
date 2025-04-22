@@ -15,6 +15,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.26.1
+
+- Added the [#database](/tags/database/) tag
+- Retired the #fauna tag
+
 ## 3.26
 
 <small>Released: 2025-03-26</small>

@@ -4,9 +4,9 @@ slug: migrating-from-fauna-to-supabase
 date: 2025-04-12T17:45:00Z
 description: Fauna is shutting down, and I needed a reliable alternative to keep 2 web applications alive.
 tags:
-  - fauna
-  - projects
-  - supabase
+  - database
+  - guide
+  - project
 image: /img/blog/backend.png
 toot: https://fosstodon.org/@ttntm/114325795620214411
 ---

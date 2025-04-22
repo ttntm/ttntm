@@ -4,7 +4,7 @@ slug: how-to-export-data-from-fauna
 date: 2024-04-15T10:30:00Z
 description: "A short guide about exporting data from Fauna, a serverless database. Example use case: a Node.js script for database backups."
 tags:
-  - fauna
+  - database
   - guide
   - serverless
 image: /img/blog/how-to-export-data-from-fauna.jpg

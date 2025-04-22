@@ -4,7 +4,7 @@ slug: track-fauna-metrics-google-sheets
 date: 2021-05-10T10:30:00Z
 description: Using Google Sheets and serverless functions to build an automated database reporting service.
 tags:
-  - fauna
+  - database
   - guide
   - serverless
 image: /img/blog/reporting.png
