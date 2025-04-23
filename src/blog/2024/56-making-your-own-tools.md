@@ -37,7 +37,7 @@ The last and also the newest tool I'd like to mention in this context is **TKB**
 
 As mentioned earlier, this website is actually my oldest actively maintained "make your own" tool. However, I'm not quite sure if I'd really call it tool, considering that it's turned into a multi-faceted creative outlet over the years. Either way, it's important to me and I love tinkering with it, sometimes even more so, than to use it to write and publish. But after all, it's a personal website, and there isn't any obligation to do anything at all. It only really matters how you (or me, in this case) feel about it - I love mine, and I'm really glad to have a tool like that at my disposal.
 
-Feel free to explore the [Projects page](/work/) if you want to know more about the tools I mentioned.
+Feel free to explore the [Projects page](/projects/) if you want to know more about the tools I mentioned.
 
 &mdash;
 

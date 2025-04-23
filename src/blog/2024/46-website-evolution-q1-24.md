@@ -73,7 +73,7 @@ I really like the resulting "list+" UI that the `details/summary` element offers
 
 ### Work
 
-URL: [/work](/work/)
+URL: [/projects](/projects/)
 
 This page was overdue for an update - I don't think I was ever really satisfied with how it looked like and how the information was presented there. But all of that's changed now, and I quite like the result.
 

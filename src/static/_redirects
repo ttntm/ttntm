@@ -9,8 +9,8 @@
 /articles/ /blog/ 301
 /contact /hello/ 301
 /contact/* /hello/ 301
-/projects /work/ 301
-/projects/* /work/ 301
+/work /projects/ 301
+/work/* /projects/ 301
 /rain /629318c103e39f4fd693e43e0cab9cbc.html 301
 /rain/* /629318c103e39f4fd693e43e0cab9cbc.html 301
 /tags/opinion/ /tags/thoughts/ 301

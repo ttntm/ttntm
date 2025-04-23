@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.26.2
+
+- Moved /work to [/projects](/projects/)
+
 ## 3.26.1
 
 - Added the [#database](/tags/database/) tag
@@ -66,7 +70,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.24.1
 
-- Added status badges for entries on the [/work](/work/) page
+- Added status badges for entries on the [/projects](/projects/) page
 - Tuning of the external link icon position in hopes of better handling of edge cases re: line breaks
 
 ## 3.24
@@ -200,7 +204,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <small>Released: 2024-05-15</small>
 
-- Added [/likes](/likes/) to header/footer navigation, replacing [/work](/work/)
+- Added [/likes](/likes/) to header/footer navigation, replacing [/projects](/projects/)
 - Updated individual [/likes](/likes/) entry layout
 - Updated the list of collections and pages
 
@@ -314,7 +318,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <small>Released: 2024-03-14</small>
 
-- Completely rewrote [/work](/work/)
+- Completely rewrote [/projects](/projects/)
 - Added [/ideas](/ideas/)
 - Updated most images used for blog posts
 - Re-arranged [/about](/about/) some more

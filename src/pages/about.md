@@ -17,7 +17,7 @@ A short list of things that folks might want to know about me.
 - Started making websites around 2002
 - Works as a software engineer
 - Volunteers for [epicenter.works](https://epicenter.works) occasionally
-- Is involved in a few [cool projects](/work/)
+- Is involved in a few [cool projects](/projects/)
 - Could be [doing something now](/now/)
 - Will sometimes get distracted
 - ...?

@@ -49,7 +49,7 @@ Nothing fancy: I started archiving older versions of my [/now](/now/) page, whic
 
 - Added a [new section for web directories](/bookmarks/#web-directories) to my /bookmarks page
 - Added an architecture diagram to the [/appendix](/appendix/)
-- Added status badges for entries on the [/work](/work/) page
+- Added status badges for entries on the [/projects](/projects/) page
 - Added the [#project](/tags/project/) tag
 - Added annual grouping to the [/likes](/likes/) page
 - Rewrote the text on the [/about](/about/) page
