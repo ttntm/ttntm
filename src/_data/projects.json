@@ -14,10 +14,16 @@
         "title": "BUKMARK.CLUB",
         "status": 1,
         "description": "A directory of websites that provide a curated collection of bookmarks and/or links to other websites.",
-        "article": {
-          "title": "Intro: BUKMARK.CLUB",
-          "url": "/blog/bukmark-club-intro/"
-        },
+        "articles": [
+          {
+            "title": "Intro: BUKMARK.CLUB",
+            "url": "/blog/bukmark-club-intro/"
+          },
+          {
+            "title": "How to Build a Serverless Guestbook",
+            "url": "/blog/how-to-build-a-serverless-guestbook/"
+          }
+        ],
         "web": "https://bukmark.club",
         "source": "https://github.com/ttntm/bukmark.club"
       },
@@ -45,10 +51,24 @@
         "title": "recept0r",
         "status": 1,
         "description": "A web app for family recipes.",
-        "article": {
-          "title": "How I Built a Serverless Recipes App with FaunaDB and Vue.js",
-          "url": "/blog/serverless-recipes-app-faunadb-vuejs/"
-        },
+        "articles": [
+          {
+            "title": "How I Built a Serverless Recipes App with FaunaDB and Vue.js",
+            "url": "/blog/serverless-recipes-app-faunadb-vuejs/"
+          },
+          {
+            "title": "Building an Editable List with Drag and Drop Sorting in Vue3",
+            "url": "/blog/building-an-editable-list-with-drag-and-drop-sorting-in-vue3/"
+          },
+          {
+            "title": "Hacking <hr> into vue-quill",
+            "url": "/blog/hacking-hr-into-vue-quill/"
+          },
+          {
+            "title": "Migrating from Fauna to Supabase",
+            "url": "/blog/migrating-from-fauna-to-supabase/"
+          }
+        ],
         "web": "https://recept0r.com",
         "source": "https://codeberg.org/ttntm/recept0r"
       },
@@ -69,10 +89,12 @@
         "title": "TKB",
         "status": 1,
         "description": "Tom's Knowledge Base, my personal wiki.",
-        "article": {
-          "title": "My Personal Knowledge Base",
-          "url": "/blog/personal-knowledge-base"
-        },
+        "articles": [
+          {
+            "title": "My Personal Knowledge Base",
+            "url": "/blog/personal-knowledge-base"
+          }
+        ],
         "web": "https://kb.ttntm.me",
         "source": "https://codeberg.org/ttntm/tkb"
       },
@@ -80,10 +102,28 @@
         "title": "watch3r",
         "status": 1,
         "description": "A watchlist/journal for movies and series.",
-        "article": {
-          "title": "Introducing: WATCH3R",
-          "url": "/blog/watch3r-movie-watchlist-journal-app/"
-        },
+        "articles": [
+          {
+            "title": "Introducing: WATCH3R",
+            "url": "/blog/watch3r-movie-watchlist-journal-app/"
+          },
+          {
+            "title": "Lessons Learned Building WATCH3R",
+            "url": "/blog/lessons-learned-building-watch3r/"
+          },
+          {
+            "title": "Switching from Vue CLI to Vite",
+            "url": "/blog/switch-vue-cli-to-vite/"
+          },
+          {
+            "title": "Using Netlify Functions as a Back End",
+            "url": "/blog/using-netlify-functions-as-a-backend/"
+          },
+          {
+            "title": "Migrating from Fauna to Supabase",
+            "url": "/blog/migrating-from-fauna-to-supabase/"
+          }
+        ],
         "web": "https://watch3r.app",
         "source": "https://codeberg.org/ttntm/watch3r"
       }
@@ -104,10 +144,12 @@
         "title": "astro-landing-page",
         "status": 1,
         "description": "A simple landing page template built with Astro and Tailwind CSS.",
-        "article": {
-          "title": "A Simple Astro Landing Page Template",
-          "url": "/blog/astro-tailwind-landing-page-template/"
-        },
+        "articles": [
+          {
+            "title": "A Simple Astro Landing Page Template",
+            "url": "/blog/astro-tailwind-landing-page-template/"
+          }
+        ],
         "web": "https://awesomestro.ttntm.me",
         "source": "https://github.com/ttntm/astro-landing-page"
       },
@@ -115,10 +157,12 @@
         "title": "astro-portfolio-starter",
         "status": 2,
         "description": "A filterable portfolio built with Astro and Vue.",
-        "article": {
-          "title": "Building a Filterable Portfolio with Astro and Vue",
-          "url": "/blog/building-portfolio-with-astro-and-vue/"
-        },
+        "articles": [
+          {
+            "title": "Building a Filterable Portfolio with Astro and Vue",
+            "url": "/blog/building-portfolio-with-astro-and-vue/"
+          }
+        ],
         "web": "https://ttntm.github.io/astro-portfolio-starter/",
         "source": "https://github.com/ttntm/astro-potfolio-starter"
       },
@@ -126,10 +170,12 @@
         "title": "buildless-preact-starter",
         "status": 2,
         "description": "A starter intended to showcase how to use Preact for SPAs in buildless environments.",
-        "article": {
-          "title": "My Buildless Preact Starter",
-          "url": "/blog/buildless-preact-starter/"
-        },
+        "articles": [
+          {
+            "title": "My Buildless Preact Starter",
+            "url": "/blog/buildless-preact-starter/"
+          }
+        ],
         "web": "https://ttntm.me/demos/bps/",
         "source": "https://github.com/ttntm/buildless-preact-starter"
       },
@@ -144,10 +190,12 @@
         "title": " hugo-tailwind-boilerplate",
         "status": 3,
         "description": "A boilerplate for Hugo sites based on Tailwind CSS.",
-        "article": {
-          "title": "Boilerplate: Hugo, TailwindCSS and gulp",
-          "url": "/blog/hugo-tailwind-boilerplate/"
-        },
+        "articles": [
+          {
+            "title": "Boilerplate: Hugo, TailwindCSS and gulp",
+            "url": "/blog/hugo-tailwind-boilerplate/"
+          }
+        ],
         "source": "https://github.com/ttntm/hugo-tailwind-boilerplate"
       },
       {
@@ -166,50 +214,60 @@
       {
         "title": "hugo-comments",
         "description": "\"Static\" comments with Netlify & Hugo.",
-        "article": {
-          "title": "\"Static\" Comments with Gulp, Hugo & Netlify",
-          "url": "/blog/static-blog-comments-hugo/"
-        },
+        "articles": [
+          {
+            "title": "\"Static\" Comments with Gulp, Hugo & Netlify",
+            "url": "/blog/static-blog-comments-hugo/"
+          }
+        ],
         "web": "https://hugo-comments.netlify.app",
         "source": "https://github.com/ttntm/hugo-comments"
       },
       {
         "title": "hugo-leaflet-store-locator",
         "description": "A Leaflet based store locator for Hugo sites.",
-        "article": {
-          "title": "Building a Store Locator Based on Leaflet",
-          "url": "/blog/store-locator-leaflet-hugo/"
-        },
+        "articles": [
+          {
+            "title": "Building a Store Locator Based on Leaflet",
+            "url": "/blog/store-locator-leaflet-hugo/"
+          }
+        ],
         "web": "https://leaflet-store-locator.netlify.app",
         "source": "https://github.com/ttntm/hugo-leaflet-store-locator"
       },
       {
         "title": "preact-auto-suggest-demo",
         "description": "A demo of an <input> with autocomplete.",
-        "article": {
-          "title": "Building an Autocomplete Input with Preact",
-          "url": "/blog/building-an-autocomplete-input-with-preact/"
-        },
+        "articles": [
+          {
+            "title": "Building an Autocomplete Input with Preact",
+            "url": "/blog/building-an-autocomplete-input-with-preact/"
+          }
+        ],
         "web": "https://ttntm.me/demos/pas/",
         "source": "https://github.com/ttntm/preact-auto-suggest-demo"
       },
       {
         "title": "preact-data-viewer-demo",
         "description": "A data viewer + nav tree rendered from an array of objects (i.e. rows obtained from a DB).",
-        "article": {
-          "title": "Building a Data Viewer With Preact",
-          "url": "/blog/building-a-data-viewer-with-preact/"
-        },
+        "articles": [
+          {
+            "title": "Building a Data Viewer With Preact",
+            "url": "/blog/building-a-data-viewer-with-preact/"
+          }
+        ],
         "web": "https://ttntm.me/demos/pdv/",
         "source": "https://github.com/ttntm/preact-data-viewer-demo"
       },
       {
         "title": "vue-dnd-demo",
         "description": "A minimal demo of an editable list that also supports drag'n'drop.",
-        "article": {
-          "title": "Building an Editable List with Drag and Drop Sorting in Vue3",
-          "url": "/blog/building-an-editable-list-with-drag-and-drop-sorting-in-vue3/"
-        },
+        "articles": [
+          {
+            "title": "Building an Editable List with Drag and Drop Sorting in Vue3",
+            "url": "/blog/building-an-editable-list-with-drag-and-drop-sorting-in-vue3/"
+          }
+        ],
         "web": "https://stackblitz.com/github/ttntm/vue-dnd-demo?file=src/App.vue",
         "source": "https://github.com/ttntm/vue-dnd-demo"
       }

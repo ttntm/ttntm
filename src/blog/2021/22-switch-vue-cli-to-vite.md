@@ -5,6 +5,7 @@ date: 2021-04-04T10:30:00Z
 description: Some numbers and thoughts after moving a production app from Vue CLI to Vite.
 tags:
   - guide
+  - project
   - vue
 image: /img/blog/boilerplate.jpg
 ---

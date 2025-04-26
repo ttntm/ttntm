@@ -36,8 +36,9 @@ permalink: /bookmarks/index.html
 <div class="hr shadow mb2"></div>
 {%- for item in bookmarks -%}
   <article class="h-entry">
-    <h2 id="{{ item.title | slugify }}" class="h5 d-sm-inline-flex">
-      <span style="margin-right: .5rem;"><a id="{{ item.data.title | slugify }}" href="#{{ item.title | slugify }}" class="no-underline u-url" style="border: 0;">#</a></span><span class="p-name">{{ item.title }}</span>
+    {% set categoryId = item.title | slugify %}
+    <h2 id="{{ categoryId }}" class="h3" tabindex="-1">
+      <a class="header-anchor int" href="#{{ categoryId }}"><span class="p-name">{{ item.title }}</span></a>
     </h2>
     <p>
       {{ item.description }}

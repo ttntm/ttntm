@@ -27,8 +27,9 @@ permalink: /projects/index.html
 <div class="hr shadow mb2"></div>
 {% for item in projects %}
   <article class="h-entry">
-    <h2 id="{{ item.title | slugify }}" class="h5 d-sm-inline-flex">
-      <span style="margin-right: .5rem;"><a id="{{ item.title | slugify }}" href="#{{ item.title | slugify }}" class="no-underline u-url" style="border: 0;">#</a></span><span class="p-name">{{ item.title }}</span>
+    {% set categoryId = item.title | slugify %}
+    <h2 id="{{ categoryId }}" class="h3" tabindex="-1">
+      <a class="header-anchor int" href="#{{ categoryId }}"><span class="p-name">{{ item.title }}</span></a>
     </h2>
     <p class="m0">
       {{ item.description }}
@@ -55,14 +56,22 @@ permalink: /projects/index.html
               Status: <span class="status-badge {{ statusText }}">{{ statusText }}</span>
             </p>
           {% endif %}
-          <p style="margin-bottom: .75rem;">
+          <p class="m0">
             {{ entry.description }}
-            {% if entry.article %}
-              <br>
-              Read about this project: <a href="{{ entry.article.url }}">{{ entry.article.title }}</a>
-            {% endif %}
           </p>
-          <ul class="list-reset flex gap1 m0" style="border-top: 1px solid var(--border); padding-top: .25rem; width: fit-content;">
+          {% if entry.articles %}
+            <p class="mb0" style="margin-top: .75rem;">
+              Read about this project:
+            </p>
+            <ul>
+              {% for item in entry.articles %}
+                <li>
+                  <a href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          <ul class="list-reset flex gap1" style="border-top: 1px solid var(--border); margin-top: .75rem; padding-top: .25rem; width: fit-content;">
             <li>
               <a class="ext" href="{{ entry.source }}">Browse Code</a>
             </li>
@@ -79,8 +88,8 @@ permalink: /projects/index.html
   </article>
 {% endfor %}
 <article class="h-entry">
-  <h2 id="clients" class="h5 d-sm-inline-flex">
-    <span style="margin-right: .5rem;"><a id="clients" href="#clients" class="no-underline u-url" style="border: 0;">#</a></span><span class="p-name">Client Projects</span>
+  <h2 id="clients" class="h3" tabindex="-1">
+    <a class="header-anchor int" href="#clients"><span class="p-name">Client Projects</span></a>
   </h2>
   <p>
     Too many over the years, <a href="/hello/">contact me</a> if you're curious.

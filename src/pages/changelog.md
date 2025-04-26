@@ -15,6 +15,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.26.3
+
+- Added support for multiple linked articles for individual entries listed on the [/projects](/projects/) page
+- Updated headings on the [/bookmarks](/bookmarks/) and [/projects](/projects/) pages
+
 ## 3.26.2
 
 - Moved /work to [/projects](/projects/)

@@ -70,7 +70,7 @@ We need a way to collect submissions - a `<form>` it is:
 </form>
 ```
 
-In this example, the attributes `class`, `placeholder`, etc. were removed, and what remains is a bare minimum of functional HTML. The full version of the code that the above snippet was taken from can be found at GitHub: {% ext "bukmark.club/src/join.njk", "https://github.com/ttntm/bukmark.club/blob/main/src/join.njk" %}.
+In this example, the attributes `class`, `placeholder`, etc. were removed, and what remains is a bare minimum of functional HTML. The full version of the code the above snippet was taken from can be found here: {% ext "bukmark.club/src/guestbuk.njk", "https://github.com/ttntm/bukmark.club/blob/main/src/guestbuk.njk" %}.
 
 Functionally, the form is nothing special: there are two required fields, `name` and `message`, and the other two fields are optional. We manually review and approve each submission, so offering submissions to people who might not want to share their email address is perfectly acceptable.
 
