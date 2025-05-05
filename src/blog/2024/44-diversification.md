@@ -4,8 +4,8 @@ slug: about-diversification
 date: 2024-03-15T10:30:00Z
 description: A few words about my cloud platforms and service provider choices.
 tags:
-  - personal
   - serverless
+  - thoughts
 image: /img/blog/content.jpg
 updated: 2024-05-28T10:30:00Z
 showToc: false

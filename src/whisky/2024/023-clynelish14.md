@@ -7,7 +7,7 @@ abv: 46
 purchased: 2024
 price: 57.90
 store: Ammersin
-status: open
+status: empty
 buy_again: maybe
 image: 023-clynelish14.jpg
 order: 23
@@ -15,4 +15,4 @@ order: 23
 
 #### Notes
 
-Not peaty enough, otherwise ok.
+Not peaty enough, otherwise quite nice.
