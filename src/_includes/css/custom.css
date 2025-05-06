@@ -272,7 +272,7 @@ a[href^="https://"].ext,
   }
 }
 
-a:hover, a:focus {
+a:hover, a:focus-visible {
   color: var(--prim);
   text-decoration: none;
 }
@@ -694,7 +694,7 @@ footer button {
     text-decoration: none;
   }
 
-  &:is(:focus, :hover) {
+  &:is(:focus-visible, :hover) {
     background-color: var(--btnBgHover);
     box-shadow: none;
     color: var(--btnTextHover);
@@ -1132,7 +1132,7 @@ summary h3 {
     letter-spacing: inherit;
     text-decoration: none;
 
-    &:is(:focus, :hover) {
+    &:is(:focus-visible, :hover) {
       color: inherit;
     }
 
@@ -1149,7 +1149,7 @@ summary h3 {
     }
 
     &:hover::after,
-    &:focus::after {
+    &:focus-visible::after {
       opacity: 1;
     }
   }

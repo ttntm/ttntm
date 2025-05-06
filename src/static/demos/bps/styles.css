@@ -222,22 +222,22 @@ input[type='button']:hover {
   background: var(--button-hover);
 }
 
-input:focus {
+input:focus-visible {
   box-shadow: 0 0 0 2px #0096bfab;
   box-shadow: 0 0 0 2px var(--focus);
 }
 
-select:focus {
+select:focus-visible {
   box-shadow: 0 0 0 2px #0096bfab;
   box-shadow: 0 0 0 2px var(--focus);
 }
 
-button:focus {
+button:focus-visible {
   box-shadow: 0 0 0 2px #0096bfab;
   box-shadow: 0 0 0 2px var(--focus);
 }
 
-textarea:focus {
+textarea:focus-visible {
   box-shadow: 0 0 0 2px #0096bfab;
   box-shadow: 0 0 0 2px var(--focus);
 }

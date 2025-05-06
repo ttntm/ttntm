@@ -43,7 +43,7 @@ In order for this _not_ to get purged (as it's technically an unused selector), 
 .pipe(purgecss({
   content: ['./layouts/**/*.html','./content/**/*.md'],
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [], //save most things that should not be purged
-  whitelist: [':hover',':focus', 'button', 'button:focus'] //preserve the rest
+  whitelist: [':hover',':focus-visible', 'button', 'button:focus-visible'] //preserve the rest
 }))
 ```
 
