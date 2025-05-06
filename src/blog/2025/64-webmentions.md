@@ -52,10 +52,14 @@ export default async function() {
 
     if (response && response.children && response.children.length > 0) {
       response.children.forEach((entry) => {
-        const {
+        let {
           'wm-property': type,
           'wm-target': target
         } = entry
+
+        if (type === 'mention-of') {
+          type = 'in-reply-to'
+        }
 
         const existing = wmMap.get(target)
 

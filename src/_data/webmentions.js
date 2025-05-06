@@ -28,10 +28,15 @@ export default async function() {
          *  - reposts => "repost-of",
          *  - comments => "mention-of", "in-reply-to"
          */
-        const {
+        let {
           'wm-property': type,
           'wm-target': target
         } = entry
+
+        // fix: lost mentions in cumulated metrics
+        if (type === 'mention-of') {
+          type = 'in-reply-to'
+        }
 
         const existing = wmMap.get(target)
 
