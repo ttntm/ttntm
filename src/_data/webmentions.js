@@ -1,55 +1,22 @@
 import dotenv from 'dotenv'
-import eleventyFetch from '@11ty/eleventy-fetch'
+import Cloudflare from 'cloudflare'
 
 dotenv.config()
 
 export default async function() {
   const wmMap = new Map()
-  const wmURL = `https://webmention.io/api/mentions.jf2?domain=ttntm.me&token=${process.env.WM_TOKEN}&per-page=1000`
 
   try {
-    const response = await eleventyFetch(wmURL, {
-      directory: '.cache',
-      duration: '1h',
-      type: 'json',
-      fetchOptions: {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json; charset=utf-8'
-        }
-      }
+    const client = new Cloudflare({
+      apiToken: process.env.CF_TOKEN
     })
 
-    if (response && response.children && response.children.length > 0) {
-      response.children.forEach((entry) => {
-        /**
-         * 'wm-property':
-         *  - likes => "like-of",
-         *  - reposts => "repost-of",
-         *  - comments => "mention-of", "in-reply-to"
-         */
-        let {
-          'wm-property': type,
-          'wm-target': target
-        } = entry
-
-        // fix: lost mentions in cumulated metrics
-        if (type === 'mention-of') {
-          type = 'in-reply-to'
-        }
-
-        const existing = wmMap.get(target)
-
-        if (existing) {
-          wmMap.set(target, {
-            ...existing,
-            [type]: (existing[type] ?? 0) + 1
-          })
-        } else {
-          wmMap.set(target, {
-            [type]: 1
-          })
-        }
+    // Automatically fetches more pages as needed.
+    for await (const key of client.kv.namespaces.keys.list('09b53c4a973e40c6b27ccf501b9151f0', {
+      account_id: process.env.CF_ACC_ID
+    })) {
+      wmMap.set(key.name, {
+        ...key.metadata
       })
     }
   } catch (ex) {
