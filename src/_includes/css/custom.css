@@ -1183,7 +1183,7 @@ summary h3 {
 }
 
 .heading a,
-.post a,
+.post a:not(.btn, .header-anchor),
 .tag a,
 .toc a,
 .link {

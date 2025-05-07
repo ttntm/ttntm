@@ -2,25 +2,21 @@
 title: All Tags
 description: A list of all tags assigned to blog posts.
 image: /img/blog/content.jpg
-layout: base.njk
+layout: page.njk
 permalink: /tags/
 ---
-<section class="container h-feed text-center">
-  <h1 class="p-name tight-md m0">
-    {{ title }}
-  </h1>
-  <div class="hr shadow mt1 mb2"></div>
-  <ul class="list-reset grid grid3 gap1 post mt2">
-    {% for tag in collections.blog | getCollectionTags | sort %}
-      <li class="d-block">
-        <a class="card w100 u-url p-name like-link shadow-md-hover hover-scale-sm no-underline py1" href="/tags/{{ tag | slugify }}/">
-          <span>
-            <span class="">#</span>{{ tag }}
-          </span>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-  <div class="hr shadow mt2 mb2"></div>
+<ul class="list-reset grid grid2 gap1">
+  {% for tag in collections.blog | getCollectionTags | sort %}
+    <li>
+      <p class="m0">
+        <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>
+        <br>
+        <span class="d-inline-block small" style="padding-left: .5rem;">&ndash;&nbsp;{{ tagData[ tag ] }}</span>
+      </p>
+    </li>
+  {% endfor %}
+</ul>
+<div class="hr shadow mt2 mb2"></div>
+<div class="text-center">
   <a href="/blog/" class="d-inline-block btn">View all Posts</a>
-</section>
+</div>

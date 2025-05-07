@@ -2,7 +2,7 @@
 title: Six String Memories
 slug: six-string-memories
 date: 2025-05-05T15:30:00Z
-description: A brief history of all the guitars I ever owned.
+description: A brief history of all the guitars I owned.
 tags:
   - offline
   - personal

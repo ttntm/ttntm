@@ -15,6 +15,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.26.4
+
+- Added the [#offline](/tags/offline/) tag
+- Updated the look of the [All Tags](/tags/) page
+
 ## 3.26.3
 
 - Added support for multiple linked articles for individual entries listed on the [/projects](/projects/) page
