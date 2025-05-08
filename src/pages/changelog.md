@@ -17,6 +17,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.26.4
 
+- Added [/nope](/nope/)
 - Added the [#offline](/tags/offline/) tag
 - Updated the look of the [All Tags](/tags/) page
 
