@@ -11,32 +11,33 @@ Will be updated as needed.
 
 **I'm not going to**:
 
-- give you my contact information
-- subscribe to your newsletter
+- provide my contact information
+- subscribe to newsletters
 - upgrade to premium
 - pay to remove ads
 - disable my ad blocker
-- accept your cookies
+- accept cookies
 - allow notifications
-- chat with your bot
-- install your app
-- install your browser extension
+- chat with a bot
+- install an app
+- install a browser extension
 - send anonymous usage data
-- let you track me
+- accept being tracked
 - sign up for an account
 - sign up using a different service
+- join a Discord server
 - allow access to my camera, contacts, files, etc.
-- answer your unexpected call
+- answer unexpected calls
 - share my recent experience
-- engage with your ad, sponsored content, etc.
-- watch your video
-- listen to your podcast
+- engage with ads, sponsored content, etc.
+- watch videos instead of reading documentation/manuals
+- listen to podcasts
 - use a streaming service to listen to music
 - buy what other people have usually bought together with an item
 - engage in conversations about topics I'm not interested in
-- entertain your kid
+- entertain kids
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`May. 8th 2025`
+`May. 12th 2025`

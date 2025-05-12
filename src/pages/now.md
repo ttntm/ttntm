@@ -8,25 +8,23 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Writing**: I'd like to work on a larger article about Astro and different headless CMS options, but I had to migrate 2 web applications from Fauna to Supabase instead
+**Writing**: Still haven't started that article about Astro and headless CMS options, maybe I'll finally manage to do it this month
 
-**Books**: Dune Messiah, Leviathan Wakes, If Cats Disappeared from the World
+**Books**: Leviathan Wakes, If Cats Disappeared from the World
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Kingdome Come: Deliverance II - an amazing game so far!
+**Games**: Kingdome Come: Deliverance II
 
-**Drinks**: Protein shakes, milk, ice tea and the occasional coffee
+**Work**: doing too much architecture, documentation and other stuff at the moment, not writing a lot of code
 
-**Work**: preparing for some Azure certifications, doing too much architecture, trying to refresh my limited C#/.NET/Python knowledge
+**Life**: enjoying spring quite a bit, hoping to get some biking done, playing my new Ibanez guitar
 
-**Life**: spring is here - bikes are ready, plants were planted, and we also set up a solar powered irrigation system; I also sold an old guitar and bought a new one, an Ibanez AS53-TKF, which will hopefully arrive soon
-
-**Weight Lifting**: GZCLP, cycle II (started on Dec. 28th 2024) - I'm close to the end of the cycle, got to figure out what to do next
+**Weight Lifting**: doing a month of arms specialization after having finished GZCLP cycle II, also thinking about what program to switch to in June
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Apr. 15th 2025`
+`May 12th 2025`
 
 An archive of past updates of this page can be found at [/then](/then/).
