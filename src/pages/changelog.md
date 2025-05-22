@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 3.26.5
+
+- Added a header row to code blocks
+
 ## 3.26.4
 
 - Added [/nope](/nope/)

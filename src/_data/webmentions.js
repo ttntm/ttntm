@@ -1,5 +1,5 @@
-import dotenv from 'dotenv'
 import Cloudflare from 'cloudflare'
+import dotenv from 'dotenv'
 
 dotenv.config()
 

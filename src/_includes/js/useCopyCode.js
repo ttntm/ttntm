@@ -1,5 +1,6 @@
-function createCopyBtn(blockIndex) {
-  return `<div class="cc-wrapper d-none d-sm-block">
+function createCopyBtn(blockIndex, codeLang) {
+  return `<div class="cc-wrapper">
+    <p class="bold small uppercase m0">${codeLang.split('-')[1]}</p>
     <button class="cc-btn btn-muted shadow" title="Copy code" data-target="${blockIndex}">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon"><path stroke="none"d="M0 0h24v24H0z"fill="none"/><path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"/><path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"/></svg>
     </button>
@@ -39,23 +40,19 @@ async function handleCopyBtnClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const notAPhone = window.matchMedia('(min-width: 768px)')
+  const allCodeBlocks = Array.from(document.querySelectorAll('pre[class^="language-"]'))
 
-  if (notAPhone.matches) {
-    const allCodeBlocks = Array.from(document.querySelectorAll('pre[class^="language-"]'))
+  allCodeBlocks.forEach((b, i) => {
+    const code = b.childNodes[0]
+    const codeBlockIndex = `cb-${i}`
 
-    allCodeBlocks.forEach((b, i) => {
-      const code = b.childNodes[0]
-      const codeBlockIndex = `cb-${i}`
+    b.insertAdjacentHTML('beforebegin', createCopyBtn(codeBlockIndex, b.className))
+    code.setAttribute('data-block-id', codeBlockIndex)
+  })
 
-      b.insertAdjacentHTML('beforebegin', createCopyBtn(codeBlockIndex))
-      code.setAttribute('data-block-id', codeBlockIndex)
-    })
+  const allCopyBtns = Array.from(document.querySelectorAll('.cc-btn'))
 
-    const allCopyBtns = Array.from(document.querySelectorAll('.cc-btn'))
-
-    allCopyBtns.forEach((btn) => {
-      btn.addEventListener('click', handleCopyBtnClick)
-    })
-  }
+  allCopyBtns.forEach((btn) => {
+    btn.addEventListener('click', handleCopyBtnClick)
+  })
 })
