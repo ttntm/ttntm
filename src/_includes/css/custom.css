@@ -1217,6 +1217,12 @@ a .link {
   font-weight: 700;
 }
 
+/* albums & whisky fake H4s */
+p.h4 {
+  color: var(--textHeading);
+  font-family: var(--font-heading);
+}
+
 /* TRANSITIONS */
 
 a.btn:hover,
