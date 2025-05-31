@@ -96,6 +96,10 @@ export default async function(config) {
     return collection.getFilteredByGlob('./src/blog/**/*.md')
   })
 
+  config.addCollection('games', async(collection) => {
+    return collection.getFilteredByGlob('./src/games/**/*.md')
+  })
+
   config.addCollection('likes', async(collection) => {
     return collection.getFilteredByGlob('./src/likes/**/*.md')
   })

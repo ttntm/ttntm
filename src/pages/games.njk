@@ -1,0 +1,125 @@
+---
+title: Game Recommendations
+description: A curated list of my favorite video games with reasons why I love them.
+image: /img/games.jpg
+layout: page.njk
+permalink: /games/index.html
+---
+<div class="grid grid2 gap2 mt2">
+  <div>
+    <img src="/static/img/games.jpg" class="img-center img-fluid m0" alt="Pac-Man tiles">
+  </div>
+  <div>
+    <p>
+      My favorite video games, with reasons why I love them.
+    </p>
+    <p>
+      You can browse my PSN activity since 2015 at <a class="ext" href="https://psnprofiles.com/teitantom" rel="noreferrer nofollow">PSNProfiles</a>, and a long list of (almost) everything I ever played can be found at <a class="ext" href="https://www.grouvee.com/user/ttntm/" rel="noreferrer nofollow">Grouvee</a>.
+    </p>
+    <p class="m0">
+      <a href="/hello">Contact me</a> to talk about the games I listed here, or to recommend games you think I should try.
+    </p>
+  </div>
+</div>
+<div class="hr shadow mb2 mt2"></div>
+<div class="hide-no-js">
+  <h2>The Shelf</h2>
+  <p class="h4 bold">Genre</p>
+  <ul class="filter-list list-reset flex flex-wrap align-items-center gap1 mt1 mb1">
+    {% customFilter collections.games, "genre" %}
+  </ul>
+</div>
+<div class="expand-xl hide-no-js">
+  <ul class="shelf list-reset flex align-items-center gap1 p1">
+    {% for item in collections.games | sortByText('title') %}
+      <li class="shelf-listing" data-genre="{{ item.data.genre | slugify }}">
+        <button class="game-btn hover-scale-sm shadow-hover" title="View {{ item.data.title }}" data-target="{{ item.data.title | slugify }}">
+          <img class="game-cover m0" src="/static/img/games/{{ item.data.cover }}" alt="{{ item.data.title }}">
+        </button>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="game-viewer">
+  {# viewbox - relative #}
+  {# loop da list #}
+  {% for item in collections.games | sortByText('title') %}
+    <article class="game-detail" data-id="{{ item.data.title | slugify }}">
+      <h2>{{ item.data.title }}</h2>
+      <p class="small text-muted">Genre: {{ item.data.genre }} | Released: {{ item.data.released }} | Played on: {{ item.data.platform }} </p>
+      <div class="post e-content">
+        {{ item.templateContent | safe }}
+      </div>
+    </article>
+  {% endfor %}
+</div>
+<div class="hr shadow mb2 mt2 hide-no-js"></div>
+<p class="italic small hide-no-js m0">
+  Select a game from the shelf to view my thoughts about it.
+</p>
+
+<style>
+  .shelf {
+    overflow-y: auto;
+  }
+
+  .game-btn {
+    border-radius: .5rem;
+    display: block;
+
+    & * {
+      pointer-events: none;
+    }
+
+    &:is(:focus, :hover) {
+      & .game-cover {
+        filter: saturate(1);
+      }
+    }
+  }
+
+  .game-cover {
+    border-radius: .5rem;
+    filter: saturate(.3);
+    height: 150px;
+    object-fit:cover;
+    transition: all .35s ease;
+    width: 115px;
+  }
+
+  .game-viewer {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .game-detail {
+    opacity: 0;
+    padding-top: 2rem;
+    position: absolute;
+    transition: all .35s ease;
+    visibility: hidden;
+
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+</style>
+
+<noscript>
+  <style>
+    .game-detail {
+      opacity: 1 !important;
+      position: relative !important;
+      visibility: visible !important;
+    }
+  </style>
+</noscript>
+
+<script src="/js/collection-filter.js"></script>
+{% set js %}
+  {% include "js/games.js" %}
+{% endset %}
+<script>
+  {{ js | jsmin | safe }}
+</script>
