@@ -52,10 +52,10 @@ permalink: /bookmarks/index.html
       {% for link in item.data %}
         <li>
           <p {% if loop.last %} class="m0"{%- endif -%}>
-            <a class="ext" href="{{ link.url }}" rel="noopener nofollow">{{ link.title }}</a>{% if link.feed %}&nbsp;|&nbsp;<a class="ext" href="{{ link.feed }}" rel="noopener nofollow" style="font-size: .875rem; font-weight: 500;">(RSS)</a>{% endif %}
+            <a class="ext" href="{{ link.url }}" rel="noopener nofollow">{{ link.title }}</a>{% if link.feed %}&nbsp;|&nbsp;<a class="ext" href="{{ link.feed }}" rel="noopener nofollow" style="font-size: .875rem; font-weight: 500;">RSS</a>{% endif %}
             {% if link.description %}
               <br>
-              &ndash;&nbsp;{{ link.description }}
+              <span class="d-inline-block small" style="padding-left: .5rem;">&ndash;&nbsp;{{ link.description }}</span>
             {% endif %}
           </p>
         </li>
