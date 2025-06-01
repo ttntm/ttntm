@@ -10,16 +10,28 @@ document.addEventListener('DOMContentLoaded', () => {
   useCollectionFilter(filterOptions)
 
   function showListing(evt) {
-    const target = evt.target.getAttribute('data-target')
-    const targetEl = document.querySelector(`.game-detail[data-id="${target}"]`)
-    const targetElHeight = `${parseInt(window.getComputedStyle(targetEl).height)}px`
+    let target = evt.target.getAttribute('data-target')
 
-    gameListings.forEach((listing) => {
-      listing.classList.remove('visible')
-    })
+    if (!target) {
+      // fallback in case `pointer-events: none;` has failed and
+      // `evt.target` ended up being the cover image
+      // also: fuck you, Safari
+      target = evt.target?.closest('.game-btn')?.getAttribute('data-target')
+    }
 
-    gameViewer.style.height = targetElHeight
-    targetEl.classList.add('visible')
+    if (target) {
+      const targetEl = document.querySelector(`.game-detail[data-id="${target}"]`)
+      const targetElHeight = `${parseInt(window.getComputedStyle(targetEl).height)}px`
+
+      gameListings.forEach((listing) => {
+        listing.classList.remove('visible')
+      })
+
+      gameViewer.style.height = targetElHeight
+      targetEl.classList.add('visible')
+    } else {
+      console.error('No target element for event:', evt)
+    }
   }
 
   gameBtns.forEach((btn) => {
