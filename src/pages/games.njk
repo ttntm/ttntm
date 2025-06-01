@@ -41,10 +41,8 @@ permalink: /games/index.html
   </ul>
 </div>
 <div class="game-viewer">
-  {# viewbox - relative #}
-  {# loop da list #}
   {% for item in collections.games | sortByText('title') %}
-    <article class="game-detail" data-id="{{ item.data.title | slugify }}">
+    <article id="{{ item.data.title | slugify }}" class="game-detail">
       <h2>{{ item.data.title }}</h2>
       <p class="small text-muted">Genre: {{ item.data.genre }} | Released: {{ item.data.released }} | Played on: {{ item.data.platform }} </p>
       <div class="post e-content">

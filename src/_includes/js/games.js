@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (target) {
-      const targetEl = document.querySelector(`.game-detail[data-id="${target}"]`)
+      const targetEl = document.getElementById(target)
       const targetElHeight = `${parseInt(window.getComputedStyle(targetEl).height)}px`
 
       gameListings.forEach((listing) => {
