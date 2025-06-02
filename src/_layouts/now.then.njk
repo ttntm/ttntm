@@ -13,16 +13,16 @@ layout: base.njk
     <div class="hr shadow mb1"></div>
     <section class="grid grid2 gap1 mt2 mb2">
       {% if previousEntry %}
-        <div class="post second first-md">
-          <h2 class="h6 next-prev uppercase tight">Previous Entry</h2>
+        <div class="post flex align-items-center gap1 second first-md">
+          <h2 class="h6 next-prev uppercase tight m0">Previous Entry:</h2>
           <p class="m0">
             <a href="{{ previousEntry.url }}">{{ previousEntry.data.slug }}</a>
           </p>
         </div>
       {% endif %}
       {% if nextEntry %}
-        <div class="post first second-md">
-          <h2 class="h6 next-prev uppercase tight">Next Entry</h2>
+        <div class="post flex align-items-center gap1 first second-md">
+          <h2 class="h6 next-prev uppercase tight m0">Next Entry:</h2>
           <p class="m0">
             <a href="{{ nextEntry.url }}">{{ nextEntry.data.slug }}</a>
           </p>

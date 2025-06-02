@@ -13,6 +13,20 @@ I use an immortal Dell Precision M3800 from 2013 running Manjaro for private stu
 
 My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my LG G7 ThinQ after her beloved Sony phone died. The Pixel's a great phone and I got so used to gesture navigation that using other phones feels somehow off now. My work phone is a refurbished iPhone Xs that does what it needs to do (mostly emails, MFA and Teams) rather well.
 
+### Entertainment/Gaming
+
+I play my video games on a PlayStation 5 (disk edition, capable of DVD/Blu-ray playback) that's connected to a 58" Samsung Q60T. There's also a Minisforum (mini-) PC connected to the TV that we're using as a media center.
+
+### Listening to Music
+
+I don't use any music streaming services. It's either local files via {% ext "cmus", "https://cmus.github.io" %} (my own CD/Vinyl rips collected over the years) or actual records played on my Audio Technica AT-LP120XBT-USB. The turntable's Bluetooth connection is super convenient: it lets me listen to music my wife would get a headache from without disturbing her at all.
+
+### Making Music
+
+I started playing guitar a long time ago, and I still do. [I owned many guitars](/blog/six-string-memories/), and I'm currently using an Ibanez AS53. It’s my first hollow body guitar, and I'm really happy with it - I pick it up and play whenever I feel like it, without the need for an amplifier.
+
+The gear I'm currently using is limited to a Boss Katana Mini and an Orange Crush Mini, as well as a Two Notes Le Crunch tube preamp (that can be used as a pedal amp - very convenient!). I've also got a couple of effect pedals in a box (an old HM-2, a random Chinese OD pedal, and a Tube Screamer I built from a kit), but I'm hardly using them these days.
+
 ## Software
 
 My terminal emulator is {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %} running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "GitLab Mono", "https://gitlab-org.gitlab.io/frontend/fonts/" %} typeface and the {% ext "Kanagawa", "https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa" %} theme is my primary editor. I also use {% ext "Neovim", "https://neovim.io" %} or {% ext "micro" "https://micro-editor.github.io" %} whenever I need to edit files in a terminal and {% ext "gedit", "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
@@ -43,15 +57,7 @@ Plain text files are what I'm currently using for notes, and Proton takes care o
 
 Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: Proton Pass for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, Proton VPN when I need a VPN and of course {% ext "TKB", "https://kb.ttntm.me" %}, my personal knowledge base.
 
-## Entertainment/Gaming
-
-I play my video games on a PlayStation 5 (disk edition, capable of DVD/Blu-ray playback) that's connected to a 58" Samsung Q60T. There's also a Minisforum (mini-) PC connected to the TV that we're using as a media center.
-
-## Music
-
-I don't use any music streaming services. It's either local files via {% ext "cmus", "https://cmus.github.io" %} (my own CD/Vinyl rips collected over the years) or actual records played on my Audio Technica AT-LP120XBT-USB. The turntable's Bluetooth connection is super convenient: it lets me listen to music my wife would get a headache from without disturbing her at all.
-
-## Weight Lifting
+### Weight Lifting
 
 I started with spreadsheets, but I've since moved to {% ext "Liftosaur", "https://github.com/astashov/liftosaur" %}. It's an open source app with a special syntax to define weightlifting programs, perfectly suited for users that prefer writing code/text over convoluted UIs.
 
@@ -62,4 +68,4 @@ I started with spreadsheets, but I've since moved to {% ext "Liftosaur", "https:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`May. 13th 2025`
+`June 2nd 2025`
