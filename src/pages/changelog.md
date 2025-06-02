@@ -15,66 +15,65 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
-## 3.26.6
+## 4.1.6
 
 - Redesigned the [/games](/games/) page, making it more interactive
 - Updated the formatting of the descriptions on the [/bookmarks](/bookmarks/) page
 
-## 3.26.5
+## 4.1.5
 
 - Added a header row to code blocks
 
-## 3.26.4
+## 4.1.4
 
 - Added [/nope](/nope/)
 - Added the [#offline](/tags/offline/) tag
 - Updated the look of the [All Tags](/tags/) page
 
-## 3.26.3
+## 4.1.3
 
 - Added support for multiple linked articles for individual entries listed on the [/projects](/projects/) page
 - Updated headings on the [/bookmarks](/bookmarks/) and [/projects](/projects/) pages
 
-## 3.26.2
+## 4.1.2
 
 - Moved /work to [/projects](/projects/)
 
-## 3.26.1
+## 4.1.1
 
 - Added the [#database](/tags/database/) tag
 - Retired the #fauna tag
 
-## 3.26
+## 4.1
 
 <small>Released: 2025-03-26</small>
 
-- Interesting: 3.26 released on March 26th
 - Updated the homepage once again - "Recent Activity" now displays the 5 last entries from each collection
 - Small CSS adjustments for the header - made the icon/logo rounded
 
-## 3.25.4
+## 4.0.4
 
 - Added the [#project](/tags/project/) tag
 
-## 3.25.3
+## 4.0.3
 
 - Added the feedback/share section to entries in the [/likes](/likes/) collection
 - Added "Discuss on Mastodon" links to the feedback/share section at the end of blog posts/likes
 - Rewrote the text on the [/about](/about/) page
 
-## 3.25.2
+## 4.0.2
 
 - Added [/best-of](/best-of/), a list of my most popular content (based on [webmentions](#3-23))
 
-## 3.25.1
+## 4.0.1
 
 - Move some things from [/about](/about/) to [/hello](/hello/) and added links for identity verification
 - Footer: `mailto` link removed from the envelope icon, now navigates to [/hello](/hello/) instead
 - Small fixes and adjustment after the recent font change
 
-## 3.25
+## 4.0
 
-<small>Released: 2025-02-28</small>
+**Active since 02/2025.**
 
 - It's been 4 years since [3.0](#3-0), and after a lot of deliberation, I've decided to **use a new font** - _Space Mono_ - for the content on this website
 - Added the "Tagged Content" section to the homepage
@@ -471,7 +470,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.0
 
-**Active since 03/2021.**
+Active from 03/2021 to 02/2025.
 
 - Switched from Hugo to Eleventy
 - Removed comments and tag-based list pages

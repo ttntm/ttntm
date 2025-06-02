@@ -1,5 +1,5 @@
 {
-  "version": "3.26.6",
+  "version": "4.1.6",
   "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and playground.",
@@ -43,12 +43,12 @@
       "img": "game.svg"
     },
     {
-      "title": "Mickey 17",
+      "title": "Kim's Convenience",
       "label": "Movies and TV",
       "img": "movie.svg"
     },
     {
-      "title": "Dune Messiah",
+      "title": "If Cats Disappeared from the World",
       "label": "Books",
       "img": "book.svg"
     }

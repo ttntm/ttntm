@@ -13,7 +13,7 @@ toot: https://fosstodon.org/@ttntm/114268640478479349
 
 As the first quarter of 2025 comes to an end, it's time for another entry in the website [#evolution](/tags/evolution/) series.
 
-This post covers versions [3.20](/changelog/#3-20) to [3.26](/changelog/#3-26).
+This post covers versions [3.20](/changelog/#3-20) to [4.1](/changelog/#4-1).
 
 ## Content and Pages
 
