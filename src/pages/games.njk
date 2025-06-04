@@ -33,7 +33,7 @@ permalink: /games/index.html
   <ul class="shelf list-reset flex align-items-center gap1 p1">
     {% for item in collections.games | sortByText('title') %}
       <li class="shelf-listing" data-genre="{{ item.data.genre | slugify }}">
-        <button class="game-btn hover-scale-sm shadow-hover" title="View {{ item.data.title }}" data-target="{{ item.data.title | slugify }}">
+        <button class="game-btn hover-scale-sm" title="View {{ item.data.title }}" data-target="{{ item.data.title | slugify }}">
           <img class="game-cover m0" src="/static/img/games/{{ item.data.cover }}" alt="{{ item.data.title }}">
         </button>
       </li>
@@ -62,8 +62,10 @@ permalink: /games/index.html
   }
 
   .game-btn {
-    border-radius: .5rem;
+    border: 4px solid transparent;
+    border-radius: .75rem;
     display: block;
+    transition: border-color .35s;
 
     & * {
       pointer-events: none;
@@ -73,6 +75,10 @@ permalink: /games/index.html
       & .game-cover {
         filter: saturate(1);
       }
+    }
+
+    &.active {
+      border-color: color-mix(in srgb,var(--blueGreen),transparent 35%);
     }
   }
 

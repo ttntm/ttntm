@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   useCollectionFilter(filterOptions)
 
   function showListing(evt) {
-    let target = evt.target.getAttribute('data-target')
+    let targetBtn = evt.target
+    let target = targetBtn.getAttribute('data-target')
 
     if (!target) {
       // fallback in case `pointer-events: none;` has failed and
@@ -23,10 +24,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const targetEl = document.getElementById(target)
       const targetElHeight = `${parseInt(window.getComputedStyle(targetEl).height)}px`
 
+      gameBtns.forEach((btn) => {
+        btn.classList.remove('active')
+      })
+
       gameListings.forEach((listing) => {
         listing.classList.remove('visible')
       })
 
+      targetBtn.classList.add('active')
       gameViewer.style.height = targetElHeight
       targetEl.classList.add('visible')
     } else {
