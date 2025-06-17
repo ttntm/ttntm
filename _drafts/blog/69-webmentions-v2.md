@@ -13,3 +13,17 @@ A high level overview of the revised implementation:
 3. The CF Worker updates the key-value storage using the incoming data
 4. The CF Worker triggers a rebuild of the website
 5. Webmentions are fetched from the key-value storage as part of the website build
+
+## Worker Logic
+
+I set up a Cloudflare Worker to handle incoming webhooks from <span>webmention.io</span>.
+
+The code is pretty simple and can be found here: {% ext "ttntm/wm-svc-ttntm", "https://codeberg.org/ttntm/wm-svc-ttntm/src/branch/main/src/index.ts" %}
+
+I've kept my previous approach of aggregating metrics only, meaning counts of likes, replies and shares per post, and I'm storing that data in KV's {% ext "metadata", "https://developers.cloudflare.com/kv/api/write-key-value-pairs/#metadata" %}. There's a reason for doing that, and I'll get to it in the next section.
+
+After storing the data, the worker also triggers a build of the website, which ensures that new and updated webmention data is present on the live site as soon as possible.
+
+## Website Build
+
+https://developers.cloudflare.com/kv/api/list-keys/#list-method
