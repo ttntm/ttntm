@@ -365,12 +365,13 @@ hr {
   margin: 1rem 0;
 }
 
-ol, ul {
+ul {
   padding-inline-start: 2rem;
 }
 
 ol {
   list-style: decimal;
+  padding-inline-start: 3rem;
 }
 
 ul {
