@@ -38,12 +38,12 @@
       "img": "music.svg"
     },
     {
-      "title": "Kingdome Come: Deliverance II",
+      "title": "Clair Obscur: Expedition 33",
       "label": "Videogames",
       "img": "game.svg"
     },
     {
-      "title": "Kim's Convenience",
+      "title": "Ballerina (2025)",
       "label": "Movies and TV",
       "img": "movie.svg"
     },
@@ -62,7 +62,7 @@
     {
       "url": "/games/",
       "title": "/games",
-      "details": "some of my favorite videogames"
+      "details": "some of my favorite video games"
     },
     {
       "url": "/interests/",
