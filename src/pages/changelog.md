@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 4.1.7
+
+- Updated headings on the [/notes](/notes/) page, which makes them consistent with the rest of the site
+
 ## 4.1.6
 
 - Redesigned the [/games](/games/) page, making it more interactive

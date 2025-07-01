@@ -8,23 +8,23 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Writing**: drafting something about my v2 webmention implementantion, and still haven't started that article about Astro and headless CMS options - maybe I'll finally manage to do it this month
+**Writing**: planning to write a "12 months of lifting weights" recap rather soon, preparing a "7 year website anniversary" post, and still want to write that Astro/CMS thing that I keep procrastinating
 
-**Books**: A Universe from Nothing, Leviathan Wakes
+**Books**: A Universe from Nothing, Leviathan Wakes, some book about cults
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Kingdome Come: Deliverance II
+**Games**: Clair Obscur: Expedition 33 (almost done), Star Wars Outlaws after that
 
-**Work**: doing too much architecture, documentation and other stuff at the moment, not writing a lot of code
+**Work**: managed to reduce my involvement in not-a-project-yet work, which feels good; code:prose is still about 40:60 at the moment, but things should get better until autumn
 
-**Life**: summer's here, we did our first BBQ, hoping for many more; trying to get more biking done, enjoying my new Ibanez guitar
+**Life**: ~~summer~~ climate change is here, and it's _really_ hot; too hot for most things, but we're going to make good use of our SUP and explore some more of the lakes in our area; also bought another guitar, which means I'm going to sell the Ibanez I bought 3 months ago
 
-**Weight Lifting**: finishing a month of arms specialization this week, and got to figure out what to do next
+**Weight Lifting**: ended up with 5/3/1 eventually and finished the first 3-week cycle last week - tons of volume on the big compound lifts, which seems to be exactly what I need at this point; I'm recovering really well, and I feel strong/er
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`June 2nd 2025`
+`Jul. 1st 2025`
 
 An archive of past updates of this page can be found at [/then](/then/).

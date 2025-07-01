@@ -69,7 +69,7 @@ The film and TV genres I enjoy the most are:
 
 ### Music
 
-Music used to be an important part of my life for many years, but it's moved to a much less involved and rather passive role these days. I played the guitar in various underground bands, and I sometimes still play, but that's mostly just motivated by nostalgia.
+Music used to be an important part of my life for many years, but it's moved to a much less involved and rather passive role these days. I played the guitar in various underground bands, and I still play as a hobbyist these days.
 
 I'm fortunate to have had the time and money to build a decent collection of CDs, MCs and vinyl records over the years, which is something I really treasure and make good use of.
 
@@ -95,7 +95,7 @@ Exploring Scotch Whisky is a rather recent interest, but one I really enjoy. You
 
 I got into lifting weights in my early 20s, when I realized I needed to gain weight and straighten my back. It took me a while, but I managed to grow from borderline underweight 65 kg (at 188 cm height) to a little healthier weight of 80kg. University sports offers definitely helped, but the whole process took a while because I didn't want to join a gym and preferred working out at home. Other things eventually became more important, and I spent many sedentary years, mostly seated at a desk, or on a couch.
 
-I got back into lifting in mid 2024, after a new gym opened around the corner, voiding any excuse to stay lazy. After about 3 months, I'm very satisfied with my progress - I tried a couple of different programs, but eventually settled for GZCLP, which works really well for me so far.
+I got back into lifting in mid 2024, after a new gym opened around the corner, voiding any excuse to stay lazy.
 
 ## The Rest
 
@@ -126,4 +126,4 @@ The things I'm not interested in:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Mar. 14th 2025`
+`Jul. 1st 2025`

@@ -41,7 +41,35 @@ After storing the data, the worker triggers a website build, to ensure that new 
 
 As part of the build, webmention data gets fetched from the KV storage. I'm using the {% ext "TypeScript library for the Cloudflare API", "https://github.com/cloudflare/cloudflare-typescript" %}, which keeps things rather simple.
 
-The code can be found here: {% ext "webmentions.js", "https://github.com/ttntm/ttntm/blob/master/src/_data/webmentions.js" %}
+```js
+import Cloudflare from 'cloudflare'
+import dotenv from 'dotenv'
+
+dotenv.config()
+
+export default async function() {
+  const wmMap = new Map()
+
+  try {
+    const client = new Cloudflare({
+      apiToken: process.env.CF_TOKEN
+    })
+
+    // Automatically fetches more pages as needed.
+    for await (const key of client.kv.namespaces.keys.list('09b53...', {
+      account_id: process.env.CF_ACC_ID
+    })) {
+      wmMap.set(key.name, {
+        ...key.metadata
+      })
+    }
+  } catch (ex) {
+    console.log(ex.message || ex)
+  } finally {
+    return wmMap
+  }
+}
+```
 
 The `list()` method ({% ext "CF docs", "https://developers.cloudflare.com/kv/api/list-keys/#list-method" %}) is used to list all the keys in my KV namespace, and the keys are returned including their metadata. As mentioned above, that's the reason I'm storing the webmention data there - no need for an additional loop to obtain each key's value, leading to faster builds.
 

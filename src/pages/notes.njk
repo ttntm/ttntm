@@ -22,7 +22,7 @@ permalink: /notes/index.html
       <ul class="list-reset px1 mb1" style="margin-top: .5rem;">
         {%- for item in collections.notes | reverse -%}
           <li>
-            <a href="#{{ item.data.weight }}">#{{ item.data.weight }} - {{ item.data.title }}</a>
+            <a href="#{{ item.data.weight }}">{{ item.data.weight }}: {{ item.data.title }}</a>
           </li>
         {%- endfor -%}
       </ul>
@@ -30,8 +30,8 @@ permalink: /notes/index.html
     <div class="hr shadow mb2"></div>
     {%- for item in collections.notes | reverse -%}
       <article id="{{ 'content-start' if loop.first }}" class="h-entry">
-        <h2 class="h5 d-sm-inline-flex">
-          <span style="margin-right: .5rem;"><a id="{{ item.data.weight }}" href="#{{ item.data.weight }}" class="no-underline u-url" style="border: 0;">#{{ item.data.weight }}</a></span><span class="p-name">{{ item.data.title }}</span>
+        <h2 id="{{ item.data.weight }}" class="h5" tabindex="-1">
+          <a class="header-anchor int u-url" href="#{{ item.data.weight }}"><span class="p-name">{{ item.data.weight }}: {{ item.data.title }}</span></a>
         </h2>
         <p class="small text-muted">
           Posted: <time class="dt-published" datetime="{{ item.date | date('YYYY-MM-DD') }}">{{ item.date | date('MMMM DD, YYYY') }}</time>
