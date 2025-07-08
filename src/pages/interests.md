@@ -106,6 +106,7 @@ These might turn into more detailed sections over time:
 - Cycling and bicycle maintenance
 - Gardening, hiking and nature
 - Home improvements and DIY projects
+- Playing guitar, experimenting with gear, and audio engineering
 - Reading and learning about (new) things
 
 ## Disinterests
@@ -126,4 +127,4 @@ The things I'm not interested in:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Jul. 1st 2025`
+`Jul. 8th 2025`
