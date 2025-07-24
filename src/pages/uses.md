@@ -25,7 +25,7 @@ I don't use any music streaming services. It's either local files via {% ext "cm
 
 I started playing guitar a long time ago, and I still do. [I owned many guitars](/blog/six-string-memories/), and I'm currently using a [PRS SE Hollowbody Standard](/img/blog/guitars/prs.jpg). It’s a truly amazing guitar, versatile and powerful, so I'm enjoying every second I'm playing it.
 
-The gear I'm currently using is limited to a Boss Katana Mini and an Orange Crush Mini, as well as a Two Notes Le Crunch tube preamp (that can be used as a pedal amp - very convenient!). I've also got a couple of effect pedals in a box (an old HM-2, a random Chinese OD pedal, and a Tube Screamer I built from a kit), but I'm hardly using them these days.
+The guitar is usually plugged into a Yamaha THR10 (the original, with the v2 firmware - a _great_ modeling amp!). Occasionally, I'm using my Two Notes Le Crunch tube preamp that can be used as a pedal amp, which is very convenient. I also own a couple of effect pedals - an old HM-2, a random Chinese OD pedal, and a Tube Screamer I built from a kit - but I'm hardly using them these days.
 
 ## Software
 
@@ -68,4 +68,4 @@ I started with spreadsheets, but I've since moved to {% ext "Liftosaur", "https:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`June 2nd 2025`
+`July 24th 2025`
