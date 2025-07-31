@@ -29,7 +29,7 @@
       },
       {
         "title": "bundestrojaner.at",
-        "status": 2,
+        "status": 1,
         "description": "A website for a campaign against mass surveillance.",
         "web": "https://bundestrojaner.at",
         "source": "https://github.com/AKVorrat/bundestrojaner.at"
@@ -135,14 +135,14 @@
     "data": [
       {
         "title": "11ty-landing-page",
-        "status": 1,
+        "status": 2,
         "description": "A simple landing page template built with 11ty and Tailwind CSS.",
         "web": "https://awesome11ty.ttntm.me",
         "source": "https://github.com/ttntm/11ty-landing-page"
       },
       {
         "title": "astro-landing-page",
-        "status": 1,
+        "status": 2,
         "description": "A simple landing page template built with Astro and Tailwind CSS.",
         "articles": [
           {
