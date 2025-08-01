@@ -24,7 +24,7 @@ I also lost weight gradually, probably due to my insane metabolism, and went dow
 
 Joining a gym is one thing, but you've also got to go there and do something useful. Fortunately, I still had some old training plan lying around, some pretty basic stuff for absolute beginners. I started with that, but quickly realized just how useless it actually was. Not saying that I'm an expert trainer or anything, but if you've got half a brain and only a minimal sense of feeling your own body, a waste of time becomes obvious easily.
 
-I switched to {% ext "GZCLP", "https://swoleateveryheight.blogspot.com/2016/02/gzcl-applications-adaptations.html" %} (GZCL Linear Progression for new lifters) on July 19th '25 and did two 12-week cycles of the program. Working through it was extremely motivating, and the results came in as expected. Easy novice gains, well deserved.
+I switched to {% ext "GZCLP", "https://swoleateveryheight.blogspot.com/2016/02/gzcl-applications-adaptations.html" %} (GZCL Linear Progression for new lifters) on July 19th '24 and did two 12-week cycles of the program. Working through it was extremely motivating, and the results came in as expected. Easy novice gains, well deserved.
 
 When I got close to finishing the first cycle, around December '24, I had to deal with increasingly bothersome hip pain from squatting. I managed to find the reason (long femurs), and also figured out how to fix it: proper shoes that elevate the heel, and a couple of weeks of re-learning proper technique. No more pain.
 
