@@ -7,6 +7,7 @@ tags:
   - offline
   - personal
 image: /img/blog/barbell-by-eduardo-cano.jpg
+toot: https://hachyderm.io/@ttntm/114953011053119013
 ---
 
 We visited Portugal last year. I still remember how heavy the luggage felt that we had with us: 2 suitcases, weighing around 20 kg each.
