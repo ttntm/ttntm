@@ -88,15 +88,15 @@
         "feed": "https://www.mikestreety.co.uk/rss-all.xml"
       },
       {
-        "title": "prma.dev",
-        "description": "Perma's website",
-        "url": "https://prma.dev",
-        "feed": "https://prma.dev/index.xml"
-      },
-      {
         "title": "rootCompute",
         "description": "rootCompute's personal website",
         "url": "https://rootcompute.neocities.org"
+      },
+      {
+        "title": "theleafslug.com",
+        "description": "Perma's website",
+        "url": "https://theleafslug.com",
+        "feed": "https://theleafslug.com/feed.xml"
       }
     ]
   },
@@ -107,7 +107,7 @@
       {
         "title": "Ctrl-ZINE",
         "description": "A Ctrl-c collaborative zine, celebrating tech and the Smol Web.",
-        "url": "https://ctrl-c.club/~singletona082/zine/index.html"
+        "url": "https://ctrl-c.club/~loghead/zine/"
       },
       {
         "title": "Floor796",
@@ -173,6 +173,11 @@
         "title": "Web Design Museum",
         "description": "Thousands of screens and videos of old websites, mobile apps and software from 1990s to mid-00s.",
         "url": "https://www.webdesignmuseum.org"
+      },
+      {
+        "title": "What the Hell are People Doing?",
+        "description": "Live-ish estimates based on global population dynamics & simulated day/night cycles",
+        "url": "https://humans.maxcomperatore.com"
       },
       {
         "title": "WikiFlix",
