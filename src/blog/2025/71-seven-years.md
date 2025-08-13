@@ -1,7 +1,7 @@
 ---
 title: Seven Years
 slug: seven-years
-date: 2025-08-20T14:30:00Z
+date: 2025-08-13T17:30:00Z
 description: Celebrating the seventh anniversary of this website.
 tags:
   - news
@@ -35,4 +35,10 @@ Details and context can be found in the [Changelog](/changelog/). In addition to
   - [2025_1](/img/blog/anniversary/2025_1.png)
   - [2025_2](/img/blog/anniversary/2025_2.png)
 
+_Note: uncompressed screenshots, i.e. relatively big images._
+
 ## What's Next?
+
+I don't think I can find better words than what's already been written for the [Appendix](/appendix/): this website should "feel like me and change with me", and "offer content about things that matter to me".
+
+That's some pretty decent principles that I intend to adhere to. And considering the amount of past changelog entries, future changes are basically a certainty anyway.
