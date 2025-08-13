@@ -7,6 +7,7 @@ tags:
   - news
   - website
 image: /img/blog/7years.jpg
+toot: https://hachyderm.io/@ttntm/115022334208121057
 ---
 
 <img src="/static/img/blog/7years.jpg" class="img-fluid img-center" alt="Illustration showing birthday celebration, including an orange bubble saying '7 years' and a browser window showing the domain 'ttntm.me'">
