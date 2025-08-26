@@ -23,11 +23,11 @@ I don't use any music streaming services. It's either local files via {% ext "cm
 
 ### Making Music
 
-I started playing guitar a long time ago, and I still do. [I owned many guitars](/blog/six-string-memories/), and I'm currently using a [PRS SE Hollowbody Standard](/img/blog/guitars/prs.jpg). It’s a truly amazing guitar, versatile and powerful, so I'm enjoying every second I'm playing it.
+I started playing guitar a long time ago, and I still do. [I owned many guitars](/blog/six-string-memories/), and currently, I'm using a [PRS SE Hollowbody Standard](/img/blog/guitars/prs.jpg). It’s a truly amazing guitar, versatile and powerful, so I'm enjoying every second I'm playing it.
 
-The guitar is usually plugged into a Yamaha THR10v2 (the original THR10, with the v2 firmware - a _great_ modeling amp!) that's wired to a pair of vintage AKG K240s that I inherited from my father. This setup also includes a DigiTech JamMan Solo looper pedal - a recent addition, but quite a game changer for practicing alone (don't ask why I didn't get one 20 years ago, IDK).
+The guitar is usually plugged into a Yamaha THR10v2 (the original THR10, with the v2 firmware - a _great_ modeling amp!) that's wired to a pair of ATH-M50x headphones. Occasionally, I'm also using some vintage AKG K240s that I inherited from my father. My setup also includes a DigiTech JamMan Solo looper pedal - a recent addition, but quite a game changer for practicing alone (don't ask why I didn't get one 20 years ago, IDK).
 
-Occasionally, I'm playing through my Two Notes Le Crunch tube preamp too, which can be used as a pedal amp - very convenient! I also own a couple of effect pedals - an old HM-2, a random Chinese overdrive pedal, and a Tube Screamer I built from a kit - but I'm hardly using them these days.
+Sometimes, I'm playing through my Two Notes Le Crunch tube preamp too. It can be used as a standalone pedal amp, which is very convenient! I also own a couple of effect pedals - an old HM-2, a random Chinese overdrive pedal, and a Tube Screamer I built from a kit - but I'm hardly using them these days.
 
 ## Software
 
@@ -70,4 +70,4 @@ I started with spreadsheets, but I've since moved to {% ext "Liftosaur", "https:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Aug. 6th 2025`
+`Aug. 26th 2025`
