@@ -66,7 +66,7 @@ I'm not proud of it, and I'm sure there are many better ways to accomplish chron
 
 ## Updating the Web Applications
 
-recept0r is built using Vue 3 with TypeScript, thanks to a complete rewrite in 2021. Updating the back end functions lead to matching changes in the front end code, mostly affecting Vuex actions. Changes to actual UI components were mostly handled using search and replace, and TypeScript made errors visible immediately.
+recept0r is built using Vue 3 with TypeScript, thanks to a complete rewrite in 2021. Updating the back end functions led to matching changes in the front end code, mostly affecting Vuex actions. Changes to actual UI components were handled using search and replace, and TypeScript made errors visible immediately.
 
 Supabase's RLS caused me quite a bit of pain when I started to working on `insert`/`update` operations, but - as mentioned above - I eventually figured out how to properly initialize the SDK and how to set up permissive policies for my tables.
 
