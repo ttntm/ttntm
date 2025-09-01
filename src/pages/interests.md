@@ -69,15 +69,16 @@ The film and TV genres I enjoy the most are:
 
 ### Music
 
-Music used to be an important part of my life for many years, but it's moved to a much less involved and rather passive role these days. I played the guitar in various underground bands, and I still play as a hobbyist these days.
+Music used to be an important part of my life for many years, but it's moved to a much less involved and rather passive role these days. I played the guitar in various underground bands, and I still play as a hobbyist these days. When I play guitar, it's mostly blues and blues rock these days, with the occasional "oh, I remember this Black Sabbath riff..." moments in between.
 
 I'm fortunate to have had the time and money to build a decent collection of CDs, MCs and vinyl records over the years, which is something I really treasure and make good use of.
 
-The musical genres I enjoy the most are:
+The musical genres I enjoy listening the most are:
 
 - Black and Death Metal (mostly old school)
 - Hard Rock and (Heavy) Metal
 - Synth- and Retrowave
+- Blues and Blues Rock
 
 Some of my favorite albums: [/albums](/albums/)
 
@@ -127,4 +128,4 @@ The things I'm not interested in:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Jul. 8th 2025`
+`Sep. 1st 2025`
