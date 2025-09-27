@@ -8,23 +8,23 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Writing**: preparing a "7 year website anniversary" post; still want to write that Astro/CMS post that I keep procrastinating
+**Writing**: wish I had time for it, but right now, I haven't got any
 
-**Books**: Iron Man (Tony Iommi biography), A Universe from Nothing, Leviathan Wakes
+**Books**: A Universe from Nothing, Leviathan Wakes
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: Star Wars Outlaws
+**Games**: CarX Street (a _really fun_ NFS experience)
 
-**Work**: back to writing code almost exclusively, feeling good about it
+**Work**: happily coding ahead, but could work 80h weeks right now with the amount of tasks waiting for me
 
-**Life**: the heat is gone, it seems; hardly warm enough for swimming, lots of rain; we didn't use our SUP yet, sadly; playing guitar a lot, got myself a _great_ Yamaha amp, and getting deeper and deeper into playing the blues
+**Life**: found a _really_ nice apartment, we're trying to upgrade; figuring things out with banks, and planning a move, is consuming a lot of energy; still not sure if the sellers are going to accept our offer, they're a bit weird
 
-**Weight Lifting**: 5/3/1 is working really well for me, progress is good, and it keeps me motivated
+**Weight Lifting**: still on 5/3/1, progress has slowed down quite a bit, I'm clawing my way forward; also started doing a push-up challenge, to see how many I'll end up doing in a year
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Aug. 4th 2025`
+`Sep. 27th 2025`
 
 An archive of past updates of this page can be found at [/then](/then/).
