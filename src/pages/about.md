@@ -27,10 +27,6 @@ A short list of things that folks might want to know about me.
 - Enjoys [video games](/games/)
 - Lifts weights
 
-<p class="italic small">
-  If it seems like something's changed here: you are correct. Indeed, there used to be a wall of text here, but I never really liked that.
-</p>
-
 <div class="hr shadow mt2 mb2"></div>
 
 {% include "components/about.highlights.njk" %}
