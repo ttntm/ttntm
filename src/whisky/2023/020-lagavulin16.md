@@ -7,7 +7,7 @@ abv: 43
 purchased: 2023
 price: 79.99
 store: Ammersin
-status: open
+status: empty
 buy_again: yes
 image: 020-lagavulin16.jpg
 notes: true
