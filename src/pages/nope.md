@@ -34,10 +34,10 @@ Will be updated as needed.
 - listen to podcasts
 - use a streaming service to listen to music
 - buy what other people have usually bought together with an item
-- engage in conversations about topics I'm not interested in
+- engage in conversations about [topics I'm not interested in](/interests/#disinterests)
 - entertain kids
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`May. 12th 2025`
+`Oct. 10th 2025`
