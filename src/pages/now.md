@@ -10,21 +10,21 @@ permalink: /now/index.html
 
 **Writing**: wish I had time for it, but right now, I haven't got any
 
-**Books**: A Universe from Nothing, Leviathan Wakes
+**Books**: not much time for that either; when I do find the time to read, it's "A Universe from Nothing", or "Leviathan Wakes"
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: CarX Street (a _really fun_ NFS experience)
+**Games**: probably less than an hour a week currently; started Dorfromantik, Cocoon, CarX Street, and SW Outlaws not long ago, picking up whatever feels most calming
 
-**Work**: happily coding ahead, but could work 80h weeks right now with the amount of tasks waiting for me
+**Work**: big new project, some old projects, the usual end-of-year busyness - could still work 80h weeks with the amount of tasks waiting for me, and all the private appointments for the apartment stuff aren't helping either
 
-**Life**: found a _really_ nice apartment, we're trying to upgrade; figuring things out with banks, and planning a move, is consuming a lot of energy; still not sure if the sellers are going to accept our offer, they're a bit weird
+**Life**: sold our lives to the bank and bought that nice apartment; _so much_ to do now, but it'll all be worth it in the end, hopefully
 
-**Weight Lifting**: still on 5/3/1, progress has slowed down quite a bit, I'm clawing my way forward; also started doing a push-up challenge, to see how many I'll end up doing in a year
+**Weight Lifting**: progress still slow, been sick a bit and skipped some workouts last week, catching up now; did 500+ push-ups in September, mostly in sets of 20, and will keep doing that until I collapse from exhaustion when moving all our furniture
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Sep. 27th 2025`
+`Oct. 17th 2025`
 
 An archive of past updates of this page can be found at [/then](/then/).
