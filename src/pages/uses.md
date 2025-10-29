@@ -9,7 +9,7 @@ permalink: /uses/index.html
 
 ## Hardware
 
-I use an immortal Dell Precision M3800 from 2013 running Manjaro for private stuff and a company owned Lenovo ThinkPad P14s Gen 3 running Fedora for work. At the office, the ThinkPad's connected to 2 ThinkVision P27h-20 27" monitors, and I'm using both my trusty old SteelSeries 6Gv2 mechanical keyboard and my Razer DeathAdder (RZ01-0015) wired mouse. When I'm working from home, I don't use an external keyboard or monitor. I'm also frequently using a set of Bose Noise Cancelling Headphones 700 and a 4 TB Seagate external hard drive.
+I use an immortal Dell Precision M3800 from 2013 running Manjaro for private stuff, and a company owned Lenovo ThinkPad P14s Gen 3 running Fedora for work. At the office, the ThinkPad's connected to 2 ThinkVision P27h-20 27" monitors, and I'm using both my trusty old SteelSeries 6Gv2 mechanical keyboard and my Razer DeathAdder (RZ01-0015) wired mouse. When I'm working from home, I don't use an external keyboard or monitor. I'm also frequently using a set of Bose Noise Cancelling Headphones 700 and a 4 TB Seagate external hard drive.
 
 My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my LG G7 ThinQ after her beloved Sony phone died. The Pixel's a great phone and I got so used to gesture navigation that using other phones feels somehow off now. My work phone is a refurbished iPhone Xs that does what it needs to do (mostly emails, MFA and Teams) rather well.
 
@@ -25,7 +25,7 @@ I don't use any music streaming services. It's either local files via {% ext "cm
 
 I started playing guitar a long time ago, and I still do. [I owned many guitars](/blog/six-string-memories/), and currently, I'm using a [PRS SE Hollowbody Standard](/img/blog/guitars/prs.jpg). It’s a truly amazing guitar, versatile and powerful, so I'm enjoying every second I'm playing it.
 
-The guitar is usually plugged into a Yamaha THR10v2 (the original THR10, with the v2 firmware - a _great_ modeling amp!) that's wired to a pair of ATH-M50x headphones. Occasionally, I'm also using some vintage AKG K240s that I inherited from my father. My setup also includes a DigiTech JamMan Solo looper pedal - a recent addition, but quite a game changer for practicing alone (don't ask why I didn't get one 20 years ago, IDK).
+The guitar is usually plugged into a Yamaha THR10v2 (the original THR10, with the v2 firmware - a _great_ modeling amp!) that's wired to a pair of ATH-M50x headphones. Occasionally, I'm using some vintage AKG K240s that I inherited from my father. My setup also includes a DigiTech JamMan Solo looper pedal - a recent addition, but quite a game changer for practicing alone (don't ask why I didn't get one 20 years ago, IDK).
 
 Sometimes, I'm playing through my Two Notes Le Crunch tube preamp too. It can be used as a standalone pedal amp, which is very convenient! I also own a couple of effect pedals - an old HM-2, a random Chinese overdrive pedal, and a Tube Screamer I built from a kit - but I'm hardly using them these days.
 
