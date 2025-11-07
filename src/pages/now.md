@@ -16,15 +16,15 @@ permalink: /now/index.html
 
 **Games**: probably less than an hour a week currently; started Dorfromantik, Cocoon, CarX Street, and SW Outlaws not long ago, picking up whatever feels most calming
 
-**Work**: big new project, some old projects, the usual end-of-year busyness - could still work 80h weeks with the amount of tasks waiting for me, and all the private appointments for the apartment stuff aren't helping either
+**Work**: big new project, happy to focus on that for most of my time, which is so much better than working on many small projects, and dealing with tons of content switching
 
-**Life**: sold our lives to the bank and bought that nice apartment; _so much_ to do now, but it'll all be worth it in the end, hopefully
+**Life**: we managed to sell our old apartment quickly, and for a good price, which is really nice, but has us preparing to move into the new place asap; we already ordered a kitchen, bought some furniture etc. - it's a lot of things to take care of at the same time, but we're trying to take it easy, so we don't get overwhelmed
 
-**Weight Lifting**: progress still slow, been sick a bit and skipped some workouts last week, catching up now; did 500+ push-ups in September, mostly in sets of 20, and will keep doing that until I collapse from exhaustion when moving all our furniture
+**Weight Lifting**: the last 5/3/1 cycle was great, and I just finished a deload week; looking forward to getting back to the heavy weights next week; 1,5 years of strength training feel even more helpful and rewarding right now, moving furniture and boxes has never been easier in my life, haha
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Oct. 17th 2025`
+`Nov. 7th 2025`
 
 An archive of past updates of this page can be found at [/then](/then/).
