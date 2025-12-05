@@ -31,9 +31,9 @@ Sometimes, I'm playing through my Two Notes Le Crunch tube preamp too. It can be
 
 ## Software
 
-My terminal emulator is {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %} running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "GitLab Mono", "https://gitlab-org.gitlab.io/frontend/fonts/" %} typeface and the {% ext "Kanagawa", "https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa" %} theme is my primary editor. I also use {% ext "Neovim", "https://neovim.io" %} or {% ext "micro" "https://micro-editor.github.io" %} whenever I need to edit files in a terminal and {% ext "gedit", "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
+My terminal emulator is either {% ext "Ghostty", "https://ghostty.org" %}, or {% ext "WezTerm", "https://wezfurlong.org/wezterm/" %}, depending on the device I'm using, running Zsh with {% ext "Oh My Zsh", "https://ohmyz.sh" %} and {% ext "Powerlevel10k", "https://github.com/romkatv/powerlevel10k" %}. Code OSS (= VS Code) with the {% ext "GitLab Mono", "https://gitlab-org.gitlab.io/frontend/fonts/" %} typeface and the {% ext "Kanagawa", "https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa" %} theme is my primary editor. I also use {% ext "Neovim", "https://neovim.io" %} or {% ext "micro" "https://micro-editor.github.io" %} whenever I need to edit files in a terminal and {% ext "gedit", "https://gitlab.gnome.org/GNOME/gedit" %} as a scratchpad.
 
-The **VS Code extensions** I use the most are:
+The **extensions** I use the most are:
 
 - {% ext "GitLess", "https://marketplace.visualstudio.com/items?itemName=maattdd.gitless" %}
 - {% ext "Live Preview", "https://open-vsx.org/extension/ms-vscode/live-server" %}
@@ -42,7 +42,7 @@ The **VS Code extensions** I use the most are:
 
 ...there's a bunch of others too, like "XYZ language support" or "XYZ IntelliSense", but they're not really going to be of much interest to anyone.
 
-**VS Code Theme History**
+**Theme History**
 
 - {% ext "Nord Deep", "https://open-vsx.org/extension/marlosirapuan/nord-deep" %}
 - {% ext "Tokyo City", "https://open-vsx.org/extension/huytd/tokyo-city" %}
@@ -55,7 +55,7 @@ I'm using {% ext "Zen Browser", "https://zen-browser.app" %} and Ungoogled Chrom
 - Proton Pass
 - uBlock Origin
 
-Plain text files are what I'm currently using for notes, and Proton takes care of my calendar and emails. When I need to edit pixels, I'm using GIMP, or Photopea, and when I have to work with vectors, I'm using Figma, or Inkscape. I use {% ext "Qi Reader", "https://www.qireader.com" %} for RSS feeds, {% ext "Raindrop.io", "https://raindrop.io" %} is my read-it-later solution, and I publish the most recent items added to my reading list [on this website](/reading).
+Plain text files are what I'm currently using for notes, and Proton takes care of my calendar and emails. When I need to edit pixels, I'm using GIMP, or Photopea, and when I have to work with vectors, I'm using Figma, or Inkscape. I use {% ext "QiReader", "https://www.qireader.com" %} for RSS feeds, {% ext "Raindrop.io", "https://raindrop.io" %} is my read-it-later solution, and I publish the most recent items added to my reading list [on this website](/reading).
 
 Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: Proton Pass for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, Proton VPN when I need a VPN and of course {% ext "TKB", "https://kb.ttntm.me" %}, my personal knowledge base.
 
@@ -70,4 +70,4 @@ I started with spreadsheets, but I've since moved to {% ext "Liftosaur", "https:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Aug. 26th 2025`
+`Dec. 5th 2025`

@@ -14,17 +14,17 @@ permalink: /now/index.html
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: probably less than an hour a week currently; started Dorfromantik, Cocoon, CarX Street, and SW Outlaws not long ago, picking up whatever feels most calming
+**Games**: started playing Warhammer 40k: Rogue Trader some weeks ago - I'm loving it, and it's the best CRPG I played in a very long time
 
-**Work**: big new project, happy to focus on that for most of my time, which is so much better than working on many small projects, and dealing with tons of content switching
+**Work**: no major news - still on "big new project", which I'm happily focusing on
 
-**Life**: we managed to sell our old apartment quickly, and for a good price, which is really nice, but has us preparing to move into the new place asap; we already ordered a kitchen, bought some furniture etc. - it's a lot of things to take care of at the same time, but we're trying to take it easy, so we don't get overwhelmed
+**Life**: only 10 more days until we get the kitchen for our new place, so we can probably move in soon; about 3 weeks of time off from work starting Dec. 19th will definitely help with that
 
-**Weight Lifting**: the last 5/3/1 cycle was great, and I just finished a deload week; looking forward to getting back to the heavy weights next week; 1,5 years of strength training feel even more helpful and rewarding right now, moving furniture and boxes has never been easier in my life, haha
+**Weight Lifting**: took a break, and spent my gym time assembling furniture etc. - hoping to get back to the weights soon, probably next week
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Nov. 7th 2025`
+`Dec. 7th 2025`
 
 An archive of past updates of this page can be found at [/then](/then/).
