@@ -57,7 +57,7 @@ I'm using {% ext "Zen Browser", "https://zen-browser.app" %} and Ungoogled Chrom
 
 Plain text files are what I'm currently using for notes, and Proton takes care of my calendar and emails. When I need to edit pixels, I'm using GIMP, or Photopea, and when I have to work with vectors, I'm using Figma, or Inkscape. I use {% ext "QiReader", "https://www.qireader.com" %} for RSS feeds, {% ext "Raindrop.io", "https://raindrop.io" %} is my read-it-later solution, and I publish the most recent items added to my reading list [on this website](/reading).
 
-Finally, there's a bunch of smaller yet extremely convenient tools that I use almost every day: Proton Pass for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, Proton VPN when I need a VPN and of course {% ext "TKB", "https://kb.ttntm.me" %}, my personal knowledge base.
+Finally, there's a bunch extremely convenient tools that I use almost every day: Proton Pass for password management, {% ext "aitrack.work", "https://aitrack.work" %} for time tracking, Proton VPN when I need a VPN and of course TKB, my personal knowledge base in {% ext "Obsidian", "https://obsidian.md" %}.
 
 ### Weight Lifting
 

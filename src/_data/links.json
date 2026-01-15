@@ -19,9 +19,5 @@
   {
     "name": "RSS",
     "url": "/feeds/"
-  },
-  {
-    "name": "Wiki",
-    "url": "https://kb.ttntm.me"
   }
 ]

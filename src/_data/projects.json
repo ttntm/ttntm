@@ -87,16 +87,14 @@
       },
       {
         "title": "TKB",
-        "status": 1,
-        "description": "Tom's Knowledge Base, my personal wiki.",
+        "status": 3,
+        "description": "What used to be my personal wiki; migrated to Obsidian.",
         "articles": [
           {
             "title": "My Personal Knowledge Base",
             "url": "/blog/personal-knowledge-base"
           }
-        ],
-        "web": "https://kb.ttntm.me",
-        "source": "https://codeberg.org/ttntm/tkb"
+        ]
       },
       {
         "title": "watch3r",

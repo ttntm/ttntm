@@ -43,8 +43,6 @@ There's still some stuff left in Notion, but I hardly use it anymore. The value 
 
 Overall, I'd say I'd recommend creating/maintaining a personal kb/wiki. It feels liberating and will probably turn into a valuable resource that you'll enjoy taking care of.
 
-Oh, I almost forgot - here's a link, feel free to check it out: [TKB](/wiki/)
-
 PS: Mark wrote a similar article that I can recommend.
 {% reply "Goodbye Logseq, Obsidian, and Vimwiki. Hello, mdBook!", "https://www.markpitblado.me/blog/goodbye-logseq-obsidian-and-vimwiki-hello-mdbook/" %}
 
