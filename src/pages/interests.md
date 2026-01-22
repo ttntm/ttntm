@@ -88,7 +88,7 @@ If I had to pick just one favorite food, it'd have to be pizza - I simply love m
 
 ### Whisky
 
-Exploring Scotch Whisky is a rather recent interest, but one I really enjoy. You can find out more about this interest on my [Whisky page](/whisky/).
+Exploring the world of Scotch Whisky is a rather recent interest, but one I really enjoy.
 
 ## Weight Lifting
 
@@ -126,4 +126,4 @@ The things I'm not interested in:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Sep. 1st 2025`
+`Jan. 22nd 2026`

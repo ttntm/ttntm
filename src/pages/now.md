@@ -14,17 +14,17 @@ permalink: /now/index.html
 
 **Articles**: Check my [reading list](/reading/), it gets updated frequently
 
-**Games**: started playing Warhammer 40k: Rogue Trader some weeks ago - I'm loving it, and it's the best CRPG I played in a very long time
+**Games**: still at it with Warhammer 40k: Rogue Trader
 
 **Work**: no major news - still on "big new project", which I'm happily focusing on
 
-**Life**: only 10 more days until we get the kitchen for our new place, so we can probably move in soon; about 3 weeks of time off from work starting Dec. 19th will definitely help with that
+**Life**: done moving, taking care of the never ending "little things"
 
-**Weight Lifting**: took a break, and spent my gym time assembling furniture etc. - hoping to get back to the weights soon, probably next week
+**Weight Lifting**: back at the gym since Jan. 12th, started doing Madcow 5x5, and eating like a black hole, to get back what stress and cardio due to moving cost me (in terms of body weight and muscle mass)
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Dec. 7th 2025`
+`Jan. 22nd 2026`
 
 An archive of past updates of this page can be found at [/then](/then/).

@@ -9,7 +9,7 @@ permalink: /uses/index.html
 
 ## Hardware
 
-I use an immortal Dell Precision M3800 from 2013 running Manjaro for private stuff, and a company owned Lenovo ThinkPad P14s Gen 3 running Fedora for work. At the office, the ThinkPad's connected to 2 ThinkVision P27h-20 27" monitors, and I'm using both my trusty old SteelSeries 6Gv2 mechanical keyboard and my Razer DeathAdder (RZ01-0015) wired mouse. When I'm working from home, I don't use an external keyboard or monitor. I'm also frequently using a set of Bose Noise Cancelling Headphones 700 and a 4 TB Seagate external hard drive.
+I use an immortal Dell Precision M3800 from 2013 running Manjaro for private stuff, and a company owned Lenovo ThinkPad P14s Gen 3 running Fedora for work. At the office, the ThinkPad's connected to 2 ThinkVision P27h-20 27" monitors, and I'm using both my trusty old SteelSeries 6Gv2 mechanical keyboard, and my Razer DeathAdder (RZ01-0015) wired mouse. When I'm working from home, I extend the laptop screen with an MSI PRO MP161 E2U external monitor. I'm also using a set of Bose Noise Cancelling Headphones 700, and a 4 TB Seagate external hard drive.
 
 My current phone's a Pixel 4a 5G that I got in 03/2021 when my wife inherited my LG G7 ThinQ after her beloved Sony phone died. The Pixel's a great phone and I got so used to gesture navigation that using other phones feels somehow off now. My work phone is a refurbished iPhone Xs that does what it needs to do (mostly emails, MFA and Teams) rather well.
 
@@ -70,4 +70,4 @@ I started with spreadsheets, but I've since moved to {% ext "Liftosaur", "https:
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Dec. 5th 2025`
+`Jan. 22nd 2026`

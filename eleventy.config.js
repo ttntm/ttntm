@@ -117,7 +117,7 @@ export default async function(config) {
   })
 
   config.addCollection('postsByYear', (collection) => {
-    // collection for the blog archive => posts grouped by year - see: https://darekkay.com/blog/eleventy-group-posts-by-year/
+    // collection for the blog archive => posts grouped by year
     return _.chain(collection.getFilteredByGlob('./src/blog/**/*.md'))
       .groupBy((post) => post.date.getFullYear())
       .toPairs()
@@ -127,10 +127,6 @@ export default async function(config) {
 
   config.addCollection('then', async(collection) => {
     return collection.getFilteredByGlob('./src/then/**/*.md')
-  })
-
-  config.addCollection('whisky', async(collection) => {
-    return collection.getFilteredByGlob('./src/whisky/**/*.md')
   })
 
   // STATIC FILES

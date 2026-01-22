@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 4.1.9
+
+- Removed the whisky page
+
 ## 4.1.8
 
 - Removed a redundant link from the footer, replacing it with a link to the [/tags](/tags/) page
@@ -311,7 +315,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.12.3
 
-- Added an expand/collapse all button to the Scotch Log in [/whisky](/whisky/)
+- Added an expand/collapse all button to the Scotch Log
 - Added ABV percentages to whisky listings
 - Fixed activity timeline input data aggregation
 
@@ -327,7 +331,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <small>Released: 2024-03-25</small>
 
-- Added a page listing the [/whisky](/whisky/) I drink
+- Added a page listing the whisky I drink
 
 ## 3.11.1
 
