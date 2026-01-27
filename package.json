@@ -1,6 +1,6 @@
 {
   "name": "ttntm.me",
-  "version": "4.1.9",
+  "version": "4.2",
   "description": "Tom's homepage. A personal website, journal and playground. Everything, and nothing.",
   "author": "ttntm",
   "type": "module",
@@ -22,6 +22,7 @@
     "@11ty/eleventy-img": "^6.0.1",
     "@11ty/eleventy-plugin-rss": "^2.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
+    "@minify-html/node": "^0.18.1",
     "@rknightuk/eleventy-plugin-post-graph": "^1.0.7",
     "cloudflare": "^4.2.0",
     "cssnano": "^5.1.14",
@@ -29,7 +30,6 @@
     "dotenv": "^16.4.5",
     "eleventy-plugin-reading-time": "0.0.1",
     "eleventy-plugin-toc": "^1.1.5",
-    "html-minifier": "^4.0.0",
     "lodash": "^4.17.21",
     "markdown-it-anchor": "^9.0.1",
     "markdown-it-external-links": "^0.0.6",

@@ -263,7 +263,7 @@ The filter initialization has no other dependencies than the `config` object (`f
 My albums and whisky pages both have additional list view controls, and that's where I manage that code. You can refer to the following files for further context:
 
 - {% ext "albums.js", "https://github.com/ttntm/ttntm/blob/master/src/_includes/js/albums.js" %}
-- {% ext "whisky.js", "https://github.com/ttntm/ttntm/blob/master/src/_includes/js/whisky.js" %}
+- {% ext "whisky.js", "https://github.com/ttntm/ttntm/blob/master/_archive/whisky.js" %}
 
 ## Summary
 

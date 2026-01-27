@@ -15,9 +15,12 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
-## 4.1.9
+## 4.2
 
 - Removed the whisky page
+- Switched HTML minifier package
+- Updated Eleventy
+- Various fixes and maintenance stuff
 
 ## 4.1.8
 

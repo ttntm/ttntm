@@ -1,11 +1,12 @@
 import _ from 'lodash'
 import anchor from 'markdown-it-anchor'
 import dotenv from 'dotenv'
+import { Buffer } from 'node:buffer';
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import externalLinks from 'markdown-it-external-links'
-import htmlmin from 'html-minifier'
 import markdownIt from 'markdown-it'
+import minifyHtml from '@minify-html/node'
 import pluginPostGraph from '@rknightuk/eleventy-plugin-post-graph'
 import pluginReadingTime from 'eleventy-plugin-reading-time'
 import pluginRss from '@11ty/eleventy-plugin-rss'
@@ -135,14 +136,24 @@ export default async function(config) {
   // TRANSFORM -- Minify HTML Output
   // Unless we're running `serve` mode for local development
   if (isProdDeployment) {
+  // if (true) {
     config.addTransform('htmlmin', (content, outputPath) => {
       if (outputPath && outputPath.endsWith('.html')) {
-        let minified = htmlmin.minify(content, {
-          useShortDoctype: true,
-          removeComments: true,
-          collapseWhitespace: true
-        })
-        return minified
+        try {
+          const minified = minifyHtml.minify(Buffer.from(content), {
+            keep_closing_tags: true,
+            keep_comments: false,
+            keep_spaces_between_attributes: true,
+            keep_ssi_comments: false,
+            preserve_brace_template_syntax: false
+          })
+
+          return minified.toString('utf-8')
+        } catch (ex) {
+          console.error('Error minifying HTML:', ex)
+
+          return content
+        }
       }
       return content
     })

@@ -7,14 +7,14 @@ function applyTheme(t = undefined, auto = false) {
       localStorage.setItem('theme', t)
     }
   }
-  
+
   const btnHeader = document.querySelector('.btn-theme-header')
   const btnFooter = document.querySelector('.btn-theme-footer')
-  
+
   if (btnHeader) {
     btnHeader.innerHTML = getIcon(t, 'd-block', 22, 'currentColor', 2)
   }
-  
+
   if (btnFooter) {
     btnFooter.innerHTML = getIcon(t, 'icon', 24, '#81a1c1', 1.5)
   }
@@ -35,15 +35,15 @@ function getIcon(theme, className, size, stroke, thickness) {
 
 function main() {
   const themePref = getThemeFromLS()
-  
+
   if (!themePref) {
     // no theme chosen, check browser/OS settings
     const preferDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    
+
     if (preferDark) {
-      applyTheme('dark', true)
+      applyTheme('dark')
     } else {
-      applyTheme()
+      applyTheme('light')
     }
   } else {
     applyTheme(themePref)
