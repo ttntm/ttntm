@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import anchor from 'markdown-it-anchor'
 import dotenv from 'dotenv'
-import { Buffer } from 'node:buffer';
+import { Buffer } from 'node:buffer'
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import externalLinks from 'markdown-it-external-links'
@@ -136,7 +136,6 @@ export default async function(config) {
   // TRANSFORM -- Minify HTML Output
   // Unless we're running `serve` mode for local development
   if (isProdDeployment) {
-  // if (true) {
     config.addTransform('htmlmin', (content, outputPath) => {
       if (outputPath && outputPath.endsWith('.html')) {
         try {
