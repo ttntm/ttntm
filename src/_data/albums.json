@@ -1,342 +1,348 @@
 [
   {
-    "cover": "/img/albums/lz-lz.jpg",
+    "cover": "/img/albums/ad-pd.webp",
+    "title": "Amon Düül II - Phallus Dei",
+    "release": 1969,
+    "genre": "Rock"
+  },
+  {
+    "cover": "/img/albums/lz-lz.webp",
     "title": "Led Zeppelin - Led Zeppelin",
     "release": 1969,
     "genre": "Rock"
   },
   {
-    "cover": "/img/albums/bs-bs.jpg",
+    "cover": "/img/albums/bs-bs.webp",
     "title": "Black Sabbath - Black Sabbath",
     "release": 1970,
     "genre": "Heavy Metal"
   },
   {
-    "cover": "/img/albums/bs-p.jpg",
+    "cover": "/img/albums/bs-p.webp",
     "title": "Black Sabbath - Paranoid",
     "release": 1970,
     "genre": "Heavy Metal"
   },
   {
-    "cover": "/img/albums/sp-nmtb.jpg",
+    "cover": "/img/albums/sp-nmtb.webp",
     "title": "Sex Pistols - Never Mind the Bollocks",
     "release": 1977,
     "genre": "Punk"
   },
   {
-    "cover": "/img/albums/bs-hah.jpg",
+    "cover": "/img/albums/bs-hah.webp",
     "title": "Black Sabbath - Heaven and Hell",
     "release": 1980,
     "genre": "Heavy Metal"
   },
   {
-    "cover": "/img/albums/bf-d.jpg",
+    "cover": "/img/albums/bf-d.webp",
     "title": "Black Flag - Damaged",
     "release": 1981,
     "genre": "Punk"
   },
   {
-    "cover": "/img/albums/m-wau.jpg",
+    "cover": "/img/albums/m-wau.webp",
     "title": "Misfits - Walk Among Us",
     "release": 1982,
     "genre": "Punk"
   },
   {
-    "cover": "/img/albums/d-hnsnsn.jpg",
+    "cover": "/img/albums/d-hnsnsn.webp",
     "title": "Discharge - Hear Nothing See Nothing Say Nothing",
     "release": 1982,
     "genre": "Punk"
   },
   {
-    "cover": "/img/albums/m-rtl.jpg",
+    "cover": "/img/albums/m-rtl.webp",
     "title": "Metallica - Ride the Lightning",
     "release": 1984,
     "genre": "Thrash Metal"
   },
   {
-    "cover": "/img/albums/s-ha.jpg",
+    "cover": "/img/albums/s-ha.webp",
     "title": "Slayer - Hell Awaits",
     "release": 1985,
     "genre": "Thrash Metal"
   },
   {
-    "cover": "/img/albums/im-sit.jpg",
+    "cover": "/img/albums/im-sit.webp",
     "title": "Iron Maiden - Somewhere in Time",
     "release": 1986,
     "genre": "Heavy Metal"
   },
   {
-    "cover": "/img/albums/k-ptk.jpg",
+    "cover": "/img/albums/k-ptk.webp",
     "title": "Kreator - Pleasure to Kill",
     "release": 1986,
     "genre": "Thrash Metal"
   },
   {
-    "cover": "/img/albums/d-sbg.jpg",
+    "cover": "/img/albums/d-sbg.webp",
     "title": "Death - Scream Bloody Gore",
     "release": 1987,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/ma-aom.jpg",
+    "cover": "/img/albums/ma-aom.webp",
     "title": "Morbid Angel - Altars of Madness",
     "release": 1989,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/t-wd.jpg",
+    "cover": "/img/albums/t-wd.webp",
     "title": "Terrorizer - World Downfall",
     "release": 1989,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/b-faod.jpg",
+    "cover": "/img/albums/b-faod.webp",
     "title": "Blasphemy - Fallen Angel of Doom....",
     "release": 1990,
     "genre": "Black/Death Metal"
   },
   {
-    "cover": "/img/albums/jp-p.jpg",
+    "cover": "/img/albums/jp-p.webp",
     "title": "Judas Priest - Painkiller",
     "release": 1990,
     "genre": "Heavy Metal"
   },
   {
-    "cover": "/img/albums/d-laefs.jpg",
+    "cover": "/img/albums/d-laefs.webp",
     "title": "Dismember - Like an Ever Flowing Stream",
     "release": 1991,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/n-n.jpg",
+    "cover": "/img/albums/n-n.webp",
     "title": "Nirvana - Nevermind",
     "release": 1991,
     "genre": "Rock"
   },
   {
-    "cover": "/img/albums/d-abitns.jpg",
+    "cover": "/img/albums/d-abitns.webp",
     "title": "Darkthrone - A Blaze in the Northern Sky",
     "release": 1992,
     "genre": "Black Metal"
   },
   {
-    "cover": "/img/albums/i-otg.jpg",
+    "cover": "/img/albums/i-otg.webp",
     "title": "Incantation - Onward to Golgotha",
     "release": 1992,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/n-i.jpg",
+    "cover": "/img/albums/n-i.webp",
     "title": "Necrosanct - Incarnate",
     "release": 1992,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/b-ddtm.jpg",
+    "cover": "/img/albums/b-ddtm.webp",
     "title": "Beherit - Drawing Down the Moon",
     "release": 1993,
     "genre": "Black/Death Metal"
   },
   {
-    "cover": "/img/albums/m-dmds.jpg",
+    "cover": "/img/albums/m-dmds.webp",
     "title": "Mayhem - De Mysteriis Dom Sathanas",
     "release": 1994,
     "genre": "Black Metal"
   },
   {
-    "cover": "/img/albums/d-s.jpg",
+    "cover": "/img/albums/d-s.webp",
     "title": "Death - Symbolic",
     "release": 1995,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/d-outc.jpg",
+    "cover": "/img/albums/d-outc.webp",
     "title": "Deicide - Once Upon the Cross",
     "release": 1995,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/a-hog.jpg",
+    "cover": "/img/albums/a-hog.webp",
     "title": "Angelcorpse - Hammer of Gods",
     "release": 1996,
     "genre": "Black/Death Metal"
   },
   {
-    "cover": "/img/albums/a-etd.jpg",
+    "cover": "/img/albums/a-etd.webp",
     "title": "Asphyx - Embrace the Death",
     "release": 1996,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/mf-itu.jpg",
+    "cover": "/img/albums/mf-itu.webp",
     "title": "Mercyful Fate - Into the Unknown",
     "release": 1996,
     "genre": "Heavy Metal"
   },
   {
-    "cover": "/img/albums/i-itirotac.jpg",
+    "cover": "/img/albums/i-itirotac.webp",
     "title": "Inquisition - Into the Infernal Regions of the Ancient Cult",
     "release": 1998,
     "genre": "Black Metal"
   },
   {
-    "cover": "/img/albums/aop-fdt.jpg",
+    "cover": "/img/albums/aop-fdt.webp",
     "title": "Altar of Perversion - From Dead Temples",
     "release": 2001,
     "genre": "Black Metal"
   },
   {
-    "cover": "/img/albums/af-bft.jpg",
+    "cover": "/img/albums/af-bft.webp",
     "title": "Aslan Faction - Blunt Force Trauma",
     "release": 2002,
     "genre": "Electronic"
   },
   {
-    "cover": "/img/albums/k-k.jpg",
+    "cover": "/img/albums/k-k.webp",
     "title": "Kaamos - Kaamos",
     "release": 2002,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/qotsa-sftd.jpg",
+    "cover": "/img/albums/qotsa-sftd.webp",
     "title": "Queens of the Stone Age - Songs for the Deaf",
     "release": 2002,
     "genre": "Rock"
   },
   {
-    "cover": "/img/albums/v-v.jpg",
+    "cover": "/img/albums/v-v.webp",
     "title": "Verdunkeln - Verdunkeln",
     "release": 2005,
     "genre": "Black Metal"
   },
   {
-    "cover": "/img/albums/k-wwe.jpg",
+    "cover": "/img/albums/k-wwe.webp",
     "title": "Katharsis - VVorldVVithoutEnd",
     "release": 2006,
     "genre": "Black Metal"
   },
   {
-    "cover": "/img/albums/r-eod.jpg",
+    "cover": "/img/albums/r-eod.webp",
     "title": "Repugnant - Epitome of Darkness",
     "release": 2006,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/nc-tir.jpg",
+    "cover": "/img/albums/nc-tir.webp",
     "title": "Necros Christos - Trivne Impvrity Rites",
     "release": 2007,
     "genre": "Black/Death Metal"
   },
   {
-    "cover": "/img/albums/cdg-h.jpg",
+    "cover": "/img/albums/cdg-h.webp",
     "title": "Cultes Des Ghoules - Häxan",
     "release": 2008,
     "genre": "Black Metal"
   },
   {
-    "cover": "/img/albums/dc-gota.jpg",
+    "cover": "/img/albums/dc-gota.webp",
     "title": "Dead Congregation - Graves of the Archangels",
     "release": 2008,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/ir-reoce.jpg",
+    "cover": "/img/albums/ir-reoce.webp",
     "title": "Impetuous Ritual - Relentless Execution of Ceremonial Excrescence",
     "release": 2009,
     "genre": "Black/Death Metal"
   },
   {
-    "cover": "/img/albums/sas-lfv.jpg",
+    "cover": "/img/albums/sas-lfv.webp",
     "title": "Soap&Skin - Lovetune for Vacuum",
     "release": 2009,
     "genre": "Pop"
   },
   {
-    "cover": "/img/albums/t-sc.jpg",
+    "cover": "/img/albums/t-sc.webp",
     "title": "Teitanblood - Seven Chalices",
     "release": 2009,
     "genre": "Black/Death Metal"
   },
   {
-    "cover": "/img/albums/c-cc2.jpg",
+    "cover": "/img/albums/c-cc2.webp",
     "title": "Crystal Castles - Crystal Castles (II)",
     "release": 2010,
     "genre": "Electronic"
   },
   {
-    "cover": "/img/albums/ng-ng.jpg",
+    "cover": "/img/albums/ng-ng.webp",
     "title": "NiT GriT - NiT GriT",
     "release": 2010,
     "genre": "Electronic"
   },
   {
-    "cover": "/img/albums/m-whtn.jpg",
+    "cover": "/img/albums/m-whtn.webp",
     "title": "Mgła - With Hearts Toward None",
     "release": 2012,
     "genre": "Black Metal"
   },
   {
-    "cover": "/img/albums/p-iatn.jpg",
+    "cover": "/img/albums/p-iatn.webp",
     "title": "Perturbator - I am the Night",
     "release": 2012,
     "genre": "Synthwave"
   },
   {
-    "cover": "/img/albums/b-c.jpg",
+    "cover": "/img/albums/b-c.webp",
     "title": "Beastmilk - Climax",
     "release": 2013,
     "genre": "Rock"
   },
   {
-    "cover": "/img/albums/md-h.jpg",
+    "cover": "/img/albums/md-h.webp",
     "title": "Mega Drive - Hardwired",
     "release": 2013,
     "genre": "Synthwave"
   },
   {
-    "cover": "/img/albums/dc-potf.jpg",
+    "cover": "/img/albums/dc-potf.webp",
     "title": "Dead Congregation - Promulgation of the Fall",
     "release": 2014,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/d-sc.jpg",
+    "cover": "/img/albums/d-sc.webp",
     "title": "Domains - Sinister Ceremonies",
     "release": 2014,
     "genre": "Death Metal"
   },
   {
-    "cover": "/img/albums/md-198xad.jpg",
+    "cover": "/img/albums/md-198xad.webp",
     "title": "Mega Drive - 198XAD",
     "release": 2014,
     "genre": "Synthwave"
   },
   {
-    "cover": "/img/albums/p-dd.jpg",
+    "cover": "/img/albums/p-dd.webp",
     "title": "Perturbator - Dangerous Days",
     "release": 2014,
     "genre": "Synthwave"
   },
   {
-    "cover": "/img/albums/vd-ta.jpg",
+    "cover": "/img/albums/vd-ta.webp",
     "title": "VHS Dreams - Trans Am",
     "release": 2015,
     "genre": "Synthwave"
   },
   {
-    "cover": "/img/albums/kgatlw-itrn.jpg",
+    "cover": "/img/albums/kgatlw-itrn.webp",
     "title": "King Gizzard And The Lizard Wizard - Infest the Rats' Nest",
     "release": 2015,
     "genre": "Rock"
   },
   {
-    "cover": "/img/albums/mbr-ip.jpg",
+    "cover": "/img/albums/mbr-ip.webp",
     "title": "Master Boot Record - Internet Protocol",
     "release": 2019,
     "genre": "Electronic"
   },
   {
-    "cover": "/img/albums/c-o.jpg",
+    "cover": "/img/albums/c-o.webp",
     "title": "Celina - Origins",
     "release": 2022,
     "genre": "Synthwave"
