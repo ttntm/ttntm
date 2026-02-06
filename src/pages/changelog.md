@@ -15,6 +15,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 4.3
+
+- Retired the ideas page
+- Created the [/backlog](/backlog/)
+
 ## 4.2
 
 - Removed the whisky page

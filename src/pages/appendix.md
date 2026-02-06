@@ -28,7 +28,7 @@ An overview of this website's architecture, including interfaces:
 
 <img src="/static/img/Architecture_ttntm.me.svg" class="img-center img-fluid auto-invert mb2" alt="Architectural diagram for ttntm.me">
 
-More information about this setup and its continued evolution can be found in posts tagged [#website](/tags/website). You can also [contact me](/hello) to talk about the details.
+More information about this setup and its continued evolution can be found in the [Changelog](/changelog/), and in posts tagged [#website](/tags/website).
 
 <div class="hr shadow mt2 mb2"></div>
 
@@ -45,20 +45,12 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 
 ## Intentions and To-Dos
 
-**Things I intend to do with this website**:
+Things I intend to do with this website, and things I'd like this website to do for me:
 
 - Feel like me and change with me
-- Offer content about things that matter to me
-- Never track and {% ext "never monetize", "https://www.nevermonetize.com" %} its visitors
-
-**And things I'd like this website to do**:
-
 - Be a journal, weblog and playground
-- Update frequently
-- Become searchable at some point
-- Provide a home for {% ext "neko", "https://github.com/adryd325/oneko.js" %} ({% ext "+context", "https://github.com/eliot-akira/neko/" %})
-
-Finally, **everything that was done already**, can be found in the [Changelog](/changelog/).
+- Offer a place to publish what matters to me
+- {% ext "Never monetize", "https://www.nevermonetize.com" %} its visitors
 
 ## License
 
