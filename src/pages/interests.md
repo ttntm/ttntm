@@ -60,8 +60,8 @@ A while ago, I started working on {% ext "watch3r", "https://watch3r.app" %}, a 
 The film and TV genres I enjoy the most are:
 
 - Science fiction
-- Fantasy
 - Horror
+- Fantasy
 - Action/Adventure
 - Crime/Thriller
 
@@ -119,11 +119,13 @@ The things I'm not interested in:
 - Monetizing side projects and building a "me"-brand
 - "Internet TV" (videos, streamers, etc.)
 - Celebrities and influencers
+- Jokes, pranks, memes, and other "funny" crap
 - Children and parenting
 - Podcasts
 - Gambling
+- Vibe coding
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Jan. 22nd 2026`
+`Feb. 11th 2026`

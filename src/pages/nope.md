@@ -23,8 +23,6 @@ Will be updated as needed.
 - install a browser extension
 - send anonymous usage data
 - accept being tracked
-- sign up for an account
-- sign up using a different service
 - join a Discord server
 - allow access to my camera, contacts, files, etc.
 - answer unexpected calls
@@ -34,10 +32,11 @@ Will be updated as needed.
 - listen to podcasts
 - use a streaming service to listen to music
 - buy what other people have usually bought together with an item
-- engage in conversations about [topics I'm not interested in](/interests/#disinterests)
+- engage in [things I'm not interested in](/interests/#disinterests)
 - entertain kids
+- start vibe coding
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Oct. 10th 2025`
+`Feb. 11th 2026`
