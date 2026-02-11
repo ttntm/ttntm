@@ -8,23 +8,21 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Writing**: wish I had time for it, but right now, I haven't got any
+**Writing**: wish I had time or motivation for it, but right now, I don't
 
-**Books**: not much time for that either; when I do find the time to read, it's "A Universe from Nothing", or "Leviathan Wakes"
+**Books**: the occasional guitar book, and continuing "A Universe from Nothing", or "Leviathan Wakes"
 
-**Articles**: Check my [reading list](/reading/), it gets updated frequently
+**Games**: almost done with Warhammer 40k: Rogue Trader
 
-**Games**: still at it with Warhammer 40k: Rogue Trader
+**Work**: still working on "big new project", which is slowly coming to an end
 
-**Work**: no major news - still on "big new project", which I'm happily focusing on
+**Life**: mentally preparing for spring and gardening, reading up on related topics, and finishing some other things like tiling the back wall of our kitchen, adding wall shelves to places, hanging pictures, etc.
 
-**Life**: done moving, taking care of the never ending "little things"
-
-**Weight Lifting**: back at the gym since Jan. 12th, started doing Madcow 5x5, and eating like a black hole, to get back what stress and cardio due to moving cost me (in terms of body weight and muscle mass)
+**Weight Lifting**: Madcow 5x5 is going well, bench is getting noticeably stronger since I switched to doing it with a proper arch, and in the rack with safety pins (so I can _really_ push it without making it deadly)
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Jan. 22nd 2026`
+`Feb. 11th 2026`
 
 An archive of past updates of this page can be found at [/then](/then/).
