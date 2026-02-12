@@ -1,22 +1,12 @@
-/* titillium-web-regular - latin */
 @font-face {
   font-display: optional;
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''), url('/fonts/titillium-web-v9-latin-regular.woff2') format('woff2');
+	font-family: 'Anaheim';
+	font-style: normal;
+	font-weight: 400 500 700 800;
+	src: local(''), url('/fonts/anaheim-variable.woff2')
+    format('woff2-variations');
 }
 
-/* titillium-web-700 - latin */
-@font-face {
-  font-display: optional;
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''), url('/fonts/titillium-web-v9-latin-700.woff2') format('woff2');
-}
-
-/* space mono - latin */
 @font-face {
   font-display: optional;
   font-family: 'Space Mono';
@@ -25,7 +15,6 @@
   src: local(''), url('/fonts/space-mono-v15-latin-regular.woff2') format('woff2');
 }
 
-/* space mono 700 - latin */
 @font-face {
   font-display: optional;
   font-family: 'Space Mono';
@@ -53,7 +42,7 @@
   --yellow: #EBCB8B;
   --white: #fff;
   --black: #000;
-  --font-heading: 'Titillium Web', sans-serif;
+  --font-heading: 'Anaheim', sans-serif;
   --font-mono: 'Input Mono', 'JetBrains Mono', 'IBM Plex Mono', Inconsolata, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   --font-sans: 'Space Mono', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --bg: #f9f8fa;
@@ -729,9 +718,10 @@ footer button {
   background-color: var(--bg);
   border: 1px solid var(--border);
   border-radius: .25rem;
-  display: inline-block;
   color: var(--text);
+  display: inline-block;
   font-size: .875rem;
+  font-weight: 600;
   padding: .2rem .5rem;
 
   &:hover {
@@ -861,7 +851,8 @@ summary ::marker {
 }
 
 summary h2,
-summary h3 {
+summary h3,
+summary p.h4 {
   display: list-item;
 }
 
@@ -1115,6 +1106,10 @@ summary h3 {
     padding-top: .5rem;
     width: 50%;
   }
+}
+
+.logo-link {
+  font-weight: 800;
 }
 
 .heading a,

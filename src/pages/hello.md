@@ -5,9 +5,7 @@ layout: page.njk
 permalink: /hello/index.html
 ---
 
-<span class="large">&#128075; Hi there, nice to meet you!</span>
-
-## How to Contact Me
+<span class="d-block large mb2">&#128075; Hi there, nice to meet you!</span>
 
 Here's **how I prefer to keep in touch**, and why:
 

@@ -15,6 +15,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 4.4
+
+- A new font - _Anaheim_ - for headings, and various UI elements
+- Various adjustments of spacing, wording, etc. across pages
+
 ## 4.3
 
 - Retired the ideas page

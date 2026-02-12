@@ -150,6 +150,10 @@
 
 /* DISPLAY */
 
+.content-center {
+  align-content: center;
+}
+
 .d-none {
   display: none !important;
 }
