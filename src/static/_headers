@@ -27,3 +27,7 @@
 
 /*.js
   Content-Type: application/javascript
+
+/1GB.gz
+  Content-Encoding: gzip
+  Content-Length: 1000000
