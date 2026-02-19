@@ -1,5 +1,5 @@
 @font-face {
-  font-display: optional;
+  font-display: swap;
 	font-family: 'Anaheim';
 	font-style: normal;
 	font-weight: 400 500 700 800;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-display: optional;
+  font-display: swap;
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 400;
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-  font-display: optional;
+  font-display: swap;
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
