@@ -30,4 +30,8 @@
 
 /1GB.gz
   Content-Encoding: gzip
-  Content-Length: 1000000
+  Content-Length: 1042069
+
+/10GB.gz
+  Content-Encoding: gzip
+  Content-Length: 10420385
