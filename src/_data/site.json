@@ -55,19 +55,24 @@
   ],
   "readmore": [
     {
+      "url": "/albums/",
+      "title": "/albums",
+      "details": "albums important to me"
+    },
+    {
       "url": "/bookmarks/",
       "title": "/bookmarks",
-      "details": "resources, tools and websites"
+      "details": "a link directory"
     },
     {
       "url": "/games/",
       "title": "/games",
-      "details": "some of my favorite video games"
+      "details": "my favorite video games"
     },
     {
       "url": "/interests/",
       "title": "/interests",
-      "details": "things I'm interested in"
+      "details": "what I'm interested in"
     },
     {
       "url": "/projects/",
@@ -75,14 +80,9 @@
       "details": "projects I worked on"
     },
     {
-      "url": "/uses/",
-      "title": "/uses",
-      "details": "my setup and tools"
-    },
-    {
       "url": "/sitemap/",
       "title": "…and many more",
-      "details": "explore this website"
+      "details": "explore the sitemap"
     }
   ],
   "social": [
