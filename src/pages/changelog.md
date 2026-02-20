@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 4.4.1
+
+- Updated the cards on the homepage
+
 ## 4.4
 
 - A new font - _Anaheim_ - for headings, and various UI elements
