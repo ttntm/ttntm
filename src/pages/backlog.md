@@ -6,7 +6,7 @@ layout: page.njk
 permalink: /backlog/index.html
 ---
 
-<img src="/static/img/ideas.png" class="img-center img-fluid w100" alt="Illustration of an old computer">
+<img src="/static/img/ideas.png" class="img-center img-fluid auto-invert w100" alt="Illustration of an old computer">
 
 <ul class="list-reset grid grid2 gap1 mb2">
   <li class="py1">
@@ -14,7 +14,6 @@ permalink: /backlog/index.html
     <ul>
       <li>Appreciation of manual labor</li>
       <li>About JOMO, the joy of missing out</li>
-      <li>Moving to a new place?</li>
       <li>Wiki migration</li>
     </ul>
   </li>

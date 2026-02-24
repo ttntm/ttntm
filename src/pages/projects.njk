@@ -25,31 +25,31 @@ permalink: /projects/index.html
   </ul>
 </details>
 <div class="hr shadow mb2"></div>
-{% for item in projects %}
+{% for category in projects %}
   <article class="h-entry">
-    {% set categoryId = item.title | slugify %}
+    {% set categoryId = category.title | slugify %}
     <h2 id="{{ categoryId }}" class="h3" tabindex="-1">
-      <a class="header-anchor int" href="#{{ categoryId }}"><span class="p-name">{{ item.title }}</span></a>
+      <a class="header-anchor int" href="#{{ categoryId }}"><span class="p-name">{{ category.title }}</span></a>
     </h2>
     <p class="m0">
-      {{ item.description }}
+      {{ category.description }}
     </p>
     <ul class="list-reset indent-1-lg">
       {% set webLinkName = "View Project" %}
-      {% if item.title != "FOSS" %}
+      {% if category.title != "FOSS" %}
         {% set webLinkName = "View Demo" %}
       {% endif %}
-      {% for entry in item.data %}
+      {% for project in category.data %}
         <li class="py1">
-          <h3 class="h4 tight">{{ entry.title }}</h3>
-          {% if entry.status %}
-            {% if entry.status == 1 %}
+          <h3 class="h4 tight">{{ project.title }}</h3>
+          {% if project.status %}
+            {% if project.status == 1 %}
               {% set statusText = 'active' %}
             {% endif %}
-            {% if entry.status == 2 %}
+            {% if project.status == 2 %}
               {% set statusText = 'finished' %}
             {% endif %}
-            {% if entry.status == 3 %}
+            {% if project.status == 3 %}
               {% set statusText = 'abandoned' %}
             {% endif %}
             <p class="small" style="margin-bottom: .5rem;">
@@ -57,30 +57,34 @@ permalink: /projects/index.html
             </p>
           {% endif %}
           <p class="m0">
-            {{ entry.description }}
+            {{ project.description }}
           </p>
-          {% if entry.articles %}
+          {% if project.articles %}
             <p class="mb0" style="margin-top: .75rem;">
               Read about this project:
             </p>
             <ul>
-              {% for item in entry.articles %}
+              {% for item in project.articles %}
                 <li>
                   <a href="{{ item.url }}">{{ item.title }}</a>
                 </li>
               {% endfor %}
             </ul>
           {% endif %}
-          <ul class="list-reset flex gap1" style="border-top: 1px solid var(--border); margin-top: .75rem; padding-top: .25rem; width: fit-content;">
-            <li>
-              <a class="ext" href="{{ entry.source }}">Browse Code</a>
-            </li>
-            {% if entry.web %}
-              <li>
-                <a class="ext" href="{{ entry.web }}">{{ webLinkName }}</a>
-              </li>
-            {% endif %}
-          </ul>
+          {% if project.source or project.web %}
+            <ul class="list-reset flex gap1" style="border-top: 1px solid var(--border); margin-top: .75rem; padding-top: .25rem; width: fit-content;">
+              {% if project.source %}
+                <li>
+                  <a class="ext" href="{{ project.source }}">Browse Code</a>
+                </li>
+              {% endif %}
+              {% if project.web %}
+                <li>
+                  <a class="ext" href="{{ project.web }}">{{ webLinkName }}</a>
+                </li>
+              {% endif %}
+            </ul>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
