@@ -15,6 +15,7 @@ permalink: /backlog/index.html
       <li>Appreciation of manual labor</li>
       <li>About JOMO, the joy of missing out</li>
       <li>Wiki migration</li>
+      <li>Favorite album for every year I existed</li>
     </ul>
   </li>
   <li class="py1">

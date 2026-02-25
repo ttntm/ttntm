@@ -180,6 +180,12 @@
     "genre": "Heavy Metal"
   },
   {
+    "cover": "/img/albums/bt-m.jpg",
+    "title": "Bolt Thrower - Mercenary",
+    "release": 1998,
+    "genre": "Death Metal"
+  },
+  {
     "cover": "/img/albums/i-itirotac.webp",
     "title": "Inquisition - Into the Infernal Regions of the Ancient Cult",
     "release": 1998,
