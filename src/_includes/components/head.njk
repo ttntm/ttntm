@@ -6,12 +6,12 @@
 <link rel="preload" href="/css/page.css" as="style">
 <link rel="preload" href="/fonts/space-mono-v15-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/space-mono-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/titillium-web-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/anaheim-variable.woff2" as="font" type="font/woff2" crossorigin>
 
 {# Setup #}
 <title>{{ title or site.title }} - ttntm.me</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="humans.txt">
+<meta name="author" content="{{ site.author }}">
 <meta name="description" content="{{ description or site.description }}">
 <meta name="fediverse:creator" content="@ttntm@hachyderm.io">
 
@@ -47,6 +47,7 @@
 <link rel="blogroll" type="text/xml" href="/blogroll.opml">
 <link rel="webmention" href="{{ site.wmUrl }}">
 <link rel="pingback" href="{{ site.wmPingback }}">
+<link rel="author" href="humans.txt">
 
 {# RSS Feeds #}
 {% for item in site.feeds.data %}
