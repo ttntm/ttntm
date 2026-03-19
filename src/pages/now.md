@@ -12,17 +12,17 @@ permalink: /now/index.html
 
 **Books**: the occasional guitar book, and continuing "A Universe from Nothing", or "Leviathan Wakes"
 
-**Games**: almost done with Warhammer 40k: Rogue Trader
+**Games**: Finished Rogue Trader (see [/games](/games/)), now playing Shadow Warrior and Clid the Snail
 
-**Work**: still working on "big new project", which is slowly coming to an end
+**Work**: still working on that big project, almost done, looking forward to what comes next
 
-**Life**: mentally preparing for spring and gardening, reading up on related topics, and finishing some other things like tiling the back wall of our kitchen, adding wall shelves to places, hanging pictures, etc.
+**Life**: spring's here, pretty much, we started working on our garden already - dug some foundations, bought some raised beds, and some outdoor cabinets that we've got to assemble now
 
-**Weight Lifting**: Madcow 5x5 is going well, bench is getting noticeably stronger since I switched to doing it with a proper arch, and in the rack with safety pins (so I can _really_ push it without making it deadly)
+**Weight Lifting**: Madcow 5x5 started to feel slow, so I looked for a long term alternative. I almost ended up with 531 (again), but then discovered a program called DoggCrapp - I'm in week 3 now, and I'm quite happy with it, already curious about the results, and how it'll progress over time.
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Feb. 11th 2026`
+`Mar. 19th 2026`
 
 An archive of past updates of this page can be found at [/then](/then/).
