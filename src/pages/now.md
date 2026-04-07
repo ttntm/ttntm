@@ -8,21 +8,21 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Writing**: wish I had time or motivation for it, but right now, I don't
+**Writing**: got something in my mind about "hiding from the world", and wish I had time or motivation for more than that, but right now, I don't
 
-**Books**: the occasional guitar book, and continuing "A Universe from Nothing", or "Leviathan Wakes"
+**Books**: "The Problem with Plastic", and continuing "A Universe from Nothing", or "Leviathan Wakes"
 
-**Games**: Finished Rogue Trader (see [/games](/games/)), now playing Shadow Warrior and Clid the Snail
+**Games**: picked up "Anno 117: Pax Romana", which is a beautiful way to escape from reality
 
-**Work**: still working on that big project, almost done, looking forward to what comes next
+**Work**: final touches and handover for that big project, a bit exhausting, because the customer is making everything more complicated than it needs to be
 
-**Life**: spring's here, pretty much, we started working on our garden already - dug some foundations, bought some raised beds, and some outdoor cabinets that we've got to assemble now
+**Life**: mostly in a state of hiding from the world at large, tending to the garden (the raised beds, and the outdoor cabinets are finished, temperatures are high enough to start planting stuff now), and escaping to ancient Rome (Anno 117)
 
-**Weight Lifting**: Madcow 5x5 started to feel slow, so I looked for a long term alternative. I almost ended up with 531 (again), but then discovered a program called DoggCrapp - I'm in week 3 now, and I'm quite happy with it, already curious about the results, and how it'll progress over time.
+**Weight Lifting**: still doing DoggCrapp, seems to be good for my size so far; also, I like the variety of exercises, which is a nice change compared to squatting in every single workout, haha
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Mar. 19th 2026`
+`Apr. 7th 2026`
 
 An archive of past updates of this page can be found at [/then](/then/).

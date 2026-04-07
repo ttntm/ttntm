@@ -1,5 +1,5 @@
 {
-  "version": "4.4.1",
+  "version": "4.4.2",
   "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and playground.",
@@ -38,17 +38,17 @@
       "img": "music.svg"
     },
     {
-      "title": "Necromunda: Hired Gun",
+      "title": "Anno 117: Pax Romana",
       "label": "Videogames",
       "img": "game.svg"
     },
     {
-      "title": "The Beauty",
+      "title": "The Neon Demon",
       "label": "Movies and TV",
       "img": "movie.svg"
     },
     {
-      "title": "Tony Iommi - Iron Man",
+      "title": "Judith Enck - The Problem with Plastic",
       "label": "Books",
       "img": "book.svg"
     }

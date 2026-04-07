@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 4.4.2
+
+- Updated the background of the mobile navigation bar and made it consistent with the - pinned - desktop nav bar
+
 ## 4.4.1
 
 - Updated the cards on the homepage

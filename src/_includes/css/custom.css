@@ -77,8 +77,8 @@
   --navLinkActiveAfter: var(--prim);
   --navLinkAfter: var(--light);
   --navLinkHover: var(--dark);
-  --navMobileBg: var(--darkest);
-  --navMobileBorder: var(--navMobileBg);
+  --navMobileBg: var(--cardBg);
+  --navMobileBorder: var(--border);
   --navMobileLink: var(--sec);
   --postImgOpacity: 1;
   --prismBg: var(--lightest);
@@ -129,8 +129,6 @@
   --navLinkActiveAfter: var(--prim);
   --navLinkAfter: var(--dark);
   --navLinkHover: var(--light);
-  --navMobileBg: var(--black);
-  --navMobileBorder: var(--border);
   --postImgOpacity: .85;
   --prismBg: var(--black);
   --prismOpNumBool: var(--red);
@@ -570,10 +568,14 @@ main {
 }
 
 .navMobile {
-  background-color: var(--navMobileBg);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: var(--bg);
+  background: linear-gradient(to bottom, color-mix(in srgb, var(--navMobileBg), transparent 75%), var(--bg));
   border-top: 1px solid var(--navMobileBorder);
   bottom: 0;
   left: 0;
+  padding: .125rem 0;
   position: fixed;
   right: 0;
 
