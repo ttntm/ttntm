@@ -291,17 +291,14 @@ code {
 em,
 .italic {
   font-style: italic;
-  color: var(--highlight);
 }
 
 b,
 strong {
-  color: var(--textHeading);
   font-weight: 700;
 }
 
 blockquote {
-  /* background-color: var(--quoteBg); */
   border-left: 4px solid var(--prim);
   color: var(--textQuote);
   font-family: var(--font-sans);
@@ -481,10 +478,6 @@ main {
     top: 0;
     width: 100%;
     z-index: 50;
-
-    /* & .logo {
-      border-radius: var(--borderRadius);
-    } */
   }
 }
 
@@ -580,11 +573,11 @@ main {
   right: 0;
 
   & .nav-mobile-icon {
-    color: var(--navMobileLink);
+    color: var(--textHeading);
     pointer-events: none;
 
     &.icon-active {
-      color: var(--footerLinkHover);
+      color: var(--navMobileLink);
     }
   }
 }
