@@ -1,7 +1,7 @@
 [
   {
     "title": "Blogs & People",
-    "description": "Some of my favorite blogs, and personal websites that I read/visit regularly. More links to personal websites can be found in the \"Website Inspiration\" section.",
+    "description": "A few blogs, and personal websites that I regularly read and/or visit.",
     "data": [
       {
         "title": "82MHz",
@@ -22,10 +22,10 @@
         "feed": "https://www.andreinc.net/feed.xml"
       },
       {
-        "title": "antfu.me",
-        "description": "Anthony Fu",
-        "url": "https://antfu.me",
-        "feed": "https://antfu.me/feed.xml"
+        "title": "bfloeser.de",
+        "description": "Benedikt's blog",
+        "url": "https://bfloeser.de",
+        "feed": "https://bfloeser.de/index.xml"
       },
       {
         "title": "boehs.org",
@@ -40,28 +40,16 @@
         "feed": "https://chrisburnell.com/feed.xml"
       },
       {
-        "title": "garrit.xyz",
-        "description": "Garrit Franke",
-        "url": "https://garrit.xyz",
-        "feed": "https://garrit.xyz/rss.xml"
-      },
-      {
-        "title": "home.hedy.dev",
-        "description": "~hedy's home",
-        "url": "https://home.hedy.dev",
-        "feed": "https://home.hedy.dev/posts/index.xml"
+        "title": "geff.re",
+        "description": "Geffrey's personal site",
+        "url": "https://geff.re",
+        "feed": "https://geff.re/feed.xml"
       },
       {
         "title": "kayserifserif.place",
         "description": "Katherine Yang",
         "url": "https://kayserifserif.place",
         "feed": "https://kayserifserif.place/feed.xml"
-      },
-      {
-        "title": "kld.dev",
-        "description": "Kevin Lee Drum.",
-        "url": "https://kld.dev",
-        "feed": "https://kld.dev/rss.xml"
       },
       {
         "title": "Luke's Wild Website",
@@ -80,12 +68,6 @@
         "description": "Melanie Kat",
         "url": "https://melkat.blog",
         "feed": "https://melkat.blog/rss.xml"
-      },
-      {
-        "title": "mikestreety.co.uk",
-        "description": "Mike Street",
-        "url": "https://www.mikestreety.co.uk",
-        "feed": "https://www.mikestreety.co.uk/rss-all.xml"
       },
       {
         "title": "rootCompute",
