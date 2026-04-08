@@ -566,9 +566,9 @@ main {
   background: var(--bg);
   background: linear-gradient(to bottom, color-mix(in srgb, var(--navMobileBg), transparent 75%), var(--bg));
   border-top: 1px solid var(--navMobileBorder);
-  bottom: 0;
+  bottom: -2px;
   left: 0;
-  padding: .125rem 0;
+  padding: .125rem 0 .25rem;
   position: fixed;
   right: 0;
 
