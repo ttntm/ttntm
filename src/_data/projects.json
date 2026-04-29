@@ -86,6 +86,13 @@
         "source": "https://github.com/ttntm/snowflake-relay"
       },
       {
+        "title": "tim3r",
+        "status": 2,
+        "description": "A simple Pomodoro timer.",
+        "web": "https://tim3r.ttntm.me",
+        "source": "https://codeberg.org/ttntm/tim3r"
+      },
+      {
         "title": "TKB",
         "status": 3,
         "description": "What used to be my personal wiki; migrated to Obsidian.",
