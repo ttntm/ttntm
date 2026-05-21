@@ -1,4 +1,4 @@
-/app-ads.txt /ads.txt 301
+/app-ads.txt /adhole.html 301
 
 /feed.xml /blog/feed.xml 301
 /.well-known/recommendations.opml /blogroll.opml 301
@@ -18,4 +18,5 @@
 /tags/opinion/ /tags/thoughts/ 301
 /til/* /notes/ 301
 /today-i-learned/* /notes/ 301
-/wiki/* /10GB.gz 301
+/wiki /adhole.html 301
+/wiki/* /adhole.html 301
