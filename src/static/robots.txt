@@ -21,9 +21,13 @@ Allow: /app-ads.txt
 
 User-agent: AdsBot-Google
 Disallow: /
+Allow: /ads.txt
+Allow: /app-ads.txt
 
 User-agent: AdsBot-Google-Mobile
 Disallow: /
+Allow: /ads.txt
+Allow: /app-ads.txt
 
 User-agent: Amazonbot
 Disallow: /
@@ -87,9 +91,13 @@ Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
+Allow: /ads.txt
+Allow: /app-ads.txt
 
 User-agent: GoogleOther
 Disallow: /
+Allow: /ads.txt
+Allow: /app-ads.txt
 
 User-agent: GPTBot
 Disallow: /
@@ -102,6 +110,8 @@ Disallow: /
 
 User-agent: Mediapartners-Google
 Disallow: /
+Allow: /ads.txt
+Allow: /app-ads.txt
 
 # > NameProtect engages in crawling activity in search of a wide range of brand and other intellectual property violations that may be of interest to our clients. (http://www.nameprotect.com/botinfo.html)
 #  --> fuck off.
