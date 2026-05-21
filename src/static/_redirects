@@ -1,4 +1,4 @@
-/app-ads.txt /adhole.html 301
+/app-ads.txt /ads.txt 301
 
 /feed.xml /blog/feed.xml 301
 /.well-known/recommendations.opml /blogroll.opml 301
