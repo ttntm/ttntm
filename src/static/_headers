@@ -35,12 +35,3 @@
 /10GB.gz
   Content-Encoding: gzip
   Content-Length: 10420385
-
-/adhole
-  ! Content-Security-Policy
-
-/adhole/*
-  ! Content-Security-Policy
-
-/adhole.html
-  ! Content-Security-Policy
