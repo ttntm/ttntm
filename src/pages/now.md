@@ -8,21 +8,21 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Writing**: various drafts that haven't lead anywhere yet
+**Writing**: nothing that'll be published here
 
 **Books**: "The Problem with Plastic", and continuing "A Universe from Nothing", or "Leviathan Wakes"
 
-**Games**: played a ton of Anno 117, until I watched a Starfield trailer - now I find myself lost in space, *slightly* addicted to ship building (feels like Lego, love it!)
+**Games**: lost in Starfield - the right game at the right time, I suppose, really enjoying my time with it; noticed stick drift on one of my controllers, will have to take it somewhere to get it fixed
 
-**Work**: back to multiple long running projects, a nice change after working on a big project almost exclusively for about 6 months
+**Work**: business as usual, nothing noteworthy to report
 
-**Life**: enjoying the garden, putting in the work, and relaxing in space (Starfield) - life's good that way right now
+**Life**: enjoying BBQs, gardening, outdoor fun with the cat, fresh berries and vegetables from our own plants
 
-**Weight Lifting**: still doing DoggCrapp, on autopilot by now, which is nice
+**Weight Lifting**: still doing DoggCrapp, in month 4 now, and already thinking about what's next before my body gets too comfortable with it
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`May 4th 2026`
+`Jun. 15th 2026`
 
 An archive of past updates of this page can be found at [/then](/then/).
