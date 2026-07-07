@@ -12,17 +12,17 @@ permalink: /now/index.html
 
 **Books**: "The Problem with Plastic", and continuing "A Universe from Nothing", or "Leviathan Wakes"
 
-**Games**: lost in Starfield - the right game at the right time, I suppose, really enjoying my time with it; noticed stick drift on one of my controllers, will have to take it somewhere to get it fixed
+**Games**: still lost in Starfield, which I'm now certain is the best space RPG I've played since Freelancer; got the stick drift on my controller fixed with a 50 Eur upgrade to magnetic sticks
 
-**Work**: business as usual, nothing noteworthy to report
+**Work**: business as usual, and also busy getting to know a new SaaS platform my employer's partnered with, so we can start implementations and development for it
 
-**Life**: enjoying BBQs, gardening, outdoor fun with the cat, fresh berries and vegetables from our own plants
+**Life**: enjoying BBQs, gardening, outdoor fun with the curious cat, fresh berries and vegetables from our own plants; satisfied with some newfound motivation to pick up my guitar, and to learn more music theory
 
-**Weight Lifting**: still doing DoggCrapp, in month 4 now, and already thinking about what's next before my body gets too comfortable with it
+**Weight Lifting**: still doing DoggCrapp, swapped out a couple of exercises that were stalling, adjusting as I go - felt more comfortable doing that, than to switch to another program right now
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Jun. 15th 2026`
+`Jul. 7th 2026`
 
 An archive of past updates of this page can be found at [/then](/then/).
