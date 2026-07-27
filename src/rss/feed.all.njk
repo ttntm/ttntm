@@ -15,8 +15,6 @@ permalink: /everything.xml
       {% set absoluteItemUrl %}
         {%- if item.url -%}
           {{ item.url | htmlBaseUrl(site.url) }}
-        {%- else -%}
-          https://ttntm.me/notes/#{{ item.data.weight }}
         {%- endif -%}
       {% endset %}
       <entry>

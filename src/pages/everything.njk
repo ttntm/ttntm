@@ -1,6 +1,6 @@
 ---
 title: Everything
-description: A list of every Blog Post, Like and Note published on this website.
+description: A list of all posts published on this website.
 layout: base.njk
 permalink: /everything/index.html
 ---
@@ -17,8 +17,6 @@ permalink: /everything/index.html
         {%- set itemURL -%}
           {%- if item.url -%}
             {{ item.url }}
-          {%- else -%}
-            /notes/#{{ item.data.weight }}
           {%- endif -%}
         {%- endset -%}
         <li class="h-entry">

@@ -105,7 +105,7 @@ The code currently uses auto-detection based on a media query (`window.matchMedi
 
 ### Feeds
 
-This website has offered a feed of articles and blog posts since 2019. However, my [Likes](/likes/) and [Notes](/notes/) collections did not offer a feed, despite the fact that they're also collections of content that are updated regularly.
+This website has offered a feed of articles and blog posts since 2019. However, my [Likes](/likes/) and Notes collections did not offer a feed, despite the fact that they're also collections of content that are updated regularly.
 
 Feeds for both collections were added, together with matching icons in the respective headings, and a [Feeds](/feeds/) page that lists all the available feeds.
 

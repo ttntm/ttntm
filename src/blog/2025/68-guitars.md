@@ -4,8 +4,8 @@ slug: six-string-memories
 date: 2025-05-05T15:30:00Z
 description: A brief history of all the guitars I owned.
 tags:
+  - guitar
   - offline
-  - personal
 image: /img/blog/guitars.jpg
 ---
 

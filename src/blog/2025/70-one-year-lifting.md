@@ -5,7 +5,7 @@ date: 2025-08-01T12:05:00Z
 description: A short recap of a year of lifting weights.
 tags:
   - offline
-  - personal
+  - lifting
 image: /img/blog/barbell-by-eduardo-cano.jpg
 toot: https://hachyderm.io/@ttntm/114953011053119013
 ---

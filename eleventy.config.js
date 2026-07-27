@@ -113,10 +113,6 @@ export default async function(config) {
       .value()
   })
 
-  config.addCollection('notes', async(collection) => {
-    return collection.getFilteredByGlob('./src/notes/**/*.md')
-  })
-
   config.addCollection('postsByYear', (collection) => {
     // collection for the blog archive => posts grouped by year
     return _.chain(collection.getFilteredByGlob('./src/blog/**/*.md'))
