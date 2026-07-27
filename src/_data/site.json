@@ -1,5 +1,5 @@
 {
-  "version": "4.4.2",
+  "version": "4.5",
   "title": "Tom's Homepage",
   "author": "ttntm",
   "description": "Tom's homepage. A personal website, journal and playground.",
@@ -18,11 +18,6 @@
         "name": "Likes",
         "link": "/likes/feed.xml",
         "page": "/likes/"
-      },
-      {
-        "name": "Notes",
-        "link": "/notes/feed.xml",
-        "page": "/notes/"
       },
       {
         "name": "Everything",

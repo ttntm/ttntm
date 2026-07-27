@@ -6,7 +6,6 @@ description: An article about building a portfolio filter capable of multiselect
 tags:
   - guide
   - hugo
-  - jquery
 image: /img/blog/code.jpg
 ---
 

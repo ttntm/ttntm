@@ -15,6 +15,16 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 4.5
+
+<small>Released: 2026-07-27</small>
+
+- Removed the notes page, and [archived it as a post](/blog/archived-notes/)
+- Removed the RSS feed for notes
+- Reviewed the footer
+- Reviewed tags
+- Updated the sections on the homepage
+
 ## 4.4.2
 
 - Updated the background of the mobile navigation bar and made it consistent with the - pinned - desktop nav bar
@@ -25,15 +35,21 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 4.4
 
+<small>Released: 2026-02-12</small>
+
 - A new font - _Anaheim_ - for headings, and various UI elements
 - Various adjustments of spacing, wording, etc. across pages
 
 ## 4.3
 
+<small>Released: 2026-02-06</small>
+
 - Retired the ideas page
 - Created the [/backlog](/backlog/)
 
 ## 4.2
+
+<small>Released: 2026-01-27</small>
 
 - Removed the whisky page
 - Switched HTML minifier package
@@ -46,7 +62,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 4.1.7
 
-- Updated headings on the [/notes](/notes/) page, which makes them consistent with the rest of the site
+- Updated headings on the /notes page, which makes them consistent with the rest of the site
 
 ## 4.1.6
 
@@ -208,7 +224,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 <small>Released: 2024-06-16</small>
 
 - Added an SVG wave to the footer
-- Added a "back to index" anchor to individual entries in [/notes](/notes/)
+- Added a "back to index" anchor to individual entries in /notes
 - Implemented linkable headings for Markdown content
 - Homepage:
   - Replaced "Recent Posts" with "Recent Activity"
@@ -247,7 +263,7 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 ## 3.17.1
 
-- Better images for [/likes](/likes/) and [/notes](/notes)
+- Better images for [/likes](/likes/) and /notes
 - Fixes
 - Footer background color (light theme)
 - Progress bar improvements (math, reusability)
@@ -476,12 +492,12 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 <small>Released: 2021-05-30</small>
 
 - Added [/likes](/likes/) where I'll publish cool things I find on the internet
-- Moved /TIL to [/notes](/notes/)
+- Moved /TIL to /notes
 - Updated the site's icon
 
 ## 3.1.1
 
-- Added a table of contents to [/notes](/notes/)
+- Added a table of contents to /notes
 - Joined the {% ext "250kb.club", "https://250kb.club" %} and the {% ext "1MB.club", "https://1mb.club" %}
 
 ## 3.1

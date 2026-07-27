@@ -45,7 +45,7 @@ A detailed report can be found here: {% ext "Website Carbon Calculator", "https:
 
 ## Intentions and To-Dos
 
-Things I intend to do with this website, and things I'd like this website to do for me:
+Things I intend to do with this website, and things I'd like it to do for me:
 
 - Feel like me and change with me
 - Be a journal, weblog and playground

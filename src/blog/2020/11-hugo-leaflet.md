@@ -6,7 +6,6 @@ description: "A detailed article about building a store locator based on Leaflet
 tags:
   - guide
   - hugo
-  - jquery
 image: /img/blog/map.jpg
 ---
 

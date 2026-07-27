@@ -3,9 +3,11 @@ layout: base.njk
 ---
 
 <article id="content" class="container h-entry">
-  <aside class="progress-bar hide-no-js d-none d-lg-block">
-    <div class="progress-bar__inner"></div>
-  </aside>
+  {% if not hideProgress %}
+    <aside class="progress-bar hide-no-js d-none d-lg-block">
+      <div class="progress-bar__inner"></div>
+    </aside>
+  {% endif %}
   <h1>{{ title }}</h1>
   <div class="grid d-sm-flex justify-content-between align-items-end gap1">
     <div>
@@ -47,8 +49,10 @@ layout: base.njk
   <div class="post e-content">
     {{ content | safe }}
   </div>
-  <div class="hr shadow mt2 mb2"></div>
-  {% include "components/page.share.njk" %}
+  {% if not hideSharing %}
+    <div class="hr shadow mt2 mb2"></div>
+    {% include "components/page.share.njk" %}
+  {% endif %}
 </article>
 <section class="container">
   <div class="hr shadow mt2 mb2"></div>
