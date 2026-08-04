@@ -4,6 +4,7 @@ slug: whats-next
 date: 2026-07-27T14:30:00Z
 description: About the future of this site.
 tags:
+  - news
   - website
 showToc: false
 hideProgress: true
