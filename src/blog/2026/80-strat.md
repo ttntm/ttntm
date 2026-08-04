@@ -12,7 +12,7 @@ hideProgress: true
 
 {{description}}
 
-Guess it's true that the amount of guitars one needs will laways be `n + 1`, haha. Anyway, a lucky find on a second hand platform that I was monitoring for some weeks.
+Guess it's true that the amount of guitars one needs will always be `n + 1`, haha. Anyway, a lucky find on a second hand platform that I was monitoring for some weeks.
 
 It's a 2015 model, made by Cor-Tek (aka Cort), offering decent craftsmanship that takes it well into the solid mid-range when paired with a proper setup. I paid 80 Euro for it, and spent about two hours on the setup.
 
