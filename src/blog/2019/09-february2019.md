@@ -23,7 +23,7 @@ As far as this site's concerned, here's what's changed:
 
 - Moved from Github pages and their `username.github.io` domain to [ttntm.me](https://ttntm.me) which was on sale at Porkbun
 - Moved the deployment over to Netlify
-- Enabled an RSS feed for the blog - subscribe at [/feed.xml](/feed.xml)
+- Enabled an RSS feed for the blog
 
 ## Coming Soon
 

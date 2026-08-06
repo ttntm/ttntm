@@ -98,7 +98,7 @@ export default {
       ? `<p class="old-content-note">
           <span style="font-family: var(--font-mono); font-size: 1rem;">&#9432;&nbsp;</span><strong>It's been a while...</strong>
           <br>
-          <span class="d-inline-block" style="padding-left: 1.125rem;">Facts and circumstances may have changed since publication. Please contact me before jumping to conclusions if something seems wrong or unclear.</span>
+          <span class="d-inline-block">Facts and circumstances may have changed since publication. Please contact me before jumping to conclusions if something seems wrong or unclear.</span>
         </p>`
       : ''
   },
