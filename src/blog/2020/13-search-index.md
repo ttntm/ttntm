@@ -9,13 +9,11 @@ tags:
 image: /img/blog/nothing.jpg
 ---
 
-## Context
-
 When {% ext "adding a search function to your Hugo site" "gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae" %}, one thing that's required is a JSON index of the respective site's content. If your site is also making use of {% ext "Page Resources" "gohugo.io/content-management/page-resources/" %}, there can be issues when creating this index. This short article is meant to document a possible workaround for such cases.
 
 _This is/was an issue in Hugo 0.58; I assume it won't be different in newer releases, but that's not a 100% certain._
 
-### Problem Description
+## Problem Description
 
 According to the linked gist, the template for the JSON index `index.json` is really the opposite of spectacular:
 
@@ -33,7 +31,7 @@ All of that information/content then gets added to `index.json` in the last line
 
 When it comes to `RegularPages` that consist of a mixture of pure Markdown content _and_ Page Resources though, `.Plain` fails (and so do other things like `.Content | plainify`) - the "content" key for those pages stays blank and/or contains only whatever Markdown was actually found, ignoring the content coming from the Page Resources.
 
-### Why use Page Resources then?
+## Why use Page Resources?
 
 Simply talking about that term might be enough for some, but let's just take a look at an example here: {% ext "a 'Services' page", "https://process4.biz/en/services/" %} rendered almost exclusively from Page Resources.
 

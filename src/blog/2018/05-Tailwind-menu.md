@@ -11,8 +11,6 @@ image: /img/blog/default.jpg
 updated: 2020-03-15T10:30:00Z
 ---
 
-## Tailwind CSS
-
 According to their docs, "**Tailwind is a utility-first CSS framework for rapidly building custom user interfaces.**"
 
 Being used to Bootstrap and/or other component based frameworks, this is quite a different approach.
@@ -21,7 +19,7 @@ Using Tailwind, basically everything you know from these frameworks is possible,
 
 Oh, one more thing: Tailwind is a pure CSS framework and ships without any front-end JavaScript - that means that if you'd like to have a sticky header once the page scrolls or a collapsed navbar that expands when clicking a button, you need to build it.
 
-### Let's Build a Menu
+## Let's Build a Menu
 
 Navigation is certainly one of the essentials when it comes to building a website, so let's get right into that.
 
@@ -33,7 +31,7 @@ Navigation is certainly one of the essentials when it comes to building a websit
 
 All of that should be achieved with the same header/menu and some JavaScript to check the scroll position and to provide expand/collapse functionality.
 
-### The Header and the Menu
+## The Header and the Menu
 
 We're going to keep the custom CSS at a bare minimum, using Tailwind's classes as far as that's possible.
 
@@ -63,11 +61,11 @@ There are 2 `div` elements here, first the navigation bar and then the menu with
 
 Tailwind is "mobile first", so its responsive utilities like `sm:hidden` work in a way that can be described as "valid *from* the specified breakpoint". So, `sm:hidden` translates to "hidden on screens larger than the defined `sm`-breakpoint" (default: 576px).
 
-### The JavaScript
+## The JavaScript
 
 We need JavaScript to enable 2 functions of our menu, the first one is the expand/collapse functionality for mobile devices, the second one's the sticky navigation when scrolling down.
 
-#### Expand and Collapse the Menu
+### Expand and Collapse the Menu
 
 In order to achieve the proper functionality for our mobile menu, we've already placed a call to the `navToggle()` function in our menu.
 
@@ -86,7 +84,7 @@ function navToggle() {
 
 As shown in the larger code snippet above, the `nav` HTML-element is set to `hidden` by default. `navToggle()` adds/removes the `flex` class, thus expanding/collapsing the menu.
 
-#### Sticky Menu
+### Sticky Menu
 
 Scrolling down far enough should make our `nav` stick to the top of the screen on any screen larger than 576px, providing persistent navigation to the users of the site.
 
@@ -109,7 +107,7 @@ window.addEventListener('scroll', function() {
 
 We don't just add `nav-sticky` though, there's a second class called `bod-pt-scroll` which adds `padding-top` to the `<body>`, thus making sure that the page content doesn't reflow when the `nav` gets stuck to the top of the page and taken out of the regular flow of the DOM elements.
 
-### Custom CSS
+## Custom CSS
 
 In order to provide the necessary padding and the sticky-ness of the `nav`-element, we're using some custom, non-Tailwind CSS:
 
@@ -138,7 +136,7 @@ In order to provide the necessary padding and the sticky-ness of the `nav`-eleme
 
 The padding for the `<body>` could of course have been done with Tailwind classes, but this example came out of a project where Tailwind's padding and margin utilities were not needed in their responsive variation, thus making the overall CSS bundle much smaller using just the 5 lines of custom CSS shown here.
 
-### Conclusion
+## Conclusion
 
 Tailwind CSS is a very versatile, powerful and extremely customizable framework. It's also quite fast once you've gotten into it, making it a joy to work with.
 

@@ -10,13 +10,11 @@ tags:
 image: /img/blog/boilerplate.jpg
 ---
 
-## Hugo + Tailwind
-
 So far, I've used the combination of Hugo and {% ext "Tailwind CSS", "https://tailwindcss.com" %} for more than 5 different projects. It's an extremely versatile zero dependency toolkit that "just works" without the added bulk of unnecessary pre-made components, jQuery and many lines of (mostly) unused code.
 
 In doing so, I've started using local template project folders that just needed an `npm install` command to be up and running. Turns out that might be useful for others too (duh), so I've created a boilerplate repository of this setup today.
 
-### hugo-tailwind-boilerplate
+## hugo-tailwind-boilerplate
 
 So, here's the rundown.
 
@@ -53,7 +51,7 @@ The Hugo setup is basic at best; should be enough to build upon though. See `lay
 
 > Here's the {% ext "GitHub repository", "https://github.com/ttntm/hugo-tailwind-boilerplate" %}
 
-### Usage
+## Usage
 
 In order to work with this repository, only 2 things are required:
 
@@ -64,7 +62,7 @@ If that's set up, then all you need is to get the repository, run `npm install` 
 
 PS: the CSS in `./static/css` has been purged, so you may want to run `gulp dev-css` in order to make all of Tailwind available for your project and/or customize it through `tailwind.config.js` (see {% ext "their docs", "https://tailwindcss.com/docs/configuration" %} for details).
 
-#### Addendum
+## Addendum
 
 This setup (esp. the choice of using gulp) is older than {% ext "Hugo Pipes", "https://gohugo.io/hugo-pipes/" %}; but I'm also relying on gulp as the main actor for [processing comments](/blog/static-blog-comments-hugo/), so I'll stick with it for the foreseeable future.
 

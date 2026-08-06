@@ -7,6 +7,7 @@ tags:
   - personal
   - website
 image: /img/blog/default.jpg
+showToc: false
 ---
 
 I've had a lot of websites over the years, ranging from more or less official business endeavors like a small record label to more private things like a website for my wedding a while ago. I've never had a website _just for me_ though, so this is something new.

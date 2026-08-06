@@ -9,8 +9,6 @@ tags:
 image: /img/blog/code.jpg
 ---
 
-## Filter Requirements
-
 I spent quite some time working on a friend's portfolio website recently. She wanted to get rid of some sort of hosted service, moving to her own website.
 
 Showcasing her work was clearly the focus of the site, so it also needed to provide some decent filtering of the portfolio items.
@@ -21,7 +19,7 @@ So, I ended up building them myself, based on content metadata (Hugo: front matt
 
 _All CSS is going to be missing here, but it's included in the CodePen example._
 
-### Content Setup
+## Content Setup
 
 In order to make the portfolio manageable, the site was set up using Hugo's so-called "Page Bundles" ({% ext "Hugo Docs", "https://gohugo.io/content-management/page-bundles/" %}), lots of shortcodes and customized metadata in each portfolio item's front matter:
 
@@ -51,7 +49,7 @@ As shown above, each portfolio item gets categorized with `work` elements. This 
 
 Due to the portfolio items being page bundles, the front matter above also shows a section `resources`. This list basically contains all the relevant bits of content the page shall have access to. For our filter, the image resource called `hero` will also be necessary as the list page of all portfolio items will be displayed as an image grid.
 
-### Portfolio Layout
+## Portfolio Layout
 
 In order to display our portfolio items, we're going to let Hugo create a list page of all the relevant posts, displaying them as an image grid with the filters on top.
 
@@ -115,7 +113,7 @@ This code has been put into a `partial` called `img+overlay.html` for convenienc
 
 If you're following this example, then you should have a page displaying filters followed by all portfolio items in an image grid by now. Time to move on to some jQuery then.
 
-### jQuery
+## jQuery
 
 A short remark before we get started: as shown in the CodePen example, this code will work regardless of how your portfolio page is built, as long as the portfolio items have classes assigned to them that correspond to what's set as `data-filter`. There's no Hugo functionality and/or dependencies in there.
 
@@ -210,7 +208,7 @@ function removeActiveFilter(item) {
 }
 ```
 
-### Conclusion
+## Conclusion
 
 Aside from ticking the box in front of a technical requirement on a list and making a friend happy, this filter was also an interesting challenge to myself. I couldn't find any useful instructions or out of the box solutions before starting doing it on my own which might have been due to wrong Google keywords or just bad luck.
 

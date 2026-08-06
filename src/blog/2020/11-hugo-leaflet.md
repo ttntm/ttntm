@@ -9,15 +9,13 @@ tags:
 image: /img/blog/map.jpg
 ---
 
-## Store Locator
-
 There's probably a lot of good tutorials on building a store locator out there, but I couldn't find one matching my client's requirements 100%.
 
 For context: they're running a static site built by Hugo that uses forestry as a CMS.
 
 Not exactly rocket science, but they're normal business users (if such a thing exists). That means that content maintenance should be rather streamlined and convenient - forestry's pretty sweet in terms of that, especially when it comes to maintaining JSON data in a way that looks and feels more natural to said users than any editor GUI would.
 
-### Requirements
+## Requirements
 
 - list of stores maintained as JSON (in the CMS)
 - search function (within the list of stores)
@@ -27,13 +25,13 @@ Not exactly rocket science, but they're normal business users (if such a thing e
 
 In terms of the visual representation, this store locator was requested as some kind of bulletin board/window looking thing, basically a list of stores with a map next to it that reflects the clicks on the respective list entry.
 
-### Introductory Remarks
+## Introductory Remarks
 
 The approach described in this article is also available as a fully functional Hugo site. The site structure is defined in `layouts/_default/baseof.html` - the page content resides in `layouts/index.html`, all JavaScript is either pulled in from external (gulp-built) bundles or stored in `layouts/partials/js.html`.
 
 Best have a quick look at the repository and its structure now, it'll make the following explanations easier to understand: {% ext "GitHub Repository", "https://github.com/ttntm/hugo-leaflet-store-locator" %}
 
-### Location Data
+## Location Data
 
 In order to make this work, you'll need data - stores and their address/location. I've used McDonald's locations in Vienna for the demo site, but anything else would also work.
 
@@ -55,13 +53,13 @@ It should all be rather self-explanatory - name, address, postcode/city and coun
 
 The `shopActive` key is simply a toggle: show/hide the respective store in the list/map. Not absolutely necessary, but certainly convenient.
 
-### Page Template
+## Page Template
 
 Before we're going to dig into the JavaScript, we'll need both map and data rendered for our site.
 
 The following code samples are all part of `layouts/index.html`.
 
-#### Rendering the Data
+### Rendering the Data
 
 If you're not familiar with the way Hugo handles (JSON) data files, best head over there for a moment: {% ext "Hugo Docs - Data Templates", "https://gohugo.io/templates/data-templates/" %}
 
@@ -85,7 +83,7 @@ So, we're basically going to loop (`range`) through the data, rendering it as a 
 
 The HTML `data-*` attributes will be helpful as they're going to supply the necessary data for the search functionality for each `sItem` as a whole, making it easy to show/hide the correct elements.
 
-#### Search Input
+### Search Input
 
 Above this list of shops, we'd like to have a search bar:
 
@@ -101,7 +99,7 @@ Above this list of shops, we'd like to have a search bar:
 </div>
 ```
 
-#### Map
+### Map
 
 Not much to do here, the map is going to fill the remaining `col-7` left behind by the list in order for both to be displayed side by side.
 
@@ -111,7 +109,7 @@ Not much to do here, the map is going to fill the remaining `col-7` left behind 
 </div>
 ```
 
-### JavaScript
+## JavaScript
 
 Now that we have our content rendered, it's time to have a look at the actual functionality:
 
@@ -123,7 +121,7 @@ Now that we have our content rendered, it's time to have a look at the actual fu
 
 All code samples listed here can be found in `layouts/partials/js.html` unless stated otherwise.
 
-#### Prerequisites
+### Prerequisites
 
 We have some dependencies (other than Bootstrap 4/jQuery) that we have to keep in mind. They're all included in the `src` folder of the repository, so you don't have to go looking unless you want to change something.
 
@@ -131,7 +129,7 @@ We have some dependencies (other than Bootstrap 4/jQuery) that we have to keep i
 - Leaflet.markercluster 1.4.1: {% ext "GitHub", "https://github.com/Leaflet/Leaflet.markercluster" %}
 - leaflet-locatecontrol 0.70: {% ext "GitHub", "https://github.com/domoritz/leaflet-locatecontrol" %}
 
-#### Creating the Map
+### Creating the Map
 
 First off, we're going to need some definitions:
 
@@ -183,7 +181,7 @@ Originally, `leaflet-locatecontrol` uses Font Awesome which was not suitable for
 }
 ```
 
-#### Markers and Clustering
+### Markers and Clustering
 
 Based on our list of stores, we're going to create a marker for each one of them with a `for` loop. These markers then get added to a Leaflet layer group as required for `Leaflet.markercluster`.
 
@@ -213,7 +211,7 @@ mymap.addLayer(markers);
 
 Just like the comment in the code above mentions, there's an option `key`, essentially an ID made up of Latitude and Longitude. We're going to need that for finding the correct marker when handling the clicks for the stores in the list.
 
-#### Search Function
+### Search Function
 
 As mentioned above, the list of stores should have a search function. We added the respective input above the list of stores in the template, the following `findStore()` is going to provide the necessary functionality.
 
@@ -245,7 +243,7 @@ function findStore() {
 
 This function takes the search input, converts it with `toUpperCase()` and checks against the HTML `data-*` attributes of the stores in the list. Matches remain shown, everything else gets hidden.
 
-#### Handle Store Clicks for the Map
+### Handle Store Clicks for the Map
 
 Once a search result is clicked, the map should navigate to the marker that belongs to the clicked store and open its popup.
 
@@ -274,7 +272,7 @@ item.click(function(){
 
 Each marker we previously added to `markerClusterGroup` (Leaflet `layer group`) is considered a separate `layer` in terms of Leaflet. That's why `eachLayer()` is used here, checking each layer for its `key` and trying to find a match for the clicked store's ID.
 
-#### Reset
+### Reset
 
 We've got 2 reset functions - one for the search and another one for the map:
 
@@ -297,7 +295,7 @@ function clearSearch() {
 
 Not much else to say here, basically just another convenience feature.
 
-### Demo
+## Demo
 
 > As mentioned above, there's a live demo on Netlify. It can be found here: {% ext "leaflet-store-locator", "https://leaflet-store-locator.netlify.app" %}
 
@@ -305,7 +303,7 @@ The {% ext "GitHub Repository", "https://github.com/ttntm/hugo-leaflet-store-loc
 
 All necessary information regarding Hugo installation can be found here: {% ext "Hugo Docs - Install Hugo", "https://gohugo.io/getting-started/installing/" %}
 
-### Conclusion
+## Conclusion
 
 Building this store locator was fun and so was building a demo and writing this up.
 

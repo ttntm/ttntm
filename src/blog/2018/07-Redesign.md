@@ -7,6 +7,7 @@ tags:
   - news
   - website
 image: /img/blog/default.jpg
+showToc: false
 ---
 
 When this site was put together initially, it was basically a prototype for some kind of blog/portfolio kind of thing.

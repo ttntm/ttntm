@@ -8,9 +8,10 @@ tags:
   - news
   - website
 image: /img/blog/empty.jpg
+showToc: false
 ---
 
-Why?
+## Why?
 
 A one word question seems like a good way to start off this article. But before we go into further details, maybe a word or two to shed some light on what's actually happened here.
 

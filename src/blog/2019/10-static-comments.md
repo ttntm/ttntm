@@ -11,8 +11,6 @@ image: /img/blog/code.jpg
 updated: 2023-06-14T19:30:00Z
 ---
 
-## "Static" Comments...?
-
 Working for friends and family is always quite a bit of an extra challenge, as "no" generally doesn't count. That's probably how I ended up looking for what I'll call "'static' comments" for now. Sounds weird at first, but refers to comments (= dynamically added feedback/discussion) within the context and technical limitations of a static website.
 
 There's a fair amount of "out of the box" 3rd party services you can use, an overview can be found in the {% ext "Hugo Docs", "https://gohugo.io/content-management/comments/" %}. That's not what I was after though - I wanted something lightweight and free that also conforms with the requirements the GDPR brought along in 2018.
@@ -21,7 +19,7 @@ After some extensive research and hours of studying various services' documentat
 
 So, the following article will describe what I'd summarize as "probably the easiest way of adding comments to your Hugo site". So, taking into consideration that this site also has a comment section now, please feel free to let me know your opinion. 😉
 
-### Overview
+## Overview
 
 As described in the linked article, this simple "comment engine" basically works based on 3 components:
 
@@ -33,7 +31,7 @@ Here's a compact flowchart detailing the process:
 
 <img src="/static/img/blog/comment-flow.jpg" class="img-fluid img-center auto-invert" alt="Flowchart comment engine">
 
-### Hugo Configuration
+## Hugo Configuration
 
 First off, we'll need to add a form to our website in order to collect our comment submissions.
 
@@ -97,7 +95,7 @@ Feel free to test it now, we'll need some submissions later on anyway.
 
 There's more to do with Hugo later - we're still missing a section to display the comments. That's easier though, if we have some comments first.
 
-### Netlify Configuration
+## Netlify Configuration
 
 Your form should now be showing up in Netlify, submissions should also end up there.
 
@@ -118,7 +116,7 @@ To get an API key, head over to app.netlify.com/user/applications and create a n
 
 The form ID can be found at app.netlify.com/sites/SiteName/forms. A click on the respective form's name will show its ID in your URL bar. You'll need that for the gulp configuration, so make sure you write it down.
 
-### Gulp Configuration
+## Gulp Configuration
 
 I'm going to assume that your Hugo site is already working with gulp, as I won't be covering gulp's setup here.
 
@@ -202,7 +200,7 @@ gulp.task("get-comments", function (done) {
 
 You can test this gulp task now - `gulp get-comments` should connect to Netlify successfully and then proceed to create a `comments.json` file in you `data` directory.
 
-### Displaying the Comments
+## Displaying the Comments
 
 As mentioned above, the display section for our comments is still missing.
 
@@ -241,7 +239,7 @@ The `range` within a `range` construction is necessary because of the array-with
 
 By now, you should have your posts displayed with a comment form and the respective comments pulled from Netlify based on the `comments.json` file created by gulp.
 
-### Configuring Netlify to Include Gulp
+## Configuring Netlify to Include Gulp
 
 I haven't mentioned it earlier, but we'll have to do one last thing in order to let Netlify know that we'd like to include our gulp task in the build process.
 
@@ -271,7 +269,7 @@ Finally, update (or create) your `netlify.toml`:
 
 Once committed and pushed to the branch your site deploys from, Netlify should process the comments based on your gulp configuration.
 
-### Conclusion
+## Conclusion
 
 As stated in the introduction, this implementation of a comment engine for a Hugo site is about as lightweight as it can possibly be. However, features like comment moderation etc. that are most likely required for larger sites are missing, as I chose that that's not required for the time being. As described in the css-tricks article though, this can easily be accomplished using Slack and Netlify functions together with the core functionality described here.
 
@@ -279,6 +277,6 @@ Overall, I'd say this is good enough for now and I'm happy to have found a "mini
 
 PS: there's a {% ext "GitHub Repo", "https://github.com/ttntm/hugo-comments" %} that you can clone and deploy to try all of that yourself.
 
-### Addendum
+## Addendum
 
 06/2023: Eric Stemmler built a {% ext "Zero-Dependency Commenting System", "https://rcst.netlify.app/post/2023/04/14/static-comments-with-hugo-netlify-and-nothing-really-more/" %} based on this article.
