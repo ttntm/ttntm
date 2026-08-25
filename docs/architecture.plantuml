@@ -25,8 +25,6 @@
   Raindrop <<-[dotted]->> ttntm.me
 
 'Webmentions
-  EchoFeed -->> webmention.app
   webmention.io <<-[dotted]->> ttntm.me
-  ttntm.me -right->> EchoFeed
 
 @enduml

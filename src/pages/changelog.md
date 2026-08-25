@@ -15,6 +15,11 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 4.5.1
+
+- Updated architecture diagram used on the [/appendix](/appendix/) page
+- Updated tag/year navigation on the blog archive page
+
 ## 4.5
 
 <small>Released: 2026-07-27</small>

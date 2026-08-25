@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import dnt from 'date-and-time'
 import fs from 'fs'
-import inputData from './gitlog_data.json' assert { type: 'json' }
+import inputData from './gitlog_data.json' with { type: 'json' }
 
 const offsets = {
   Mo: 0,

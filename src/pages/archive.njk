@@ -14,14 +14,14 @@ isBlogHome: true
     Explore
   </h2>
   <ul class="list-reset flex justify-content-center flex-wrap mb2" style="gap: .75rem;">
+    {% include "components/tags.all.njk" %}
+  </ul>
+  <ul class="list-reset grid grid3 mx-auto" style="gap: .75rem 2rem; margin-bottom: 4rem; width: min-content;">
     {% for year, x in collections.postsByYear %}
       <li class="tag">
         <a href="#{{ year }}">{{ year }}</a>[{{ x.length }}]
       </li>
     {% endfor %}
-  </ul>
-  <ul class="list-reset flex justify-content-center flex-wrap" style="gap: .75rem; margin-bottom: 4rem;">
-    {% include "components/tags.all.njk" %}
   </ul>
   {% for year, yearPosts in collections.postsByYear %}
     {% if not loop.first %}
