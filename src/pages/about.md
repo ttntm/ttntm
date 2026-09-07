@@ -23,7 +23,7 @@ A short list of things that folks might want to know about me.
 - ...?
 - Might look similar to [this illustration](/img/ttntm.webp)
 - Has a couple of [interests](/interests/)
-- Likes [music](/albums/), and plays guitar
+- Likes [music](/albums/), and plays [guitar](/tags/guitar/)
 - Enjoys [video games](/games/)
 - Lifts weights
 

@@ -8,21 +8,21 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Books**: not spending a lot of time reading these days, but when I do, it's "The Problem with Plastic", or continuing "A Universe from Nothing", or "Leviathan Wakes"
+**Books**: guitar lessons/courses mostly, otherwise anything I started and didn't finish yet
 
-**Games**: still loving Starfield - installed 2 really nice mods for additional ship parts, and built some nice ships with it; should wrap up the story missions at some point, and check what NG+ has to offer
+**Games**: took Starfield to NG+, but haven't played much since then; also read about "The Blood of Dawnwalker", which looks really interesting, and "SAROS", a new one from the "Returnal" makers - I'll see when/if I get either, not playing a lot a the moment
 
-**Guitar**: [got myself a Strat](/blog/a-new-guitar/), doing an interesting back and forth challenge with a friend, and feeling good about playing more
+**Guitar**: I upgraded the Strat, and I'm playing more than and more seriously again, something I'm enjoying very much at the moment
 
-**Life**: everyone loves the garden, but we're all suffering from yet another heat wave right now
+**Life**: summer's coming to an end, we got ourselves a fig tree, and we might have found a roof company that could make us an offer we can afford (to cover a part of our terrace)
 
-**Weight Lifting**: still doing and making progress on DoggCrapp
+**Weight Lifting**: still doing and making progress on DoggCrapp, finally closing in on 90 kg bodyweight (again)
 
-**Work**: business as usual, albeit a bit calmer due to the holiday season
+**Work**: business as usual, nothing of interest to report
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Aug. 4th 2026`
+`Sep. 7th 2026`
 
 An archive of past updates of this page can be found at [/then](/then/).
