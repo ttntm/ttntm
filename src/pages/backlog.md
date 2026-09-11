@@ -15,7 +15,6 @@ permalink: /backlog/index.html
       <li>Appreciation of manual labor</li>
       <li>Wiki migration</li>
       <li>Favorite album for every year I existed</li>
-      <li>Guitar progress, maybe as a series</li>
     </ul>
   </li>
   <li class="pt1">
@@ -37,6 +36,8 @@ permalink: /backlog/index.html
 
 - ~~New font for headings~~
 - ~~Update /uses~~
+- ~~Guitar progress, maybe as a series~~
+  see [#chops](/tags/chops/)
 
 <h2 class="h4 tight mt2">Discarded</h2>
 
