@@ -24,6 +24,7 @@ permalink: /games/index.html
 <div class="hr shadow mb2 mt2"></div>
 <div class="hide-no-js">
   <h2>The Shelf</h2>
+  <p>Select a game from the shelf to read my thoughts about it.</p>
   <p class="h4 bold">Genre</p>
   <ul class="filter-list list-reset flex flex-wrap align-items-center gap1 mt1 mb1">
     {% customFilter collections.games, "genre" %}
@@ -34,7 +35,7 @@ permalink: /games/index.html
     {% for item in collections.games | sortByText('title') %}
       <li class="shelf-listing" data-genre="{{ item.data.genre | slugify }}">
         <button class="game-btn hover-scale-sm" title="View {{ item.data.title }}" data-target="{{ item.data.title | slugify }}">
-          <img class="game-cover m0" src="/static/img/games/{{ item.data.cover }}" alt="{{ item.data.title }}">
+          <img class="game-cover m0" src="/static/img/games/{{ item.data.cover }}" alt="{{ item.data.title }}" width="115" height="150">
         </button>
       </li>
     {% endfor %}
@@ -44,17 +45,15 @@ permalink: /games/index.html
   {% for item in collections.games | sortByText('title') %}
     <article id="{{ item.data.title | slugify }}" class="game-detail">
       <h2>{{ item.data.title }}</h2>
-      <p class="small text-muted">Genre: {{ item.data.genre }} | Released: {{ item.data.released }} | Played on: {{ item.data.platform }} </p>
+      <p class="small text-muted">
+        Genre: {{ item.data.genre }} | Released: {{ item.data.released }} | Played on: {{ item.data.platform }}
+      </p>
       <div class="post e-content">
         {{ item.templateContent | safe }}
       </div>
     </article>
   {% endfor %}
 </div>
-<div class="hr shadow mb2 mt2 hide-no-js"></div>
-<p class="italic small hide-no-js m0">
-  Select a game from the shelf to read my thoughts about it.
-</p>
 
 <style>
   .shelf {
