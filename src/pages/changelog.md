@@ -15,6 +15,10 @@ This also includes the [Activity Timeline](#timeline), a visual representation o
 
 <!-- DO NOT FORGET TO UPDATE THE SITE DATA FILE -->
 
+## 4.5.3
+
+- Updated [/about](/about/)
+
 ## 4.5.2
 
 - Updated [/games](/games/)

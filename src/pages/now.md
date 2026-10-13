@@ -8,21 +8,21 @@ permalink: /now/index.html
 
 <img src="/static/img/now.jpg" class="img-center img-fluid w100 mb2" alt="A photo of a graffiti on a wall saying 'What now?'">
 
-**Books**: guitar lessons/courses mostly, otherwise anything I started and didn't finish yet
+**Books**: guitar lessons/courses mostly, and anything else I started and didn't finish yet
 
-**Games**: took Starfield to NG+, but haven't played much since then; also read about "The Blood of Dawnwalker", which looks really interesting, and "SAROS", a new one from the "Returnal" makers - I'll see when/if I get either, not playing a lot a the moment
+**Games**: got "Reign of the Warlock", so I'm playing Diablo II again and enjoying it very much
 
-**Guitar**: I upgraded the Strat, and I'm playing more than and more seriously again, something I'm enjoying very much at the moment
+**Guitar**: recently decided to learn the theme/hook of Rory Gallagher's "Bad Penny"; did the rhythm track first, then looped that, then played the lead part over it - great song, fun to play
 
-**Life**: summer's coming to an end, we got ourselves a fig tree, and we might have found a roof company that could make us an offer we can afford (to cover a part of our terrace)
+**Life**: some setback on the roof project, very time consuming, and lots of uncertainty whether we're actually going to be allowed to do that - no fun
 
-**Weight Lifting**: still doing and making progress on DoggCrapp, finally closing in on 90 kg bodyweight (again)
+**Weight Lifting**: back on 531, "for bodybuilding" this time, and I kept some of the good parts of DC in there for assistance work; 1st 4 week cycle was good, curious to see how progress looks like in a couple of months
 
-**Work**: business as usual, nothing of interest to report
+**Work**: I'm lead dev for an ETL service I architected, estimated for about 2,5 months of full time work; excited to work on it
 
 <div class="hr shadow mb1"></div>
 
 **Updated**
-`Sep. 7th 2026`
+`Oct. 13h 2026`
 
 An archive of past updates of this page can be found at [/then](/then/).

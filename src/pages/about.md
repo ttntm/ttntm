@@ -11,17 +11,15 @@ A short list of things that folks might want to know about me.
 **Tom**...
 
 - Was born at the end of the 80s
-- Lives near Vienna/Austria
 - Is happily married to a [lovely wife](https://sahar.design)
 - Takes care of a [fluffy chonk](https://pixelfed.social/alfithecat)
-- Started making websites around 2002
+- Started making websites in 2002
 - Works as a software engineer
 - Volunteers for [epicenter.works](https://epicenter.works) occasionally
-- Is involved in a few [cool projects](/projects/)
+- Has worked on a few [cool projects](/projects/)
 - Could be [doing something now](/now/)
 - Will sometimes get distracted
 - ...?
-- Might look similar to [this illustration](/img/ttntm.webp)
 - Has a couple of [interests](/interests/)
 - Likes [music](/albums/), and plays [guitar](/tags/guitar/)
 - Enjoys [video games](/games/)
